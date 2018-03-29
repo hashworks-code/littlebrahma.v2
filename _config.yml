@@ -1,0 +1,109 @@
+---
+title: Littlebrahma.Github.Io
+email: hello@littlebrahma.com
+repository: littlebrahma/littlebrahma.github.io
+timezone: UTC
+gems:
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - bin
+  - vendor
+  - _assets
+  - node_modules
+collections:
+  casestudy:
+    title: Casestudy
+    output: true
+    permalink: "/casestudy/:path/"
+  workpage:
+    title: WorkPage
+    output: true
+    permalink: "/workpage/:path/"
+  posts:
+    title: Posts
+    output: true
+  service:
+    title: Service
+    output: true
+    permalink: "/service/:path/"
+  uploads:
+    title: Uploads
+    output: true
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+include:
+- _pages
+prose:
+  media: assets/img
+  metadata:
+    _posts:
+      - name: "blog_description"
+        field:
+          label: "Description"
+          element: "textarea"
+          placeholder: "Enter a Description"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An awesome Headline!"
+      - name: "layout"
+        field:
+          label: "Layout"
+          element: "hidden"
+          value: "blog_detail"
+      - name: "blog_category"
+        field:
+          label: "Category"
+          element: "text"
+          value: ""
+      - name: "thumbnail"
+        field:
+          label: "Blog Image"
+          element: "text"
+          value: ""
+      - name: "blog_highlight"
+        field:
+          label: "Blog Highlight"
+          element: "textarea"
+          value: ""
+      - name: "date"
+        field:
+          label: "Date"
+          element: "hidden"
+          value: "CURRENT_DATETIME"
+      - name: "author_name"
+        field:
+          label: "Author name"
+          element: "select"
+          value: "true"
+          options:
+             - name: 'Sanjay'
+               value: 'sanjay'
+             - name: 'Jaison'
+               value: 'jaison'
+             - name: 'Satish'
+               value: 'satish'
+             - name: 'Shilpa Gopi'
+               value: 'shilpa'
+    _portfolio:
+     - name: layout
+       field:
+        label: layout
+        element: hidden
+        value: portfolio_detail
+    _casestudy:
+    - name: layout
+      field:
+        label: layout
+        element: hidden
+        value: casestudy_detail

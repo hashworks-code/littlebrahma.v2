@@ -1,0 +1,34 @@
+ {% include header.html %}
+ <section class="portfolioBg">
+ {% include common_header.html %}
+ 	<div class="commonHeight">
+  <div>
+ 		<img alt="littlebrahma__portfolio-video-camera_img" src="/assets/img/service/Mudras/Portfolio.png" class="commonHeight__img">
+		<h5 class="commonHeight__heading">{{site.data.portfolio.title}}</h5>
+		<p class="commonHeight__para">{{site.data.portfolio.description}}</p>
+    </div>
+	</div>
+ </section>
+
+ <div class="row blog-row">
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 portDetail">
+			<div class="row blog_commom-row">
+				{% assign item = site.workpage | sort: 'date' %}
+				{% for port in item %}
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-filter {{port.categories}}">
+          <a href="{{port.url}}">
+							<img alt="littlebrahma__casestudy-{{port.product_title}}_img" src="{{port.product_thumbnail}}" class="blog-filter__img">
+						<div class="caseDetail">
+							<h5 class="caseDetail__title">{{port.product_title | upcase}}</h5>
+							<div class="caseDetail__border"></div>
+							<p class="caseDetail__para">{{port.product_thumbnail_description}}</p>
+						</div>
+            </a>
+					</div>
+		
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+ {% include common_footer.html %}
+ {% include footer.html %}

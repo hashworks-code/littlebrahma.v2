@@ -1,0 +1,34 @@
+ {% include header.html %}
+ <section class="casestudyBg">
+ {% include common_header.html %}
+ 	<div class="commonHeight">
+  <div>
+ 		<img alt="littlebrahma__casestudy-notes_img" src="/assets/img/service/Mudras/casestudy.png" class="commonHeight__img">
+		<h5 class="commonHeight__heading">{{site.data.casestudy.title}}</h5>
+		<p class="commonHeight__para">{{site.data.casestudy.description}}</p>
+    </div>
+	</div>
+ </section>
+
+ <div class="row blog-row casestudy_row" >
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 caseDet">
+			<div class="row blog_commom-row">
+				{% assign item = site.casestudy | sort: 'date' %}
+				{% for case in item %}
+					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-filter {{case.categories}}">
+          <a href="{{case.url}}">
+							<img alt="littlebrahma__casestudy-{{case.porject_title}}_img" src="{{case.product_thumbnail}}" class="blog-filter__img">
+						<div class="caseDetail">
+							<h5 class="caseDetail__title">{{case.product_title}}</h5>
+							<div class="caseDetail__border"></div>
+							<p class="caseDetail__para">{{case.product_thumbnail_description}}</p>
+						</div>
+            </a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+ {% include common_footer.html %}
+ {% include footer.html %}
+ 

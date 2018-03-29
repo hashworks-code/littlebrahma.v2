@@ -1,0 +1,302 @@
+// #contact .commonHeader {
+// 	position:static;
+// }
+.contact-us {
+    margin-bottom: 30px;
+}
+
+.contact {
+    min-height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    padding: 120px 0px 75px;
+    &__title {
+        font-size: 17px;
+        font-family: montserrat-bold;
+        text-transform: uppercase;
+        color: #414042;
+        line-height: 20px;
+        margin: 0 0 7px;
+    }
+    &__map {
+        &__iframe {
+            height: 570px;
+            width: 100%;
+        }
+    }
+    &__underline {
+        border-bottom: 3px solid black;
+        width: 60px;
+    }
+    &__address {
+        font-family: montserrat-regular;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 0.02em;
+        color: #6D6E71;
+    }
+    &__span {
+        color: #414042;
+    }
+    &__form {
+        margin-top: 20px;
+    }
+    &__form-inside {
+        width: 100%;
+        padding: 0px 0px 0px 12px;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid rgba(128, 128, 128, 0.25);
+        font-family: raleway-regular;
+        font-size: 10px;
+        color: #666666;
+        display: block;
+        height: 30px;
+    }
+    &__msg {
+        height: 80px;
+        font-family: raleway-italic;
+        margin-bottom: 25px;
+        padding-top: 10px;
+    }
+    &__submit {
+        padding: 8px 25px;
+        background-color: #ec1944;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 15px;
+        font-family: raleway-bold;
+        font-size: 10px;
+        border: 2px solid #ec1944;
+        cursor: pointer;
+        height: 32px;
+        outline: none;
+        &:hover {
+            height: 32px;
+            background-color: #fff;
+            color: #ec1944;
+            border: 2px solid #ec1944;
+        }
+    }
+    &__toast {
+     position: fixed;
+        top: 5%;
+      width: 100%
+    }
+    &__toastr {
+        width: 427px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #F6FFC6;
+        line-height: 40px;
+        box-shadow: 2px 4px 6px 1px #eee;
+        margin: 0 auto;
+        border: 1px solid #CCB656;
+        p {
+            margin: 0;
+            font-size: 12px;
+            font-family: montserrat-regular;
+            // padding-left: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
+    .contact {
+        &__iframe {
+            width: 100%;
+            max-width: 645px;
+        }
+    }
+}
+
+// @media screen and (max-width:991px) {
+//     .contact {
+//         padding: 130px 70px 60px;
+//         margin: 0px;
+//         width: 100%;
+//         &__map {
+//             text-align: right;
+//             &__iframe {
+//                 height: 290px;
+//                 width: 100%;
+//             }
+//         }
+//         &__form-inside {
+//             width: 90%;
+//         }
+//         &__content {
+//             padding-top: 40px;
+//         }
+//     }
+// }
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .commonHeader {
+        position: static;
+    }
+    .contact-us {
+        margin-bottom: 15px;
+    }
+    .contact {
+        padding: 120px 0px 50px;
+        width: 90%;
+        &__map {
+            &__iframe {
+                height: 215px;
+            }
+        }
+        &__submit {
+        &:hover {
+            background-color: #ec1944;
+            color: white;
+        }
+    }
+        &__underline {
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+        &__address {}
+        &__form-inside {
+            width: 228px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__content {
+            padding-top: 25px;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+        &__title {
+            font-size: 14px;
+            line-height: 0.02em;
+            font-family: montserrat-bold;
+            margin-bottom: 20px;
+        }
+        &__address {
+            font-size: 11px;
+            line-height: 0.02em;
+            line-height: 18px;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 25px;
+            font-family: montserrat-regular;
+        }
+        &__toastr {
+            width: 290px;
+
+            p {
+                font-size: 10px;
+                font-weight: 300;
+            }
+        }
+    }
+    .contact-us {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .write-to-us {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .contact {
+        padding: 130px 70px 60px;
+        margin: 0px;
+        width: 100%;
+        &__map {
+            text-align: right;
+            &__iframe {
+                height: 290px;
+                width: 100%;
+            }
+        }
+        &__form-inside {
+            width: 90%;
+        }
+        &__content {
+            padding-top: 2rem;
+        }
+        &__title {
+            font-size: 15px;
+            letter-spacing: 0.02em;
+            font-family: montserrat-bold;
+        }
+        &__address {
+            font-size: 11px;
+            line-height: 0.02em;
+            line-height: 18px;
+            font-family: montserrat-regular;
+        }
+        &__toastr {
+            left: 35%;
+            width: 320px;
+            p {
+                font-size: 10px;
+                font-weight: 300;
+            }
+        }
+        &__submit {
+        &:hover {
+            background-color: #ec1944;
+            color: white;
+        }
+    }
+    }
+}
+
+@media only screen and (min-width:1366px) and (max-width:1866px) {
+    .contact {
+        &__title {
+            font-size: 18px;
+            letter-spacing: 0.02em;
+            font-family: montserrat-bold;
+            margin-bottom: 15px;
+        }
+        &__address {
+            font-size: 11px;
+            line-height: 0.02em;
+            line-height: 18px;
+            font-family: montserrat-regular;
+        }
+        &__toastr {
+            left: 35%;
+            // width: 320px;
+            p {
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1866px) {
+    .contact {
+        &__title {
+            font-size: 24px;
+            letter-spacing: 0.02em;
+            font-family: montserrat-bold;
+            margin-bottom: 20px;
+            line-height: 34px;
+        }
+        &__address {
+            font-size: 11px;
+            letter-spacing: 0.02em;
+            line-height: 18px;
+            font-family: montserrat-regular;
+            margin-top: 20px;
+        }
+        &__toastr {
+            left: 40%;
+            // width: 320px;
+            p {
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+}

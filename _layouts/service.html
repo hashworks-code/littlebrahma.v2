@@ -1,0 +1,37 @@
+{% include header.html %}
+<section class="service-Bg">
+    {% include common_header.html %}
+    <div class="commonHeight">
+        <div>
+            <img alt="littlebrahma__service-paintbrush-holder_img" class="commonHeight__img" src="/assets/img/service/Mudras/our-services.svg">
+            <h5 class="commonHeight__heading">{{site.data.service.bannerTitle}}</h5>
+            <p class="commonHeight__para">{{site.data.service.bannerDescription}}</p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="service-page">
+        <h1 class="service-page__title">browse all graphic design services</h1>
+        <div class="service-page__underline"></div>
+        {% assign item = site.service %} {% for services in item %}
+        <div class="outerLayout">
+            <div class="row service-page__all-design">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 service-page__img service-greater">
+                    <img alt="littlebrahma__service-mudra-for-{{services.title}}_img" src="{{services.img}}" class="service-page__all-img">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 service-page__content">
+                    <h1 class="service-page__subtitle">{{services.title}}</h1>
+                    <div class="service-page__subtitle-underline"></div>
+                    <ul class="service-page__unordered-list">
+                        {% for serviceList in services.service_lists %}
+                        <li class="service-page__list"><a class="service-page__list-anchor" href="{{services.url}}">{{serviceList.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                    <a class="service-page__link" href="{{services.url}}">know more >></a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% include common_footer.html %} {% include footer.html %}

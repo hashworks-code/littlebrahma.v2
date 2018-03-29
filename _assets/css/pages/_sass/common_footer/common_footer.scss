@@ -1,0 +1,235 @@
+.hero {
+   
+    .commonFooter {
+        background-color: #32323F;
+        color: $secondary-color;
+        letter-spacing: 1px;
+        padding: 50px 0 70px;
+        position: relative;
+        bottom: 0;
+    }
+    .footerMob {
+        display: none;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer_innerRow {
+        margin-bottom: 30px;
+    }
+    .footerVerticalSeparator {
+        padding-left: 0;
+    }
+    .footerMargin {
+        margin: 0 125px;
+        border-bottom: 1px solid #fff;
+        display: block;
+        &__para {
+            float: right;
+            font-family: $secondary-titlefamily;
+            font-size: $ternary-contentfont;;
+        }
+    }
+    .footerColumn {
+        &__subheading {
+            margin: 20px 0 15px;
+            font-family: $secondary-titlefamily;
+            font-size: 14px;
+        }
+      &__deactivate {
+        cursor: no-drop;
+      }
+        &__image {
+            margin-right: 8px;
+            vertical-align: middle;
+            // width: 14px;
+            height: 14px;
+
+            i{
+                   // color: rgba(88, 88, 185, 0.7);
+                   color:#8F8FD1;
+        font-size: 18px;
+        &:hover{
+            color:#F15379;  
+        }
+            }
+        }
+        &__image1 {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        &__image--link {
+            // width: 14px;
+            height: 14px;
+            margin-right: 8px;
+        }
+        &__image--name {
+          font-family: $secondary-titlefamily;
+            font-size: $ternary-contentfont;
+            color: $secondary-color;  
+            margin: 0px; 
+            font-weight: inherit;
+            padding-top: 2px;
+        }
+        &__img {
+            margin-bottom: 22px;
+        }
+        &__span {
+            vertical-align: middle;
+        }
+        &__heading {
+            font-family: $ternary-titlefamily;
+            font-size: $secondary-contentfont;
+            line-height: 14px;
+            margin-bottom: 16px;
+            margin-top: 0px;
+            color: $secondary-color;
+            display: table;
+        }
+        &__list {
+            font-family: $secondary-titlefamily;
+            font-size: $ternary-contentfont;
+            line-height: 20px;
+            margin-bottom: 12px;
+            color: $secondary-color;
+        }
+        &__title {
+            font-family: $ternary-titlefamily;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        &__subtitle {
+            font-family: $secondary-titlefamily;
+            font-size: 14px;
+        }
+        &__border {
+            border: none;
+            border-bottom: 1px solid #fff;
+            color: $secondary-color;
+            width: 84%;
+            outline: none;
+            padding-top: 10px;
+            background-color: transparent;
+            font-size: 14px;
+            border-radius: 0;
+        }
+        &__button {
+            font-size: 10px;
+            font-family: raleway-bold;
+            border: 2px solid #fff;
+            padding: 8px 15px;
+            background-color: $secondary-color;
+            color: #000;
+            margin-top: 15px;
+            border-radius: 15px;
+            outline: none;
+            cursor: pointer;
+            outline: none;
+        }
+        &__button:hover {
+            background-color: transparent;
+            color: $secondary-color;
+            border: 2px solid #fff;
+        }
+        &__margin {
+            margin-top: 30px;
+        }
+    }
+    @media screen and (min-width: 1866px) {
+         .footer-cont{
+        max-width: 1866px;
+        margin: 0 auto;
+    }
+    }
+    @media screen and (min-width: 1366px) and (max-width: 1865px) {
+         .footer-cont{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    }
+    @media screen and (max-width:1199px) {
+        .footer_challenge-eshop {
+            justify-content: center;
+        }
+        // .footer_justify {
+        //     justify-content: center;
+        // }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .footerMargin {
+            margin: 0 60px;
+        }
+        .footerVerticalSeparator {
+            padding: 0;
+        }
+        .footerColumn {
+            padding-left: 0;
+            &__border {
+                width: 84%;
+            }
+            &__button:hover {
+            background-color: #fff;
+            color: #000;
+            }
+        }
+    }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        .footerMargin {
+            margin: 0;
+            display: none;
+        }
+        .footerRow {
+            padding: 50px 0 0;
+        }
+        .footerVerticalSeparator {
+            padding: 0;
+        }
+        .footerMob {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 25px;
+            &__para {
+                font-family: $secondary-titlefamily;
+                font-size: $secondary-contentfont;
+            }
+            &__border {
+                border-bottom: 1px solid #fff;
+            }
+        }
+        .footerMargin {
+            border-bottom: none;
+        }
+        .imageBorder {
+            border-bottom: 1px solid #fff;
+            margin-bottom: 15px;
+            padding-bottom: 25px;
+            h1 {
+                font-size: 12px;
+                font-family: $ternary-titlefamily;
+                margin-top: 2rem;
+            }
+        }
+        .footerColumn {
+            
+            &__subheading {
+                font-size: 12px;
+                margin: 12px 0 15px;
+            }
+            &__button {
+                margin-bottom: 15px;
+            }
+            &__button:hover {
+            background-color: #fff;
+            color: #000;
+            }
+            &__heading {
+                width: 100%;
+            }
+        }
+        .commonFooter {
+            padding: 0 0 25px;
+        }
+    }
+}
+

@@ -1,0 +1,96 @@
+<header class="commonHeader animated">
+    {% if page.layout == "service_detail" or page.layout == "contact" or page.layout == "career" or page.layout == "life_at_lb" %}
+        <a href="/"><img src="/assets/img/common/LB_Logo_Color.svg" alt="littlebrahma__red-logo" class="commonHeader__logo"></a>
+    {% else %}
+        <a href="/"><img src="/assets/img/common/LB_Logo_White.svg" alt="littlebrahma__white-logo" class="commonHeader__logo"></a> 
+    {% endif %}
+    {% if page.layout == "service_detail" or page.layout == "contact" or page.layout == "career" or page.layout == "life_at_lb"%}
+    <span class="commonMenu">
+            <img src="/assets/img/common/LB_Menu_Color.svg" alt="littlebrahma__red-menu" class="commonMenu__icon">
+    </span>
+    {% else %}
+    <span class="commonMenu">
+            <img src="/assets/img/common/LB_Menu_White.svg" alt="littlebrahma__white-menu" class="commonMenu__icon">
+    </span>
+    {% endif %}
+    <div class="MenuContent animated">
+        <img src="/assets/img/common/close.svg" alt="littlebrahma__close" class="MenuContent__close">
+        <!-- <div class="menuMob"><img src="/assets/img/common/menu_close.png" class="menuMob__img"></div> -->
+        <ul class="MenuList">
+            <li class="MenuList__ele MenuList__eleDesk">
+            <a href="javascript:void(0)" class="MenuList__attr MenuList__main MenuList__wwa">who we are<div class="arrow MenuList__arrowDown"></div></a>
+            </li>
+            <li class="MenuList__ele MenuList__eleMob">
+            <a href="javascript:void(0)" class="MenuList__attr MenuList__main MenuList__wwa">who we are<div class="arrow MenuList__arrowDown1"></div></a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated">
+                <a href="/aboutus/" class="MenuList__attr">about us</a> 
+            </li>
+            <li class="MenuList__ele MenuList__common animated">
+                <a href="/lifeAtLittleBrahma/" class="MenuList__attr">life at little brahma</a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated ">
+                <a href="/process/" class="MenuList__attr">our process</a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated ">
+                <a href="/service/" class="MenuList__attr">our services</a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated ">
+                <a href="/portfolio/" class="MenuList__attr">portfolio</a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated ">
+                <a href="/casestudy/" class="MenuList__attr">casestudy</a>
+            </li>
+            <li class="MenuList__ele MenuList__common animated ">
+                <a href="/blog/" class="MenuList__attr">blog</a>
+            </li>
+            <li class="MenuList__ele MenuList__ch animated ">
+                
+               <div class="popup" onclick="myFunction('myPopup')"><a class="MenuList__attr MenuList__main">challenges</a>
+  <span class="popuptext" id="myPopup">Coming Soon</span>
+</div>
+            </li>
+            <li class="MenuList__ele MenuList__ch animated ">
+                 <div class="popup" onclick="myFunction('myPopup1')"><a class="MenuList__attr MenuList__main">e-shop</a>
+  <span class="popuptext1" id="myPopup1">Coming Soon</span>
+</div>
+            </li>
+            </ul>
+            <ul class="MenuList MenuList__bottom">
+            <li class="MenuList__cnc">
+                <a href="/contact/" class="MenuList__attr">contact us</a>
+            </li>
+            <li class="MenuList__ele">
+                <a href="/career/" class="MenuList__attr">careers</a>
+            </li>
+            <div class="MenuList__underline"></div>
+             <!-- <li class="MenuList__ele">
+                                <a href="https://www.instagram.com/little_brahma/" target="_blank" class="footerColumn__image"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://dribbble.com/littlebrahma" target="_blank" class="footerColumn__image"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                <a href="https://www.behance.net/littlebrahma" target="_blank" class="footerColumn__image"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Little_Brahma" target="_blank" class="footerColumn__image"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/Little-Brahma-186396185223366/" target="_blank" class="footerColumn__image"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li> -->
+                            <li class="MenuList__ele">
+                                <a href="https://www.instagram.com/little_brahma/" target="_blank" class="menu__image-link"><div class="menu_link menu_link1"></div></a>
+                                <a href="https://dribbble.com/littlebrahma" target="_blank" class="menu__image-link"><div class="menu_link menu_link2"></div></a>
+                                <a href="https://www.behance.net/littlebrahma" target="_blank" class="menu__image-link"><div class="menu_link menu_link3"></div></a>
+                                <a href="https://twitter.com/Little_Brahma" target="_blank" class="menu__image-link"><div class="menu_link menu_link4"></div></a>
+                                <a href="https://www.facebook.com/Little-Brahma-186396185223366/" target="_blank" class="menu__image-link"><div class="menu_link menu_link5"></div></a>
+                            </li>
+        </ul>
+    </div>
+</header>
+<script>
+// When the user clicks on div, open the popup
+function myFunction(id) {
+  
+    var popup = document.getElementById(id);
+   // var popup1 = document.getElementById("myPopup1")
+   popup.classList.toggle("show");
+   setTimeout(function(){
+popup.classList.toggle("show");
+   },1000); 
+    
+}
+</script>

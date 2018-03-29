@@ -1,0 +1,25 @@
+title1 : about us
+description1 : 'We are a family of creative professionals devoted to offer scalable design solutions to a volley of clients. Our enthusiastic team provide versatile services like branding, web/mobile app, illustration/art, packaging/label, magazines/books and animation.'
+
+title2 : our mission
+description2 : 'Little Brahma is our ultimate design karma. We aspire to become a creative almanac for the artistic souls.'
+
+title3 : valuable clients
+description3 : 'We throb for excellence in everything we manifest to our valuable customers. Our clientele ranges from the simple to the extreme and we aspire to be thier creative arm.'
+
+
+testimonials :
+ - quote:  "We were impressed from the first conversation. The level of experience and thought that went into our project was amazing!"
+   author: Sunil Sudhakar
+   title: Account Director,Experis
+   logo : Experis
+
+ - quote:  "We recieved the best quality of work both in terms of design and service. Happy to work with team Little Brahma."
+   author: Gopikrishnan Kanan
+   title: Founder/CEO,Hashworks
+   logo : Hashworks
+
+ - quote:  "Little Brahma was exactly what we needed – efficient and effective. Their relational yet professional approach has been so valuable."
+   author: Ganesh Sivasubramaniam
+   title: Founder/CEO,Locatr
+   logo : Locatr

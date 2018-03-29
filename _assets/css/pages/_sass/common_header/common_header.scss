@@ -1,0 +1,489 @@
+.hero {
+    
+    .commonHeader {
+        background-color: transparent;
+        padding: 20px 0 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        background-color: transparent;
+        &__logo {
+            margin-left: 35px;
+            display: inline-block;
+            width: 50px;
+        }
+        &__lists {
+            display: inline-block;
+            font-size: 12px;
+            font-family: 'Montserrat-regular';
+            color: #a6a8ab;
+            vertical-align: top;
+            padding-top: 25px;
+        }
+        &__list {
+            display: inline-block;
+            padding-right: 45px;
+        }
+        &__active {
+            color: #023852;
+        }
+        &__icons {
+            padding-left: 10px;
+            vertical-align: text-top;
+        }
+    }
+    .menu__image-link{
+        margin-right: 5px;
+    }
+    .menu_link{
+        display: inline-block;
+        width:17px;
+       // background-image: url("/assets/img/common/side_menu_links/new_1.svg");
+        height: 16px;
+       // background-size: 90px;
+       // background-repeat: no-repeat;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+    }
+    .menu_link1{
+     background-image: url(/assets/img/common/side_menu_links/instagram.svg);
+    
+    }
+    .menu_link1:hover{
+        background-image: url(/assets/img/common/side_menu_links/instagram_hover.svg); 
+
+    }
+    .menu_link2{
+        background-image: url(/assets/img/common/side_menu_links/dribble.svg);
+    }
+    .menu_link2:hover{
+        background-image: url(/assets/img/common/side_menu_links/dribble_hover.svg);   
+    }
+    .menu_link3{
+        background-image: url(/assets/img/common/side_menu_links/behance.svg);
+        width: 26px;   
+    }
+    .menu_link3:hover{
+       background-image: url(/assets/img/common/side_menu_links/behance_hover.svg);  
+    }
+    .menu_link4{
+        background-image: url(/assets/img/common/side_menu_links/twitter.svg);
+        width: 19px;   
+    }
+    .menu_link4:hover{
+      background-image: url(/assets/img/common/side_menu_links/twitter_hover.svg);
+    }
+    .menu_link5{
+        background-image: url(/assets/img/common/side_menu_links/fb.svg);
+        width: 10px;  
+    }
+    .menu_link5:hover{
+       background-image: url(/assets/img/common/side_menu_links/fb_hover.svg);
+    }
+    .rightlists {
+        float: right;
+        list-style: none;
+        padding-top: 6px;
+        padding-right: 30px;
+        color: #a6a8ab;
+        &__list {
+            display: inline-block;
+            padding-right: 15px;
+        }
+        &__img1 {
+            vertical-align: middle;
+        }
+        &__icons {
+            vertical-align: middle;
+        }
+    }
+    .hr1 {
+        margin: 20px 60px;
+        color: #d0d2d3;
+    }
+    .commonMenu {
+        float: right;
+        cursor: pointer;
+        margin: 0 35px 0 0;
+        display: inline-block;
+        img {
+            width:20px;
+            height: 20px;
+        }
+    }
+    .MenuContent {
+        float: right;
+        background-color: #E1D7F4;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 280px;
+        z-index: 1;
+        padding: 20px 0 0;
+        opacity: 0;
+        &__close {
+            margin-right: 35px;
+            float: right;
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .MenuList {
+        list-style: none;
+        margin-top: 0;
+        padding: 60px 0 0;
+        &__ele {
+            margin-bottom: 5px;
+            padding: 8px 20px;
+            &:focus,
+            &:active,
+            &:focus {
+                /*  border-left: 5px solid #EC1944;
+                padding: 8px 20px 8px 15px; */
+            }
+        }
+        &__common {
+            display: none;
+        }
+        &__eleDesk {
+            display: block;
+        }
+        &__eleMob {
+            display: none;
+        }
+        &__arrowDown {
+            background-image: url("/assets/img/common/dropdown.svg");
+            background-repeat: no-repeat;
+            float: right;
+            height: 9px;
+            margin-right: 50px;
+            margin-top: 8px;
+            width: 15px;
+            transition : all 1s;
+            
+        }
+        &__arrowDown1 {
+            background-image: url("/assets/img/common/dropdown.svg");
+            background-repeat: no-repeat;
+            float: right;
+            height: 9px;
+            margin-right: 50px;
+            margin-top: 8px;
+            width: 15px;
+            transform: rotate(180deg);
+            transition : all 1s;
+        }
+        &__attr {
+            font-size: 14px;
+            font-family: $secondary-titlefamily;
+            text-transform: uppercase;
+            color: #5858B9;
+            &:focus,
+            &:active,
+            &:focus {
+                color: #EC1944;
+                cursor: pointer;
+            }
+        }
+        &__main {
+            font-size: 22px;
+            font-family: $ternary-titlefamily;
+            &:focus,
+            &:active,
+            &:focus {
+                color: #5858B9;
+            }
+        }
+        &__underline {
+            border-bottom: 1px solid #5858B9;
+            width: 130px;
+            margin-left: 20px;
+        }
+        &__cnc {
+            padding: 0 20px;
+        }
+        &__bottom {
+            position: absolute;
+            bottom: 60px;
+            padding-top: 0px !important;
+        }
+    }
+    .menuMob {
+        display: none;
+    }
+    .MenuList__common {
+        padding-left: 50px;
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1366px) {
+        .MenuList {
+            padding: 50px 0 0 15px;
+            &__ele {
+                margin-bottom: 0;
+            }
+            &bo {
+                margin-right: 35px;
+            }
+            &__main {
+                font-size: 20px;
+            }
+            &__bottom {
+                bottom: 30px;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .commonHeader {
+            padding: 20px 0 20px;
+            background-color: transparent;
+           position: absolute;
+        //    position: fixed;
+            &__logo {
+                margin-left: 25px;
+            }
+            &__lists {
+                padding-left: 0;
+            }
+            &__list {
+                padding-right: 15px;
+            }
+            &__profile {
+                display: none;
+            }
+        }
+      .menu_link1:hover{
+      background-image: url(/assets/img/common/side_menu_links/instagram.svg);
+    }
+    .menu_link2:hover{
+         background-image: url(/assets/img/common/side_menu_links/dribble.svg);
+    }
+    .menu_link3:hover{
+        background-image: url(/assets/img/common/side_menu_links/behance.svg);  
+    }
+    .menu_link4:hover{
+       background-image: url(/assets/img/common/side_menu_links/twitter.svg);   
+    }
+    .menu_link5:hover{
+         background-image: url(/assets/img/common/side_menu_links/fb.svg);  
+    }
+        .rightlists {
+            &__list {
+                padding-right: 6px;
+            }
+            &__lst {
+                padding-right: 0 !important;
+            }
+        }
+        .commonMenu {
+            margin: 0 25px 0 0;
+        }
+        .MenuContent {
+            &__close {
+                margin-right: 25px;
+            }
+        }
+        .MenuList {
+            &__common {
+                display: block;
+            }
+            &__eleDesk {
+                display: none;
+            }
+            &__eleMob {
+                display: block;
+            }
+        }
+    }
+    @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (orientation : landscape) { 
+    .MenuContent {
+        height: 400px;
+        overflow: scroll !important;
+    }
+    .MenuList {
+        height: 400px;
+        &__bottom {
+            top: 75%;
+        }
+    }
+}
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+        .commonHeader {
+            position: absolute;
+            &__logo {
+                margin-left: 15px;
+                width: 42px;
+            }
+            &__lists {
+                display: none;
+            }
+        }
+         .menu_link{
+            margin-top: 5px;
+         }
+        .menu_link1:hover{
+      background-image: url(/assets/img/common/side_menu_links/instagram.svg);
+    }
+    .menu_link2:hover{
+         background-image: url(/assets/img/common/side_menu_links/dribble.svg);
+    }
+    .menu_link3:hover{
+        background-image: url(/assets/img/common/side_menu_links/behance.svg);  
+    }
+    .menu_link4:hover{
+       background-image: url(/assets/img/common/side_menu_links/twitter.svg);   
+    }
+    .menu_link5:hover{
+         background-image: url(/assets/img/common/side_menu_links/fb.svg);  
+    }
+        .rightlists {
+            display: none;
+        }
+        .hr1 {
+            margin: 20px 25px;
+        }
+        .commonMenu {
+            margin: 0 15px 0 0;
+            img {
+                height: 20px
+            }
+        }
+        .MenuContent {
+            width: 100%;
+            text-align: center;
+            height: 100%;
+            min-height: 480px;
+            &__close {
+                margin-right: 15px;
+            }
+        }
+        .MenuList {
+            padding: 50px 0 0;
+            line-height: 24px;
+            &__bottom {
+                bottom: 30px;
+                left: 24%;
+                right: 24%;
+            }
+            &__ele {
+                padding: 2px 0;
+                width: 175px;
+                margin: 0 auto;
+                &:focus,
+                &:active,
+                &:focus {
+                    border-left: none;
+                }
+            }
+            &__arrowDown1,
+            &__arrowDown {
+                margin-right: -15px;
+            }
+            &__attr {
+                cursor: pointer;
+                &:focus,
+                &:active,
+                &:focus {
+                    cursor: pointer;
+                }
+            }
+            &__underline {
+                margin: 0 auto;
+            }
+            &__cnc {
+                width: 175px;
+                margin: 0 auto;
+                padding: 0;
+            }
+        }
+        .menuMob {
+            display: block;
+            padding-top: 25px;
+        }
+    }
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+   visibility: hidden;
+    width: 85px;
+    background-color: #2b2e38;
+    font-family: 'Montserrat-regular';
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    font-weight: 300;
+    bottom: 5%;
+    margin-left: -80px;
+    font-size: 10px;
+    right: -65%;
+    height: 12px;
+    line-height: 12px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    // content: "";
+    // position: absolute;
+    // top: 100%;
+    // left: 50%;
+    // margin-left: -5px;
+    // border-width: 5px;
+    // border-style: solid;
+    // border-color: #555 transparent transparent transparent;
+}
+
+/* The actual popup */
+.popup .popuptext1 {
+   visibility: hidden;
+    width: 85px;
+    background-color: #2b2e38;
+    font-family: 'Montserrat-regular';
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    font-weight: 300;
+    bottom: 5%;
+    margin-left: -80px;
+    font-size: 10px;
+    right: -120%;
+     height: 12px;
+    line-height: 12px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

@@ -1,0 +1,45 @@
+{% include header.html %}
+<div id="contact">
+    {% include common_header.html %}
+
+    <div class="row contact">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 contact__map">
+        <iframe class="contact__map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.742879882433!2d77.66982311482147!3d12.924240290886933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1375c1d1d4e1%3A0x74fc15e0624a7d87!2sLittle+Brahma+-+Creative+Studio!5e0!3m2!1sen!2sin!4v1496921481894" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 contact__content">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 contact-us">
+                    <h1 class="contact__title">contact us</h1>
+                    <div class="contact__underline"></div>
+                    <p class="contact__address contact__span">{{site.data.contact.address}}</p>
+                    <p class="contact__address">
+                        Phone: +91 80 64513477</p>
+                    <p class="contact__address">
+                        EMAIL: hello@littlebrahma.com</p>
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 write-to-us">
+                    <h1 class="contact__title">write to us</h1>
+                    <div class="contact__underline"></div>
+                    <form name="contact_form" id="gform" class="contact__form">
+                        <input type="text" name="name" placeholder="Your Name" required class="contact__form-inside" />
+                        <input id="email" name="email" type="email" value="" required placeholder="Your Mail" class="contact__form-inside" />
+
+                        <input name="subject" type="text" placeholder="Your Subject" required class="contact__form-inside" />
+                        <textarea name="message" placeholder="Enter your Query..." required class="contact__msg contact__form-inside"></textarea>
+                        <button type="submit" class="contact__submit">send</button>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact__toast">
+    <div style="display:none;" class="contact__toastr" id="thankyou_message">
+        <p>Thanks for writing to us. We will get back to you soon.</p>
+    </div>
+    </div>
+</div>
+{% include common_footer.html %} {% include footer.html %}
