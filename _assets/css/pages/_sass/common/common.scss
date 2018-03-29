@@ -1,48 +1,60 @@
-@font-face {
-    font-family: 'montserrat-bold';
-    src: url("../font/Montserrat-Bold_0.ttf");
-}
 
 @font-face {
-    font-family: 'montserrat-light';
-    src: url("../font/montserrat-light.ttf");
+    font-family: 'MavenPro-Medium';
+    src: url('/assets/font/MavenPro-Medium.ttf');
 }
-
 @font-face {
-    font-family: 'montserrat-regular';
-    src: url("../font/Montserrat-Regular.ttf");
+    font-family: 'MavenPro-Bold';
+    src: url('/assets/font/MavenPro-Bold.ttf');
 }
-
 @font-face {
-    font-family: 'raleway-bold';
-    src: url("../font/Raleway-Bold.ttf");
+    font-family: 'MavenPro-Regular';
+    src: url('/assets/font/MavenPro-Regular.ttf');
 }
-
 @font-face {
-    font-family: 'raleway-italic';
-    src: url("../font/Raleway-Italic.ttf");
+    font-family: 'PT_Sans-Regular';
+    src: url('/assets/font/PT_Sans-Web-Regular.ttf');
 }
-
 @font-face {
-    font-family: 'raleway-light';
-    src: url("../font/Raleway-Light.ttf");
+    font-family: 'latoBold';
+    src: url('/assets/font/Lato-Bold.ttf');
 }
-
 @font-face {
-    font-family: 'raleway-medium';
-    src: url("../font/Raleway-Medium.ttf");
+    font-family: 'latoRegular';
+    src: url('/assets/font/Lato-Regular.ttf');
 }
-
 @font-face {
-    font-family: 'raleway-regular';
-    src: url("../font/Raleway-Regular.ttf");
-}
-
+    font-family: 'latoLight';
+    src: url('/assets/font/Lato-Light.ttf');
+} 
 @font-face {
-    font-family: 'raleway-thin';
-    src: url("../font/Raleway-Thin.ttf");
-}
-
+    font-family: 'quicksandRegular';
+    src: url('/assets/font/quicksandRegular.ttf');
+} 
+@font-face {
+    font-family: 'quicksandLight';
+    src: url('/assets/font/quicksandLight.ttf');
+} 
+@font-face {
+    font-family: 'quicksandSemibold';
+    src: url('/assets/font/quicksandSemibold.ttf');
+} 
+@font-face {
+    font-family: 'quicksandBold';
+    src: url('/assets/font/quicksandBold.ttf');
+} 
+@font-face {
+    font-family: 'robotoRegular';
+    src: url('/assets/font/robotoRegular.ttf');
+} 
+@font-face {
+    font-family: 'robotoLight';
+    src: url('/assets/font/robotoRegular.ttf');
+} 
+@font-face {
+    font-family: 'robotoBold';
+    src: url('/assets/font/robotoRegular.ttf');
+} 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -91,3 +103,88 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+//Banner Code
+
+.bnrBdy{
+    padding: 0px 29px 0;
+    height: 100vh;
+  }
+  .bnr{
+      width: 100%;
+      // height: 100vh;
+      position: fixed;
+      z-index: -1;
+      // padding:0 0 0% 18%;
+      // display: flex;
+      // align-items: center;
+      padding-top:38vh !important;
+  }
+  .heroText{
+      font-family: "MavenPro-Medium";
+      order: 1;
+  }
+  .heroHighlight{
+      color: #ea1c49;
+  }
+  .bnrText{
+    font-family: "PT_Sans-Regular";
+    letter-spacing: 1px;
+    order: 2;
+  }
+  @media screen and (min-width: 320px){
+      .bnr{
+        padding:0 29px 0% 0px;
+      }
+      .heroText{
+          font-size: 24px;
+      }
+      .bnrText{
+        font-size: 14px;
+        padding-top: 0px;
+      }
+  }
+  
+  @media screen and (min-width: 768px){
+      .bnr{
+        padding:0 0 0% 65px;
+      }
+      .heroText{
+          font-size: 48px;
+      }
+      .bnrText{
+        font-size: 17px;
+        padding-top: 24px;
+      }
+  }
+  
+  @media screen and (min-width: 1025px){
+      .bnr{
+        padding:0 0 0% 21px;
+      }
+      .heroText{
+          font-size: 48px;
+      }
+      .bnrText{
+        font-size: 17px;
+        padding-top: 30px;
+      }
+  }
+  
+  @media screen and (min-width: 1367px){
+      .lb_bdy{
+        padding-left: 0;
+      }
+      .bnr{
+        padding:0 0 0% 18%;
+      }
+      .heroText{
+          font-size: 60px;
+      }
+      .bnrText{
+        font-size: 20px;
+        padding-top: 30px;
+      }
+  }

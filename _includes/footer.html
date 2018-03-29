@@ -22,7 +22,35 @@
 <script type="text/javascript" src="/assets/js/pages/common.js">
   
 </script>
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/jquery.easings.min.js"></script>
 
 </footer>
+
+<script>
+jQuery(document).ready(function($){
+  //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+  var MQL = 1170;
+
+  //open/close primary navigation
+  $('.cd-primary-nav-trigger').on('click', function(){
+    $('.cd-menu-icon').toggleClass('is-clicked'); 
+    $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+    $('.cd-logo').toggle();
+    
+    //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+    if( $('.cd-primary-nav').hasClass('is-visible') ) {
+      $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').removeClass('overflow-hidden');
+      });
+    } else {
+      $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+        $('body').addClass('overflow-hidden');
+
+      });	
+    }
+  });
+});
+</script>
 </body>
 </html>
