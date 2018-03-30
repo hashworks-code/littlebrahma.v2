@@ -308,7 +308,8 @@ html, body {
 
 .cd-secondary-navLasta:active, .cd-secondary-navLasta:hover, .cd-secondary-navLasta:focus {
   text-decoration: none;
-  border-bottom: none; }
+  border-bottom: none;
+  outline: none; }
 
 /* .headerActive{
     border-bottom: 3px solid #ea1c49;
@@ -610,6 +611,218 @@ html, body {
   padding-right: 15px; }
 
 /*canvas { position: fixed; touch-action: none; }*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  border: none; }
+
+.close1 {
+  float: right; }
+
+.close1:hover,
+.close1:focus {
+  cursor: pointer; }
+
+@media only screen and (min-width: 320px) {
+  .contactHeading {
+    width: 320px;
+    margin: 0 auto; }
+  .contactHeader {
+    width: 175px;
+    font-family: 'MavenPro-Regular';
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: #5d6a6f;
+    margin: 70px auto 0px;
+    text-align: center; }
+    .contactHeader span {
+      color: #ea1c49; }
+  .contact1 {
+    width: 320px;
+    margin: 0 auto; }
+    .contact1 h2 {
+      font-family: 'MavenPro-Regular';
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #5d6a6f; }
+    .contact1__form h2 {
+      margin: 12px 0px; }
+    .contact1__form button {
+      width: 100px;
+      height: 32px;
+      border-radius: 16px;
+      border: solid 2px #022b3b;
+      background-color: white;
+      font-family: 'MavenPro-Regular';
+      font-size: 14px;
+      text-align: center;
+      color: #393939;
+      margin: 12px 0px 0px 0px; }
+    .contact1__form input {
+      width: 264px;
+      height: 40px;
+      font-size: 12px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      border: solid 1px #bfbfbf;
+      margin: 12px 0px 6px;
+      padding: 12px;
+      outline: none; }
+    .contact1__form textarea {
+      width: 262px;
+      height: 115px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      border: solid 1px #979797;
+      padding: 12px;
+      outline: none;
+      resize: none; }
+    .contact1__company h2 {
+      margin: 24px 0px 12px; }
+    .contact1__company h3 {
+      font-family: 'MavenPro-Regular';
+      font-size: 12px;
+      font-weight: normal;
+      text-align: left;
+      color: #7d8d92;
+      line-height: 1.5; }
+    .contact1__image img {
+      width: 154px;
+      height: 137px;
+      margin: 16px 46px 24px; } }
+
+@media only screen and (min-width: 767px) {
+  .contactHeading {
+    width: 700px; }
+  .modal-content {
+    height: 100%; }
+  .contactHeader {
+    width: 700px;
+    font-size: 32px;
+    margin: 68px auto 64px;
+    text-align: left; }
+  .contact1 {
+    width: 700px;
+    margin: 0 auto; }
+    .contact1 h2 {
+      font-size: 12px; }
+    .contact1__form h2 {
+      margin: 12px 0px 12px; }
+    .contact1__form button {
+      margin: 12px 0px 0px 0px;
+      display: block; }
+    .contact1__form input {
+      width: 220px;
+      margin: 0px 0px 12px; }
+    .contact1__form textarea {
+      width: 220px;
+      height: 115px; }
+    .contact1__company h2:nth-child(1) {
+      margin: 0px 0px 12px; }
+    .contact1__company h2 {
+      margin: 27px 0px 12px; }
+    .contact1__company h3 {
+      font-size: 12px; }
+    .contact1__image img {
+      width: 100%;
+      height: 182px;
+      margin: 115px 0px 0px; } }
+
+@media only screen and (min-width: 1024px) {
+  .contactHeading {
+    width: 936px; }
+  .contactHeader {
+    width: 936px;
+    font-size: 40px;
+    margin: 100px auto 80px; }
+  .contact1 {
+    width: 936px;
+    margin: 0 auto; }
+    .contact1 h2 {
+      font-size: 12px; }
+    .contact1__form h2 {
+      margin: 12px 0px 16px;
+      font-size: 16px; }
+    .contact1__form button {
+      width: 130px;
+      height: 40px;
+      margin: 32px 0px 0px 0px;
+      font-size: 16px; }
+    .contact1__form input {
+      width: 300px;
+      margin: 0px 0px 16px;
+      font-size: 14px; }
+    .contact1__form textarea {
+      font-size: 14px;
+      width: 300px;
+      height: 160px; }
+    .contact1__company h2:nth-child(1) {
+      margin: 0px 0px 6px; }
+    .contact1__company h2 {
+      font-size: 24px;
+      margin: 24px 0px 6px; }
+    .contact1__company h3 {
+      font-size: 14px; }
+    .contact1__image img {
+      margin-top: 90px;
+      height: 255px; } }
+
+@media only screen and (min-width: 1440px) {
+  .contactHeading {
+    width: 1125px; }
+  .contactHeader {
+    width: 1125px;
+    font-size: 48px;
+    margin: 140px auto 120px; }
+  .contact1 {
+    width: 1125px;
+    margin: 0 auto; }
+    .contact1__form h2 {
+      margin: 12px 0px 16px;
+      font-size: 16px; }
+    .contact1__form button {
+      width: 160px;
+      height: 56px;
+      margin: 32px 0px 0px 0px;
+      font-size: 16px; }
+    .contact1__form input {
+      width: 350px;
+      margin: 0px 0px 16px;
+      font-size: 14px; }
+    .contact1__form textarea {
+      font-size: 14px;
+      width: 350px;
+      height: 160px; }
+    .contact1__company h2:nth-child(1) {
+      margin: 0px 0px 6px; }
+    .contact1__company h2 {
+      font-size: 24px;
+      margin: 24px 0px 6px; }
+    .contact1__company h3 {
+      font-size: 16px; }
+    .contact1__image img {
+      margin-top: 90px;
+      height: 300px; } }
+
 /*footer css starts*/
 .lb-footer {
   width: 100%;
@@ -634,7 +847,8 @@ html, body {
   text-align: center !important;
   color: #022b3b !important;
   background-color: #fff !important;
-  padding: 5px 20px !important; }
+  padding: 5px 20px !important;
+  outline: none; }
 
 @media only screen and (min-width: 320px) {
   .cd-header {
