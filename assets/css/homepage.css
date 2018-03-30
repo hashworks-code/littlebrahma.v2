@@ -707,6 +707,166 @@ html, body {
       padding: 5px 18px 6px; } }
 
 /*footer ends*/
+.lb_work_filter li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939; }
+
+.lb-Workfilter {
+  padding-top: 50px; }
+
+ul.lb_work_filter.lb_filter_lg {
+  text-align: center; }
+
+li.lb_work_filterActive {
+  border-bottom: 5px solid #ea1c49;
+  color: #ea1c49; }
+
+li.lb_work_filterli:first-child {
+  margin-left: 10px !important; }
+
+.lb-filter-Img {
+  height: 340px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 30px; }
+
+button.lb_btn:focus {
+  outline: none; }
+
+.lb_btn_div {
+  width: 160px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.lb_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 50px;
+  opacity: 0.92;
+  border-radius: 25px;
+  border: solid 2px #ea1c49;
+  width: 100%;
+  background-color: #ea1c49;
+  color: #fff; }
+
+.lb-filter-service {
+  padding-bottom: 30px; }
+
+.lb-filterDiv {
+  padding-left: 42px;
+  padding-right: 42px; }
+
+.lb-filter-head {
+  width: 121px;
+  height: 56px;
+  font-family: MavenPro;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff; }
+
+.lb-filter-header {
+  font-family: MavenPro;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d6a6f;
+  color: var(--slate-grey); }
+
+.lb-filter-headdesc {
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d6a6f;
+  color: var(--slate-grey); }
+
+.lb-filter-footer {
+  font-family: MavenPro;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5d6a6f;
+  color: var(--slate-grey); }
+
+div.test {
+  display: none; }
+
+.message {
+  display: inline-block;
+  width: 100%;
+  float: left; }
+
+.Servicedesign {
+  display: none; }
+
+.BrandingandCommunication {
+  display: none; }
+
+.lb-filter-service {
+  display: none; }
+
+@media screen and (min-width: 320px) {
+  .lb_filter_lg {
+    display: none; }
+  .work_selectdiv {
+    width: 247px;
+    margin: 0 auto; }
+  .work_select {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 16px; }
+  select.work_select:focus {
+    outline: none; }
+  .lb_filter_mb {
+    display: block; } }
+
+@media screen and (min-width: 768px) {
+  .lb_filter_lg {
+    display: block; }
+  .lb_filter_mb {
+    display: none; } }
+
+@media screen and (min-width: 1025px) {
+  .lb_filter_lg {
+    display: block; }
+  .lb_filter_mb {
+    display: none; } }
+
+@media screen and (min-width: 1367px) {
+  .lb_filter_lg {
+    display: block; }
+  .lb_filter_mb {
+    display: none; } }
+
 .homePage {
   margin-top: 80px; }
   .homePage__BnrDiv {

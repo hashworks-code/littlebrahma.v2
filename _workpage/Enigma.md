@@ -1,6 +1,6 @@
 ---
 
-categories: Service design
+cat: Service Design
 layout: Workpage
 product_title: Simplifying talent hunt
 product_title1: Groome

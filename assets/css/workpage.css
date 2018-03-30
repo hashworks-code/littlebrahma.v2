@@ -735,37 +735,31 @@ li.lb_work_filterli:first-child {
 
 .lb-filter-Img {
   height: 340px;
-  background-image: url("/assets/img/workpage/groome.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
   padding: 30px; }
 
-.lb-filter-Img1 {
-  height: 340px;
-  background-image: url("/assets/img/workpage/groome-copy-2.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+button.lb_btn:focus {
+  outline: none; }
+
+.lb_btn_div {
+  width: 160px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.lb_btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 50px;
+  opacity: 0.92;
+  border-radius: 25px;
+  border: solid 2px #ea1c49;
   width: 100%;
-  padding: 30px; }
-
-.lb-filter-Img2 {
-  height: 340px;
-  background-image: url("/assets/img/workpage/groome-copy-3.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%; }
-
-.lb-filter-Img3 {
-  height: 340px;
-  background-image: url("/assets/img/workpage/groome-copy-4.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-color: #ea1c49;
+  color: #fff; }
 
 .lb-filter-service {
   padding-bottom: 30px; }
@@ -822,10 +816,21 @@ li.lb_work_filterli:first-child {
   color: #5d6a6f;
   color: var(--slate-grey); }
 
-.lb-ProductDesign {
+div.test {
   display: none; }
 
-.lb-Branding {
+.message {
+  display: inline-block;
+  width: 100%;
+  float: left; }
+
+.Servicedesign {
+  display: none; }
+
+.BrandingandCommunication {
+  display: none; }
+
+.lb-filter-service {
   display: none; }
 
 @media screen and (min-width: 320px) {

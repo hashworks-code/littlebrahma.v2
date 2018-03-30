@@ -1,6 +1,6 @@
 ---
 
-categories: Branding and Communication
+cat: Branding & Communication
 layout: workpage
 product_title: Transforming business
 product_title1: Hashworks
