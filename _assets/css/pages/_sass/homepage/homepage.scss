@@ -1,198 +1,374 @@
-.landingImg{
-    width: 100%;
- }
- .maginTop{
-     margin-top:85px;
- }
- .rowmargin0{
-     margin: 0px !important;
-     background-color: #fff;
- }
- .lb_caseStusy{
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 50px;
-     padding-bottom: 50px;
-     background-color: #f4f4f4;
- }
- .lb_btn_div{
-     width: 160px;
-     margin: 0 auto;
-     padding-top: 20px;
-     padding-bottom: 20px;
- 
- }
- .lb_btn{
-   padding-left: 30px;
-   padding-right: 30px;
-   height: 50px;
-   opacity: 0.92;
-   border-radius: 25px;
-   border: solid 2px #022b3b;
-   width: 100%;
- }
- .lb_dnahead {
-     width: 300px;
-     margin: 0 auto;
-     font-size: 32px;
-     padding-top: 20px;
-     padding-bottom: 20px;
- }
- .lb_nostatic{
-     background-color: #fff;
- }
- .lb_homeThink{
-     background-image:url("../assets/images/image.png");
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     height: 100vh;
- }
- 
- @media only screen and (min-width: 320px){
-     .workBlob{
-         display: none;
-     }
-     .ourwork_mb{
-        display: block;
-     }
-     .ourwork_mb_text{
-         text-align: center;
-         font-family: PTSans;
-         font-size: 14px;
-         font-weight: normal;
-         font-style: normal;
-         font-stretch: normal;
-         line-height: 1.71;
-         letter-spacing: normal;
-         text-align: center;
-         color: #4a4a4a;
-     }
-     .ourwork_mb_textp{
-         font-family: MavenPro;
-         font-size: 18px;
-         font-weight: bold;
-         font-style: normal;
-         font-stretch: normal;
-         line-height: normal;
-         letter-spacing: normal;
-         text-align: center;
-         color: #393939;
-     }
-     .home{
- 
-         &__banner{
-             padding: 0 29px 0 29px;
-             p{
-                 font-family: PTSans;
-                 line-height: 1.71;
-                 color: #4a4a4a;
-                 font-size: 14px;
-                 padding-right: 40px;
-             }
-         }
-         &__bannerHead{
-             font-family: MavenPro;
-             font-size: 24px;
-             color: #393939;
-             line-height: 32px;
-             padding-bottom: 24px;
-             span{
-                 color: #ea1c49;
-             }
-         }
-         
-        
-     }
-     
- }
- @media only screen and (min-width: 768px){
-     .workBlob{
-             display: block;
-     }
-     .ourwork_mb{
-        display: none;
-     }
-     .home{
-        
-         &__banner{
-             padding: 0 94px 0 94px;
-             p{
+.homePage{
+    margin-top: 80px;
+    &__BnrDiv{
+        background-image: url("/assets/img/homepage/combined-shape.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 1297px;
+        &__Inner{
+            background-image: url("/assets/img/homepage/001.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 710px;
+            &__Content{
+                padding: 300px 0 0 165px;
+                width: 655px;
+                color: #5d6a6f;
+                h1{
+                    font-size: 56px;
+                    font-family: 'MavenPro-Medium';
+                    span{
+                        color: #ea1c49;
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    font-family: 'PT_Sans-Regular';
+                }
+            }
+        }
+        &__Service{
+            // padding: 0 0 0 165px;
+            h1{
+                text-align: center;
+                color: #fff;
+                font-size: 40px;
+                font-family: 'MavenPro-Medium';
+                margin-bottom: 80px;
+                margin-top: 120px;
+            }
+            &__Cards{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &__Inner{
+                    width: 350px;
+                    height: 350px;
+                    background-color: #fff;
+                    text-align: center;
+                    border-radius: 16px;
+                    padding-top: 50px;
+                    box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+                    margin-right: 30px;
+                    color: #5d6a6f;
+                    &__img{
+                        background-image: url("/assets/img/homepage/service-design.svg");
+                        background-repeat: no-repeat;
+                        width: 88px;
+                        height: 88px;
+                        margin: 0 auto;
+                        background-size: contain;
+                    }
+                    &__img1{
+                        background-image: url("/assets/img/homepage/product-design.svg");
+                        background-repeat: no-repeat;
+                        width: 88px;
+                        height: 88px;
+                        margin: 0 auto;
+                        background-size: contain;
+                    }
+                    &__img2{
+                        background-image: url("/assets/img/homepage/product-design.svg");
+                        background-repeat: no-repeat;
+                        width: 88px;
+                        height: 88px;
+                        margin: 0 auto;
+                        background-size: contain;
+                    }
+                    img{
+                        display: none;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-family: 'MavenPro-Medium';
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: 'PT_Sans-Regular';
+                    }
+                }
+                &__Inner1{
+                    margin-right: 0;
+                }
+                &__Inner:hover{
+                    background-color:#ee4b6e;
+                    color:#fff;
+                }
+                &__Inner:hover &__Inner__img{
+                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                }
+                &__Inner:hover &__Inner__img1{
+                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                }
+                &__Inner:hover &__Inner__img2{
+                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                }
+                &__Inner:hover p{
+                    display: none;
+                }
+                &__Inner:hover img{
+                    display: block;
+                    margin: 30px auto;
+                    width: 31px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+    &__dna{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 180px;
+        margin: 180px 83px 0;
+        padding-bottom: 50px;
+        &__left{
+            padding-right: 125px;
+        }
+        &__right{
+            margin-top: 30px;
+            width: 540px;
+            h1{
+                font-size: 40px;
+                font-family: 'MavenPro-Medium';
+                color: #393939;
+            }
+            p{
                 font-size: 20px;
-                 padding-right: 60px;
-             }
-         }
-         &__bannerHead{
-             font-size: 32px;
-             line-height: normal;
-             padding-bottom: 28px;
-             
-         }
-         
-     }
-     
-     
- }
- 
- @media only screen and (min-width: 1025px){
-     .workBlob{
-             display: block;
-     }
-     .ourwork_mb{
-        display: none;
-     }
-     .home{
-        
-         &__banner{
-             padding: 0 122px 0 122px;
-             padding-bottom: 220px;
-             padding-top: 120px;
-             p{
-                 padding-right: 100px;
-                  position: fixed;
-                 margin-top:135px;
-                 z-index: -1;
-             }
-         }
-         &__bannerHead{
-             font-size: 48px;
-           
-             padding-bottom: 36px;
-             font-size: 60px;
-             position: fixed;
-             z-index: -1;
-         } 
-     }
-     
- }
- 
- 
- @media only screen and (min-width: 1367px){
-    .workBlob{
-             display: block;
-     }
-     .ourwork_mb{
-        display: none;
-     }
-     .home{
-        
-         &__banner{
-             padding-top: 120px;
-             
-             p{
-                 padding-right: 160px;
-                 position: fixed;
-                 margin-top:50px;
-                 z-index: -1;
-             }
-         }
-         &__bannerHead{
-             font-size: 60px;
-             position: fixed;
-             z-index: -1;
-         }
-         
-        
-     }
-     
-  
- }
+                font-family: 'PT_Sans-Regular';
+                color: #5d6a6f;
+                margin-bottom: 32px;
+            }
+            a{
+                padding: 12px 30px 14px;
+                color: #393939;
+                border-radius: 28px;
+                border: solid 2px #022b3b;
+                font-size: 20px;
+                font-family: 'PT_Sans-Regular';
+            }
+        }
+    }
+}
+@media screen and (max-width: 1366px) {
+    .homePage{
+        margin-top: 0;
+        &__BnrDiv{
+            background-size: cover;
+            background-position: 40% 84px;
+            &__Inner{
+                background-size: 34%;
+                background-position: right 140px;
+                &__Content{
+                    padding: 270px 0 0 42px;
+                    width: 462px;
+                    h1{
+                        font-size: 48px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__Service{
+                h1{
+                    font-size: 32px;
+                    margin-top: 240px;
+                }
+                &__Cards{
+                    &__Inner{
+                        width: 300px;
+                        height: 318px;
+                        margin-right: 20px;
+                        padding-top: 30px;
+                        h3{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                        &__img{
+                            width:64px;
+                            height: 64px;
+                        }
+                        &__img1{
+                            width:64px;
+                            height: 64px;
+                        }
+                        &__img2{
+                            width:64px;
+                            height: 64px;
+                        }
+                    }
+                    &__Inner1{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &__dna{
+            margin: 180px 42px 0;
+            &__left{
+                img{
+                    width: 366px;
+                    height: 376px;
+                }
+            }
+            &__right{
+                width: 460px;
+                h1{
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1023px) {
+    .homePage{
+        &__BnrDiv{
+            &__Inner{
+                &__Content{
+                    padding: 202px 0 0 34px;
+                    width: 342px;
+                    h1{
+                        font-size: 32px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+            &__Service{
+                h1{
+                    font-size: 24px;
+                }
+                &__Cards{
+                    &__Inner{
+                        width: 220px;
+                        height: 260px;
+                        h3{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    &__Inner1{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &__dna{
+            margin: 180px 34px 0;
+            &__left{
+                img{
+                    width: 250px;
+                    height: 257px;
+                }
+            }
+            &__right{
+                width: 342px;
+                h1{
+                    font-size: 24px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .homePage{
+        &__BnrDiv{
+            &__Inner{
+                background-image: none;
+                &__Content{
+                    padding: 120px 50px 0 50px;
+                    width: 315px;
+                    text-align: center;
+                    margin: 0 auto;
+                    h1{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            &__Service{
+                h1{
+                    color: #5d6a6f;
+                    margin-top: -390px;
+                    font-size: 16px;
+                    margin-bottom: 40px;
+                }
+                &__Cards{
+                    display: block;
+                    &__Inner{
+                        width: 210px;
+                        height: 154px;
+                        margin: 0 auto 16px;
+                        padding-top: 30px;
+                        &__img{
+                            width:56px;
+                            height: 56px;
+                        }
+                        &__img1{
+                            width:56px;
+                            height: 56px;
+                        }
+                        &__img2{
+                            width:56px;
+                            height: 56px;
+                        }
+                        h3{
+                            font-size: 16px;
+                        }
+                        p{
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+        &__dna{
+            margin: 30px 0 0;
+            display: block;
+            &__left{
+                padding-right: 0;
+                margin: 0 auto;
+                width: 264px;
+                height: 246px;
+                img{
+                    width: 264px;
+                    height: 246px;
+                }
+            }
+            &__right{
+                width: 264px;
+                text-align: center;
+                margin: 0 auto;
+                h1{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
