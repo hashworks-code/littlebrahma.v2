@@ -1,34 +1,91 @@
- {% include header.html %}
- <section class="portfolioBg">
- {% include common_header.html %}
- 	<div class="commonHeight">
-  <div>
- 		<img alt="littlebrahma__portfolio-video-camera_img" src="/assets/img/service/Mudras/Portfolio.png" class="commonHeight__img">
-		<h5 class="commonHeight__heading">{{site.data.portfolio.title}}</h5>
-		<p class="commonHeight__para">{{site.data.portfolio.description}}</p>
-    </div>
-	</div>
- </section>
+{% include header.html %}
+{% include common_header.html %}
+  
 
- <div class="row blog-row">
-		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 portDetail">
-			<div class="row blog_commom-row">
-				{% assign item = site.workpage | sort: 'date' %}
-				{% for port in item %}
-			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-filter {{port.categories}}">
-          <a href="{{port.url}}">
-							<img alt="littlebrahma__casestudy-{{port.product_title}}_img" src="{{port.product_thumbnail}}" class="blog-filter__img">
-						<div class="caseDetail">
-							<h5 class="caseDetail__title">{{port.product_title | upcase}}</h5>
-							<div class="caseDetail__border"></div>
-							<p class="caseDetail__para">{{port.product_thumbnail_description}}</p>
-						</div>
-            </a>
+<!-- <div class="row">
+		{% assign item = site.workpage %}
+		{% for work in item %}
+		<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service">
+				<div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+					<div class="lb-filter-head">
+						{{work.product_title}}
 					</div>
-		
-				{% endfor %}
+				</div>
+				<h3 class="lb-filter-header">{{work.product_title1}}</h3>
+				<h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+				<h6 class="lb-filter-footer">{{work.product_thumbnail_description1}}</h6>
+		</div> 
+      {% endfor %}
+</div> -->
+
+
+		<div class="prct">
+				<div class="lb_nostatic">
+					<div class="">
+					  <img src="/assets/img/workpage/group-3.png" class="landingImg" alt="Logo">
+					</div>
+				</div>
+		   
+				<div class="lb_caseStusy">
+					 <ul class="lb_work_filter lb_filter_lg">
+						 <li class="lb_work_filterli lb_work_filterActive">Product Design</li>
+						 <li class="lb_work_filterli">Service Design</li>
+						 <li class="lb_work_filterli">Banding and communication</li>
+					 </ul>
+					 <div class="lb_filter_mb work_selectdiv">
+						 <select class="work_select">
+							 <option class="">Product Design</option>
+							 <option class="">Service Design</option>
+							 <option class="">Banding & communication</option>
+						 </select>
+					 </div>
+				 <div class="lb-Workfilter">    
+				 <div class="lb-filterDiv">
+				    
+					 <div class="row">
+							{% assign item = site.workpage %}
+							{% for work in item %}
+							<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}}">
+									<div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+									<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+										<div class="lb-filter-head">
+											{{work.product_title}}
+										</div>
+									</div>
+									<h3 class="lb-filter-header">{{work.product_title1}}</h3>
+									<h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+									<h6 class="lb-filter-footer">{{work.product_thumbnail_description1}}</h6>
+							</div> 
+						  {% endfor %}
+							
+							
+		                <!-- </div> -->
+					</div>
+					 
+
+
+
+							
+				 </div>
+				 </div>
+				   <div>
+					   <div class="lb_btn_div">
+						 <button class="lb_btn">More Stuff</button>
+					   </div>
+				   </div>
+					
+				   
+		   
+				 </div>
+				  <!--Next thinking image-->
+					
+					
 			</div>
-		</div>
-	</div>
- {% include common_footer.html %}
+		   
+ 
  {% include footer.html %}
+
+
+ 
+
+ 
