@@ -55,7 +55,6 @@
 
                   $("#lb_btn").click(function() {
                     $('.lb-filter-service').hide();
-                        debugger;
                         var id = $('.lb_work_filterli.lb_work_filterActive').data("id");
                         var id2 = $('.work_select').val();
                         for (var i = 1; i <= length; i++) {
@@ -81,7 +80,6 @@
                 $("#lb_btn1").click(function() {
                     count=0;
                     $('.lb-filter-service').hide();
-                        debugger;
                         var id = $('.lb_work_filterli.lb_work_filterActive').data("id");
                         var id2 = $('.work_select').val();
                         for (var i = 1; i <= length; i++) {
