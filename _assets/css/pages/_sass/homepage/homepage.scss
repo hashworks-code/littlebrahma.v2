@@ -2,10 +2,9 @@
 .homePage{
     margin-top: 80px;
     &__BnrDiv{
-        background-image: url("/assets/img/homepage/combined-shape.png");
+        background-image: url(/assets/img/homepage/combined-shape.png);
         background-repeat: no-repeat;
-        background-position: right;
-        height: 1297px;
+        background-size: cover;
         &__Inner{
             background-image: url("/assets/img/homepage/001.png");
             background-repeat: no-repeat;
@@ -24,7 +23,7 @@
                 }
                 p{
                     margin-top: 20px;
-                    line-height: 20px;
+                    line-height: 25px;
                     font-size: 20px;
                     font-family: 'PT_Sans-Regular';
                 }
@@ -145,7 +144,7 @@
                 color: #5d6a6f;
                 margin-bottom: 32px;
                 margin-top: 20px;
-                line-height: 20px;
+                line-height: 25px;
             }
             a{
                 padding: 12px 30px 14px;
@@ -162,7 +161,7 @@
 .lb-ourworks{
     text-align: center;
     /* font-family: MavenPro; */
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -173,6 +172,10 @@
     padding-bottom: 50px;
 }
 @media screen and (max-width: 1366px) {
+    .lb-ourworks{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
     .homePage{
         margin-top: 0;
         &__BnrDiv{
@@ -189,6 +192,7 @@
                     }
                     p{
                         font-size: 16px;
+                        line-height: 25px;
                     }
                 }
             }
@@ -243,6 +247,7 @@
                 }
                 p{
                     font-size: 16px;
+                    line-height: 25px;
                 }
                 a{
                     font-size: 16px;
@@ -250,10 +255,7 @@
             }
         }
     }
-    .lb-ourworks{
-        font-size: 40px;
-        padding-bottom: 50px;
-    }
+   
 }
 @media screen and (max-width: 1023px) {
     .homePage{
@@ -267,6 +269,7 @@
                     }
                     p{
                         font-size: 14px;
+                        line-break: 30px;
                     }
                 }
             }
@@ -306,6 +309,7 @@
                 }
                 p{
                     font-size: 14px;
+                    line-height: 25px;
                 }
                 a{
                     font-size: 14px;
@@ -333,6 +337,7 @@
                     }
                     p{
                         font-size: 12px;
+                        line-height: 16px;
                     }
                 }
             }
@@ -394,6 +399,7 @@
                 }
                 p{
                     font-size: 12px;
+                    line-height: 16px;
                 }
                 a{
                     font-size: 14px;

@@ -265,7 +265,10 @@
 //     }  
 //     }
 // }
-
+@import "practice/practice.scss";
+.prct .hero_img{
+    background-image: url(/assets/img/workpage/group-3.png);
+}
 #lb_btn1{
     display: none;
 }
@@ -275,7 +278,7 @@
     padding: 0 0px 4px 0px;
     cursor: pointer;
     font-family: MavenPro-Medium;
-    font-size: 16px;
+    // font-size: 16px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -361,8 +364,8 @@ button.lb_btn:focus {
    padding-bottom: 30px;
 }
 .lb-filterDiv{
-   padding-left:42px;
-   padding-right: 42px;
+//    padding-left:42px;
+//    padding-right: 42px;
 }
 .lb-filter-head{
     width: 121px;
@@ -391,7 +394,7 @@ button.lb_btn:focus {
     padding-top: 15px;
   }
   .lb-filter-headdesc{
-    font-family: PTSans;
+    // font-family: PTSans;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -403,7 +406,7 @@ button.lb_btn:focus {
     color: var(--slate-grey);
   }
     .lb-filter-footer{
-        font-family: MavenPro;
+        font-family: MavenPro-Medium;
         font-size: 12px;
         font-weight: bold;
         font-style: normal;
@@ -439,7 +442,13 @@ button.lb_btn:focus {
     .lb-filter-service{
        display: none;
     }
+    .lb_sevicetop{
+        margin-top:80px;
+    }
 @media screen and (min-width: 320px){
+    .lb_work_filter li{
+        font-size: 16px;
+    }
     .lb_filter_lg{
        display: none;
     }
@@ -489,6 +498,9 @@ button.lb_btn:focus {
     .lb_filter_lg{
        display: block;
     }
+    .lb_work_filter li{
+        font-size: 16px;
+    }
     .lb_filter_mb{
       display: none;
     }
@@ -509,9 +521,12 @@ button.lb_btn:focus {
         width: 160px;
     }
 }
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
     .lb_filter_lg{
        display: block;
+    }
+    .lb_work_filter li{
+        font-size: 24px;
     }
     .lb_filter_mb{
       display: none;
@@ -537,6 +552,9 @@ button.lb_btn:focus {
 @media screen and (min-width: 1367px){
     .lb_filter_lg{
        display: block;
+    }
+    .lb_work_filter li{
+        font-size: 24px;
     }
     .lb_filter_mb{
       display: none;
