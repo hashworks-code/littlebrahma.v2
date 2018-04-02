@@ -141,6 +141,46 @@ table {
   z-index: -1; }
 
 @media screen and (min-width: 320px) {
+  .headingBold {
+    font-family: 'MavenPro-Medium';
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393939; }
+  .headingLight {
+    font-family: 'MavenPro-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393939; }
+  .typography {
+    font-size: 12px;
+    font-family: 'MavenPro-Bold';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393939; }
+  .paragraph {
+    font-family: 'PT_Sans-Regular';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393939; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -158,7 +198,52 @@ table {
   .hero_ptn {
     display: none; } }
 
+.commonButton {
+  border-radius: 16px;
+  border: solid 2px #022b3b;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-family: 'PT_Sans-Regular';
+  color: #393939;
+  outline: none;
+  text-align: center; }
+
+.commonButton:hover {
+  border: solid 2px #ea1c49;
+  background-color: #ea1c49;
+  color: #fff; }
+
+.input {
+  width: 264px;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: solid 1px #bfbfbf;
+  margin: 12px 0px 6px;
+  padding: 12px;
+  outline: none;
+  font-family: 'PtSansRegular';
+  padding: 12px 14px; }
+
+.input:hover, input:focus {
+  border: solid 2px #7d8d92; }
+
+textarea:hover, textarea:focus {
+  border: solid 2px #7d8d92; }
+
 @media screen and (min-width: 768px) {
+  .headingBold {
+    font-size: 32px; }
+  .headingLight {
+    font-size: 32px; }
+  .typography {
+    font-size: 16px; }
+  .paragraph {
+    font-size: 14px; }
+  .input {
+    font-size: 14px;
+    padding: 12px 10px; }
   .lb_bdy {
     margin-top: 80px; }
   .heroText {
@@ -174,6 +259,20 @@ table {
     margin-top: -80px; } }
 
 @media screen and (min-width: 1025px) {
+  .headingBold {
+    font-size: 40px; }
+  .headingLight {
+    font-size: 40px; }
+  .typography {
+    font-size: 20px; }
+  .paragraph {
+    font-size: 16px; }
+  .input {
+    padding: 14px 10px; }
+  .commonButton {
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 41px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
@@ -197,6 +296,17 @@ table {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .headingBold {
+    font-size: 48px; }
+  .headingLight {
+    font-size: 48px; }
+  .typography {
+    font-size: 24px; }
+  .paragraph {
+    font-size: 20px; }
+  .commonButton {
+    border-radius: 28px;
+    font-size: 20px; }
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
@@ -689,26 +799,8 @@ html, body {
   cursor: pointer; }
 
 @media only screen and (min-width: 320px) {
-  .send {
-    width: 100px;
-    height: 32px;
-    border-radius: 16px;
-    border: solid 2px #022b3b;
-    background-color: white;
-    font-family: 'PtSansRegular';
-    font-size: 14px;
-    color: #393939;
-    margin: 12px 0px 0px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    outline: none; }
+  .myBtn {
+    cursor: pointer; }
   .contactHeading {
     width: 320px;
     margin: 0 auto; }
@@ -737,20 +829,9 @@ html, body {
     .contact1__form h2 {
       margin: 12px 0px; }
     .contact1__form input {
-      width: 264px;
-      height: 40px;
-      font-size: 12px;
-      border-radius: 8px;
-      background-color: #ffffff;
-      border: solid 1px #bfbfbf;
-      margin: 12px 0px 6px;
-      padding: 12px;
-      outline: none;
-      font-family: 'PtSansRegular'; }
-    .contact1__form input:hover, .contact1__form input:focus {
-      border: solid 2px #7d8d92; }
-    .contact1__form textarea:hover, .contact1__form textarea:focus {
-      border: solid 2px #7d8d92; }
+      margin: 12px 0px 6px; }
+    .contact1__form button {
+      margin: 12px 0px 0px; }
     .contact1__form textarea {
       width: 262px;
       height: 115px;
@@ -777,10 +858,6 @@ html, body {
       margin: 16px 46px 24px; } }
 
 @media only screen and (min-width: 767px) {
-  .send {
-    margin: 12px 0px 0px 0px;
-    display: block;
-    border-radius: 20px; }
   .contactHeading {
     width: 700px; }
   .modal-content1 {
@@ -798,7 +875,6 @@ html, body {
     .contact1__form h2 {
       margin: 12px 0px 12px; }
     .contact1__form input {
-      width: 220px;
       margin: 0px 0px 12px; }
     .contact1__form textarea {
       width: 220px;
@@ -816,11 +892,6 @@ html, body {
       margin: 115px 0px 0px; } }
 
 @media only screen and (min-width: 1024px) {
-  .send {
-    width: 130px;
-    height: 40px;
-    margin: 32px 0px 0px 0px;
-    font-size: 16px; }
   .contactHeading {
     width: 936px; }
   .contactHeader {
@@ -836,13 +907,13 @@ html, body {
       margin: 12px 0px 16px;
       font-size: 16px; }
     .contact1__form input {
-      width: 300px;
-      margin: 0px 0px 16px;
-      font-size: 14px; }
+      margin: 0px 0px 16px; }
     .contact1__form textarea {
       font-size: 14px;
       width: 300px;
       height: 160px; }
+    .contact1__form button {
+      margin: 32px 0px 0px; }
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
@@ -855,11 +926,6 @@ html, body {
       height: 255px; } }
 
 @media only screen and (min-width: 1440px) {
-  .send {
-    width: 160px;
-    height: 56px;
-    margin: 32px 0px 0px 0px;
-    font-size: 20px; }
   .contactHeading {
     width: 1125px; }
   .contactHeader {
@@ -873,13 +939,13 @@ html, body {
       margin: 12px 0px 16px;
       font-size: 16px; }
     .contact1__form input {
-      width: 350px;
-      margin: 0px 0px 16px;
-      font-size: 14px; }
+      margin: 0px 0px 16px; }
     .contact1__form textarea {
       font-size: 14px;
       width: 350px;
       height: 160px; }
+    .contact1__form button {
+      margin: 40px 0px 0px; }
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
