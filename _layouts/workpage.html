@@ -30,13 +30,13 @@
 						<ul class="lb_work_filter lb_filter_lg">
 							<li class="lb_work_filterli lb_work_filterActive" id="active" data-id="Product Design">Product design</li>
 							<li class="lb_work_filterli" data-id="Service Design">Service Design</li>
-							<li class="lb_work_filterli" data-id="Branding & Communication">Banding & communication</li>
+							<li class="lb_work_filterli" data-id="Branding & Communication">Branding & Communication</li>
 						</ul>
 						<div class="lb_filter_mb work_selectdiv">
 							<select class="work_select">
 								<option class="lb_work_filterli" id="active" data-id="Product Design">Product Design</option>
 								<option class="lb_work_filterli" data-id="Service Design">Service Design</option>
-								<option class="lb_work_filterli" data-id="Branding & Communication">Banding & communication</option>
+								<option class="lb_work_filterli" data-id="Branding & Communication">Branding & Communication</option>
 							</select>
 						</div>
 					<div class="lb-Workfilter">    
@@ -54,7 +54,7 @@
 									   </div>
 									   <h3 class="lb-filter-header">{{work.product_title1}}</h3>
 									   <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-									   <h6 class="lb-filter-footer">{{work.product_thumbnail_description1}}</h6>
+									   <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
 							   </div> 
 							 {% endfor %}
 							   
@@ -69,8 +69,8 @@
 				 </div>
 				   <div>
 					   <div class="lb_btn_div">
-						 <button class="lb_btn">Load more</button>
-						
+						<button id="lb_btn" class="lb_btn">Load more</button>
+						<button id="lb_btn1" class="lb_btn">Load less</button>
 					   </div>
 				   </div>
 					
