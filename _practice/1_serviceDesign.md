@@ -11,4 +11,13 @@ practice_lists:
     description: >-
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
 published: true
+practiceList: Service design
+practiceList1: Brand voice
+practiceList2: Print media
+practiceList3: Visual Language
+practiceList4: Package design
+practiceImg: "/assets/img/homepage/arrow.svg"
+backgroundImg: '/assets/img/homepage/service-design.svg'
+backgroundHoverImg: '/assets/img/homepage/brndg-comm.svg'
+url: "ServiceDesign"
 ---
