@@ -951,8 +951,9 @@ html, body {
 
 .lb_work_filter li {
   display: inline;
-  padding: 10px;
+  padding: 0 0px 4px 0px;
   cursor: pointer;
+  font-family: MavenPro-Medium;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -960,7 +961,10 @@ html, body {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #393939; }
+  margin-left: 30px; }
+
+.lb_caseStusy {
+  margin-top: 50px; }
 
 .lb-Workfilter {
   padding-top: 50px; }
@@ -969,7 +973,7 @@ ul.lb_work_filter.lb_filter_lg {
   text-align: center; }
 
 li.lb_work_filterActive {
-  border-bottom: 5px solid #ea1c49;
+  border-bottom: 2px solid #ea1c49;
   color: #ea1c49; }
 
 li.lb_work_filterli:first-child {
@@ -981,7 +985,7 @@ li.lb_work_filterli:first-child {
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 30px; }
+  padding-left: 30px; }
 
 button.lb_btn:focus {
   outline: none; }
@@ -989,12 +993,9 @@ button.lb_btn:focus {
 .lb_btn_div {
   width: 160px;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 .lb_btn {
-  padding-left: 30px;
-  padding-right: 30px;
   height: 50px;
   opacity: 0.92;
   border-radius: 25px;
@@ -1013,17 +1014,18 @@ button.lb_btn:focus {
 .lb-filter-head {
   width: 121px;
   height: 56px;
-  font-family: MavenPro;
+  font-family: MavenPro-Medium;
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 24px; }
 
 .lb-filter-header {
-  font-family: MavenPro;
+  font-family: MavenPro-Medium;
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
@@ -1032,7 +1034,8 @@ button.lb_btn:focus {
   letter-spacing: normal;
   text-align: left;
   color: #5d6a6f;
-  color: var(--slate-grey); }
+  color: var(--slate-grey);
+  padding-top: 15px; }
 
 .lb-filter-headdesc {
   font-family: PTSans;
@@ -1056,7 +1059,8 @@ button.lb_btn:focus {
   letter-spacing: normal;
   text-align: left;
   color: #5d6a6f;
-  color: var(--slate-grey); }
+  color: var(--slate-grey);
+  padding-top: 10px; }
 
 div.test {
   display: none; }
@@ -1079,32 +1083,84 @@ div.test {
   .lb_filter_lg {
     display: none; }
   .work_selectdiv {
-    width: 247px;
+    width: 215px;
     margin: 0 auto; }
   .work_select {
     background-color: #fff;
-    border: 1px solid #333;
+    border: none;
     padding: 10px;
-    border-radius: 16px; }
+    /* border-radius: 16px; */
+    border-bottom: 2px solid #ea1c49;
+    color: #ea1c49;
+    padding: 0px;
+    padding-bottom: 4px; }
   select.work_select:focus {
     outline: none; }
   .lb_filter_mb {
-    display: block; } }
+    display: block; }
+  .lb-filter-head {
+    font-size: 16px; }
+  .lb-filter-header {
+    font-size: 16px; }
+  .lb-filter-headdesc {
+    font-size: 12px; }
+  .lb_btn {
+    height: 32px;
+    font-size: 14px; }
+  .lb_btn_div {
+    width: 100px; } }
+
+@media screen and (max-width: 420px) {
+  .lb-filter-Img {
+    height: 194px; } }
 
 @media screen and (min-width: 768px) {
   .lb_filter_lg {
     display: block; }
   .lb_filter_mb {
-    display: none; } }
+    display: none; }
+  .lb-filter-head {
+    font-size: 24px; }
+  .lb-filter-header {
+    font-size: 24px; }
+  .lb-filter-headdesc {
+    font-size: 14px; }
+  .lb_btn {
+    height: 50px;
+    font-size: 16px; }
+  .lb_btn_div {
+    width: 160px; } }
 
 @media screen and (min-width: 1025px) {
   .lb_filter_lg {
     display: block; }
   .lb_filter_mb {
-    display: none; } }
+    display: none; }
+  .lb-filter-head {
+    font-size: 24px; }
+  .lb-filter-header {
+    font-size: 24px; }
+  .lb-filter-headdesc {
+    font-size: 14px; }
+  .lb_btn {
+    height: 50px;
+    font-size: 16px; }
+  .lb_btn_div {
+    width: 160px; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
     display: block; }
   .lb_filter_mb {
-    display: none; } }
+    display: none; }
+  .lb-filter-head {
+    font-size: 24px; }
+  .lb-filter-header {
+    font-size: 24px; }
+  .lb-filter-headdesc {
+    font-size: 14px; }
+  .lb_btn {
+    height: 50px;
+    font-size: 16px; }
+  .lb_btn_div {
+    width: 160px; } }
