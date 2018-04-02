@@ -59,10 +59,9 @@
     font-family: 'PtSansRegular';
     src: url('/assets/font/PT_Sans-Web-Regular.ttf');
 } 
-
-
-
-
+body{
+    overflow-x: hidden;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -159,6 +158,31 @@ table {
 }
 
 @media screen and (min-width: 320px){
+    .headingBold{
+    font-family: 'MavenPro-Medium';
+    font-size: 24px;
+    font-weight: 500;
+    color: #393939;
+}
+.headingLight{
+    font-family:'MavenPro-Regular';
+    font-size: 24px;
+    font-weight: normal;
+    color: #393939;
+}
+.typography{
+    font-size: 12px;
+    font-family: 'MavenPro-Bold';
+    font-weight: bold;
+    color: #393939;
+}
+.paragraph{
+    font-family:'PT_Sans-Regular';
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #393939;
+}
     .heroText{
         font-size: 24px;
     }
@@ -184,8 +208,59 @@ table {
         }
     }
 }
+// BUTTON 
 
+.commonButton{
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'PT_Sans-Regular';
+    color: #393939;
+    outline: none;
+    text-align: center;
+}
+.commonButton:hover{
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    color: #fff;
+}
+.input{
+    width: 264px;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: solid 1px #bfbfbf;
+    margin: 12px 0px 6px;
+    padding: 12px;
+    outline: none;
+    font-family: 'PtSansRegular';
+    padding: 12px 14px;
+  }
+  .input:hover,input:focus{
+    border: solid 2px #7d8d92;
+  }
+  textarea:hover,textarea:focus{
+    border: solid 2px #7d8d92;
+  }
 @media screen and (min-width: 768px){
+    .headingBold{
+        font-size:32px;
+    }
+    .headingLight{
+        font-size: 32px;
+    }
+    .typography{
+        font-size: 16px;
+    }
+    .paragraph{
+        font-size: 14px;
+    }
+    .input{
+        font-size: 14px;
+        padding: 12px 10px;
+    }
     .lb_bdy{
         margin-top: 80px;
     }
@@ -209,6 +284,28 @@ table {
 }
 
 @media screen and (min-width: 1025px){
+    .headingBold{
+        font-size:40px;
+    }
+    .headingLight{
+        font-size: 40px;
+    }
+    .typography{
+        font-size:20px;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+    .input{
+        padding: 14px 10px;
+    }
+    .commonButton{
+        border-radius: 20px;
+        font-size: 16px;
+        padding: 10px 41px;
+    }
+    
+
     .lb_bdy{
         height: calc(100vh + 160px);
     }
@@ -241,6 +338,23 @@ table {
 }
 
 @media screen and (min-width: 1367px){
+    .headingBold{
+        font-size:48px;
+    }
+    .headingLight{
+        font-size: 48px;
+    }
+    .typography{
+        font-size:24px;
+    }
+    .paragraph{
+        font-size:20px;
+    }
+    .commonButton{
+        border-radius: 28px;
+        font-size: 20px;
+    }
+    
     .bnr{
       padding:0 0 0% 18%;
     }

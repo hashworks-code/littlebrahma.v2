@@ -104,13 +104,22 @@
                 {% assign item = site.practice %} {% for services in item %}
                     <div class="prct_svc_title">
                         <div class="row svcCont">
-                            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                 <img alt="littlebrahma__service-mudra-for-{{services.title}}_img" src="{{services.img}}"/>
                             </div>
-                            <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 noPadding lgCon">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">{{services.title}}</div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc1}}</div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc2}}</div>
+                                  <div class="knowmore">
+                                    <div class="">
+                                        <button class="commonButton" type="submit" id="submit-form">Know More</button>
+                                        </div>
+                                        <div class="">
+                                            <button class="commonButton" type="submit" id="submit-form">View Projects</button>
+                                     </div>
+                                  </div>
+                                
                             </div>
                         </div>
                     </div>

@@ -40,11 +40,11 @@
 
         <div class="col-xs-12 col-sm-pull-4 col-sm-5 col-md-5  col-lg-5  contact1__form">
           <form id="contactform" action="" name="contactus">
-              <input type="text" placeholder="Name" type="name" required />
-              <input type="email" placeholder="Email id" type="email" required />
+              <input class="input" type="text" placeholder="Name" type="name" required />
+              <input class="input" type="email" placeholder="Email id" type="email" required />
               <h2>YOUR MESSAGE IS REQUIRED</h2>
               <textarea name="" id="" cols="30" rows="10" placeholder="Priorities, target audience, competitiors, deadlines etc." required></textarea>
-              <button class="send" type="submit" id="submit-form">send</button>
+              <button class="commonButton" type="submit" id="submit-form">send</button>
           </form>
         </div>
         
@@ -71,16 +71,11 @@
       var modal = document.getElementById('myModal1');
       var btn = document.getElementsByClassName("myBtn");
       var span = document.getElementsByClassName("close1")[0];
-   
          for(let i=0;i<btn.length;i++){
-
           btn[i].onclick = function() {
-           
           modal.style.display = "block";
-         
       }
          }
-
       span.onclick = function() {
           modal.style.display = "none";
       }
