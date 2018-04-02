@@ -29,6 +29,10 @@ collections:
     title: Service
     output: true
     permalink: "/service/:path/"
+  practice:
+    title: Practice
+    output: true
+    permalink: "/practice/:path/"
   uploads:
     title: Uploads
     output: true

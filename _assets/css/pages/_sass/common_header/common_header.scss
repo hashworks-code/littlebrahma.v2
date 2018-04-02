@@ -545,7 +545,10 @@ Primary style
     border: none;
 }
 .close1 {
-   float: right;; 
+   float: right;
+   img{
+     width: 30px;
+   }
 }
 
 .close1:hover,
@@ -554,13 +557,28 @@ Primary style
 }
 
 @media only screen and (min-width:320px) {
+  .send{
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: white;
+    font-family: 'PtSansRegular';
+    font-size: 14px;
+    color: #393939;
+    margin: 12px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
   .contactHeading{
     width: 320px;
     margin: 0 auto;
   }
   .contactHeader{
     width: 175px;
-    font-family: 'MavenPro-Regular';
+    font-family: 'MavenPro-Medium';
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -578,13 +596,11 @@ Primary style
 
 
     h2{
-      font-family: 'MavenPro-Regular';
+      font-family: 'MavenPro-Bold';
       font-size: 12px;
-      font-weight: bold;
+      font-weight: 500;
       font-style: normal;
-      font-stretch: normal;
       line-height: normal;
-      letter-spacing: normal;
       text-align: left;
       color: #5d6a6f;
     }
@@ -592,18 +608,7 @@ Primary style
     h2{
       margin: 12px 0px;
     }
-  button{
-    width: 100px;
-    height: 32px;
-    border-radius: 16px;
-    border: solid 2px #022b3b;
-    background-color: white;
-    font-family: 'MavenPro-Regular';
-    font-size: 14px;
-    text-align: center;
-    color: #393939;
-    margin: 12px 0px 0px 0px;
-  }
+ 
       input{
         width: 264px;
         height: 40px;
@@ -614,6 +619,13 @@ Primary style
         margin: 12px 0px 6px;
         padding: 12px;
         outline: none;
+        font-family: 'PtSansRegular';
+      }
+      input:hover,input:focus{
+        border: solid 2px #7d8d92;
+      }
+      textarea:hover,textarea:focus{
+        border: solid 2px #7d8d92;
       }
       textarea{
         width: 262px;
@@ -624,6 +636,8 @@ Primary style
         padding: 12px;
         outline: none;
         resize: none;
+        font-family: 'PtSansRegular';
+        font-size: 12px;
       }
     }
     &__company{
@@ -631,7 +645,7 @@ Primary style
         margin: 24px 0px 12px;
       }
       h3{
-        font-family: 'MavenPro-Regular';
+        font-family: 'PtSansRegular';
         font-size: 12px;
         font-weight: normal;
         text-align: left;
@@ -650,6 +664,11 @@ Primary style
 
 }
 @media only screen and (min-width:767px) {
+  .send{
+    margin: 12px 0px 0px 0px;
+    display: block;
+    border-radius: 20px;
+  }
   .contactHeading{
     width: 700px;
   }
@@ -673,10 +692,7 @@ Primary style
     h2{
       margin: 12px 0px 12px;
     }
-  button{
-    margin: 12px 0px 0px 0px;
-    display: block;
-  }
+ 
       input{
         width: 220px;
         margin: 0px 0px 12px;
@@ -684,6 +700,7 @@ Primary style
       textarea{
         width: 220px;
         height: 115px;
+        font-size: 14px;
       }
     }
     &__company{
@@ -708,13 +725,19 @@ Primary style
 }
 
 @media only screen and (min-width:1024px) {
+  .send{
+    width: 130px;
+    height: 40px;
+    margin: 32px 0px 0px 0px;
+    font-size: 16px;
+  }
   .contactHeading{
     width:936px;
   }
   .contactHeader{
     width:936px;
     font-size: 40px;
-    margin:100px auto 80px;
+    margin:40px auto 50px;
   }
   .contact1{
     width:936px;
@@ -728,12 +751,7 @@ Primary style
       margin: 12px 0px 16px;
       font-size: 16px;
     }
-  button{
-    width: 130px;
-    height: 40px;
-    margin: 32px 0px 0px 0px;
-    font-size: 16px;
-  }
+ 
       input{
         width: 300px;
         margin: 0px 0px 16px;
@@ -751,7 +769,7 @@ Primary style
      }
       h2{
         font-size: 24px;
-        margin: 24px 0px 6px;
+        margin: 32px 0px 6px;
       }
       h3{
         font-size: 14px;
@@ -767,13 +785,19 @@ Primary style
 }
 
 @media only screen and (min-width:1440px) {
+  .send{
+    width: 160px;
+    height: 56px;
+    margin: 32px 0px 0px 0px;
+    font-size: 20px;
+  }
   .contactHeading{
     width: 1125px;
   }
   .contactHeader{
     width:1125px;
     font-size: 48px;
-    margin:140px auto 120px;
+    margin:50px auto 60px;
   }
   .contact1{
     width:1125px;
@@ -784,12 +808,7 @@ Primary style
       margin: 12px 0px 16px;
       font-size: 16px;
     }
-  button{
-    width: 160px;
-    height: 56px;
-    margin: 32px 0px 0px 0px;
-    font-size: 16px;
-  }
+ 
       input{
         width: 350px;
         margin: 0px 0px 16px;
