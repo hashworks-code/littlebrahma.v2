@@ -1007,10 +1007,6 @@ button.lb_btn:focus {
 .lb-filter-service {
   padding-bottom: 30px; }
 
-.lb-filterDiv {
-  padding-left: 42px;
-  padding-right: 42px; }
-
 .lb-filter-head {
   width: 121px;
   height: 56px;
@@ -1038,7 +1034,6 @@ button.lb_btn:focus {
   padding-top: 15px; }
 
 .lb-filter-headdesc {
-  font-family: PTSans;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -1050,7 +1045,7 @@ button.lb_btn:focus {
   color: var(--slate-grey); }
 
 .lb-filter-footer {
-  font-family: MavenPro;
+  font-family: MavenPro-Medium;
   font-size: 12px;
   font-weight: bold;
   font-style: normal;
