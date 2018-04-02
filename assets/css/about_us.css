@@ -639,6 +639,26 @@ html, body {
   cursor: pointer; }
 
 @media only screen and (min-width: 320px) {
+  .send {
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: white;
+    font-family: 'PtSansRegular';
+    font-size: 14px;
+    color: #393939;
+    margin: 12px 0px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    outline: none; }
   .contactHeading {
     width: 320px;
     margin: 0 auto; }
@@ -666,26 +686,6 @@ html, body {
       color: #5d6a6f; }
     .contact1__form h2 {
       margin: 12px 0px; }
-    .contact1__form button {
-      width: 100px;
-      height: 32px;
-      border-radius: 16px;
-      border: solid 2px #022b3b;
-      background-color: white;
-      font-family: 'PtSansRegular';
-      font-size: 14px;
-      color: #393939;
-      margin: 12px 0px 0px 0px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      outline: none; }
     .contact1__form input {
       width: 264px;
       height: 40px;
@@ -727,6 +727,10 @@ html, body {
       margin: 16px 46px 24px; } }
 
 @media only screen and (min-width: 767px) {
+  .send {
+    margin: 12px 0px 0px 0px;
+    display: block;
+    border-radius: 20px; }
   .contactHeading {
     width: 700px; }
   .modal-content1 {
@@ -743,10 +747,6 @@ html, body {
       font-size: 12px; }
     .contact1__form h2 {
       margin: 12px 0px 12px; }
-    .contact1__form button {
-      margin: 12px 0px 0px 0px;
-      display: block;
-      border-radius: 20px; }
     .contact1__form input {
       width: 220px;
       margin: 0px 0px 12px; }
@@ -766,12 +766,17 @@ html, body {
       margin: 115px 0px 0px; } }
 
 @media only screen and (min-width: 1024px) {
+  .send {
+    width: 130px;
+    height: 40px;
+    margin: 32px 0px 0px 0px;
+    font-size: 16px; }
   .contactHeading {
     width: 936px; }
   .contactHeader {
     width: 936px;
     font-size: 40px;
-    margin: 100px auto 80px; }
+    margin: 40px auto 50px; }
   .contact1 {
     width: 936px;
     margin: 0 auto; }
@@ -779,11 +784,6 @@ html, body {
       font-size: 12px; }
     .contact1__form h2 {
       margin: 12px 0px 16px;
-      font-size: 16px; }
-    .contact1__form button {
-      width: 130px;
-      height: 40px;
-      margin: 32px 0px 0px 0px;
       font-size: 16px; }
     .contact1__form input {
       width: 300px;
@@ -805,23 +805,23 @@ html, body {
       height: 255px; } }
 
 @media only screen and (min-width: 1440px) {
+  .send {
+    width: 160px;
+    height: 56px;
+    margin: 32px 0px 0px 0px;
+    font-size: 20px; }
   .contactHeading {
     width: 1125px; }
   .contactHeader {
     width: 1125px;
     font-size: 48px;
-    margin: 140px auto 120px; }
+    margin: 50px auto 60px; }
   .contact1 {
     width: 1125px;
     margin: 0 auto; }
     .contact1__form h2 {
       margin: 12px 0px 16px;
       font-size: 16px; }
-    .contact1__form button {
-      width: 160px;
-      height: 56px;
-      margin: 32px 0px 0px 0px;
-      font-size: 20px; }
     .contact1__form input {
       width: 350px;
       margin: 0px 0px 16px;

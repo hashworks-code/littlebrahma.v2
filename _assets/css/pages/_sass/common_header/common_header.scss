@@ -557,6 +557,21 @@ Primary style
 }
 
 @media only screen and (min-width:320px) {
+  .send{
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: white;
+    font-family: 'PtSansRegular';
+    font-size: 14px;
+    color: #393939;
+    margin: 12px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
   .contactHeading{
     width: 320px;
     margin: 0 auto;
@@ -593,21 +608,7 @@ Primary style
     h2{
       margin: 12px 0px;
     }
-  button{
-    width: 100px;
-    height: 32px;
-    border-radius: 16px;
-    border: solid 2px #022b3b;
-    background-color: white;
-    font-family: 'PtSansRegular';
-    font-size: 14px;
-    color: #393939;
-    margin: 12px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    outline: none;
-  }
+ 
       input{
         width: 264px;
         height: 40px;
@@ -663,6 +664,11 @@ Primary style
 
 }
 @media only screen and (min-width:767px) {
+  .send{
+    margin: 12px 0px 0px 0px;
+    display: block;
+    border-radius: 20px;
+  }
   .contactHeading{
     width: 700px;
   }
@@ -686,11 +692,7 @@ Primary style
     h2{
       margin: 12px 0px 12px;
     }
-  button{
-    margin: 12px 0px 0px 0px;
-    display: block;
-    border-radius: 20px;
-  }
+ 
       input{
         width: 220px;
         margin: 0px 0px 12px;
@@ -723,13 +725,19 @@ Primary style
 }
 
 @media only screen and (min-width:1024px) {
+  .send{
+    width: 130px;
+    height: 40px;
+    margin: 32px 0px 0px 0px;
+    font-size: 16px;
+  }
   .contactHeading{
     width:936px;
   }
   .contactHeader{
     width:936px;
     font-size: 40px;
-    margin:100px auto 80px;
+    margin:40px auto 50px;
   }
   .contact1{
     width:936px;
@@ -743,12 +751,7 @@ Primary style
       margin: 12px 0px 16px;
       font-size: 16px;
     }
-  button{
-    width: 130px;
-    height: 40px;
-    margin: 32px 0px 0px 0px;
-    font-size: 16px;
-  }
+ 
       input{
         width: 300px;
         margin: 0px 0px 16px;
@@ -782,13 +785,19 @@ Primary style
 }
 
 @media only screen and (min-width:1440px) {
+  .send{
+    width: 160px;
+    height: 56px;
+    margin: 32px 0px 0px 0px;
+    font-size: 20px;
+  }
   .contactHeading{
     width: 1125px;
   }
   .contactHeader{
     width:1125px;
     font-size: 48px;
-    margin:140px auto 120px;
+    margin:50px auto 60px;
   }
   .contact1{
     width:1125px;
@@ -799,12 +808,7 @@ Primary style
       margin: 12px 0px 16px;
       font-size: 16px;
     }
-  button{
-    width: 160px;
-    height: 56px;
-    margin: 32px 0px 0px 0px;
-    font-size: 20px;
-  }
+ 
       input{
         width: 350px;
         margin: 0px 0px 16px;
