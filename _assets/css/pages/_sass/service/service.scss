@@ -1,5 +1,20 @@
 @import "workpage/workpage.scss";
-
+@import "practice/practice.scss";
+.prct .hero_img{
+    background-image: url(/assets/img/workpage/group-3.png);
+}
+@media screen and (min-width: 1367px){
+.hero_cnt {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+}
+@media screen and (min-width: 1025px){
+.hero_cnt {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+}
 .lb_service{
    margin-top:80px;
    padding-bottom: 50px;
@@ -40,11 +55,15 @@
     position: relative;
 }
 .btn-circle {
-    width: 30px;
-    height: 30px;
+    width: 12px;
+    height: 12px;
     text-align: center;
-    padding: 6px 0;
+    /* padding: 6px 0; */
     font-size: 12px;
     line-height: 1.428571429;
-    border-radius: 15px;
+    border-radius: 30px !important;
+    border: 1px solid green !important;
+    background-color: #7d8d92;
+    color: black;
+    margin-top: 8px;
 }

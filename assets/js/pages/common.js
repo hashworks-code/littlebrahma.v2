@@ -1,6 +1,16 @@
 (function() {
 
     $(document).ready(function() {
+        $('[data-toggle="popover"]').click(function(){
+            $(this).popover('toggle');
+            $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
+        });
+        $('.btn').popover();
+
+        $('.btn').on('click', function (e) {
+            $('.btn').not(this).popover('hide');
+        });
+    
         $('.lb-filter-service').hide();
         $(".lb_work_filterli").click(function(){
             $(this).addClass('lb_work_filterActive');
