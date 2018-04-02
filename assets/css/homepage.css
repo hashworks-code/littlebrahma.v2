@@ -58,6 +58,9 @@
   font-family: 'PtSansRegular';
   src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
 
+body {
+  overflow-x: hidden; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1114,7 +1117,7 @@ html, body {
     .prct_dic .imgContainer {
       text-align: center; }
   .prct_svc {
-    padding: 46px 35px 46px 29px; }
+    padding: 37px 35px 46px 29px; }
     .prct_svc_title {
       font-family: "MavenPro-Medium";
       text-align: center; }
@@ -1185,6 +1188,11 @@ html, body {
             transform: rotate(210deg); } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .lgCon {
+    margin-top: 40px; }
+  .knowmore {
+    width: 300px;
+    margin: 0 auto; }
   .prct .genericTitle {
     font-size: 20px; }
   .prct .fixCont {
@@ -1209,9 +1217,9 @@ html, body {
     text-align: center;
     font-size: 24px; }
     .prct_svc_title .svcCont {
-      padding-top: 35px; }
+      padding-top: 72px; }
       .prct_svc_title .svcCont img {
-        max-width: 135px; }
+        max-width: 80px; }
     .prct_svc_title .indTxt {
       font-size: 17px; }
     .prct_svc_title .indCon {
@@ -1220,8 +1228,7 @@ html, body {
       padding-bottom: 5px; }
   .prct .dnaContainer {
     font-size: 14px;
-    padding-top: 30px;
-    padding-bottom: 21px; }
+    padding-top: 30px; }
   .prctDiv {
     margin-top: 55px; }
     .prctDiv .prctSec_tab {
@@ -1231,6 +1238,9 @@ html, body {
     margin: 50px 29px 0; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .knowmore {
+    width: 350px;
+    margin: 0px; }
   .prct .fixCont {
     display: none; }
   .prct .dnaImgMob {
@@ -1280,7 +1290,7 @@ html, body {
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
-    padding: 50px 100px; }
+    padding: 50px 35px; }
     .prct_svc_title {
       text-align: center;
       font-size: 24px; }
@@ -1297,7 +1307,8 @@ html, body {
   .prct .dnaContainer {
     font-size: 17px;
     padding-top: 30px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    width: 690px; }
   .prctDiv {
     margin-top: 80px; }
     .prctDiv .prctSec_tab {
@@ -1307,6 +1318,11 @@ html, body {
     margin: 50px 29px 0; } }
 
 @media screen and (min-width: 1025px) {
+  .knowmore {
+    width: 400px;
+    margin: 0px; }
+  .noPadding {
+    width: 623px; }
   .prct {
     /* Safari 4.0 - 8.0 */
     /* Standard syntax */
@@ -1316,7 +1332,7 @@ html, body {
       font-size: 32px; }
     .prct_dic .title {
       font-size: 32px;
-      padding-bottom: 5px;
+      padding-bottom: 41px;
       padding-top: 35px; }
     .prct_dic .bldContent {
       font-size: 18px;
@@ -1328,7 +1344,7 @@ html, body {
       height: 377px;
       margin: -20px 0; }
     .prct_svc {
-      padding: 55px 150px; }
+      padding: 55px 0px; }
       .prct_svc_title {
         font-size: 40px; }
         .prct_svc_title .svcCont {
@@ -1339,14 +1355,15 @@ html, body {
           font-size: 32px; }
         .prct_svc_title .indCon {
           font-size: 20px;
-          padding-top: 15px;
+          padding-top: 30px;
           padding-bottom: 10px; }
       .prct_svc .sCont {
         padding-top: 15px; }
     .prct .dnaContainer {
       font-size: 17px;
       padding-top: 25px;
-      padding-bottom: 85px; }
+      padding-bottom: 85px;
+      width: 970px; }
     .prct .scrollContainer {
       height: calc(300vh - 80px);
       position: relative;
@@ -1423,6 +1440,9 @@ html, body {
     margin: 70px 29px 0; } }
 
 @media screen and (min-width: 1367px) {
+  .knowmore {
+    width: 460px;
+    margin: 0px; }
   .prct .genericTitle {
     font-size: 48px; }
   .prct .contextTitle {
