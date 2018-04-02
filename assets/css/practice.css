@@ -1172,8 +1172,13 @@ html, body {
   .lgCon {
     margin-top: 40px; }
   .knowmore {
-    width: 300px;
-    margin: 0 auto; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 260px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .prct .genericTitle {
     font-size: 20px; }
   .prct .fixCont {
@@ -1220,8 +1225,13 @@ html, body {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .knowmore {
-    width: 350px;
-    margin: 0px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 260px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .prct .fixCont {
     display: none; }
   .prct .dnaImgMob {
@@ -1300,8 +1310,13 @@ html, body {
 
 @media screen and (min-width: 1025px) {
   .knowmore {
-    width: 400px;
-    margin: 0px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 372px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .noPadding {
     width: 623px; }
   .prct {
@@ -1422,8 +1437,13 @@ html, body {
 
 @media screen and (min-width: 1367px) {
   .knowmore {
-    width: 460px;
-    margin: 0px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 415px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .prct .genericTitle {
     font-size: 48px; }
   .prct .contextTitle {
