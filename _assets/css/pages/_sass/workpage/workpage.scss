@@ -265,3 +265,296 @@
 //     }  
 //     }
 // }
+
+#lb_btn1{
+    display: none;
+}
+
+.lb_work_filter li {
+    display: inline;
+    padding: 0 0px 4px 0px;
+    cursor: pointer;
+    font-family: MavenPro-Medium;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left:30px;
+}
+.lb_caseStusy{
+   margin-top:50px;
+}
+.lb-Workfilter{
+    padding-top:50px;
+}
+ul.lb_work_filter.lb_filter_lg{
+    text-align: center;
+}
+li.lb_work_filterActive{
+    border-bottom: 2px solid #ea1c49;
+    color: #ea1c49;
+}
+li.lb_work_filterli:first-child{
+    margin-left: 10px !important;
+}
+.lb-filter-Img{
+    // width:100%;
+    height: 340px;
+    // background-image:url('/assets/img/workpage/groome.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:100%;
+    padding-left: 30px;
+}
+button.lb_btn:focus {
+    outline: none;
+}
+// .lb-filter-Img1{
+//     // width:100%;
+//     height: 340px;
+//     background-image:url('/assets/img/workpage/groome-copy-2.png');
+//     background-size:cover;
+//     background-position:center center;
+//     background-repeat:no-repeat;
+//     width:100%;
+//     padding: 30px;
+// }
+// .lb-filter-Img2{
+//     height: 340px;
+//     background-image:url('/assets/img/workpage/groome-copy-3.png');
+//     background-size:cover;
+//     background-position:center center;
+//     background-repeat:no-repeat;
+//     width:100%;
+// }
+// .lb-filter-Img3{
+//     height: 340px;
+//     background-image:url('/assets/img/workpage/groome-copy-4.png');
+//     background-size:cover;
+//     background-position:center center;
+//     background-repeat:no-repeat;
+//     width:100%;
+// }
+.lb_btn_div{
+    width: 160px;
+    margin: 0 auto;
+    // padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+.lb_btn{
+//   padding-left: 30px;
+//   padding-right: 30px;
+  height: 50px;
+  opacity: 0.92;
+  border-radius: 25px;
+  border: solid 2px #ea1c49;
+  width: 100%;
+  background-color: #ea1c49;
+  color: #fff;
+}
+.lb-filter-service{
+   padding-bottom: 30px;
+}
+.lb-filterDiv{
+   padding-left:42px;
+   padding-right: 42px;
+}
+.lb-filter-head{
+    width: 121px;
+    height: 56px;
+    font-family: MavenPro-Medium;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 24px;
+  }
+  .lb-filter-header{
+    font-family: MavenPro-Medium;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6a6f;
+    color: var(--slate-grey);
+    padding-top: 15px;
+  }
+  .lb-filter-headdesc{
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d6a6f;
+    color: var(--slate-grey);
+  }
+    .lb-filter-footer{
+        font-family: MavenPro;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #5d6a6f;
+        color: var(--slate-grey);
+        padding-top: 10px;
+    }
+    div.test { display:none }
+        .message {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        }
+    // .lb-ProductDesign{
+    //     display: none;
+    // }
+    // .lb-Branding{
+    //     display: none;
+    // }
+    // .Productdesign{
+    //     display: none;
+    // }
+    .Servicedesign{
+        display: none;
+    }
+    .BrandingandCommunication{
+        display: none;
+    }
+    .lb-filter-service{
+       display: none;
+    }
+@media screen and (min-width: 320px){
+    .lb_filter_lg{
+       display: none;
+    }
+    .work_selectdiv{
+        width: 215px;
+        margin: 0 auto;
+    }
+    .work_select{
+        background-color: #fff;
+        border: none;
+        padding: 10px;
+        /* border-radius: 16px; */
+        border-bottom: 2px solid #ea1c49;
+        color: #ea1c49;
+        padding: 0px;
+        padding-bottom: 4px;
+    }
+    select.work_select:focus {
+        outline: none;
+    }
+    .lb_filter_mb{
+       display: block;
+    }
+    .lb-filter-head{
+        font-size: 16px;
+    }
+    .lb-filter-header{
+        font-size: 16px;
+    }
+    .lb-filter-headdesc{
+        font-size: 12px;
+    }
+    .lb_btn{
+        height: 32px;
+        font-size: 14px;
+    }
+    .lb_btn_div{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 420px){
+    .lb-filter-Img {
+        height: 194px;
+    }
+}
+@media screen and (min-width: 768px){
+    .lb_filter_lg{
+       display: block;
+    }
+    .lb_filter_mb{
+      display: none;
+    }
+    .lb-filter-head{
+        font-size: 24px;
+    }
+    .lb-filter-header{
+        font-size: 24px;
+    }
+    .lb-filter-headdesc{
+        font-size: 14px;
+    }
+    .lb_btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .lb_btn_div{
+        width: 160px;
+    }
+}
+@media screen and (min-width: 1025px){
+    .lb_filter_lg{
+       display: block;
+    }
+    .lb_filter_mb{
+      display: none;
+    }
+    .lb-filter-head{
+        font-size: 24px;
+    }
+    .lb-filter-header{
+        font-size: 24px;
+    }
+    .lb-filter-headdesc{
+        font-size: 14px;
+    }
+    .lb_btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .lb_btn_div{
+        width: 160px;
+    }
+
+}
+@media screen and (min-width: 1367px){
+    .lb_filter_lg{
+       display: block;
+    }
+    .lb_filter_mb{
+      display: none;
+    }
+    .lb-filter-head{
+        font-size: 24px;
+    }
+    .lb-filter-header{
+        font-size: 24px;
+    }
+    .lb-filter-headdesc{
+        font-size: 14px;
+    }
+    .lb_btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .lb_btn_div{
+        width: 160px;
+    }
+}
