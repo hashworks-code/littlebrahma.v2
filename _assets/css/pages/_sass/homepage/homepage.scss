@@ -23,6 +23,8 @@
                     }
                 }
                 p{
+                    margin-top: 20px;
+                    line-height: 20px;
                     font-size: 20px;
                     font-family: 'PT_Sans-Regular';
                 }
@@ -80,10 +82,12 @@
                         display: none;
                     }
                     h3{
+                        margin-top: 20px;
                         font-size: 24px;
                         font-family: 'MavenPro-Medium';
                     }
                     p{
+                        margin-top: 10px;
                         font-size: 14px;
                         font-family: 'PT_Sans-Regular';
                     }
@@ -130,6 +134,7 @@
             margin-top: 30px;
             width: 540px;
             h1{
+                margin-top: 20px;
                 font-size: 40px;
                 font-family: 'MavenPro-Medium';
                 color: #393939;
@@ -139,6 +144,8 @@
                 font-family: 'PT_Sans-Regular';
                 color: #5d6a6f;
                 margin-bottom: 32px;
+                margin-top: 20px;
+                line-height: 20px;
             }
             a{
                 padding: 12px 30px 14px;
@@ -147,6 +154,7 @@
                 border: solid 2px #022b3b;
                 font-size: 20px;
                 font-family: 'PT_Sans-Regular';
+                text-decoration: none;
             }
         }
     }

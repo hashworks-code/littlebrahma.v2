@@ -80,6 +80,10 @@
     font-family: 'MavenPro-Regular';
     color: #393939;
     padding: 80px 0 0 164px;
+    h1{
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
     a{
       padding: 12px 30px 14px;
       border-radius: 28px;
@@ -87,6 +91,7 @@
       font-family: 'PT_Sans-Regular';
       font-size: 20px;
       color: #393939;
+      text-decoration: none;
     }
   }
   &__bottom{
@@ -106,6 +111,15 @@
     }
     &__div1{
       text-align: center;
+      img{
+        width: 23px;
+        height: 23px;
+        margin-right: 5px;
+      }
+      .behance{
+        width: 28px;
+        height: 28px;
+      }
     }
     &__div2{
       text-align: right;
@@ -146,6 +160,14 @@ height: 460px;
   bottom:16px;
   div{
     font-size: 12px;
+    img{
+      width: 21px;
+      height: 21px;
+    }
+    .behance{
+      width: 25px;
+      height: 25px;
+    }
   }
 }
 }
@@ -164,6 +186,14 @@ height: 460px;
   bottom:16px;
   div{
     font-size: 8px;
+    img{
+      width: 8px;
+      height: 8px;
+    }
+    .behance{
+      width: 10px;
+      height: 10px;
+    }
   }
 }
 }
@@ -171,6 +201,11 @@ height: 460px;
 @media screen and (max-width: 600px) {
 .footer{
 height: 300px;
+&__inner{
+  h1{
+    margin-bottom: 20px;
+  }
+}
 }
 } 
 @media screen and (max-width: 420px) {

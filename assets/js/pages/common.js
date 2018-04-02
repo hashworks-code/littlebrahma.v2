@@ -22,36 +22,104 @@
             //   $('.BrandingandCommunication').show();
             // }
         });
+        var count=0;
       
         var length = $(".lb-filter-service").length;
             var id = $("#active").data("id");
             for (var i = 1; i <= length; i++) {
                 var id1 = $(".work" + i).data("id");
                 if (id == id1) {
-                 
-                    $(".work" + i).show();
+                    count++;
+                    if(count<=1){
+                        $(".work" + i).show();
+                    }
                 }
             }
+     
                   $(".lb_work_filterli").click(function() {
+                    $("#lb_btn1").hide();
+                    $("#lb_btn").show();
+                      count=0;
                     $('.lb-filter-service').hide();
                       var id = $(this).data("id");
                       for (var i = 1; i <= length; i++) {
                           var id1 = $(".work" + i).data("id");
                           if (id == id1) {
-                           
-                              $(".work" + i).show();
+                           count++;
+                           if(count<=1){
+                            $(".work" + i).show();
+                        }
                           }
                       }
                   });
+
+                  $("#lb_btn").click(function() {
+                    $('.lb-filter-service').hide();
+                        var id = $('.lb_work_filterli.lb_work_filterActive').data("id");
+                        var id2 = $('.work_select').val();
+                        for (var i = 1; i <= length; i++) {
+                            var id1 = $(".work" + i).data("id");
+                            if ($(window).width() > 767) {
+                                if (id == id1 ) {
+                                    $(".work" + i).show();
+                                }
+                            }
+                            if ($(window).width() <= 767) {
+                                if (id2 == id1) {
+                                    $(".work" + i).show();
+                                }
+                            }
+                        }
+                    // for (var i = 1; i <= count; i++) {
+                    //     $(".work" + i).show();
+                    // }
+                    $("#lb_btn").hide();
+                    $("#lb_btn1").show();
+                }); 
+
+                $("#lb_btn1").click(function() {
+                    count=0;
+                    $('.lb-filter-service').hide();
+                        var id = $('.lb_work_filterli.lb_work_filterActive').data("id");
+                        var id2 = $('.work_select').val();
+                        for (var i = 1; i <= length; i++) {
+                            var id1 = $(".work" + i).data("id");
+                            if ($(window).width() > 767) {
+                            if (id == id1) {
+                                count++;
+                                if(count<=1){
+                                    $(".work" + i).show();
+                                }
+                            }
+                        }
+                        if ($(window).width() <= 767) {
+                            if (id2 == id1) {
+                                count++;
+                                if(count<=1){
+                                    $(".work" + i).show();
+                                }
+                            }
+                        }
+                        }
+                    $("#lb_btn1").hide();
+                    $("#lb_btn").show();
+                }); 
+
+
                   $(".work_select").change(function() {
+                    $("#lb_btn1").hide();
+                    $("#lb_btn").show();
+                      count=0;
                     var id = $(this).val();
                     $('.lb-filter-service').hide();
                       
                       for (var i = 1; i <= length; i++) {
                           var id1 = $(".work" + i).data("id");
                           if (id == id1) {
-                          
-                              $(".work" + i).show();
+                            count++;
+                            if(count<=1){
+                                $(".work" + i).show();
+                            }
        
        
                           }
