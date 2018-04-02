@@ -108,83 +108,158 @@ table {
 
 //Banner Code
 
-.bnrBdy{
-    padding: 0px 29px 0;
-    height: 100vh;
-  }
-  .bnr{
-      width: 100%;
-      // height: 100vh;
-      position: fixed;
-      z-index: -1;
-      // padding:0 0 0% 18%;
-      // display: flex;
-      // align-items: center;
-      padding-top:38vh !important;
-  }
-  .heroText{
-      font-family: "MavenPro-Medium";
-      order: 1;
-  }
-  .heroHighlight{
-      color: #ea1c49;
-  }
-  .bnrText{
+// .bnrBdy{
+//     padding: 0px 29px 0;
+//     height: 100vh;
+// }
+// .bnr{
+//     width: 100%;
+//     position: fixed;
+//     z-index: -1;
+//     padding-top:38vh !important;
+// }
+.heroText{
+    font-family: "MavenPro-Medium";
+    order: 1;
+}
+.heroHighlight{
+    color: #ea1c49;
+}
+.bnrText{
     font-family: "PT_Sans-Regular";
     letter-spacing: 1px;
     order: 2;
-  }
-  @media screen and (min-width: 320px){
-      .bnr{
-        padding:0 29px 0% 0px;
-      }
-      .heroText{
-          font-size: 24px;
-      }
-      .bnrText{
-        font-size: 14px;
-        padding-top: 0px;
-      }
-  }
-  
-  @media screen and (min-width: 768px){
-      .bnr{
-        padding:0 0 0% 65px;
-      }
-      .heroText{
-          font-size: 48px;
-      }
-      .bnrText{
-        font-size: 17px;
-        padding-top: 24px;
-      }
-  }
-  
-  @media screen and (min-width: 1025px){
-      .bnr{
-        padding:0 0 0% 21px;
-      }
-      .heroText{
-          font-size: 48px;
-      }
-      .bnrText{
-        font-size: 17px;
-        padding-top: 30px;
-      }
-  }
-  
-  @media screen and (min-width: 1367px){
-      .lb_bdy{
-        padding-left: 0;
-      }
-      .bnr{
-        padding:0 0 0% 18%;
-      }
-      .heroText{
-          font-size: 60px;
-      }
-      .bnrText{
-        font-size: 20px;
-        padding-top: 30px;
-      }
-  }
+    line-height: 1.5;
+}
+.lb_bdy{
+    position: relative;
+}
+.hero{
+    &_img{
+        background-position: center center;
+        background-size: cover;
+        background-repeat:no-repeat;
+        width: 100%;
+    }
+    &_cnt{
+        margin: 0 auto;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+        position: relative;
+    }
+    &_ptn{
+        background: url(/assets/img/common/grid.png) scroll 0 0 no-repeat transparent;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .heroText{
+        font-size: 24px;
+    }
+    .bnrText{
+      font-size: 12px;
+      padding-top: 16px;
+    }
+    .lb_bdy{
+        margin-top: 70px;
+        height: auto;
+    }
+    .hero{
+        &_img{
+            height: 380px;
+        }
+        &_cnt{
+            width: 100%;
+            padding: 24px 29px;
+            margin-top: -48px;
+        }
+        &_ptn{
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .lb_bdy{
+        margin-top: 80px;
+    }
+    .heroText{
+        font-size: 32px;
+    }
+    .bnrText{
+      font-size: 14px;
+      padding-top: 24px;
+    }
+    .hero{
+        &_img{
+            height: calc(380px + 80px); 
+        }
+        &_cnt{
+            width: 581px;
+            padding: 32px 0px;
+            margin-top: -80px;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .lb_bdy{
+        height: calc(100vh + 160px);
+    }
+    .heroText{
+        font-size: 40px;
+    }
+    .bnrText{
+      font-size: 17px;
+      padding-top: 30px;
+    }
+    .hero{
+        &_img{
+            height: calc(100vh - 80px);
+        }
+        &_cnt{
+            width: 780px;
+            padding: 48px 0px;
+            margin-top: -106px;
+        }
+        &_ptn{
+            display: block;
+            width: 159px;
+            height: 160px;
+            bottom: -73px;
+            left: -73px;
+            z-index: -1;
+            background-size: contain;
+        }
+    }
+}
+
+@media screen and (min-width: 1367px){
+    .bnr{
+      padding:0 0 0% 18%;
+    }
+    .heroText{
+        font-size: 48px;
+    }
+    .bnrText{
+      font-size: 20px;
+      padding-top: 35px;
+    }
+    .hero{
+        &_cnt{
+            width: 920px;
+            padding: 80px 0px;
+            margin-top: -155px;
+        }
+        &_ptn{
+            display: block;
+            width: 198px;
+            height: 199px;
+            bottom: -90px;
+            left: -90px;
+        }
+    }
+}

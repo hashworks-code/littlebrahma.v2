@@ -1,6 +1,18 @@
+var sVal = false;
 $(document).ready(function() {
     // $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
     newFunction();
+
+    $('.prctSec_tab').click(function(){
+      $(this).addClass('prctSec_active');
+      $(this).siblings().removeClass('prctSec_active').addClass('prctSec_inactive');
+      if($(this).attr('id') == 'prctSectab_2'){
+        sVal = true;
+        $('html, body').animate({
+          scrollTop: $(".prct_svc").offset().top-50
+        }, 2000);
+      }
+    })
 });
 
 var valueReceived = ""; 
@@ -11,7 +23,7 @@ function scrollFn(val,d){
   var vL = val[val.length-1];
   valueReceivedLength = parseInt(valueReceivedLength);
   vL = parseInt(vL);
-  if(d == "down"){
+  if(d == "down" && sVal == false){
     if(valueReceivedLength <= vL){
       valueReceivedLength = vL
       if(valueReceivedLength != testVal){
@@ -30,19 +42,13 @@ function scrollFn(val,d){
       }
     }
   }
-  if(d == "up"){
+  if(d == "up" && sVal == false){
     if(valueReceivedLength >= vL){
       valueReceivedLength = vL
       if(valueReceivedLength != testVal){
         testVal = valueReceivedLength
         if("rContent_"+testVal == "rContent_1"){
           return false;
-          // $('html, body').animate({
-          //   scrollTop: $(".rContent_"+testVal).offset().top - ($(".rContent_"+testVal).height()/2)+20
-          // }, 500);
-          // $('html, body').animate({
-          //   scrollTop: $(".rContent_"+testVal).offset().top - ($("."+valueReceived).height()/2)+20
-          // }, 500);
         }
         else{
           $('html, body').animate({
@@ -71,16 +77,10 @@ function newFunction() {
       if (st > lastScrollTop) {
         if(($(window).scrollTop() + $(window).height()) >= $('.rContent_1').offset().top && (($(window).scrollTop() + $(window).height()) < $('.rContent_2').offset().top)){
           d="down";
-
-          // scrollFn("rContent_1",d)
-
           $('.fixCont img').css({ transform: 'rotate(-32deg)',transition: "all 1s" });
           if($(window).width() > 1024){
               setTimeout(function(){
                 $('.prct .rContent_1').css({visibility:"visible"});
-                // $('html, body').animate({
-                //   scrollTop: $(".rContent_1").offset().top - ($(".rContent_1").height()/2)+20
-                // }, 500);
               },500)
           }
         }
@@ -118,6 +118,7 @@ function newFunction() {
       if($(window).width() > 1024){
         $('.prct .rContent_1').css("visibility","hidden"); 
       }
+      // sVal = false;
     }
 
     if($(window).scrollTop() + $(window).height() >= $('.strategy_container').offset().top){

@@ -1,27 +1,39 @@
 {% include header.html %}
     {% include common_header.html %}
+
+
     <div class="lb_bdy prct">
-        <div class="bnrBdy">
-            <div class="bnr">
-                <div class="heroText">
-                    Design is in our <span class="heroHighlight">DNA</span>
-                </div>
-                <div class="bnrText">
-                    Our design native approach is a framework for continuos<br/>
-                    design and implementation.
-                </div>
+        <div class="hero_img"></div>
+        <div class="hero_cnt">
+            <div class="heroText">
+                Design is in our <span class="heroHighlight">DNA</span>
             </div>
-        </div>    
-        <div class="prct_rnImg">
-            <img src="/assets/img/practice/practiceBnr.png">
+            <div class="bnrText">
+                Our design native approach is a framework for continuos<br/>
+                design and implementation.
+            </div>
+            <div class="hero_ptn"></div>
         </div>
+    </div>
+    <div class="prctDiv">
+        <ul class="prctSec">
+            <li class="prctSec_active prctSec_tab" id="prctSectab_1">Philosophy</li>
+            <li class="prctSec_inactive prctSec_tab" id="prctSectab_2">Services</li>
+        </ul>
+    </div>
+    <div class="philSec prct">
         <div class="dnaSummary">
+            <div class="genericTitle text-center">
+                We design solutions for human interactions
+            </div>
             <div class="container dnaContainer">
                 <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
                     Each discipline is always involved, though at varying levels. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build. Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build.
                 </div>
             </div>
         </div>
+    </div>
+    <div class="prct">
         <div class="scrollContainer">
             <div class="fixCont">
               <img src="/assets/img/practice/dna.png"/>
@@ -76,22 +88,35 @@
                 </div>
             </div>
         </div>
-        <div class="prct_svc">
-            <div class="prct_svc_title">Our Services</div>
-            <div class="prct_svc_title">
-                <div class="row svcCont">,
-                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-                        <img src="/assets/img/practice/svc_1.png"/>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">Service Design</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We adapt people first approach to collaborate and grow your ideas into human centered products or services.</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint 
-                            in a customer experience that are delightful and radically simple.</div>
+        <div class="prct_svc" id="svc_section">
+            <!-- <div class="prct_svc_title">Our Services</div> -->
+            <div class="dnaSummary">
+                <div class="genericTitle text-center">
+                    Our Services
+                </div>
+                <div class="container dnaContainer">
+                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        Each discipline is always involved, though at varying levels. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build. Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build.
                     </div>
                 </div>
             </div>
-            <div class="prct_svc_title sCont">
+            <div class="container">
+                {% assign item = site.practice %} {% for services in item %}
+                    <div class="prct_svc_title">
+                        <div class="row svcCont">
+                            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                                <img alt="littlebrahma__service-mudra-for-{{services.title}}_img" src="{{services.img}}"/>
+                            </div>
+                            <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">{{services.title}}</div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc1}}</div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc2}}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- <div class="prct_svc_title sCont">
                 <div class="row svcCont">
                     <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
                         <img src="/assets/img/practice/svc_1.png"/>
@@ -114,7 +139,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We centre people interaction on data, insights &amp; visualization for large scale user adoption.</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     {% include common_footer.html %}
