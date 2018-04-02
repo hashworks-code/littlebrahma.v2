@@ -710,7 +710,8 @@ html, body {
       padding: 12px;
       outline: none;
       resize: none;
-      font-family: 'PtSansRegular'; }
+      font-family: 'PtSansRegular';
+      font-size: 12px; }
     .contact1__company h2 {
       margin: 24px 0px 12px; }
     .contact1__company h3 {
@@ -751,7 +752,8 @@ html, body {
       margin: 0px 0px 12px; }
     .contact1__form textarea {
       width: 220px;
-      height: 115px; }
+      height: 115px;
+      font-size: 14px; }
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 12px; }
     .contact1__company h2 {
@@ -819,7 +821,7 @@ html, body {
       width: 160px;
       height: 56px;
       margin: 32px 0px 0px 0px;
-      font-size: 16px; }
+      font-size: 20px; }
     .contact1__form input {
       width: 350px;
       margin: 0px 0px 16px;
