@@ -1,104 +1,64 @@
 {% include header.html %}
-{% include common_header.html %}
-<div id="fullpage">
-<div class="about_us-Bg commonSection section" data-anchor="about-us">
-    
- 
- <div class="about-us-height">
-<div class="row about-us">
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-us-left">
-      <div id="about_us-img" class="about-us-left__img">      </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-us-right">
-     <h1 class="about-us-right__heading">{{site.data.about_us.title1}}</h1>
-      <div class="about-us-right__underline"></div>
-<p class="about-us-right__para">{{site.data.about_us.description1}}</p>
-      <a class="about-us__button" href="/lifeAtLittleBrahma/">know more</a>
-      </div>       
-</div>
-</div>
-</div>
+    {% include common_header.html %}
 
- <div class="section" data-anchor="our-mission">
-<div class="row our-mission">
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 our-mission-left">
-       <div id="our_mission-img" class="our-mission-left__img">      </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about-us-right">
-     <h1 class="our-mission-right__heading">{{site.data.about_us.title2}}</h1>
-      <div class="our-mission-right__underline"></div>
-<p class="our-mission-right__para">{{site.data.about_us.description2}}</p>
-      
-      </div>       
-</div>
-</div>
-<!--<div class="our-mission row commonSection section" id="our_mission">
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 our-mission-left">
-       <div id="about_us_2" class="our-mission-left__img">      </div>
-       </div>
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 our-mission-right">
-       <h1 class="our-mission-right__heading">our mission</h1>
-       <div class="our-mission-right__underline"></div>
-  <p class="our-mission-right__para">Little brahma is our ultimate design karma.
-We aspire to become a creative almanac for the artistic souls</p>
-       </div>
-</div>-->
-<div class="row valuable-clients commonSection section" data-anchor="valuable_clients">
-     <div class="row valuable-clients-block">
-      <div class="valuable-clients__cont row">
-       <div class=" valuable-clients-left col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-       <h1 class="valuable-clients__heading">{{site.data.about_us.title3}}</h1>
-       <div class="valuable-clients__underline"></div>
- <p class="valuable-clients-left__para">{{site.data.about_us.description3}}</p>
-       
-       </div>
-<div class="valuable-clients__testimonials col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-       <div class="valuable-clients__quote">
-       
-       </div>
-       <div class="valuable-clients__author">
-             
-       </div>
-       <div class="valuable-clients__title">
-           
-       </div>
-        <ul class="valuable-clients-right__unorder-list">
-      {%for testimonial in site.data.about_us.testimonials%}
-        <li class="valuable-clients-right__list" id="about-img1-{{testimonial.logo}}" data-id="{{forloop.index0}}"><img class="valuable-clients-right__logo" alt="littlebrahma__client-logo" src="/assets/img/about_us/LOGO/{{testimonial.logo | downcase }}.svg"></li>
-        {%endfor%}
-        <!--<li class="valuable-clients-right__list" id="about-img2" data-id="1"><img class="valuable-clients-right__logo" src="/assets/img/about_us/LOGO/hashworks.svg"></li>
-        <li class="valuable-clients-right__list" id="about-img3" data-id="2"><img class="valuable-clients-right__logo" src="/assets/img/about_us/LOGO/locatr.svg"></li>
-      -->
-       </ul> 
-       </div>
-</div>
-       </div>     
-      
-                
-  </div>
-
-  <ul id="myMenu" class="scroll-indicators">
-	<li data-menuanchor="about_us" class="active"><a href="#about_us"></a></li>
-	<li data-menuanchor="our_mission"><a href="#our_mission"></a></li>
-	<li data-menuanchor="valuable_clients"><a href="#valuable_clients"></a></li>
-	
-</ul>
-   
-</div>
-<div style="position: relative">
-              <div class="apst-wrapper nav-scroll-up">
-              <div class="apst-button"></div>
-              </div>
+<section>
+    <div class="lb_bdy prct">
+        <div class="hero_img"></div>
+        <div class="hero_cnt">
+            <div class="heroText">
+                Design is in our <span class="heroHighlight">DNA</span>
             </div>
-<script>
+            <div class="bnrText">
+                Our design native approach is a framework for continuos<br/>
+                design and implementation.
+            </div>
+            <div class="hero_ptn"></div>
+        </div>
+        </div>
+        <div class="philSec prct">
+            <div class="dnaSummary">
+                <div class="genericTitle text-center">
+                  State of mind at LB
+                </div>
+                <div class="container dnaContainer">
+                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        We are young, adventerous and good hearted. We aim to bring a social change by good design and great collaboration. Customer delight is what we strive for and midweek parties are what we love to do! 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-us">
+            <div class="row">
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap1.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap2.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap3.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap4.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap5.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap6.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap7.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap8.png"/>
+            </div>
+            <div class="col-xs-6 col-md-4 col-sm-4 col-lg-4 padding-0">
+                  <img src="/assets/img/about_us/bitmap9.png"/>
+            </div>
+        </div>
+        </div>
 
-var testimonials=[];
-
-{% for testimonial in site.data.about_us.testimonials %}
-
-testimonials[{{forloop.index0}}]={{testimonial | jsonify}};
-
-{% endfor %}
-
-</script>
-{% include footer.html %}
+    </section>
+        {% include common_footer.html %}
+        {% include footer.html %}
