@@ -158,24 +158,28 @@ table {
 }
 
 @media screen and (min-width: 320px){
+    // HEADING BOLD
     .headingBold{
     font-family: 'MavenPro-Medium';
     font-size: 24px;
     font-weight: 500;
     color: #393939;
 }
+  // HEADING LIGHT
 .headingLight{
     font-family:'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
     color: #393939;
 }
+ //  SUB HEADING
 .typography{
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
     color: #393939;
 }
+// PARAGRAPH
 .paragraph{
     font-family:'PT_Sans-Regular';
     font-size: 12px;
