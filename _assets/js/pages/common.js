@@ -5,11 +5,12 @@
             $(this).popover('toggle');
             $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
         });
-        $('.btn').popover();
+        // $('.btn').popover();
 
-        $('.btn').on('click', function (e) {
-            $('.btn').not(this).popover('hide');
-        });
+        // $('.btn').on('click', function (e) {
+        //     $('.btn').not(this).popover('hide');
+        // });
+       
     
         $('.lb-filter-service').hide();
         $(".lb_work_filterli").click(function(){
@@ -32,6 +33,8 @@
             //   $('.BrandingandCommunication').show();
             // }
         });
+        
+       
         var count=0;
       
         var length = $(".lb-filter-service").length;

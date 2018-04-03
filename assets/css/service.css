@@ -2135,9 +2135,6 @@ div.test {
   .philSec {
     margin: 80px 29px 0; } }
 
-.prct .hero_img {
-  background-image: url(/assets/img/workpage/group-3.png); }
-
 @media screen and (min-width: 1367px) {
   .hero_cnt {
     padding-right: 50px;
@@ -2199,3 +2196,9 @@ a.btn-circle.service-btn {
   background-color: #7d8d92;
   color: black;
   margin-top: 8px; }
+
+ul.lb_work_filter.lb_service_lg {
+  text-align: center; }
+
+.datavalue-2 {
+  display: none; }

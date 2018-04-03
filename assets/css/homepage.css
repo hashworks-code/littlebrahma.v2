@@ -1738,79 +1738,82 @@ div.test {
           line-height: 25px;
           font-size: 20px;
           font-family: 'PT_Sans-Regular'; }
-    .homePage__BnrDiv__Service h1 {
-      text-align: center;
-      color: #fff;
-      font-size: 40px;
-      font-family: 'MavenPro-Medium';
-      margin-bottom: 80px;
-      margin-top: 120px; }
-    .homePage__BnrDiv__Service__Cards {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .homePage__BnrDiv__Service__Cards__Inner {
-        width: 350px;
-        height: 350px;
-        background-color: #fff;
+    .homePage__BnrDiv__Service {
+      position: relative;
+      top: 120px; }
+      .homePage__BnrDiv__Service h1 {
         text-align: center;
-        border-radius: 16px;
-        -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
-                box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
-        margin-right: 30px;
-        color: #5d6a6f !important; }
-        .homePage__BnrDiv__Service__Cards__Inner__a {
-          width: 100%;
-          height: 100%;
-          padding-top: 50px;
-          display: block;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'MavenPro-Medium';
+        margin-bottom: 80px;
+        margin-top: 120px; }
+      .homePage__BnrDiv__Service__Cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .homePage__BnrDiv__Service__Cards__Inner {
+          width: 350px;
+          height: 350px;
+          background-color: #fff;
+          text-align: center;
+          border-radius: 16px;
+          -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+                  box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+          margin-right: 30px;
           color: #5d6a6f !important; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__img {
-            background-repeat: no-repeat;
-            width: 88px;
-            height: 88px;
-            margin: 0 auto;
-            background-size: contain; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-            display: block; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-            display: none; }
-          .homePage__BnrDiv__Service__Cards__Inner__a img {
-            display: none; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-            margin-top: 20px;
-            font-size: 24px;
-            font-family: 'MavenPro-Medium'; }
-          .homePage__BnrDiv__Service__Cards__Inner__a p {
-            margin-top: 10px;
-            font-size: 14px;
-            font-family: 'PT_Sans-Regular'; }
-      .homePage__BnrDiv__Service__Cards__Inner1 {
-        margin-right: 0; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover {
-        background-color: #ee4b6e;
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-        display: block; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover p {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover img {
-        display: block;
-        margin: 30px auto;
-        width: 31px;
-        height: 28px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a {
+            width: 100%;
+            height: 100%;
+            padding-top: 50px;
+            display: block;
+            color: #5d6a6f !important; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__img {
+              background-repeat: no-repeat;
+              width: 88px;
+              height: 88px;
+              margin: 0 auto;
+              background-size: contain; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+              display: block; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+              display: none; }
+            .homePage__BnrDiv__Service__Cards__Inner__a img {
+              display: none; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+              margin-top: 20px;
+              font-size: 24px;
+              font-family: 'MavenPro-Medium'; }
+            .homePage__BnrDiv__Service__Cards__Inner__a p {
+              margin-top: 10px;
+              font-size: 14px;
+              font-family: 'PT_Sans-Regular'; }
+        .homePage__BnrDiv__Service__Cards__Inner1 {
+          margin-right: 0; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover {
+          background-color: #ee4b6e;
+          color: #fff !important;
+          text-decoration: none !important; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
+          color: #fff !important;
+          text-decoration: none !important; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+          display: none; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+          display: block; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover p {
+          display: none; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover img {
+          display: block;
+          margin: 30px auto;
+          width: 31px;
+          height: 28px; }
   .homePage__dna {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1882,24 +1885,29 @@ div.test {
           .homePage__BnrDiv__Inner__Content p {
             font-size: 16px;
             line-height: 25px; }
-      .homePage__BnrDiv__Service h1 {
-        font-size: 32px;
-        margin-top: 240px; }
-      .homePage__BnrDiv__Service__Cards__Inner {
-        width: 300px;
-        height: 318px;
-        margin-right: 20px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a {
-          padding-top: 30px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-            font-size: 16px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a p {
-            font-size: 14px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__img {
-            width: 64px;
-            height: 64px; }
-      .homePage__BnrDiv__Service__Cards__Inner1 {
-        margin-right: 0; }
+      .homePage__BnrDiv__Service {
+        position: relative;
+        top: 120px; }
+        .homePage__BnrDiv__Service h1 {
+          font-size: 32px;
+          margin-top: 240px; }
+        .homePage__BnrDiv__Service__Cards__Inner {
+          width: 300px;
+          height: 318px;
+          margin-right: 20px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a {
+            padding-top: 30px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+              font-size: 16px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a p {
+              font-size: 14px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__img {
+              width: 64px;
+              height: 64px; }
+        .homePage__BnrDiv__Service__Cards__Inner1 {
+          margin-right: 0; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover img {
+          display: block; }
     .homePage__dna {
       margin: 180px 42px 0; }
       .homePage__dna__left img {
@@ -1924,17 +1932,22 @@ div.test {
     .homePage__BnrDiv__Inner__Content p {
       font-size: 14px;
       line-break: 30px; }
-  .homePage__BnrDiv__Service h1 {
-    font-size: 24px; }
-  .homePage__BnrDiv__Service__Cards__Inner {
-    width: 220px;
-    height: 260px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-      font-size: 16px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a p {
-      font-size: 12px; }
-  .homePage__BnrDiv__Service__Cards__Inner1 {
-    margin-right: 0; }
+  .homePage__BnrDiv__Service {
+    position: relative;
+    top: 100px; }
+    .homePage__BnrDiv__Service h1 {
+      font-size: 24px; }
+    .homePage__BnrDiv__Service__Cards__Inner {
+      width: 220px;
+      height: 260px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+        font-size: 16px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a p {
+        font-size: 12px; }
+    .homePage__BnrDiv__Service__Cards__Inner1 {
+      margin-right: 0; }
+    .homePage__BnrDiv__Service__Cards__Inner:hover img {
+      display: block; }
   .homePage__dna {
     margin: 180px 34px 0; }
     .homePage__dna__left img {
@@ -1966,25 +1979,30 @@ div.test {
       .homePage__BnrDiv__Inner__Content p {
         font-size: 12px;
         line-height: 16px; }
-  .homePage__BnrDiv__Service h1 {
-    color: #5d6a6f;
-    margin-top: -390px;
-    font-size: 16px;
-    margin-bottom: 40px; }
-  .homePage__BnrDiv__Service__Cards {
-    display: block; }
-    .homePage__BnrDiv__Service__Cards__Inner {
-      width: 210px;
-      height: 154px;
-      margin: 0 auto 16px; }
-      .homePage__BnrDiv__Service__Cards__Inner__a {
-        padding-top: 30px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a__img {
-          display: none; }
-        .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-          font-size: 16px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a p {
-          display: none; }
+  .homePage__BnrDiv__Service {
+    position: relative;
+    top: 20px; }
+    .homePage__BnrDiv__Service h1 {
+      color: #5d6a6f;
+      margin-top: -390px;
+      font-size: 16px;
+      margin-bottom: 40px; }
+    .homePage__BnrDiv__Service__Cards {
+      display: block; }
+      .homePage__BnrDiv__Service__Cards__Inner {
+        width: 210px;
+        height: 154px;
+        margin: 0 auto 16px; }
+        .homePage__BnrDiv__Service__Cards__Inner__a {
+          padding-top: 30px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a__img {
+            display: none; }
+          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+            font-size: 16px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a p {
+            display: none; }
+      .homePage__BnrDiv__Service__Cards__Inner:hover img {
+        display: none; }
   .homePage__dna {
     margin: 30px 0 0;
     display: block; }
