@@ -112,6 +112,9 @@
                     background-color:#ee4b6e;
                     color:#fff !important;
                     text-decoration: none !important;
+                    -webkit-transition: background-color 500ms linear;
+                    -ms-transition: background-color 500ms linear;
+                    transition: background-color 500ms linear;
                     // &__a{
                     //     &__normal{
                     //         display: none;

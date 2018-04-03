@@ -182,7 +182,9 @@ table {
   .commonButton:hover {
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
-    color: #fff; }
+    color: #fff;
+    -webkit-transition: background-color 500ms linear;
+    transition: background-color 500ms linear; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -449,8 +451,7 @@ html, body {
   padding-bottom: 10px; }
 
 .cd-secondary-nav a:active, .cd-secondary-nav a:hover, .cd-secondary-nav a:focus {
-  text-decoration: none;
-  border-bottom: 3px solid #ea1c49; }
+  text-decoration: none; }
 
 .cd-secondary-navLasta:active, .cd-secondary-navLasta:hover, .cd-secondary-navLasta:focus {
   text-decoration: none;
@@ -942,6 +943,20 @@ html, body {
     .contact1__image img {
       margin-top: 90px;
       height: 300px; } }
+
+.cd-secondary-navli:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease; }
+
+.cd-secondary-navli:hover:after {
+  width: 100%;
+  background: #ea1c49; }
 
 /*footer css starts*/
 .footer {
@@ -1625,7 +1640,9 @@ div.test {
   .lb-filter-header {
     font-size: 16px; }
   .lb-filter-headdesc {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .lb_btn_div {
+    text-align: center; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
@@ -1645,7 +1662,7 @@ div.test {
   .lb-filter-headdesc {
     font-size: 14px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 @media screen and (min-width: 1024px) {
   .lb_filter_lg {
@@ -1661,7 +1678,7 @@ div.test {
   .lb-filter-headdesc {
     font-size: 14px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -1677,7 +1694,7 @@ div.test {
   .lb-filter-headdesc {
     font-size: 14px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 .homePage {
   margin-top: 80px; }
@@ -1765,7 +1782,9 @@ div.test {
         .homePage__BnrDiv__Service__Cards__Inner:hover {
           background-color: #ee4b6e;
           color: #fff !important;
-          text-decoration: none !important; }
+          text-decoration: none !important;
+          -webkit-transition: background-color 500ms linear;
+          transition: background-color 500ms linear; }
         .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
           color: #fff !important;
           text-decoration: none !important; }
