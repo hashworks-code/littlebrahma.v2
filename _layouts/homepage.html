@@ -11,16 +11,23 @@
                 <div class="homePage__BnrDiv__Service">
                     <h1>Our services</h1>
                     <div class="homePage__BnrDiv__Service__Cards">
+                            {% assign item = site.practice %}
+                            {% for practice in item %}
+                           
                       <div class="homePage__BnrDiv__Service__Cards__Inner">
-                        <div class="homePage__BnrDiv__Service__Cards__Inner__img"></div>
-                        <h3>Service design</h3>
-                        <p>Brand voice</p>
-                        <p>Print media</p>
-                        <p>Visual Language</p>
-                        <p>Package design</p>
-                        <img src="/assets/img/homepage/arrow.svg">
+                            <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
+                                    <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
+                        <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>
+                        <h3>{{practice.practiceList}}</h3>
+                        <p>{{practice.practiceList1}}</p>
+                        <p>{{practice.practiceList2}}</p>
+                        <p>{{practice.practiceList3}}</p>
+                        <p>{{practice.practiceList4}}</p>
+                        <img src="{{practice.practiceImg}}">
+                        </a>
                       </div>
-                      <div class="homePage__BnrDiv__Service__Cards__Inner">
+                      {% endfor %}
+                      <!-- <div class="homePage__BnrDiv__Service__Cards__Inner">
                           <div class="homePage__BnrDiv__Service__Cards__Inner__img1"></div>
                           <h3>Product design</h3>
                           <p>Brand voice</p>
@@ -28,8 +35,8 @@
                           <p>Visual Language</p>
                           <p>Package design</p>
                           <img src="/assets/img/homepage/arrow.svg">
-                      </div>
-                      <div class="homePage__BnrDiv__Service__Cards__Inner homePage__BnrDiv__Service__Cards__Inner1">
+                      </div> -->
+                      <!-- <div class="homePage__BnrDiv__Service__Cards__Inner homePage__BnrDiv__Service__Cards__Inner1">
                         <div class="homePage__BnrDiv__Service__Cards__Inner__img2"></div>
                         <h3>Branding & Communication</h3>
                         <p>Brand voice</p>
@@ -37,7 +44,7 @@
                         <p>Visual Language</p>
                         <p>Package design</p>
                         <img src="/assets/img/homepage/arrow.svg">
-                      </div>
+                      </div> -->
                     </div>
                   </div>
             </div>

@@ -139,8 +139,9 @@
       margin-top: 40px;
   }
   .knowmore{
-      width: 300px;
-    margin: 0 auto;
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
   }
     .prct{
         .genericTitle{
@@ -218,8 +219,9 @@
 }
 @media screen and (min-width:768px) and (max-width:1024px){
     .knowmore{
-        width: 350px;
-      margin: 0px;
+        display: flex;
+        width:260px;
+        justify-content: space-between;
     }
     .prct{
         .fixCont {
@@ -335,8 +337,9 @@
 }
 @media screen and (min-width:1025px){
     .knowmore{
-        width: 400px;
-        margin: 0px;
+        display: flex;
+        width:372px;
+        justify-content: space-between;
     }
     .noPadding{
         width: 623px;
@@ -495,8 +498,9 @@
 }
 @media screen and (min-width:1367px){
     .knowmore{
-        width: 460px;
-        margin: 0px;
+        display: flex;
+        width:415px;
+        justify-content: space-between;
     }
     .prct{
         .genericTitle{
