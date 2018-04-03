@@ -107,7 +107,6 @@
 // })();
 $(document).ready(function() {
 $(".lb_work_filterli").click(function() {
-    debugger;
     var data=$(this).attr('id');
     var arr = data.split('-');
     tempdata="datavalue-"+arr[1]
