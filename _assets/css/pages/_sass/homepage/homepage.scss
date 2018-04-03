@@ -49,46 +49,58 @@
                     background-color: #fff;
                     text-align: center;
                     border-radius: 16px;
-                    padding-top: 50px;
                     box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
                     margin-right: 30px;
-                    color: #5d6a6f;
-                    &__img{
-                        background-image: url("/assets/img/homepage/service-design.svg");
-                        background-repeat: no-repeat;
-                        width: 88px;
-                        height: 88px;
-                        margin: 0 auto;
-                        background-size: contain;
-                    }
-                    &__img1{
-                        background-image: url("/assets/img/homepage/product-design.svg");
-                        background-repeat: no-repeat;
-                        width: 88px;
-                        height: 88px;
-                        margin: 0 auto;
-                        background-size: contain;
-                    }
-                    &__img2{
-                        background-image: url("/assets/img/homepage/product-design.svg");
-                        background-repeat: no-repeat;
-                        width: 88px;
-                        height: 88px;
-                        margin: 0 auto;
-                        background-size: contain;
-                    }
-                    img{
-                        display: none;
-                    }
-                    h3{
-                        margin-top: 20px;
-                        font-size: 24px;
-                        font-family: 'MavenPro-Medium';
-                    }
-                    p{
-                        margin-top: 10px;
-                        font-size: 14px;
-                        font-family: 'PT_Sans-Regular';
+                    color: #5d6a6f !important;
+                    &__a{
+                        width: 100%;
+                        height: 100%;
+                        padding-top: 50px;
+                        display: block;
+                        color: #5d6a6f !important;
+                        &__img{
+                            // background-image: url("/assets/img/homepage/service-design.svg");
+                            background-repeat: no-repeat;
+                            width: 88px;
+                            height: 88px;
+                            margin: 0 auto;
+                            background-size: contain;
+                        }
+                        &__normal{
+                            display: block;
+                        }
+                        &__onHover{
+                            display: none;
+                        }
+                        // &__img1{
+                        //     background-image: url("/assets/img/homepage/product-design.svg");
+                        //     background-repeat: no-repeat;
+                        //     width: 88px;
+                        //     height: 88px;
+                        //     margin: 0 auto;
+                        //     background-size: contain;
+                        // }
+                        // &__img2{
+                        //     background-image: url("/assets/img/homepage/product-design.svg");
+                        //     background-repeat: no-repeat;
+                        //     width: 88px;
+                        //     height: 88px;
+                        //     margin: 0 auto;
+                        //     background-size: contain;
+                        // }
+                        img{
+                            display: none;
+                        }
+                        h3{
+                            margin-top: 20px;
+                            font-size: 24px;
+                            font-family: 'MavenPro-Medium';
+                        }
+                        p{
+                            margin-top: 10px;
+                            font-size: 14px;
+                            font-family: 'PT_Sans-Regular';
+                        }
                     }
                 }
                 &__Inner1{
@@ -96,17 +108,41 @@
                 }
                 &__Inner:hover{
                     background-color:#ee4b6e;
-                    color:#fff;
+                    color:#fff !important;
+                    text-decoration: none !important;
+                    // &__a{
+                    //     &__normal{
+                    //         display: none;
+                    //     }
+                    //     &__onHover{
+                    //         display: block;
+                    //     }
+                    // }
                 }
-                &__Inner:hover &__Inner__img{
-                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                &__Inner:hover &__Inner__a{
+                    color:#fff !important;
+                    text-decoration: none !important;
                 }
-                &__Inner:hover &__Inner__img1{
-                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                &__Inner:hover &__Inner__a &__Inner__a__normal{
+                    display: none;
                 }
-                &__Inner:hover &__Inner__img2{
-                    background-image: url("/assets/img/homepage/brndg-comm.svg");
+                &__Inner:hover &__Inner__a &__Inner__a__onHover{
+                    display: block;
                 }
+                // &__Inner:hover &__a__onHover{
+                //     display: block;
+                //     color:#fff !important;
+                //     text-decoration: none !important;
+                // }
+                // &__Inner:hover &__Inner__img{
+                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
+                // }
+                // &__Inner:hover &__Inner__img1{
+                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
+                // }
+                // &__Inner:hover &__Inner__img2{
+                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
+                // }
                 &__Inner:hover p{
                     display: none;
                 }
@@ -206,24 +242,26 @@
                         width: 300px;
                         height: 318px;
                         margin-right: 20px;
-                        padding-top: 30px;
-                        h3{
-                            font-size: 16px;
-                        }
-                        p{
-                            font-size: 14px;
-                        }
-                        &__img{
-                            width:64px;
-                            height: 64px;
-                        }
-                        &__img1{
-                            width:64px;
-                            height: 64px;
-                        }
-                        &__img2{
-                            width:64px;
-                            height: 64px;
+                        &__a{
+                            padding-top: 30px;
+                            h3{
+                                font-size: 16px;
+                            }
+                            p{
+                                font-size: 14px;
+                            }
+                            &__img{
+                                width:64px;
+                                height: 64px;
+                            }
+                            // &__img1{
+                            //     width:64px;
+                            //     height: 64px;
+                            // }
+                            // &__img2{
+                            //     width:64px;
+                            //     height: 64px;
+                            // }
                         }
                     }
                     &__Inner1{
@@ -281,11 +319,13 @@
                     &__Inner{
                         width: 220px;
                         height: 260px;
-                        h3{
-                            font-size: 16px;
-                        }
-                        p{
-                            font-size: 12px;
+                        &__a{
+                            h3{
+                                font-size: 16px;
+                            }
+                            p{
+                                font-size: 12px;
+                            }
                         }
                     }
                     &__Inner1{
@@ -354,24 +394,26 @@
                         width: 210px;
                         height: 154px;
                         margin: 0 auto 16px;
-                        padding-top: 30px;
-                        &__img{
-                            width:56px;
-                            height: 56px;
-                        }
-                        &__img1{
-                            width:56px;
-                            height: 56px;
-                        }
-                        &__img2{
-                            width:56px;
-                            height: 56px;
-                        }
-                        h3{
-                            font-size: 16px;
-                        }
-                        p{
-                            display:none;
+                        &__a{
+                            padding-top: 30px;
+                            &__img{
+
+                            display: none;
+                            }
+                            // &__img1{
+                            //     width:56px;
+                            //     height: 56px;
+                            // }
+                            // &__img2{
+                            //     width:56px;
+                            //     height: 56px;
+                            // }
+                            h3{
+                                font-size: 16px;
+                            }
+                            p{
+                                display:none;
+                            }
                         }
                     }
                 }
