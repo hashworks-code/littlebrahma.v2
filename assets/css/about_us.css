@@ -165,6 +165,21 @@ table {
     font-weight: normal;
     line-height: 1.5;
     color: #393939; }
+  .commonButton {
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'PT_Sans-Regular';
+    color: #393939;
+    outline: none;
+    text-align: center;
+    text-decoration: none; }
+  .commonButton:hover {
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    color: #fff; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -181,22 +196,6 @@ table {
     margin-top: -48px; }
   .hero_ptn {
     display: none; } }
-
-.commonButton {
-  border-radius: 16px;
-  border: solid 2px #022b3b;
-  background-color: transparent;
-  font-size: 14px;
-  padding: 10px 20px;
-  font-family: 'PT_Sans-Regular';
-  color: #393939;
-  outline: none;
-  text-align: center; }
-
-.commonButton:hover {
-  border: solid 2px #ea1c49;
-  background-color: #ea1c49;
-  color: #fff; }
 
 .input {
   width: 264px;
@@ -441,7 +440,7 @@ html, body {
   color: white;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 14px;
   color: #4a4a4a;
   padding-bottom: 10px; }
@@ -485,7 +484,7 @@ html, body {
 
 @media only screen and (min-width: 1024px) {
   .cd-secondary-nav a {
-    font-family: Lato;
+    font-family: 'MavenPro-Bold';
     font-size: 16px; } }
 
 .cd-primary-nav-trigger {
@@ -634,13 +633,13 @@ html, body {
 .cd-primary-nav a {
   display: inline-block;
   padding: .4em 1em;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 16px;
   font-weight: bold;
   border-radius: 0.25em;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
-  color: #4a4a4a; }
+  color: #393939; }
 
 .cd-primary-nav .cd-label {
   color: #06446e;
@@ -942,18 +941,6 @@ html, body {
       height: 300px; } }
 
 /*footer css starts*/
-.headerButton {
-  opacity: 0.92;
-  border-radius: 25px !important;
-  border: solid 2px #022b3b !important;
-  font-family: "PT_Sans-Regular" !important;
-  font-size: 14px !important;
-  text-align: center !important;
-  color: #022b3b !important;
-  background-color: #fff !important;
-  padding: 5px 20px !important;
-  outline: none; }
-
 .footer {
   background-size: cover;
   background-position: center;
@@ -970,12 +957,7 @@ html, body {
       margin-bottom: 10px;
       margin-top: 15px; }
     .footer__inner a {
-      padding: 12px 30px 14px;
-      border-radius: 28px;
-      border: solid 2px #022b3b;
-      font-family: 'PT_Sans-Regular';
       font-size: 20px;
-      color: #393939;
       text-decoration: none; }
   .footer__bottom {
     position: absolute;
@@ -1064,3 +1046,460 @@ html, body {
       padding: 5px 18px 6px; } }
 
 /*footer ends*/
+.prct {
+  line-height: 1.5; }
+  .prct .hero_img {
+    background-image: url(/assets/img/practice/group-3.png); }
+  .prct_rnImg {
+    width: 100vw; }
+  .prct .genericTitle, .prct .contextTitle {
+    font-family: "MavenPro-Medium"; }
+  .prct .contextualTxt {
+    font-family: "PT_Sans-Regular"; }
+  .prct .prctDicipline {
+    background: #fff; }
+  .prct .rContent_1 {
+    visibility: hidden; }
+  .prct .right.Containers {
+    background: #fff; }
+  .prct img {
+    width: 100%; }
+  .prct .dnaImgMob {
+    display: none; }
+  .prct_dic {
+    padding-top: 45px;
+    padding-bottom: 45px; }
+    .prct_dic .title {
+      font-family: "MavenPro-Medium"; }
+    .prct_dic .bldContent {
+      font-family: "MavenPro-Bold"; }
+    .prct_dic .bsTxt {
+      font-family: "PT_Sans-Regular"; }
+    .prct_dic .hckTitle {
+      display: none; }
+    .prct_dic .imgContainer {
+      text-align: center; }
+  .prct_svc {
+    padding: 37px 35px 46px 29px; }
+    .prct_svc_title {
+      font-family: "MavenPro-Medium";
+      text-align: center; }
+      .prct_svc_title .indTxt {
+        font-family: "MavenPro-Medium"; }
+      .prct_svc_title .indCon {
+        font-family: "PT_Sans-Regular"; }
+  .prct .dnaSummary {
+    background: #fff;
+    line-height: 1.5;
+    text-align: center; }
+  .prct .dnaContainer {
+    font-family: "PT_Sans-Regular";
+    display: table; }
+
+.prctDiv {
+  margin-top: 65px;
+  text-align: center; }
+  .prctDiv .prctSec {
+    display: inline-block; }
+    .prctDiv .prctSec_tab {
+      display: inline-block;
+      font-family: "MavenPro-Medium";
+      font-size: 24px;
+      cursor: pointer;
+      padding-bottom: 2px;
+      margin: 0 35px 0; }
+    .prctDiv .prctSec_inactive {
+      color: #393939; }
+    .prctDiv .prctSec_active, .prctDiv .prctSec_tab:hover {
+      color: #ea1c49;
+      border-bottom: 2px solid #ea1c49; }
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .prct .dnaImgMob {
+    display: block;
+    width: 250px;
+    background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
+    background-size: contain;
+    height: 250px; }
+  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+    visibility: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 250px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 15px; }
+  .prct .rContent_2 {
+    padding-left: 40px; }
+  .prct .rContent_1Img, .prct .rContent_3Img {
+    margin-left: -135px; }
+  .prct .rContent_1Img {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg); }
+  .prct .rContent_2Img {
+    margin-right: -135px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
+  .prct .rContent_3Img {
+    -webkit-transform: rotate(210deg);
+            transform: rotate(210deg); } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lgCon {
+    margin-top: 30px; }
+  .knowmore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 260px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 15px; }
+  .prct .genericTitle {
+    font-size: 20px; }
+  .prct .fixCont {
+    display: none; }
+  .prct_dic .hckTitle {
+    display: block; }
+  .prct_dic img {
+    max-width: 350px; }
+  .prct_dic .dicContents {
+    padding-left: 50px !important;
+    padding-right: 29px !important; }
+    .prct_dic .dicContents .title {
+      display: none; }
+  .prct_dic .title {
+    font-size: 20px; }
+  .prct_dic .bldContent {
+    font-size: 14px;
+    padding-bottom: 14px; }
+  .prct_dic .bsTxt {
+    font-size: 14px; }
+  .prct_svc_title {
+    text-align: center;
+    font-size: 24px; }
+    .prct_svc_title .svcCont {
+      padding-top: 72px; }
+      .prct_svc_title .svcCont img {
+        max-width: 80px; }
+    .prct_svc_title .indTxt {
+      font-size: 17px;
+      padding-bottom: 16px;
+      text-align: center; }
+    .prct_svc_title .indCon {
+      font-size: 14px;
+      padding-top: 0px;
+      padding-bottom: 24px; }
+  .prct .dnaContainer {
+    font-size: 14px;
+    padding-top: 16px; }
+  .prctDiv {
+    margin-top: 55px; }
+    .prctDiv .prctSec_tab {
+      font-size: 16px;
+      margin: 0 20px 0; }
+  .philSec {
+    margin: 50px 29px 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .knowmore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 260px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 15px; }
+  .prct .fixCont {
+    display: none; }
+  .prct .dnaImgMob {
+    width: 508px;
+    height: 508px; }
+  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+    height: 508px; }
+  .prct .rContent_2 {
+    padding-left: 107px; }
+  .prct .rContent_1Img, .prct .rContent_3Img {
+    margin-left: -270px; }
+  .prct .rContent_1Img {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg); }
+  .prct .rContent_2Img {
+    margin-right: -265px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg); }
+  .prct .rContent_3Img {
+    -webkit-transform: rotate(210deg);
+            transform: rotate(210deg); } }
+
+@media screen and (min-width: 768px) {
+  .prct .genericTitle {
+    font-size: 24px; }
+  .prct .contextTitle {
+    font-size: 24px; }
+  .prct .contextualTxt {
+    font-size: 20px; }
+  .prct .mobScreen {
+    width: 100%; }
+  .prct_dic .hckTitle {
+    display: none; }
+  .prct_dic .title {
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-top: 15px; }
+  .prct_dic .bldContent {
+    font-size: 18px;
+    padding-bottom: 21px; }
+  .prct_dic .bsTxt {
+    font-size: 17px; }
+  .prct_dic img {
+    width: 293px;
+    height: 282px;
+    margin: -20px 0; }
+  .prct_dic .dicContents .title {
+    display: block; }
+  .prct_svc {
+    padding: 50px 35px 80px; }
+    .prct_svc_title {
+      text-align: center;
+      font-size: 24px; }
+      .prct_svc_title .svcCont {
+        padding-top: 72px; }
+        .prct_svc_title .svcCont img {
+          max-width: 85px;
+          margin-top: 20px; }
+      .prct_svc_title .indTxt {
+        font-size: 24px; }
+      .prct_svc_title .indCon {
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 10px; }
+  .prct .dnaContainer {
+    font-size: 17px;
+    padding-top: 30px;
+    width: 690px; }
+  .prctDiv {
+    margin-top: 80px; }
+    .prctDiv .prctSec_tab {
+      font-size: 16px;
+      margin: 0 20px 0; }
+  .philSec {
+    margin: 50px 29px 0; } }
+
+@media screen and (min-width: 1025px) {
+  .knowmore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 372px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 22px; }
+  .noPadding {
+    width: 623px; }
+  .prct {
+    /* Safari 4.0 - 8.0 */
+    /* Standard syntax */
+    /* Safari 4.0 - 8.0 */
+    /* Standard syntax */ }
+    .prct .genericTitle {
+      font-size: 32px; }
+    .prct_dic .title {
+      font-size: 32px;
+      padding-bottom: 41px;
+      padding-top: 35px; }
+    .prct_dic .bldContent {
+      font-size: 18px;
+      padding-bottom: 10px; }
+    .prct_dic .bsTxt {
+      font-size: 17px; }
+    .prct_dic img {
+      width: 414px;
+      height: 377px;
+      margin: -20px 0; }
+    .prct_svc {
+      padding: 55px 0px 70px; }
+      .prct_svc_title {
+        font-size: 40px; }
+        .prct_svc_title .svcCont {
+          padding-top: 120px; }
+          .prct_svc_title .svcCont img {
+            max-width: 105px; }
+        .prct_svc_title .indTxt {
+          font-size: 32px; }
+        .prct_svc_title .indCon {
+          font-size: 20px;
+          padding-top: 16px;
+          padding-bottom: 10px; }
+      .prct_svc .sCont {
+        padding-top: 15px; }
+    .prct .dnaContainer {
+      font-size: 17px;
+      padding-top: 25px;
+      width: 970px; }
+    .prct .scrollContainer {
+      height: calc(300vh - 80px);
+      position: relative;
+      background: #fff; }
+      .prct .scrollContainer img {
+        width: auto; }
+    .prct .fixCont {
+      /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
+      height: calc(100vh - 80px);
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      -webkit-animation-name: example;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 1s; }
+    .prct .fixCont img {
+      height: 100%; }
+    .prct .fixedClass {
+      position: fixed;
+      top: 80px;
+      left: 0%;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      -webkit-animation-name: example2;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example2;
+      animation-duration: 1s; }
+  @-webkit-keyframes example {
+    from {
+      left: 0%; }
+    to {
+      left: 50%; } }
+  @keyframes example {
+    from {
+      left: 0%; }
+    to {
+      left: 50%; } }
+  @-webkit-keyframes example2 {
+    from {
+      left: 50%; }
+    to {
+      left: 0%; } }
+  @keyframes example2 {
+    from {
+      left: 50%; }
+    to {
+      left: 0%; } }
+    .prct .rContent {
+      height: calc(100vh - 80px); }
+    .prct .posAbs {
+      position: absolute;
+      bottom: 0 !important;
+      left: 0%;
+      top: unset; }
+    .prct .right.Containers {
+      display: block;
+      width: 40%;
+      margin: 0 auto;
+      top: 10%;
+      position: relative;
+      background: transparent; }
+  .prctDiv {
+    margin-top: 65px; }
+    .prctDiv .prctSec_tab {
+      font-size: 24px;
+      margin: 0 35px 0; }
+  .philSec {
+    margin: 70px 29px 0; } }
+
+@media screen and (min-width: 1367px) {
+  .knowmore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 415px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .prct .genericTitle {
+    font-size: 48px; }
+  .prct .contextTitle {
+    font-size: 24px; }
+  .prct .contextualTxt {
+    font-size: 28px; }
+  .prct_dic .title {
+    font-size: 48px;
+    padding-bottom: 17px;
+    padding-top: 55px; }
+  .prct_dic .bldContent {
+    font-size: 24px;
+    padding-bottom: 28px; }
+  .prct_dic .bsTxt {
+    font-size: 20px; }
+  .prct_dic img {
+    width: 557px;
+    height: 506px;
+    margin: -20px 0; }
+  .prct_svc {
+    padding: 75px 150px 80px; }
+    .prct_svc_title {
+      font-size: 40px; }
+      .prct_svc_title .svcCont {
+        padding-top: 160px; }
+        .prct_svc_title .svcCont img {
+          max-width: 120px; }
+      .prct_svc_title .indTxt {
+        font-size: 32px; }
+      .prct_svc_title .indCon {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px; }
+      .prct_svc_title .lgCon {
+        width: 830px; }
+  .prct .dnaContainer {
+    font-size: 20px;
+    padding-top: 40px; }
+  .philSec {
+    margin: 80px 29px 0; } }
+
+.prct .hero_img {
+  background-image: url(/assets/img/about_us/banner.png); }
+
+.padding-0 {
+  padding: 0 !important; }
+
+@media screen and (min-width: 320px) {
+  .about-us {
+    padding: 40px 29px 24px; }
+    .about-us img {
+      padding: 0 6px 8px;
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding: 48px 34px 12px; }
+    .about-us img {
+      padding: 0 10px 22px; } }
+
+@media screen and (min-width: 1025px) {
+  .about-us {
+    padding: 56px 42px 42px; }
+    .about-us img {
+      padding: 0 10px 22px; } }
+
+@media screen and (min-width: 1366px) {
+  .about-us {
+    padding: 64px 165px 50px; }
+    .about-us img {
+      padding: 0 15px 30px; } }
