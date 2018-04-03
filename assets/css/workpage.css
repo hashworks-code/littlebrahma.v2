@@ -89,6 +89,9 @@ footer, header, hgroup, menu, nav, section, main {
 body {
   line-height: 1; }
 
+a {
+  text-decoration: none !important; }
+
 ol, ul {
   list-style: none; }
 
@@ -255,7 +258,7 @@ textarea:hover, textarea:focus {
   .commonButton {
     border-radius: 20px;
     font-size: 16px;
-    padding: 10px 41px; }
+    padding: 10px 20px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
@@ -1622,9 +1625,7 @@ div.test {
   .lb-filter-header {
     font-size: 16px; }
   .lb-filter-headdesc {
-    font-size: 12px; }
-  .lb_btn_div {
-    width: 100px; } }
+    font-size: 12px; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
