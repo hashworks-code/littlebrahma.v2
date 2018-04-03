@@ -90,6 +90,9 @@ footer, header, hgroup, menu, nav, section, main {
 body {
 	line-height: 1;
 }
+a{
+    text-decoration: none !important;
+}
 ol, ul {
 	list-style: none;
 }
@@ -307,7 +310,7 @@ table {
     .commonButton{
         border-radius: 20px;
         font-size: 16px;
-        padding: 10px 41px;
+        padding: 10px 20px;
     }
     
 
