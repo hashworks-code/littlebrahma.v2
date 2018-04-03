@@ -155,7 +155,7 @@ Primary style
     color: white;
     text-transform: uppercase;
     font-weight:normal;
-    font-family: Nunito;
+    font-family:'MavenPro-Bold';
     font-size: 14px;
     color: #4a4a4a;
     padding-bottom: 10px;
@@ -203,7 +203,7 @@ Primary style
   }
   @media only screen and (min-width:1024px) {
     .cd-secondary-nav a{
-   font-family: Lato;
+   font-family: 'MavenPro-Bold';
     font-size: 16px;
   
   }
@@ -378,15 +378,14 @@ Primary style
   .cd-primary-nav a {
     display: inline-block;
     padding: .4em 1em;
-   font-family: Nunito;
+   font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: bold;
     border-radius: 0.25em;
     -webkit-transition: background 0.2s;
     -moz-transition: background 0.2s;
     transition: background 0.2s;
-      color: #4a4a4a;
-  
+    color: #393939;
   }
   
   .cd-primary-nav .cd-label {

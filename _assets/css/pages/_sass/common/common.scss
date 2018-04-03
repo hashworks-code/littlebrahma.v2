@@ -187,6 +187,24 @@ table {
     line-height: 1.5;
     color: #393939;
 }
+// BUTTON 
+.commonButton{
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'PT_Sans-Regular';
+    color: #393939;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+.commonButton:hover{
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    color: #fff;
+}
     .heroText{
         font-size: 24px;
     }
@@ -212,24 +230,7 @@ table {
         }
     }
 }
-// BUTTON 
 
-.commonButton{
-    border-radius: 16px;
-    border: solid 2px #022b3b;
-    background-color: transparent;
-    font-size: 14px;
-    padding: 10px 20px;
-    font-family: 'PT_Sans-Regular';
-    color: #393939;
-    outline: none;
-    text-align: center;
-}
-.commonButton:hover{
-    border: solid 2px #ea1c49;
-    background-color: #ea1c49;
-    color: #fff;
-}
 .input{
     width: 264px;
     font-size: 12px;
