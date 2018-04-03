@@ -142,6 +142,7 @@
     display: flex;
     width: 260px;
     justify-content: space-between;
+    margin-left: 15px;
   }
     .prct{
         .genericTitle{
@@ -223,6 +224,7 @@
         display: flex;
         width:260px;
         justify-content: space-between;
+        margin-left: 15px;
     }
     .prct{
         .fixCont {
@@ -295,14 +297,15 @@
             }
         }
         &_svc{
-            padding:50px 35px;
+            padding:50px 35px 80px;
             &_title{
                 text-align: center;
                 font-size: 24px;
                 .svcCont{
-                    padding-top: 35px;
+                    padding-top: 72px;
                     img{
-                        max-width: 120px;
+                        max-width:85px;
+                        margin-top: 20px;
                     }
                 }
                 .indTxt{
@@ -319,7 +322,7 @@
         .dnaContainer{
             font-size: 17px;
             padding-top:30px;
-            padding-bottom:20px;
+            // padding-bottom:20px;
             width: 690px;
         }
     }    
@@ -341,6 +344,8 @@
         display: flex;
         width:372px;
         justify-content: space-between;
+        margin-left: 20px;
+        padding-top: 22px;
     }
     .noPadding{
         width: 623px;
@@ -369,13 +374,13 @@
             }
         }
         &_svc{
-            padding:55px 0px;
+            padding:55px 0px 70px;
             &_title{
                 font-size: 40px;
                 .svcCont{
-                    padding-top: 35px;
+                    padding-top:120px;
                     img{
-                        max-width: 120px;
+                        max-width: 105px;
                     }
                 }
                 .indTxt{
@@ -384,7 +389,7 @@
                 }
                 .indCon{
                     font-size: 20px;
-                    padding-top: 30px;
+                    padding-top: 16px;
                     padding-bottom: 10px;
                 }
             }
@@ -395,7 +400,6 @@
         .dnaContainer{
             font-size: 17px;
             padding-top:25px;
-            padding-bottom:85px;
             width: 970px;
         }
         .scrollContainer{
@@ -534,11 +538,11 @@
             }
         }
         &_svc{
-            padding:55px 150px;
+            padding: 75px 150px 80px;
             &_title{
                 font-size: 40px;
                 .svcCont{
-                    padding-top: 35px;
+                    padding-top: 160px;
                     img{
                         max-width: 120px;
                     }
@@ -559,8 +563,7 @@
         }
         .dnaContainer{
             font-size: 20px;
-            padding-top:30px;
-            padding-bottom:85px;
+            padding-top:40px;
         }
     }
     .philSec{
