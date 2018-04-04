@@ -21,4 +21,5 @@ practiceList4: Package design
 practiceImg: "/assets/img/homepage/arrow.svg"
 backgroundImg: '/assets/img/homepage/product-design.svg'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm.svg'
+url: "productDesign"
 ---

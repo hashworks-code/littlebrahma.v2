@@ -429,9 +429,9 @@ button.lb_btn:focus {
     .BrandingandCommunication{
         display: none;
     }
-    .lb-filter-service{
-       display: none;
-    }
+    // .lb-filter-service{
+    //    display: none;
+    // }
     .lb_sevicetop{
         margin-top:80px;
     }
@@ -553,4 +553,10 @@ button.lb_btn:focus {
     .lb_btn_div{
         text-align: center;
     }
+}
+.filterli-2{
+    display: none;
+}
+.filterli-3{
+    display: none;
 }

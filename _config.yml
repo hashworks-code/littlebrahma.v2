@@ -29,6 +29,10 @@ collections:
     title: service
     output: true
     permalink: "/service/:path/"
+  workpage1:
+    title: casestudy
+    output: true
+    permalink: "/casestudy/:path/"
   uploads:
     title: Uploads
     output: true

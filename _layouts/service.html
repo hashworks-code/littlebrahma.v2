@@ -107,26 +107,86 @@
 <section>
     <div>
         <div class="lb-filterDiv container">
-               
+               {% if page.subtitle == "Branding and Communication"%}
                 <div class="row">
-                       {% assign item = site.workpage %}
-                       {% for work in item %}
-                       <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-serviceDetail">
-                               <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
-                               <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                   <div class="lb-filter-head">
-                                       {{work.product_title}}
-                                   </div>
-                               </div>
-                               <h3 class="lb-filter-header">{{work.product_title1}}</h3>
-                               <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-                               <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
-                       </div> 
-                     {% endfor %}
+                        {% assign item = site.workpage1 %}
+                        {% for work in item %}
+                        
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
+                                    <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                    <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                        <div class="lb-filter-head">
+                                            {{work.product_title}}
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                        </div> 
                        
+                        {% endfor %}
+
+                        {% assign item = site.workpage %}
+								   {% for work in item %}
+								   <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+										   <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+										   <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+											   <div class="lb-filter-head">
+												   {{work.product_title}}
+											   </div>
+										   </div>
+										   <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+										   <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+										   <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+								   </div> 
+								 {% endfor %}
+                     
+               </div>  
+               {% endif %}
+
+               {% if page.subtitle == "Product"%}
+                <div class="row">
+                        {% assign item = site.workpage %}
+                        {% for work in item %}
                        
-                   <!-- </div> -->
-               </div>                    
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                    <div class="lb-filter-head">
+                                        {{work.product_title}}
+                                    </div>
+                                </div>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                        </div> 
+                      {% endfor %}
+                     
+               </div>  
+               {% endif %}
+
+               {% if page.subtitle == "Service"%}
+                <div class="row">
+                        {% assign item = site.workpage1 %}
+                        {% for work in item %}
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                    <div class="lb-filter-head">
+                                        {{work.product_title}}
+                                    </div>
+                                </div>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                        </div> 
+                        {% endfor %}
+                     
+               </div>  
+               {% endif %}
+
          </div>
          <div>
                 <div class="lb_btn_div">
@@ -143,20 +203,21 @@
         <div class="homePage__BnrDiv__Service__Cards service-redirect">
                 {% assign item = site.practice %}
                 {% for practice in item %}
-               
-          <div class="homePage__BnrDiv__Service__Cards__Inner">
-                <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
-                        <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
-            <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>
-            <h3>{{practice.practiceList}}</h3>
-            <p>{{practice.practiceList1}}</p>
-            <p>{{practice.practiceList2}}</p>
-            <p>{{practice.practiceList3}}</p>
-            <p>{{practice.practiceList4}}</p>
-            <img src="{{practice.practiceImg}}">
-            </a>
-          </div>
-          {% endfor %}
+                {% if practice.subtitle != page.subtitle %}
+                <div class="homePage__BnrDiv__Service__Cards__Inner">
+                        <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
+                                <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
+                    <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>
+                    <h3>{{practice.practiceList}}</h3>
+                    <p>{{practice.practiceList1}}</p>
+                    <p>{{practice.practiceList2}}</p>
+                    <p>{{practice.practiceList3}}</p>
+                    <p>{{practice.practiceList4}}</p>
+                    <img src="{{practice.practiceImg}}">
+                    </a>
+                </div>
+                {% endif %}
+                {% endfor %}
         </div>
 </section>
 

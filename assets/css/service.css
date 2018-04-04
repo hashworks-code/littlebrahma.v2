@@ -1608,9 +1608,6 @@ div.test {
 .BrandingandCommunication {
   display: none; }
 
-.lb-filter-service {
-  display: none; }
-
 .lb_sevicetop {
   margin-top: 80px; }
 
@@ -1695,6 +1692,12 @@ div.test {
     font-size: 14px; }
   .lb_btn_div {
     text-align: center; } }
+
+.filterli-2 {
+  display: none; }
+
+.filterli-3 {
+  display: none; }
 
 .prct {
   line-height: 1.5; }
@@ -2666,9 +2669,6 @@ div.test {
 .BrandingandCommunication {
   display: none; }
 
-.lb-filter-service {
-  display: none; }
-
 .lb_sevicetop {
   margin-top: 80px; }
 
@@ -2753,6 +2753,12 @@ div.test {
     font-size: 14px; }
   .lb_btn_div {
     text-align: center; } }
+
+.filterli-2 {
+  display: none; }
+
+.filterli-3 {
+  display: none; }
 
 .homePage {
   margin-top: 80px; }
@@ -3164,12 +3170,26 @@ ul.lb_work_filter.lb_service_lg {
 .service-redirect {
   padding-bottom: 50px; }
 
+@media screen and (min-width: 320px) {
+  .lb-explore {
+    font-size: 16px;
+    padding-top: 0px; } }
+
+@media screen and (min-width: 768px) {
+  .lb-explore {
+    font-size: 24px;
+    padding-top: 0px; } }
+
 @media screen and (min-width: 1367px) {
   .hero_cnt {
     padding-right: 50px;
-    padding-left: 50px; } }
+    padding-left: 50px; }
+  .lb-explore {
+    font-size: 40px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .hero_cnt {
     padding-left: 50px;
-    padding-right: 50px; } }
+    padding-right: 50px; }
+  .lb-explore {
+    font-size: 32px; } }
