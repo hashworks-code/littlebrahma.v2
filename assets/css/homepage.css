@@ -1623,9 +1623,6 @@ div.test {
 .BrandingandCommunication {
   display: none; }
 
-.lb-filter-service {
-  display: none; }
-
 .lb_sevicetop {
   margin-top: 80px; }
 
@@ -1710,6 +1707,12 @@ div.test {
     font-size: 14px; }
   .lb_btn_div {
     text-align: center; } }
+
+.filterli-2 {
+  display: none; }
+
+.filterli-3 {
+  display: none; }
 
 .homePage {
   margin-top: 80px; }

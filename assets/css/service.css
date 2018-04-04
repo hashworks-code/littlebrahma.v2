@@ -1623,9 +1623,6 @@ div.test {
 .BrandingandCommunication {
   display: none; }
 
-.lb-filter-service {
-  display: none; }
-
 .lb_sevicetop {
   margin-top: 80px; }
 
@@ -1711,1063 +1708,11 @@ div.test {
   .lb_btn_div {
     text-align: center; } }
 
-.prct {
-  line-height: 1.5; }
-  .prct .hero_img {
-    background-image: url(/assets/img/practice/group-3.png); }
-  .prct_rnImg {
-    width: 100vw; }
-  .prct .genericTitle, .prct .contextTitle {
-    font-family: "MavenPro-Medium"; }
-  .prct .contextualTxt {
-    font-family: "PT_Sans-Regular"; }
-  .prct .prctDicipline {
-    background: #fff; }
-  .prct .rContent_1 {
-    visibility: hidden; }
-  .prct .right.Containers {
-    background: #fff; }
-  .prct img {
-    width: 100%; }
-  .prct .dnaImgMob {
-    display: none; }
-  .prct_dic {
-    padding-top: 45px;
-    padding-bottom: 45px; }
-    .prct_dic .title {
-      font-family: "MavenPro-Medium"; }
-    .prct_dic .bldContent {
-      font-family: "MavenPro-Bold"; }
-    .prct_dic .bsTxt {
-      font-family: "PT_Sans-Regular"; }
-    .prct_dic .hckTitle {
-      display: none; }
-    .prct_dic .imgContainer {
-      text-align: center; }
-  .prct_svc {
-    padding: 37px 35px 46px 29px; }
-    .prct_svc_title {
-      font-family: "MavenPro-Medium";
-      text-align: center; }
-      .prct_svc_title .indTxt {
-        font-family: "MavenPro-Medium"; }
-      .prct_svc_title .indCon {
-        font-family: "PT_Sans-Regular"; }
-  .prct .dnaSummary {
-    background: #fff;
-    line-height: 1.5;
-    text-align: center; }
-  .prct .dnaContainer {
-    font-family: "PT_Sans-Regular";
-    display: table; }
-
-.prctDiv {
-  margin-top: 65px;
-  text-align: center; }
-  .prctDiv .prctSec {
-    display: inline-block; }
-    .prctDiv .prctSec_tab {
-      display: inline-block;
-      font-family: "MavenPro-Medium";
-      font-size: 24px;
-      cursor: pointer;
-      padding-bottom: 2px;
-      margin: 0 35px 0; }
-    .prctDiv .prctSec_inactive {
-      color: #393939; }
-    .prctDiv .prctSec_active, .prctDiv .prctSec_tab:hover {
-      color: #ea1c49;
-      border-bottom: 2px solid #ea1c49; }
-
-@media screen and (min-width: 320px) and (max-width: 1024px) {
-  .prct .dnaImgMob {
-    display: block;
-    width: 250px;
-    background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
-    background-size: contain;
-    height: 250px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
-    visibility: visible;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 250px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0 15px; }
-  .prct .rContent_2 {
-    padding-left: 40px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
-    margin-left: -135px; }
-  .prct .rContent_1Img {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg); }
-  .prct .rContent_2Img {
-    margin-right: -135px;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
-  .prct .rContent_3Img {
-    -webkit-transform: rotate(210deg);
-            transform: rotate(210deg); } }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .lgCon {
-    margin-top: 30px; }
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 15px; }
-  .prct .genericTitle {
-    font-size: 20px; }
-  .prct .fixCont {
-    display: none; }
-  .prct_dic .hckTitle {
-    display: block; }
-  .prct_dic img {
-    max-width: 350px; }
-  .prct_dic .dicContents {
-    padding-left: 50px !important;
-    padding-right: 29px !important; }
-    .prct_dic .dicContents .title {
-      display: none; }
-  .prct_dic .title {
-    font-size: 20px; }
-  .prct_dic .bldContent {
-    font-size: 14px;
-    padding-bottom: 14px; }
-  .prct_dic .bsTxt {
-    font-size: 14px; }
-  .prct_svc_title {
-    text-align: center;
-    font-size: 24px; }
-    .prct_svc_title .svcCont {
-      padding-top: 72px; }
-      .prct_svc_title .svcCont img {
-        max-width: 80px; }
-    .prct_svc_title .indTxt {
-      font-size: 17px;
-      padding-bottom: 16px;
-      text-align: center; }
-    .prct_svc_title .indCon {
-      font-size: 14px;
-      padding-top: 0px;
-      padding-bottom: 24px; }
-  .prct .dnaContainer {
-    font-size: 14px;
-    padding-top: 16px; }
-  .prctDiv {
-    margin-top: 55px; }
-    .prctDiv .prctSec_tab {
-      font-size: 16px;
-      margin: 0 20px 0; }
-  .philSec {
-    margin: 50px 29px 0; } }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 15px; }
-  .prct .fixCont {
-    display: none; }
-  .prct .dnaImgMob {
-    width: 508px;
-    height: 508px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
-    height: 508px; }
-  .prct .rContent_2 {
-    padding-left: 107px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
-    margin-left: -270px; }
-  .prct .rContent_1Img {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg); }
-  .prct .rContent_2Img {
-    margin-right: -265px;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
-  .prct .rContent_3Img {
-    -webkit-transform: rotate(210deg);
-            transform: rotate(210deg); } }
-
-@media screen and (min-width: 768px) {
-  .prct .genericTitle {
-    font-size: 24px; }
-  .prct .contextTitle {
-    font-size: 24px; }
-  .prct .contextualTxt {
-    font-size: 20px; }
-  .prct .mobScreen {
-    width: 100%; }
-  .prct_dic .hckTitle {
-    display: none; }
-  .prct_dic .title {
-    font-size: 32px;
-    padding-bottom: 20px;
-    padding-top: 15px; }
-  .prct_dic .bldContent {
-    font-size: 18px;
-    padding-bottom: 21px; }
-  .prct_dic .bsTxt {
-    font-size: 17px; }
-  .prct_dic img {
-    width: 293px;
-    height: 282px;
-    margin: -20px 0; }
-  .prct_dic .dicContents .title {
-    display: block; }
-  .prct_svc {
-    padding: 50px 35px 80px; }
-    .prct_svc_title {
-      text-align: center;
-      font-size: 24px; }
-      .prct_svc_title .svcCont {
-        padding-top: 72px; }
-        .prct_svc_title .svcCont img {
-          max-width: 85px;
-          margin-top: 20px; }
-      .prct_svc_title .indTxt {
-        font-size: 24px; }
-      .prct_svc_title .indCon {
-        font-size: 17px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
-  .prct .dnaContainer {
-    font-size: 17px;
-    padding-top: 30px;
-    width: 690px; }
-  .prctDiv {
-    margin-top: 80px; }
-    .prctDiv .prctSec_tab {
-      font-size: 16px;
-      margin: 0 20px 0; }
-  .philSec {
-    margin: 50px 29px 0; } }
-
-@media screen and (min-width: 1025px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 372px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 20px;
-    padding-top: 22px; }
-  .noPadding {
-    width: 623px; }
-  .prct {
-    /* Safari 4.0 - 8.0 */
-    /* Standard syntax */
-    /* Safari 4.0 - 8.0 */
-    /* Standard syntax */ }
-    .prct .genericTitle {
-      font-size: 32px; }
-    .prct_dic .title {
-      font-size: 32px;
-      padding-bottom: 41px;
-      padding-top: 35px; }
-    .prct_dic .bldContent {
-      font-size: 18px;
-      padding-bottom: 10px; }
-    .prct_dic .bsTxt {
-      font-size: 17px; }
-    .prct_dic img {
-      width: 414px;
-      height: 377px;
-      margin: -20px 0; }
-    .prct_svc {
-      padding: 55px 0px 70px; }
-      .prct_svc_title {
-        font-size: 40px; }
-        .prct_svc_title .svcCont {
-          padding-top: 120px; }
-          .prct_svc_title .svcCont img {
-            max-width: 105px; }
-        .prct_svc_title .indTxt {
-          font-size: 32px; }
-        .prct_svc_title .indCon {
-          font-size: 20px;
-          padding-top: 16px;
-          padding-bottom: 10px; }
-      .prct_svc .sCont {
-        padding-top: 15px; }
-    .prct .dnaContainer {
-      font-size: 17px;
-      padding-top: 25px;
-      width: 970px; }
-    .prct .scrollContainer {
-      height: calc(300vh - 80px);
-      position: relative;
-      background: #fff; }
-      .prct .scrollContainer img {
-        width: auto; }
-    .prct .fixCont {
-      /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
-      height: calc(100vh - 80px);
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      -webkit-animation-name: example;
-      /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s;
-      /* Safari 4.0 - 8.0 */
-      animation-name: example;
-      animation-duration: 1s; }
-    .prct .fixCont img {
-      height: 100%; }
-    .prct .fixedClass {
-      position: fixed;
-      top: 80px;
-      left: 0%;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      -webkit-animation-name: example2;
-      /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s;
-      /* Safari 4.0 - 8.0 */
-      animation-name: example2;
-      animation-duration: 1s; }
-  @-webkit-keyframes example {
-    from {
-      left: 0%; }
-    to {
-      left: 50%; } }
-  @keyframes example {
-    from {
-      left: 0%; }
-    to {
-      left: 50%; } }
-  @-webkit-keyframes example2 {
-    from {
-      left: 50%; }
-    to {
-      left: 0%; } }
-  @keyframes example2 {
-    from {
-      left: 50%; }
-    to {
-      left: 0%; } }
-    .prct .rContent {
-      height: calc(100vh - 80px); }
-    .prct .posAbs {
-      position: absolute;
-      bottom: 0 !important;
-      left: 0%;
-      top: unset; }
-    .prct .right.Containers {
-      display: block;
-      width: 40%;
-      margin: 0 auto;
-      top: 10%;
-      position: relative;
-      background: transparent; }
-  .prctDiv {
-    margin-top: 65px; }
-    .prctDiv .prctSec_tab {
-      font-size: 24px;
-      margin: 0 35px 0; }
-  .philSec {
-    margin: 70px 29px 0; } }
-
-@media screen and (min-width: 1367px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 415px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .prct .genericTitle {
-    font-size: 48px; }
-  .prct .contextTitle {
-    font-size: 24px; }
-  .prct .contextualTxt {
-    font-size: 28px; }
-  .prct_dic .title {
-    font-size: 48px;
-    padding-bottom: 17px;
-    padding-top: 55px; }
-  .prct_dic .bldContent {
-    font-size: 24px;
-    padding-bottom: 28px; }
-  .prct_dic .bsTxt {
-    font-size: 20px; }
-  .prct_dic img {
-    width: 557px;
-    height: 506px;
-    margin: -20px 0; }
-  .prct_svc {
-    padding: 75px 150px 80px; }
-    .prct_svc_title {
-      font-size: 40px; }
-      .prct_svc_title .svcCont {
-        padding-top: 160px; }
-        .prct_svc_title .svcCont img {
-          max-width: 120px; }
-      .prct_svc_title .indTxt {
-        font-size: 32px; }
-      .prct_svc_title .indCon {
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
-      .prct_svc_title .lgCon {
-        width: 830px; }
-  .prct .dnaContainer {
-    font-size: 20px;
-    padding-top: 40px; }
-  .philSec {
-    margin: 80px 29px 0; } }
-
-.prct {
-  line-height: 1.5; }
-  .prct .hero_img {
-    background-image: url(/assets/img/practice/group-3.png); }
-  .prct_rnImg {
-    width: 100vw; }
-  .prct .genericTitle, .prct .contextTitle {
-    font-family: "MavenPro-Medium"; }
-  .prct .contextualTxt {
-    font-family: "PT_Sans-Regular"; }
-  .prct .prctDicipline {
-    background: #fff; }
-  .prct .rContent_1 {
-    visibility: hidden; }
-  .prct .right.Containers {
-    background: #fff; }
-  .prct img {
-    width: 100%; }
-  .prct .dnaImgMob {
-    display: none; }
-  .prct_dic {
-    padding-top: 45px;
-    padding-bottom: 45px; }
-    .prct_dic .title {
-      font-family: "MavenPro-Medium"; }
-    .prct_dic .bldContent {
-      font-family: "MavenPro-Bold"; }
-    .prct_dic .bsTxt {
-      font-family: "PT_Sans-Regular"; }
-    .prct_dic .hckTitle {
-      display: none; }
-    .prct_dic .imgContainer {
-      text-align: center; }
-  .prct_svc {
-    padding: 37px 35px 46px 29px; }
-    .prct_svc_title {
-      font-family: "MavenPro-Medium";
-      text-align: center; }
-      .prct_svc_title .indTxt {
-        font-family: "MavenPro-Medium"; }
-      .prct_svc_title .indCon {
-        font-family: "PT_Sans-Regular"; }
-  .prct .dnaSummary {
-    background: #fff;
-    line-height: 1.5;
-    text-align: center; }
-  .prct .dnaContainer {
-    font-family: "PT_Sans-Regular";
-    display: table; }
-
-.prctDiv {
-  margin-top: 65px;
-  text-align: center; }
-  .prctDiv .prctSec {
-    display: inline-block; }
-    .prctDiv .prctSec_tab {
-      display: inline-block;
-      font-family: "MavenPro-Medium";
-      font-size: 24px;
-      cursor: pointer;
-      padding-bottom: 2px;
-      margin: 0 35px 0; }
-    .prctDiv .prctSec_inactive {
-      color: #393939; }
-    .prctDiv .prctSec_active, .prctDiv .prctSec_tab:hover {
-      color: #ea1c49;
-      border-bottom: 2px solid #ea1c49; }
-
-@media screen and (min-width: 320px) and (max-width: 1024px) {
-  .prct .dnaImgMob {
-    display: block;
-    width: 250px;
-    background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
-    background-size: contain;
-    height: 250px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
-    visibility: visible;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 250px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0 15px; }
-  .prct .rContent_2 {
-    padding-left: 40px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
-    margin-left: -135px; }
-  .prct .rContent_1Img {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg); }
-  .prct .rContent_2Img {
-    margin-right: -135px;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
-  .prct .rContent_3Img {
-    -webkit-transform: rotate(210deg);
-            transform: rotate(210deg); } }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .lgCon {
-    margin-top: 30px; }
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 15px; }
-  .prct .genericTitle {
-    font-size: 20px; }
-  .prct .fixCont {
-    display: none; }
-  .prct_dic .hckTitle {
-    display: block; }
-  .prct_dic img {
-    max-width: 350px; }
-  .prct_dic .dicContents {
-    padding-left: 50px !important;
-    padding-right: 29px !important; }
-    .prct_dic .dicContents .title {
-      display: none; }
-  .prct_dic .title {
-    font-size: 20px; }
-  .prct_dic .bldContent {
-    font-size: 14px;
-    padding-bottom: 14px; }
-  .prct_dic .bsTxt {
-    font-size: 14px; }
-  .prct_svc_title {
-    text-align: center;
-    font-size: 24px; }
-    .prct_svc_title .svcCont {
-      padding-top: 72px; }
-      .prct_svc_title .svcCont img {
-        max-width: 80px; }
-    .prct_svc_title .indTxt {
-      font-size: 17px;
-      padding-bottom: 16px;
-      text-align: center; }
-    .prct_svc_title .indCon {
-      font-size: 14px;
-      padding-top: 0px;
-      padding-bottom: 24px; }
-  .prct .dnaContainer {
-    font-size: 14px;
-    padding-top: 16px; }
-  .prctDiv {
-    margin-top: 55px; }
-    .prctDiv .prctSec_tab {
-      font-size: 16px;
-      margin: 0 20px 0; }
-  .philSec {
-    margin: 50px 29px 0; } }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 15px; }
-  .prct .fixCont {
-    display: none; }
-  .prct .dnaImgMob {
-    width: 508px;
-    height: 508px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
-    height: 508px; }
-  .prct .rContent_2 {
-    padding-left: 107px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
-    margin-left: -270px; }
-  .prct .rContent_1Img {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg); }
-  .prct .rContent_2Img {
-    margin-right: -265px;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); }
-  .prct .rContent_3Img {
-    -webkit-transform: rotate(210deg);
-            transform: rotate(210deg); } }
-
-@media screen and (min-width: 768px) {
-  .prct .genericTitle {
-    font-size: 24px; }
-  .prct .contextTitle {
-    font-size: 24px; }
-  .prct .contextualTxt {
-    font-size: 20px; }
-  .prct .mobScreen {
-    width: 100%; }
-  .prct_dic .hckTitle {
-    display: none; }
-  .prct_dic .title {
-    font-size: 32px;
-    padding-bottom: 20px;
-    padding-top: 15px; }
-  .prct_dic .bldContent {
-    font-size: 18px;
-    padding-bottom: 21px; }
-  .prct_dic .bsTxt {
-    font-size: 17px; }
-  .prct_dic img {
-    width: 293px;
-    height: 282px;
-    margin: -20px 0; }
-  .prct_dic .dicContents .title {
-    display: block; }
-  .prct_svc {
-    padding: 50px 35px 80px; }
-    .prct_svc_title {
-      text-align: center;
-      font-size: 24px; }
-      .prct_svc_title .svcCont {
-        padding-top: 72px; }
-        .prct_svc_title .svcCont img {
-          max-width: 85px;
-          margin-top: 20px; }
-      .prct_svc_title .indTxt {
-        font-size: 24px; }
-      .prct_svc_title .indCon {
-        font-size: 17px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
-  .prct .dnaContainer {
-    font-size: 17px;
-    padding-top: 30px;
-    width: 690px; }
-  .prctDiv {
-    margin-top: 80px; }
-    .prctDiv .prctSec_tab {
-      font-size: 16px;
-      margin: 0 20px 0; }
-  .philSec {
-    margin: 50px 29px 0; } }
-
-@media screen and (min-width: 1025px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 372px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 20px;
-    padding-top: 22px; }
-  .noPadding {
-    width: 623px; }
-  .prct {
-    /* Safari 4.0 - 8.0 */
-    /* Standard syntax */
-    /* Safari 4.0 - 8.0 */
-    /* Standard syntax */ }
-    .prct .genericTitle {
-      font-size: 32px; }
-    .prct_dic .title {
-      font-size: 32px;
-      padding-bottom: 41px;
-      padding-top: 35px; }
-    .prct_dic .bldContent {
-      font-size: 18px;
-      padding-bottom: 10px; }
-    .prct_dic .bsTxt {
-      font-size: 17px; }
-    .prct_dic img {
-      width: 414px;
-      height: 377px;
-      margin: -20px 0; }
-    .prct_svc {
-      padding: 55px 0px 70px; }
-      .prct_svc_title {
-        font-size: 40px; }
-        .prct_svc_title .svcCont {
-          padding-top: 120px; }
-          .prct_svc_title .svcCont img {
-            max-width: 105px; }
-        .prct_svc_title .indTxt {
-          font-size: 32px; }
-        .prct_svc_title .indCon {
-          font-size: 20px;
-          padding-top: 16px;
-          padding-bottom: 10px; }
-      .prct_svc .sCont {
-        padding-top: 15px; }
-    .prct .dnaContainer {
-      font-size: 17px;
-      padding-top: 25px;
-      width: 970px; }
-    .prct .scrollContainer {
-      height: calc(300vh - 80px);
-      position: relative;
-      background: #fff; }
-      .prct .scrollContainer img {
-        width: auto; }
-    .prct .fixCont {
-      /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
-      height: calc(100vh - 80px);
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      -webkit-animation-name: example;
-      /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s;
-      /* Safari 4.0 - 8.0 */
-      animation-name: example;
-      animation-duration: 1s; }
-    .prct .fixCont img {
-      height: 100%; }
-    .prct .fixedClass {
-      position: fixed;
-      top: 80px;
-      left: 0%;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0);
-      -webkit-animation-name: example2;
-      /* Safari 4.0 - 8.0 */
-      -webkit-animation-duration: 1s;
-      /* Safari 4.0 - 8.0 */
-      animation-name: example2;
-      animation-duration: 1s; }
-  @-webkit-keyframes example {
-    from {
-      left: 0%; }
-    to {
-      left: 50%; } }
-  @keyframes example {
-    from {
-      left: 0%; }
-    to {
-      left: 50%; } }
-  @-webkit-keyframes example2 {
-    from {
-      left: 50%; }
-    to {
-      left: 0%; } }
-  @keyframes example2 {
-    from {
-      left: 50%; }
-    to {
-      left: 0%; } }
-    .prct .rContent {
-      height: calc(100vh - 80px); }
-    .prct .posAbs {
-      position: absolute;
-      bottom: 0 !important;
-      left: 0%;
-      top: unset; }
-    .prct .right.Containers {
-      display: block;
-      width: 40%;
-      margin: 0 auto;
-      top: 10%;
-      position: relative;
-      background: transparent; }
-  .prctDiv {
-    margin-top: 65px; }
-    .prctDiv .prctSec_tab {
-      font-size: 24px;
-      margin: 0 35px 0; }
-  .philSec {
-    margin: 70px 29px 0; } }
-
-@media screen and (min-width: 1367px) {
-  .knowmore {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 415px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .prct .genericTitle {
-    font-size: 48px; }
-  .prct .contextTitle {
-    font-size: 24px; }
-  .prct .contextualTxt {
-    font-size: 28px; }
-  .prct_dic .title {
-    font-size: 48px;
-    padding-bottom: 17px;
-    padding-top: 55px; }
-  .prct_dic .bldContent {
-    font-size: 24px;
-    padding-bottom: 28px; }
-  .prct_dic .bsTxt {
-    font-size: 20px; }
-  .prct_dic img {
-    width: 557px;
-    height: 506px;
-    margin: -20px 0; }
-  .prct_svc {
-    padding: 75px 150px 80px; }
-    .prct_svc_title {
-      font-size: 40px; }
-      .prct_svc_title .svcCont {
-        padding-top: 160px; }
-        .prct_svc_title .svcCont img {
-          max-width: 120px; }
-      .prct_svc_title .indTxt {
-        font-size: 32px; }
-      .prct_svc_title .indCon {
-        font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
-      .prct_svc_title .lgCon {
-        width: 830px; }
-  .prct .dnaContainer {
-    font-size: 20px;
-    padding-top: 40px; }
-  .philSec {
-    margin: 80px 29px 0; } }
-
-.prct .hero_img {
-  background-image: url(/assets/img/workpage/group-3.png); }
-
-#lb_btn1 {
+.filterli-2 {
   display: none; }
 
-.lb_work_filter li {
-  display: inline;
-  padding: 0 0px 4px 0px;
-  cursor: pointer;
-  font-family: MavenPro-Medium;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  margin-left: 30px; }
-
-.lb_caseStusy {
-  margin-top: 50px; }
-
-.lb-Workfilter {
-  padding-top: 50px; }
-
-ul.lb_work_filter.lb_filter_lg {
-  text-align: center; }
-
-li.lb_work_filterActive {
-  border-bottom: 2px solid #ea1c49;
-  color: #ea1c49; }
-
-li.lb_work_filterli:first-child {
-  margin-left: 10px !important; }
-
-.lb-filter-Img {
-  height: 340px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-left: 30px; }
-
-button.lb_btn:focus {
-  outline: none; }
-
-.lb_btn_div {
-  width: 160px;
-  margin: 0 auto;
-  padding-bottom: 50px; }
-
-.lb-filter-service {
-  padding-bottom: 30px; }
-
-.lb-filter-head {
-  width: 121px;
-  height: 56px;
-  font-family: MavenPro-Medium;
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  padding-top: 24px; }
-
-.lb-filter-header {
-  font-family: MavenPro-Medium;
-  font-size: 24px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey);
-  padding-top: 15px; }
-
-.lb-filter-headdesc {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey); }
-
-.lb-filter-footer {
-  font-family: MavenPro-Medium;
-  font-size: 12px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey);
-  padding-top: 10px; }
-
-div.test {
+.filterli-3 {
   display: none; }
-
-.message {
-  display: inline-block;
-  width: 100%;
-  float: left; }
-
-.Servicedesign {
-  display: none; }
-
-.BrandingandCommunication {
-  display: none; }
-
-.lb-filter-service {
-  display: none; }
-
-.lb_sevicetop {
-  margin-top: 80px; }
-
-@media screen and (min-width: 320px) {
-  .lb_work_filter li {
-    font-size: 16px; }
-  .lb_filter_lg {
-    display: none; }
-  .work_selectdiv {
-    width: 215px;
-    margin: 0 auto; }
-  .work_select {
-    background-color: #fff;
-    border: none;
-    padding: 10px;
-    /* border-radius: 16px; */
-    border-bottom: 2px solid #ea1c49;
-    color: #ea1c49;
-    padding: 0px;
-    padding-bottom: 4px; }
-  select.work_select:focus {
-    outline: none; }
-  .lb_filter_mb {
-    display: block; }
-  .lb-filter-head {
-    font-size: 16px; }
-  .lb-filter-header {
-    font-size: 16px; }
-  .lb-filter-headdesc {
-    font-size: 12px; }
-  .lb_btn_div {
-    text-align: center; } }
-
-@media screen and (max-width: 420px) {
-  .lb-filter-Img {
-    height: 194px; } }
-
-@media screen and (min-width: 768px) {
-  .lb_filter_lg {
-    display: block; }
-  .lb_work_filter li {
-    font-size: 16px; }
-  .lb_filter_mb {
-    display: none; }
-  .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
-    font-size: 14px; }
-  .lb_btn_div {
-    text-align: center; } }
-
-@media screen and (min-width: 1024px) {
-  .lb_filter_lg {
-    display: block; }
-  .lb_work_filter li {
-    font-size: 24px; }
-  .lb_filter_mb {
-    display: none; }
-  .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
-    font-size: 14px; }
-  .lb_btn_div {
-    text-align: center; } }
-
-@media screen and (min-width: 1367px) {
-  .lb_filter_lg {
-    display: block; }
-  .lb_work_filter li {
-    font-size: 24px; }
-  .lb_filter_mb {
-    display: none; }
-  .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
-    font-size: 14px; }
-  .lb_btn_div {
-    text-align: center; } }
 
 .homePage {
   margin-top: 80px; }
@@ -3179,12 +2124,233 @@ ul.lb_work_filter.lb_service_lg {
 .service-redirect {
   padding-bottom: 50px; }
 
+@media screen and (min-width: 320px) {
+  .lb-explore {
+    font-size: 16px;
+    padding-top: 0px; } }
+
+@media screen and (min-width: 768px) {
+  .lb-explore {
+    font-size: 24px;
+    padding-top: 0px; } }
+
 @media screen and (min-width: 1367px) {
   .hero_cnt {
     padding-right: 50px;
-    padding-left: 50px; } }
+    padding-left: 50px; }
+  .lb-explore {
+    font-size: 40px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .hero_cnt {
     padding-left: 50px;
-    padding-right: 50px; } }
+    padding-right: 50px; }
+  .lb-explore {
+    font-size: 32px; } }
+
+@media only screen and (min-width: 320px) {
+  .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .carousel__card {
+      display: -webkit-box;
+      position: absolute !important;
+      z-index: 1;
+      top: 100px;
+      left: 49px;
+      width: 220px; }
+    .carousel__card1 {
+      width: 155px;
+      height: 215px !important;
+      -o-object-fit: contain;
+         object-fit: contain;
+      background-color: #ffffff;
+      -webkit-box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.2);
+              box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.2);
+      margin: 102px 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .carousel__card1 img {
+        width: 26px;
+        margin: 15px 0px 15px 65px; }
+      .carousel__card1 p {
+        padding: 0px 15px 15px;
+        font-size: 14px;
+        text-align: center; }
+    .carousel h1 {
+      padding-bottom: 10px;
+      text-align: center; }
+    .carousel__card2 {
+      width: 880px;
+      height: 484px;
+      -o-object-fit: contain;
+         object-fit: contain;
+      background-color: #022b3b; }
+      .carousel__card2 h1 {
+        color: #ffffff;
+        padding: 34px 30px 0px;
+        margin: 0px;
+        text-align: left; }
+      .carousel__card2 p {
+        color: #ffffff;
+        width: 100%;
+        padding: 12px 30px;
+        width: 280px; }
+  .slick-prev {
+    top: 17% !important;
+    width: 38px !important;
+    left: -20px !important;
+    height: 18px !important; }
+  .slick-next {
+    top: 17% !important;
+    right: 160px !important;
+    height: 18px !important; } }
+
+@media only screen and (min-width: 767px) {
+  .carousel__card {
+    display: -webkit-box;
+    position: relative !important;
+    top: 24px;
+    left: 78px;
+    width: 361px; }
+  .carousel__card1 {
+    width: 155px;
+    height: 222px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      width: 30px;
+      margin: 15px 0px 15px 70px; }
+    .carousel__card1 h1 {
+      text-align: center !important; }
+  .carousel h1 {
+    padding-bottom: 10px;
+    text-align: left; }
+  .carousel__card2 {
+    width: 494px;
+    height: 272px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 58px 0px 0px 150px; }
+    .carousel__card2 h1 {
+      width: 300px;
+      padding: 0px 0px 12px 0px; }
+    .carousel__card2 p {
+      width: 300px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 41% !important;
+    left: 426px !important; }
+  .carousel .slick-next {
+    top: 41% !important;
+    right: -150px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 160px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 2000px  !important; } }
+
+@media only screen and (min-width: 1024px) {
+  .carousel__card {
+    top: 62px;
+    left: 162px;
+    width: 488px; }
+  .carousel__card1 {
+    width: 155px;
+    height: 279px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      width: 54px;
+      margin: 50px 0px 30px 82px; }
+    .carousel__card1 h1 {
+      text-align: center !important; }
+    .carousel__card1 p {
+      font-size: 16px; }
+  .carousel h1 {
+    padding-bottom: 10px;
+    text-align: left; }
+  .carousel__card2 {
+    width: 662px;
+    height: 405px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 85px 0px 0px 210px; }
+    .carousel__card2 h1 {
+      padding: 0px;
+      width: 407px;
+      font-size: 32px;
+      padding-bottom: 20px; }
+    .carousel__card2 p {
+      width: 300px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 240px !important;
+    left: 540px !important; }
+  .carousel .slick-next {
+    top: 240px !important;
+    right: -140px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 220px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 2000px  !important; } }
+
+@media only screen and (min-width: 1367px) {
+  .carousel__card {
+    top: 81px;
+    left: 165px;
+    width: 555px; }
+  .carousel__card1 {
+    height: 324px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      margin: 56px 0px 32px 96px; }
+    .carousel__card1 p {
+      font-size: 16px;
+      padding: 0px 30px 15px; }
+    .carousel__card1 h1 {
+      padding-bottom: 16px; }
+  .carousel__card2 {
+    width: 895px;
+    height: 484px;
+    padding: 120px 0px 0px 270px; }
+    .carousel__card2 h1 {
+      width: 407px;
+      font-size: 40px;
+      padding: 0px 0px 40px; }
+    .carousel__card2 p {
+      width: 455px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 284px !important;
+    left: 658px !important; }
+  .carousel .slick-next {
+    top: 284px !important;
+    right: -190px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 255px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 4000px  !important; } }

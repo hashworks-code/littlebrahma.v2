@@ -19,6 +19,6 @@ practiceList2: Print media
 practiceList3: Visual Language
 practiceList4: Package design
 practiceImg: "/assets/img/homepage/arrow.svg"
-backgroundImg: '/assets/img/homepage/product-design.svg'
+backgroundImg: '/assets/img/practice/crimson.svg'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm.svg'
 ---
