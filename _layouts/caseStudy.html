@@ -1,0 +1,9 @@
+{% include header.html %}
+    {% include common_header.html %}
+
+{% assign item = site.caseStudy %} {% for casestudies in item %}
+
+<a href="{{casestudies.url}}">{{casestudies.title}}</a>
+{% endfor %}
+   {% include common_footer.html %}
+   {% include footer.html %}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="28px" viewBox="0 0 31 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>12 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.7735757,14.8947983 L0.471736124,14.8947983 L0.471736124,13.061465 L27.7651025,13.061465 L16,1.29636243 L17.2963624,2.26485497e-13 L30.9647365,13.668374 L30.6507423,13.9823682 L30.9647365,14.2963624 L17.2963624,27.9647365 L16,26.668374 L27.7735757,14.8947983 Z" id="path-1"></path>
+    </defs>
+    <g id="004_Service-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_HD" transform="translate(-830.000000, -2254.000000)">
+            <g id="icon/arrow" transform="translate(845.500000, 2268.000000) rotate(180.000000) translate(-845.500000, -2268.000000) translate(830.000000, 2254.000000)">
+                <g id="12">
+                    <g id="Color/Brown">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#EA1C49" xlink:href="#path-1"></use>
+                        <g id="Color/Crimson" mask="url(#mask-2)" fill="#EA1C49">
+                            <g transform="translate(-44.000000, -51.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="103" height="103"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

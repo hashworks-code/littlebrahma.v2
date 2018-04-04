@@ -162,6 +162,12 @@ table {
     font-family: 'MavenPro-Bold';
     font-weight: bold;
     color: #393939; }
+  .csHeading {
+    font-family: 'MavenPro-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    color: #5d6a6f;
+    line-height: normal; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -255,6 +261,8 @@ textarea:hover, textarea:focus {
     font-size: 20px; }
   .paragraph {
     font-size: 16px; }
+  .csHeading {
+    font-size: 24px; }
   .input {
     padding: 14px 10px; }
   .commonButton {
@@ -292,6 +300,8 @@ textarea:hover, textarea:focus {
     font-size: 24px; }
   .paragraph {
     font-size: 20px; }
+  .csHeading {
+    font-size: 32px; }
   .commonButton {
     border-radius: 28px;
     font-size: 20px; }
@@ -312,6 +322,9 @@ textarea:hover, textarea:focus {
     height: 199px;
     bottom: -90px;
     left: -90px; } }
+
+.padding-0 {
+  padding: 0 !important; }
 
 /* -------------------------------- 
 
@@ -1492,9 +1505,6 @@ html, body {
 
 .prct .hero_img {
   background-image: url(/assets/img/about_us/banner.png); }
-
-.padding-0 {
-  padding: 0 !important; }
 
 @media screen and (min-width: 320px) {
   .about-us {
