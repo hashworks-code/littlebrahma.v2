@@ -155,7 +155,7 @@ Primary style
     color: white;
     text-transform: uppercase;
     font-weight:normal;
-    font-family: Nunito;
+    font-family:'MavenPro-Bold';
     font-size: 14px;
     color: #4a4a4a;
     padding-bottom: 10px;
@@ -163,7 +163,7 @@ Primary style
   }
   .cd-secondary-nav a:active,.cd-secondary-nav a:hover,.cd-secondary-nav a:focus{
     text-decoration: none;
-    border-bottom: 3px solid #ea1c49;
+    // border-bottom: 3px solid #ea1c49;
   }
   .cd-secondary-navLasta:active,.cd-secondary-navLasta:hover,.cd-secondary-navLasta:focus{
     text-decoration: none;
@@ -203,7 +203,7 @@ Primary style
   }
   @media only screen and (min-width:1024px) {
     .cd-secondary-nav a{
-   font-family: Lato;
+   font-family: 'MavenPro-Bold';
     font-size: 16px;
   
   }
@@ -378,15 +378,14 @@ Primary style
   .cd-primary-nav a {
     display: inline-block;
     padding: .4em 1em;
-   font-family: Nunito;
+   font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: bold;
     border-radius: 0.25em;
     -webkit-transition: background 0.2s;
     -moz-transition: background 0.2s;
     transition: background 0.2s;
-      color: #4a4a4a;
-  
+    color: #393939;
   }
   
   .cd-primary-nav .cd-label {
@@ -804,3 +803,17 @@ Primary style
     }
   }
 }
+
+.cd-secondary-navli:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  .cd-secondary-navli:hover:after {
+    width: 100%;
+    background: #ea1c49;
+  }

@@ -89,6 +89,9 @@ footer, header, hgroup, menu, nav, section, main {
 body {
   line-height: 1; }
 
+a {
+  text-decoration: none !important; }
+
 ol, ul {
   list-style: none; }
 
@@ -165,6 +168,23 @@ table {
     font-weight: normal;
     line-height: 1.5;
     color: #393939; }
+  .commonButton {
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'PT_Sans-Regular';
+    color: #393939;
+    outline: none;
+    text-align: center;
+    text-decoration: none; }
+  .commonButton:hover {
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    color: #fff;
+    -webkit-transition: background-color 500ms linear;
+    transition: background-color 500ms linear; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -181,22 +201,6 @@ table {
     margin-top: -48px; }
   .hero_ptn {
     display: none; } }
-
-.commonButton {
-  border-radius: 16px;
-  border: solid 2px #022b3b;
-  background-color: transparent;
-  font-size: 14px;
-  padding: 10px 20px;
-  font-family: 'PT_Sans-Regular';
-  color: #393939;
-  outline: none;
-  text-align: center; }
-
-.commonButton:hover {
-  border: solid 2px #ea1c49;
-  background-color: #ea1c49;
-  color: #fff; }
 
 .input {
   width: 264px;
@@ -256,7 +260,7 @@ textarea:hover, textarea:focus {
   .commonButton {
     border-radius: 20px;
     font-size: 16px;
-    padding: 10px 41px; }
+    padding: 10px 20px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
@@ -444,14 +448,13 @@ html, body {
   color: white;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 14px;
   color: #4a4a4a;
   padding-bottom: 10px; }
 
 .cd-secondary-nav a:active, .cd-secondary-nav a:hover, .cd-secondary-nav a:focus {
-  text-decoration: none;
-  border-bottom: 3px solid #ea1c49; }
+  text-decoration: none; }
 
 .cd-secondary-navLasta:active, .cd-secondary-navLasta:hover, .cd-secondary-navLasta:focus {
   text-decoration: none;
@@ -488,7 +491,7 @@ html, body {
 
 @media only screen and (min-width: 1024px) {
   .cd-secondary-nav a {
-    font-family: Lato;
+    font-family: 'MavenPro-Bold';
     font-size: 16px; } }
 
 .cd-primary-nav-trigger {
@@ -637,13 +640,13 @@ html, body {
 .cd-primary-nav a {
   display: inline-block;
   padding: .4em 1em;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 16px;
   font-weight: bold;
   border-radius: 0.25em;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
-  color: #4a4a4a; }
+  color: #393939; }
 
 .cd-primary-nav .cd-label {
   color: #06446e;
@@ -944,19 +947,21 @@ html, body {
       margin-top: 90px;
       height: 300px; } }
 
-/*footer css starts*/
-.headerButton {
-  opacity: 0.92;
-  border-radius: 25px !important;
-  border: solid 2px #022b3b !important;
-  font-family: "PT_Sans-Regular" !important;
-  font-size: 14px !important;
-  text-align: center !important;
-  color: #022b3b !important;
-  background-color: #fff !important;
-  padding: 5px 20px !important;
-  outline: none; }
+.cd-secondary-navli:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease; }
 
+.cd-secondary-navli:hover:after {
+  width: 100%;
+  background: #ea1c49; }
+
+/*footer css starts*/
 .footer {
   background-size: cover;
   background-position: center;
@@ -973,12 +978,7 @@ html, body {
       margin-bottom: 10px;
       margin-top: 15px; }
     .footer__inner a {
-      padding: 12px 30px 14px;
-      border-radius: 28px;
-      border: solid 2px #022b3b;
-      font-family: 'PT_Sans-Regular';
       font-size: 20px;
-      color: #393939;
       text-decoration: none; }
   .footer__bottom {
     position: absolute;

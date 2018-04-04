@@ -89,6 +89,9 @@ footer, header, hgroup, menu, nav, section, main {
 body {
   line-height: 1; }
 
+a {
+  text-decoration: none !important; }
+
 ol, ul {
   list-style: none; }
 
@@ -165,6 +168,23 @@ table {
     font-weight: normal;
     line-height: 1.5;
     color: #393939; }
+  .commonButton {
+    border-radius: 16px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'PT_Sans-Regular';
+    color: #393939;
+    outline: none;
+    text-align: center;
+    text-decoration: none; }
+  .commonButton:hover {
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    color: #fff;
+    -webkit-transition: background-color 500ms linear;
+    transition: background-color 500ms linear; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -181,22 +201,6 @@ table {
     margin-top: -48px; }
   .hero_ptn {
     display: none; } }
-
-.commonButton {
-  border-radius: 16px;
-  border: solid 2px #022b3b;
-  background-color: transparent;
-  font-size: 14px;
-  padding: 10px 20px;
-  font-family: 'PT_Sans-Regular';
-  color: #393939;
-  outline: none;
-  text-align: center; }
-
-.commonButton:hover {
-  border: solid 2px #ea1c49;
-  background-color: #ea1c49;
-  color: #fff; }
 
 .input {
   width: 264px;
@@ -256,7 +260,7 @@ textarea:hover, textarea:focus {
   .commonButton {
     border-radius: 20px;
     font-size: 16px;
-    padding: 10px 41px; }
+    padding: 10px 20px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
@@ -444,14 +448,13 @@ html, body {
   color: white;
   text-transform: uppercase;
   font-weight: normal;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 14px;
   color: #4a4a4a;
   padding-bottom: 10px; }
 
 .cd-secondary-nav a:active, .cd-secondary-nav a:hover, .cd-secondary-nav a:focus {
-  text-decoration: none;
-  border-bottom: 3px solid #ea1c49; }
+  text-decoration: none; }
 
 .cd-secondary-navLasta:active, .cd-secondary-navLasta:hover, .cd-secondary-navLasta:focus {
   text-decoration: none;
@@ -488,7 +491,7 @@ html, body {
 
 @media only screen and (min-width: 1024px) {
   .cd-secondary-nav a {
-    font-family: Lato;
+    font-family: 'MavenPro-Bold';
     font-size: 16px; } }
 
 .cd-primary-nav-trigger {
@@ -637,13 +640,13 @@ html, body {
 .cd-primary-nav a {
   display: inline-block;
   padding: .4em 1em;
-  font-family: Nunito;
+  font-family: 'MavenPro-Bold';
   font-size: 16px;
   font-weight: bold;
   border-radius: 0.25em;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
-  color: #4a4a4a; }
+  color: #393939; }
 
 .cd-primary-nav .cd-label {
   color: #06446e;
@@ -944,19 +947,21 @@ html, body {
       margin-top: 90px;
       height: 300px; } }
 
-/*footer css starts*/
-.headerButton {
-  opacity: 0.92;
-  border-radius: 25px !important;
-  border: solid 2px #022b3b !important;
-  font-family: "PT_Sans-Regular" !important;
-  font-size: 14px !important;
-  text-align: center !important;
-  color: #022b3b !important;
-  background-color: #fff !important;
-  padding: 5px 20px !important;
-  outline: none; }
+.cd-secondary-navli:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  transition: width .5s ease, background-color .5s ease; }
 
+.cd-secondary-navli:hover:after {
+  width: 100%;
+  background: #ea1c49; }
+
+/*footer css starts*/
 .footer {
   background-size: cover;
   background-position: center;
@@ -973,12 +978,7 @@ html, body {
       margin-bottom: 10px;
       margin-top: 15px; }
     .footer__inner a {
-      padding: 12px 30px 14px;
-      border-radius: 28px;
-      border: solid 2px #022b3b;
-      font-family: 'PT_Sans-Regular';
       font-size: 20px;
-      color: #393939;
       text-decoration: none; }
   .footer__bottom {
     position: absolute;
@@ -1173,7 +1173,7 @@ html, body {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lgCon {
-    margin-top: 40px; }
+    margin-top: 30px; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1181,7 +1181,8 @@ html, body {
     width: 260px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin-left: 15px; }
   .prct .genericTitle {
     font-size: 20px; }
   .prct .fixCont {
@@ -1210,14 +1211,16 @@ html, body {
       .prct_svc_title .svcCont img {
         max-width: 80px; }
     .prct_svc_title .indTxt {
-      font-size: 17px; }
+      font-size: 17px;
+      padding-bottom: 16px;
+      text-align: center; }
     .prct_svc_title .indCon {
       font-size: 14px;
-      padding-top: 10px;
-      padding-bottom: 5px; }
+      padding-top: 0px;
+      padding-bottom: 24px; }
   .prct .dnaContainer {
     font-size: 14px;
-    padding-top: 30px; }
+    padding-top: 16px; }
   .prctDiv {
     margin-top: 55px; }
     .prctDiv .prctSec_tab {
@@ -1234,7 +1237,8 @@ html, body {
     width: 260px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin-left: 15px; }
   .prct .fixCont {
     display: none; }
   .prct .dnaImgMob {
@@ -1284,14 +1288,15 @@ html, body {
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
-    padding: 50px 35px; }
+    padding: 50px 35px 80px; }
     .prct_svc_title {
       text-align: center;
       font-size: 24px; }
       .prct_svc_title .svcCont {
-        padding-top: 35px; }
+        padding-top: 72px; }
         .prct_svc_title .svcCont img {
-          max-width: 120px; }
+          max-width: 85px;
+          margin-top: 20px; }
       .prct_svc_title .indTxt {
         font-size: 24px; }
       .prct_svc_title .indCon {
@@ -1301,7 +1306,6 @@ html, body {
   .prct .dnaContainer {
     font-size: 17px;
     padding-top: 30px;
-    padding-bottom: 20px;
     width: 690px; }
   .prctDiv {
     margin-top: 80px; }
@@ -1319,7 +1323,9 @@ html, body {
     width: 372px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 22px; }
   .noPadding {
     width: 623px; }
   .prct {
@@ -1343,25 +1349,24 @@ html, body {
       height: 377px;
       margin: -20px 0; }
     .prct_svc {
-      padding: 55px 0px; }
+      padding: 55px 0px 70px; }
       .prct_svc_title {
         font-size: 40px; }
         .prct_svc_title .svcCont {
-          padding-top: 35px; }
+          padding-top: 120px; }
           .prct_svc_title .svcCont img {
-            max-width: 120px; }
+            max-width: 105px; }
         .prct_svc_title .indTxt {
           font-size: 32px; }
         .prct_svc_title .indCon {
           font-size: 20px;
-          padding-top: 30px;
+          padding-top: 16px;
           padding-bottom: 10px; }
       .prct_svc .sCont {
         padding-top: 15px; }
     .prct .dnaContainer {
       font-size: 17px;
       padding-top: 25px;
-      padding-bottom: 85px;
       width: 970px; }
     .prct .scrollContainer {
       height: calc(300vh - 80px);
@@ -1467,11 +1472,11 @@ html, body {
     height: 506px;
     margin: -20px 0; }
   .prct_svc {
-    padding: 55px 150px; }
+    padding: 75px 150px 80px; }
     .prct_svc_title {
       font-size: 40px; }
       .prct_svc_title .svcCont {
-        padding-top: 35px; }
+        padding-top: 160px; }
         .prct_svc_title .svcCont img {
           max-width: 120px; }
       .prct_svc_title .indTxt {
@@ -1484,8 +1489,7 @@ html, body {
         width: 830px; }
   .prct .dnaContainer {
     font-size: 20px;
-    padding-top: 30px;
-    padding-bottom: 85px; }
+    padding-top: 40px; }
   .philSec {
     margin: 80px 29px 0; } }
 
@@ -1539,15 +1543,6 @@ button.lb_btn:focus {
   width: 160px;
   margin: 0 auto;
   padding-bottom: 50px; }
-
-.lb_btn {
-  height: 50px;
-  opacity: 0.92;
-  border-radius: 25px;
-  border: solid 2px #ea1c49;
-  width: 100%;
-  background-color: #ea1c49;
-  color: #fff; }
 
 .lb-filter-service {
   padding-bottom: 30px; }
@@ -1649,11 +1644,8 @@ div.test {
     font-size: 16px; }
   .lb-filter-headdesc {
     font-size: 12px; }
-  .lb_btn {
-    height: 32px;
-    font-size: 14px; }
   .lb_btn_div {
-    width: 100px; } }
+    text-align: center; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
@@ -1672,11 +1664,8 @@ div.test {
     font-size: 24px; }
   .lb-filter-headdesc {
     font-size: 14px; }
-  .lb_btn {
-    height: 50px;
-    font-size: 16px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 @media screen and (min-width: 1024px) {
   .lb_filter_lg {
@@ -1691,11 +1680,8 @@ div.test {
     font-size: 24px; }
   .lb-filter-headdesc {
     font-size: 14px; }
-  .lb_btn {
-    height: 50px;
-    font-size: 16px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -1710,11 +1696,8 @@ div.test {
     font-size: 24px; }
   .lb-filter-headdesc {
     font-size: 14px; }
-  .lb_btn {
-    height: 50px;
-    font-size: 16px; }
   .lb_btn_div {
-    width: 160px; } }
+    text-align: center; } }
 
 .homePage {
   margin-top: 80px; }
@@ -1741,79 +1724,84 @@ div.test {
           line-height: 25px;
           font-size: 20px;
           font-family: 'PT_Sans-Regular'; }
-    .homePage__BnrDiv__Service h1 {
-      text-align: center;
-      color: #fff;
-      font-size: 40px;
-      font-family: 'MavenPro-Medium';
-      margin-bottom: 80px;
-      margin-top: 120px; }
-    .homePage__BnrDiv__Service__Cards {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-      .homePage__BnrDiv__Service__Cards__Inner {
-        width: 350px;
-        height: 350px;
-        background-color: #fff;
+    .homePage__BnrDiv__Service {
+      position: relative;
+      top: 120px; }
+      .homePage__BnrDiv__Service h1 {
         text-align: center;
-        border-radius: 16px;
-        -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
-                box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
-        margin-right: 30px;
-        color: #5d6a6f !important; }
-        .homePage__BnrDiv__Service__Cards__Inner__a {
-          width: 100%;
-          height: 100%;
-          padding-top: 50px;
-          display: block;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'MavenPro-Medium';
+        margin-bottom: 80px;
+        margin-top: 120px; }
+      .homePage__BnrDiv__Service__Cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .homePage__BnrDiv__Service__Cards__Inner {
+          width: 350px;
+          height: 350px;
+          background-color: #fff;
+          text-align: center;
+          border-radius: 16px;
+          -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+                  box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+          margin-right: 30px;
           color: #5d6a6f !important; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__img {
-            background-repeat: no-repeat;
-            width: 88px;
-            height: 88px;
-            margin: 0 auto;
-            background-size: contain; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-            display: block; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-            display: none; }
-          .homePage__BnrDiv__Service__Cards__Inner__a img {
-            display: none; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-            margin-top: 20px;
-            font-size: 24px;
-            font-family: 'MavenPro-Medium'; }
-          .homePage__BnrDiv__Service__Cards__Inner__a p {
-            margin-top: 10px;
-            font-size: 14px;
-            font-family: 'PT_Sans-Regular'; }
-      .homePage__BnrDiv__Service__Cards__Inner1 {
-        margin-right: 0; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover {
-        background-color: #ee4b6e;
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-        display: block; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover p {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover img {
-        display: block;
-        margin: 30px auto;
-        width: 31px;
-        height: 28px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a {
+            width: 100%;
+            height: 100%;
+            padding-top: 50px;
+            display: block;
+            color: #5d6a6f !important; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__img {
+              background-repeat: no-repeat;
+              width: 88px;
+              height: 88px;
+              margin: 0 auto;
+              background-size: contain; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+              display: block; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+              display: none; }
+            .homePage__BnrDiv__Service__Cards__Inner__a img {
+              display: none; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+              margin-top: 20px;
+              font-size: 24px;
+              font-family: 'MavenPro-Medium'; }
+            .homePage__BnrDiv__Service__Cards__Inner__a p {
+              margin-top: 10px;
+              font-size: 14px;
+              font-family: 'PT_Sans-Regular'; }
+        .homePage__BnrDiv__Service__Cards__Inner1 {
+          margin-right: 0; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover {
+          background-color: #ee4b6e;
+          color: #fff !important;
+          text-decoration: none !important;
+          -webkit-transition: background-color 500ms linear;
+          transition: background-color 500ms linear; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
+          color: #fff !important;
+          text-decoration: none !important; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+          display: none; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+          display: block; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover p {
+          display: none; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover img {
+          display: block;
+          margin: 30px auto;
+          width: 31px;
+          height: 28px; }
   .homePage__dna {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1843,14 +1831,6 @@ div.test {
         margin-bottom: 32px;
         margin-top: 20px;
         line-height: 25px; }
-      .homePage__dna__right a {
-        padding: 12px 30px 14px;
-        color: #393939;
-        border-radius: 28px;
-        border: solid 2px #022b3b;
-        font-size: 20px;
-        font-family: 'PT_Sans-Regular';
-        text-decoration: none; }
 
 .lb-ourworks {
   text-align: center;
@@ -1885,24 +1865,29 @@ div.test {
           .homePage__BnrDiv__Inner__Content p {
             font-size: 16px;
             line-height: 25px; }
-      .homePage__BnrDiv__Service h1 {
-        font-size: 32px;
-        margin-top: 240px; }
-      .homePage__BnrDiv__Service__Cards__Inner {
-        width: 300px;
-        height: 318px;
-        margin-right: 20px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a {
-          padding-top: 30px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-            font-size: 16px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a p {
-            font-size: 14px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a__img {
-            width: 64px;
-            height: 64px; }
-      .homePage__BnrDiv__Service__Cards__Inner1 {
-        margin-right: 0; }
+      .homePage__BnrDiv__Service {
+        position: relative;
+        top: 120px; }
+        .homePage__BnrDiv__Service h1 {
+          font-size: 32px;
+          margin-top: 240px; }
+        .homePage__BnrDiv__Service__Cards__Inner {
+          width: 300px;
+          height: 318px;
+          margin-right: 20px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a {
+            padding-top: 30px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+              font-size: 16px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a p {
+              font-size: 14px; }
+            .homePage__BnrDiv__Service__Cards__Inner__a__img {
+              width: 64px;
+              height: 64px; }
+        .homePage__BnrDiv__Service__Cards__Inner1 {
+          margin-right: 0; }
+        .homePage__BnrDiv__Service__Cards__Inner:hover img {
+          display: block; }
     .homePage__dna {
       margin: 180px 42px 0; }
       .homePage__dna__left img {
@@ -1927,17 +1912,22 @@ div.test {
     .homePage__BnrDiv__Inner__Content p {
       font-size: 14px;
       line-break: 30px; }
-  .homePage__BnrDiv__Service h1 {
-    font-size: 24px; }
-  .homePage__BnrDiv__Service__Cards__Inner {
-    width: 220px;
-    height: 260px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-      font-size: 16px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a p {
-      font-size: 12px; }
-  .homePage__BnrDiv__Service__Cards__Inner1 {
-    margin-right: 0; }
+  .homePage__BnrDiv__Service {
+    position: relative;
+    top: 100px; }
+    .homePage__BnrDiv__Service h1 {
+      font-size: 24px; }
+    .homePage__BnrDiv__Service__Cards__Inner {
+      width: 220px;
+      height: 260px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+        font-size: 16px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a p {
+        font-size: 12px; }
+    .homePage__BnrDiv__Service__Cards__Inner1 {
+      margin-right: 0; }
+    .homePage__BnrDiv__Service__Cards__Inner:hover img {
+      display: block; }
   .homePage__dna {
     margin: 180px 34px 0; }
     .homePage__dna__left img {
@@ -1969,25 +1959,30 @@ div.test {
       .homePage__BnrDiv__Inner__Content p {
         font-size: 12px;
         line-height: 16px; }
-  .homePage__BnrDiv__Service h1 {
-    color: #5d6a6f;
-    margin-top: -390px;
-    font-size: 16px;
-    margin-bottom: 40px; }
-  .homePage__BnrDiv__Service__Cards {
-    display: block; }
-    .homePage__BnrDiv__Service__Cards__Inner {
-      width: 210px;
-      height: 154px;
-      margin: 0 auto 16px; }
-      .homePage__BnrDiv__Service__Cards__Inner__a {
-        padding-top: 30px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a__img {
-          display: none; }
-        .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-          font-size: 16px; }
-        .homePage__BnrDiv__Service__Cards__Inner__a p {
-          display: none; }
+  .homePage__BnrDiv__Service {
+    position: relative;
+    top: 20px; }
+    .homePage__BnrDiv__Service h1 {
+      color: #5d6a6f;
+      margin-top: -390px;
+      font-size: 16px;
+      margin-bottom: 40px; }
+    .homePage__BnrDiv__Service__Cards {
+      display: block; }
+      .homePage__BnrDiv__Service__Cards__Inner {
+        width: 210px;
+        height: 154px;
+        margin: 0 auto 16px; }
+        .homePage__BnrDiv__Service__Cards__Inner__a {
+          padding-top: 30px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a__img {
+            display: none; }
+          .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+            font-size: 16px; }
+          .homePage__BnrDiv__Service__Cards__Inner__a p {
+            display: none; }
+      .homePage__BnrDiv__Service__Cards__Inner:hover img {
+        display: none; }
   .homePage__dna {
     margin: 30px 0 0;
     display: block; }

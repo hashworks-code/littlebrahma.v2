@@ -31,6 +31,8 @@
         }
         &__Service{
             // padding: 0 0 0 165px;
+            position: relative;
+            top: 120px;        
             h1{
                 text-align: center;
                 color: #fff;
@@ -110,6 +112,9 @@
                     background-color:#ee4b6e;
                     color:#fff !important;
                     text-decoration: none !important;
+                    -webkit-transition: background-color 500ms linear;
+                    -ms-transition: background-color 500ms linear;
+                    transition: background-color 500ms linear;
                     // &__a{
                     //     &__normal{
                     //         display: none;
@@ -182,15 +187,15 @@
                 margin-top: 20px;
                 line-height: 25px;
             }
-            a{
-                padding: 12px 30px 14px;
-                color: #393939;
-                border-radius: 28px;
-                border: solid 2px #022b3b;
-                font-size: 20px;
-                font-family: 'PT_Sans-Regular';
-                text-decoration: none;
-            }
+            // a{
+            //     padding: 12px 30px 14px;
+            //     color: #393939;
+            //     border-radius: 28px;
+            //     border: solid 2px #022b3b;
+            //     font-size: 20px;
+            //     font-family: 'PT_Sans-Regular';
+            //     text-decoration: none;
+            // }
         }
     }
 }
@@ -233,6 +238,8 @@
                 }
             }
             &__Service{
+                position: relative;
+                top: 120px;            
                 h1{
                     font-size: 32px;
                     margin-top: 240px;
@@ -266,6 +273,9 @@
                     }
                     &__Inner1{
                         margin-right: 0;
+                    }
+                    &__Inner:hover img{
+                        display: block;
                     }
                 }
             }
@@ -312,6 +322,9 @@
                 }
             }
             &__Service{
+                position: relative;
+                top: 100px;
+            
                 h1{
                     font-size: 24px;
                 }
@@ -330,6 +343,9 @@
                     }
                     &__Inner1{
                         margin-right: 0;
+                    }
+                    &__Inner:hover img{
+                        display: block;
                     }
                 }
             }
@@ -382,6 +398,8 @@
                 }
             }
             &__Service{
+                position: relative;
+                top: 20px;            
                 h1{
                     color: #5d6a6f;
                     margin-top: -390px;
@@ -415,6 +433,9 @@
                                 display:none;
                             }
                         }
+                    }
+                    &__Inner:hover img{
+                        display: none;
                     }
                 }
             }
