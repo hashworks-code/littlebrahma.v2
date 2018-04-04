@@ -70,4 +70,12 @@ cImg5: "group-9"
 cImg6: "group-10"
 
 cImg7: "bitmap-copy-20"
+
+cat: Service Design
+product_title: Simplifying talent hunt
+product_title1: calender 2019
+product_description: Branding / Visual identity / Application / Website
+product_thumbnail_description: TALENT AQUISITION
+banner_image: "/assets/img/workpage/groome.png"
+url: "ServiceDesign2"
 ---

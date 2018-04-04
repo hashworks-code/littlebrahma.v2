@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="container">
-                {% assign item = site.practice %} {% for services in item %}
+                {% assign item = site.practice | reverse%} {% for services in item %}
                     <div class="prct_svc_title">
                         <div class="row svcCont">
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">

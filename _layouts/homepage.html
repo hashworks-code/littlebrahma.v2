@@ -11,7 +11,7 @@
                 <div class="homePage__BnrDiv__Service">
                     <h1>Our services</h1>
                     <div class="homePage__BnrDiv__Service__Cards">
-                            {% assign item = site.practice %}
+                            {% assign item = site.practice | reverse%}
                             {% for practice in item %}
                            
                       <div class="homePage__BnrDiv__Service__Cards__Inner">
@@ -103,7 +103,7 @@
                 
                 </div>        
                 <div class="row filterli-3 common-filter" valuedata="Branding & Communication">
-                    {% assign item = site.workpage1 %}
+                    {% assign item = site.caseStudy %}
                     {% for work in item %}
                     
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
