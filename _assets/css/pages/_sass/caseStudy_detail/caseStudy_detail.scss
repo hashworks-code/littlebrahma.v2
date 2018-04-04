@@ -1,0 +1,265 @@
+
+.caseStudy{
+
+    &__content1{
+        margin: 150px 260px 140px 260px;
+        border-left: 5px solid #2db2ea;
+        padding: 0 100px;
+    }
+    &_cHead{
+            font-family: 'MavenPro-Medium';
+            font-size: 32px;
+            color: #393939;
+            padding-bottom: 23px;
+    }
+    &__cImg{
+        margin: 0 165px;
+        img{
+            padding: 15px 10px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__bgImg{
+        margin-top: 120px;
+        // background-image: url("../assets/images/caseStudy/group-5.png");
+        min-height: 654px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        width: 60%;
+            // text-align: center;
+    }
+    &__content2{
+        width: 66%;
+        padding-left: 163px;
+    }
+    &__c2Head{
+        font-family: 'MavenPro-Medium';
+        font-size: 32px;
+        color: #393939;
+        padding-bottom: 23px;
+
+    }
+    &__bgImg1{
+        margin-top: 120px;
+        // background-image: url("../assets/images/caseStudy/group-6@3x.png");
+        min-height: 654px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__content3{
+        width: 36%;
+        padding-right: 100px;
+    }
+    &__c3Head{
+        font-family: 'MavenPro-Medium';
+        font-size: 32px;
+        color: #393939;
+        padding-bottom: 23px;
+
+    }
+    &__bgImg2{
+        margin-top: 120px;
+        // background-image: url("../assets/images/caseStudy/group-8.png");
+        min-height: 654px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+            // text-align: center;
+    }
+    &__content4{
+        width: 40%;
+        padding-left: 120px;
+    }
+    &__c4Head{
+        font-family: 'MavenPro-Medium';
+        font-size: 32px;
+        color: #393939;
+        padding-bottom: 23px;
+
+    }
+    &__content5{
+        margin: 120px 167px 0 167px;
+        position: relative;
+    }
+    &__cImg5{
+        width: 75%;
+        margin: 0 0 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__cont{
+        position: absolute;
+        bottom: -15%;
+        width: 45%;
+    }
+    &__eImg{
+        margin-top: 120px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__content6{
+        margin: 190px 167px 220px 167px;
+        position: relative;
+    }
+    &__cImg6{
+        width: 75%;
+        margin: 0 auto 0 0;
+        // display: flex;
+        // justify-content: flex-end;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__cont1{
+        position: absolute;
+        bottom: -15%;
+        width: 45%;
+        right: 0;
+    }
+    
+    &__calImg{
+        margin: 120px 0;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__imgSlide{
+        padding: 0 15px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .slick-prev {
+        left: 0;
+        display: none !important;
+      }
+      .slick-next {
+        right: 0;
+        display: none !important;
+      }
+      .SceneImg{
+          position: relative;
+          img{
+            width: 53%;
+            position: absolute;
+            right: 0;
+            top: 11%;
+          }
+      }
+      .SceneImg1{
+          position: relative;
+          img{
+            width: 45%;
+            position: absolute;
+            top: 21%;
+            left: 15%;
+          }
+      }
+      .SceneImg2{
+        position: relative;
+        img{
+            width: 45%;
+            position: absolute;
+            top: 20%;
+            right: 12%;
+        }
+    }
+}
+@media screen and (max-width: 1366px){
+    .caseStudy{
+
+        &__content1{
+            margin: 120px 122px 62px 122px;
+            padding: 10px 0 10px 72px;
+        }
+    
+    &__cImg{
+        margin: 0 43px;
+        img{
+            padding: 10px 10px;
+            }
+        }
+        &__bgImg{
+            margin-top: 96px;
+            min-height: 421px;
+        }
+        &__content2{
+            width: 80%;
+            padding-left: 44px;
+        }
+        .SceneImg{
+            img{
+                height: 260px;
+                width: 50%;
+                right: 0;
+                top: 20%;
+            }
+        }
+        &__bgImg1{
+            margin-top: 98px;
+            min-height: 421px;
+        }
+        &__content3{
+            width: 45%;
+
+        }
+        .SceneImg1{
+            img{
+                width: 45%;
+                top: 19%;
+                left: 5%;
+                height: 282px;
+            }
+        }
+        &__bgImg2{
+            margin-top: 96px;
+            min-height: 421px;
+        }
+        &__content4{
+            width: 45%;
+            padding-left: 43px;
+        }
+        .SceneImg2{
+            img{
+                width: 45%;
+                height: 282px;
+                top: 17%;
+                right: 7%;
+            }
+        }
+        &__eImg{
+            margin-top: 96px;
+        }
+        &__content5{
+            margin: 96px 41px 0 41px;
+            position: relative;
+        }
+        &__content6{
+            margin: 150px 41px 150px 41px;
+        }
+        &__calImg{
+            margin: 97px 0;
+           
+        }
+    }
+    
+}

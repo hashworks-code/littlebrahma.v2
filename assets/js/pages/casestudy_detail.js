@@ -1,65 +1,30 @@
-(function(){
+$(document).ready(function(){
 
-if (screen.width >= 1199) {
-    $(window).scroll(function() {
-if ($(this).scrollTop() > $(".detailBg").height() - $(".commonHeader").height() || $(this).scrollTop() > $('.info').height()+$('.challenge').height()){  
-    $('.commonHeader').css({"background-color":"transparent"}).addClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/LB_Menu_Color.svg");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_Color.svg");
-  }
-  else {
-    $('.commonHeader').css({"background-color":"transparent"});
-    $('.commonMenu__icon').attr("src", "/assets/img/common/MENU_WHITE.png");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_White.svg");
-  }
-});
-}
-else if(screen.width >= 768 && screen.width < 1199) {
-    $(window).scroll(function() {
-if ($(this).scrollTop() > $(".detailBg").height() - $(".commonHeader").height()){  
-    $('.commonHeader').css({"background-color":"#fff"}).addClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/LB_Menu_Color.svg");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_Color.svg");
-  }
-  else {
-    $('.commonHeader').css({"background-color":"transparent"});
-    $('.commonMenu__icon').attr("src", "/assets/img/common/MENU_WHITE.png");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_White.svg");
-  }
-
-});
-}
-
-$(window).resize(function() {
-  if (screen.width >= 768) {
-    $(window).scroll(function() {
-if ($(this).scrollTop() > $(".detailBg").height() - $(".commonHeader").height()){  
-    $('.commonHeader').css({"background-color":"transparent"}).addClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/LB_Menu_Color.svg");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_Color.svg");
-  }
-  else {
-    $('.commonHeader').css({"background-color":"transparent"}).removeClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/MENU_WHITE.png");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_White.svg");
-  }
-});
-}
-else if(screen.width >= 768 && screen.width < 1199) {
-    $(window).scroll(function() {
-if ($(this).scrollTop() > $(".detailBg").height() - $(".commonHeader").height()){  
-    $('.commonHeader').css({"background-color":"#fff"}).addClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/LB_Menu_Color.svg");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_Color.svg");
-  }
-  else {
-    $('.commonHeader').css({"background-color":"transparent"}).removeClass("animated fadeIn");
-    $('.commonMenu__icon').attr("src", "/assets/img/common/MENU_WHITE.png");
-        $('.commonHeader__logo').attr("src", "/assets/img/common/LB_Logo_White.svg");
-  }
-});
-}
-});
-
-
-})();
+      $('.slider-nav').slick({
+            autoplay: true,
+            autoplaySpeed: 1000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            focusOnSelect: true,
+            responsive: [
+                  {
+                    breakpoint: 767,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                  // You can unslick at a given breakpoint now by adding:
+                  // settings: "unslick"
+                  // instead of a settings object
+                ]
+      });
+  });

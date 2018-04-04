@@ -309,6 +309,9 @@ textarea:hover, textarea:focus {
     bottom: -90px;
     left: -90px; } }
 
+.padding-0 {
+  padding: 0 !important; }
+
 /* -------------------------------- 
 
 Primary style
@@ -1488,9 +1491,6 @@ html, body {
 
 .prct .hero_img {
   background-image: url(/assets/img/about_us/banner.png); }
-
-.padding-0 {
-  padding: 0 !important; }
 
 @media screen and (min-width: 320px) {
   .about-us {

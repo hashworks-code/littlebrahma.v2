@@ -14,10 +14,10 @@ exclude:
   - _assets
   - node_modules
 collections:
-  casestudy:
+  caseStudy:
     title: Casestudy
     output: true
-    permalink: "/casestudy/:path/"
+    permalink: "/caseStudy/:path/"
   workpage:
     title: WorkPage
     output: true
@@ -105,9 +105,9 @@ prose:
         label: layout
         element: hidden
         value: portfolio_detail
-    _casestudy:
+    _caseStudy:
     - name: layout
       field:
         label: layout
         element: hidden
-        value: casestudy_detail
+        value: caseStudy_detail

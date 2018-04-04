@@ -309,6 +309,9 @@ textarea:hover, textarea:focus {
     bottom: -90px;
     left: -90px; } }
 
+.padding-0 {
+  padding: 0 !important; }
+
 /* -------------------------------- 
 
 Primary style
