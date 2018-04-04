@@ -235,6 +235,8 @@ textarea:hover, textarea:focus {
     font-size: 16px; }
   .paragraph {
     font-size: 14px; }
+  .csHeading {
+    font-size: 24px; }
   .input {
     font-size: 14px;
     padding: 12px 10px; }

@@ -8,6 +8,7 @@ variation_imagg1: "/assets/img/caseStudy/rectangle-6.png"
 variation_image2: "/assets/img/caseStudy/group-8.png"
 variation_image3: "/assets/img/caseStudy/group-6.png"
 variation_image4: "/assets/img/caseStudy/bitmap.png"
+variation_image5: "/assets/img/caseStudy/group-3.png"
 
 cImgg1: "groupn1"
 cImgg2: "groupn2"
