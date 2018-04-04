@@ -100,9 +100,41 @@
             
 </section>
 
-<section class="carousel">
-        carousel
-</section>
+<section class="carousel ">
+        <div class="carousel__card responsive">
+            <div class="carousel__card1 ">
+                <img src="/assets/img/service/arrow1.svg" alt="">
+                 <h1 class="typography">UX review</h1>
+                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
+            </div>
+            <div class="carousel__card1 ">
+                <img src="/assets/img/service/arrow1.svg" alt="">
+                 <h1 class="typography">UX review</h1>
+                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
+            </div>
+            <div class="carousel__card1 ">
+                <img src="/assets/img/service/arrow1.svg" alt="">
+                 <h1 class="typography">UX review</h1>
+                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
+            </div>
+            <div class="carousel__card1 ">
+                <img src="/assets/img/service/arrow1.svg" alt="">
+                 <h1 class="typography">UX review</h1>
+                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
+            </div>
+            <div class="carousel__card1 ">
+                <img src="/assets/img/service/arrow1.svg" alt="">
+                 <h1 class="typography">UX review</h1>
+                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
+            </div>
+     
+        </div>
+        <div class="carousel__card2">
+            <h1 class="headingBold">Our differentiators</h1>
+            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae.</p>
+        </div>
+        
+     </section>
 
 <section>
     <div>
@@ -222,3 +254,37 @@
 </section>
 
 {% include common_footer.html %} {% include footer.html %}
+
+<script>
+
+
+        $('.responsive').slick({
+           prevArrow:"<img class='a-left control-c prev slick-prev' src='/assets/img/service/Left .svg'>",
+             nextArrow:"<img class='a-right control-c next slick-next' src='/assets/img/service/Right.svg'>",
+         dots: false,
+         infinite: false,
+         speed: 300,
+         slidesToShow: 2,
+         slidesToScroll: 2,
+         responsive: [
+           {
+             breakpoint: 1024,
+             settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+               infinite: true,
+               dots: false
+             }
+           },
+        
+           {
+             breakpoint: 767,
+             settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1
+             }
+           }
+         ]
+        });
+           
+           </script>

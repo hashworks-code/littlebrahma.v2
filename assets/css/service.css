@@ -3206,3 +3206,210 @@ ul.lb_work_filter.lb_service_lg {
     padding-right: 50px; }
   .lb-explore {
     font-size: 32px; } }
+
+@media only screen and (min-width: 320px) {
+  .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .carousel__card {
+      display: -webkit-box;
+      position: absolute !important;
+      z-index: 1;
+      top: 100px;
+      left: 49px;
+      width: 220px; }
+    .carousel__card1 {
+      width: 155px;
+      height: 215px !important;
+      -o-object-fit: contain;
+         object-fit: contain;
+      background-color: #ffffff;
+      -webkit-box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.2);
+              box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.2);
+      margin: 102px 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .carousel__card1 img {
+        width: 26px;
+        margin: 15px 0px 15px 65px; }
+      .carousel__card1 p {
+        padding: 0px 15px 15px;
+        font-size: 14px;
+        text-align: center; }
+    .carousel h1 {
+      padding-bottom: 10px;
+      text-align: center; }
+    .carousel__card2 {
+      width: 880px;
+      height: 484px;
+      -o-object-fit: contain;
+         object-fit: contain;
+      background-color: #022b3b; }
+      .carousel__card2 h1 {
+        color: #ffffff;
+        padding: 34px 30px 0px;
+        margin: 0px;
+        text-align: left; }
+      .carousel__card2 p {
+        color: #ffffff;
+        width: 100%;
+        padding: 12px 30px;
+        width: 280px; }
+  .slick-prev {
+    top: 17% !important;
+    width: 38px !important;
+    left: -20px !important;
+    height: 18px !important; }
+  .slick-next {
+    top: 17% !important;
+    right: 160px !important;
+    height: 18px !important; } }
+
+@media only screen and (min-width: 767px) {
+  .carousel__card {
+    display: -webkit-box;
+    position: relative !important;
+    top: 24px;
+    left: 78px;
+    width: 361px; }
+  .carousel__card1 {
+    width: 155px;
+    height: 222px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      width: 30px;
+      margin: 15px 0px 15px 70px; }
+    .carousel__card1 h1 {
+      text-align: center !important; }
+  .carousel h1 {
+    padding-bottom: 10px;
+    text-align: left; }
+  .carousel__card2 {
+    width: 494px;
+    height: 272px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 58px 0px 0px 150px; }
+    .carousel__card2 h1 {
+      width: 300px;
+      padding: 0px 0px 12px 0px; }
+    .carousel__card2 p {
+      width: 300px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 41% !important;
+    left: 426px !important; }
+  .carousel .slick-next {
+    top: 41% !important;
+    right: -150px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 160px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 2000px  !important; } }
+
+@media only screen and (min-width: 1024px) {
+  .carousel__card {
+    top: 62px;
+    left: 162px;
+    width: 488px; }
+  .carousel__card1 {
+    width: 155px;
+    height: 279px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      width: 54px;
+      margin: 50px 0px 30px 82px; }
+    .carousel__card1 h1 {
+      text-align: center !important; }
+    .carousel__card1 p {
+      font-size: 16px; }
+  .carousel h1 {
+    padding-bottom: 10px;
+    text-align: left; }
+  .carousel__card2 {
+    width: 662px;
+    height: 405px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 85px 0px 0px 210px; }
+    .carousel__card2 h1 {
+      padding: 0px;
+      width: 407px;
+      font-size: 32px;
+      padding-bottom: 20px; }
+    .carousel__card2 p {
+      width: 300px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 240px !important;
+    left: 540px !important; }
+  .carousel .slick-next {
+    top: 240px !important;
+    right: -140px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 220px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 2000px  !important; } }
+
+@media only screen and (min-width: 1367px) {
+  .carousel__card {
+    top: 81px;
+    left: 165px;
+    width: 555px; }
+  .carousel__card1 {
+    height: 324px !important;
+    margin: 0px 25px 0px 0px; }
+    .carousel__card1 img {
+      margin: 56px 0px 32px 96px; }
+    .carousel__card1 p {
+      font-size: 16px;
+      padding: 0px 30px 15px; }
+    .carousel__card1 h1 {
+      padding-bottom: 16px; }
+  .carousel__card2 {
+    width: 895px;
+    height: 484px;
+    padding: 120px 0px 0px 270px; }
+    .carousel__card2 h1 {
+      width: 407px;
+      font-size: 40px;
+      padding: 0px 0px 40px; }
+    .carousel__card2 p {
+      width: 455px;
+      padding: 0px; }
+  .carousel .slick-prev {
+    top: 284px !important;
+    left: 658px !important; }
+  .carousel .slick-next {
+    top: 284px !important;
+    right: -190px !important; }
+  .carousel .slick-initialized .slick-slide {
+    width: 255px !important; }
+  .carousel .slick-slider .slick-track {
+    width: 4000px  !important; } }
