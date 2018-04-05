@@ -1078,3 +1078,92 @@ html, body {
       padding: 5px 18px 6px; } }
 
 /*footer ends*/
+.prct .hero_img {
+  background-image: url(/assets/img/branding/banner.jpg); }
+
+.challange {
+  width: 260px;
+  margin: 0 auto; }
+
+.engima {
+  border-left: 5px solid #603d95;
+  padding: 0px 0px 0px 23px;
+  margin: 40px 0px; }
+  .engima .csHeading {
+    padding-bottom: 13px; }
+
+.branding img {
+  width: 100%;
+  height: 100%; }
+
+.branding__image .row {
+  margin: 0px 5px; }
+
+.branding__image img {
+  padding-bottom: 20px; }
+
+.branding__perceive {
+  height: 414px;
+  background-color: #022b3b;
+  padding: 56px 0px 0px 0px;
+  margin-bottom: 164px; }
+  .branding__perceive__align {
+    width: 260px;
+    margin: 0 auto; }
+  .branding__perceive h2 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 24px 0px 18px; }
+  .branding__perceive h1 {
+    color: #33c2f8;
+    font-size: 32px; }
+  .branding__perceive p {
+    color: rgba(255, 255, 255, 0.9); }
+  .branding__perceive .margin {
+    padding-top: 18px; }
+  .branding__perceive .percevieImage {
+    width: 205px;
+    height: 164px;
+    margin: 46px 0px 0px 25px; }
+
+.branding__adapt {
+  height: 218px;
+  background-color: #022b3b; }
+  .branding__adapt__align {
+    width: 260px;
+    margin: 20px auto; }
+  .branding__adapt h2 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 16px 0px 12px; }
+  .branding__adapt h1 {
+    color: #33c2f8;
+    font-size: 32px;
+    padding-top: 32px; }
+  .branding__adapt p {
+    color: rgba(255, 255, 255, 0.9); }
+
+.branding__concept {
+  width: 260px;
+  margin: 20px auto; }
+  .branding__concept h1 {
+    padding: 24px 0px 19px;
+    color: #5d6a6f; }
+  .branding__concept p {
+    color: #5d6a6f; }
+
+.branding__logo {
+  width: 260px;
+  margin: 0px auto; }
+
+.branding__meaning {
+  width: 260px;
+  margin: 0px auto 71px; }
+  .branding__meaning p {
+    padding: 12px 0px 59px; }
+
+.branding__enigmalogo img {
+  padding: 0px 21px; }
+
+.branding__enigmalist {
+  padding: 50px 34px; }
+  .branding__enigmalist img {
+    width: 150px; }

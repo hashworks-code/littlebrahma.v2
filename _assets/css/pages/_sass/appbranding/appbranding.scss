@@ -1,0 +1,117 @@
+
+
+.prct .hero_img{
+    background-image: url(/assets/img/branding/banner.jpg);
+}
+.challange{
+    width: 260px;
+    margin: 0 auto;
+}
+.engima{
+    border-left: 5px solid #603d95;
+    padding: 0px 0px 0px 23px;
+    margin: 40px 0px;
+    .csHeading{
+        padding-bottom:13px;
+    }
+}
+.branding{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+&__image{
+    .row{
+        margin: 0px 5px;
+    }
+    img{
+        padding-bottom: 20px;
+    }
+}
+&__perceive{
+    height: 414px;
+    background-color: #022b3b;
+    padding: 56px 0px 0px 0px;
+    margin-bottom: 164px;
+    &__align{
+        width: 260px;
+        margin: 0 auto;
+    }
+    h2{
+        color: rgba(255, 255, 255, 0.9);
+        padding: 24px 0px 18px;
+    }
+    h1{
+        color: #33c2f8;
+        font-size: 32px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .margin{
+        padding-top: 18px;
+    }
+   .percevieImage{
+    width: 205px;
+    height: 164px;
+    margin: 46px 0px 0px 25px;
+    }
+}
+&__banner{
+    
+}
+&__adapt{
+    height: 218px;
+    background-color: #022b3b;
+   
+    &__align{
+        width: 260px;
+        margin: 20px auto;
+    }
+    h2{
+        color: rgba(255, 255, 255, 0.9);
+        padding: 16px 0px 12px;
+    }
+    h1{
+        color: #33c2f8;
+        font-size: 32px;
+        padding-top: 32px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+&__concept{
+    width: 260px;
+    margin: 20px auto;
+    h1{
+        padding: 24px 0px 19px;
+        color: #5d6a6f;
+    }
+    p{
+        color: #5d6a6f;
+    }
+}
+&__logo{
+    width: 260px;
+    margin: 0px auto;
+}
+&__meaning{
+    width: 260px;
+    margin: 0px auto 71px;
+    p{
+        padding: 12px 0px 59px;
+    }   
+}
+&__enigmalogo{
+   img{
+    padding: 0px 21px;
+   }
+}
+&__enigmalist{
+    padding: 50px 34px;
+    img{
+        width: 150px;
+    }
+}
+}

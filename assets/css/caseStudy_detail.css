@@ -831,7 +831,8 @@ html, body {
     .contact1__form input {
       margin: 12px 0px 6px; }
     .contact1__form button {
-      margin: 12px 0px 0px; }
+      margin: 12px 0px 0px;
+      display: block; }
     .contact1__form textarea {
       width: 262px;
       height: 115px;
