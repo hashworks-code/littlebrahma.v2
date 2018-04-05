@@ -4,7 +4,7 @@ subtitle: Product
 keywords: >-
   Product, Design
 layout: service
-img: /assets/img/practice/product-design.svg
+img: /assets/img/homepage/product-design.png
 desc1: Our design native principles &amp; techniques blend with agile &amp; lean development models to deliver avant-grade products and experience.
 desc2: We centre people interaction on data, insights &amp; visualization for large scale user adoption.
 practice_lists:
@@ -19,7 +19,7 @@ practiceList2: Print media
 practiceList3: Visual Language
 practiceList4: Package design
 practiceImg: "/assets/img/homepage/arrow.svg"
-backgroundImg: '/assets/img/homepage/product-design.svg'
-backgroundHoverImg: '/assets/img/homepage/brndg-comm.svg'
+backgroundImg: '/assets/img/homepage/product-design.png'
+backgroundHoverImg: '/assets/img/homepage/product-design-white.png'
 url: "productDesign"
 ---
