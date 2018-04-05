@@ -2,19 +2,10 @@
 
     $(document).ready(function() {
         $('[data-toggle="popover"]').click(function(){
-             $(this).popover('toggle');
+            $(this).popover('toggle');
             $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
         });
-
-        $('body').on('click', function (e) {
-            $('[data-toggle=popover]').each(function () {
-                // hide any open popovers when the anywhere else in the body is clicked
-                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-                    $(this).popover('hide');
-                }
-            });
-        });
-         
+        // $('.btn').popover();
 
         // $('.btn').on('click', function (e) {
         //     $('.btn').not(this).popover('hide');

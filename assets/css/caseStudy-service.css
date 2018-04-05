@@ -1560,4 +1560,5 @@ html, body {
 .CSService7 {
   margin: 150px 0 100px; }
   .CSService7 img {
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    width: 100%; }

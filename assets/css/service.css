@@ -1009,8 +1009,8 @@ html, body {
   height: 3px;
   width: 0px;
   background: transparent;
-  -webkit-transition: width .5s ease, background-color .5s ease;
-  transition: width .5s ease, background-color .5s ease; }
+  -webkit-transition: width .5s ease,  background-color .5s ease;
+  transition: width .5s ease,  background-color .5s ease; }
 
 .cd-secondary-navli:hover:after {
   width: 100%;
@@ -2118,7 +2118,7 @@ div.test {
   margin-top: 100px;
   margin-bottom: 200px; }
 
-a.btn-circle.service-btn {
+.btn-circle.service-btn {
   width: 12px;
   height: 12px;
   text-align: center;
@@ -2129,7 +2129,23 @@ a.btn-circle.service-btn {
   border: 1px solid green !important;
   background-color: #7d8d92;
   color: black;
-  margin-top: 8px; }
+  margin-top: 8px;
+  z-index: 2;
+  position: relative;
+  -webkit-transition: width .5s ease,  border .5s ease;
+  transition: width .5s ease,  border .5s ease; }
+
+.btn-circle.service-btn:focus {
+  outline: none; }
+
+.btn-circle.service-btn:hover {
+  background-color: #fff;
+  border: 2px solid #ea1c49 !important;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+  margin-top: 4px; }
 
 ul.lb_work_filter.lb_service_lg {
   text-align: center; }
