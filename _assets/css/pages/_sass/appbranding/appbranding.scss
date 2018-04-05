@@ -1,0 +1,571 @@
+
+
+.prct .hero_img{
+    background-image: url(/assets/img/branding/banner.jpg);
+}
+.challange{
+    width: 260px;
+    margin: 0 auto;
+}
+.engima{
+    border-left: 5px solid #603d95;
+    padding: 0px 0px 0px 23px;
+    margin: 40px 0px;
+    .csHeading{
+        padding-bottom:13px;
+    }
+}
+.branding{
+    .brand{
+        padding: 8px 0px 16px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+&__image{
+    .row{
+        margin: 0px 5px;
+    }
+    img{
+        padding-bottom: 20px;
+    }
+}
+&__perceive{
+    height: 414px;
+    background-color: #022b3b;
+    padding: 56px 0px 0px 0px;
+    margin-bottom: 164px;
+    &__align{
+        width: 260px;
+        margin: 0 auto;
+    }
+    h2{
+        color: rgba(255, 255, 255, 0.9);
+        padding: 24px 0px 18px;
+    }
+    h1{
+        color: #33c2f8;
+        font-size: 32px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .margin{
+        padding-top: 18px;
+    }
+   .percevieImage{
+    width: 205px;
+    height: 164px;
+    margin: 46px 0px 0px 25px;
+    }
+}
+&__banner{
+    
+}
+&__adapt{
+    height: 218px;
+    background-color: #022b3b;
+   
+    &__align{
+        width: 260px;
+        margin: 20px auto;
+    }
+    h2{
+        color: rgba(255, 255, 255, 0.9);
+        padding: 16px 0px 12px;
+    }
+    h1{
+        color: #33c2f8;
+        font-size: 32px;
+        padding-top: 32px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+&__concept1{
+    padding: 0px 58px;
+}
+&__concept{
+    width: 260px;
+    margin: 20px auto;
+    h1{
+        padding: 24px 0px 19px;
+        color: #5d6a6f;
+    }
+    p{
+        color: #5d6a6f;
+    }
+}
+&__logo{
+  padding: 20px 35px 0px;
+
+}
+&__meaning{
+    width: 260px;
+    margin: 0px auto 71px;
+    p{
+        padding: 12px 0px 59px;
+    }   
+}
+&__enigmalogo{
+   img{
+    padding: 0px 21px;
+   }
+}
+&__enigmalist{
+    padding: 50px 34px;
+    img{
+       margin-top: 30px;
+    }
+}
+&__evolve{
+    height: 316px;
+  background-color: #022b3b;
+  padding: 40px 0px 36px;
+  &__align{
+    width: 258px;
+    margin: 0 auto;
+}
+h2{
+    color: rgba(255, 255, 255, 0.9);
+    padding: 20px 0px 18px;
+}
+h1{
+    color: #33c2f8;
+    font-size: 32px;
+}
+p{
+    color: rgba(255, 255, 255, 0.9);
+}
+}
+
+&__fontfamily{
+    width: 262px;
+    margin: 0 auto;
+    p{
+        font-family:  'PtSansRegular';
+        padding: 24px 0px 40px;
+    }
+    h1{
+        padding: 30px 0px 16px;
+    }
+    h2{
+        padding: 14px 0px 0px 0px;
+    }
+}
+&__icons{
+    padding: 23px 31px 40px;
+    img{
+    padding-top: 30px;
+       width: 50px;
+    }
+    .textalign{
+        text-align: center;
+    }
+}
+.imagemargin{
+    padding-top: 20px;
+}
+}
+
+
+@media screen and (min-width:767px){
+
+.challange{
+    width: 560px;
+}
+.engima{
+    padding: 0px 0px 0px 57px;
+    margin: 80px 0px 65px;
+    .csHeading{
+        padding-bottom:20px;
+    }
+}
+.engima1{
+    margin: 50px 0px 65px !important;  
+}
+
+.branding{
+    .brand{
+        padding: 8px 0px 16px;
+    }
+
+&__image{
+    .row{
+        margin: 0px 34px;
+    }
+    img{
+        padding-bottom: 18px;
+    }
+}
+&__perceive{
+    width: 87%;
+    height: 390px;
+    position: relative;
+    padding: 0;
+    margin: 0px 0px 64px;
+
+    &__align{
+        width: 451px;
+        margin: 0 0px 0px 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 390px;
+    }
+    h2{
+        padding: 16px 0px 17px;
+    } 
+    .margin{
+        padding-top: 18px;
+    }
+   .percevieImage{
+    width: 253px;
+    height: 202px;
+    margin: 0;
+    position: absolute;
+    right: -141px;
+    top: 87px;
+    }
+}
+&__adapt{
+    width: 87%;
+    height: 325px;
+    margin-top: 64px;
+   
+    &__align{
+        width: 451px;
+        margin:0;
+        padding: 0 0px 0px 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 325px;
+    }
+    h2{
+        padding: 16px 0px 12px;
+    }
+    h1{
+        padding:0px;
+    }
+}
+&__concept1{
+    padding: 0px 35px;
+}
+&__concept{
+    width: 700px;
+    margin: 0px 0px 22px 15px;
+    h1{
+        padding:64px 0px 17px;
+    }
+  
+}
+&__logo{
+    padding: 20px 50px 0px;
+   
+  }
+&__meaning{
+    width: 100%;
+    margin: 0;
+    padding: 0 34px 72px 34px;
+    p{
+        padding: 14px 0px 0px;
+    }  
+    img{
+        height: 140px;
+    } 
+}
+&__enigmalogo{
+   img{
+    padding: 0px 34px;
+   }
+}
+&__enigmalist{
+    padding: 50px 34px;
+    img{
+       margin-top: 30px;
+    }
+}
+&__evolve{
+    width: 87%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+h2{
+    padding: 10px 0px 10px;
+}
+}
+
+&__fontfamily{
+    width: 100%;
+    margin: 0;
+    padding: 0px 34px;
+    p{
+        padding: 24px 0px 40px;
+    }
+    h1{
+        padding: 30px 0px 16px;
+    }
+    h2{
+        padding: 20px 0px 0px 0px;
+    }
+}
+&__icons{
+    padding: 233px 35px 70px;
+    .threeIcon{
+        width: 465px;
+        padding-bottom: 45px;
+    }
+    img{
+    padding-top: 30px;
+     width: 70px;
+    }
+    .textalign{
+        text-align: left;
+    }
+}
+}
+
+}
+
+@media screen and (min-width:1025px){
+
+    .challange{
+        width: 700px;
+    }
+    .engima{
+        padding: 0px 0px 0px 57px;
+        margin: 0px 0px 65px;
+        .csHeading{
+            padding-bottom:16px;
+        }
+    }
+    .engima1{
+        margin:80px 0px 96px  !important;  
+    }
+    
+    .branding{
+        .brand{
+            padding: 8px 0px 16px;
+        }
+    
+    &__image{
+        .row{
+            margin: 0px 42px;
+        }
+        img{
+            padding-bottom: 26px;
+        }
+    }
+    &__perceive{
+        height:533px;
+        margin: 0px 0px 96px;
+    
+        &__align{
+            width: 540px;
+            margin: 0 0px 0px 42px;
+            height: 533px;
+        }
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            padding:28px 0px 23px;
+        } 
+       .percevieImage{
+        width: 341px;
+        height: 272px;
+        right: -141px;
+        top: 137px;
+        }
+    }
+    &__adapt{
+        width: 87%;
+        height:362px;
+        margin-top: 96px;
+       
+        &__align{
+            width: 480px;
+            padding: 0 0px 0px 42px;
+            height: 362px;
+        }
+        h2{
+            padding: 28px 0px 18px;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    &__concept1{
+        padding: 0px 44px;
+    }
+    &__concept{
+        width: 700px;
+        margin: 0px 0px 50px 15px;
+        h1{
+            padding:96px 0px 24px;
+        }
+    }
+    &__logo{
+        padding: 20px 65px 0px;
+      }
+    &__meaning{
+        padding: 0 42px 72px 42px;
+        p{
+            padding: 24px 0px 0px;
+        }  
+        img{
+            height: 140px;
+        } 
+    }
+    &__enigmalist{
+        padding: 70px 44px 96px;
+    }
+    &__evolve{
+        width: 87%;
+        height:425px;
+    h2{
+        padding: 40px 0px 36px;
+    }
+    }
+    
+    &__fontfamily{
+        padding: 0px 42px;
+    }
+    &__icons{
+        padding: 233px 35px 70px;
+        .threeIcon{
+            width: 630px;
+            padding-bottom:50px;
+        }
+        img{
+         width: 90px;
+        }
+    }
+    }
+    
+    }
+
+@media screen and (min-width:1367px){
+
+    .challange{
+        width: 1000px;
+    }
+    .engima{
+        padding: 0px 0px 0px 57px;
+        margin: 100px 0px 126px;
+        .csHeading{
+            padding-bottom:32px;
+        }
+    }
+    .engima1{
+        margin:123px 0px 120px  !important;  
+    }
+    
+    .branding{
+        .brand{
+            padding: 8px 0px 16px;
+        }
+    
+    &__image{
+        .row{
+            margin: 0px 135px;
+        }
+        img{
+            padding-bottom: 26px;
+        }
+    }
+    &__perceive{
+        height: 614px;
+        margin: 0px 0px 120px;
+    
+        &__align{
+            width: 666px;
+            margin: 0 0px 0px 163px;
+            height: 613px;
+        }
+        h1{
+            font-size: 48px;
+        }
+        h2{
+            padding:40px 0px 34px;
+        } 
+        .margin {
+            padding-top: 25px;
+        }
+       .percevieImage{
+        width: 564px;
+        height: 410px;
+        right: -270px;
+        top: 101px;
+        }
+    }
+    &__adapt{
+        width: 87%;
+        height:362px;
+        margin-top: 96px;
+       
+        &__align{
+            width: 480px;
+            padding: 0 0px 0px 42px;
+            height: 362px;
+        }
+        h2{
+            padding: 28px 0px 18px;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    &__concept1{
+        padding: 0px 44px;
+    }
+    &__concept{
+        width: 700px;
+        margin: 0px 0px 50px 15px;
+        h1{
+            padding:96px 0px 24px;
+        }
+    }
+    &__logo{
+        padding: 20px 65px 0px;
+      }
+    &__meaning{
+        padding: 0 42px 72px 42px;
+        p{
+            padding: 24px 0px 0px;
+        }  
+        img{
+            height: 140px;
+        } 
+    }
+    &__enigmalist{
+        padding: 70px 44px 96px;
+    }
+    &__evolve{
+        width: 87%;
+        height:425px;
+    h2{
+        padding: 40px 0px 36px;
+    }
+    }
+    
+    &__fontfamily{
+        padding: 0px 42px;
+    }
+    &__icons{
+        padding: 233px 35px 70px;
+        .threeIcon{
+            width: 630px;
+            padding-bottom:50px;
+        }
+        img{
+         width: 90px;
+        }
+    }
+    }
+    
+    }

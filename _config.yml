@@ -18,6 +18,10 @@ collections:
     title: Casestudy
     output: true
     permalink: "/caseStudy/:path/"
+  caseStudy-service:
+    title: Casestudy-service
+    output: true
+    permalink: "/caseStudy-service/:path/"
   workpage:
     title: WorkPage
     output: true
@@ -30,9 +34,9 @@ collections:
     output: true
     permalink: "/service/:path/"
   workpage1:
-    title: casestudy
+    title: appbranding
     output: true
-    permalink: "/casestudy/:path/"
+    permalink: "/appbranding/:path/"
   uploads:
     title: Uploads
     output: true

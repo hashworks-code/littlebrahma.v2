@@ -1,0 +1,200 @@
+{% include header.html %}
+    {% include common_header.html %}
+
+    <div class="lb_bdy prct">
+            <div class="hero_img"  style="background-image: url('{{page.banner_imag1}}');"></div>
+            <div class="hero_cnt">
+                <div class="heroText">
+                        {{ page.banner-Head }}
+                </div>
+                <div class="bnrText">
+                    {{ page.banner-cnt }}
+                </div>
+                <div class="hero_ptn"></div>
+            </div>
+      </div>
+      <div class="CSservice">
+            <div class="CSservice__box">
+                <img src="/assets/img/caseStudy-service/{{ page.UImg1  | downcase }}.png">
+                <div class="csHeading boxHeading">{{page.box-Head1}}</div>
+                <p class="paragraph boxPara">{{page.box-para1}}</p>
+            </div>
+            <div class="CSservice__box">
+                <img src="/assets/img/caseStudy-service/{{ page.UImg2  | downcase }}.png">
+                <div class="csHeading boxHeading">{{page.box-Head2}}</div>
+                <p class="paragraph boxPara">{{page.box-para2}}</p>
+            </div>
+            <div class="CSservice__box">
+                <img src="/assets/img/caseStudy-service/{{ page.UImg1  | downcase }}.png">
+                <div class="csHeading boxHeading">{{page.box-Head3}}</div>
+                <p class="paragraph boxPara">{{page.box-para3}}</p>
+            </div>
+      </div>
+      <div class="caseStudy">
+      <div class="caseStudy__content1">
+        <div class="caseStudy__cHead csHeading">
+                {{ page.cHead1 }}
+        </div>
+        <p class="paragraph">{{ page.cContent1 }}</p>
+    </div>
+    </div>
+    <div class="CSservice1">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.png">
+    </div>
+    <div class="caseStudy">
+        <div class="caseStudy__content1">
+          <div class="caseStudy__cHead csHeading">
+                  {{ page.cHead2 }}
+          </div>
+          <p class="paragraph">{{ page.cContent2}}</p></br></br>
+          <p class="paragraph">{{ page.cContent3}}</p></br></br>
+
+          {% for service in page.content_lists %}
+          <p class="paragraph">{{ service.cContent4}}</p>
+          {% endfor %}
+        </div>
+    </div>
+    <div class="caseStudy">
+        <div class="SceneImg2">
+            <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                            <p  class="paragraph color">{{ page.cContent5 }}</p></br></br>
+                            <p  class="paragraph color">{{ page.cContent6 }}</p></br></br>
+                            {% for service in page.content_lists1 %}
+                            <p class="paragraph color">{{ service.cContent7}}</p>
+                            {% endfor %}
+                </div>
+            </div>
+            <!-- <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.variation_image3}}');">
+                    <div class="caseStudy__content4">
+                        <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
+                                <p  class="paragraph">{{ page.cContent5 }}</p>
+                    </div>
+                </div> -->
+            
+                <div class="CSservice__box1">
+                    <div ><span class="headingBold color">{{page.box-Head4}}</span><span class="csHeading color">{{page.box-Head5}}</span></div></br>
+                    <p class="paragraph color">{{page.box-para4}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="CSService2">
+            <div class="csHeading">{{ page.cHead4 }}</div></br>
+            <div class="paragraph">{{ page.cContent8 }}</div>
+        </div>
+        <div class="CSService3">
+            <img src="/assets/img/caseStudy-service/{{ page.SImg3  | downcase }}.png">
+        </div>
+        <div class="caseStudy">
+            <div class="SceneImg">
+                <div class="caseStudy__bgImg" style="background-image: url('{{page.SImg4}}');">
+                        <div class="caseStudy__content2">
+                            <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
+                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
+                            <p  class="paragraph color">{{ page.cContent9 }}</p></br></br>
+                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
+                            <p  class="paragraph color">{{ page.cContent10 }}</p>
+                        </div>
+                        
+                </div>
+                <img src="/assets/img/caseStudy-service/{{ page.SImg5 | downcase }}.png">
+                </div>
+        </div>
+        <div class="CSService4">
+                <div class="row padding-bottom">
+                        <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
+                                <div class="csHeading">{{ page.cHead6 }}</div></br>
+                                <div class="paragraph">{{ page.cContent11 }}</div>
+                        </div>
+                        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0 padding-left">
+                                <img src="/assets/img/caseStudy-service/{{ page.SImg6  | downcase }}.png">
+                        </div>
+                    </div>
+                    <div class="row padding-bottom">
+                        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0 padding-right">
+                                <img src="/assets/img/caseStudy-service/{{ page.SImg7  | downcase }}.png">
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
+                                <div class="csHeading">{{ page.cHead7 }}</div></br>
+                                <div class="paragraph">{{ page.cContent12 }}</div>
+                        </div>
+                    </div>
+                        <div class="row padding-bottom">
+                                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                        <div class="csHeading">{{ page.cHead8 }}</div></br>
+                                        <div class="paragraph cs-allign">{{ page.cContent13 }}</div>
+                                </div>
+                                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                        <img src="/assets/img/caseStudy-service/{{ page.SImg8  | downcase }}.png">
+                                </div>
+                            </div>
+                            <div class="row padding-bottom">
+                                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                            <div class="csHeading">{{ page.cHead9 }}</div></br>
+                                            <div class="paragraph cs-allign">{{ page.cContent14 }}</div>
+                                    </div>
+                                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                            <img src="/assets/img/caseStudy-service/{{ page.SImg9  | downcase }}.png">
+                                    </div>
+                                </div>
+                                <div class="row padding-bottom">
+                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                                <div class="csHeading">{{ page.cHead10 }}</div></br>
+                                                <div class="paragraph cs-allign">{{ page.cContent15 }}</div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                                <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
+                                        </div>
+                                    </div>
+                                    <div class="row padding-bottom">
+                                            <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                                    <img src="/assets/img/caseStudy-service/{{ page.SImg11  | downcase }}.png">
+                                            </div>
+                                        </div>
+                </div>
+
+        </div>
+        
+              <div class="caseStudy">
+                  <div class="SceneImg2">
+                      <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
+                          <div class="caseStudy__content4">
+                              <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                                      <p  class="paragraph color">{{ page.cContent5 }}</p></br></br>
+                                      <p  class="paragraph color">{{ page.cContent6 }}</p></br></br>
+                                      
+                          </div>
+                      </div>
+                      <!-- <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.variation_image3}}');">
+                              <div class="caseStudy__content4">
+                                  <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
+                                          <p  class="paragraph">{{ page.cContent5 }}</p>
+                              </div>
+                          </div> -->
+                      
+                          <div class="CSservice__box1">
+                              <div ><span class="headingBold color">{{page.box-Head4}}</span><span class="csHeading color">{{page.box-Head5}}</span></div></br>
+                              <p class="paragraph color">{{page.box-para4}}</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="CSService3">
+                        <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.png">
+                    </div>
+                    <div class="CSService5">
+                            <img src="/assets/img/caseStudy-service/{{ page.SImg13  | downcase }}.png">
+                        </div>
+                        <div class="CSService6">
+                                <img src="/assets/img/caseStudy-service/{{ page.SImg14  | downcase }}.png">
+                            </div>
+                            <div class="CSService7">
+                                    {% for images in page.img_list %}
+                                    
+                                    <img src="/assets/img/caseStudy-service/{{ images.SImg15  | downcase }}.png">
+                                    {% endfor %}
+                                </div>
+            {% include common_footer.html %}
+            {% include footer.html %}
