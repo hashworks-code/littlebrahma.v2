@@ -58,6 +58,18 @@
   font-family: 'PtSansRegular';
   src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
 
+@font-face {
+  font-family: 'RajdhaniBold';
+  src: url("/assets/font/Rajdhani-Bold.ttf"); }
+
+@font-face {
+  font-family: 'RajdhaniMedium';
+  src: url("/assets/font/Rajdhani-Medium.ttf"); }
+
+@font-face {
+  font-family: 'RajdhaniRegular';
+  src: url("/assets/font/Rajdhani-Regular.ttf"); }
+
 body {
   overflow-x: hidden; }
 
@@ -191,6 +203,24 @@ table {
     color: #fff;
     -webkit-transition: background-color 500ms linear;
     transition: background-color 500ms linear; }
+  .rajdhaniBold {
+    font-family: 'RajdhaniBold';
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000; }
+  .rajdhaniRegular {
+    font-family: 'RajdhaniRegular';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #000000; }
+  .ptSans {
+    font-family: 'PtSansRegular';
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #000000; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -236,7 +266,13 @@ textarea:hover, textarea:focus {
   .paragraph {
     font-size: 14px; }
   .csHeading {
-    font-size: 24px; }
+    font-size: 16px; }
+  .rajdhaniBold {
+    font-size: 36px; }
+  .rajdhaniRegular {
+    font-size: 32px; }
+  .ptSans {
+    font-size: 20px; }
   .input {
     font-size: 14px;
     padding: 12px 10px; }
@@ -271,6 +307,12 @@ textarea:hover, textarea:focus {
     border-radius: 20px;
     font-size: 16px;
     padding: 10px 20px; }
+  .rajdhaniBold {
+    font-size: 36px; }
+  .rajdhaniRegular {
+    font-size: 32px; }
+  .ptSans {
+    font-size: 20px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
