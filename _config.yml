@@ -18,6 +18,10 @@ collections:
     title: Casestudy
     output: true
     permalink: "/caseStudy/:path/"
+  caseStudy-service:
+    title: Casestudy-service
+    output: true
+    permalink: "/caseStudy-service/:path/"
   workpage:
     title: WorkPage
     output: true
