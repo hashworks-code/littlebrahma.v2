@@ -17,12 +17,16 @@
                     <div class="hero_ptn"></div>
                 </div>
             </div>
-        <div class="lb_service">
-                <ul class="lb_work_filter lb_service_lg">
-                    <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing product</li>
-                    <li class="lb_work_filterli"  id="datavalue-2">New product</li>
-                </ul>
-        </div>
+<div class="lb-service-content">
+      
+            {% if page.subtitle != "Branding and Communication"%}
+                <div class="lb_service">
+                        <ul class="lb_work_filter lb_service_lg">
+                            <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing product</li>
+                            <li class="lb_work_filterli"  id="datavalue-2">New product</li>
+                        </ul>
+                </div>
+            {% endif %}
 
 
 
@@ -30,24 +34,28 @@
         <div class="stepwizard datavalue-1">
                 <div class="stepwizard-row setup-panel">
                     <div class="stepwizard-step col-xs-3"> 
-                        <!-- <img src="/assets/img/service/arrow.png"> -->
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"> <div></div> </button>
-                        <p><small>UX/UI review and analysis</small></p>
+                        
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'> <img src="{{page.flowImage1}}" class="stepper-images"> </button>
+                        <p><small>{{page.flowContent1}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
                             <!-- <img src="/assets/img/service/arrow.png"> -->
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>Prototype</small></p>
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.flowImage2}}" class="stepper-images"></button>
+                        <p><small>{{page.flowContent2}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
                             <!-- <img src="/assets/img/service/arrow.png"> -->
-                        <button type="button" class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>Design</small></p>
+                        <button type="button" class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.flowImage3}}" class="stepper-images"></button>
+                        <p><small>{{page.flowContent3}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
                             <!-- <img src="/assets/img/service/arrow.png"> -->
-                        <button type="button" class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>User testing</small></p>
+                        <button type="button" class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.flowImage4}}" class="stepper-images"></button>
+                        <p><small>{{page.flowContent4}}</small></p>
                     </div>
                 </div>
             </div>
@@ -57,22 +65,25 @@
                 <div class="stepwizard-row setup-panel">
                     <div class="stepwizard-step col-xs-3"> 
                         <div class="abc">
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.newproductImage1}}" class="stepper-images"></button>
                         </div>
-                        <p><small>User research</small></p>
+                        <p><small>{{newproductContent1}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>Workflow mapping &
-                            story boarding</small></p>
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.newproductImage2}}" class="stepper-images"></button>
+                        <p><small>{{newproductContent2}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>Release planning</small></p>
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.newproductImage3}}" class="stepper-images"></button>
+                        <p><small>{{newproductContent3}}</small></p>
                     </div>
                     <div class="stepwizard-step col-xs-3"> 
-                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" title="Popover Header" data-content="Some content inside the popover"></button>
-                        <p><small>Prototype & design
+                        <button class="btn-circle service-btn" data-toggle="popover" data-placement="bottom" data-content='<h1 class="typography">UX review</h1>
+                            <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>'><img src="{{page.newproductImage4}}" class="stepper-images"></button>
+                        <p><small>{{newproductContent4}}
                         </small></p>
                     </div>
                 </div>
@@ -106,7 +117,7 @@
             </section>
 
             
-</section>
+
 
 <section class="carousel ">
         <div class="carousel__card responsive">
@@ -171,17 +182,19 @@
                     {% assign item = site.workpage1 %}
                     {% for work in item %}
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                        <a href="{{work.url}}">
                             <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                 <div class="lb-filter-head">
                                     {{work.product_title}}
                                 </div>
                             </div>
+                        </a>
                             <h3 class="lb-filter-header">{{work.product_title1}}</h3>
                             <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
                             <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
                     </div> 
-                    {% endfor %}                     
+                    {% endfor %}                  
                </div>  
                {% endif %}
 
@@ -208,15 +221,17 @@
 
                {% if page.subtitle == "Service"%}
                 <div class="row">
-                        {% assign item = site.workpage1 %}
+                        {% assign item = site.caseStudy-service %}
                         {% for work in item %}
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                            <a href="{{work.url}}">    
+                            <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head">
                                         {{work.product_title}}
                                     </div>
                                 </div>
+                                </a>
                                 <h3 class="lb-filter-header">{{work.product_title1}}</h3>
                                 <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
                                 <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
@@ -258,10 +273,11 @@
                 {% endif %}
                 {% endfor %}
         </div>
+       
 </section>
 
-
-
+</div>
+</section>
 
 {% include common_footer.html %} {% include footer.html %}
 
@@ -282,8 +298,7 @@
              settings: {
                slidesToShow: 2,
                slidesToScroll: 2,
-               infinite: true,
-               dots: false
+               infinite: false
              }
            },
         
@@ -291,7 +306,8 @@
              breakpoint: 767,
              settings: {
                slidesToShow: 1,
-               slidesToScroll: 1
+               slidesToScroll: 1,
+               infinite: false
              }
            }
          ]

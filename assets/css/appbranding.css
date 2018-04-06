@@ -300,7 +300,8 @@ textarea:hover, textarea:focus {
   .paragraph {
     font-size: 16px; }
   .csHeading {
-    font-size: 24px; }
+    font-size: 24px;
+    color: #393939; }
   .input {
     padding: 14px 10px; }
   .commonButton {

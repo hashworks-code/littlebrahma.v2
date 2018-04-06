@@ -384,19 +384,23 @@
                 }
             }
             &__bgImg2{
+
+                background-size: 100% 100%;
                 margin-top: 64px;
-                min-height: 344px;
+                margin-bottom: 55px;
+                min-height: 430px;
+                align-items: flex-start;
             }
             &__content4{
-                width: 57%;
-                padding-right: 40px;
+                width: 100%;
+                padding: 31px;
             }
             .SceneImg2{
                 img{
-                    width: 37%;
-                    height: 190px;
-                    top: 20%;
-                    right: 6%;
+                    width: 75%;
+                    height: 50%;
+                    top: 57%;
+                    right: 11%;
                 
                 }
             }
