@@ -1,7 +1,7 @@
 
 
 .prct .hero_img{
-    background-image: url(/assets/img/branding/banner.jpg);
+    // background-image: url(/assets/img/branding/banner.jpg);
 }
 .challange{
     width: 260px;
@@ -60,12 +60,10 @@
     margin: 46px 0px 0px 25px;
     }
 }
-&__banner{
-    
-}
+
 &__adapt{
     height: 218px;
-    background-color: #022b3b;
+   background-repeat: no-repeat;
    
     &__align{
         width: 260px;
@@ -122,7 +120,7 @@
 }
 &__evolve{
     height: 316px;
-  background-color: #022b3b;
+  background-repeat: no-repeat;
   padding: 40px 0px 36px;
   &__align{
     width: 258px;
@@ -231,9 +229,11 @@ p{
     }
 }
 &__adapt{
-    width: 87%;
     height: 325px;
     margin-top: 64px;
+    background-position: unset;
+    background-size: contain;
+    margin-right: 34px;
    
     &__align{
         width: 451px;
@@ -289,11 +289,21 @@ p{
     }
 }
 &__evolve{
-    width: 87%;
+    background-position: unset;
+    background-size: contain;
+    margin-right: 34px;
     height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+        &__align{
+            width: 451px;
+            margin: 0 0px 0px 36px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 270px;
+        }
 h2{
     padding: 10px 0px 10px;
 }
@@ -383,9 +393,9 @@ h2{
         }
     }
     &__adapt{
-        width: 87%;
-        height:362px;
+       height:362px;
         margin-top: 96px;
+        margin-right: 42px;
        
         &__align{
             width: 480px;
@@ -423,10 +433,19 @@ h2{
     }
     &__enigmalist{
         padding: 70px 44px 96px;
+        img{
+            height: 118px;
+            width: 207px;
+        }
     }
     &__evolve{
-        width: 87%;
+        margin-right: 44px;
         height:425px;
+        &__align{
+            width: 540px;
+            margin: 0 0px 0px 42px;
+            height:425px;
+        }
     h2{
         padding: 40px 0px 36px;
     }
@@ -506,6 +525,7 @@ h2{
     &__adapt{
         height:463px;
         margin-top:120px;
+        margin-right: 135px;
        
         &__align{
             width: 872px;
@@ -551,8 +571,13 @@ h2{
         }
     }
     &__evolve{
-        width: 87%;
+        margin-right: 135px;
         height:572px;
+        &__align{
+            width: 872px;
+            padding: 0 0px 0px 163px;
+            height:572px;
+        }
 
     }
     
