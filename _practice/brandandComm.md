@@ -21,4 +21,13 @@ practiceList4: Package design
 practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
+flowImage1: '/assets/img/service/page-1.svg'
+flowContent1: Cust. interview
+flowImage2: '/assets/img/service/page-1 (6).svg'
+flowContent2: Research & Analysis
+flowImage3: '/assets/img/service/page-1 (8).svg'
+flowContent3: Ideation
+flowImage4: '/assets/img/service/page-1 (10).svg'
+flowContent4: Design & Documentation
+
 ---

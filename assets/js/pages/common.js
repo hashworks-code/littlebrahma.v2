@@ -17,9 +17,12 @@
                 // hide any open popovers when the anywhere else in the body is clicked
                 if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
                     $(this).popover('hide');
+                    $(this).removeClass('intro');
                 }
                 else{
                     $(this).popover('toggle');
+                    $(this).addClass('intro');
+                     $('[data-toggle="popover"]').not(this).removeClass('intro')
                 }
             });
         });
