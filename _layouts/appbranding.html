@@ -3,7 +3,7 @@
   
     <div class="branding">
         <div class="lb_bdy prct">
-            <div class="hero_img"></div>
+            <div class="hero_img" style="background-image: url('{{page.enigma_banner}}');"></div>
             <div class="hero_cnt">
                 <div class="heroText">
                     {{page.title}}
@@ -22,16 +22,16 @@
         <div class="branding__image">
                 <div class="row">
                         <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
-                                <img src="/assets/img/branding/1.jpg">
+                                <img src="/assets/img/branding/{{page.brandImage1}}">
                         </div>
                         <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
-                                <img src="/assets/img/branding/2.jpg">
+                                <img src="/assets/img/branding/{{page.brandImage2}}">
                         </div>
                         <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
-                                <img src="/assets/img/branding/3.jpg">
+                                <img src="/assets/img/branding/{{page.brandImage3}}">
                         </div>
                         <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
-                                <img src="/assets/img/branding/4.png">
+                                <img src="/assets/img/branding/{{page.brandImage4}}">
                         </div>
                 </div>
         </div>
@@ -48,120 +48,119 @@
 
           <div class="branding__perceive">
               <div class="branding__perceive__align" >
-                  <h1 class="headingLight">Perceive</h1>
-                  <h2 class="csHeading">Understanding the DevOps.</h2>
-                  <p class="paragraph">Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with</p>
-                   <p class="paragraph margin">- Brand voice that customer wants to convey</p>
-                   <p class="paragraph"> - Design strategy for the marketing</p>
-                   <p class="paragraph">- Concept designs of the artifacts which connects with tech community</p>
-                   <img class="percevieImage" src="/assets/img/branding/percieve.jpg" alt="">
+                  <h1 class="headingLight">{{page.perceiveTitle}}</h1>
+                  <h2 class="csHeading">{{page.percevesubtitle}}</h2>
+                  <p class="paragraph">{{page.paragraph1}}</p>
+                   <p class="paragraph margin">{{page.paragraph2}}</p>
+                   <p class="paragraph"> {{page.paragraph3}}</p>
+                   <p class="paragraph">{{page.paragraph4}}</p>
+                   <img class="percevieImage" src="/assets/img/branding/{{page.percieveImage}}" alt="">
                 </div>
           </div>
           <div class="branding__banner">
-              <img src="/assets/img/branding/banner-2.jpg" alt="">
+              <img src="/assets/img/branding/{{page.bannerBrand}}" alt="">
 
           </div>
-          <div class="branding__adapt">
+          <div class="branding__adapt" style="background-image: url('{{page.adaptImage}}');">
                 <div class="branding__adapt__align" >
-                    <h1 class="headingLight">Adapt</h1>
-                    <h2 class="csHeading">Designing for technology</h2>
-                    <p class="paragraph">With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate.</p> 
+                    <h1 class="headingLight">{{page.adaptTitle}}</h1>
+                    <h2 class="csHeading">{{page.adaptSubTitle}}</h2>
+                    <p class="paragraph">{{page.adaptParagraph}}</p> 
                   </div>
             </div>
 
             <div class="branding__concept1">
                 <div class="branding__concept">
-                        <h1 class="headingLight">Concept</h1>
-                        <p class="paragraph">We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice.</p> 
+                        <h1 class="headingLight">{{page.conceptTitle}}</h1>
+                        <p class="paragraph">{{page.conceptparagraph}}</p> 
                 </div>
                         <div class="row ">
                             <div class="col-xs-12 col-sm-3">
-                                    <img src="/assets/img/branding/a.jpg" alt="concept">
+                                    <img src="/assets/img/branding/{{page.conceptImage1}}" alt="concept">
                             </div>
                             <div class="col-xs-12 col-sm-3">
-                                    <img src="/assets/img/branding/b.jpg" alt="concept">
+                                    <img src="/assets/img/branding/{{page.conceptImage2}}" alt="concept">
                             </div>
                             <div class="col-xs-12 col-sm-3">
-                                    <img src="/assets/img/branding/c.jpg" alt="concept">
+                                    <img src="/assets/img/branding/{{page.conceptImage3}}" alt="concept">
                             </div>
                             <div class="col-xs-12 col-sm-3">
-                                    <img src="/assets/img/branding/d.jpg" alt="concept">
+                                    <img src="/assets/img/branding/{{page.conceptImage4}}" alt="concept">
                             </div>
                          </div>
             </div>
 
             <div class="branding__logo">
                     <h2 class="csHeading">Final Logo</h2>
-                    <img src="/assets/img/branding/logo.svg" alt="final logo">
+                    <img src="/assets/img/branding/{{page.finallogo}}" alt="final logo">
             </div>
             <div class="row branding__meaning">
                 <div class="col-xs-12 col-sm-6">
-                    <h1 class="csHeading">Meaning behind the Logo</h1>
-                    <p class="paragraph">The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code</p>
+                    <h1 class="csHeading">{{page.meaningTitle}} </h1>
+                    <p class="paragraph">{{page.meaningpara}}</p>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <img src="/assets/img/branding/meaning.svg" alt="">
+                    <img src="/assets/img/branding/{{page.meaningImage}}" alt="">
                 </div>
             </div>
 
             <div class="branding__enigmalogo">
-                <img src="/assets/img/branding/1-st-image.svg" alt="">
+                <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
             </div>
 
    <div class="branding__enigmalist">
         <h2 class="csHeading">Variations</h2>
             <div class="row ">
                 <div class="col-xs-6 col-sm-3">
-                    <img src="/assets/img/branding/1.svg" alt="">
+                    <img src="/assets/img/branding/{{page.variations1}}" alt="">
                 </div>
                 <div class="col-xs-6 col-sm-3">
-                   <img src="/assets/img/branding/2.svg" alt="">
+                   <img src="/assets/img/branding/{{page.variations2}}" alt="">
                 </div>
                 <div class="col-xs-6 col-sm-3">
-                   <img src="/assets/img/branding/6.svg" alt="">
+                   <img src="/assets/img/branding/{{page.variations6}}" alt="">
                  </div>
                  <div class="col-xs-6 col-sm-3">
-                   <img src="/assets/img/branding/3.svg" alt="">
+                   <img src="/assets/img/branding/{{page.variations3}}" alt="">
                  </div>
                  <div class="col-xs-6 col-sm-3">
-                    <img src="/assets/img/branding/5.svg" alt="">
+                    <img src="/assets/img/branding/{{page.variations5}}" alt="">
                  </div>
                 <div class="col-xs-6 col-sm-3">
-                   <img src="/assets/img/branding/7.svg" alt="">
+                   <img src="/assets/img/branding/{{page.variations7}}" alt="">
                  </div>
                  <div class="col-xs-6 col-sm-3">
-                   <img src="/assets/img/branding/4.svg" alt="">
+                   <img src="/assets/img/branding/{{page.variations4}}" alt="">
                   </div>
                 <div class="col-xs-6 col-sm-3">
-                <img src="/assets/img/branding/8.svg" alt="">
+                <img src="/assets/img/branding/{{page.variations8}}" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="branding__evolve">
-            <div class="branding__perceive__align" >
-                <h1 class="headingLight">Evolve</h1>
-                <h2 class="csHeading">Design with iterationDesign with iteration</h2>
-                <p class="paragraph">With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice.</p>
-                 
+        <div class="branding__evolve" style="background-image: url('{{page.adaptImage}}');">
+            <div class="branding__evolve__align" >
+                <h1 class="headingLight">{{page.evolveTitle}}</h1>
+                <h2 class="csHeading">{{page.evolveSubTitle}}</h2>
+                <p class="paragraph">{{page.evolveparagraph}} </p>
               </div>
          </div>
 
 
    <div class="branding__enigmalist">
-    <h2 class="csHeading">Color Palette</h2>
+    <h2 class="csHeading">{{page.colorPalette}}</h2>
         <div class="row ">
             <div class="col-xs-6 col-sm-3">
-                <img src="/assets/img/branding/flag1.svg" alt="">
+                <img src="/assets/img/branding/{{page.colorPaletteImage1}}" alt="">
             </div>
             <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/flag2.svg" alt="">
+               <img src="/assets/img/branding/{{page.colorPaletteImage2}}" alt="">
             </div>
             <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/flag3.svg" alt="">
+               <img src="/assets/img/branding/{{page.colorPaletteImage3}}" alt="">
              </div>
              <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/flag4.svg" alt="">
+               <img src="/assets/img/branding/{{page.colorPaletteImage4}}" alt="">
              </div>
         </div>
     </div>
@@ -169,86 +168,58 @@
     <div class="branding__fontfamily">
         <div class="row">
             <div class="col-xs-12 col-sm-6 ">
-                <h1 class="csHeading">Typography</h1>
-                <h2 class="rajdhaniBold">Rajdhani Bold</h2>
-                <h2 class="rajdhaniRegular">Rajdhani Regular</h2>
-                <h2 class="ptSans">PT Sans</h2>
+                <h1 class="csHeading">{{page.fontfamily1}}</h1>
+                <h2 class="rajdhaniBold">{{page.fontfamily2}}</h2>
+                <h2 class="rajdhaniRegular">{{page.fontfamily3}}</h2>
+                <h2 class="ptSans">{{page.fontfamily4}}</h2>
             </div>
             <div class="col-xs-12 col-sm-6">
-                    <p class="paragraph">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.</p>
+                    <p class="paragraph">{{page.fontfamilypara}}</p>
             </div>
         </div>
     </div>
     <div class="branding__icons">
             <h2 class="csHeading">Icons</h2>
                 <div class="row threeIcon">
+                        {% for images in page.icon_list %}
                     <div class="col-xs-4 col-sm-4 ">
-                        <img src="/assets/img/branding/icon/1.svg" alt="">
+                        <img src="/assets/img/branding/icon/{{images.icons}}" alt="">
                     </div>
-                    <div class="col-xs-4 col-sm-4 textalign">
-                       <img src="/assets/img/branding/icon/2.svg" alt="">
-                    </div>
-                    <div class="col-xs-4 col-sm-4 textalign">
-                       <img src="/assets/img/branding/icon/3.svg" alt="">
-                     </div>
+                    {% endfor %}
+                 
                  </div>
                     <div class="row">
-                     <div class="col-xs-4 col-sm-3">
-                       <img src="/assets/img/branding/icon/4.svg" alt="">
+                            {% for image in page.icon_list1 %}
+                     <div class="col-xs-4 col-sm-2">
+                       <img src="/assets/img/branding/icon/{{image.icons1}}" alt="">
                      </div>
-                     <div class="col-xs-4 col-sm-2 textalign">
-                            <img src="/assets/img/branding/icon/5.svg" alt="">
-                    </div> 
-                    <div class="col-xs-4 col-sm-3 textalign">
-                            <img src="/assets/img/branding/icon/6.svg" alt="">
-                          </div>
-                   <div class="col-xs-6 col-sm-2 textalign">
-                    <img src="/assets/img/branding/icon/7.svg" alt="">
-                    </div>  
-                  <div class="col-xs-6 col-sm-2">
-                    <img src="/assets/img/branding/icon/8.svg" alt="">
-                    </div>
+                     {% endfor %}
                 </div>
-            </div>
+     </div>
             <div class="imageAlignment">
-                <img src="/assets/img/branding/icon/1.jpg" alt="">
+                <img src="/assets/img/branding/icon/{{page.enigmaImage1}}" alt="">
             </div>
             <div class="enigmaCup">
                 <div class="row ">
                     <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
-                            <img class="imagemargin" src="/assets/img/branding/icon/2.jpg">
+                            <img class="imagemargin" src="/assets/img/branding/icon/{{page.enigmaImage2}}">
                     </div>
                     <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
-                            <img  class="imagemargin" src="/assets/img/branding/icon/3.jpg">
+                            <img  class="imagemargin" src="/assets/img/branding/icon/{{page.enigmaImage3}}">
                     </div>
             </div>
             </div>
       
 
            <div>
-             <img class="imagemargin" src="/assets/img/branding/icon/4.jpg" alt="">
+                {% for image in page.enigmaImageList %}
+             <img class="imagemargin" src="/assets/img/branding/icon/{{image.enigmaImage}}" alt="">
+             {% endfor %}
             </div>
-            <div>
-               <img class="imagemargin" src="/assets/img/branding/icon/5.jpg" alt="">
-             </div>
-
-             <div class="imageAlignment">
-             <img class="imagemargin" src="/assets/img/branding/icon/6.jpg" alt="">
-             </div>
-             <div class="imageAlignment">
-                 <img class="imagemargin" src="/assets/img/branding/icon/7.jpg" alt="">
-             </div>
-
-             <div>
-              <img class="imagemargin" src="/assets/img/branding/icon/8.jpg" alt="">
-           </div>
-           <div>
-                <img class="imagemargin" src="/assets/img/branding/icon/web-mock-01.jpg" alt="">
-             </div>
 
              <div style="height:180px;">
                     <button class="commonButton">Know More</button>
-             </div>
+             </div> 
     </div>
 
     {% include common_footer.html %}

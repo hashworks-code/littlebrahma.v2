@@ -1009,8 +1009,8 @@ html, body {
   height: 3px;
   width: 0px;
   background: transparent;
-  -webkit-transition: width .5s ease, background-color .5s ease;
-  transition: width .5s ease, background-color .5s ease; }
+  -webkit-transition: width .5s ease,  background-color .5s ease;
+  transition: width .5s ease,  background-color .5s ease; }
 
 .cd-secondary-navli:hover:after {
   width: 100%;
@@ -1021,7 +1021,7 @@ html, body {
   background-size: cover;
   background-position: center;
   position: relative;
-  background-image: url("/assets/img/common/footer-3.png");
+  background-image: url("/assets/img/common/footer.jpg");
   background-repeat: no-repeat;
   height: 760px; }
   .footer__inner {
