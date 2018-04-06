@@ -83,7 +83,9 @@ SImg11: "style-guid"
 SImg12: "1-gov"
 SImg13: "group-6"
 SImg14: "bitmap"
-
+SImg15: "/assets/img/caseStudy-service/group-7.png"
+SImg16: "/assets/img/caseStudy-service/LBrect.png"
+SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
     - SImg15: "lower-image"
     - SImg15: "mockup-1"
@@ -112,6 +114,14 @@ cContent14: "Interactive sorting of the search result data makes the decision ma
 cHead10: "5.  Design"
 cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
 
+cHead11: "Evolve "
+csubHead6: "An improved UX solution"
+cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
+
+box-Head7: '25'
+box-Head8: ' Seconds'
+box-para5: 'Latency to perform an 
+            action on Hold'
 
 
 cat: Service Design

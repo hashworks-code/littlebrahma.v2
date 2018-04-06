@@ -58,6 +58,18 @@
   font-family: 'PtSansRegular';
   src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
 
+@font-face {
+  font-family: 'RajdhaniBold';
+  src: url("/assets/font/Rajdhani-Bold.ttf"); }
+
+@font-face {
+  font-family: 'RajdhaniMedium';
+  src: url("/assets/font/Rajdhani-Medium.ttf"); }
+
+@font-face {
+  font-family: 'RajdhaniRegular';
+  src: url("/assets/font/Rajdhani-Regular.ttf"); }
+
 body {
   overflow-x: hidden; }
 
@@ -191,6 +203,24 @@ table {
     color: #fff;
     -webkit-transition: background-color 500ms linear;
     transition: background-color 500ms linear; }
+  .rajdhaniBold {
+    font-family: 'RajdhaniBold';
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    color: #000000; }
+  .rajdhaniRegular {
+    font-family: 'RajdhaniRegular';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #000000; }
+  .ptSans {
+    font-family: 'PtSansRegular';
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #000000; }
   .heroText {
     font-size: 24px; }
   .bnrText {
@@ -236,7 +266,13 @@ textarea:hover, textarea:focus {
   .paragraph {
     font-size: 14px; }
   .csHeading {
-    font-size: 24px; }
+    font-size: 16px; }
+  .rajdhaniBold {
+    font-size: 36px; }
+  .rajdhaniRegular {
+    font-size: 32px; }
+  .ptSans {
+    font-size: 20px; }
   .input {
     font-size: 14px;
     padding: 12px 10px; }
@@ -264,13 +300,20 @@ textarea:hover, textarea:focus {
   .paragraph {
     font-size: 16px; }
   .csHeading {
-    font-size: 24px; }
+    font-size: 24px;
+    color: #393939; }
   .input {
     padding: 14px 10px; }
   .commonButton {
     border-radius: 20px;
     font-size: 16px;
     padding: 10px 20px; }
+  .rajdhaniBold {
+    font-size: 36px; }
+  .rajdhaniRegular {
+    font-size: 32px; }
+  .ptSans {
+    font-size: 20px; }
   .lb_bdy {
     height: calc(100vh + 160px); }
   .heroText {
@@ -833,7 +876,8 @@ html, body {
     .contact1__form input {
       margin: 12px 0px 6px; }
     .contact1__form button {
-      margin: 12px 0px 0px; }
+      margin: 12px 0px 0px;
+      display: block; }
     .contact1__form textarea {
       width: 262px;
       height: 115px;
@@ -1392,16 +1436,21 @@ html, body {
     left: 30%;
     height: 161px; }
   .caseStudy__bgImg2 {
+    background-size: 100% 100%;
     margin-top: 64px;
-    min-height: 344px; }
+    margin-bottom: 55px;
+    min-height: 430px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
   .caseStudy__content4 {
-    width: 57%;
-    padding-right: 40px; }
+    width: 100%;
+    padding: 31px; }
   .caseStudy .SceneImg2 img {
-    width: 37%;
-    height: 190px;
-    top: 20%;
-    right: 6%; }
+    width: 75%;
+    height: 50%;
+    top: 57%;
+    right: 11%; }
   .caseStudy__eImg {
     margin-top: 35px; }
   .caseStudy__content5 {
@@ -1471,7 +1520,6 @@ html, body {
 .CSservice__box1 {
   position: absolute;
   right: 11%;
-  height: 258px;
   top: 40%;
   width: 258px;
   background: #22a98b;
@@ -1509,7 +1557,9 @@ html, body {
     width: 100%; }
 
 .CSService5 {
-  margin: 80px 0 56px 0; }
+  margin: 80px 0 0 0; }
+  .CSService5 img {
+    width: 100%; }
 
 .CSService6 {
   text-align: center; }
@@ -1519,3 +1569,202 @@ html, body {
   .CSService7 img {
     padding-bottom: 40px;
     width: 100%; }
+
+.bg5 {
+  min-height: 436px !important; }
+
+.box {
+  top: 26% !important;
+  width: 258px !important;
+  padding: 70px 25px 30px !important; }
+
+@media screen and (max-width: 1366px) {
+  .CSservice {
+    margin: 96px 180px; }
+    .CSservice__box {
+      width: 185px;
+      margin: 15px;
+      padding: 10px 15px; }
+    .CSservice .boxHeading {
+      padding: 25px 0 5px; }
+    .CSservice .boxPara {
+      font-size: 14px;
+      padding: 0; }
+  .CSservice1 {
+    margin: 0 124px; }
+  .caseStudy__bgImg2 {
+    min-height: 620px;
+    padding: 50px 0; }
+  .caseStudy__content4 {
+    width: 63%; }
+  .CSservice__box1 {
+    width: 219px;
+    padding: 53px 25px; }
+  .CSService2 {
+    margin: 0 120px 32px 41px; }
+  .CSService3 {
+    margin: 0 42px; }
+  .caseStudy__bgImg {
+    min-height: 463px;
+    margin-top: 120px;
+    width: 75%; }
+  .caseStudy__content2 {
+    width: 81%;
+    padding-left: 42px; }
+  .caseStudy .SceneImg img {
+    width: 38%;
+    height: 66%; }
+  .CSService4 {
+    margin: 96px 120px 0 120px; }
+    .CSService4 .padding-bottom {
+      padding-bottom: 60px; }
+    .CSService4 .cs-allign {
+      padding-bottom: 25px; }
+  .CSService5 {
+    margin: 64px 0 0 0; }
+  .CSService7 {
+    margin: 40px 0 100px; }
+    .CSService7 img {
+      padding-bottom: 32px;
+      width: 100%; }
+  .bg5 {
+    min-height: 355px !important; }
+  .box {
+    width: 215px !important;
+    padding: 50px 20px 30px !important; } }
+
+@media screen and (max-width: 1024px) {
+  .CSservice {
+    margin: 64px 100px; }
+    .CSservice__box {
+      width: 145px;
+      margin: 10px;
+      padding: 10px; }
+    .CSservice .boxHeading {
+      padding: 2px 0 5px; }
+    .CSservice .boxPara {
+      font-size: 12px; }
+  .caseStudy__content1 {
+    margin: 80px 95px 80px 95px; }
+  .CSservice1 {
+    margin: 0 95px; }
+  .caseStudy__bgImg2 {
+    min-height: 462px;
+    margin: 80px 0; }
+  .caseStudy__content4 {
+    width: 67%; }
+  .CSservice__box1 {
+    width: 163px;
+    padding: 40px 20px; }
+  .CSService2 {
+    margin: 0 94px 24px 34px; }
+  .CSService3 {
+    margin: 0 34px; }
+  .caseStudy__bgImg {
+    min-height: 358px;
+    margin-top: 72px; }
+  .caseStudy__content2 {
+    width: 81%;
+    padding-left: 42px; }
+  .caseStudy .SceneImg img {
+    width: 38%;
+    height: 66%; }
+  .CSService4 {
+    margin: 64px 94px 0 94px; }
+    .CSService4 .padding-bottom {
+      padding-bottom: 64px; }
+    .CSService4 .cs-allign {
+      padding-bottom: 18px; }
+    .CSService4 .padding-left {
+      padding-left: 20px !important; }
+    .CSService4 .padding-right {
+      padding-right: 20px !important; }
+  .CSService5 {
+    margin: 48px 0 0 0; }
+  .CSService7 {
+    margin: 40px 0 100px; }
+    .CSService7 img {
+      padding-bottom: 32px;
+      width: 100%; }
+  .bg5 {
+    min-height: 297px !important; }
+  .box {
+    top: 27% !important;
+    width: 160px !important;
+    padding: 40px 15px 23px !important; } }
+
+@media screen and (max-width: 768px) {
+  .CSservice {
+    display: block;
+    margin: 50px 0; }
+    .CSservice__box {
+      width: 138px;
+      margin: 14px auto;
+      padding: 10px; }
+      .CSservice__box img {
+        width: 15px; }
+  .caseStudy__content1 {
+    margin: 57px 32px; }
+  .CSservice1 {
+    margin: 0 32px; }
+  .caseStudy__bgImg2 {
+    min-height: 580px;
+    margin: 80px 0 130px;
+    padding: 45px 0 115px; }
+  .caseStudy__content4 {
+    width: 100%;
+    padding: 0 31px; }
+  .CSservice__box1 {
+    width: 163px;
+    padding: 40px 20px;
+    margin-left: -82px;
+    left: 50%;
+    top: 87%; }
+  .CSService2 {
+    margin: 0 31px 24px 31px; }
+  .CSService3 {
+    margin: 0 6px; }
+  .caseStudy__bgImg {
+    min-height: 430px;
+    margin-top: 72px;
+    padding: 45px 0 115px;
+    width: 100%; }
+  .caseStudy__content2 {
+    width: 100%;
+    padding: 0 31px; }
+  .caseStudy .SceneImg img {
+    width: 204px;
+    margin-left: -102px;
+    left: 50%;
+    top: 87%;
+    height: 139px; }
+  .caseStudy .SceneImg {
+    margin-bottom: 150px; }
+  .CSService4 {
+    margin: 0 32px 0 32px; }
+    .CSService4 .padding-bottom {
+      padding-bottom: 40px; }
+    .CSService4 .padding-left {
+      padding: 32px 20px 0 20px !important; }
+    .CSService4 .padding-right {
+      padding: 32px 20px 0 20px !important; }
+  .CSService5 {
+    margin: 48px 0 0 0; }
+  .CSService7 {
+    margin: 40px 0 100px; }
+    .CSService7 img {
+      padding-bottom: 24px; }
+  .bg5 {
+    min-height: 297px !important; }
+  .box {
+    top: 27% !important;
+    width: 160px !important;
+    padding: 40px 15px 23px !important; }
+  .divA {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  .divB {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
