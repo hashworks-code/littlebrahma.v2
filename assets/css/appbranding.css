@@ -1010,8 +1010,8 @@ html, body {
   height: 3px;
   width: 0px;
   background: transparent;
-  -webkit-transition: width .5s ease, background-color .5s ease;
-  transition: width .5s ease, background-color .5s ease; }
+  -webkit-transition: width .5s ease,  background-color .5s ease;
+  transition: width .5s ease,  background-color .5s ease; }
 
 .cd-secondary-navli:hover:after {
   width: 100%;
@@ -1496,45 +1496,50 @@ html, body {
       right: -270px;
       top: 101px; }
   .branding__adapt {
-    width: 87%;
-    height: 362px;
-    margin-top: 96px; }
+    height: 463px;
+    margin-top: 120px; }
     .branding__adapt__align {
-      width: 480px;
-      padding: 0 0px 0px 42px;
-      height: 362px; }
+      width: 872px;
+      padding: 0 0px 0px 163px;
+      height: 463px; }
     .branding__adapt h2 {
-      padding: 28px 0px 18px; }
+      padding: 28px 0px 30px; }
     .branding__adapt h1 {
-      font-size: 40px; }
+      font-size: 48px; }
   .branding__concept1 {
-    padding: 0px 44px; }
+    padding: 0px 145px; }
   .branding__concept {
-    width: 700px;
-    margin: 0px 0px 50px 15px; }
+    width: 745px; }
     .branding__concept h1 {
-      padding: 96px 0px 24px; }
+      padding: 120px 0px 32px; }
   .branding__logo {
-    padding: 20px 65px 0px; }
+    padding: 140px 40px 0px 162px; }
   .branding__meaning {
-    padding: 0 42px 72px 42px; }
+    padding: 0 150px 120px 150px; }
     .branding__meaning p {
-      padding: 24px 0px 0px; }
+      padding: 38px 0px 0px; }
     .branding__meaning img {
-      height: 140px; }
+      height: 190px; }
+  .branding__enigmalogo img {
+    padding: 0px 140px; }
   .branding__enigmalist {
-    padding: 70px 44px 96px; }
+    padding: 110px 154px 120px; }
+    .branding__enigmalist img {
+      height: 118px;
+      width: 207px; }
   .branding__evolve {
     width: 87%;
-    height: 425px; }
-    .branding__evolve h2 {
-      padding: 40px 0px 36px; }
+    height: 572px; }
   .branding__fontfamily {
-    padding: 0px 42px; }
+    padding: 0px 155px; }
   .branding__icons {
-    padding: 233px 35px 70px; }
+    padding: 233px 150px 70px 150px; }
     .branding__icons .threeIcon {
-      width: 630px;
-      padding-bottom: 50px; }
+      width: 716px;
+      padding-bottom: 101px; }
     .branding__icons img {
-      width: 90px; } }
+      width: 130px; }
+  .imageAlignment img {
+    padding: 20px 135px; }
+  .enigmaCup .row {
+    padding: 20px 135px; } }
