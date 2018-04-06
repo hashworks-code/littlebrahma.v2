@@ -18,7 +18,7 @@ practiceList1: Brand voice
 practiceList2: Print media
 practiceList3: Visual Language
 practiceList4: Package design
-practiceImg: "/assets/img/homepage/arrow.svg"
+practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/product-design.png'
 backgroundHoverImg: '/assets/img/homepage/product-design-white.png'
 url: "productDesign"

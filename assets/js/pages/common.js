@@ -1,9 +1,15 @@
 (function() {
 
     $(document).ready(function() {
-        $('[data-toggle="popover"]').click(function(){
-             $(this).popover('toggle');
-            $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
+        // $('[data-toggle="popover"]').click(function(){
+        //     $(this).popover('show');
+        //     $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
+        // });
+        $("[data-toggle=popover]").popover({
+            html: true, 
+            content: function() {
+                  return $('#popover-content').html();
+                }
         });
 
         $('body').on('click', function (e) {
@@ -11,6 +17,9 @@
                 // hide any open popovers when the anywhere else in the body is clicked
                 if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
                     $(this).popover('hide');
+                }
+                else{
+                    $(this).popover('toggle');
                 }
             });
         });
