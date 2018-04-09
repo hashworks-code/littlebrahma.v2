@@ -1,6 +1,6 @@
 ---
 
-cat: Service Design
+cat: Branding & Communication
 layout: appbranding
 product_title: Simplifying talent hunt
 product_title1: Enigma Branding
@@ -14,7 +14,7 @@ enigma_banner: "/assets/img/branding/banner.jpg"
 brandImage1: "1.jpg"
 brandImage2: "2.jpg"
 brandImage3: "3.jpg"
-brandImage4: "4.png"
+brandImage4: "4.jpg"
 
 perceiveTitle: "Perceive"
 percevesubtitle: "Understanding the DevOps"

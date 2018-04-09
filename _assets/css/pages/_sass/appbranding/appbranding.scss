@@ -1,8 +1,15 @@
 
-
-.prct .hero_img{
-    // background-image: url(/assets/img/branding/banner.jpg);
-}
+    .blob1{
+        width:300px;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        top: 365px;
+        z-index: 999;
+        button{
+            margin: 16px 0px 0px;
+        }
+    }
 .challange{
     width: 260px;
     margin: 0 auto;
@@ -171,6 +178,14 @@ p{
 
 @media screen and (min-width:767px){
 
+    .blob1{
+        width:700px;
+        top: 370px;
+        button{
+            margin: 16px 0px 0px;
+        }
+    }
+
 .challange{
     width: 560px;
 }
@@ -324,7 +339,7 @@ h2{
     }
 }
 &__icons{
-    padding: 233px 35px 70px;
+    padding: 70px 35px 70px;
     .threeIcon{
         width: 465px;
         padding-bottom: 45px;
@@ -342,6 +357,13 @@ h2{
 }
 
 @media screen and (min-width:1025px){
+    .blob1{
+        width:700px;
+        top:380px;
+        button{
+            margin: 25px 0px 0px;
+        }
+    }
 
     .challange{
         width: 700px;
@@ -455,7 +477,7 @@ h2{
         padding: 0px 42px;
     }
     &__icons{
-        padding: 233px 35px 70px;
+        padding: 103px 35px 70px;
         .threeIcon{
             width: 630px;
             padding-bottom:50px;
@@ -469,6 +491,14 @@ h2{
     }
 
 @media screen and (min-width:1367px){
+
+    .blob1{
+        width:700px;
+        top:390px;
+        button{
+            margin: 33px 0px 0px;
+        }
+    }
 
     .challange{
         width: 1000px;
@@ -585,7 +615,7 @@ h2{
         padding: 0px 155px;
     }
     &__icons{
-        padding: 233px 150px 70px 150px;
+        padding: 160px 150px 70px 150px;
         .threeIcon{
             width: 716px;
             padding-bottom: 101px;

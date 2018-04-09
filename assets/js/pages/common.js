@@ -1,6 +1,8 @@
 (function() {
 
     $(document).ready(function() {
+        
+        brandlength=$('.brndcomm').length;
         // $('[data-toggle="popover"]').click(function(){
         //     $(this).popover('show');
         //     $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
@@ -26,8 +28,31 @@
                 }
             });
         });
-         
-
+        
+        $('.prod').each(function (index) { 
+            if(index<=3){
+                $(this).add();
+            }
+            else{
+                $(this).hide();
+            }
+        })
+        $('.service').each(function (index) { 
+            if(index<=3){
+                $(this).add();
+            }
+            else{
+                $(this).hide();
+            }
+        })
+        $('.brndcomm').each(function (index) { 
+            if(index<=3){
+                $(this).add();
+            }
+            else{
+                $(this).hide();
+            }
+        })
         // $('.btn').on('click', function (e) {
         //     $('.btn').not(this).popover('hide');
         // });
@@ -56,12 +81,41 @@
         });
 
         $(".lb_work_filterli").click(function() {
+            $("#lb_btn1").hide();
+            $("#lb_btn").show();
             var data=$(this).attr('id');
             var length = $(".common-filter").length;
             for(var i=1;i<length+1;i++){
                 tempvalue="filterli-"+i;
                 if(data == tempvalue){
                     $(".filterli-"+i).show();
+                    $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        if(index<=3){
+                            $(this).add();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                    $(".filterli-"+i+' '+'.prod').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        if(index<=3){
+                            $(this).add();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                    $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        if(index<=3){
+                            $(this).add();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
                 }
                 else{
                     $(".filterli-"+i).hide();
@@ -70,7 +124,6 @@
         });
         
         $(".work_select").change(function() {
-            debugger;
             var data=$(this).val();
             var length = $(".common-filter").length;
             for(var i=1;i<length+1;i++){
@@ -83,6 +136,111 @@
                 }
             }
         });
+
+        $('#lb_btn').click(function(){
+            var id =$('.lb_work_filterActive').attr('id');
+            $("#lb_btn1").show();
+            $("#lb_btn").hide();
+            if(id == 'filterli-1'){
+                $('.prod').show();
+            }
+            else if(id == 'filterli-2'){
+                $('.service').show();
+            }
+            else if(id == 'filterli-3'){
+                    $('.brndcomm').show();
+            }       
+        });
+
+        $('#lb_service_btn').click(function(){
+              var value=$(this).val();
+              $('#lb_service_btn1').show();
+              $(this).hide();
+              if(value == 'Product'){
+                $('.prod').show();
+            }
+            else if(value == 'Service'){
+                $('.service').show();
+            }
+            else if(value == 'Branding and Communication'){
+                    $('.brndcomm').show();
+            }   
+        })
+        $('#lb_service_btn1').click(function(){
+            var value=$(this).val();
+            $('#lb_service_btn').show();
+            $(this).hide();
+            if(value == 'Product'){
+                $('.prod').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            }
+            else if(value == 'Service'){
+                $('.service').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            }
+            else if(value == 'Branding and Communication'){
+                var prodcount=$('.brndcomm').length;
+                $('.brndcomm').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            } 
+      })
+    
+        $('#lb_btn1').click(function(){
+            var id =$('.lb_work_filterActive').attr('id');
+            $("#lb_btn1").hide();
+            $("#lb_btn").show();
+            var count=0;
+            debugger;
+            if(id == 'filterli-1'){
+                $('.prod').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            }
+            else if(id == 'filterli-2'){
+                $('.service').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            }
+            else if(id == 'filterli-3'){
+                var prodcount=$('.brndcomm').length;
+                $('.brndcomm').each(function (index) { 
+                    if(index<=3){
+                        $(this).add();
+                    }
+                    else{
+                        $(this).hide();
+                    }
+                })
+            } 
+        })
        
         // var count=0;
       

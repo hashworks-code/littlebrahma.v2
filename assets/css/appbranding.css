@@ -1123,6 +1123,16 @@ html, body {
       padding: 5px 18px 6px; } }
 
 /*footer ends*/
+.blob1 {
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  top: 365px;
+  z-index: 999; }
+  .blob1 button {
+    margin: 16px 0px 0px; }
+
 .challange {
   width: 260px;
   margin: 0 auto; }
@@ -1254,6 +1264,11 @@ html, body {
   padding-top: 20px; }
 
 @media screen and (min-width: 767px) {
+  .blob1 {
+    width: 700px;
+    top: 370px; }
+    .blob1 button {
+      margin: 16px 0px 0px; }
   .challange {
     width: 560px; }
   .engima {
@@ -1390,7 +1405,7 @@ html, body {
     .branding__fontfamily h2 {
       padding: 20px 0px 0px 0px; }
   .branding__icons {
-    padding: 233px 35px 70px; }
+    padding: 70px 35px 70px; }
     .branding__icons .threeIcon {
       width: 465px;
       padding-bottom: 45px; }
@@ -1401,6 +1416,11 @@ html, body {
       text-align: left; } }
 
 @media screen and (min-width: 1025px) {
+  .blob1 {
+    width: 700px;
+    top: 380px; }
+    .blob1 button {
+      margin: 25px 0px 0px; }
   .challange {
     width: 700px; }
   .engima {
@@ -1476,7 +1496,7 @@ html, body {
   .branding__fontfamily {
     padding: 0px 42px; }
   .branding__icons {
-    padding: 233px 35px 70px; }
+    padding: 103px 35px 70px; }
     .branding__icons .threeIcon {
       width: 630px;
       padding-bottom: 50px; }
@@ -1484,6 +1504,11 @@ html, body {
       width: 90px; } }
 
 @media screen and (min-width: 1367px) {
+  .blob1 {
+    width: 700px;
+    top: 390px; }
+    .blob1 button {
+      margin: 33px 0px 0px; }
   .challange {
     width: 1000px; }
   .engima {
@@ -1560,7 +1585,7 @@ html, body {
   .branding__fontfamily {
     padding: 0px 155px; }
   .branding__icons {
-    padding: 233px 150px 70px 150px; }
+    padding: 160px 150px 70px 150px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }

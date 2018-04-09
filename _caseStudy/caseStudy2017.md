@@ -89,7 +89,7 @@ cImg6: "group-10"
 
 cImg7: "bitmap-copy-20"
 
-cat: Service Design
+cat: Branding & Communication
 product_title: Simplifying talent hunt
 product_title1: calender 2017
 product_description: Branding / Visual identity / Application / Website

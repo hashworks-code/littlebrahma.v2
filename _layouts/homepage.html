@@ -69,7 +69,7 @@
                        {% assign item = site.caseStudy-product %}
                        {% for work in item %}
                       
-                       <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                       <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                         <a href="{{work.url}}"> 
                         <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
@@ -90,7 +90,7 @@
                <div class="row filterli-2 common-filter" valuedata="Service Design">
                 {% assign item = site.caseStudy-service %}
                 {% for work in item %}
-                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                     <a href="{{work.url}}">    
                     <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                         <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
@@ -110,7 +110,7 @@
                     {% assign item = site.caseStudy %}
                     {% for work in item %}
                     
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                             <a href="{{work.url}}">
                                 <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
@@ -128,7 +128,7 @@
 
                     {% assign item = site.workpage1 %}
                     {% for work in item %}
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                         <a href="{{work.url}}">
                             <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
