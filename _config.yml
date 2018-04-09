@@ -22,6 +22,10 @@ collections:
     title: Casestudy-service
     output: true
     permalink: "/caseStudy-service/:path/"
+  caseStudy-product:
+    title: Casestudy-product
+    output: true
+    permalink: "/caseStudy-product/:path/"
   workpage:
     title: WorkPage
     output: true
