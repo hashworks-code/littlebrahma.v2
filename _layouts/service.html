@@ -208,16 +208,18 @@
 
                {% if page.subtitle == "Product"%}
                 <div class="row">
-                        {% assign item = site.workpage %}
+                        {% assign item = site.caseStudy-product %}
                         {% for work in item %}
                        
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
                                 <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head">
                                         {{work.product_title}}
                                     </div>
                                 </div>
+                                </a>
                                 <h3 class="lb-filter-header">{{work.product_title1}}</h3>
                                 <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
                                 <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
