@@ -1,6 +1,6 @@
 ---
 
-cat: Service Design
+cat: Branding & Communication
 layout: appbranding
 product_title: Simplifying talent hunt
 product_title1: Groome Branding
