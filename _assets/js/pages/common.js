@@ -7,24 +7,52 @@
         //     $(this).popover('show');
         //     $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
         // });
+        var widthofwindow=$(window).width();
+            if(widthofwindow<768){
+                // $("[data-toggle=popover]").popover().attr('
+                $("[data-toggle=popover]").popover({
+                    html: true, 
+                    placement: 'right',
+                    content: function() {
+                          return $('#popover-content').html();
+                        }
+            });
+            }
+            else{
         $("[data-toggle=popover]").popover({
             html: true, 
+            placement: 'bottom',
             content: function() {
                   return $('#popover-content').html();
                 }
         });
+    }
 
         $('body').on('click', function (e) {
+            var count =1;
             $('[data-toggle=popover]').each(function () {
+                // console.log($(this).attr('class'));
                 // hide any open popovers when the anywhere else in the body is clicked
                 if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
                     $(this).popover('hide');
                     $(this).removeClass('intro');
+                     
+                    // $('[data-toggle="popover"]').children('.activeimg').hide();
+                    //  $('[data-toggle="popover"]').children('.normalimg').show();
                 }
                 else{
                     $(this).popover('toggle');
                     $(this).addClass('intro');
-                     $('[data-toggle="popover"]').not(this).removeClass('intro')
+                    // $(this)
+                    $(this).children('.activeimg').show();
+                    $(this).children('.normalimg').hide();
+                     $('[data-toggle="popover"]').not(this).children('.activeimg').hide();
+                     $('[data-toggle="popover"]').not(this).children('.normalimg').show();
+                     count =0;
+                }
+                if(count == 1){
+                    $('.activeimg').hide();
+                    $('.normalimg').show();
                 }
             });
         });
@@ -208,7 +236,6 @@
             $("#lb_btn1").hide();
             $("#lb_btn").show();
             var count=0;
-            debugger;
             if(id == 'filterli-1'){
                 $('.prod').each(function (index) { 
                     if(index<=3){
