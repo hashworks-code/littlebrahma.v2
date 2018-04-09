@@ -22,12 +22,16 @@ practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
+flowactiveImage1: '/assets/img/service/service.svg'
 flowContent1: Cust. interview
 flowImage2: '/assets/img/service/page-1 (6).svg'
+flowactiveImage2: '/assets/img/service/service.svg'
 flowContent2: Research & Analysis
 flowImage3: '/assets/img/service/page-1 (8).svg'
+flowactiveImage3: '/assets/img/service/service.svg'
 flowContent3: Ideation
 flowImage4: '/assets/img/service/page-1 (10).svg'
+flowactiveImage4: '/assets/img/service/service.svg'
 flowContent4: Design & Documentation
 
 ---

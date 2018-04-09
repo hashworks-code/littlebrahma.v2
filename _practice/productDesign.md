@@ -22,20 +22,28 @@ practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/product-design.png'
 backgroundHoverImg: '/assets/img/homepage/product-design-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
+flowactiveImage1: '/assets/img/service/service.svg'
 flowContent1: UX/UI review and analysis
 flowImage2: '/assets/img/service/page-1 (1).svg'
+flowactiveImage2: '/assets/img/service/service.svg'
 flowContent2: Prototype
 flowImage3: '/assets/img/service/page-1 (4).svg'
+flowactiveImage3: '/assets/img/service/service.svg'
 flowContent3: Design
 flowImage4: '/assets/img/service/page-1 (5).svg'
+flowactiveImage4: '/assets/img/service/service.svg'
 flowContent4: User testing
 newproductImage1: '/assets/img/service/page-1 (13).svg'
+newproductActiveImage1: '/assets/img/service/service.svg'
 newproductContent1: User research
 newproductImage2: '/assets/img/service/page-1 (14).svg'
+newproductActiveImage2: '/assets/img/service/service.svg'
 newproductContent2: User journey mapping
 newproductImage3: '/assets/img/service/page-1 (1).svg'
+newproductActiveImage2: '/assets/img/service/service.svg'
 newproductContent3: Prototype
 newproductImage4: '/assets/img/service/page-1 (15).svg'
+newproductActiveImage4: '/assets/img/service/service.svg'
 newproductContent4: Design
 url: "productDesign"
 ---

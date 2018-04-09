@@ -4,8 +4,8 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/gov-banner.png"
-banner-Head: "Global Order Visibility"
+banner_imag1: "/assets/img/caseStudy-service/opm.png"
+banner-Head: "Order Profile Management"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
 
 box-Head1: "65,000"
@@ -58,7 +58,6 @@ content_lists1:
     - cContent7: '- Management of workflows created for order holds'
     - cContent7: '- Micro views of order delay stages'
     - cContent7: '- Simplified solution for workforce orchestration'
-    - cContent7: '- Real-time insights required by the stakeholders'
 
 
 
@@ -88,9 +87,9 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "lower-image"
-    - SImg18: "mockup-1"
-    - SImg18: "mockup-2"
+    - SImg15: "lower-image"
+    - SImg15: "mockup-1"
+    - SImg15: "mockup-2"
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
@@ -127,10 +126,10 @@ box-para5: 'Latency to perform an
 
 cat: Service Design
 product_title: Simplifying talent hunt
-product_title1: GOV
+product_title1: OPM
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gov-banner.png"
+banner_image: "/assets/img/caseStudy-service/opm.png"
 url: "ServiceDesign1"
 
 ---
