@@ -47,14 +47,14 @@ meaningpara: "The logo encompasses the idea of packing a code and pushing it for
 meaningImage: "paketomean.svg"
 enigmalogo: "paketobreak.svg"
 
-variations1: "variation1.svg"
-variations2: "variation2.svg"
-variations3: "variation3.svg"
-variations4: "variation4.svg"
-variations5: "variation5.svg"
-variations6: "variation6.svg"
-variations7: "variation7.svg"
-variations8: "variation8.svg"
+variations1: "paketo1.svg"
+variations2: "paketo2.svg"
+variations3: "paketo7.svg"
+variations4: "paketo3.svg"
+variations5: "paketo5.svg"
+variations6: "paketo6.svg"
+variations7: "paketo4.svg"
+variations8: "paketo8.svg"
 
 
 evolveTitle: "Evolve"
@@ -75,31 +75,31 @@ fontfamily5: "Gotham Rounded Light"
 
 fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
 
-icon_list:
-  - icons: 'appicon-1.svg'
-  - icons: 'appicon-2.svg'
-  - icons: 'appicon-3.svg'
+# icons: 'Icons'
+# icon_list:
+#   - icons: 'appicon-1.svg'
+#   - icons: 'appicon-2.svg'
+#   - icons: 'appicon-3.svg'
 
-icon_list1:
-  - icons1: 'groomIcon1.svg'
-  - icons1: 'groomIcon2.svg'
-  - icons1: 'groomIcon3.svg'
-  - icons1: 'groomIcon4.svg'
-  - icons1: 'groomIcon5.svg'
-  - icons1: 'groomIcon6.svg'
+# icon_list1:
+#   - icons1: 'groomIcon1.svg'
+#   - icons1: 'groomIcon2.svg'
+#   - icons1: 'groomIcon3.svg'
+#   - icons1: 'groomIcon4.svg'
+#   - icons1: 'groomIcon5.svg'
+#   - icons1: 'groomIcon6.svg'
 
+enigmaImageListt:
+  - enigmaimg: "paketomock.jpg"
 
-enigmaImage1: "mockup-1.jpg"
-enigmaImage2: "mockup-6.jpg"
-enigmaImage3: "mockup-7.jpg" 
+enigmaImage2: "paketo2.jpg"
+enigmaImage3: "paketo3.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "mockup-4.jpg"
-  - enigmaImage: "mockup-5.jpg"
-  - enigmaImage: "mockup-2.jpg"
-  - enigmaImage: "mockup-3.jpg"
-  - enigmaImage: "mockup-8.jpg"
-  - enigmaImage: "mockup-9.jpg"
+  - enigmaImage: "paketo4.jpg"
+  - enigmaImage: "paketo5.jpg"
+  - enigmaImage: "paketo6.jpg"
+  - enigmaImage: "paketo7.jpg"
 
 
 ---
