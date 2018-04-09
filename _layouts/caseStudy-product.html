@@ -25,7 +25,7 @@
                 <p class="paragraph boxPara">{{page.box-para2}}</p>
             </div>
             <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg1  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ page.UImg3  | downcase }}.png">
                 <div class="csHeading boxHeading">{{page.box-Head3}}</div>
                 <p class="paragraph boxPara">{{page.box-para3}}</p>
             </div>
@@ -183,12 +183,13 @@
                                       
                           </div>
                       </div>
-                      <!-- <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.variation_image3}}');">
-                              <div class="caseStudy__content4">
-                                  <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
-                                          <p  class="paragraph">{{ page.cContent5 }}</p>
-                              </div>
-                          </div> -->
+                      <div class="caseStudy__bgImg2 bg5 csMobile" style="background-image: url('{{page.SImg16}}');">
+                        <div class="caseStudy__content4">
+                            <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                                    <p  class="paragraph color">{{ page.cContent16 }}</p>
+                        </div>
+                    </div>
                       
                           <div class="CSservice__box1 box">
                               <div ><span class="headingBold color">{{page.box-Head7}}</span><span class="csHeading color">{{page.box-Head8}}</span></div></br>
@@ -208,7 +209,7 @@
                             <div class="CSService7">
                                     {% for images in page.img_list %}
                                     
-                                    <img src="/assets/img/caseStudy-service/{{ images.SImg15  | downcase }}.png">
+                                    <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.png">
                                     {% endfor %}
                                 </div>
             {% include common_footer.html %}
