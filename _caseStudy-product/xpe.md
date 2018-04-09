@@ -6,73 +6,73 @@ keywords: Human Recourse Management system, Hiring solution, Talent Management S
 js: "No"
 banner_imag1: "/assets/img/caseStudy/xpe-Banner.jpg"
 banner-Head: "Extreme Performance engg."
-banner-cnt: "Simplified order visibility for BizOps and Sales"
+banner-cnt: "Measuring application performance and engineering insights for production readiness"
 
-box-Head1: "65,000"
-box-para1: "Agents, Support & Sales 
-        teams across the globe 
-        using the system  "
-UImg1: "user"
+box-Head1: "187"
+box-para1: "Applications on-boarded in
+the clients IT eco-system
+for real-time monitoring"
+UImg1: "page-1"
 
-box-Head2: "10 Million"
-box-para2: "Avg. monthly search
-            volumes helping us discover
-            the app experience"
-UImg2: "search"
+box-Head2: "416"
+box-para2: "Man days of saving every
+quarter. Effort reduced by
+~22% for reporting"
+UImg2: "page-2"
 
-box-Head3: "28"
-box-para3: "System integrations
-            defining the adoption
-            in the client ecosystem"
-UImg3: "user"
+box-Head3: "100%"
+box-para3: "Real-time insights
+            provided all-the-time for
+            pro-active monitoring"
+UImg3: "page-3"
 
 cHead1: "Introduction"
-cContent1: "GOV is designed to mitigate high risk and high impact to orders booked by customers through various                channels and ensure high predictability on order delivery and fulfilling rich customer experience."
+cContent1: "India is a diverse country with a profound and rich history. With centuries of invasion and trading with foreign people, India has now become a cultural boiling pot of the sight, sound and people. With the country ushering in the new century by being at the edge of business and technology, the culture aspect is still deep rooted in the people who embrace and celebrate festivals with vigor. "
 
-SImg1: "group-3"
+SImg1: "xpe-data"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
+cContent2: "Engineering teams need reliable insights & metrics to qualify and promote their enterprise applications into production system, enabling the business teams to run their daily operations."
 
-cContent3: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
+cContent3: "Measure performance of business-critical systems, build a collaborative engineering platform for different teams to participate and validate production ready applications."
 
 content_lists:
 
-    - cContent4: '-Establish 2 to 3 click approach for call to action'
-    - cContent4: '-Navigating complex features in a single dashboard'
-    - cContent4: '-Deliver insights to users to perform their actions'
+    - cContent4: '- Unification of a heterogeneous and hyper-complex eco-system'
+    - cContent4: '- Build interactive dashboards to deliver insights & metrics'
+    - cContent4: '- Build actionable intelligence in the dashboard'
+    - cContent4: '- Establish workﬂow orchestration & automation'
+    - cContent4: '- Modularize and establish correlation between different components'
+    - cContent4: '- Multi tool references for log analysis on engineering performance'
 
 cHead3: "Perceive"
-csubHead3: "Getting into the shoes of Bizops "
-cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
-cContent6: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
+csubHead3: "Understanding the problem"
+cContent5: "Working with the IT teams, we understood application development is not the only activity the IT teams involve into. There are multiple supporting activities that need to get into the delivery process for promoting a production ready software."
+cContent6: "Our users were facing challenge in analyzing information from multiple sources, they wanted a single reference for monitoring and measuring the application performance. We were challenged to deliver a simple actionable engineering dashboard to configure, run & validate the application for performance and stability. We had do the following"
 
 content_lists1:
 
-    - cContent7: '- Personas acting on the system (Sales executive, Sales manager, Agents and admin)'
-    - cContent7: '- Entire flow of an order process'
-    - cContent7: '- User experience for multi-search features by categorizing 144 filters to 10 groups.'
-    - cContent7: '- Management of workflows created for order holds'
-    - cContent7: '- Micro views of order delay stages'
-    - cContent7: '- Simplified solution for workforce orchestration'
+    - cContent7: '- Identify personas acting on the system'
+    - cContent7: '- Understand standard operating procedures on engineering activities '
+    - cContent7: '- Understand multi system dependencies and integration pain-points'
+    - cContent7: '- Understand key metrics & visualization aspects for user friendliness'
 
 
 
-box-Head4: '60'
-box-Head5: ' Seconds'
-box-para4: 'Latency to perform an 
-            action on Hold'
+box-Head4: '187'
+box-Head5: 'apps'
+box-para4: 'to be on-boarded in the clients IT eco-system for real-time monitoring'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
+cContent8: "Our discovery phase helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
 
-SImg3: "gov-user-flow"
+SImg3: "LB-xpe-output"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "people"
+SImg5: "xpe-data-02"
 
 SImg6: "bitmap1"
 SImg7: "group-5"
@@ -87,18 +87,18 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg15: "lower-image"
-    - SImg15: "mockup-1"
-    - SImg15: "mockup-2"
+    - SImg18: "lower-image"
+    - SImg18: "mockup-1"
+    - SImg18: "mockup-2"
 
 cHead5: "Adapt "
-csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
+csubHead4: "Enabling the perf. engineers to do more"
+cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams, we were able nail down the following scope and objectives"
 csubHead5: "Output"
-cContent10: "All the parties involved had the same expectation on the outcome of the work."
+cContent10: "A workflow a driven engineering platform with insightful dashboard for measuring the application performance and stability."
 
 
-cHead6: "1.  Compact & efficient search functionality"
+cHead6: "1.  Integration Workbench"
 cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
 
 cHead7: "2. Short story of an entire order flow "

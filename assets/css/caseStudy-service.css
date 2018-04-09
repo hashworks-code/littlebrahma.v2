@@ -1523,7 +1523,7 @@ html, body {
   top: 40%;
   width: 258px;
   background: #22a98b;
-  padding: 72px 35px; }
+  padding: 72px 35px 30px; }
 
 .CSService2 {
   margin: 0 256px 40px 165px; }
@@ -1541,7 +1541,8 @@ html, body {
   padding-left: 150px; }
 
 .caseStudy .SceneImg img {
-  width: 48%; }
+  width: 48%;
+  height: 71%; }
 
 .CSService4 {
   margin: 120px 260px 0 260px; }
@@ -1757,8 +1758,10 @@ html, body {
   .bg5 {
     min-height: 297px !important; }
   .box {
-    top: 27% !important;
     width: 160px !important;
+    margin-left: -82px;
+    left: 50%;
+    top: 87% !important;
     padding: 40px 15px 23px !important; }
   .divA {
     -webkit-box-ordinal-group: 3;

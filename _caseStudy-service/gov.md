@@ -58,6 +58,7 @@ content_lists1:
     - cContent7: '- Management of workflows created for order holds'
     - cContent7: '- Micro views of order delay stages'
     - cContent7: '- Simplified solution for workforce orchestration'
+    - cContent7: '- Real-time insights required by the stakeholders'
 
 
 
@@ -87,9 +88,9 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg15: "lower-image"
-    - SImg15: "mockup-1"
-    - SImg15: "mockup-2"
+    - SImg18: "lower-image"
+    - SImg18: "mockup-1"
+    - SImg18: "mockup-2"
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
