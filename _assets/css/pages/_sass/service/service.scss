@@ -427,7 +427,7 @@ ul.lb_work_filter.lb_service_lg{
                 height: 215px !important;
                 object-fit: contain;
                 background-color: #ffffff;
-                box-shadow: 0 6px 17px 0 rgba(0, 0, 0, 0.2);
+                box-shadow: 2px -1px 17px 0 rgba(0, 0, 0, 0.2);
                 margin: 102px 30px;
                 display: flex;
                 flex-direction: column;
@@ -508,7 +508,7 @@ ul.lb_work_filter.lb_service_lg{
                 text-align: left;
             }
             &__card2 {
-                width: 494px;
+                width:64%;
                 height: 272px;
                 display: flex;
                 flex-direction: column;
@@ -526,15 +526,15 @@ ul.lb_work_filter.lb_service_lg{
                 }
             }
             .slick-prev {
-                top: 41% !important;
-                left: 426px !important;
+                top: 74% !important;
+                left: 447px !important;
             }
             .slick-next {
-                top: 41% !important;
-                right: -150px !important;
+                top: 74% !important;
+                right: -176px !important;
             }
             .slick-initialized .slick-slide {
-                width: 160px !important;
+                width: 157px !important;
              }
              .slick-slider .slick-track{
                  width: 2000px  !important;
@@ -543,6 +543,8 @@ ul.lb_work_filter.lb_service_lg{
         .carousel__card.responsive.slick-initialized.slick-slider
         {
             top:24px;
+            left: 59px;
+            height: 247px;
         }
     }
     
@@ -573,7 +575,7 @@ ul.lb_work_filter.lb_service_lg{
                 text-align: left;
             }
             &__card2 {
-                width: 662px;
+                width: 64%;
                 height: 405px;
                 justify-content: flex-start;
                 padding: 85px 0px 0px 210px;
@@ -602,7 +604,8 @@ ul.lb_work_filter.lb_service_lg{
                width: 220px !important;
             }
             .slick-slider .slick-track{
-                width: 2000px  !important;
+                width: 4000px  !important;
+                display: flex;
             }
         }
         .carousel__card.responsive.slick-initialized.slick-slider
@@ -635,7 +638,7 @@ ul.lb_work_filter.lb_service_lg{
                }
             }
             &__card2 {
-                width: 895px;
+                width: 65%;
                 height: 484px;
                 padding: 120px 0px 0px 270px;
                 h1 {
@@ -652,17 +655,17 @@ ul.lb_work_filter.lb_service_lg{
             }
             .slick-prev {
                 top: 284px !important;
-                left: 733px !important;
+                left:697px !important;
             }
             .slick-next {
                 top: 284px !important;
-                right: -260px !important;
+                right: -235px !important;
             }
             .slick-initialized .slick-slide {
                width: 255px !important;
             }
             .slick-slider .slick-track{
-                width: 4000px  !important;
+                width: 5000px  !important;
             }
         }
         .carousel__card.responsive.slick-initialized.slick-slider
