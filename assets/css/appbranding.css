@@ -206,6 +206,7 @@ table {
   .rajdhaniBold {
     font-family: 'RajdhaniBold';
     font-size: 24px;
+    font-weight: 800;
     line-height: normal;
     letter-spacing: 0.7px;
     color: #000000; }
@@ -427,14 +428,16 @@ html, body {
   width: 100%;
   z-index: 3;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 99999; }
 
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
     background: white;
     -webkit-box-shadow: none;
-            box-shadow: none; } }
+            box-shadow: none;
+    z-index: 99999; } }
 
 @media only screen and (min-width: 1170px) {
   .cd-header {
@@ -1019,7 +1022,7 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   position: relative;
   background-image: url("/assets/img/common/footer.jpg");
@@ -1040,13 +1043,13 @@ html, body {
     position: absolute;
     bottom: 40px;
     width: 100%;
-    padding: 0 0 0 5%; }
+    text-align: center; }
     .footer__bottom div {
       width: 30%;
       display: inline-block;
       font-family: 'MavenPro-Bold';
       font-size: 16px;
-      color: #7d8d92; }
+      color: #ffffff; }
     .footer__bottom__div {
       text-align: left; }
     .footer__bottom__div1 {
@@ -1128,10 +1131,21 @@ html, body {
   position: relative;
   margin: 0 auto;
   text-align: center;
-  top: 365px;
+  top: 52vh;
   z-index: 999; }
   .blob1 button {
     margin: 16px 0px 0px; }
+
+.imageAlignment, .enigmaCup {
+  margin: 10px 5px; }
+
+.imagemargin, .topimage {
+  padding: 10px 0px; }
+
+.back {
+  background-image: url(/assets/img/branding/hashworks/group-15.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
 .challange {
   width: 260px;
@@ -1198,12 +1212,15 @@ html, body {
 
 .branding__concept1 {
   padding: 0px 58px; }
+  .branding__concept1 .row {
+    width: 80%;
+    margin: 0 auto; }
 
 .branding__concept {
   width: 260px;
-  margin: 20px auto; }
+  margin: 20px auto 32px; }
   .branding__concept h1 {
-    padding: 24px 0px 19px;
+    padding: 0px 0px 19px;
     color: #5d6a6f; }
   .branding__concept p {
     color: #5d6a6f; }
@@ -1221,9 +1238,9 @@ html, body {
   padding: 0px 21px; }
 
 .branding__enigmalist {
-  padding: 50px 34px; }
+  padding: 50px 34px 24px; }
   .branding__enigmalist img {
-    margin-top: 30px; }
+    padding-top: 30px; }
 
 .branding__evolve {
   height: 316px;
@@ -1246,7 +1263,7 @@ html, body {
   margin: 0 auto; }
   .branding__fontfamily p {
     font-family: 'PtSansRegular';
-    padding: 24px 0px 40px; }
+    padding: 15px 0px 40px; }
   .branding__fontfamily h1 {
     padding: 30px 0px 16px; }
   .branding__fontfamily h2 {
@@ -1260,13 +1277,18 @@ html, body {
   .branding__icons .textalign {
     text-align: center; }
 
-.branding .imagemargin {
-  padding-top: 20px; }
-
 @media screen and (min-width: 767px) {
+  .back {
+    background-image: url(/assets/img/branding/hashworks/pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+  .imageAlignment, .enigmaCup {
+    margin: 15px 35px; }
+  .imagemargin, .topimage {
+    padding: 15px 0px; }
   .blob1 {
     width: 700px;
-    top: 370px; }
+    top: 54vh; }
     .blob1 button {
       margin: 16px 0px 0px; }
   .challange {
@@ -1356,13 +1378,14 @@ html, body {
     .branding__meaning p {
       padding: 14px 0px 0px; }
     .branding__meaning img {
-      height: 140px; }
+      height: 180px; }
   .branding__enigmalogo img {
     padding: 0px 34px; }
   .branding__enigmalist {
     padding: 50px 34px; }
     .branding__enigmalist img {
-      margin-top: 30px; }
+      margin-top: 30px;
+      height: 120px; }
   .branding__evolve {
     background-position: unset;
     background-size: contain;
@@ -1418,9 +1441,13 @@ html, body {
 @media screen and (min-width: 1025px) {
   .blob1 {
     width: 700px;
-    top: 380px; }
+    top: 55vh; }
     .blob1 button {
       margin: 25px 0px 0px; }
+  .imageAlignment, .enigmaCup {
+    margin: 18px 39px; }
+  .imagemargin, .topimage {
+    padding: 18px 0px; }
   .challange {
     width: 700px; }
   .engima {
@@ -1478,7 +1505,7 @@ html, body {
     .branding__meaning p {
       padding: 24px 0px 0px; }
     .branding__meaning img {
-      height: 140px; }
+      height: 220px; }
   .branding__enigmalist {
     padding: 70px 44px 96px; }
     .branding__enigmalist img {
@@ -1486,11 +1513,12 @@ html, body {
       width: 207px; }
   .branding__evolve {
     margin-right: 44px;
-    height: 425px; }
+    height: 355px;
+    padding: 0px; }
     .branding__evolve__align {
       width: 540px;
       margin: 0 0px 0px 42px;
-      height: 425px; }
+      height: 355px; }
     .branding__evolve h2 {
       padding: 40px 0px 36px; }
   .branding__fontfamily {
@@ -1506,9 +1534,13 @@ html, body {
 @media screen and (min-width: 1367px) {
   .blob1 {
     width: 700px;
-    top: 390px; }
+    top: 56vh; }
     .blob1 button {
       margin: 33px 0px 0px; }
+  .imageAlignment, .enigmaCup {
+    margin: 15px 150px; }
+  .imagemargin, .topimage {
+    padding: 15px 0px; }
   .challange {
     width: 1000px; }
   .engima {
@@ -1567,7 +1599,7 @@ html, body {
     .branding__meaning p {
       padding: 38px 0px 0px; }
     .branding__meaning img {
-      height: 190px; }
+      height: 300px; }
   .branding__enigmalogo img {
     padding: 0px 140px; }
   .branding__enigmalist {
@@ -1577,11 +1609,11 @@ html, body {
       width: 207px; }
   .branding__evolve {
     margin-right: 135px;
-    height: 572px; }
+    height: 458px; }
     .branding__evolve__align {
       width: 872px;
       padding: 0 0px 0px 163px;
-      height: 572px; }
+      height: 458px; }
   .branding__fontfamily {
     padding: 0px 155px; }
   .branding__icons {
@@ -1590,8 +1622,4 @@ html, body {
       width: 716px;
       padding-bottom: 101px; }
     .branding__icons img {
-      width: 130px; }
-  .imageAlignment img {
-    padding: 20px 135px; }
-  .enigmaCup .row {
-    padding: 20px 135px; } }
+      width: 130px; } }

@@ -5,8 +5,8 @@ keywords: >-
   Services, Design
 layout: service
 img: /assets/img/homepage/service-design.png
-desc1: We adapt people first approach to collaborate and grow your ideas into human centered products or services.
-desc2: Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple.
+desc1: Gain a clear visualization of how your users experience their journey on your application and platform  – along with critical points and insights along the way. 
+desc2: Through design, with the help of behaviour journey maps and omni channel prototypes, we help you understand your customers better. Fail fast, go through an iterative process and enhance design and experience on every touch point for your next big idea. 
 practice_lists:
   - title: Services
     description: >-
@@ -25,16 +25,16 @@ flowImage1: '/assets/img/service/page-1 (11).svg'
 flowactiveImage1: '/assets/img/service/service.svg'
 flowContent1: Process/ Persona mapping
 flowImage2: '/assets/img/service/page-1 (12).svg'
-flowactiveImage2: '/assets/img/service/service.svg'
+flowactiveImage2: '/assets/img/service/line.svg'
 flowContent2: UX Review
 flowImage3: '/assets/img/service/page-1 (1).svg'
-flowactiveImage3: '/assets/img/service/service.svg'
+flowactiveImage3: '/assets/img/service/arrowservice.svg'
 flowContent3: Redesign
 flowImage4: '/assets/img/service/page-1 (5).svg'
-flowactiveImage4: '/assets/img/service/service.svg'
+flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User testing
 newproductImage1: '/assets/img/service/page-1 (16).svg'
-newproductActiveImage1: '/assets/img/service/service.svg'
+newproductActiveImage1: '/assets/img/service/test1.svg'
 newproductContent1: User research
 newproductImage2: '/assets/img/service/page-1 (17).svg'
 newproductActiveImage2: '/assets/img/service/service.svg'
@@ -43,7 +43,7 @@ newproductImage3: '/assets/img/service/page-1 (18).svg'
 newproductActiveImage3: '/assets/img/service/service.svg'
 newproductContent3: Release planning
 newproductImage4: '/assets/img/service/page-1 (1).svg'
-newproductActiveImage4: '/assets/img/service/service.svg'
+newproductActiveImage4: '/assets/img/service/arrowservice.svg'
 newproductContent4: Prototype & design
 url: "ServiceDesign"
 ---

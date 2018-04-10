@@ -5,8 +5,8 @@ keywords: >-
   Branding, Design, Communication
 layout: service
 img: /assets/img/homepage/brndg-comm.png
-desc1: "We take ownership to communicate your most precious asset: your brand. We co create an identity for your brand to define your position in the market."
-desc2: We help establish credibility and potentiality of your brand in the marketplace by applying our design native principles.
+desc1: Start by giving a voice to your business. Define what you stand for and share with the outside world your thoughts by making an identity of yourself.
+desc2: We help you to build relationships and connect with the human world through our strong storytelling and visual branding expertise. We deep-dive into your organizational cultural and use our creativity to build a strong brand value for you.
 practice_lists:
   - title: Services
     description: >-
@@ -22,7 +22,7 @@ practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
-flowactiveImage1: '/assets/img/service/service.svg'
+flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: Cust. interview
 flowImage2: '/assets/img/service/page-1 (6).svg'
 flowactiveImage2: '/assets/img/service/service.svg'
