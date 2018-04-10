@@ -5,8 +5,8 @@ keywords: >-
   Product, Design
 layout: service
 img: /assets/img/homepage/product-design.png
-desc1: Our design native principles &amp; techniques blend with agile &amp; lean development models to deliver avant-grade products and experience.
-desc2: We centre people interaction on data, insights &amp; visualization for large scale user adoption.
+desc1: Build the relationship between technology and its user. Define the problem statement which impact the masses and brainstorm ideas to find a solution. 
+desc2: We focus on goal-oriented design empathizing for the end users. We help you to design a simplified solution with a minimalist approach to provide a seamless customer experience and greater adoption.
 practice_lists:
   - title: Services
     description: >-
