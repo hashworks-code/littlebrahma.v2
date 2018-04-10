@@ -65,8 +65,9 @@
                     <div class="caseStudy__content4">
                         <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
                         <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                                <p  class="paragraph color">{{ page.cContent5 }}</p></br></br>
-                                <p  class="paragraph color">{{ page.cContent6 }}</p></br></br>
+                        {% for para in page.perceive_para %}
+                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
+                            {% endfor %}
                                 {% for service in page.content_lists1 %}
                                 <p class="paragraph color">{{ service.cContent7}}</p>
                                 {% endfor %}
