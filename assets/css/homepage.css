@@ -1022,7 +1022,7 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   position: relative;
   background-image: url("/assets/img/common/footer.jpg");
@@ -1043,7 +1043,7 @@ html, body {
     position: absolute;
     bottom: 40px;
     width: 100%;
-    padding: 0 0 0 5%; }
+    text-align: center; }
     .footer__bottom div {
       width: 30%;
       display: inline-block;
