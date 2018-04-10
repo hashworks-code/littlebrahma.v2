@@ -14,21 +14,13 @@
             </div>
       </div>
       <div class="CSservice">
+            {% for box in page.box_lists %}
             <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg1  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head1}}</div>
-                <p class="paragraph boxPara">{{page.box-para1}}</p>
+                <img src="/assets/img/caseStudy-service/{{ box.UImg1  | downcase }}.png">
+                <div class="csHeading boxHeading">{{box.box-Head1}}</div>
+                <p class="paragraph boxPara">{{box.box-para1}}</p>
             </div>
-            <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg2  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head2}}</div>
-                <p class="paragraph boxPara">{{page.box-para2}}</p>
-            </div>
-            <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg3  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head3}}</div>
-                <p class="paragraph boxPara">{{page.box-para3}}</p>
-            </div>
+            {% endfor %}
       </div>
       <div class="caseStudy">
       <div class="caseStudy__content1">
@@ -46,8 +38,9 @@
           <div class="caseStudy__cHead csHeading">
                   {{ page.cHead2 }}
           </div>
-          <p class="paragraph">{{ page.cContent2}}</p></br></br>
-          <p class="paragraph">{{ page.cContent3}}</p></br></br>
+          {% for cont in page.content_para %}
+          <p class="paragraph">{{ cont.cContent2}}</p></br></br>
+          {% endfor %}
 
           {% for service in page.content_lists %}
           <p class="paragraph">{{ service.cContent4}}</p>
@@ -60,8 +53,9 @@
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
                     <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                            <p  class="paragraph color">{{ page.cContent5 }}</p></br></br>
-                            <p  class="paragraph color">{{ page.cContent6 }}</p></br></br>
+                    {% for para in page.perceive_para %}
+                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
+                            {% endfor %}
                             {% for service in page.content_lists1 %}
                             <p class="paragraph color">{{ service.cContent7}}</p>
                             {% endfor %}
