@@ -5,8 +5,8 @@ keywords: >-
   Services, Design
 layout: service
 img: /assets/img/homepage/service-design.png
-desc1: We adapt people first approach to collaborate and grow your ideas into human centered products or services.
-desc2: Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple.
+desc1: Gain a clear visualization of how your users experience their journey on your application and platform  – along with critical points and insights along the way. 
+desc2: Through design, with the help of behaviour journey maps and omni channel prototypes, we help you understand your customers better. Fail fast, go through an iterative process and enhance design and experience on every touch point for your next big idea. 
 practice_lists:
   - title: Services
     description: >-

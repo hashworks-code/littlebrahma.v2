@@ -20,6 +20,7 @@
     display: table;
     width: 100%;
     position: relative;
+    top:50px;
 }
 .stepwizard-step button[disabled] {
     /*opacity: 1 !important;
@@ -218,6 +219,16 @@ ul.lb_work_filter.lb_service_lg{
             top: -9px;
             left: -6px;
         }
+        .stepperp {
+            top: -25px;
+            color: #666;
+            position: relative;
+            left: 42px;
+            margin-top: 0px !important;
+        }
+        .stepwizard-row .popover{
+            width: 175px;
+        }
     }
     @media screen and (min-width: 768px){
         .lb-explore{
@@ -252,7 +263,7 @@ ul.lb_work_filter.lb_service_lg{
             text-align: center;
             position: relative;
             margin-top: 100px;
-            margin-bottom: 80px;
+            margin-bottom: 100px;
             padding: 0px;
         }
         .stepper-images{
@@ -264,6 +275,15 @@ ul.lb_work_filter.lb_service_lg{
             margin-top:7px;
             top: 0px;
             left: 0px;
+        }
+        .stepperp {
+            top: 32px;
+            color: #666;
+            position: relative;
+            left: 0px;
+        }
+        .stepwizard-row .popover{
+            width: 196px;
         }
     }
 
@@ -305,7 +325,7 @@ ul.lb_work_filter.lb_service_lg{
         text-align: center;
         position: relative;
         margin-top: 100px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
         padding: 0px;
     }
     .stepper-images{
@@ -317,6 +337,15 @@ ul.lb_work_filter.lb_service_lg{
         margin-top:7px;
         top: 0px;
         left: 0px;
+    }
+    .stepperp {
+        top: 32px;
+        color: #666;
+        position: relative;
+        left: 0px;
+    }
+    .stepwizard-row .popover{
+        width: 196px;
     }
     }
     @media screen and (min-width: 1367px){
@@ -355,7 +384,7 @@ ul.lb_work_filter.lb_service_lg{
             text-align: center;
             position: relative;
             margin-top: 100px;
-            margin-bottom: 80px;
+            margin-bottom: 100px;
             padding: 0px;
         }
         .stepper-images{
@@ -367,6 +396,15 @@ ul.lb_work_filter.lb_service_lg{
             margin-top:7px;
             top: 0px;
             left: 0px;
+        }
+        .stepperp {
+            top: 32px;
+            color: #666;
+            position: relative;
+            left: 0px;
+        }
+        .stepwizard-row .popover{
+            width: 315px;
         }
         }
 
@@ -642,12 +680,23 @@ ul.lb_work_filter.lb_service_lg{
     }
 
     .stepwizard-row .popover.bottom{
-        margin-top: 20px;
+        margin-top: 32px;
     }
-
+    .stepwizard-row .popover.right{
+        margin-left: 32px;
+    }
+    .stepwizard-row  .popover{
+        background-clip: padding-box;
+        /* border: 1px solid #ccc; */
+         border: none;
+        border-radius: 12px;
+        -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.4);
+        // width: 200px;
+    }
     button.btn-circle.service-btn.intro{
         background-color: #fff !important;
-        border: 2px solid #ea1c49 !important;
+        border: 4px solid #ea1c49 !important;
         width: 20px !important;
         height: 20px !important;
         margin-top: 7px !important;
