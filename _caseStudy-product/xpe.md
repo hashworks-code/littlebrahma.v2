@@ -8,23 +8,26 @@ banner_imag1: "/assets/img/caseStudy/xpe-Banner.jpg"
 banner-Head: "Extreme Performance engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
 
-box-Head1: "187"
-box-para1: "Applications on-boarded in
-the clients IT eco-system
-for real-time monitoring"
-UImg1: "page-1"
 
-box-Head2: "416"
-box-para2: "Man days of saving every
-quarter. Effort reduced by
-~22% for reporting"
-UImg2: "page-2"
+box_lists:
 
-box-Head3: "100%"
-box-para3: "Real-time insights
-            provided all-the-time for
-            pro-active monitoring"
-UImg3: "page-3"
+   - box-Head1: "187"
+     box-para1: "Applications on-boarded in
+     the clients IT eco-system
+     for real-time monitoring"
+     UImg1: "page-1"
+
+   - box-Head1: "416"
+     box-para1: "Man days of saving every
+     quarter. Effort reduced by
+     ~22% for reporting"
+     UImg1: "page-2"
+
+   - box-Head1: "100%"
+     box-para1: "Real-time insights
+                provided all-the-time for
+                pro-active monitoring"
+     UImg1: "page-3"
 
 cHead1: "Introduction"
 cContent1: "India is a diverse country with a profound and rich history. With centuries of invasion and trading with foreign people, India has now become a cultural boiling pot of the sight, sound and people. With the country ushering in the new century by being at the edge of business and technology, the culture aspect is still deep rooted in the people who embrace and celebrate festivals with vigor. "
@@ -35,9 +38,11 @@ SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-cContent2: "Engineering teams need reliable insights & metrics to qualify and promote their enterprise applications into production system, enabling the business teams to run their daily operations."
+content_para:
 
-cContent3: "Measure performance of business-critical systems, build a collaborative engineering platform for different teams to participate and validate production ready applications."
+    - cContent2: "Engineering teams need reliable insights & metrics to qualify and promote their enterprise applications into production system, enabling the business teams to run their daily operations."
+
+    - cContent2: "Measure performance of business-critical systems, build a collaborative engineering platform for different teams to participate and validate production ready applications."
 
 content_lists:
 
@@ -50,8 +55,12 @@ content_lists:
 
 cHead3: "Perceive"
 csubHead3: "Understanding the problem"
-cContent5: "Working with the IT teams, we understood application development is not the only activity the IT teams involve into. There are multiple supporting activities that need to get into the delivery process for promoting a production ready software."
-cContent6: "Our users were facing challenge in analyzing information from multiple sources, they wanted a single reference for monitoring and measuring the application performance. We were challenged to deliver a simple actionable engineering dashboard to configure, run & validate the application for performance and stability. We had do the following"
+ 
+perceive_para:
+
+    - cContent5: "Working with the IT teams, we understood application development is not the only activity the IT teams involve into. There are multiple supporting activities that need to get into the delivery process for promoting a production ready software."
+
+    - cContent5: "Our users were facing challenge in analyzing information from multiple sources, they wanted a single reference for monitoring and measuring the application performance. We were challenged to deliver a simple actionable engineering dashboard to configure, run & validate the application for performance and stability. We had do the following"
 
 content_lists1:
 
@@ -74,22 +83,22 @@ SImg3: "LB-xpe-output"
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "xpe-data-02"
 
-SImg6: "bitmap1"
-SImg7: "group-5"
-SImg8: "bitmap2"
-SImg9: "bitmap3"
-SImg10: "wireframw-001"
+SImg6: "xpe-graph"
+SImg7: "xpe-catalog"
+SImg8: "xpe-perf"
+SImg9: "xpe-dashboard"
+SImg10: "xpe-admin"
 SImg11: "style-guid"
-SImg12: "1-gov"
-SImg13: "group-6"
+SImg12: "xpe-first-screen"
+SImg13: "xpe-group"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "lower-image"
-    - SImg18: "mockup-1"
-    - SImg18: "mockup-2"
+    - SImg18: "xps-screen-collage"
+    - SImg18: "xpe-mockup-1"
+    - SImg18: "xpe-mockup-2"
 
 cHead5: "Adapt "
 csubHead4: "Enabling the perf. engineers to do more"
@@ -99,29 +108,28 @@ cContent10: "A workflow a driven engineering platform with insightful dashboard 
 
 
 cHead6: "1.  Integration Workbench"
-cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
+cContent11: "Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard."
 
-cHead7: "2. Short story of an entire order flow "
-cContent12: "Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow."
+cHead7: "2.  “Workload model catalogue” for production systems"
+cContent12: "Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard."
 
-cHead8: "3.  Information abstracted in schematic form"
-cContent13: "Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales."
+cHead8: "3.  Workbench for perf engineers"
+cContent13: "Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM."
 
-cHead9: "4.  Smart sorting of data"
-cContent14: "Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec."
+cHead9: "4.  Delivery dashboard to status perf execution & test results"
+cContent14: "Delivery dashboard to status perf execution & test results for project teams & executives."
 
 
-cHead10: "5.  Design"
-cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+cHead10: "5.  Admin console & configuration screens"
+cContent15: "Admin console & configuration screens for management."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
+cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams needed."
 
-box-Head7: '25'
-box-Head8: ' Seconds'
-box-para5: 'Latency to perform an 
-            action on Hold'
+box-Head7: '100%'
+box-Head8: ''
+box-para5: 'Real-time insights for pro-active'
 
 
 cat: Service Design

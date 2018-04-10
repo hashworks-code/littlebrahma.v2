@@ -22,7 +22,7 @@ practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
-flowactiveImage1: '/assets/img/service/service.svg'
+flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: Cust. interview
 flowImage2: '/assets/img/service/page-1 (6).svg'
 flowactiveImage2: '/assets/img/service/service.svg'

@@ -1022,7 +1022,7 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   position: relative;
   background-image: url("/assets/img/common/footer.jpg");
@@ -1043,7 +1043,7 @@ html, body {
     position: absolute;
     bottom: 40px;
     width: 100%;
-    padding: 0 0 0 5%; }
+    text-align: center; }
     .footer__bottom div {
       width: 30%;
       display: inline-block;
@@ -1489,6 +1489,9 @@ html, body {
     margin: 17px;
     text-align: right;
     padding: 10px 15px 20px; }
+    .CSservice__box img {
+      width: 35px;
+      height: 35px; }
   .CSservice .boxHeading {
     text-align: left;
     padding: 33px 0 5px;
@@ -1537,15 +1540,17 @@ html, body {
     width: 100%; }
 
 .caseStudy__bgImg {
-  padding: 20px 0; }
+  padding: 20px 0;
+  width: 75%; }
 
 .caseStudy__content2 {
   width: 81%;
   padding-left: 150px; }
 
 .caseStudy .SceneImg img {
-  width: 48%;
-  height: 71%; }
+  width: 30%;
+  height: 65%;
+  top: 15%; }
 
 .CSService4 {
   margin: 120px 260px 0 260px; }
