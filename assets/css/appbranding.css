@@ -1143,7 +1143,6 @@ html, body {
   padding: 10px 0px; }
 
 .back {
-  background-image: url(/assets/img/branding/hashworks/group-15.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 
@@ -1232,7 +1231,8 @@ html, body {
   width: 260px;
   margin: 0px auto 71px; }
   .branding__meaning p {
-    padding: 12px 0px 59px; }
+    padding: 12px 0px 59px;
+    color: #5d6a6f; }
 
 .branding__enigmalogo img {
   padding: 0px 21px; }
@@ -1277,11 +1277,17 @@ html, body {
   .branding__icons .textalign {
     text-align: center; }
 
+.mobileClass {
+  display: block; }
+
+.tabClass {
+  display: none; }
+
 @media screen and (min-width: 767px) {
-  .back {
-    background-image: url(/assets/img/branding/hashworks/pattern.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%; }
+  .mobileClass {
+    display: none; }
+  .tabClass {
+    display: block; }
   .imageAlignment, .enigmaCup {
     margin: 15px 35px; }
   .imagemargin, .topimage {
@@ -1299,7 +1305,7 @@ html, body {
     .engima .csHeading {
       padding-bottom: 20px; }
   .engima1 {
-    margin: 50px 0px 65px !important; }
+    margin: 46px 0px 64px !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
@@ -1338,7 +1344,7 @@ html, body {
       right: -141px;
       top: 87px; }
   .branding__adapt {
-    height: 325px;
+    height: 270px;
     margin-top: 64px;
     background-position: unset;
     background-size: contain;
@@ -1357,35 +1363,53 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 325px; }
+      height: 270px; }
     .branding__adapt h2 {
       padding: 16px 0px 12px; }
     .branding__adapt h1 {
       padding: 0px; }
   .branding__concept1 {
     padding: 0px 35px; }
+    .branding__concept1 .row {
+      width: 92%; }
+  .branding .back {
+    background-repeat: no-repeat;
+    background-size: 98% 94%; }
   .branding__concept {
-    width: 700px;
-    margin: 0px 0px 22px 15px; }
+    width: 607px;
+    margin: 0px 0px 30px 15px; }
     .branding__concept h1 {
       padding: 64px 0px 17px; }
   .branding__logo {
-    padding: 20px 50px 0px; }
+    padding: 60px 50px 60px; }
   .branding__meaning {
     width: 100%;
     margin: 0;
     padding: 0 34px 72px 34px; }
     .branding__meaning p {
-      padding: 14px 0px 0px; }
+      padding: 14px 0px 0px;
+      font-size: 12px; }
     .branding__meaning img {
-      height: 180px; }
+      height: 140px; }
+  .branding__enigmalogo {
+    width: 80%;
+    margin: 0 auto; }
+  .branding .enigmabackground {
+    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
   .branding__enigmalogo img {
     padding: 0px 34px; }
   .branding__enigmalist {
-    padding: 50px 34px; }
+    padding: 60px 34px; }
     .branding__enigmalist img {
-      margin-top: 30px;
-      height: 120px; }
+      height: 95px;
+      width: 130px;
+      padding: 0px; }
+    .branding__enigmalist h2 {
+      padding-bottom: 20px; }
+  .branding .colorPalette {
+    padding-bottom: 50px; }
   .branding__evolve {
     background-position: unset;
     background-size: contain;
@@ -1428,10 +1452,10 @@ html, body {
     .branding__fontfamily h2 {
       padding: 20px 0px 0px 0px; }
   .branding__icons {
-    padding: 70px 35px 70px; }
+    padding: 70px 35px 40px; }
     .branding__icons .threeIcon {
       width: 465px;
-      padding-bottom: 45px; }
+      padding-bottom: 20px; }
     .branding__icons img {
       padding-top: 30px;
       width: 70px; }
@@ -1452,7 +1476,7 @@ html, body {
     width: 700px; }
   .engima {
     padding: 0px 0px 0px 57px;
-    margin: 0px 0px 65px; }
+    margin: 0px 0px 99px; }
     .engima .csHeading {
       padding-bottom: 16px; }
   .engima1 {
@@ -1495,11 +1519,11 @@ html, body {
     padding: 0px 44px; }
   .branding__concept {
     width: 700px;
-    margin: 0px 0px 50px 15px; }
+    margin: 0px 0px 80px 15px; }
     .branding__concept h1 {
       padding: 96px 0px 24px; }
   .branding__logo {
-    padding: 20px 65px 0px; }
+    padding: 60px 65px 60px; }
   .branding__meaning {
     padding: 0 42px 72px 42px; }
     .branding__meaning p {
@@ -1575,21 +1599,27 @@ html, body {
       right: -270px;
       top: 101px; }
   .branding__adapt {
-    height: 463px;
+    height: 446px;
     margin-top: 120px;
     margin-right: 135px; }
     .branding__adapt__align {
       width: 872px;
       padding: 0 0px 0px 163px;
-      height: 463px; }
+      height: 446px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
     .branding__adapt h1 {
       font-size: 48px; }
   .branding__concept1 {
-    padding: 0px 145px; }
+    padding: 0px 30px; }
+    .branding__concept1 .row {
+      width: 86%; }
+  .branding .back {
+    background-size: 100% 100%; }
   .branding__concept {
-    width: 745px; }
+    width: 800px;
+    padding: 0px 0px 50px 118px;
+    margin: 0; }
     .branding__concept h1 {
       padding: 120px 0px 32px; }
   .branding__logo {
@@ -1607,6 +1637,8 @@ html, body {
     .branding__enigmalist img {
       height: 118px;
       width: 207px; }
+  .branding .colorPalette {
+    padding-bottom: 65px; }
   .branding__evolve {
     margin-right: 135px;
     height: 458px; }

@@ -74,7 +74,13 @@
                         <h1 class="headingLight">{{page.conceptTitle}}</h1>
                         <p class="paragraph">{{page.conceptparagraph}}</p> 
                 </div>
-                <div class="back">
+                {% for images in page.background %}
+                  {% if images.imageType == "mobile" %}
+                    <div class="back mobileClass" style="background-image: url('{{images.image}}');">
+                  {% elsif images.imageType == "tab" %}
+                    <div class="back tabClass" style="background-image: url('{{images.image}}');">
+                  {% endif %}
+                <!-- <div class="back" style="background-image: url('{{page.background.image}}');"> -->
                         <div class="row ">
                             <div class="col-xs-12 col-sm-3">
                                     <img src="/assets/img/branding/{{page.conceptImage1}}" alt="concept">
@@ -90,6 +96,7 @@
                             </div>
                          </div>
                         </div>
+                      {% endfor %}
             </div>
 
             <div class="branding__logo">
@@ -105,10 +112,11 @@
                     <img src="/assets/img/branding/{{page.meaningImage}}" alt="">
                 </div>
             </div>
-
+      <div class="enigmabackground">
             <div class="branding__enigmalogo">
                 <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
             </div>
+     </div>
 
    <div class="branding__enigmalist">
         <h2 class="csHeading">Variations</h2>
@@ -149,8 +157,8 @@
          </div>
 
 
-   <div class="branding__enigmalist">
-    <h2 class="csHeading">{{page.colorPalette}}</h2>
+   <div class="branding__enigmalist ">
+    <h2 class="csHeading colorPalette ">{{page.colorPalette}}</h2>
         <div class="row ">
             <div class="col-xs-6 col-sm-3">
                 <img src="/assets/img/branding/{{page.colorPaletteImage1}}" alt="">
