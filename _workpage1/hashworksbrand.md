@@ -89,7 +89,9 @@ fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. D
 #   - icons1: 'groomIcon6.svg'
 
 enigmaImageListt:
+  - enigmaimg: "hashworks-logo.png"
   - enigmaimg: "hashbee1.jpg"
+  
 
 enigmaImage2: "hashbee2.jpg"
 enigmaImage3: "hashbee3.jpg" 

@@ -8,16 +8,19 @@
         position: relative;
         margin: 0 auto;
         text-align: center;
-        top: 365px;
+        top:52vh;
         z-index: 999;
         button{
             margin: 16px 0px 0px;
         }
     }
-    // canvas{
-    //     position: relative;
-    // top: -194px;
-    // }
+.imageAlignment,.enigmaCup{
+    margin: 10px 5px;
+}
+.imagemargin,.topimage{
+    padding: 10px 0px;
+}
+
 
     .back{
         background-image: url(/assets/img/branding/hashworks/group-15.svg);
@@ -113,9 +116,9 @@
 }
 &__concept{
     width: 260px;
-    margin: 20px auto;
+    margin: 20px auto 32px;
     h1{
-        padding: 24px 0px 19px;
+        padding: 0px 0px 19px;
         color: #5d6a6f;
     }
     p{
@@ -139,9 +142,9 @@
    }
 }
 &__enigmalist{
-    padding: 50px 34px;
+    padding: 50px 34px 24px;
     img{
-       margin-top: 30px;
+       padding-top: 30px;
     }
 }
 &__evolve{
@@ -189,9 +192,7 @@ p{
         text-align: center;
     }
 }
-.imagemargin{
-    padding-top: 20px;
-}
+
 }
 
 
@@ -202,9 +203,16 @@ p{
         background-size: 100% 100%;
       }
 
+      .imageAlignment,.enigmaCup{
+        margin: 15px 35px;
+    }
+    .imagemargin ,.topimage{
+        padding: 15px 0px;
+    }
+
     .blob1{
         width:700px;
-        top: 370px;
+        top:54vh;
         button{
             margin: 16px 0px 0px;
         }
@@ -385,10 +393,16 @@ h2{
 @media screen and (min-width:1025px){
     .blob1{
         width:700px;
-        top:380px;
+        top:55vh;
         button{
             margin: 25px 0px 0px;
         }
+    }
+    .imageAlignment,.enigmaCup{
+        margin: 18px 39px;
+    }
+    .imagemargin,.topimage{
+        padding: 18px 0px;
     }
 
     .challange{
@@ -521,12 +535,17 @@ h2{
 
     .blob1{
         width:700px;
-        top:390px;
+        top: 56vh;
         button{
             margin: 33px 0px 0px;
         }
     }
-
+    .imageAlignment,.enigmaCup{
+        margin: 15px 150px;
+    }
+    .imagemargin,.topimage{
+        padding: 15px 0px;
+    }
     .challange{
         width: 1000px;
     }
@@ -652,15 +671,4 @@ h2{
         }
     }
     }
-    .imageAlignment{
-        img{
-            padding: 20px 0px;
-        }
-    }
-    .enigmaCup{
-        .row{
-            padding: 20px 135px;
-        }
-    }
-    
     }

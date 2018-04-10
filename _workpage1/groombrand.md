@@ -90,15 +90,15 @@ icon_list1:
 
 enigmaImageListt:
   - enigmaimg: "mockup-1.jpg"
+  - enigmaimg: "mockup-2.jpg"
+  - enigmaimg: "mockup-3.jpg"
+  - enigmaimg: "mockup-4.jpg"
+  - enigmaimg:  "mockup-5.jpg"
 
 enigmaImage2: "mockup-6.jpg"
 enigmaImage3: "mockup-7.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "mockup-4.jpg"
-  - enigmaImage: "mockup-5.jpg"
-  - enigmaImage: "mockup-2.jpg"
-  - enigmaImage: "mockup-3.jpg"
   - enigmaImage: "mockup-8.jpg"
   - enigmaImage: "mockup-9.jpg"
 

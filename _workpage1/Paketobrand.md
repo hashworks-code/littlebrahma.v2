@@ -90,13 +90,15 @@ fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. D
 #   - icons1: 'groomIcon6.svg'
 
 enigmaImageListt:
+  - enigmaimg: "video-gif.jpg"
   - enigmaimg: "paketomock.jpg"
+  - enigmaimg: "paketo4.jpg"
 
 enigmaImage2: "paketo2.jpg"
 enigmaImage3: "paketo3.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "paketo4.jpg"
+ 
   - enigmaImage: "paketo5.jpg"
   - enigmaImage: "paketo6.jpg"
   - enigmaImage: "paketo7.jpg"
