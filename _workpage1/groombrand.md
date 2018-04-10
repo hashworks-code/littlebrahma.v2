@@ -50,9 +50,9 @@ enigmalogo: "groome1.svg"
 variations1: "variation1.svg"
 variations2: "variation2.svg"
 variations3: "variation3.svg"
-variations4: "variation4.svg"
+variations4: "variation6.svg"
 variations5: "variation5.svg"
-variations6: "variation6.svg"
+variations6: "variation4.svg"
 variations7: "variation7.svg"
 variations8: "variation8.svg"
 
@@ -73,6 +73,7 @@ fontfamily3: "Noto Sans Regular"
 fontfamily4: "Nunito Regular"
 fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
 
+icons: 'Icons'
 icon_list:
   - icons: 'appicon-1.svg'
   - icons: 'appicon-2.svg'
@@ -87,15 +88,17 @@ icon_list1:
   - icons1: 'groomIcon6.svg'
 
 
-enigmaImage1: "mockup-1.jpg"
+enigmaImageListt:
+  - enigmaimg: "mockup-1.jpg"
+  - enigmaimg: "mockup-2.jpg"
+  - enigmaimg: "mockup-3.jpg"
+  - enigmaimg: "mockup-4.jpg"
+  - enigmaimg:  "mockup-5.jpg"
+
 enigmaImage2: "mockup-6.jpg"
 enigmaImage3: "mockup-7.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "mockup-4.jpg"
-  - enigmaImage: "mockup-5.jpg"
-  - enigmaImage: "mockup-2.jpg"
-  - enigmaImage: "mockup-3.jpg"
   - enigmaImage: "mockup-8.jpg"
   - enigmaImage: "mockup-9.jpg"
 

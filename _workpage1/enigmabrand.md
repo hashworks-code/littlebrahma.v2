@@ -9,7 +9,7 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy-4.png"
 url: "ServiceDesign1"
 title: Enigma Branding
-enigma_banner: "/assets/img/branding/banner.jpg"
+enigma_banner: "/assets/img/branding/enigma.png"
 
 brandImage1: "1.jpg"
 brandImage2: "2.jpg"
@@ -72,6 +72,9 @@ fontfamily3: "Rajdhani Regular"
 fontfamily4: "PT Sans"
 fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
 
+enigmapattern: "/assets/img/branding/icon/enigmapattern.svg"
+
+icons: 'Icons'
 icon_list:
   - icons: '1.svg'
   - icons: '2.svg'
@@ -84,7 +87,9 @@ icon_list1:
   - icons1: '7.svg'
   - icons1: '8.svg'
 
-enigmaImage1: "1.jpg"
+enigmaImageListt:
+  - enigmaimg: "1.jpg"
+
 enigmaImage2: "2.jpg"
 enigmaImage3: "3.jpg"
 
