@@ -14,6 +14,7 @@
     }
     .contextualTxt{
         font-family: "PT_Sans-Regular";
+        font-size: 12px;
     }
     .prctDicipline{
         background: #fff;
@@ -33,8 +34,7 @@
         display: none;
     }
     &_dic{
-        padding-top: 45px;
-        padding-bottom: 45px;
+      padding: 45px 35px;
         .title{
             font-family: "MavenPro-Medium";
         }
@@ -52,7 +52,7 @@
         }
     }
     &_svc{
-        padding: 37px 35px 46px 29px;
+        padding: 27px 35px 40px 29px;
         // background: #F4F4F4;
         &_title{
             font-family: "MavenPro-Medium";
@@ -140,13 +140,13 @@
   }
   .knowmore{
     display: flex;
-    width: 260px;
-    justify-content: space-between;
-    margin-left: 15px;
+    width: 236px;
+    justify-content: space-around;
+    margin-left: 43px;
   }
     .prct{
         .genericTitle{
-            font-size: 20px;
+            font-size: 24px;
         }
         .fixCont{
             display: none;
@@ -158,23 +158,19 @@
             img{
                 max-width: 350px;
             }
-            .dicContents{
-                padding-left:50px !important;
-                padding-right:29px !important;
-                .title{
-                    display: none;
-                }
-            }
+  
             .title{
-                font-size: 20px;
-                // padding-bottom: 17px;
+                font-size: 24px;
+             text-align: center;
             }
             .bldContent{
                 font-size: 14px;
-                padding-bottom: 14px;
+                padding: 16px 0px;
+                text-align: center;
             }
             .bsTxt{
-                font-size: 14px;
+                font-size: 12px;
+                text-align: center;
             }
         }
         &_svc{
@@ -200,7 +196,7 @@
             }
         }
         .dnaContainer{
-            font-size: 14px;
+            font-size: 12px;
             padding-top:16px;
         }
     }
@@ -216,15 +212,15 @@
         }
     }
     .philSec{
-        margin: 50px 29px 0;
+        margin: 32px 29px 0;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
     .knowmore{
         display: flex;
-        width:260px;
+        width:236px;
         justify-content: space-between;
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .prct{
         .fixCont {
@@ -261,10 +257,10 @@
             font-size: 24px;
         }
         .contextTitle{
-            font-size: 24px;
+            font-size: 16px;
         }
         .contextualTxt{
-            font-size: 20px;
+            font-size: 14px;
         }
         .mobScreen{
             width: 100%;
@@ -274,16 +270,16 @@
                 display: none;
             }
             .title{
-                font-size: 32px;
+                font-size: 24px;
                 padding-bottom: 20px;
                 padding-top: 15px;
             }
             .bldContent{
-                font-size: 18px;
+                font-size: 16px;
                 padding-bottom: 21px;
             }
             .bsTxt{
-                font-size: 17px;
+                font-size: 14px;
             }
             img{
                 width: 293px;
@@ -313,16 +309,14 @@
                     // padding-top: 50px;
                 }
                 .indCon{
-                    font-size: 17px;
-                    padding-top: 15px;
-                    padding-bottom: 10px;
+                    font-size: 14px;
+                    padding: 10px 34px 16px 0px;
                 }
             }
         }
         .dnaContainer{
-            font-size: 17px;
-            padding-top:30px;
-            // padding-bottom:20px;
+            font-size: 14px;
+            padding-top:24px;
             width: 690px;
         }
     }    
@@ -342,10 +336,10 @@
 @media screen and (min-width:1025px){
     .knowmore{
         display: flex;
-        width:372px;
+        width:289px;
         justify-content: space-between;
-        margin-left: 20px;
-        padding-top: 22px;
+        margin-left: 0;
+        padding-top: 32px;
     }
     .noPadding{
         width: 623px;
@@ -354,6 +348,12 @@
         .genericTitle{
             font-size: 32px;
         }
+        .contextTitle {
+            font-size: 24px;
+        }
+        .contextualTxt {
+            font-size: 16px;
+        }
         &_dic{
             .title{
                 font-size: 32px;
@@ -361,11 +361,11 @@
                 padding-top: 35px;
             }
             .bldContent{
-                font-size: 18px;
+                font-size: 20px;
                 padding-bottom: 10px;                
             }
             .bsTxt{
-                font-size: 17px;
+                font-size: 16px;
             }
             img{
                 width: 414px;
@@ -388,9 +388,9 @@
                     // padding-top: 50px;
                 }
                 .indCon{
-                    font-size: 20px;
-                    padding-top: 16px;
-                    padding-bottom: 10px;
+                    font-size: 16px;
+                    padding-top: 32px;
+                    padding-bottom: 0px;
                 }
             }
             .sCont{
@@ -398,9 +398,9 @@
             }
         }
         .dnaContainer{
-            font-size: 17px;
+            font-size: 16px;
             padding-top:25px;
-            width: 970px;
+            width: 800px;
         }
         .scrollContainer{
             height: calc(300vh - 80px);
@@ -483,13 +483,14 @@
             top: 10%;
             position: relative;
             background: transparent;
+            left: 90px;
         }
         .rContent_1 {
             // padding-top: 135px;
         }
     }    
     .prctDiv{
-        margin-top: 65px;
+        margin-top: 0px;
         .prctSec{
             &_tab{
                 font-size: 24px;
@@ -498,14 +499,17 @@
         }
     }
     .philSec{
-        margin: 70px 29px 0;
+        margin:64px 29px 0;
     }
 }
 @media screen and (min-width:1367px){
     .knowmore{
         display: flex;
-        width:415px;
+        width:332px;
         justify-content: space-between;
+    }
+    .prctDiv {
+        margin-top: 100px;
     }
     .prct{
         .genericTitle{
@@ -515,18 +519,18 @@
             font-size: 24px;
         }
         .contextualTxt{
-            font-size: 28px;
+            font-size: 20px;
         }
         &_dic{
             .title{
-                font-size: 48px;
-                padding-bottom: 17px;
+                font-size: 40px;
+                padding-bottom:40px;
                 padding-top: 55px;
                 
             }
             .bldContent{
                 font-size: 24px;
-                padding-bottom: 28px;
+                padding-bottom: 40px;
             }
             .bsTxt{
                 font-size: 20px;
@@ -538,7 +542,7 @@
             }
         }
         &_svc{
-            padding: 75px 150px 80px;
+            padding: 100px 150px 80px;
             &_title{
                 font-size: 40px;
                 .svcCont{
@@ -553,8 +557,8 @@
                 }
                 .indCon{
                     font-size: 20px;
-                    padding-top: 15px;
-                    padding-bottom: 10px;
+                    padding-top: 24px;
+                    padding-bottom: 16px;
                 }
                 .lgCon{
                     width: 830px;
@@ -564,9 +568,10 @@
         .dnaContainer{
             font-size: 20px;
             padding-top:40px;
+            width: 970px;
         }
     }
     .philSec{
-        margin: 80px 29px 0;
+        margin: 80px 29px 65px;
     }    
 }

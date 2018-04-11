@@ -187,11 +187,17 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
+<<<<<<< HEAD
+    border-radius: 20px;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+=======
     border-radius: 16px;
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
+>>>>>>> 899241422bdb3de094a8b22b745ef690bd4c3102
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
     color: #fff;
     outline: none;
