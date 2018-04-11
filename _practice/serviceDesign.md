@@ -14,10 +14,9 @@ practice_lists:
 homebackgroundimg: /assets/img/workpage/group-3.png      
 published: true
 practiceList: Service design
-practiceList1: Brand voice
-practiceList2: Print media
-practiceList3: Visual Language
-practiceList4: Package design
+practiceList1: Customer experience
+practiceList2: Process optimisation
+practiceList3: Service blueprints
 practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/service-design.png'
 backgroundHoverImg: '/assets/img/homepage/service-design-white.png'

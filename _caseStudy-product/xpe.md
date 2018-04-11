@@ -132,11 +132,11 @@ box-Head8: ''
 box-para5: 'Real-time insights for pro-active'
 
 
-cat: Service Design
-product_title: Simplifying talent hunt
+cat: Product Design
+product_title: Measuring the performance engineering
 product_title1: XPE
-product_description: Branding / Visual identity / Application / Website
-product_thumbnail_description: TALENT AQUISITION
+product_description: Application
+#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
