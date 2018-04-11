@@ -1,6 +1,8 @@
 
-.caseStudy{
 
+.caseStudy{
+    max-width: 1440px;
+    margin: 0 auto;
     &__content1{
         margin: 150px 260px 140px 260px;
         border-left: 5px solid #2db2ea;
@@ -26,11 +28,11 @@
         background-size: cover;
         display: flex;
         align-items: center;
-        width: 60%;
+        width: 70%;
             // text-align: center;
     }
     &__content2{
-        width: 66%;
+        width: 70%;
         padding-left: 163px;
     }
     &__bgImg1{
@@ -135,7 +137,7 @@
       .SceneImg{
           position: relative;
           img{
-            width: 53%;
+            width: 45%;
             position: absolute;
             right: 0;
             top: 11%;
@@ -184,10 +186,10 @@
         }
         .SceneImg{
             img{
-                height: 260px;
-                width: 50%;
+                height: 73%;
+                width: 37%;
                 right: 0;
-                top: 20%;
+                top: 16%;
             }
         }
         &__bgImg1{
@@ -200,10 +202,10 @@
         }
         .SceneImg1{
             img{
-                width: 45%;
+                width: 35%;
+                height: 65%;
                 top: 19%;
-                left: 5%;
-                height: 282px;
+                left: 13%;
             }
         }
         &__bgImg2{
@@ -216,10 +218,10 @@
         }
         .SceneImg2{
             img{
-                width: 45%;
-                height: 282px;
+                width: 35%;
+                height: 65%;
                 top: 17%;
-                right: 7%;
+                right: 13%;
             }
         }
         &__eImg{
@@ -266,8 +268,9 @@
             }
             .SceneImg{
                 img{
-                    height: 174px;
-                    width: 38%;
+                    height: 77%;
+                    width: 35%;
+                    top: 12%;
                 }
             }  
             &__bgImg1{
@@ -281,10 +284,10 @@
             }
             .SceneImg1{
                 img{
-                    width: 38%;
-                    top: 25%;
-                    left: 5%;
-                    height: 190px
+                    width: 32%;
+                    top: 22%;
+                    left: 11%;
+                    height: 60%;
                 }
             }
             &__bgImg2{
@@ -297,10 +300,10 @@
             }
             .SceneImg2{
                 img{
-                    width: 37%;
-                    height: 190px;
-                    top: 20%;
-                    right: 6%;
+                    width: 32%;
+                    height: 60%;
+                    top: 24%;
+                    right: 12%;
                 
                 }
             }
@@ -346,9 +349,11 @@
             }  
             &__bgImg{
                 margin-top: 35px;
-                min-height: 337px;
+                min-height: 100%;
+                height: 100%;
                 width: 100%;
                 align-items: normal;
+                padding-bottom: 100px;
             }
             &__content2{
                 width: 100%;
@@ -358,10 +363,11 @@
                 margin-bottom: 271px;
                 img{
                     min-height: 174px;
-                    width: 100%;
-                    padding: 0 30px 0 22px;
+                    width: 262px;
                     top: 75%;
-                    height: 100%;
+                    height: 262px;
+                    margin-left: -131px;
+                    left: 50%;
                 }
             }  
             &__bgImg1{
@@ -377,10 +383,10 @@
             }
             .SceneImg1{
                 img{
-                    width: 48%;
+                    width: 50%;
                     top: 26px;
                     left: 30%;
-                    height: 161px
+                    height: 38%;
                 }
             }
             &__bgImg2{
@@ -397,8 +403,8 @@
             }
             .SceneImg2{
                 img{
-                    width: 75%;
-                    height: 50%;
+                    width: 52%;
+                    height: 40%;
                     top: 57%;
                     right: 11%;
                 
