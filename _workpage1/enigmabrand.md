@@ -9,7 +9,7 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy-4.png"
 url: "ServiceDesign1"
 title: Enigma Branding
-textcolor: text-white
+textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
