@@ -125,7 +125,7 @@ box-para5: 'Latency to perform an
 
 
 cat: Service Design
-product_title: Simplifying talent hunt
+product_title: Mapping the order-flow management
 product_title1: OPM
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION

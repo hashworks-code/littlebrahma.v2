@@ -90,10 +90,10 @@ cImg6: "group-10"
 cImg7: "bitmap-copy-20"
 
 cat: Branding & Communication
-product_title: Simplifying talent hunt
-product_title1: calender 2017
-product_description: Branding / Visual identity / Application / Website
-product_thumbnail_description: TALENT AQUISITION
+product_title: LD Calendar Design 2017
+product_title1: calendar 2017
+product_description: Visual identity
+#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/123-copy-8.png"
 textcolor: text-white
 url: "ServiceDesign1"

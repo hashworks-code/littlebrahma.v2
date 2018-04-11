@@ -134,10 +134,10 @@ box-para5: 'Latency to perform an
 
 
 cat: Service Design
-product_title: Simplifying talent hunt
+product_title: Enterprise order management tool
 product_title1: GOV
-product_description: Branding / Visual identity / Application / Website
-product_thumbnail_description: TALENT AQUISITION
+product_description: Application
+#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy-service/gov-banner.png"
 textcolor: text-white
 url: "ServiceDesign1"

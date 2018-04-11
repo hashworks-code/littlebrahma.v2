@@ -2,9 +2,9 @@
 
 cat: Branding & Communication
 layout: appbranding
-product_title: Simplifying talent hunt
+product_title: Building the brand voice for Groome
 product_title1: Groome Branding
-product_description: Branding / Visual identity / Application / Website
+product_description: Branding / Visual identity / Website
 product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
