@@ -1832,7 +1832,8 @@ div.test {
   .homePage__BnrDiv {
     background-image: url(/assets/img/homepage/01_Home.gif);
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    position: relative; }
     .homePage__BnrDiv__Inner {
       height: 710px; }
       .homePage__BnrDiv__Inner__Content {
@@ -1850,8 +1851,10 @@ div.test {
           font-size: 20px;
           font-family: 'PT_Sans-Regular'; }
     .homePage__BnrDiv__Service {
-      position: relative;
-      top: 30px; }
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      width: 100%; }
       .homePage__BnrDiv__Service h1 {
         text-align: center;
         color: #333;
@@ -1975,43 +1978,37 @@ div.test {
     padding-bottom: 50px; }
   .homePage {
     margin-top: 0; }
-    .homePage__BnrDiv {
-      background-size: cover;
-      background-position: 40% 84px; }
-      .homePage__BnrDiv__Inner {
-        background-size: 34%;
-        background-position: right 140px; }
-        .homePage__BnrDiv__Inner__Content {
-          padding: 270px 0 0 42px;
-          width: 462px; }
-          .homePage__BnrDiv__Inner__Content h1 {
-            font-size: 48px; }
-          .homePage__BnrDiv__Inner__Content p {
-            font-size: 16px;
-            line-height: 25px; }
-      .homePage__BnrDiv__Service {
-        position: relative;
-        top: 130px; }
-        .homePage__BnrDiv__Service h1 {
-          font-size: 32px;
-          margin-top: 0px; }
-        .homePage__BnrDiv__Service__Cards__Inner {
-          width: 300px;
-          height: 318px;
-          margin-right: 20px; }
-          .homePage__BnrDiv__Service__Cards__Inner__a {
-            padding-top: 30px; }
-            .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-              font-size: 16px; }
-            .homePage__BnrDiv__Service__Cards__Inner__a p {
-              font-size: 14px; }
-            .homePage__BnrDiv__Service__Cards__Inner__a__img {
-              width: 64px;
-              height: 64px; }
-        .homePage__BnrDiv__Service__Cards__Inner1 {
-          margin-right: 0; }
-        .homePage__BnrDiv__Service__Cards__Inner:hover img {
-          display: block; }
+    .homePage__BnrDiv__Inner {
+      background-size: 34%;
+      background-position: right 140px; }
+      .homePage__BnrDiv__Inner__Content {
+        padding: 270px 0 0 42px;
+        width: 462px; }
+        .homePage__BnrDiv__Inner__Content h1 {
+          font-size: 48px; }
+        .homePage__BnrDiv__Inner__Content p {
+          font-size: 16px;
+          line-height: 25px; }
+    .homePage__BnrDiv__Service h1 {
+      font-size: 32px;
+      margin-top: 0px; }
+    .homePage__BnrDiv__Service__Cards__Inner {
+      width: 300px;
+      height: 318px;
+      margin-right: 20px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a {
+        padding-top: 30px; }
+        .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+          font-size: 16px; }
+        .homePage__BnrDiv__Service__Cards__Inner__a p {
+          font-size: 14px; }
+        .homePage__BnrDiv__Service__Cards__Inner__a__img {
+          width: 64px;
+          height: 64px; }
+    .homePage__BnrDiv__Service__Cards__Inner1 {
+      margin-right: 0; }
+    .homePage__BnrDiv__Service__Cards__Inner:hover img {
+      display: block; }
     .homePage__dna {
       margin: 180px 42px 0; }
       .homePage__dna__left img {
@@ -2038,22 +2035,19 @@ div.test {
       .homePage__BnrDiv__Inner__Content p {
         font-size: 14px;
         line-break: 30px; }
-  .homePage__BnrDiv__Service {
-    position: relative;
-    top: 130px; }
-    .homePage__BnrDiv__Service h1 {
-      font-size: 24px; }
-    .homePage__BnrDiv__Service__Cards__Inner {
-      width: 220px;
-      height: 260px; }
-      .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-        font-size: 16px; }
-      .homePage__BnrDiv__Service__Cards__Inner__a p {
-        font-size: 12px; }
-    .homePage__BnrDiv__Service__Cards__Inner1 {
-      margin-right: 0; }
-    .homePage__BnrDiv__Service__Cards__Inner:hover img {
-      display: block; }
+  .homePage__BnrDiv__Service h1 {
+    font-size: 24px; }
+  .homePage__BnrDiv__Service__Cards__Inner {
+    width: 220px;
+    height: 260px; }
+    .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+      font-size: 16px; }
+    .homePage__BnrDiv__Service__Cards__Inner__a p {
+      font-size: 12px; }
+  .homePage__BnrDiv__Service__Cards__Inner1 {
+    margin-right: 0; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover img {
+    display: block; }
   .homePage__dna {
     margin: 180px 34px 0; }
     .homePage__dna__left img {
@@ -2076,8 +2070,7 @@ div.test {
   .homePage__BnrDiv {
     background-image: url(/assets/img/homepage/mobile-banner.jpg);
     background-size: 100% 100%;
-    background-position: center center;
-    padding-top: 284px; }
+    background-position: center center; }
     .homePage__BnrDiv__Inner {
       height: 710px;
       background-image: none; }
@@ -2085,15 +2078,16 @@ div.test {
         padding: 120px 50px 0 50px;
         width: 315px;
         text-align: center;
-        margin: 0 auto; }
+        margin: 0 auto;
+        position: relative;
+        top: 241px; }
         .homePage__BnrDiv__Inner__Content h1 {
           font-size: 24px; }
         .homePage__BnrDiv__Inner__Content p {
           font-size: 12px;
           line-height: 16px; }
     .homePage__BnrDiv__Service {
-      position: relative;
-      top: 20px; }
+      bottom: -120px; }
       .homePage__BnrDiv__Service h1 {
         color: #5d6a6f;
         margin-top: -390px;
@@ -2114,7 +2108,7 @@ div.test {
         .homePage__BnrDiv__Service__Cards__Inner:hover img {
           display: none; }
   .homePage__dna {
-    margin: 30px 0 0;
+    margin: 144px 0 0;
     display: block; }
     .homePage__dna__left {
       padding-right: 0;

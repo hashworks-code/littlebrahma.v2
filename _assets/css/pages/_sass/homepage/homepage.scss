@@ -5,6 +5,7 @@
         background-image: url(/assets/img/homepage/01_Home.gif);
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        position: relative;
         &__Inner{
             // background-image: url("/assets/img/homepage/001.png");
             // background-repeat: no-repeat;
@@ -31,8 +32,10 @@
         }
         &__Service{
             // padding: 0 0 0 165px;
-            position: relative;
-            top: 30px;        
+            position: absolute;
+            left:0px;
+            bottom: 0px;
+            width:100%;       
             h1{
                 text-align: center;
                 color: #333;
@@ -220,8 +223,8 @@
     .homePage{
         margin-top: 0;
         &__BnrDiv{
-            background-size: cover;
-            background-position: 40% 84px;
+            // background-size: cover;
+            // background-position: 40% 84px;
             &__Inner{
                 background-size: 34%;
                 background-position: right 140px;
@@ -238,8 +241,8 @@
                 }
             }
             &__Service{
-                position: relative;
-                top: 130px;            
+                // position: relative;
+                // top: 130px;            
                 h1{
                     font-size: 32px;
                     margin-top: 0px;
@@ -323,8 +326,8 @@
                 }
             }
             &__Service{
-                position: relative;
-                top: 130px;
+                // position: relative;
+                // top: 130px;
             
                 h1{
                     font-size: 24px;
@@ -385,7 +388,7 @@
             background-image: url(/assets/img/homepage/mobile-banner.jpg);
             background-size: 100% 100%;
             background-position: center center;
-            padding-top: 284px;
+            // padding-top: 284px;
             &__Inner{
                 height: 710px;
                 background-image: none;
@@ -394,6 +397,8 @@
                     width: 315px;
                     text-align: center;
                     margin: 0 auto;
+                    position: relative;
+                    top: 241px;
                     h1{
                         font-size: 24px;
                     }
@@ -404,8 +409,9 @@
                 }
             }
             &__Service{
-                position: relative;
-                top: 20px;            
+                // position: relative;
+                // top: 20px;   
+                bottom: -120px;         
                 h1{
                     color: #5d6a6f;
                     margin-top: -390px;
@@ -444,7 +450,7 @@
             }
         }
         &__dna{
-            margin: 30px 0 0;
+            margin: 144px 0 0;
             display: block;
             &__left{
                 padding-right: 0;
