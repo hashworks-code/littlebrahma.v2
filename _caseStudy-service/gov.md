@@ -139,6 +139,7 @@ product_title1: GOV
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy-service/gov-banner.png"
+textcolor: text-white
 url: "ServiceDesign1"
 
 ---

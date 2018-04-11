@@ -9,6 +9,7 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
+textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"
 
 background:

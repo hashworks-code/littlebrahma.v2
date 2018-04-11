@@ -9,6 +9,7 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
+textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.jpg"
 
 

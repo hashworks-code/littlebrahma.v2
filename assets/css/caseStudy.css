@@ -187,20 +187,26 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
+<<<<<<< HEAD
     border-radius: 20px;
     border: solid 2px #022b3b;
     background-color: transparent;
+=======
+    border-radius: 16px;
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+>>>>>>> 899241422bdb3de094a8b22b745ef690bd4c3102
     font-size: 14px;
     padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
-    color: #393939;
+    color: #fff;
     outline: none;
     text-align: center;
     text-decoration: none; }
   .commonButton:hover {
-    border: solid 2px #ea1c49;
-    background-color: #ea1c49;
-    color: #fff;
+    border: solid 2px #022b3b;
+    background-color: transparent;
+    color: #393939;
     -webkit-transition: background-color 500ms linear;
     transition: background-color 500ms linear; }
   .rajdhaniBold {
@@ -371,6 +377,12 @@ textarea:hover, textarea:focus {
 
 .padding-0 {
   padding: 0 !important; }
+
+.text-white {
+  color: #fff !important; }
+
+.text-black {
+  color: #333 !important; }
 
 /* -------------------------------- 
 
@@ -1094,10 +1106,10 @@ html, body {
 
 @media screen and (max-width: 767px) {
   .footer {
-    height: 460px; }
+    height: 335px; }
     .footer__inner {
       font-size: 24px;
-      padding: 24px 0 0 24px; }
+      padding: 0px 0 0 24px; }
       .footer__inner a {
         font-size: 14px; }
     .footer__bottom {
@@ -1113,16 +1125,30 @@ html, body {
 
 @media screen and (max-width: 600px) {
   .footer {
-    height: 300px; }
+    height: 220px; }
     .footer__inner h1 {
       margin-bottom: 20px; } }
 
 @media screen and (max-width: 420px) {
   .footer__inner {
-    padding: 2px 0 0 24px; }
+    padding: 0px 0 0 24px; }
     .footer__inner h1 {
       margin-bottom: 5px; }
     .footer__inner a {
       padding: 5px 18px 6px; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__image {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-repeat: repeat-x;
+    background-position: 30px 0; }
+  .footer__inner {
+    z-index: 1; } }
 
 /*footer ends*/
