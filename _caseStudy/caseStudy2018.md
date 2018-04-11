@@ -97,7 +97,7 @@ product_title1: calender 2018
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/123-copy-7.png"
-textcolor: text-white
+textcolor: text-black
 url: "ServiceDesign1"
 
 ---

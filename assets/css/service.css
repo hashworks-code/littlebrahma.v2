@@ -187,9 +187,9 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
-    border-radius: 20px;
-    border: solid 2px #022b3b;
-    background-color: transparent;
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    border-radius: 25px;
     font-size: 14px;
     padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
@@ -198,9 +198,9 @@ table {
     text-align: center;
     text-decoration: none; }
   .commonButton:hover {
-    border: solid 2px #022b3b;
+    border: solid 2px #333;
     background-color: transparent;
-    color: #393939;
+    color: #333;
     -webkit-transition: background-color 500ms linear;
     transition: background-color 500ms linear; }
   .rajdhaniBold {
@@ -1790,7 +1790,7 @@ div.test {
   .homePage__BnrDiv {
     background-image: url(/assets/img/homepage/combined-shape.png);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: 100% 100%; }
     .homePage__BnrDiv__Inner {
       background-image: url("/assets/img/homepage/001.png");
       background-repeat: no-repeat;
@@ -1815,11 +1815,10 @@ div.test {
       top: 120px; }
       .homePage__BnrDiv__Service h1 {
         text-align: center;
-        color: #fff;
+        color: #333;
         font-size: 40px;
         font-family: 'MavenPro-Medium';
-        margin-bottom: 80px;
-        margin-top: 120px; }
+        margin-bottom: 80px; }
       .homePage__BnrDiv__Service__Cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1956,7 +1955,7 @@ div.test {
         top: 120px; }
         .homePage__BnrDiv__Service h1 {
           font-size: 32px;
-          margin-top: 240px; }
+          margin-top: 0px; }
         .homePage__BnrDiv__Service__Cards__Inner {
           width: 300px;
           height: 318px;
@@ -2157,10 +2156,6 @@ ul.lb_work_filter.lb_service_lg {
 .datavalue-2 {
   display: none; }
 
-.carousel {
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
 .lb_filter_servicenone {
   display: none !important; }
 
@@ -2195,8 +2190,7 @@ ul.lb_work_filter.lb_service_lg {
     left: 0;
     right: 0;
     margin-left: auto;
-    margin-right: auto;
-    top: 190px; }
+    margin-right: auto; }
   .lb-service-content {
     margin-top: 50px; }
   .stepwizard-step:before {
@@ -2386,6 +2380,10 @@ ul.lb_work_filter.lb_service_lg {
   .stepwizard-row .popover {
     width: 315px; } }
 
+.carousel {
+  margin-bottom: 100px;
+  padding-bottom: 100px; }
+
 @media only screen and (min-width: 320px) {
   .carousel {
     display: -webkit-box;
@@ -2395,12 +2393,15 @@ ul.lb_work_filter.lb_service_lg {
     position: relative;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end; }
+            justify-content: flex-end;
+    background-color: #022b3b;
+    margin-bottom: 40px;
+    padding-bottom: 0px; }
     .carousel__card {
       display: -webkit-box;
       position: absolute !important;
       z-index: 1;
-      top: 100px;
+      bottom: -60px;
       left: 49px;
       width: 220px; }
     .carousel__card1 {
@@ -2434,16 +2435,16 @@ ul.lb_work_filter.lb_service_lg {
         text-align: center; }
     .carousel h1 {
       padding-bottom: 10px;
-      text-align: center; }
+      text-align: center;
+      font-family: 'MavenPro-Medium';
+      font-weight: 500;
+      color: #393939; }
     .carousel__card2 {
-      width: 880px;
-      height: 484px;
-      -o-object-fit: contain;
-         object-fit: contain;
-      background-color: #022b3b; }
+      width: 768px;
+      background-color: #022b3b;
+      padding: 34px 0px 297px; }
       .carousel__card2 h1 {
         color: #ffffff;
-        padding: 34px 30px 0px;
         margin: 0px;
         text-align: center; }
       .carousel__card2 p {
@@ -2465,57 +2466,51 @@ ul.lb_work_filter.lb_service_lg {
     height: 18px !important; } }
 
 @media only screen and (min-width: 767px) {
-  .carousel__card {
-    display: -webkit-box;
-    position: relative !important;
-    top: 24px;
-    left: 78px;
-    width: 361px; }
-  .carousel__card1 {
-    width: 155px;
-    height: 100% !important;
-    margin: 0px 20px 0px 0px; }
-    .carousel__card1 img {
-      width: 30px;
-      margin: 15px 0px 15px 70px; }
-    .carousel__card1 h1 {
-      text-align: center !important; }
-  .carousel h1 {
-    padding-bottom: 10px;
-    text-align: left; }
-  .carousel__card2 {
-    width: 64%;
-    height: 272px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    padding: 58px 30px 0px 114px; }
-    .carousel__card2 h1 {
-      width: 300px;
-      padding: 0px 0px 12px 0px; }
-    .carousel__card2 p {
-      width: 360px;
-      padding: 0px;
-      margin: 0px;
+  .carousel {
+    background-color: #ffffff;
+    margin-bottom: 80px;
+    padding-top: 80px; }
+    .carousel__card {
+      display: -webkit-box;
+      position: relative !important;
+      top: 24px;
+      left: 78px;
+      width: 355px; }
+    .carousel__card1 {
+      width: 155px;
+      height: 222px !important;
+      margin: 0px 20px 0px 0px; }
+      .carousel__card1 img {
+        width: 30px;
+        margin: 15px 0px 15px 70px; }
+      .carousel__card1 h1 {
+        text-align: center !important; }
+    .carousel h1 {
+      padding-bottom: 10px;
       text-align: left; }
-  .carousel .slick-prev {
-    top: 74% !important;
-    left: 447px !important; }
-  .carousel .slick-next {
-    top: 74% !important;
-    right: -176px !important; }
-  .carousel .slick-initialized .slick-slide {
-    width: 162px !important; }
-  .carousel .slick-slider .slick-track {
-    width: 3000px  !important;
-    padding-top: 10px; }
+    .carousel__card2 {
+      width: 64%;
+      padding: 50px 30px 89px 177px; }
+      .carousel__card2 h1 {
+        width: 300px;
+        padding: 0px 0px 12px 0px; }
+      .carousel__card2 p {
+        width: 279px;
+        padding: 0px;
+        margin: 0px;
+        text-align: left; }
+    .carousel .slick-prev {
+      top: 81% !important;
+      left: 418px !important; }
+    .carousel .slick-next {
+      top: 81% !important;
+      right: -136px !important; }
+    .carousel .slick-initialized .slick-slide {
+      width: 160px !important; }
+    .carousel .slick-slider .slick-track {
+      width: 3000px  !important;
+      padding-top: 10px;
+      padding-bottom: 10px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 24px;
     left: 110px;
@@ -2531,8 +2526,8 @@ ul.lb_work_filter.lb_service_lg {
     height: 279px !important;
     margin: 0px 25px 0px 0px; }
     .carousel__card1 img {
-      width: 54px;
-      margin: 50px 0px 30px 82px; }
+      width: 45px;
+      margin: 30px 0px 22px 86px; }
     .carousel__card1 h1 {
       text-align: center !important; }
     .carousel__card1 p {
@@ -2542,27 +2537,26 @@ ul.lb_work_filter.lb_service_lg {
     text-align: left; }
   .carousel__card2 {
     width: 64%;
-    height: 405px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 85px 0px 0px 210px; }
+    padding: 85px 30px 160px 210px; }
     .carousel__card2 h1 {
       padding: 0px;
       width: 407px;
       font-size: 32px;
       padding-bottom: 20px; }
     .carousel__card2 p {
-      width: 400px;
+      width: 381px;
       padding: 0px;
       margin: 0px;
       text-align: left; }
   .carousel .slick-prev {
-    top: 240px !important;
-    left: 540px !important; }
+    top: 255px !important;
+    left: 564px !important; }
   .carousel .slick-next {
-    top: 240px !important;
-    right: -140px !important; }
+    top: 255px !important;
+    right: -164px !important; }
   .carousel .slick-initialized .slick-slide {
     width: 220px !important; }
   .carousel .slick-slider .slick-track {
@@ -2571,8 +2565,10 @@ ul.lb_work_filter.lb_service_lg {
     display: -ms-flexbox;
     display: flex; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 62px;
-    left: 150px; } }
+    top: 45px;
+    left: 128px; }
+  .carousel__card.responsive.slick-initialized.slick-slider {
+    height: 301px; } }
 
 @media only screen and (min-width: 1367px) {
   .carousel__card {
@@ -2591,30 +2587,31 @@ ul.lb_work_filter.lb_service_lg {
       padding-bottom: 16px; }
   .carousel__card2 {
     width: 65%;
-    height: 484px;
-    padding: 120px 0px 0px 270px; }
+    padding: 120px 165px 165px 270px; }
     .carousel__card2 h1 {
       width: 407px;
       font-size: 40px;
       padding: 0px 0px 40px; }
     .carousel__card2 p {
-      width: 455px;
+      width: 450px;
       padding: 0px;
       margin: 0px;
       text-align: left; }
   .carousel .slick-prev {
-    top: 284px !important;
-    left: 697px !important; }
+    top: 325px !important;
+    left: 638px !important; }
   .carousel .slick-next {
-    top: 284px !important;
-    right: -235px !important; }
+    top: 325px !important;
+    right: -172px !important; }
   .carousel .slick-initialized .slick-slide {
     width: 255px !important; }
   .carousel .slick-slider .slick-track {
     width: 5000px  !important; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 80px;
-    left: 130px; } }
+    top: 70px;
+    left: 185px; }
+  .carousel__card.responsive.slick-initialized.slick-slider {
+    height: 344px; } }
 
 .stepwizard-row .popover-content {
   text-align: center; }

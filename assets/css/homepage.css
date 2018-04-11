@@ -187,9 +187,9 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
-    border-radius: 20px;
-    border: solid 2px #022b3b;
-    background-color: transparent;
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    border-radius: 25px;
     font-size: 14px;
     padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
@@ -198,9 +198,9 @@ table {
     text-align: center;
     text-decoration: none; }
   .commonButton:hover {
-    border: solid 2px #022b3b;
+    border: solid 2px #333;
     background-color: transparent;
-    color: #393939;
+    color: #333;
     -webkit-transition: background-color 500ms linear;
     transition: background-color 500ms linear; }
   .rajdhaniBold {
@@ -1790,7 +1790,7 @@ div.test {
   .homePage__BnrDiv {
     background-image: url(/assets/img/homepage/combined-shape.png);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: 100% 100%; }
     .homePage__BnrDiv__Inner {
       background-image: url("/assets/img/homepage/001.png");
       background-repeat: no-repeat;
@@ -1815,11 +1815,10 @@ div.test {
       top: 120px; }
       .homePage__BnrDiv__Service h1 {
         text-align: center;
-        color: #fff;
+        color: #333;
         font-size: 40px;
         font-family: 'MavenPro-Medium';
-        margin-bottom: 80px;
-        margin-top: 120px; }
+        margin-bottom: 80px; }
       .homePage__BnrDiv__Service__Cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1956,7 +1955,7 @@ div.test {
         top: 120px; }
         .homePage__BnrDiv__Service h1 {
           font-size: 32px;
-          margin-top: 240px; }
+          margin-top: 0px; }
         .homePage__BnrDiv__Service__Cards__Inner {
           width: 300px;
           height: 318px;

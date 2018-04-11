@@ -138,7 +138,7 @@ product_title: Simplifying talent hunt
 product_title1: ENIGMA
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/enigma-banner.png"
+banner_image: "/assets/img/caseStudy/enigma.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
 
