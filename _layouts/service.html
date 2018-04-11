@@ -129,31 +129,16 @@
 
 <section class="carousel ">
         <div class="carousel__card responsive">
-            <div class="carousel__card1 ">
-                <img src="/assets/img/service/arrow1.svg" alt="">
-                 <h1 class="typography">UX review</h1>
-                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
-            </div>
-            <div class="carousel__card1 ">
-                <img src="/assets/img/service/arrow1.svg" alt="">
-                 <h1 class="typography">UX review</h1>
-                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
-            </div>
-            <div class="carousel__card1 ">
-                <img src="/assets/img/service/arrow1.svg" alt="">
-                 <h1 class="typography">UX review</h1>
-                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
-            </div>
-            <div class="carousel__card1 ">
-                <img src="/assets/img/service/arrow1.svg" alt="">
-                 <h1 class="typography">UX review</h1>
-                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
-            </div>
-            <div class="carousel__card1 ">
-                <img src="/assets/img/service/arrow1.svg" alt="">
-                 <h1 class="typography">UX review</h1>
-                 <p class="paragraph">Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate.</p>
-            </div>
+                {% for img in page.cardlist%}
+                    <div class="carousel__card1 ">
+                        <img src="/assets/img/service/arrow1.svg" alt="">
+                        <h1 class="typography">{{img.list.title}}</h1>
+                        <p class="paragraph">{{img.list.content}}</p>
+                    </div>
+                {% endfor %}
+            
+           
+            
      
         </div>
         <div class="carousel__card2">
@@ -175,7 +160,7 @@
                             <a href="{{work.url}}">
                                 <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head">
+                                    <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
                                     </div>
                                 </div>
@@ -193,7 +178,7 @@
                         <a href="{{work.url}}">
                             <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                <div class="lb-filter-head">
+                                <div class="lb-filter-head {{work.textcolor}}">
                                     {{work.product_title}}
                                 </div>
                             </div>
@@ -215,7 +200,7 @@
                                 <a href="{{work.url}}">
                                 <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head">
+                                    <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
                                     </div>
                                 </div>
@@ -237,7 +222,7 @@
                             <a href="{{work.url}}">    
                             <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head">
+                                    <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
                                     </div>
                                 </div>

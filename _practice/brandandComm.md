@@ -25,13 +25,22 @@ flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: Cust. interview
 flowImage2: '/assets/img/service/page-1 (6).svg'
-flowactiveImage2: '/assets/img/service/service.svg'
+flowactiveImage2: '/assets/img/service/brand3.svg'
 flowContent2: Research & Analysis
 flowImage3: '/assets/img/service/page-1 (8).svg'
-flowactiveImage3: '/assets/img/service/service.svg'
+flowactiveImage3: '/assets/img/service/bran2.svg'
 flowContent3: Ideation
 flowImage4: '/assets/img/service/page-1 (10).svg'
-flowactiveImage4: '/assets/img/service/service.svg'
+flowactiveImage4: '/assets/img/service/bran4.svg'
 flowContent4: Design & Documentation
-
+cardlist: 
+    - list:
+         title: Collaborative Work Environment 
+         content: We respect our time as well as the time of the stakeholders involved. We don’t like things to be kept on hold.
+    - list:
+         title: Multiple Design Platforms 
+         content: We design and co-create prototype for multiple channels to deliver a seamless customer experience.
+    - list:
+         title: Hybrid Roles 
+         content: We break down design into fundamental building blocks which helps in creating simple and minimalistic interfaces.
 ---

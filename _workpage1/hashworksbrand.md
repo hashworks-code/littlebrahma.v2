@@ -9,6 +9,7 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy-3.png"
 url: "ServiceDesign1"
 title: Hashworks Branding
+textcolor: text-white
 enigma_banner: "/assets/img/branding/groome-copy-3.jpg"
 
 
