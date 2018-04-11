@@ -14,21 +14,15 @@
             </div>
       </div>
       <div class="CSservice">
-            <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg1  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head1}}</div>
-                <p class="paragraph boxPara">{{page.box-para1}}</p>
-            </div>
-            <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg2  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head2}}</div>
-                <p class="paragraph boxPara">{{page.box-para2}}</p>
-            </div>
-            <div class="CSservice__box">
-                <img src="/assets/img/caseStudy-service/{{ page.UImg3  | downcase }}.png">
-                <div class="csHeading boxHeading">{{page.box-Head3}}</div>
-                <p class="paragraph boxPara">{{page.box-para3}}</p>
-            </div>
+            <div class="CSservice">
+                    {% for box in page.box_lists %}
+                    <div class="CSservice__box">
+                        <img src="/assets/img/caseStudy-service/{{ box.UImg1  | downcase }}.png">
+                        <div class="csHeading boxHeading">{{box.box-Head1}}</div>
+                        <p class="paragraph boxPara">{{box.box-para1}}</p>
+                    </div>
+                    {% endfor %}
+              </div>
       </div>
       <div class="caseStudy">
       <div class="caseStudy__content1">
@@ -129,13 +123,14 @@
                         </div>
                     </div>
                     <div class="row padding-bottom">
-                        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0 divA padding-right">
+                        <div class="col-xs-12  col-md-12 col-sm-12 col-lg-12 divB padding-0">
+                                    <div class="csHeading">{{ page.cHead7 }}</div></br>
+                                    <div class="paragraph">{{ page.cContent12 }}</div>
+                        </div>
+                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0 divA padding-right">
                                 <img src="/assets/img/caseStudy-service/{{ page.SImg7  | downcase }}.png">
                         </div>
-                        <div class="col-xs-12  col-md-7 col-sm-7 col-lg-7 divB padding-0">
-                                <div class="csHeading">{{ page.cHead7 }}</div></br>
-                                <div class="paragraph">{{ page.cContent12 }}</div>
-                        </div>
+                        
                     </div>
                         <div class="row padding-bottom">
                                 <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">

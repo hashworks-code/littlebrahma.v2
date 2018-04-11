@@ -4,9 +4,9 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/gov-banner.png"
-banner-Head: "Global Order Visibility"
-banner-cnt: "Simplified order visibility for BizOps and Sales"
+banner_imag1: "/assets/img/caseStudy-service/enigma-banner.png"
+banner-Head: "Enigma"
+banner-cnt: "Root cause application failures in a single click"
 
 
 box_lists:
@@ -135,11 +135,10 @@ box-para5: 'Latency to perform an
 
 cat: Service Design
 product_title: Simplifying talent hunt
-product_title1: GOV
+product_title1: ENIGMA
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gov-banner.png"
-textcolor: text-white
+banner_image: "/assets/img/caseStudy-service/enigma-banner.png"
 url: "ServiceDesign1"
 
 ---

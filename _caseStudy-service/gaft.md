@@ -8,71 +8,74 @@ banner_imag1: "/assets/img/caseStudy-service/gaft.png"
 banner-Head: "Global Anti-fraud Detection tool"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
 
-box-Head1: "65,000"
-box-para1: "Agents, Support & Sales 
-        teams across the globe 
-        using the system  "
-UImg1: "user"
+box_lists:
+    - box-Head1: '300'
+      box-para1: 'Business users across the
+                    globe on-boarded into the
+                    system'
+      UImg1: 'gaft-user'
 
-box-Head2: "10 Million"
-box-para2: "Avg. monthly search
-            volumes helping us discover
-            the app experience"
-UImg2: "search"
+    - box-Head1: '700+'
+      box-para1: 'Integration services: Data
+        integration made simple
+        through design'
+      UImg1: 'gaft-service'
 
-box-Head3: "28"
-box-para3: "System integrations
-            defining the adoption
-            in the client ecosystem"
-UImg3: "user"
+    - box-Head1: '140+'
+      box-para1: 'Features allowing the
+                    users to resolve frauds
+                    from one platform'
+      UImg1: 'gaft-security'
 
 cHead1: "Introduction"
-cContent1: "GOV is designed to mitigate high risk and high impact to orders booked by customers through various                channels and ensure high predictability on order delivery and fulfilling rich customer experience."
+cContent1: "A large global PC manufacturer uses this solution to detect e-commerce frauds, dubious monetary transactions & geo trade compliance. This application contain complex search and
+comparison functionalities integrated to fraud detection rule engine to flag transactions that
+are inappropriate."
 
-SImg1: "group-3"
+SImg1: "gaft-data"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
+content_para:
 
-cContent3: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
+    - cContent2: "Re-think UX for a fraud detection software system, run actively till date by a global tech giant that is still functional from last 20 years."
 
 content_lists:
 
-    - cContent4: '-Establish 2 to 3 click approach for call to action'
-    - cContent4: '-Navigating complex features in a single dashboard'
-    - cContent4: '-Deliver insights to users to perform their actions'
+    - cContent4: '- Upgrade the legacy desktop app to modern web application'
+    - cContent4: '- Shift the mindset of business users to usability & minimalism aspects'
+    - cContent4: '- Remodel & retain the experience of users using this 20 yr. old app'
 
 cHead3: "Perceive"
-csubHead3: "Getting into the shoes of Bizops "
-cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
-cContent6: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
+csubHead3: "Understanding the current users"
+perceive_para:
+
+        - cContent5: "We held several customer interviews and surveys to understand the pros and cons of the existing application. We needed the data to re-imagine this legacy native app before migrating to
+        technology and provide improved experience while keeping the process intact."
+       
 
 content_lists1:
 
-    - cContent7: '- Personas acting on the system (Sales executive, Sales manager, Agents and admin)'
-    - cContent7: '- Entire flow of an order process'
-    - cContent7: '- User experience for multi-search features by categorizing 144 filters to 10 groups.'
-    - cContent7: '- Management of workflows created for order holds'
-    - cContent7: '- Micro views of order delay stages'
-    - cContent7: '- Simplified solution for workforce orchestration'
+    - cContent7: '- Customer interviews and Surveys'
+    - cContent7: '- Personas acting on the system'
+    - cContent7: '- Brainstorming on the areas where usabality has to be improved '
+    - cContent7: '- Entire flow of the Fraud detection process'
 
 
 
-box-Head4: '60'
-box-Head5: ' Seconds'
-box-para4: 'Latency to perform an 
-            action on Hold'
+box-Head4: '700+'
+box-Head5: ''
+box-para4: 'Integration services'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
+cContent8: "Our discovery phase helped us to understand the application in and out so that we could come up with a better experience. We conceptualized a fresh look on how the app should looks and navigate. We finalized on various patterns while retaining user sensibility to the legacy app."
 
-SImg3: "gov-user-flow"
+SImg3: "gaft-user-flow"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "people"
+SImg5: "gaft-data-02"
 
 SImg6: "bitmap1"
 SImg7: "group-5"
@@ -80,22 +83,22 @@ SImg8: "bitmap2"
 SImg9: "bitmap3"
 SImg10: "wireframw-001"
 SImg11: "style-guid"
-SImg12: "1-gov"
+SImg12: "gaft-search"
 SImg13: "group-6"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg15: "lower-image"
-    - SImg15: "mockup-1"
-    - SImg15: "mockup-2"
+    - SImg18: "lower-image"
+    - SImg18: "gaft-auth"
+    - SImg18: "gaft-lookup"
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
+cContent9: "Learning the user priorities on biz's scenarios, interviews with high frequency users to understand the pain-points, outcome based discussion on the scenarios to draw insights and achieve call to action for every user scenarios within 2 to 3 clicks."
 csubHead5: "Output"
-cContent10: "All the parties involved had the same expectation on the outcome of the work."
+cContent10: "We were able to come up with following solutions for our customers."
 
 
 cHead6: "1.  Compact & efficient search functionality"
@@ -116,12 +119,11 @@ cContent15: "Designing a data heavy platform with a global teams as users come w
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
+cContent16: "Heat map analysis was conducted on the design prototypes for validation with the business users. Over few iterations we were able to achieve the desired outcome for the multi-user system by retaining the old world charm with applied UX principles and methods at scale. "
 
-box-Head7: '25'
-box-Head8: ' Seconds'
-box-para5: 'Latency to perform an 
-            action on Hold'
+box-Head7: '140+'
+box-Head8: ''
+box-para5: 'Features allowing the users to resolve frauds from one platform'
 
 
 cat: Service Design
