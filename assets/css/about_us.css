@@ -187,11 +187,11 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
-    border-radius: 16px;
+    border-radius: 20px;
     border: solid 2px #022b3b;
     background-color: transparent;
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
     color: #393939;
     outline: none;
@@ -1135,7 +1135,8 @@ html, body {
   .prct .genericTitle, .prct .contextTitle {
     font-family: "MavenPro-Medium"; }
   .prct .contextualTxt {
-    font-family: "PT_Sans-Regular"; }
+    font-family: "PT_Sans-Regular";
+    font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
   .prct .rContent_1 {
@@ -1147,8 +1148,7 @@ html, body {
   .prct .dnaImgMob {
     display: none; }
   .prct_dic {
-    padding-top: 45px;
-    padding-bottom: 45px; }
+    padding: 45px 35px; }
     .prct_dic .title {
       font-family: "MavenPro-Medium"; }
     .prct_dic .bldContent {
@@ -1160,7 +1160,7 @@ html, body {
     .prct_dic .imgContainer {
       text-align: center; }
   .prct_svc {
-    padding: 37px 35px 46px 29px; }
+    padding: 27px 35px 40px 29px; }
     .prct_svc_title {
       font-family: "MavenPro-Medium";
       text-align: center; }
@@ -1237,31 +1237,28 @@ html, body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 260px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-left: 15px; }
+    width: 236px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 43px; }
   .prct .genericTitle {
-    font-size: 20px; }
+    font-size: 24px; }
   .prct .fixCont {
     display: none; }
   .prct_dic .hckTitle {
     display: block; }
   .prct_dic img {
     max-width: 350px; }
-  .prct_dic .dicContents {
-    padding-left: 50px !important;
-    padding-right: 29px !important; }
-    .prct_dic .dicContents .title {
-      display: none; }
   .prct_dic .title {
-    font-size: 20px; }
+    font-size: 24px;
+    text-align: center; }
   .prct_dic .bldContent {
     font-size: 14px;
-    padding-bottom: 14px; }
+    padding: 16px 0px;
+    text-align: center; }
   .prct_dic .bsTxt {
-    font-size: 14px; }
+    font-size: 12px;
+    text-align: center; }
   .prct_svc_title {
     text-align: center;
     font-size: 24px; }
@@ -1278,7 +1275,7 @@ html, body {
       padding-top: 0px;
       padding-bottom: 24px; }
   .prct .dnaContainer {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 16px; }
   .prctDiv {
     margin-top: 55px; }
@@ -1286,18 +1283,18 @@ html, body {
       font-size: 16px;
       margin: 0 20px 0; }
   .philSec {
-    margin: 50px 29px 0; } }
+    margin: 32px 29px 0; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 260px;
+    width: 236px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-left: 15px; }
+    margin-left: 0px; }
   .prct .fixCont {
     display: none; }
   .prct .dnaImgMob {
@@ -1324,22 +1321,22 @@ html, body {
   .prct .genericTitle {
     font-size: 24px; }
   .prct .contextTitle {
-    font-size: 24px; }
+    font-size: 16px; }
   .prct .contextualTxt {
-    font-size: 20px; }
+    font-size: 14px; }
   .prct .mobScreen {
     width: 100%; }
   .prct_dic .hckTitle {
     display: none; }
   .prct_dic .title {
-    font-size: 32px;
+    font-size: 24px;
     padding-bottom: 20px;
     padding-top: 15px; }
   .prct_dic .bldContent {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 21px; }
   .prct_dic .bsTxt {
-    font-size: 17px; }
+    font-size: 14px; }
   .prct_dic img {
     width: 293px;
     height: 282px;
@@ -1359,12 +1356,11 @@ html, body {
       .prct_svc_title .indTxt {
         font-size: 24px; }
       .prct_svc_title .indCon {
-        font-size: 17px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
+        font-size: 14px;
+        padding: 10px 34px 16px 0px; }
   .prct .dnaContainer {
-    font-size: 17px;
-    padding-top: 30px;
+    font-size: 14px;
+    padding-top: 24px;
     width: 690px; }
   .prctDiv {
     margin-top: 80px; }
@@ -1379,12 +1375,12 @@ html, body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 372px;
+    width: 289px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-left: 20px;
-    padding-top: 22px; }
+    margin-left: 0;
+    padding-top: 32px; }
   .noPadding {
     width: 623px; }
   .prct {
@@ -1394,15 +1390,19 @@ html, body {
     /* Standard syntax */ }
     .prct .genericTitle {
       font-size: 32px; }
+    .prct .contextTitle {
+      font-size: 24px; }
+    .prct .contextualTxt {
+      font-size: 16px; }
     .prct_dic .title {
       font-size: 32px;
       padding-bottom: 41px;
       padding-top: 35px; }
     .prct_dic .bldContent {
-      font-size: 18px;
+      font-size: 20px;
       padding-bottom: 10px; }
     .prct_dic .bsTxt {
-      font-size: 17px; }
+      font-size: 16px; }
     .prct_dic img {
       width: 414px;
       height: 377px;
@@ -1418,15 +1418,15 @@ html, body {
         .prct_svc_title .indTxt {
           font-size: 32px; }
         .prct_svc_title .indCon {
-          font-size: 20px;
-          padding-top: 16px;
-          padding-bottom: 10px; }
+          font-size: 16px;
+          padding-top: 32px;
+          padding-bottom: 0px; }
       .prct_svc .sCont {
         padding-top: 15px; }
     .prct .dnaContainer {
-      font-size: 17px;
+      font-size: 16px;
       padding-top: 25px;
-      width: 970px; }
+      width: 800px; }
     .prct .scrollContainer {
       height: calc(300vh - 80px);
       position: relative;
@@ -1493,37 +1493,40 @@ html, body {
       margin: 0 auto;
       top: 10%;
       position: relative;
-      background: transparent; }
+      background: transparent;
+      left: 90px; }
   .prctDiv {
-    margin-top: 65px; }
+    margin-top: 0px; }
     .prctDiv .prctSec_tab {
       font-size: 24px;
       margin: 0 35px 0; }
   .philSec {
-    margin: 70px 29px 0; } }
+    margin: 64px 29px 0; } }
 
 @media screen and (min-width: 1367px) {
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 415px;
+    width: 332px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .prctDiv {
+    margin-top: 100px; }
   .prct .genericTitle {
     font-size: 48px; }
   .prct .contextTitle {
     font-size: 24px; }
   .prct .contextualTxt {
-    font-size: 28px; }
+    font-size: 20px; }
   .prct_dic .title {
-    font-size: 48px;
-    padding-bottom: 17px;
+    font-size: 40px;
+    padding-bottom: 40px;
     padding-top: 55px; }
   .prct_dic .bldContent {
     font-size: 24px;
-    padding-bottom: 28px; }
+    padding-bottom: 40px; }
   .prct_dic .bsTxt {
     font-size: 20px; }
   .prct_dic img {
@@ -1531,7 +1534,7 @@ html, body {
     height: 506px;
     margin: -20px 0; }
   .prct_svc {
-    padding: 75px 150px 80px; }
+    padding: 100px 150px 80px; }
     .prct_svc_title {
       font-size: 40px; }
       .prct_svc_title .svcCont {
@@ -1542,15 +1545,16 @@ html, body {
         font-size: 32px; }
       .prct_svc_title .indCon {
         font-size: 20px;
-        padding-top: 15px;
-        padding-bottom: 10px; }
+        padding-top: 24px;
+        padding-bottom: 16px; }
       .prct_svc_title .lgCon {
         width: 830px; }
   .prct .dnaContainer {
     font-size: 20px;
-    padding-top: 40px; }
+    padding-top: 40px;
+    width: 970px; }
   .philSec {
-    margin: 80px 29px 0; } }
+    margin: 80px 29px 65px; } }
 
 .prct .hero_img {
   background-image: url(/assets/img/about_us/banner.png); }
