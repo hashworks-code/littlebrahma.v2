@@ -187,15 +187,9 @@ table {
     line-height: 1.5;
     color: #393939; }
   .commonButton {
-<<<<<<< HEAD
     border-radius: 20px;
     border: solid 2px #022b3b;
     background-color: transparent;
-=======
-    border-radius: 16px;
-    border: solid 2px #ea1c49;
-    background-color: #ea1c49;
->>>>>>> 899241422bdb3de094a8b22b745ef690bd4c3102
     font-size: 14px;
     padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
@@ -2479,8 +2473,8 @@ ul.lb_work_filter.lb_service_lg {
     width: 361px; }
   .carousel__card1 {
     width: 155px;
-    height: 222px !important;
-    margin: 0px 25px 0px 0px; }
+    height: 100% !important;
+    margin: 0px 20px 0px 0px; }
     .carousel__card1 img {
       width: 30px;
       margin: 15px 0px 15px 70px; }
@@ -2502,7 +2496,7 @@ ul.lb_work_filter.lb_service_lg {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 58px 0px 0px 150px; }
+    padding: 58px 30px 0px 114px; }
     .carousel__card2 h1 {
       width: 300px;
       padding: 0px 0px 12px 0px; }
@@ -2518,12 +2512,13 @@ ul.lb_work_filter.lb_service_lg {
     top: 74% !important;
     right: -176px !important; }
   .carousel .slick-initialized .slick-slide {
-    width: 157px !important; }
+    width: 162px !important; }
   .carousel .slick-slider .slick-track {
-    width: 2000px  !important; }
+    width: 3000px  !important;
+    padding-top: 10px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 24px;
-    left: 59px;
+    left: 110px;
     height: 247px; } }
 
 @media only screen and (min-width: 1024px) {
