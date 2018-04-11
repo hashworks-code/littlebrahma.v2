@@ -23,7 +23,7 @@
 
 
     .back{
-        background-image: url(/assets/img/branding/hashworks/group-15.svg);
+        // background-image: url(/assets/img/branding/hashworks/group-15.svg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
       }
@@ -134,6 +134,7 @@
     margin: 0px auto 71px;
     p{
         padding: 12px 0px 59px;
+        color: #5d6a6f;
     }   
 }
 &__enigmalogo{
@@ -192,17 +193,22 @@ p{
         text-align: center;
     }
 }
-
+}
+.mobileClass{
+    display: block;
+}
+.tabClass{
+    display: none;
 }
 
 
 @media screen and (min-width:767px){
-    .back{
-        background-image: url(/assets/img/branding/hashworks/pattern.svg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      }
-
+    .mobileClass{
+        display: none;
+    }
+    .tabClass{
+        display: block;
+    }
       .imageAlignment,.enigmaCup{
         margin: 15px 35px;
     }
@@ -229,7 +235,7 @@ p{
     }
 }
 .engima1{
-    margin: 50px 0px 65px !important;  
+    margin: 46px 0px 64px !important;  
 }
 
 .branding{
@@ -276,7 +282,7 @@ p{
     }
 }
 &__adapt{
-    height: 325px;
+    height: 270px;
     margin-top: 64px;
     background-position: unset;
     background-size: contain;
@@ -289,7 +295,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 325px;
+        height:270px;
     }
     h2{
         padding: 16px 0px 12px;
@@ -300,18 +306,24 @@ p{
 }
 &__concept1{
     padding: 0px 35px;
- 
+    .row {
+        width: 92%;
+    }
 }
+.back{
+    background-repeat: no-repeat;
+    background-size: 98% 94%;
+  }
 &__concept{
-    width: 700px;
-    margin: 0px 0px 22px 15px;
+    width: 607px;
+    margin: 0px 0px 30px 15px;
     h1{
         padding:64px 0px 17px;
     }
   
 }
 &__logo{
-    padding: 20px 50px 0px;
+    padding: 60px 50px 60px;
    
   }
 &__meaning{
@@ -320,10 +332,20 @@ p{
     padding: 0 34px 72px 34px;
     p{
         padding: 14px 0px 0px;
+        font-size: 12px;
     }  
     img{
-        height: 180px;
+        height: 140px;
     } 
+}
+&__enigmalogo{
+    width: 80%;
+    margin: 0 auto; 
+}
+.enigmabackground{
+    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 &__enigmalogo{
    img{
@@ -331,11 +353,18 @@ p{
    }
 }
 &__enigmalist{
-    padding: 50px 34px;
+    padding: 60px 34px;
     img{
-       margin-top: 30px;
-       height: 120px;
+       height: 95px;
+       width: 130px;
+       padding: 0px;
     }
+    h2{
+        padding-bottom: 20px;
+    }
+}
+.colorPalette{
+    padding-bottom: 50px;
 }
 &__evolve{
     background-position: unset;
@@ -373,10 +402,10 @@ h2{
     }
 }
 &__icons{
-    padding: 70px 35px 70px;
+    padding: 70px 35px 40px;
     .threeIcon{
         width: 465px;
-        padding-bottom: 45px;
+        padding-bottom: 20px;
     }
     img{
     padding-top: 30px;
@@ -410,7 +439,7 @@ h2{
     }
     .engima{
         padding: 0px 0px 0px 57px;
-        margin: 0px 0px 65px;
+        margin: 0px 0px 99px;
         .csHeading{
             padding-bottom:16px;
         }
@@ -476,13 +505,13 @@ h2{
     }
     &__concept{
         width: 700px;
-        margin: 0px 0px 50px 15px;
+        margin: 0px 0px 80px 15px;
         h1{
             padding:96px 0px 24px;
         }
     }
     &__logo{
-        padding: 20px 65px 0px;
+        padding: 60px 65px 60px;
       }
     &__meaning{
         padding: 0 42px 72px 42px;
@@ -599,14 +628,14 @@ h2{
         }
     }
     &__adapt{
-        height:463px;
+        height:446px;
         margin-top:120px;
         margin-right: 135px;
        
         &__align{
             width: 872px;
             padding: 0 0px 0px 163px;
-            height: 463px;
+            height: 446px;
         }
         h2{
             padding: 28px 0px 30px;
@@ -616,10 +645,18 @@ h2{
         }
     }
     &__concept1{
-        padding: 0px 145px;
+        padding: 0px 30px;
+        .row{
+            width: 86%;
+        }
     }
+    .back{
+        background-size:100% 100%;
+      }
     &__concept{
-        width: 745px;
+        width: 800px;
+        padding: 0px 0px 50px 118px;
+        margin: 0;
         h1{
             padding:120px 0px 32px;
         }
@@ -645,6 +682,9 @@ h2{
             height: 118px;
             width: 207px;
         }
+    }
+    .colorPalette {
+        padding-bottom: 65px;
     }
     &__evolve{
         margin-right: 135px;

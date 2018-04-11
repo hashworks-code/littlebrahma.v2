@@ -9,7 +9,16 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy-4.png"
 url: "ServiceDesign1"
 title: Enigma Branding
+textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
+backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
+backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
+
+background:
+  - image: "/assets/img/branding/hashworks/group-15.svg"
+    imageType: "mobile"
+  - image: "/assets/img/branding/hashworks/pattern.svg"
+    imageType: "tab"
 
 brandImage1: "1.jpg"
 brandImage2: "2.jpg"
@@ -34,10 +43,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
-conceptImage1: "a.jpg"
-conceptImage2: "b.jpg"
-conceptImage3: "c.jpg"
-conceptImage4: "d.jpg"
+conceptImage1: "a.png"
+conceptImage2: "b.png"
+conceptImage3: "c.png"
+conceptImage4: "d.png"
 
 finallogo: "logo.svg"
 

@@ -130,6 +130,7 @@ product_title1: OPM
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy-service/opm.png"
+textcolor: text-white
 url: "ServiceDesign1"
 
 ---

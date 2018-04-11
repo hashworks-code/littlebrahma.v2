@@ -9,8 +9,14 @@ product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
+textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"
 
+background:
+  - image: "/assets/img/branding/hashworks/groomebackmob.svg"
+    imageType: "mobile"
+  - image: "/assets/img/branding/hashworks/groomeback.svg"
+    imageType: "tab"
 
 brandImage1: "groome1.jpg"
 brandImage2: "groome2.jpg"
@@ -35,10 +41,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
-conceptImage1: "concept1.jpg"
-conceptImage2: "concept2.jpg"
-conceptImage3: "concept3.jpg"
-conceptImage4: "concept4.jpg"
+conceptImage1: "concept1.png"
+conceptImage2: "concept2.png"
+conceptImage3: "concept3.png"
+conceptImage4: "concept4.png"
 
 finallogo: "groomelogo.svg"
 

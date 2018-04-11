@@ -4,7 +4,7 @@
     &__BnrDiv{
         background-image: url(/assets/img/homepage/combined-shape.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         &__Inner{
             background-image: url("/assets/img/homepage/001.png");
             background-repeat: no-repeat;
@@ -35,11 +35,11 @@
             top: 120px;        
             h1{
                 text-align: center;
-                color: #fff;
+                color: #333;
                 font-size: 40px;
                 font-family: 'MavenPro-Medium';
                 margin-bottom: 80px;
-                margin-top: 120px;
+                // margin-top: 120px;
             }
             &__Cards{
                 display: flex;
@@ -242,7 +242,7 @@
                 top: 120px;            
                 h1{
                     font-size: 32px;
-                    margin-top: 240px;
+                    margin-top: 0px;
                 }
                 &__Cards{
                     &__Inner{
