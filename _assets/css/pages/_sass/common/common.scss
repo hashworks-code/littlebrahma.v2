@@ -213,9 +213,9 @@ table {
 }
 // BUTTON 
 .commonButton{
-    border-radius: 20px;
-    border: solid 2px #022b3b;
-    background-color: transparent;
+    border: solid 2px #ea1c49;
+    background-color: #ea1c49;
+    border-radius: 25px;
     font-size: 14px;
     padding: 7px 14px;
     font-family: 'PT_Sans-Regular';
@@ -226,9 +226,9 @@ table {
     // font-weight: bold;
 }
 .commonButton:hover{
-    border: solid 2px #022b3b;
+    border: solid 2px #333;
     background-color: transparent;
-    color: #393939;
+    color: #333;
     // font-weight: bold;
     -webkit-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
