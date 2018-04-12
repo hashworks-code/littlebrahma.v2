@@ -1315,7 +1315,8 @@ html, body {
 .branding__evolve {
   height: 316px;
   background-repeat: no-repeat;
-  padding: 40px 0px 36px; }
+  padding: 40px 0px 36px;
+  background-size: cover; }
   .branding__evolve__align {
     width: 258px;
     margin: 0 auto; }
@@ -1427,8 +1428,7 @@ html, body {
   .branding__adapt {
     height: 270px;
     margin-top: 64px;
-    background-position: unset;
-    background-size: contain;
+    background-size: cover;
     margin-right: 34px; }
     .branding__adapt__align {
       width: 451px;
@@ -1496,8 +1496,6 @@ html, body {
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
-    background-position: unset;
-    background-size: contain;
     margin-right: 34px;
     height: 270px;
     display: -webkit-box;
@@ -1509,7 +1507,8 @@ html, body {
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    background-size: cover; }
     .branding__evolve__align {
       width: 451px;
       margin: 0 0px 0px 36px;
@@ -1647,16 +1646,18 @@ html, body {
 
 @media screen and (min-width: 1367px) {
   .padding {
-    margin: 0px 150px; }
+    width: 1100px;
+    margin: 0 auto; }
   .branding .enigmabackground {
-    margin: 0px 60px; }
+    margin: 0px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
     .blob1 button {
       margin: 33px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 15px 150px; }
+  .enigmaCup {
+    width: 1100px;
+    margin: 15px auto; }
   .imagemargin, .topimage {
     padding: 15px 0px; }
   .challange {
@@ -1671,12 +1672,14 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    margin: 0px 135px; }
+    width: 1100px;
+    margin: 0 auto; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
     height: 614px;
-    margin: 0px 0px 120px; }
+    width: 1100px;
+    margin: 0 auto 120px; }
     .branding__perceive__align {
       width: 666px;
       margin: 0 0px 0px 163px;
@@ -1697,8 +1700,8 @@ html, body {
     margin: 0 auto; }
   .branding__adapt {
     height: 446px;
-    margin-top: 120px;
-    margin-right: 135px; }
+    width: 1100px;
+    margin: 120px auto 0px; }
     .branding__adapt__align {
       width: 872px;
       padding: 0 0px 0px 163px;
@@ -1708,45 +1711,63 @@ html, body {
     .branding__adapt h1 {
       font-size: 48px; }
   .branding__concept1 {
-    padding: 0px 30px; }
+    padding: 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__concept1 .row {
       width: 86%; }
   .branding .back {
     background-size: 100% 100%; }
   .branding__concept {
     width: 800px;
-    padding: 0px 0px 50px 118px;
+    padding: 0px 0px 50px 0px;
     margin: 0; }
     .branding__concept h1 {
       padding: 120px 0px 32px; }
   .branding__logo {
-    padding: 140px 40px 0px 162px; }
+    padding: 140px 0px 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__meaning {
-    padding: 0 150px 120px 150px; }
+    padding: 0px 0px 120px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__meaning p {
-      padding: 38px 0px 0px; }
+      padding: 38px 0px 0px;
+      font-size: 20px; }
     .branding__meaning img {
       height: 300px; }
+  .branding .brandlogo {
+    width: 1100px;
+    margin: 0 auto; }
   .branding__enigmalogo img {
-    padding: 0px 140px; }
+    padding: 0px; }
   .branding__enigmalist {
-    padding: 110px 154px 120px; }
+    padding: 110px 0px 120px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__enigmalist img {
       height: 118px;
       width: 207px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
-    margin-right: 135px;
-    height: 458px; }
+    margin-right: 0;
+    height: 458px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__evolve__align {
       width: 872px;
       padding: 0 0px 0px 163px;
       height: 458px; }
   .branding__fontfamily {
-    padding: 0px 155px; }
+    padding: 0;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__icons {
-    padding: 160px 150px 70px 150px; }
+    padding: 160px 0px 70px 0px;
+    margin: 0 auto;
+    width: 1100px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }
@@ -2214,7 +2235,8 @@ html, body {
 .branding__evolve {
   height: 316px;
   background-repeat: no-repeat;
-  padding: 40px 0px 36px; }
+  padding: 40px 0px 36px;
+  background-size: cover; }
   .branding__evolve__align {
     width: 258px;
     margin: 0 auto; }
@@ -2326,8 +2348,7 @@ html, body {
   .branding__adapt {
     height: 270px;
     margin-top: 64px;
-    background-position: unset;
-    background-size: contain;
+    background-size: cover;
     margin-right: 34px; }
     .branding__adapt__align {
       width: 451px;
@@ -2395,8 +2416,6 @@ html, body {
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
-    background-position: unset;
-    background-size: contain;
     margin-right: 34px;
     height: 270px;
     display: -webkit-box;
@@ -2408,7 +2427,8 @@ html, body {
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    background-size: cover; }
     .branding__evolve__align {
       width: 451px;
       margin: 0 0px 0px 36px;
@@ -2546,16 +2566,18 @@ html, body {
 
 @media screen and (min-width: 1367px) {
   .padding {
-    margin: 0px 150px; }
+    width: 1100px;
+    margin: 0 auto; }
   .branding .enigmabackground {
-    margin: 0px 60px; }
+    margin: 0px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
     .blob1 button {
       margin: 33px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 15px 150px; }
+  .enigmaCup {
+    width: 1100px;
+    margin: 15px auto; }
   .imagemargin, .topimage {
     padding: 15px 0px; }
   .challange {
@@ -2570,12 +2592,14 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    margin: 0px 135px; }
+    width: 1100px;
+    margin: 0 auto; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
     height: 614px;
-    margin: 0px 0px 120px; }
+    width: 1100px;
+    margin: 0 auto 120px; }
     .branding__perceive__align {
       width: 666px;
       margin: 0 0px 0px 163px;
@@ -2596,8 +2620,8 @@ html, body {
     margin: 0 auto; }
   .branding__adapt {
     height: 446px;
-    margin-top: 120px;
-    margin-right: 135px; }
+    width: 1100px;
+    margin: 120px auto 0px; }
     .branding__adapt__align {
       width: 872px;
       padding: 0 0px 0px 163px;
@@ -2607,45 +2631,63 @@ html, body {
     .branding__adapt h1 {
       font-size: 48px; }
   .branding__concept1 {
-    padding: 0px 30px; }
+    padding: 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__concept1 .row {
       width: 86%; }
   .branding .back {
     background-size: 100% 100%; }
   .branding__concept {
     width: 800px;
-    padding: 0px 0px 50px 118px;
+    padding: 0px 0px 50px 0px;
     margin: 0; }
     .branding__concept h1 {
       padding: 120px 0px 32px; }
   .branding__logo {
-    padding: 140px 40px 0px 162px; }
+    padding: 140px 0px 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__meaning {
-    padding: 0 150px 120px 150px; }
+    padding: 0px 0px 120px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__meaning p {
-      padding: 38px 0px 0px; }
+      padding: 38px 0px 0px;
+      font-size: 20px; }
     .branding__meaning img {
       height: 300px; }
+  .branding .brandlogo {
+    width: 1100px;
+    margin: 0 auto; }
   .branding__enigmalogo img {
-    padding: 0px 140px; }
+    padding: 0px; }
   .branding__enigmalist {
-    padding: 110px 154px 120px; }
+    padding: 110px 0px 120px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__enigmalist img {
       height: 118px;
       width: 207px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
-    margin-right: 135px;
-    height: 458px; }
+    margin-right: 0;
+    height: 458px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__evolve__align {
       width: 872px;
       padding: 0 0px 0px 163px;
       height: 458px; }
   .branding__fontfamily {
-    padding: 0px 155px; }
+    padding: 0;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__icons {
-    padding: 160px 150px 70px 150px; }
+    padding: 160px 0px 70px 0px;
+    margin: 0 auto;
+    width: 1100px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }

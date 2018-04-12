@@ -159,6 +159,7 @@
     height: 316px;
   background-repeat: no-repeat;
   padding: 40px 0px 36px;
+  background-size: cover;
   &__align{
     width: 258px;
     margin: 0 auto;
@@ -302,8 +303,7 @@ p{
 &__adapt{
     height: 270px;
     margin-top: 64px;
-    background-position: unset;
-    background-size: contain;
+    background-size: cover;
     margin-right: 34px;
    
     &__align{
@@ -389,13 +389,12 @@ p{
     padding-bottom: 50px;
 }
 &__evolve{
-    background-position: unset;
-    background-size: contain;
     margin-right: 34px;
     height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-size: cover;
         &__align{
             width: 451px;
             margin: 0 0px 0px 36px;
@@ -590,10 +589,11 @@ h2{
 
 @media screen and (min-width:1367px){
     .padding {
-        margin: 0px 150px;
+        width: 1100px;
+        margin: 0 auto;
     }
     .branding .enigmabackground {
-        margin: 0px 60px;
+        margin: 0px;
     }
     .blob1{
         width:700px;
@@ -602,8 +602,9 @@ h2{
             margin: 33px 0px 0px;
         }
     }
-    .imageAlignment,.enigmaCup{
-        margin: 15px 150px;
+    .enigmaCup{
+        width: 1100px;
+        margin: 15px auto;
     }
     .imagemargin,.topimage{
         padding: 15px 0px;
@@ -629,7 +630,8 @@ h2{
     
     &__image{
         .row{
-            margin: 0px 135px;
+            width: 1100px;
+            margin: 0 auto;
         }
         img{
             padding-bottom: 26px;
@@ -637,7 +639,8 @@ h2{
     }
     &__perceive{
         height: 614px;
-        margin: 0px 0px 120px;
+        width: 1100px;
+        margin: 0 auto 120px;
     
         &__align{
             width: 666px;
@@ -666,8 +669,8 @@ h2{
     }
     &__adapt{
         height:446px;
-        margin-top:120px;
-        margin-right: 135px;
+        width: 1100px;
+        margin: 120px auto 0px;
        
         &__align{
             width: 872px;
@@ -682,7 +685,9 @@ h2{
         }
     }
     &__concept1{
-        padding: 0px 30px;
+        padding: 0px 0px;
+        width: 1100px;
+        margin: 0 auto;
         .row{
             width: 86%;
         }
@@ -692,29 +697,40 @@ h2{
       }
     &__concept{
         width: 800px;
-        padding: 0px 0px 50px 118px;
+        padding: 0px 0px 50px 0px;
         margin: 0;
         h1{
             padding:120px 0px 32px;
         }
     }
     &__logo{
-        padding: 140px 40px 0px 162px;
+        padding: 140px 0px 0px 0px;
+        width: 1100px;
+        margin: 0 auto;
       }
     &__meaning{
-        padding:0 150px 120px 150px;
+        padding: 0px 0px 120px 0px;
+        width: 1100px;
+        margin: 0 auto;
         p{
             padding: 38px 0px 0px;
+            font-size: 20px;
         }  
         img{
             height: 300px;
         } 
     }
+    .brandlogo{
+        width: 1100px;
+        margin: 0 auto;
+    }
     &__enigmalogo img {
-        padding: 0px 140px;
+        padding: 0px;
     }
     &__enigmalist{
-        padding:110px 154px 120px;
+        padding: 110px 0px 120px;
+        width: 1100px;
+        margin: 0 auto;
         img{
             height: 118px;
             width: 207px;
@@ -724,8 +740,10 @@ h2{
         padding-bottom: 65px;
     }
     &__evolve{
-        margin-right: 135px;
-        height:458px;
+        margin-right: 0;
+        height: 458px;
+        width: 1100px;
+        margin: 0 auto;
         &__align{
             width: 872px;
             padding: 0 0px 0px 163px;
@@ -735,10 +753,14 @@ h2{
     }
     
     &__fontfamily{
-        padding: 0px 155px;
+        padding: 0;
+        width: 1100px;
+        margin: 0 auto;
     }
     &__icons{
-        padding: 160px 150px 70px 150px;
+        padding: 160px 0px 70px 0px;
+        margin: 0 auto;
+        width: 1100px;
         .threeIcon{
             width: 716px;
             padding-bottom: 101px;
