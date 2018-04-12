@@ -8,6 +8,7 @@ $(window).resize(function(){
     
 });
     $(document).ready(function() {
+        
         if(screen.width > 767){
             var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
@@ -41,7 +42,7 @@ $(window).resize(function(){
                 }
         });
     }
-
+    
         $('body').on('click', function (e) {
             var count =1;
             $('[data-toggle=popover]').each(function () {
@@ -70,6 +71,9 @@ $(window).resize(function(){
                 }
             });
         });
+        if(screen.width > 767){
+         $(".trigger-1").trigger( "click" );
+        }
         
         $('.prod').each(function (index) { 
             if(index<=3){

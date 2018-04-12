@@ -28,6 +28,7 @@ function scrollFn(val,d){
       valueReceivedLength = vL
       if(valueReceivedLength != testVal){
         testVal = valueReceivedLength;
+         debbugger;
         if("rContent_"+testVal == "rContent_1"){
           return false;
           // $('html, body').animate({

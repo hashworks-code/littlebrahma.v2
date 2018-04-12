@@ -156,7 +156,7 @@ product_title: Enterprise order management tool
 product_title1: GOV
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gov-banner.png"
+banner_image: "/assets/img/caseStudy/gov-banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
 

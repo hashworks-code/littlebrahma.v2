@@ -112,11 +112,23 @@
                     <img src="/assets/img/branding/{{page.meaningImage}}" alt="">
                 </div>
             </div>
-      <div class="enigmabackground">
-            <div class="branding__enigmalogo">
-                <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
-            </div>
-     </div>
+<div class="abcd">
+        {% for image in page.backgroundlogo %}
+        {% if image.imageTypelogo == "mobileLogo" %}
+          <div class="enigmabackground mobileClass" style="background-image: url('{{image.imagelogo}}');">
+        {% elsif image.imageTypelogo == "tabLogo" %}
+          <div class="enigmabackground tabClass" style="background-image: url('{{image.imagelogo}}');">
+        {% endif %}
+        <div class="branding__enigmalogo">
+            <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
+        </div>
+        
+        </div>
+        {% endfor %}
+      </div>
+</div>
+        
+      
 
    <div class="branding__enigmalist">
         <h2 class="csHeading">Variations</h2>
@@ -208,11 +220,14 @@
                      {% endfor %}
                 </div>
      </div>
-            <div class="imageAlignment">
+             <div class="">
                 {% for img in page.enigmaImageListt %}
-                <img class="topimage" src="/assets/img/branding/icon/{{img.enigmaimg}}" alt="">
+                  <div class="{{img.class}}">
+                   <img class="topimage" src="/assets/img/branding/icon/{{img.enigmaimg}}" alt="">
+                  </div> 
                 {% endfor %}
-            </div>
+           
+                </div>
             
             <div class="enigmaCup">
                 <div class="row ">
@@ -225,9 +240,11 @@
             </div>
             </div>
       
-           <div class="imageAlignment">
+           <div class="">
                 {% for image in page.enigmaImageList %}
+                <div class="{{image.class}}">
              <img class="imagemargin" src="/assets/img/branding/icon/{{image.enigmaImage}}" alt="">
+             </div>
              {% endfor %}
             </div>
     </div>

@@ -70,6 +70,46 @@
   font-family: 'RajdhaniRegular';
   src: url("/assets/font/Rajdhani-Regular.ttf"); }
 
+@font-face {
+  font-family: 'MuliBold';
+  src: url("/assets/font/Muli-Bold.ttf"); }
+
+@font-face {
+  font-family: 'MuliLight';
+  src: url("/assets/font/Muli-Light.ttf"); }
+
+@font-face {
+  font-family: 'MuliRegular';
+  src: url("/assets/font/Muli-Regular.ttf"); }
+
+@font-face {
+  font-family: 'MuliSemiBold';
+  src: url("/assets/font/Muli-SemiBold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url("/assets/font/NotoSans-Bold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url("/assets/font/NotoSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url("/assets/font/Nunito-Regular.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url("/assets/font/Helvetica Neu Bold.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("/assets/font/HelveticaNeue Light.ttf"); }
+
+@font-face {
+  font-family: 'HHelveticaNeueMeduim';
+  src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
+
 body {
   overflow-x: hidden; }
 
@@ -163,7 +203,8 @@ table {
     font-family: 'MavenPro-Medium';
     font-size: 24px;
     font-weight: 500;
-    color: #393939; }
+    color: #393939;
+    line-height: normal; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
@@ -1028,12 +1069,13 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: 100% 100%;
-  background-position: center;
-  position: relative;
-  background-image: url("/assets/img/common/footer.jpg");
+  background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 760px; }
+  width: 100%;
+  position: relative;
+  background-image: url("/assets/img/common/Footr_img.png");
+  height: 100vh; }
   .footer__inner {
     font-size: 48px;
     font-family: 'MavenPro-Regular';
@@ -1156,11 +1198,15 @@ html, body {
   .blob1 button {
     margin: 16px 0px 0px; }
 
-.imageAlignment, .enigmaCup {
+.enigmaCup {
   margin: 10px 5px; }
 
 .imagemargin, .topimage {
-  padding: 10px 0px; }
+  padding: 10px 0px;
+  width: 100%; }
+
+.padding {
+  margin: 0px 5px; }
 
 .back {
   background-repeat: no-repeat;
@@ -1258,9 +1304,13 @@ html, body {
   padding: 0px 21px; }
 
 .branding__enigmalist {
-  padding: 50px 34px 24px; }
+  padding: 50px 0px 24px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
   .branding__enigmalist img {
-    padding-top: 30px; }
+    padding-top: 30px;
+    width: 112px; }
 
 .branding__evolve {
   height: 316px;
@@ -1290,7 +1340,10 @@ html, body {
     padding: 14px 0px 0px 0px; }
 
 .branding__icons {
-  padding: 23px 31px 40px; }
+  padding: 23px 0px 0px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
   .branding__icons img {
     padding-top: 30px;
     width: 50px; }
@@ -1303,15 +1356,23 @@ html, body {
 .tabClass {
   display: none; }
 
+.enigmabackground {
+  margin: 0px 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
 @media screen and (min-width: 767px) {
+  .padding {
+    margin: 0px 35px; }
   .mobileClass {
     display: none; }
   .tabClass {
     display: block; }
-  .imageAlignment, .enigmaCup {
+  .enigmaCup {
     margin: 15px 35px; }
   .imagemargin, .topimage {
-    padding: 15px 0px; }
+    padding: 15px 0px;
+    width: 100%; }
   .blob1 {
     width: 700px;
     top: 54vh; }
@@ -1394,7 +1455,7 @@ html, body {
       width: 92%; }
   .branding .back {
     background-repeat: no-repeat;
-    background-size: 98% 94%; }
+    background-size: 99% 100%; }
   .branding__concept {
     width: 607px;
     margin: 0px 0px 30px 15px; }
@@ -1415,19 +1476,23 @@ html, body {
     width: 80%;
     margin: 0 auto; }
   .branding .enigmabackground {
-    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    margin: 0px 30px;
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-position: center;
+    background-size: contain; }
   .branding__enigmalogo img {
     padding: 0px 34px; }
   .branding__enigmalist {
+    width: 100%;
     padding: 60px 34px; }
     .branding__enigmalist img {
       height: 95px;
       width: 130px;
-      padding: 0px; }
+      padding: 0px;
+      margin-top: 50px; }
     .branding__enigmalist h2 {
-      padding-bottom: 20px; }
+      padding-bottom: 0px;
+      text-align: left; }
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
@@ -1472,7 +1537,9 @@ html, body {
     .branding__fontfamily h2 {
       padding: 20px 0px 0px 0px; }
   .branding__icons {
-    padding: 70px 35px 40px; }
+    width: 100%;
+    padding: 70px 35px 40px;
+    text-align: left; }
     .branding__icons .threeIcon {
       width: 465px;
       padding-bottom: 20px; }
@@ -1483,13 +1550,15 @@ html, body {
       text-align: left; } }
 
 @media screen and (min-width: 1025px) {
+  .padding {
+    margin: 0px 42px; }
   .blob1 {
     width: 700px;
     top: 55vh; }
     .blob1 button {
       margin: 25px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 18px 39px; }
+  .enigmaCup {
+    margin: 18px 42px; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -1554,7 +1623,8 @@ html, body {
     padding: 70px 44px 96px; }
     .branding__enigmalist img {
       height: 118px;
-      width: 207px; }
+      width: 207px;
+      margin-top: 80px; }
   .branding__evolve {
     margin-right: 44px;
     height: 355px;
@@ -1576,6 +1646,10 @@ html, body {
       width: 90px; } }
 
 @media screen and (min-width: 1367px) {
+  .padding {
+    margin: 0px 150px; }
+  .branding .enigmabackground {
+    margin: 0px 60px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
@@ -1618,6 +1692,9 @@ html, body {
       height: 410px;
       right: -270px;
       top: 101px; }
+  .branding__enigmalogo {
+    width: 100%;
+    margin: 0 auto; }
   .branding__adapt {
     height: 446px;
     margin-top: 120px;
@@ -2020,11 +2097,15 @@ html, body {
   .blob1 button {
     margin: 16px 0px 0px; }
 
-.imageAlignment, .enigmaCup {
+.enigmaCup {
   margin: 10px 5px; }
 
 .imagemargin, .topimage {
-  padding: 10px 0px; }
+  padding: 10px 0px;
+  width: 100%; }
+
+.padding {
+  margin: 0px 5px; }
 
 .back {
   background-repeat: no-repeat;
@@ -2122,9 +2203,13 @@ html, body {
   padding: 0px 21px; }
 
 .branding__enigmalist {
-  padding: 50px 34px 24px; }
+  padding: 50px 0px 24px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
   .branding__enigmalist img {
-    padding-top: 30px; }
+    padding-top: 30px;
+    width: 112px; }
 
 .branding__evolve {
   height: 316px;
@@ -2154,7 +2239,10 @@ html, body {
     padding: 14px 0px 0px 0px; }
 
 .branding__icons {
-  padding: 23px 31px 40px; }
+  padding: 23px 0px 0px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
   .branding__icons img {
     padding-top: 30px;
     width: 50px; }
@@ -2167,15 +2255,23 @@ html, body {
 .tabClass {
   display: none; }
 
+.enigmabackground {
+  margin: 0px 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
 @media screen and (min-width: 767px) {
+  .padding {
+    margin: 0px 35px; }
   .mobileClass {
     display: none; }
   .tabClass {
     display: block; }
-  .imageAlignment, .enigmaCup {
+  .enigmaCup {
     margin: 15px 35px; }
   .imagemargin, .topimage {
-    padding: 15px 0px; }
+    padding: 15px 0px;
+    width: 100%; }
   .blob1 {
     width: 700px;
     top: 54vh; }
@@ -2258,7 +2354,7 @@ html, body {
       width: 92%; }
   .branding .back {
     background-repeat: no-repeat;
-    background-size: 98% 94%; }
+    background-size: 99% 100%; }
   .branding__concept {
     width: 607px;
     margin: 0px 0px 30px 15px; }
@@ -2279,19 +2375,23 @@ html, body {
     width: 80%;
     margin: 0 auto; }
   .branding .enigmabackground {
-    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    margin: 0px 30px;
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-position: center;
+    background-size: contain; }
   .branding__enigmalogo img {
     padding: 0px 34px; }
   .branding__enigmalist {
+    width: 100%;
     padding: 60px 34px; }
     .branding__enigmalist img {
       height: 95px;
       width: 130px;
-      padding: 0px; }
+      padding: 0px;
+      margin-top: 50px; }
     .branding__enigmalist h2 {
-      padding-bottom: 20px; }
+      padding-bottom: 0px;
+      text-align: left; }
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
@@ -2336,7 +2436,9 @@ html, body {
     .branding__fontfamily h2 {
       padding: 20px 0px 0px 0px; }
   .branding__icons {
-    padding: 70px 35px 40px; }
+    width: 100%;
+    padding: 70px 35px 40px;
+    text-align: left; }
     .branding__icons .threeIcon {
       width: 465px;
       padding-bottom: 20px; }
@@ -2347,13 +2449,15 @@ html, body {
       text-align: left; } }
 
 @media screen and (min-width: 1025px) {
+  .padding {
+    margin: 0px 42px; }
   .blob1 {
     width: 700px;
     top: 55vh; }
     .blob1 button {
       margin: 25px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 18px 39px; }
+  .enigmaCup {
+    margin: 18px 42px; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -2418,7 +2522,8 @@ html, body {
     padding: 70px 44px 96px; }
     .branding__enigmalist img {
       height: 118px;
-      width: 207px; }
+      width: 207px;
+      margin-top: 80px; }
   .branding__evolve {
     margin-right: 44px;
     height: 355px;
@@ -2440,6 +2545,10 @@ html, body {
       width: 90px; } }
 
 @media screen and (min-width: 1367px) {
+  .padding {
+    margin: 0px 150px; }
+  .branding .enigmabackground {
+    margin: 0px 60px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
@@ -2482,6 +2591,9 @@ html, body {
       height: 410px;
       right: -270px;
       top: 101px; }
+  .branding__enigmalogo {
+    width: 100%;
+    margin: 0 auto; }
   .branding__adapt {
     height: 446px;
     margin-top: 120px;

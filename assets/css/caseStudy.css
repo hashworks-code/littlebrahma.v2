@@ -70,6 +70,46 @@
   font-family: 'RajdhaniRegular';
   src: url("/assets/font/Rajdhani-Regular.ttf"); }
 
+@font-face {
+  font-family: 'MuliBold';
+  src: url("/assets/font/Muli-Bold.ttf"); }
+
+@font-face {
+  font-family: 'MuliLight';
+  src: url("/assets/font/Muli-Light.ttf"); }
+
+@font-face {
+  font-family: 'MuliRegular';
+  src: url("/assets/font/Muli-Regular.ttf"); }
+
+@font-face {
+  font-family: 'MuliSemiBold';
+  src: url("/assets/font/Muli-SemiBold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url("/assets/font/NotoSans-Bold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url("/assets/font/NotoSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url("/assets/font/Nunito-Regular.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url("/assets/font/Helvetica Neu Bold.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("/assets/font/HelveticaNeue Light.ttf"); }
+
+@font-face {
+  font-family: 'HHelveticaNeueMeduim';
+  src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
+
 body {
   overflow-x: hidden; }
 
@@ -163,7 +203,8 @@ table {
     font-family: 'MavenPro-Medium';
     font-size: 24px;
     font-weight: 500;
-    color: #393939; }
+    color: #393939;
+    line-height: normal; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
@@ -1028,12 +1069,13 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: 100% 100%;
-  background-position: center;
-  position: relative;
-  background-image: url("/assets/img/common/footer.jpg");
+  background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 760px; }
+  width: 100%;
+  position: relative;
+  background-image: url("/assets/img/common/Footr_img.png");
+  height: 100vh; }
   .footer__inner {
     font-size: 48px;
     font-family: 'MavenPro-Regular';

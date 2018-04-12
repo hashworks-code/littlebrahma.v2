@@ -140,7 +140,7 @@ product_title: Mapping the order-flow management
 product_title1: OPM
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/opm.png"
+banner_image: "/assets/img/caseStudy/OPM.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
 

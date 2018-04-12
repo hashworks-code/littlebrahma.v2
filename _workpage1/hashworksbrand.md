@@ -12,6 +12,16 @@ title: Hashworks Branding
 textcolor: text-white
 enigma_banner: "/assets/img/branding/groome-copy-3.jpg"
 
+background:
+  - image: "/assets/img/branding/hashworks/hashconceptmob.png"
+    imageType: "mobile"
+  - image: "/assets/img/branding/hashworks/hashconceptTab.png"
+    imageType: "tab"
+backgroundlogo:
+  - imagelogo: "/assets/img/branding/hashworks/hashLogoMob.png"
+    imageTypelogo: "mobileLogo"
+  - imagelogo: "/assets/img/branding/hashworks/hashLogoTab.png"
+    imageTypelogo: "tabLogo"
 
 brandImage1: "hash1.jpg"
 brandImage2: "hash2.jpg"
@@ -36,10 +46,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
-conceptImage1: "hashconcept1.jpg"
-conceptImage2: "hashconcept2.jpg"
-conceptImage3: "hashconcept3.jpg"
-conceptImage4: "hashconcept4.jpg"
+conceptImage1: "hashconcept1.png"
+conceptImage2: "hashconcept2.png"
+conceptImage3: "hashconcept3.png"
+conceptImage4: "hashconcept4.png"
 
 finallogo: "hashlogo1.svg"
 
@@ -48,14 +58,14 @@ meaningpara: "The logo encompasses the idea of packing a code and pushing it for
 meaningImage: "hashMean.svg"
 enigmalogo: "hashbreak.svg"
 
-variations1: "variation1.svg"
-variations2: "variation2.svg"
-variations3: "variation3.svg"
-variations4: "variation4.svg"
-variations5: "variation5.svg"
-variations6: "variation6.svg"
-variations7: "variation7.svg"
-variations8: "variation8.svg"
+variations1: "hashvar1.svg"
+variations2: "hashvar2.svg"
+variations3: "hashvar4.svg"
+variations4: "hashvar3.svg"
+variations5: "hashvar5.svg"
+variations6: "hashvar6.svg"
+variations7: "hashvar7.svg"
+variations8: "hashvar8.svg"
 
 
 evolveTitle: "Evolve"
@@ -91,7 +101,9 @@ fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. D
 
 enigmaImageListt:
   - enigmaimg: "hashworks-logo.png"
+    class: padding
   - enigmaimg: "hashbee1.jpg"
+    class: padding
   
 
 enigmaImage2: "hashbee2.jpg"
@@ -99,13 +111,21 @@ enigmaImage3: "hashbee3.jpg"
 
 enigmaImageList:
   - enigmaImage: "hashbee4.jpg"
+    class: padding
   - enigmaImage: "hashbee5.jpg"
+    class: padding
   - enigmaImage: "hashbee6.jpg"
+    class: padding
   - enigmaImage: "hashbee7.jpg"
+    class: padding
   - enigmaImage: "hashbee8.jpg"
+    class: padding
   - enigmaImage: "hashbee9.jpg"
+    class: padding
   - enigmaImage: "hashbee10.jpg"
+    class: Nopadding
   - enigmaImage: "hashbee11.jpg"
+    class: padding
 
 
 ---

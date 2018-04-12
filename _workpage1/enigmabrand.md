@@ -11,14 +11,21 @@ url: "ServiceDesign1"
 title: Enigma Branding
 textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
+
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 
 background:
-  - image: "/assets/img/branding/hashworks/group-15.svg"
+  - image: "/assets/img/branding/hashworks/enigmconceptmob.svg"
     imageType: "mobile"
-  - image: "/assets/img/branding/hashworks/pattern.svg"
+  - image: "/assets/img/branding/hashworks/enigmconceptTab.png"
     imageType: "tab"
+
+backgroundlogo:
+  - imagelogo: "/assets/img/branding/hashworks/enigmaLogoMob.png"
+    imageTypelogo: "mobileLogo"
+  - imagelogo: "/assets/img/branding/hashworks/enigmaLogoTab.png"
+    imageTypelogo: "tabLogo"
 
 brandImage1: "1.jpg"
 brandImage2: "2.jpg"
@@ -43,10 +50,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
-conceptImage1: "a.png"
-conceptImage2: "b.png"
-conceptImage3: "c.png"
-conceptImage4: "d.png"
+conceptImage1: "enigmaa.svg"
+conceptImage2: "enigmab.svg"
+conceptImage3: "enigmac.svg"
+conceptImage4: "enigmad.svg"
 
 finallogo: "logo.svg"
 
@@ -98,17 +105,24 @@ icon_list1:
 
 enigmaImageListt:
   - enigmaimg: "1.jpg"
+    class: padding
 
 enigmaImage2: "2.jpg"
 enigmaImage3: "3.jpg"
 
 enigmaImageList:
   - enigmaImage: "4.jpg"
+    class: Nopadding
   - enigmaImage: "5.jpg"
+    class: Nopadding
   - enigmaImage: "6.jpg"
+    class: padding
   - enigmaImage: "7.jpg"
+    class: padding
   - enigmaImage: "8.jpg"
+    class: Nopadding
   - enigmaImage: "web-mock-01.jpg"
+    class: Nopadding
 
 ---
 

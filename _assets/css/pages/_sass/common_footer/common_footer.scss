@@ -69,12 +69,14 @@
 //    }
 //  }
 .footer{
-  background-size: 100% 100%;
-  background-position: center;
+  background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
   position:relative;
-  background-image: url("/assets/img/common/footer.jpg");
-  background-repeat: no-repeat;
-  height: 760px;
+  background-image: url("/assets/img/common/Footr_img.png");
+  // background-repeat: no-repeat;
+  height:100vh;
   &__inner{
     font-size: 48px;
     font-family: 'MavenPro-Regular';

@@ -14,13 +14,16 @@
             margin: 16px 0px 0px;
         }
     }
-.imageAlignment,.enigmaCup{
+.enigmaCup{
     margin: 10px 5px;
 }
 .imagemargin,.topimage{
     padding: 10px 0px;
+    width: 100%;
 }
-
+.padding{
+    margin: 0px 5px; 
+}
 
     .back{
         // background-image: url(/assets/img/branding/hashworks/group-15.svg);
@@ -143,9 +146,13 @@
    }
 }
 &__enigmalist{
-    padding: 50px 34px 24px;
+    padding: 50px 0px 24px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
     img{
        padding-top: 30px;
+       width: 112px;
     }
 }
 &__evolve{
@@ -184,7 +191,10 @@ p{
     }
 }
 &__icons{
-    padding: 23px 31px 40px;
+    padding: 23px 0px 0px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
     img{
     padding-top: 30px;
        width: 50px;
@@ -200,20 +210,28 @@ p{
 .tabClass{
     display: none;
 }
-
+.enigmabackground{
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 @media screen and (min-width:767px){
+    .padding {
+        margin: 0px 35px;
+    }
     .mobileClass{
         display: none;
     }
     .tabClass{
         display: block;
     }
-      .imageAlignment,.enigmaCup{
+    .enigmaCup{
         margin: 15px 35px;
     }
     .imagemargin ,.topimage{
         padding: 15px 0px;
+        width: 100%;
     }
 
     .blob1{
@@ -312,7 +330,7 @@ p{
 }
 .back{
     background-repeat: no-repeat;
-    background-size: 98% 94%;
+    background-size: 99% 100%;
   }
 &__concept{
     width: 607px;
@@ -343,9 +361,10 @@ p{
     margin: 0 auto; 
 }
 .enigmabackground{
-    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    margin: 0px 30px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: contain
 }
 &__enigmalogo{
    img{
@@ -353,14 +372,17 @@ p{
    }
 }
 &__enigmalist{
+    width: 100%;
     padding: 60px 34px;
     img{
        height: 95px;
        width: 130px;
        padding: 0px;
+       margin-top: 50px;
     }
     h2{
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        text-align: left;
     }
 }
 .colorPalette{
@@ -402,7 +424,9 @@ h2{
     }
 }
 &__icons{
+    width: 100%;
     padding: 70px 35px 40px;
+    text-align: left;
     .threeIcon{
         width: 465px;
         padding-bottom: 20px;
@@ -420,6 +444,9 @@ h2{
 }
 
 @media screen and (min-width:1025px){
+    .padding {
+        margin: 0px 42px;
+    }
     .blob1{
         width:700px;
         top:55vh;
@@ -427,8 +454,8 @@ h2{
             margin: 25px 0px 0px;
         }
     }
-    .imageAlignment,.enigmaCup{
-        margin: 18px 39px;
+    .enigmaCup{
+        margin: 18px 42px;
     }
     .imagemargin,.topimage{
         padding: 18px 0px;
@@ -527,6 +554,7 @@ h2{
         img{
             height: 118px;
             width: 207px;
+            margin-top: 80px;
         }
     }
     &__evolve{
@@ -561,7 +589,12 @@ h2{
     }
 
 @media screen and (min-width:1367px){
-
+    .padding {
+        margin: 0px 150px;
+    }
+    .branding .enigmabackground {
+        margin: 0px 60px;
+    }
     .blob1{
         width:700px;
         top: 56vh;
@@ -626,6 +659,10 @@ h2{
         right: -270px;
         top: 101px;
         }
+    }
+    &__enigmalogo{
+        width: 100%;
+        margin: 0 auto; 
     }
     &__adapt{
         height:446px;
