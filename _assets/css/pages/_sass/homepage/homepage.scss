@@ -12,7 +12,7 @@
             // background-position: right;
              height: 710px;
             &__Content{
-                padding: 300px 0 0 165px;
+                padding: 21% 0 0 10%;
                 width: 655px;
                 color: #5d6a6f;
                 h1{
@@ -167,8 +167,8 @@
         display: flex;
         justify-content: center;
         align-self: center;
-        margin-top: 180px;
-        margin: 180px 83px 0;
+        // margin-top: 180px;
+       
         padding-bottom: 50px;
         &__left{
             padding-right: 125px;
@@ -215,6 +215,10 @@
     color: #393939;
     padding-bottom: 50px;
 }
+
+.lb-ourworks-dna{
+    margin: 100px 83px 0;
+}
 @media screen and (max-width: 1366px) {
     .lb-ourworks{
         font-size: 40px;
@@ -229,7 +233,7 @@
                 background-size: 34%;
                 background-position: right 140px;
                 &__Content{
-                    padding: 270px 0 0 42px;
+                    padding: 21% 0 0 10%;
                     width: 462px;
                     h1{
                         font-size: 48px;
@@ -284,7 +288,7 @@
             }
         }
         &__dna{
-            margin: 180px 42px 0;
+            
             &__left{
                 img{
                     width: 366px;
@@ -306,7 +310,9 @@
             }
         }
     }
-   
+    .lb-ourworks-dna{
+        margin: 180px 42px 0;
+    }
 }
 @media screen and (max-width: 1023px) {
     .homePage{
@@ -314,7 +320,7 @@
             &__Inner{
                 height: auto;
                 &__Content{
-                    padding: 202px 0 0 34px;
+                    padding: 21% 0 0 10%;
                     width: 342px;
                     h1{
                         font-size: 32px;
@@ -355,7 +361,7 @@
             }
         }
         &__dna{
-            margin: 180px 34px 0;
+            
             &__left{
                 img{
                     width: 250px;
@@ -381,6 +387,9 @@
         font-size: 24px;
         padding-bottom: 0px;
     }
+    .lb-ourworks-dna{
+        margin: 180px 34px 0;
+    }
 }
 @media screen and (max-width: 767px) {
     .homePage{
@@ -393,8 +402,9 @@
                 height: 710px;
                 background-image: none;
                 &__Content{
-                    padding: 120px 50px 0 50px;
-                    width: 315px;
+                     padding: 0 50px 0 50px;
+                    // width: 315px;
+                    padding-top:35%;
                     text-align: center;
                     margin: 0 auto;
                     position: relative;
@@ -415,7 +425,7 @@
                 h1{
                     color: #5d6a6f;
                     margin-top: -390px;
-                    font-size: 16px;
+                    font-size: 24px;
                     margin-bottom: 40px;
                 }
                 &__Cards{
@@ -450,7 +460,7 @@
             }
         }
         &__dna{
-            margin: 144px 0 0;
+            
             display: block;
             &__left{
                 padding-right: 0;
@@ -478,9 +488,13 @@
                 }
             }
         }
+        
     }
     .lb-ourworks{
         font-size: 24px;
         padding-bottom: 0px;
+    }
+    .lb-ourworks-dna{
+        margin: 144px 0 0;
     }
 }
