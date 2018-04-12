@@ -103,17 +103,24 @@ icon_list1:
 
 enigmaImageListt:
   - enigmaimg: "mockup-1.jpg"
+    class: padding
   - enigmaimg: "mockup-2.jpg"
+    class: Nopadding
   - enigmaimg: "mockup-3.jpg"
+    class: Nopadding
   - enigmaimg: "mockup-4.jpg"
+    class: padding
   - enigmaimg:  "mockup-5.jpg"
+    class: padding
 
 enigmaImage2: "mockup-6.jpg"
 enigmaImage3: "mockup-7.jpg" 
 
 enigmaImageList:
   - enigmaImage: "mockup-8.jpg"
+    class: padding
   - enigmaImage: "mockup-9.jpg"
+    class: Nopadding
 
 
 ---

@@ -1198,12 +1198,15 @@ html, body {
   .blob1 button {
     margin: 16px 0px 0px; }
 
-.imageAlignment, .enigmaCup {
+.enigmaCup {
   margin: 10px 5px; }
 
 .imagemargin, .topimage {
   padding: 10px 0px;
   width: 100%; }
+
+.padding {
+  margin: 0px 5px; }
 
 .back {
   background-repeat: no-repeat;
@@ -1359,11 +1362,13 @@ html, body {
   background-size: 100% 100%; }
 
 @media screen and (min-width: 767px) {
+  .padding {
+    margin: 0px 35px; }
   .mobileClass {
     display: none; }
   .tabClass {
     display: block; }
-  .imageAlignment, .enigmaCup {
+  .enigmaCup {
     margin: 15px 35px; }
   .imagemargin, .topimage {
     padding: 15px 0px;
@@ -1545,13 +1550,15 @@ html, body {
       text-align: left; } }
 
 @media screen and (min-width: 1025px) {
+  .padding {
+    margin: 0px 42px; }
   .blob1 {
     width: 700px;
     top: 55vh; }
     .blob1 button {
       margin: 25px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 18px 39px; }
+  .enigmaCup {
+    margin: 18px 42px; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -1639,6 +1646,8 @@ html, body {
       width: 90px; } }
 
 @media screen and (min-width: 1367px) {
+  .padding {
+    margin: 0px 150px; }
   .branding .enigmabackground {
     margin: 0px 60px; }
   .blob1 {
