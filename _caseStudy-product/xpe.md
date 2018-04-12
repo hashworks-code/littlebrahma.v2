@@ -83,19 +83,16 @@ SImg3: "LB-xpe-output"
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "xpe-data-02"
 
-SImg6: "xpe-graph"
-SImg7: "xpe-catalog"
-SImg8: "xpe-perf"
-SImg9: "xpe-dashboard"
-SImg10: "xpe-admin"
+
+SImg10: "xpe-images-06"
 SImg11: "style-guid"
 SImg12: "xpe-first-screen"
-SImg13: "xpe-group"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
+    - SImg18: "group-6"
     - SImg18: "xps-screen-collage"
     - SImg18: "xpe-mockup-1"
     - SImg18: "xpe-mockup-2"
@@ -107,21 +104,11 @@ csubHead5: "Output"
 cContent10: "A workflow a driven engineering platform with insightful dashboard for measuring the application performance and stability."
 
 
-cHead6: "1.  Integration Workbench"
-cContent11: "Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard."
-
-cHead7: "2.  “Workload model catalogue” for production systems"
-cContent12: "Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard."
-
-cHead8: "3.  Workbench for perf engineers"
-cContent13: "Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM."
-
-cHead9: "4.  Delivery dashboard to status perf execution & test results"
-cContent14: "Delivery dashboard to status perf execution & test results for project teams & executives."
 
 
-cHead10: "5.  Admin console & configuration screens"
-cContent15: "Admin console & configuration screens for management."
+
+cHead10: "6.  Design"
+cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to access risk of delivery & data-driven for the executive teams to measure product quality."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
@@ -130,6 +117,31 @@ cContent16: "Heat map analysis conducted on the design prototypes helped us to c
 box-Head7: '100%'
 box-Head8: ''
 box-para5: 'Real-time insights for pro-active'
+
+
+division_loop:
+    - cHead6: '1.  Integration Workbench'
+      cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
+      SImg6: 'xpe-graph'
+
+    - cHead6: '2.  Workbench for perf engineers'
+      cContent11: 'Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
+      SImg6: 'xpe-perf'
+
+    - cHead6: '3.  Delivery dashboard to status perf execution & test results'
+      cContent11: 'Delivery dashboard to status perf execution & test results for project teams & executives.'
+      SImg6: 'xpe-dashboard'
+
+    - cHead6: '4.  Admin console & configuration screens'
+      cContent11: 'Admin console & configuration screens for management.'
+      SImg6: 'xpe-admin'
+
+
+full_image:
+    - cHead8: '2.  “Workload model catalogue” for production systems'
+      cContent13: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
+      SImg8: 'xpe-catalog'
+
 
 
 cat: Service Design

@@ -6,38 +6,31 @@ keywords: Human Recourse Management system, Hiring solution, Talent Management S
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/myb.png"
 banner-Head: "Mysterybox"
-banner-cnt: "Simplified order visibility for BizOps and Sales"
+banner-cnt: "A retail software to improve brand equity value"
 
-box-Head1: "65,000"
-box-para1: "Agents, Support & Sales 
-        teams across the globe 
-        using the system  "
-UImg1: "user"
+box_lists:
+    - box-Head1: '20%'
+      box-para1: 'Increase in customer foot fall'
+      UImg1: 'user'
 
-box-Head2: "10 Million"
-box-para2: "Avg. monthly search
-            volumes helping us discover
-            the app experience"
-UImg2: "search"
-
-box-Head3: "28"
-box-para3: "System integrations
-            defining the adoption
-            in the client ecosystem"
-UImg3: "user"
+    - box-Head1: '8000+'
+      box-para1: 'Retail therapist on-boarded to validate store experience'
+      UImg1: 'myb-user'
 
 cHead1: "Introduction"
-cContent1: "GOV is designed to mitigate high risk and high impact to orders booked by customers through various                channels and ensure high predictability on order delivery and fulfilling rich customer experience."
+cContent1: "Mystery box is an assessment platform for retail brands to enhance customer shopping experience. The retail industry is evolving towards connecting human emotions to maximize the brand equity value."
 
-SImg1: "group-3"
+SImg1: "myb-data"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
+content_para:
 
-cContent3: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
+    - cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
+
+    - cContent2: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
 
 content_lists:
 
@@ -47,8 +40,12 @@ content_lists:
 
 cHead3: "Perceive"
 csubHead3: "Getting into the shoes of Bizops "
-cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
-cContent6: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
+
+perceive_para:
+
+    - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+
+    - cContent5: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
 
 content_lists1:
 
@@ -58,6 +55,7 @@ content_lists1:
     - cContent7: '- Management of workflows created for order holds'
     - cContent7: '- Micro views of order delay stages'
     - cContent7: '- Simplified solution for workforce orchestration'
+    - cContent7: '- Real-time insights required by the stakeholders'
 
 
 
@@ -87,9 +85,9 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg15: "lower-image"
-    - SImg15: "mockup-1"
-    - SImg15: "mockup-2"
+    - SImg18: "lower-image"
+    - SImg18: "mockup-1"
+    - SImg18: "mockup-2"
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
