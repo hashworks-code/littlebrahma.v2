@@ -126,10 +126,10 @@ full_image:
 
 
 cat: Service Design
-product_title: Simplifying talent hunt
+product_title: Fruad detectation tool for E-commerce platform
 product_title1: GAFT
-product_description: Branding / Visual identity / Application / Website
-product_thumbnail_description: TALENT AQUISITION
+product_description: Application
+#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy-service/gaft.png"
 textcolor: text-black
 url: "ServiceDesign1"

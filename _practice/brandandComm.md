@@ -14,10 +14,9 @@ practice_lists:
 homebackgroundimg: /assets/img/workpage/group-3.png
 published: true
 practiceList: Branding and Communication
-practiceList1: Brand voice
+practiceList1: Visual communication
 practiceList2: Print media
-practiceList3: Visual Language
-practiceList4: Package design
+practiceList3: Package design
 practiceImg: "/assets/img/homepage/mask.svg"
 backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'

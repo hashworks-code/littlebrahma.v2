@@ -123,10 +123,10 @@ box-para5: 'Latency to perform an
 
 
 cat: Service Design
-product_title: Simplifying talent hunt
+product_title: Evaluating the shopping experience.
 product_title1: MYB
-product_description: Branding / Visual identity / Application / Website
-product_thumbnail_description: TALENT AQUISITION
+product_description: Branding / Visual identity / Application
+#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/MYB.jpg"
 textcolor: text-black
 url: "ServiceDesign1"

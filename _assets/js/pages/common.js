@@ -1,12 +1,26 @@
 (function() {
-
+$(window).resize(function(){
+    if(screen.width > 767){
+        var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
+        $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
+        $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+    }
+    
+});
     $(document).ready(function() {
-        
+        if(screen.width > 767){
+            var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
+            $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
+            $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+        }        
         brandlength=$('.brndcomm').length;
         // $('[data-toggle="popover"]').click(function(){
         //     $(this).popover('show');
         //     $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
         // });
+        $(".dropdown-menu li").click(function(){
+            $(".option").text($(this).text());
+        });
         var widthofwindow=$(window).width();
             if(widthofwindow<768){
                 // $("[data-toggle=popover]").popover().attr('
@@ -199,9 +213,12 @@
             $("#lb_btn1").show();
             $("#lb_btn").hide();
               
-
-            if ($(window).width() > 767) {
+             if ($(window).width() > 767) {
                 var id =$('.lb_work_filterActive').attr('id');
+             }
+             if ($(window).width() <= 767) {
+                var id =$('.dropdown .lb_work_filterActive').attr('data');
+             }
                 if(id == 'filterli-1'){
                     $('.prod').show();
                 }
@@ -211,19 +228,19 @@
                 else if(id == 'filterli-3'){
                         $('.brndcomm').show();
                 }     
-            }
-            if ($(window).width() <= 767) {
-                var id =$('.work_select').attr('value');
-                if(id == 'filterli-1'){
-                    $('.prod').show();
-                }
-                else if(id == 'filterli-2'){
-                    $('.service').show();
-                }
-                else if(id == 'filterli-3'){
-                        $('.brndcomm').show();
-                }  
-            }
+            
+            // if ($(window).width() <= 767) {
+            //     var id =$('.work_select').attr('id');
+            //     if(id == 'filterli-1'){
+            //         $('.prod').show();
+            //     }
+            //     else if(id == 'filterli-2'){
+            //         $('.service').show();
+            //     }
+            //     else if(id == 'filterli-3'){
+            //             $('.brndcomm').show();
+            //     }  
+            // }
         });
 
         $('#lb_service_btn').click(function(){
@@ -280,8 +297,14 @@
         $('#lb_btn1').click(function(){
             $("#lb_btn1").hide();
             $("#lb_btn").show();
-            if ($(window).width() > 767) {
-            var id =$('.lb_work_filterActive').attr('id');
+            // if ($(window).width() > 767) {
+                if ($(window).width() > 767) {
+                    var id =$('.lb_work_filterActive').attr('id');
+                 }
+                 if ($(window).width() <= 767) {
+                    var id =$('.dropdown .lb_work_filterActive').attr('data');
+                 }
+            // var id =$('.lb_work_filterActive').attr('data');
             
             var count=0;
             if(id == 'filterli-1'){
@@ -315,41 +338,41 @@
                     }
                 })
             } 
-        }
-        if ($(window).width() <= 767) {
-            var id =$('.work_select').attr('value');
-            if(id == 'filterli-1'){
-                $('.prod').each(function (index) { 
-                    if(index<=3){
-                        $(this).add();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            }
-            else if(id == 'filterli-2'){
-                $('.service').each(function (index) { 
-                    if(index<=3){
-                        $(this).add();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            }
-            else if(id == 'filterli-3'){
-                var prodcount=$('.brndcomm').length;
-                $('.brndcomm').each(function (index) { 
-                    if(index<=3){
-                        $(this).add();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            } 
-        }
+        // }
+        // if ($(window).width() <= 767) {
+            // var id =$('.work_select').attr('value');
+            // if(id == 'filterli-1'){
+            //     $('.prod').each(function (index) { 
+            //         if(index<=3){
+            //             $(this).add();
+            //         }
+            //         else{
+            //             $(this).hide();
+            //         }
+            //     })
+            // }
+            // else if(id == 'filterli-2'){
+            //     $('.service').each(function (index) { 
+            //         if(index<=3){
+            //             $(this).add();
+            //         }
+            //         else{
+            //             $(this).hide();
+            //         }
+            //     })
+            // }
+            // else if(id == 'filterli-3'){
+            //     var prodcount=$('.brndcomm').length;
+            //     $('.brndcomm').each(function (index) { 
+            //         if(index<=3){
+            //             $(this).add();
+            //         }
+            //         else{
+            //             $(this).hide();
+            //         }
+            //     })
+            // } 
+        // }
         })
        
         // var count=0;
