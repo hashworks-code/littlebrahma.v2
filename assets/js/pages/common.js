@@ -71,7 +71,9 @@ $(window).resize(function(){
                 }
             });
         });
-        $(".trigger-1").trigger( "click" );
+        if(screen.width > 767){
+         $(".trigger-1").trigger( "click" );
+        }
         
         $('.prod').each(function (index) { 
             if(index<=3){
