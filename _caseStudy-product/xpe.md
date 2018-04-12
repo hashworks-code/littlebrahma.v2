@@ -145,8 +145,8 @@ full_image:
 
 
 cat: Service Design
-product_title: Simplifying talent hunt
-product_title1: XPE
+product_title: Extreme Performance Engg.
+product_title1: Extreme Performance Engg.
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
