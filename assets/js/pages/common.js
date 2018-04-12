@@ -1,7 +1,19 @@
 (function() {
-
+$(window).resize(function(){
+    if(screen.width > 767){
+        var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
+        $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
+        $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+    }
+    
+});
     $(document).ready(function() {
         
+        if(screen.width > 767){
+            var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
+            $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
+            $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+        }        
         brandlength=$('.brndcomm').length;
         // $('[data-toggle="popover"]').click(function(){
         //     $(this).popover('show');
@@ -30,7 +42,7 @@
                 }
         });
     }
-
+    
         $('body').on('click', function (e) {
             var count =1;
             $('[data-toggle=popover]').each(function () {
@@ -59,6 +71,7 @@
                 }
             });
         });
+        $(".trigger-1").trigger( "click" );
         
         $('.prod').each(function (index) { 
             if(index<=3){

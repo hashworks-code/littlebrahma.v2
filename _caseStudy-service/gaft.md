@@ -77,22 +77,20 @@ SImg3: "gaft-user-flow"
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "gaft-data-02"
 
-SImg6: "bitmap1"
-SImg7: "group-5"
-SImg8: "bitmap2"
-SImg9: "bitmap3"
-SImg10: "wireframw-001"
+
+SImg10: "gaft-wire-frame"
 SImg11: "style-guid"
 SImg12: "gaft-search"
-SImg13: "group-6"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "lower-image"
+    - SImg18: "group-6"
+    - SImg18: "gaft-screens"
     - SImg18: "gaft-auth"
     - SImg18: "gaft-lookup"
+    
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
@@ -101,21 +99,10 @@ csubHead5: "Output"
 cContent10: "We were able to come up with following solutions for our customers."
 
 
-cHead6: "1.  Compact & efficient search functionality"
-cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
-
-cHead7: "2. Short story of an entire order flow "
-cContent12: "Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow."
-
-cHead8: "3.  Information abstracted in schematic form"
-cContent13: "Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales."
-
-cHead9: "4.  Smart sorting of data"
-cContent14: "Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec."
 
 
-cHead10: "5.  Design"
-cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+cHead10: "3.  Design"
+cContent15: "A modern, interactive and call to action based user experience."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
@@ -126,12 +113,24 @@ box-Head8: ''
 box-para5: 'Features allowing the users to resolve frauds from one platform'
 
 
+division_loop:
+    - cHead6: '1.  Upgradation of the solution'
+      cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
+      SImg6: 'gaft-senario'
+
+    - cHead6: '2.  Scenario based engg. techniques'
+      cContent11: 'Scenario based engg. techniques to capture business outcomes.'
+      SImg6: 'gaft-senario-2'
+
+full_image:
+
+
 cat: Service Design
 product_title: Fruad detectation tool for E-commerce platform
 product_title1: GAFT
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gaft.png"
+banner_image: "/assets/img/caseStudy/GAFT.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
 

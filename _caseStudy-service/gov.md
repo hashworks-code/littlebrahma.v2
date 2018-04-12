@@ -83,22 +83,20 @@ SImg3: "gov-user-flow"
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "people"
 
-SImg6: "bitmap1"
-SImg7: "group-5"
-SImg8: "bitmap2"
-SImg9: "bitmap3"
+
 SImg10: "wireframw-001"
 SImg11: "style-guid"
 SImg12: "1-gov"
-SImg13: "group-6"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "gaft-screens"
+    - SImg18: "group-6"
+    - SImg18: "lower-image"
     - SImg18: "mockup-1"
     - SImg18: "mockup-2"
+    
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
@@ -106,18 +104,6 @@ cContent9: "Our design component definition, enabled us to socialize the first v
 csubHead5: "Output"
 cContent10: "All the parties involved had the same expectation on the outcome of the work."
 
-
-cHead6: "1.  Compact & efficient search functionality"
-cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
-
-cHead7: "2. Short story of an entire order flow "
-cContent12: "Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow."
-
-cHead8: "3.  Information abstracted in schematic form"
-cContent13: "Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales."
-
-cHead9: "4.  Smart sorting of data"
-cContent14: "Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec."
 
 
 cHead10: "5.  Design"
@@ -133,12 +119,32 @@ box-para5: 'Latency to perform an
             action on Hold'
 
 
+
+
+division_loop:
+    - cHead6: '1.  Compact & efficient search functionality'
+      cContent11: ' Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
+      SImg6: 'bitmap1'
+
+    - cHead6: '2. Short story of an entire order flow '
+      cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow.'
+      SImg6: 'group-5'
+
+full_image:
+    - cHead8: '3.  Information abstracted in schematic form'
+      cContent13: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
+      SImg8: 'bitmap2'
+
+    - cHead8: '4.  Smart sorting of data'
+      cContent13: 'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
+      SImg8: 'bitmap3'
+
 cat: Service Design
 product_title: Enterprise order management tool
 product_title1: GOV
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gov-banner.png"
+banner_image: "/assets/img/caseStudy/gov-banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
 

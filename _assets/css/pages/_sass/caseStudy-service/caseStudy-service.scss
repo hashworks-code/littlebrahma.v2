@@ -1,5 +1,6 @@
 
 @import "caseStudy_detail/caseStudy_detail.scss";
+@import "appbranding/appbranding.scss";
 .cs-service{
     max-width: 1440px;
         margin: 0 auto;
@@ -41,7 +42,7 @@
 }
 .caseStudy__bgImg2 {
     margin: 120px 0;
-    min-height: 850px;
+    min-height: 100%;
     padding: 50px 0 50px 40px;
     background-size: 100% 100%;
 }
@@ -72,7 +73,8 @@
     }
 }
 .caseStudy__bgImg {
-    padding: 20px 0;
+    min-height: 100%;
+    padding: 50px 0;
     width: 75%;
 }
 .caseStudy__content2 {
@@ -85,7 +87,7 @@
     top: 15%;
 }
 .CSService4{
-    margin: 120px 260px 0 260px;
+    margin: 120px 170px 0 170px;
     .padding-left{
         padding-left: 80px !important;
     }
@@ -147,7 +149,7 @@
         
     }
     .caseStudy__bgImg2 {
-        min-height: 620px;
+        min-height: 100%;
         padding: 50px 0;
     }
     .caseStudy__content4 {
@@ -164,7 +166,7 @@
         margin: 0 42px;
     }
     .caseStudy__bgImg {
-        min-height: 463px;
+        min-height: 100%;
         margin-top: 120px;
         width: 75%;
     }
@@ -173,12 +175,12 @@
         padding-left: 42px;
     }
     .caseStudy .SceneImg img {
-        width: 38%;
-        height: 66%;
+        width: 30%;
+        height: 71%;
         
     }
     .CSService4{
-        margin: 96px 120px 0 120px;
+        margin: 96px 44px 0 44px;
         .padding-bottom{
             padding-bottom: 60px;
         }
@@ -230,7 +232,8 @@
             
         }
         .caseStudy__bgImg2 {
-            min-height: 462px;
+            min-height: 100%;
+            padding: 50px 0;
             margin: 80px 0;
 
         }
@@ -248,7 +251,7 @@
             margin: 0 34px;
         }
         .caseStudy__bgImg {
-            min-height: 358px;
+            min-height: 100%;
             margin-top: 72px;
         }
         .caseStudy__content2 {
@@ -256,12 +259,13 @@
             padding-left: 42px;
         }
         .caseStudy .SceneImg img {
-            width: 38%;
-            height: 66%;
+            
+                width: 31%;
+                height: 71%;
             
         }
         .CSService4{
-            margin: 64px 94px 0 94px;
+            margin: 64px 34px 0 34px;
             .padding-bottom{
                 padding-bottom: 64px;
             }
@@ -319,7 +323,7 @@
                 
             }
             .caseStudy__bgImg2 {
-                min-height: 580px;
+                min-height: 100%;
                 margin: 80px 0 130px;
                 padding: 45px 0 115px;
     
@@ -342,7 +346,7 @@
                 margin: 0 6px;
             }
             .caseStudy__bgImg {
-                min-height: 430px;
+                min-height: 100%;
                 margin-top: 72px;
                 padding: 45px 0 115px;
                 width: 100%;
@@ -363,7 +367,7 @@
                 margin-bottom: 150px;
             }
             .CSService4{
-                margin: 0 32px 0 32px;
+                margin: 0;
                 .padding-bottom{
                     padding-bottom: 40px;
                 }
@@ -395,10 +399,16 @@
                 padding: 40px 15px 23px !important;
                     }
                     .divA{
-                        order:2;
+                        order:1;
                     }
                     .divB{
-                        order:1;
+                        order:2;
+                    }
+                    .divC{
+                        order: 3;
+                    }
+                    .divD{
+                        order: 4;
                     }
         
             }
