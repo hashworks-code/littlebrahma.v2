@@ -13,10 +13,17 @@ textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"
 
 background:
-  - image: "/assets/img/branding/hashworks/groomebackmob.svg"
+  - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
     imageType: "mobile"
-  - image: "/assets/img/branding/hashworks/groomeback.svg"
+  - image: "/assets/img/branding/hashworks/groomeconceptTab.png"
     imageType: "tab"
+    
+backgroundlogo:
+  - imagelogo: "/assets/img/branding/hashworks/groomeLogoMob.png"
+    imageTypelogo: "mobileLogo"
+  - imagelogo: "/assets/img/branding/hashworks/groomeLogoTab.png"
+    imageTypelogo: "tabLogo"
+    
 
 brandImage1: "groome1.jpg"
 brandImage2: "groome2.jpg"

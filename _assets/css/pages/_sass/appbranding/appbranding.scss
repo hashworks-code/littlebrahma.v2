@@ -19,6 +19,7 @@
 }
 .imagemargin,.topimage{
     padding: 10px 0px;
+    width: 100%;
 }
 
 
@@ -143,9 +144,13 @@
    }
 }
 &__enigmalist{
-    padding: 50px 34px 24px;
+    padding: 50px 0px 24px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
     img{
        padding-top: 30px;
+       width: 112px;
     }
 }
 &__evolve{
@@ -184,7 +189,10 @@ p{
     }
 }
 &__icons{
-    padding: 23px 31px 40px;
+    padding: 23px 0px 0px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
     img{
     padding-top: 30px;
        width: 50px;
@@ -200,7 +208,11 @@ p{
 .tabClass{
     display: none;
 }
-
+.enigmabackground{
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 @media screen and (min-width:767px){
     .mobileClass{
@@ -214,6 +226,7 @@ p{
     }
     .imagemargin ,.topimage{
         padding: 15px 0px;
+        width: 100%;
     }
 
     .blob1{
@@ -312,7 +325,7 @@ p{
 }
 .back{
     background-repeat: no-repeat;
-    background-size: 98% 94%;
+    background-size: 99% 100%;
   }
 &__concept{
     width: 607px;
@@ -343,9 +356,10 @@ p{
     margin: 0 auto; 
 }
 .enigmabackground{
-    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    margin: 0px 30px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: contain
 }
 &__enigmalogo{
    img{
@@ -353,14 +367,17 @@ p{
    }
 }
 &__enigmalist{
+    width: 100%;
     padding: 60px 34px;
     img{
        height: 95px;
        width: 130px;
        padding: 0px;
+       margin-top: 50px;
     }
     h2{
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        text-align: left;
     }
 }
 .colorPalette{
@@ -402,7 +419,9 @@ h2{
     }
 }
 &__icons{
+    width: 100%;
     padding: 70px 35px 40px;
+    text-align: left;
     .threeIcon{
         width: 465px;
         padding-bottom: 20px;
@@ -527,6 +546,7 @@ h2{
         img{
             height: 118px;
             width: 207px;
+            margin-top: 80px;
         }
     }
     &__evolve{
@@ -561,7 +581,9 @@ h2{
     }
 
 @media screen and (min-width:1367px){
-
+    .branding .enigmabackground {
+        margin: 0px 60px;
+    }
     .blob1{
         width:700px;
         top: 56vh;
@@ -626,6 +648,10 @@ h2{
         right: -270px;
         top: 101px;
         }
+    }
+    &__enigmalogo{
+        width: 100%;
+        margin: 0 auto; 
     }
     &__adapt{
         height:446px;

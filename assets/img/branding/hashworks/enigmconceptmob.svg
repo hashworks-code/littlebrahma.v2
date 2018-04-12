@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="294" height="801" viewBox="0 0 294 801">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="804" viewBox="0 0 300 804">
     <g fill="none" fill-rule="evenodd">
         <g transform="translate(0 2)">
             <rect width="9.717" height="7.564" x="-.406" y="46.346" fill="#F38082" fill-rule="nonzero" rx="2" transform="rotate(90 4.452 50.128)"/>
             <path stroke="#F38082" stroke-width="4" d="M131.955 0H88.117s-10.85 1.305-10.85 10.86v13.56s.607 10.024-10.015 10.024H10.916S4 35.045 4 41.366v8.717"/>
         </g>
-        <g transform="matrix(-1 0 0 1 294 373)">
+        <g transform="matrix(-1 0 0 1 300 376)">
             <rect width="9.717" height="7.564" x="-.406" y="46.346" fill="#F38082" fill-rule="nonzero" rx="2" transform="rotate(90 4.452 50.128)"/>
             <path stroke="#F38082" stroke-width="4" d="M131.955 0H88.117s-10.85 1.305-10.85 10.86v13.56s.607 10.024-10.015 10.024H10.916S4 35.045 4 41.366v8.717"/>
         </g>
-        <g transform="rotate(180 83 399.5)">
+        <g transform="rotate(180 83 401)">
             <rect width="9.776" height="7.579" x="142.902" y="21.249" fill="#F2E3A4" fill-rule="nonzero" rx="2" transform="rotate(-90 147.79 25.039)"/>
             <path stroke="#F2E3A4" stroke-width="4" d="M0 0h137.768s9.802 1.637 9.802 9.77v16.386"/>
         </g>

@@ -70,6 +70,46 @@
   font-family: 'RajdhaniRegular';
   src: url("/assets/font/Rajdhani-Regular.ttf"); }
 
+@font-face {
+  font-family: 'MuliBold';
+  src: url("/assets/font/Muli-Bold.ttf"); }
+
+@font-face {
+  font-family: 'MuliLight';
+  src: url("/assets/font/Muli-Light.ttf"); }
+
+@font-face {
+  font-family: 'MuliRegular';
+  src: url("/assets/font/Muli-Regular.ttf"); }
+
+@font-face {
+  font-family: 'MuliSemiBold';
+  src: url("/assets/font/Muli-SemiBold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url("/assets/font/NotoSans-Bold.ttf"); }
+
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url("/assets/font/NotoSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url("/assets/font/Nunito-Regular.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url("/assets/font/Helvetica Neu Bold.ttf"); }
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("/assets/font/HelveticaNeue Light.ttf"); }
+
+@font-face {
+  font-family: 'HHelveticaNeueMeduim';
+  src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
+
 body {
   overflow-x: hidden; }
 
@@ -163,7 +203,8 @@ table {
     font-family: 'MavenPro-Medium';
     font-size: 24px;
     font-weight: 500;
-    color: #393939; }
+    color: #393939;
+    line-height: normal; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
@@ -1261,7 +1302,7 @@ html, body {
     width: 236px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-left: 43px; }
+    margin: 0 auto; }
   .prct .genericTitle {
     font-size: 24px; }
   .prct .fixCont {
@@ -1586,19 +1627,67 @@ html, body {
     .about-us img {
       padding: 0 6px 8px;
       width: 100%;
-      height: 100%; } }
+      height: 100%; }
+  .about__us {
+    padding-left: 0px;
+    padding-right: 0px; }
+    .about__us p {
+      padding: 16px 0px 0px;
+      text-align: justify; }
+    .about__us h2 {
+      padding-top: 16px;
+      text-align: justify; }
+    .about__us h1 {
+      line-height: normal !important; }
+  .aboutheading h1 {
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 7px; }
+  .aboutheading h3 {
+    padding-bottom: 16px; } }
 
 @media screen and (min-width: 768px) {
   .about-us {
     padding: 48px 34px 12px; }
     .about-us img {
-      padding: 0 10px 22px; } }
+      padding: 0 10px 22px; }
+  .about__us {
+    width: 700px; }
+    .about__us p {
+      padding: 16px 0px 0px;
+      text-align: left; }
+    .about__us h2 {
+      padding-top: 16px;
+      text-align: left; }
+  .aboutheading {
+    width: 700px;
+    margin: 0 auto; }
+    .aboutheading h1 {
+      text-align: left;
+      padding-left: 7px; }
+    .aboutheading h3 {
+      padding-bottom: 50px; } }
 
 @media screen and (min-width: 1025px) {
   .about-us {
     padding: 56px 42px 42px; }
     .about-us img {
-      padding: 0 10px 22px; } }
+      padding: 0 10px 22px; }
+  .about__us {
+    width: 935px; }
+    .about__us p {
+      padding: 16px 0px 0px;
+      text-align: left;
+      margin: 0 auto; }
+    .about__us h2 {
+      padding-top: 16px;
+      text-align: left;
+      margin: 0 auto; }
+  .aboutheading {
+    width: 935px;
+    margin: 0 auto; }
+    .aboutheading h3 {
+      padding-bottom: 50px; } }
 
 @media screen and (min-width: 1366px) {
   .about-us {
