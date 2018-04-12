@@ -7,6 +7,9 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy-service/gov-banner.png"
 banner-Head: "Global Order Visibility"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
+section: "gov"
+sbHead: "no"
+color: "green"
 
 
 box_lists:
@@ -37,17 +40,19 @@ SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-content_para:
 
-    - cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
 
-    - cContent2: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
+challenge_list:
+    - content_para:
+        - cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
 
-content_lists:
+        - cContent2: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
 
-    - cContent4: '-Establish 2 to 3 click approach for call to action'
-    - cContent4: '-Navigating complex features in a single dashboard'
-    - cContent4: '-Deliver insights to users to perform their actions'
+      content_lists:
+        - cContent4: '-Establish 2 to 3 click approach for call to action'
+        - cContent4: '-Navigating complex features in a single dashboard'
+        - cContent4: '-Deliver insights to users to perform their actions'
+      
 
 cHead3: "Perceive"
 csubHead3: "Getting into the shoes of Bizops "
@@ -67,6 +72,9 @@ content_lists1:
     - cContent7: '- Micro views of order delay stages'
     - cContent7: '- Simplified solution for workforce orchestration'
     - cContent7: '- Real-time insights required by the stakeholders'
+
+
+
 
 
 
@@ -123,20 +131,24 @@ box-para5: 'Latency to perform an
 
 division_loop:
     - cHead6: '1.  Compact & efficient search functionality'
-      cContent11: ' Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
+      para_loop:
+        - cContent11: ' Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
       SImg6: 'bitmap1'
 
     - cHead6: '2. Short story of an entire order flow '
-      cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow.'
+      para_loop:
+        - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow.'
       SImg6: 'group-5'
 
 full_image:
     - cHead8: '3.  Information abstracted in schematic form'
-      cContent13: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
+      cntnt_loop:
+        - cContent13: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
       SImg8: 'bitmap2'
 
     - cHead8: '4.  Smart sorting of data'
-      cContent13: 'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
+      cntnt_loop:
+        - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
       SImg8: 'bitmap3'
 
 cat: Service Design

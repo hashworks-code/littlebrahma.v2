@@ -1684,7 +1684,7 @@ html, body {
     border-left: 5px solid #2db2ea;
     padding: 0 0 0 100px; }
   .caseStudy__cHead {
-    padding-bottom: 23px; }
+    margin-bottom: 23px; }
   .caseStudy__cImg {
     margin: 0 165px; }
     .caseStudy__cImg img {
@@ -1871,7 +1871,7 @@ html, body {
     margin: 80px 77px 80px 68px;
     padding: 5px 0 5px 59px; }
   .caseStudy__cHead {
-    padding-bottom: 11px; }
+    margin-bottom: 11px; }
   .caseStudy__cImg {
     margin: 0 65px; }
     .caseStudy__cImg img {
@@ -1932,7 +1932,7 @@ html, body {
     margin: 42px 30px 35px 30px;
     padding: 2px 0 2px 22px; }
   .caseStudy__cHead {
-    padding-bottom: 11px; }
+    margin-bottom: 11px; }
   .caseStudy__cImg {
     margin: 0 30px; }
     .caseStudy__cImg img {

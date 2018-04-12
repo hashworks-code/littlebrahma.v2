@@ -7,7 +7,8 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy/xpe-Banner.jpg"
 banner-Head: "Extreme Performance engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
-
+section: "gov"
+color: "green"
 
 box_lists:
 
@@ -38,20 +39,20 @@ SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-content_para:
 
-    - cContent2: "Engineering teams need reliable insights & metrics to qualify and promote their enterprise applications into production system, enabling the business teams to run their daily operations."
+challenge_list:
+    - content_para:
+        - cContent2: "Engineering teams need reliable insights & metrics to qualify and promote their enterprise applications into production system, enabling the business teams to run their daily operations."
 
-    - cContent2: "Measure performance of business-critical systems, build a collaborative engineering platform for different teams to participate and validate production ready applications."
+        - cContent2: "Measure performance of business-critical systems, build a collaborative engineering platform for different teams to participate and validate production ready applications."
 
-content_lists:
-
-    - cContent4: '- Unification of a heterogeneous and hyper-complex eco-system'
-    - cContent4: '- Build interactive dashboards to deliver insights & metrics'
-    - cContent4: '- Build actionable intelligence in the dashboard'
-    - cContent4: '- Establish workﬂow orchestration & automation'
-    - cContent4: '- Modularize and establish correlation between different components'
-    - cContent4: '- Multi tool references for log analysis on engineering performance'
+      content_lists:
+        - cContent4: '- Unification of a heterogeneous and hyper-complex eco-system'
+        - cContent4: '- Build interactive dashboards to deliver insights & metrics'
+        - cContent4: '- Build actionable intelligence in the dashboard'
+        - cContent4: '- Establish workﬂow orchestration & automation'
+        - cContent4: '- Modularize and establish correlation between different components'
+        - cContent4: '- Multi tool references for log analysis on engineering performance'
 
 cHead3: "Perceive"
 csubHead3: "Understanding the problem"
@@ -121,25 +122,30 @@ box-para5: 'Real-time insights for pro-active'
 
 division_loop:
     - cHead6: '1.  Integration Workbench'
-      cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
+      para_loop:
+        - cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
       SImg6: 'xpe-graph'
 
     - cHead6: '2.  Workbench for perf engineers'
-      cContent11: 'Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
+      para_loop:
+        - cContent11: 'Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
       SImg6: 'xpe-perf'
 
     - cHead6: '3.  Delivery dashboard to status perf execution & test results'
-      cContent11: 'Delivery dashboard to status perf execution & test results for project teams & executives.'
+      para_loop:
+        - cContent11: 'Delivery dashboard to status perf execution & test results for project teams & executives.'
       SImg6: 'xpe-dashboard'
 
     - cHead6: '4.  Admin console & configuration screens'
-      cContent11: 'Admin console & configuration screens for management.'
+      para_loop:
+        - cContent11: 'Admin console & configuration screens for management.'
       SImg6: 'xpe-admin'
 
 
 full_image:
     - cHead8: '2.  “Workload model catalogue” for production systems'
-      cContent13: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
+      cntnt_loop:
+        - cContent13: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
       SImg8: 'xpe-catalog'
 
 
