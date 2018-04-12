@@ -12,6 +12,17 @@ title: Paketo Branding
 textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.jpg"
 
+background:
+  - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
+    imageType: "mobile"
+  - image: "/assets/img/branding/hashworks/paketoconceptTab.png"
+    imageType: "tab"
+
+backgroundlogo:
+  - imagelogo: "/assets/img/branding/hashworks/paketoLogoMob.png"
+    imageTypelogo: "mobileLogo"
+  - imagelogo: "/assets/img/branding/hashworks/paketoLogoTab.png"
+    imageTypelogo: "tabLogo"
 
 brandImage1: "paketo1.jpg"
 brandImage2: "paketo2.jpg"
@@ -69,10 +80,10 @@ colorPaletteImage3: "paketoColor3.svg"
 
 
 fontfamily1: "Typography"
-fontfamily2: "Gotham Rounded Bold"
-fontfamily3: "Gotham Rounded Medium"
-fontfamily4: "Gotham Rounded Book"
-fontfamily5: "Gotham Rounded Light"
+fontfamily2: "HelveticaNeue Bold"
+fontfamily3: "HelveticaNeue Medium"
+fontfamily4: "HelveticaNeue Light"
+
 
 fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
 

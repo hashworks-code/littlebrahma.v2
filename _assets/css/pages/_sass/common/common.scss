@@ -71,6 +71,47 @@
     font-family: 'RajdhaniRegular';
     src: url('/assets/font/Rajdhani-Regular.ttf');
 }
+@font-face {
+    font-family: 'MuliBold';
+    src: url('/assets/font/Muli-Bold.ttf');
+}
+@font-face {
+    font-family: 'MuliLight';
+    src: url('/assets/font/Muli-Light.ttf');
+}
+@font-face {
+    font-family: 'MuliRegular';
+    src: url('/assets/font/Muli-Regular.ttf');
+}
+@font-face {
+    font-family: 'MuliSemiBold';
+    src: url('/assets/font/Muli-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'NotoSansBold';
+    src: url('/assets/font/NotoSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'NotoSansRegular';
+    src: url('/assets/font/NotoSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'NunitoRegular';
+    src: url('/assets/font/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('/assets/font/Helvetica Neu Bold.ttf');
+}
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('/assets/font/HelveticaNeue Light.ttf');
+}
+@font-face {
+    font-family: 'HHelveticaNeueMeduim';
+    src: url('/assets/font/HHelveticaNeue Medium.ttf');
+}
+
 
 
 body{
@@ -181,6 +222,7 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
+    line-height: normal;
 }
   // HEADING LIGHT
 .headingLight{
@@ -210,6 +252,7 @@ table {
     font-weight: normal;
     line-height: 1.5;
     color: #393939;
+   
 }
 // BUTTON 
 .commonButton{
