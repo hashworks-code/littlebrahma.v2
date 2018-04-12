@@ -1147,6 +1147,536 @@ html, body {
     z-index: 1; } }
 
 /*footer ends*/
+.blob1 {
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  top: 52vh;
+  z-index: 999; }
+  .blob1 button {
+    margin: 16px 0px 0px; }
+
+.imageAlignment, .enigmaCup {
+  margin: 10px 5px; }
+
+.imagemargin, .topimage {
+  padding: 10px 0px; }
+
+.back {
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.challange {
+  width: 260px;
+  margin: 0 auto; }
+
+.engima {
+  border-left: 5px solid #603d95;
+  padding: 0px 0px 0px 23px;
+  margin: 40px 0px; }
+  .engima .csHeading {
+    padding-bottom: 13px; }
+
+.branding .brand {
+  padding: 8px 0px 16px; }
+
+.branding img {
+  width: 100%;
+  height: 100%; }
+
+.branding__image .row {
+  margin: 0px 5px; }
+
+.branding__image img {
+  padding-bottom: 20px; }
+
+.branding__perceive {
+  height: 414px;
+  background-color: #022b3b;
+  padding: 56px 0px 0px 0px;
+  margin-bottom: 164px; }
+  .branding__perceive__align {
+    width: 260px;
+    margin: 0 auto; }
+  .branding__perceive h2 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 24px 0px 18px; }
+  .branding__perceive h1 {
+    color: #33c2f8;
+    font-size: 32px; }
+  .branding__perceive p {
+    color: rgba(255, 255, 255, 0.9); }
+  .branding__perceive .margin {
+    padding-top: 18px; }
+  .branding__perceive .percevieImage {
+    width: 205px;
+    height: 164px;
+    margin: 46px 0px 0px 25px; }
+
+.branding__adapt {
+  height: 218px;
+  background-repeat: no-repeat; }
+  .branding__adapt__align {
+    width: 260px;
+    margin: 20px auto; }
+  .branding__adapt h2 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 16px 0px 12px; }
+  .branding__adapt h1 {
+    color: #33c2f8;
+    font-size: 32px;
+    padding-top: 32px; }
+  .branding__adapt p {
+    color: rgba(255, 255, 255, 0.9); }
+
+.branding__concept1 {
+  padding: 0px 58px; }
+  .branding__concept1 .row {
+    width: 80%;
+    margin: 0 auto; }
+
+.branding__concept {
+  width: 260px;
+  margin: 20px auto 32px; }
+  .branding__concept h1 {
+    padding: 0px 0px 19px;
+    color: #5d6a6f; }
+  .branding__concept p {
+    color: #5d6a6f; }
+
+.branding__logo {
+  padding: 20px 35px 0px; }
+
+.branding__meaning {
+  width: 260px;
+  margin: 0px auto 71px; }
+  .branding__meaning p {
+    padding: 12px 0px 59px;
+    color: #5d6a6f; }
+
+.branding__enigmalogo img {
+  padding: 0px 21px; }
+
+.branding__enigmalist {
+  padding: 50px 34px 24px; }
+  .branding__enigmalist img {
+    padding-top: 30px; }
+
+.branding__evolve {
+  height: 316px;
+  background-repeat: no-repeat;
+  padding: 40px 0px 36px; }
+  .branding__evolve__align {
+    width: 258px;
+    margin: 0 auto; }
+  .branding__evolve h2 {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 20px 0px 18px; }
+  .branding__evolve h1 {
+    color: #33c2f8;
+    font-size: 32px; }
+  .branding__evolve p {
+    color: rgba(255, 255, 255, 0.9); }
+
+.branding__fontfamily {
+  width: 262px;
+  margin: 0 auto; }
+  .branding__fontfamily p {
+    font-family: 'PtSansRegular';
+    padding: 15px 0px 40px; }
+  .branding__fontfamily h1 {
+    padding: 30px 0px 16px; }
+  .branding__fontfamily h2 {
+    padding: 14px 0px 0px 0px; }
+
+.branding__icons {
+  padding: 23px 31px 40px; }
+  .branding__icons img {
+    padding-top: 30px;
+    width: 50px; }
+  .branding__icons .textalign {
+    text-align: center; }
+
+.mobileClass {
+  display: block; }
+
+.tabClass {
+  display: none; }
+
+@media screen and (min-width: 767px) {
+  .mobileClass {
+    display: none; }
+  .tabClass {
+    display: block; }
+  .imageAlignment, .enigmaCup {
+    margin: 15px 35px; }
+  .imagemargin, .topimage {
+    padding: 15px 0px; }
+  .blob1 {
+    width: 700px;
+    top: 54vh; }
+    .blob1 button {
+      margin: 16px 0px 0px; }
+  .challange {
+    width: 560px; }
+  .engima {
+    padding: 0px 0px 0px 57px;
+    margin: 80px 0px 65px; }
+    .engima .csHeading {
+      padding-bottom: 20px; }
+  .engima1 {
+    margin: 46px 0px 64px !important; }
+  .branding .brand {
+    padding: 8px 0px 16px; }
+  .branding__image .row {
+    margin: 0px 34px; }
+  .branding__image img {
+    padding-bottom: 18px; }
+  .branding__perceive {
+    width: 87%;
+    height: 390px;
+    position: relative;
+    padding: 0;
+    margin: 0px 0px 64px; }
+    .branding__perceive__align {
+      width: 451px;
+      margin: 0 0px 0px 36px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      height: 390px; }
+    .branding__perceive h2 {
+      padding: 16px 0px 17px; }
+    .branding__perceive .margin {
+      padding-top: 18px; }
+    .branding__perceive .percevieImage {
+      width: 253px;
+      height: 202px;
+      margin: 0;
+      position: absolute;
+      right: -141px;
+      top: 87px; }
+  .branding__adapt {
+    height: 270px;
+    margin-top: 64px;
+    background-position: unset;
+    background-size: contain;
+    margin-right: 34px; }
+    .branding__adapt__align {
+      width: 451px;
+      margin: 0;
+      padding: 0 0px 0px 34px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      height: 270px; }
+    .branding__adapt h2 {
+      padding: 16px 0px 12px; }
+    .branding__adapt h1 {
+      padding: 0px; }
+  .branding__concept1 {
+    padding: 0px 35px; }
+    .branding__concept1 .row {
+      width: 92%; }
+  .branding .back {
+    background-repeat: no-repeat;
+    background-size: 98% 94%; }
+  .branding__concept {
+    width: 607px;
+    margin: 0px 0px 30px 15px; }
+    .branding__concept h1 {
+      padding: 64px 0px 17px; }
+  .branding__logo {
+    padding: 60px 50px 60px; }
+  .branding__meaning {
+    width: 100%;
+    margin: 0;
+    padding: 0 34px 72px 34px; }
+    .branding__meaning p {
+      padding: 14px 0px 0px;
+      font-size: 12px; }
+    .branding__meaning img {
+      height: 140px; }
+  .branding__enigmalogo {
+    width: 80%;
+    margin: 0 auto; }
+  .branding .enigmabackground {
+    background-image: url(/assets/img/branding/hashworks/pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+  .branding__enigmalogo img {
+    padding: 0px 34px; }
+  .branding__enigmalist {
+    padding: 60px 34px; }
+    .branding__enigmalist img {
+      height: 95px;
+      width: 130px;
+      padding: 0px; }
+    .branding__enigmalist h2 {
+      padding-bottom: 20px; }
+  .branding .colorPalette {
+    padding-bottom: 50px; }
+  .branding__evolve {
+    background-position: unset;
+    background-size: contain;
+    margin-right: 34px;
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .branding__evolve__align {
+      width: 451px;
+      margin: 0 0px 0px 36px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      height: 270px; }
+    .branding__evolve h2 {
+      padding: 10px 0px 10px; }
+  .branding__fontfamily {
+    width: 100%;
+    margin: 0;
+    padding: 0px 34px; }
+    .branding__fontfamily p {
+      padding: 24px 0px 40px; }
+    .branding__fontfamily h1 {
+      padding: 30px 0px 16px; }
+    .branding__fontfamily h2 {
+      padding: 20px 0px 0px 0px; }
+  .branding__icons {
+    padding: 70px 35px 40px; }
+    .branding__icons .threeIcon {
+      width: 465px;
+      padding-bottom: 20px; }
+    .branding__icons img {
+      padding-top: 30px;
+      width: 70px; }
+    .branding__icons .textalign {
+      text-align: left; } }
+
+@media screen and (min-width: 1025px) {
+  .blob1 {
+    width: 700px;
+    top: 55vh; }
+    .blob1 button {
+      margin: 25px 0px 0px; }
+  .imageAlignment, .enigmaCup {
+    margin: 18px 39px; }
+  .imagemargin, .topimage {
+    padding: 18px 0px; }
+  .challange {
+    width: 700px; }
+  .engima {
+    padding: 0px 0px 0px 57px;
+    margin: 0px 0px 99px; }
+    .engima .csHeading {
+      padding-bottom: 16px; }
+  .engima1 {
+    margin: 80px 0px 96px  !important; }
+  .branding .brand {
+    padding: 8px 0px 16px; }
+  .branding__image .row {
+    margin: 0px 42px; }
+  .branding__image img {
+    padding-bottom: 26px; }
+  .branding__perceive {
+    height: 533px;
+    margin: 0px 0px 96px; }
+    .branding__perceive__align {
+      width: 540px;
+      margin: 0 0px 0px 42px;
+      height: 533px; }
+    .branding__perceive h1 {
+      font-size: 40px; }
+    .branding__perceive h2 {
+      padding: 28px 0px 23px; }
+    .branding__perceive .percevieImage {
+      width: 341px;
+      height: 272px;
+      right: -141px;
+      top: 137px; }
+  .branding__adapt {
+    height: 362px;
+    margin-top: 96px;
+    margin-right: 42px; }
+    .branding__adapt__align {
+      width: 480px;
+      padding: 0 0px 0px 42px;
+      height: 362px; }
+    .branding__adapt h2 {
+      padding: 28px 0px 18px; }
+    .branding__adapt h1 {
+      font-size: 40px; }
+  .branding__concept1 {
+    padding: 0px 44px; }
+  .branding__concept {
+    width: 700px;
+    margin: 0px 0px 80px 15px; }
+    .branding__concept h1 {
+      padding: 96px 0px 24px; }
+  .branding__logo {
+    padding: 60px 65px 60px; }
+  .branding__meaning {
+    padding: 0 42px 72px 42px; }
+    .branding__meaning p {
+      padding: 24px 0px 0px; }
+    .branding__meaning img {
+      height: 220px; }
+  .branding__enigmalist {
+    padding: 70px 44px 96px; }
+    .branding__enigmalist img {
+      height: 118px;
+      width: 207px; }
+  .branding__evolve {
+    margin-right: 44px;
+    height: 355px;
+    padding: 0px; }
+    .branding__evolve__align {
+      width: 540px;
+      margin: 0 0px 0px 42px;
+      height: 355px; }
+    .branding__evolve h2 {
+      padding: 40px 0px 36px; }
+  .branding__fontfamily {
+    padding: 0px 42px; }
+  .branding__icons {
+    padding: 103px 35px 70px; }
+    .branding__icons .threeIcon {
+      width: 630px;
+      padding-bottom: 50px; }
+    .branding__icons img {
+      width: 90px; } }
+
+@media screen and (min-width: 1367px) {
+  .blob1 {
+    width: 700px;
+    top: 56vh; }
+    .blob1 button {
+      margin: 33px 0px 0px; }
+  .imageAlignment, .enigmaCup {
+    margin: 15px 150px; }
+  .imagemargin, .topimage {
+    padding: 15px 0px; }
+  .challange {
+    width: 1000px; }
+  .engima {
+    padding: 0px 0px 0px 57px;
+    margin: 100px 0px 126px; }
+    .engima .csHeading {
+      padding-bottom: 32px; }
+  .engima1 {
+    margin: 123px 0px 120px  !important; }
+  .branding .brand {
+    padding: 8px 0px 16px; }
+  .branding__image .row {
+    margin: 0px 135px; }
+  .branding__image img {
+    padding-bottom: 26px; }
+  .branding__perceive {
+    height: 614px;
+    margin: 0px 0px 120px; }
+    .branding__perceive__align {
+      width: 666px;
+      margin: 0 0px 0px 163px;
+      height: 613px; }
+    .branding__perceive h1 {
+      font-size: 48px; }
+    .branding__perceive h2 {
+      padding: 40px 0px 34px; }
+    .branding__perceive .margin {
+      padding-top: 25px; }
+    .branding__perceive .percevieImage {
+      width: 564px;
+      height: 410px;
+      right: -270px;
+      top: 101px; }
+  .branding__adapt {
+    height: 446px;
+    margin-top: 120px;
+    margin-right: 135px; }
+    .branding__adapt__align {
+      width: 872px;
+      padding: 0 0px 0px 163px;
+      height: 446px; }
+    .branding__adapt h2 {
+      padding: 28px 0px 30px; }
+    .branding__adapt h1 {
+      font-size: 48px; }
+  .branding__concept1 {
+    padding: 0px 30px; }
+    .branding__concept1 .row {
+      width: 86%; }
+  .branding .back {
+    background-size: 100% 100%; }
+  .branding__concept {
+    width: 800px;
+    padding: 0px 0px 50px 118px;
+    margin: 0; }
+    .branding__concept h1 {
+      padding: 120px 0px 32px; }
+  .branding__logo {
+    padding: 140px 40px 0px 162px; }
+  .branding__meaning {
+    padding: 0 150px 120px 150px; }
+    .branding__meaning p {
+      padding: 38px 0px 0px; }
+    .branding__meaning img {
+      height: 300px; }
+  .branding__enigmalogo img {
+    padding: 0px 140px; }
+  .branding__enigmalist {
+    padding: 110px 154px 120px; }
+    .branding__enigmalist img {
+      height: 118px;
+      width: 207px; }
+  .branding .colorPalette {
+    padding-bottom: 65px; }
+  .branding__evolve {
+    margin-right: 135px;
+    height: 458px; }
+    .branding__evolve__align {
+      width: 872px;
+      padding: 0 0px 0px 163px;
+      height: 458px; }
+  .branding__fontfamily {
+    padding: 0px 155px; }
+  .branding__icons {
+    padding: 160px 150px 70px 150px; }
+    .branding__icons .threeIcon {
+      width: 716px;
+      padding-bottom: 101px; }
+    .branding__icons img {
+      width: 130px; } }
+
 .caseStudy {
   max-width: 1440px;
   margin: 0 auto; }
