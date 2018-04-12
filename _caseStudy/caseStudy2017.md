@@ -8,22 +8,22 @@ variation_imagg1: "/assets/img/caseStudy/rectangle-6.png"
 variation_image2: "/assets/img/caseStudy/group-8.png"
 variation_image3: "/assets/img/caseStudy/group-6.png"
 variation_image4: "/assets/img/caseStudy/123.png"
+cal_section: "yes"
+cImgg1: "diego-duarte"
+cImgg2: "book-screen"
+cImgg3: "debashis@1"
 
-cImgg1: "groupn1"
-cImgg2: "groupn2"
-cImgg3: "groupn3"
-
-cImgg4: "scene-2"
+cImgg4: "6-copy-2"
 
 
-cImgg5: "group1"
-cImgg6: "group2"
-cImgg7: "group3"
-cImgg8: "group4"
+cImgg5: "intial-17"
+cImgg6: "photo-funia-1510313892"
+cImgg7: "calender"
+cImgg8: "gd-st-working"
 
 cImgg9: "g8-img"
 
-cImgg10: "g6-img"
+cImgg10: "sleeping-ganapa"
 
 cBanner1: "The year of inception :"
 
@@ -33,27 +33,19 @@ cBanner3: "calendar"
 
 cImg1: "bitmap"
 
-cHead1: "Understanding the culture diversities and color "
+cHead1: "The story of Brahma "
 
-cContent1: " India is a diverse country with a profound and rich history.
-            With centuries of invasion and trading with foreign people,
-            India has now become a cultural boiling pot of the sight, sound and people. 
-            With the country ushering in the new century by being at the edge of business and technology,
-            the culture aspect is still deep rooted in the people who embrace and celebrate festivals with vigor."
+cContent1: " We related our idea of creation to Brahma an Indian mythical god. He is an omnipresent and attributed to every creation on earth. Inspired with this thought our 2017 calendar was published narrating his origin stories."
 
 cImg2: "group"
 
-cHead2: "Highlighting civic and social knick knacks:"
+cHead2: "Finding the right balance:"
 
-cContent2: "With a growing population we wanted to highlight the civil issues afflicting the country. 
-            With the various festivals as the backdrop, carelessness in public property, vandalism,
-              pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
+cContent2: "The focus was to bring the right balance of story telling and contemporary design to the illustrations. Images of young lord brahma and his introduction to the new world realities."
 
-cHead3: "Our way of visualization"
+cHead3: "Our visual narration"
 
-cContent3: "Illustrating India’s festivals scenes,
-            adding elements of satire and showcasing the same through digital paintings.
-            Using vibrant and bright color to capture emotions and mood."
+cContent3: "Taking a queue from the old, we chose to stick with vibrant colors and traditional symbolism. We gave a contemporary touch to the illustration by creating characters with less detailing. We played with eye and mouth expression to display emotions and used supporting elements to showcase movements and drama. This gave a comic feel to the entire visualization."
 
 cImg3: "group-3"
 
@@ -63,31 +55,27 @@ cContent4: " With a growing population we wanted to highlight the civil issues a
             With the various festivals as the backdrop, carelessness in public property, vandalism,
               pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
 
-cHead5: "Highlighting civic and social knick knacks:"
+cHead5: "Bringing old stories into the pop culture:"
 
-cContent5: " With a growing population we wanted to highlight the civil issues afflicting the country. 
-            With the various festivals as the backdrop, carelessness in public property, vandalism,
-              pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
+cContent5: "Little brahma as a brand takes inspiration from the creative storytelling and symbolism that is deep rooted 
+in our culture and heritage from time immemorial. This can be seen in the architecture and artifacts left behind by our ancestors and forefathers for eons.  As Brahma is the god of creation, we took inspiration from this to create 
+the little brahma calendar."
 
-cHead6: "Highlighting civic and social knick knacks:"
+cHead6: "Brahma and art:"
 
-cContent6: " With a growing population we wanted to highlight the civil issues afflicting the country. 
-            With the various festivals as the backdrop, carelessness in public property, vandalism,
-              pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
+cContent6: " We narrated different stories of lord Brahma in the calendar pages. To bring these stories to life in the current era and add relevance to it, we interplayed it with subtle humor on the illustration while still keeping the stories close to the original."
 
-cHead7: "Highlighting civic and social knick knacks:"
+cHead7: "Representation of facts:"
 
-cContent7: " With a growing population we wanted to highlight the civil issues afflicting the country. 
-            With the various festivals as the backdrop, carelessness in public property, vandalism,
-            pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
+cContent7: " We captured the eminent stories of Brahma with clear facts. We showcased origin stories of Brahma which many have not heard off. Visually, we used new world elements to showcase old world facts in the illustrations. Usage of desk with mirrors an example of the neo-modern approach of our visual narration of facts."
 
-cImg4: "bitmap-copy"
+cImg4: "people-group"
 
-cImg5: "group-9"
+cImg5: "group-2017"
 
-cImg6: "group-10"
+cImg6: "group@2017"
 
-cImg7: "bitmap-copy-20"
+cImg7: "bitmap-copy-2017"
 
 cat: Branding & Communication
 product_title: LD Calendar Design 2017

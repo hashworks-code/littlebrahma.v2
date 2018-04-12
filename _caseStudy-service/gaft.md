@@ -7,6 +7,8 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy-service/gaft.png"
 banner-Head: "Global Anti-fraud Detection tool"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
+section: "gov"
+color: "green"
 
 box_lists:
     - box-Head1: '300'
@@ -47,6 +49,17 @@ content_lists:
     - cContent4: '- Upgrade the legacy desktop app to modern web application'
     - cContent4: '- Shift the mindset of business users to usability & minimalism aspects'
     - cContent4: '- Remodel & retain the experience of users using this 20 yr. old app'
+
+
+challenge_list:
+    - content_para:
+        - cContent2: "Re-think UX for a fraud detection software system, run actively till date by a global tech giant that is still functional from last 20 years."
+
+      content_lists:
+        - cContent4: '- Upgrade the legacy desktop app to modern web application'
+        - cContent4: '- Shift the mindset of business users to usability & minimalism aspects'
+        - cContent4: '- Remodel & retain the experience of users using this 20 yr. old app'
+
 
 cHead3: "Perceive"
 csubHead3: "Understanding the current users"
@@ -115,11 +128,13 @@ box-para5: 'Features allowing the users to resolve frauds from one platform'
 
 division_loop:
     - cHead6: '1.  Upgradation of the solution'
-      cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
+      para_loop:
+        - cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
       SImg6: 'gaft-senario'
 
     - cHead6: '2.  Scenario based engg. techniques'
-      cContent11: 'Scenario based engg. techniques to capture business outcomes.'
+      para_loop:
+        - cContent11: 'Scenario based engg. techniques to capture business outcomes.'
       SImg6: 'gaft-senario-2'
 
 full_image:
