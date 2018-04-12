@@ -131,7 +131,7 @@ product_title: Fruad detectation tool for E-commerce platform
 product_title1: GAFT
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy-service/gaft.png"
+banner_image: "/assets/img/caseStudy/GAFT.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
 

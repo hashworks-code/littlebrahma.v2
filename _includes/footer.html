@@ -93,11 +93,14 @@
   var span = document.getElementsByClassName("close1")[0];
      for(let i=0;i<btn.length;i++){
       btn[i].onclick = function() {
-      modal.style.display = "block";
+      // modal.style.display = "block";
+      $('#myModal1').slideDown(500);
   }
      }
   span.onclick = function() {
-      modal.style.display = "none";
+      // modal.style.display = "none";
+      // $('#myModal1').hide(500);
+      $('#myModal1').slideUp(500);
   }
 
 jQuery(document).ready(function($){

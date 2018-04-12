@@ -1028,12 +1028,13 @@ html, body {
 
 /*footer css starts*/
 .footer {
-  background-size: 100% 100%;
-  background-position: center;
-  position: relative;
-  background-image: url("/assets/img/common/footer.jpg");
+  background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 760px; }
+  width: 100%;
+  position: relative;
+  background-image: url("/assets/img/common/Footr_img.png");
+  height: 100vh; }
   .footer__inner {
     font-size: 48px;
     font-family: 'MavenPro-Regular';
@@ -1631,7 +1632,7 @@ button.lb_btn:focus {
   padding-bottom: 30px; }
 
 .lb-filter-head {
-  width: 121px;
+  width: 250px;
   height: 56px;
   font-family: MavenPro-Medium;
   font-size: 24px;
@@ -2177,8 +2178,8 @@ div.test {
   z-index: 0; }
 
 .btn-circle.service-btn {
-  width: 14px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
   text-align: center;
   /* padding: 6px 0; */
   font-size: 12px;
@@ -2676,8 +2677,8 @@ ul.lb_work_filter.lb_service_lg {
 button.btn-circle.service-btn.intro {
   background-color: #fff !important;
   border: 4px solid #ea1c49 !important;
-  width: 20px !important;
-  height: 20px !important;
+  width: 23px !important;
+  height: 23px !important;
   margin-top: 7px !important;
   -webkit-box-shadow: 0 0 0 10px pink;
           box-shadow: 0 0 0 10px pink; }
