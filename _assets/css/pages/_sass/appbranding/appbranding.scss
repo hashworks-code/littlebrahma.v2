@@ -219,7 +219,8 @@ p{
 
 @media screen and (min-width:767px){
     .padding {
-        margin: 0px 35px;
+        margin: 0 auto;
+        width: 700px;
     }
     .mobileClass{
         display: none;
@@ -264,7 +265,8 @@ p{
 
 &__image{
     .row{
-        margin: 0px 34px;
+       width: 700px;
+       margin: 0 auto;
     }
     img{
         padding-bottom: 18px;
@@ -279,7 +281,7 @@ p{
 
     &__align{
         width: 451px;
-        margin: 0 0px 0px 36px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -307,9 +309,9 @@ p{
     margin-right: 34px;
    
     &__align{
-        width: 451px;
-        margin:0;
-        padding: 0 0px 0px 34px;
+        width: 515px;
+        margin:0 auto;
+        padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -323,7 +325,9 @@ p{
     }
 }
 &__concept1{
-    padding: 0px 35px;
+    padding: 0;
+    width: 700px;
+    margin: 0 auto;
     .row {
         width: 92%;
     }
@@ -341,13 +345,15 @@ p{
   
 }
 &__logo{
-    padding: 60px 50px 60px;
+    padding: 60px 0px 60px;
+    width: 700px;
+    margin: 0 auto;
    
   }
 &__meaning{
-    width: 100%;
-    margin: 0;
-    padding: 0 34px 72px 34px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 0px 72px 0px;
     p{
         padding: 14px 0px 0px;
         font-size: 12px;
@@ -357,23 +363,24 @@ p{
     } 
 }
 &__enigmalogo{
-    width: 80%;
+    width: 100%;
     margin: 0 auto; 
 }
 .enigmabackground{
-    margin: 0px 30px;
+    margin: 0px auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: contain;
+    width: 700px;
 }
 &__enigmalogo{
    img{
-    padding: 0px 34px;
+    padding: 0px 0px;
    }
 }
 &__enigmalist{
-    width: 100%;
-    padding: 60px 34px;
+    width: 700px;
+    padding: 60px 0px;
     img{
        height: 95px;
        width: 130px;
@@ -396,8 +403,9 @@ p{
     justify-content: center;
     background-size: cover;
         &__align{
-            width: 451px;
-            margin: 0 0px 0px 36px;
+            width: 650px;
+            margin: 0 auto;
+            padding-right: 30px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -409,9 +417,9 @@ h2{
 }
 
 &__fontfamily{
-    width: 100%;
-    margin: 0;
-    padding: 0px 34px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 0;
     p{
         padding: 24px 0px 40px;
     }
@@ -423,8 +431,8 @@ h2{
     }
 }
 &__icons{
-    width: 100%;
-    padding: 70px 35px 40px;
+    width: 700px;
+    padding: 70px 0px 40px;
     text-align: left;
     .threeIcon{
         width: 465px;
@@ -444,7 +452,7 @@ h2{
 
 @media screen and (min-width:1025px){
     .padding {
-        margin: 0px 42px;
+        width: 965px;
     }
     .blob1{
         width:700px;
@@ -481,7 +489,7 @@ h2{
     
     &__image{
         .row{
-            margin: 0px 42px;
+          width: 965px;
         }
         img{
             padding-bottom: 26px;
@@ -492,9 +500,9 @@ h2{
         margin: 0px 0px 96px;
     
         &__align{
-            width: 540px;
-            margin: 0 0px 0px 42px;
+            width: 782px;
             height: 533px;
+            padding-right: 101px;
         }
         h1{
             font-size: 40px;
@@ -515,8 +523,8 @@ h2{
         margin-right: 42px;
        
         &__align{
-            width: 480px;
-            padding: 0 0px 0px 42px;
+            width: 922px;
+            padding: 0 144px 0px 0px;
             height: 362px;
         }
         h2{
@@ -527,7 +535,7 @@ h2{
         }
     }
     &__concept1{
-        padding: 0px 44px;
+       width: 965px;
     }
     &__concept{
         width: 700px;
@@ -537,10 +545,12 @@ h2{
         }
     }
     &__logo{
-        padding: 60px 65px 60px;
+        padding: 60px 0px 60px;
+        width: 965px;
       }
     &__meaning{
-        padding: 0 42px 72px 42px;
+        padding: 0 0px 72px 0px;
+        width: 965px;
         p{
             padding: 24px 0px 0px;
         }  
@@ -548,8 +558,12 @@ h2{
             height: 220px;
         } 
     }
+    .enigmabackground {
+        width: 965px;
+    }
     &__enigmalist{
-        padding: 70px 44px 96px;
+        padding: 70px 0px 96px;
+        width: 965px;
         img{
             height: 118px;
             width: 207px;
@@ -561,9 +575,9 @@ h2{
         height:355px;
         padding: 0px;
         &__align{
-            width: 540px;
-            margin: 0 0px 0px 42px;
-            height:355px;
+            width: 870px;
+            height: 355px;
+            padding-right: 170px;
         }
     h2{
         padding: 40px 0px 36px;
@@ -571,10 +585,11 @@ h2{
     }
     
     &__fontfamily{
-        padding: 0px 42px;
+        width: 965px;
     }
     &__icons{
-        padding: 103px 35px 70px;
+        padding: 103px 0px 70px;
+        width: 965px;
         .threeIcon{
             width: 630px;
             padding-bottom:50px;
@@ -639,11 +654,10 @@ h2{
     }
     &__perceive{
         height: 614px;
-        width: 1100px;
-        margin: 0 auto 120px;
+        margin: 0 0px 120px;
     
         &__align{
-            width: 666px;
+            width: 800px;
             margin: 0 0px 0px 163px;
             height: 613px;
         }
@@ -669,12 +683,11 @@ h2{
     }
     &__adapt{
         height:446px;
-        width: 1100px;
-        margin: 120px auto 0px;
+        margin: 120px 0px 0px;
        
         &__align{
-            width: 872px;
-            padding: 0 0px 0px 163px;
+            width: 1100px;
+            padding: 0 163px 0px 0px;
             height: 446px;
         }
         h2{
@@ -742,11 +755,9 @@ h2{
     &__evolve{
         margin-right: 0;
         height: 458px;
-        width: 1100px;
-        margin: 0 auto;
         &__align{
-            width: 872px;
-            padding: 0 0px 0px 163px;
+            width: 1100px;
+            padding: 0 165px 0px 0px;
             height:458px;
         }
 
