@@ -1,87 +1,21 @@
-/*footer css starts*/
-// .lb-footer{
-//     width: 100%;
-//     display: table;
-//  }
-//  .lb-footer-section{
-//     display: table-cell;
-//     width: 33.33%;
-//  }
-//  .lb-icon-align{
-//     text-align: center;
-//  }
-//  .lb-footer-textalign{
-//     text-align: right;
-//  }
- 
-//  .headerButton{
-//    opacity: 0.92;
-//    border-radius: 25px !important;
-//    border: solid 2px #022b3b !important;
-//    font-family: "PT_Sans-Regular" !important;
-//    font-size: 14px !important;
-//    text-align: center !important;
-//    color: #022b3b !important;
-//    background-color: #fff !important;
-//    padding: 5px 20px !important;
-//    outline: none;
-//  }
-//  @media only screen and (min-width: 320px){
-//    .cd-header{
-//      background-color: #fff!important;
-//      box-shadow: 0 10px 6px -6px #eee;
-//    }
-//    .lb-footer-section{
-//      font-size: 8px;
-//    }
-//    .cd-primary-nav.is-visible{
-//      background-color: #fff;
-//    }
-//    .cd-primary-nav.is-visible>li>a{
-//      font-family: "MavenPro-Bold" !important;
-//      font-size: 24px !important;
-//      color: #393939 !important;
-//      text-decoration: none;
-//    }
-//    .cd-primary-nav li:last-child a{
-//      width: auto;
-//      border-radius: 0;
-//      background-color: #fff;
-//      box-shadow: none;
-//    }
-//    .cd-primary-nav-trigger{
-//      background-color: #fff !important;
-//    }
-//  }
-//  @media only screen and (min-width: 768px){
-//    .lb-footer-section{
-//      font-size: 14px;
-//    }
-//  }
-//  @media only screen and (min-width: 1025px){
-//    .lb-footer-section{
-//      font-size:  14px;
-//    }
-//  }
-//  @media only screen and (min-width: 1367px){
-//    .lb-footer-section{
-//      font-size:  14px;
-//    }
-//  }
+
 .footer{
-  background-position: center center;
+  &__image{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: 30px 0;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-  position:relative;
   background-image: url("/assets/img/common/Footr_img.png");
-  // background-repeat: no-repeat;
-  height:100vh;
+  }
   &__inner{
     font-size: 48px;
     font-family: 'MavenPro-Regular';
     color: #393939;
-    padding: 80px 0 0 164px;
+    padding: 80px 0 0 164px;s
     h1{
       margin-bottom: 10px;
       margin-top: 15px;
@@ -92,11 +26,10 @@
     }
   }
   &__bottom{
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    // padding: 0 0 0 5%;
-    text-align: center;
+    // position: absolute;
+    // bottom: 40px;
+    // width: 100%;
+    // text-align: center;
     div{
       width:30%;
       display: inline-block;
@@ -133,17 +66,32 @@ height: 760px;
   a{
     font-size: 20px;
   }
+  h1{
+    padding-bottom: 16px;
+  }
+}
+&__bottom{
+  bottom:16px;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 37px;
+  padding-left: 42px;
+  div{
+    font-size: 16px;
+    img{
+      width: 21px;
+      height: 21px;
+    }
+    .behance{
+      width: 25px;
+      height: 25px;
+    }
+  }
 }
 }
 }
-// @media screen and (max-width: 991px) {
-//   .footer{
-//     height: 563px;
-//     &__bottom{
-//       bottom: 8px;
-//     }
-//   }
-// }
+
 @media screen and (max-width: 1023px) {
 .footer{
 height: 460px;
@@ -153,9 +101,17 @@ height: 460px;
   a{
     font-size: 14px;
   }
+  h1{
+    padding-bottom: 16px;
+  }
 }
 &__bottom{
   bottom:16px;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 24px;
+  padding-left: 35px;
   div{
     font-size: 12px;
     img{
@@ -179,9 +135,17 @@ height: 335px;
   a{
     font-size: 14px;
   }
+  h1{
+    padding-bottom: 8px;
+  }
 }
 &__bottom{
   bottom:16px;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 16px;
+  padding-left: 15px;
   div{
     font-size: 8px;
     img{
@@ -199,20 +163,13 @@ height: 335px;
 @media screen and (max-width: 600px) {
 .footer{
 height: 220px;
-&__inner{
-  h1{
-    margin-bottom: 20px;
-  }
-}
 }
 } 
 @media screen and (max-width: 420px) {
 .footer{
 &__inner{
   padding: 0px 0 0 24px;
-  h1{
-    margin-bottom: 5px;
-  }
+
   a{
     padding: 5px 18px 6px;
   }
@@ -220,23 +177,44 @@ height: 220px;
 }
 }
 
-@media screen and (min-width:320px) and (max-width:767px){
+ /*footer ends*/
+ @media screen and (min-width: 1367px) {
   .footer{
-    &__image{
-      // background-image: url(/assets/img/common/footer.jpg);
-      background-size: cover;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      background-repeat: repeat-x;
-      background-position: 30px 0;
+  height: 760px;
+  &__inner{
+    font-size: 40px;
+    padding: 80px 0 0 42px;
+     h1{
+      padding-bottom: 32px;
     }
-    &__inner{
-      z-index: 1;
+    a{
+      font-size: 20px;
+    }
+   
+  }
+  &__image{
+    height: 631px;
+    background-position: left;
+    background-size: 128% 100%;
+  }
+  &__bottom{
+    bottom:16px;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding-bottom: 37px;
+    padding-left: 42px;
+    div{
+      font-size: 16px;
+      img{
+        width: 28px;
+        height: 28px;
+      }
+      .behance{
+        width: 28px;
+        height: 28px;
+      }
     }
   }
-}
- /*footer ends*/
+  }
+  }
