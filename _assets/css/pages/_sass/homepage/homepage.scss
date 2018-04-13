@@ -1,4 +1,8 @@
 @import "workpage/workpage.scss";
+.lb-explore{
+   position: relative;
+   z-index: 2px;
+}
 .homePage{
     margin-top: 80px;
     &__BnrDiv{
@@ -225,7 +229,7 @@
         padding-bottom: 50px;
     }
     .homePage{
-        margin-top: 0;
+         margin-top: 0;
         &__BnrDiv{
             // background-size: cover;
             // background-position: 40% 84px;
@@ -393,6 +397,7 @@
 }
 @media screen and (max-width: 767px) {
     .homePage{
+        margin-top: 80px;
         &__BnrDiv{
             background-image: url(/assets/img/homepage/mobile-banner.jpg);
             background-size: 100% 100%;
@@ -402,13 +407,13 @@
                 height: 710px;
                 background-image: none;
                 &__Content{
-                     padding: 0 50px 0 50px;
-                    // width: 315px;
+                     padding: 0 65px 0 65px;
+                     width: 100%;
                     padding-top:35%;
                     text-align: center;
                     margin: 0 auto;
-                    position: relative;
-                    top: 241px;
+                    position: absolute;
+                    bottom: 450px;
                     h1{
                         font-size: 24px;
                     }

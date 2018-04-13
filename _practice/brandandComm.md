@@ -50,6 +50,6 @@ cardlist:
     - list:
          title: Hybrid Roles 
          content: We encourage our designers to understand different stakeholders to achieve the business goals.
-ourdifferenciate: To find the brand voice for your business, we collaborate with all the stakeholder . We deep dive into customer research and analysis to understand the relationship that you share with the end user. With all the dots in place, our visual designers and storytelling experts help you to connect these dots together to build and strategize the core brand values.
+ourdifferenciate: We collaborate to understand the relationship that you share with the end customers. With all the dots in place, our visual designers and storytelling experts help you to connect these dots together to find the voice and tone for your brand .
 
 ---
