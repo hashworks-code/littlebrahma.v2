@@ -1844,13 +1844,14 @@ div.test {
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
-    height: 194px; } }
+    height: 194px;
+    padding-left: 15px; } }
 
 @media screen and (min-width: 768px) {
   .lb_filter_lg {
     display: block; }
   .lb-filter-Img {
-    padding-left: 15px !important; }
+    padding-left: 15px; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {

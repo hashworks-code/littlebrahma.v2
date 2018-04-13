@@ -30,7 +30,7 @@ $(window).resize(function(){
         //     $('.homePage__BnrDiv').css('height',$('#lbhmimagemobile').height())
         //     $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
         // } 
-        brandlength=$('.brndcomm').length;
+        // brandlength=$('.brndcomm').length;
         // $('[data-toggle="popover"]').click(function(){
         //     $(this).popover('show');
         //     $('[data-toggle="popover"]').not(this).popover('hide'); //all but this
@@ -92,24 +92,39 @@ $(window).resize(function(){
         }
         
         $('.prod').each(function (index) { 
+            var prod=$('.prod').length;
+            if(prod<=4){
+                $("#lb_btn").hide();
+                $('#lb_service_btn').hide();
+            }
             if(index<=3){
-                $(this).add();
+                $(this).show();
             }
             else{
                 $(this).hide();
             }
         })
         $('.service').each(function (index) { 
+            var service=$('.service').length;
+            if(service<=4){
+                $("#lb_btn").hide();
+                $('#lb_service_btn').hide();
+            }
             if(index<=3){
-                $(this).add();
+                $(this).show();
             }
             else{
                 $(this).hide();
             }
         })
         $('.brndcomm').each(function (index) { 
+            var brndcomm=$('.brndcomm').length;
+            if(brndcomm<=4){
+                $("#lb_btn").hide();
+                $('#lb_service_btn').hide();
+            }
             if(index<=3){
-                $(this).add();
+                $(this).show();
             }
             else{
                 $(this).hide();
@@ -153,8 +168,13 @@ $(window).resize(function(){
                     $(".filterli-"+i).show();
                     $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var brand=$(".filterli-"+i+' '+'.brndcomm').length;
+                        if(brand<=4){
+                            $("#lb_btn").hide();
+                        }
+
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
@@ -162,17 +182,25 @@ $(window).resize(function(){
                     })
                     $(".filterli-"+i+' '+'.prod').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var prod=$(".filterli-"+i+' '+'.prod').length;
+                        if(prod<=4){
+                            $("#lb_btn").hide();
+                        }
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
                         }
                     })
-                    $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
+                    $(".filterli-"+i+' '+'.service').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var service=$(".filterli-"+i+' '+'.service').length;
+                        if(service<=4){
+                            $("#lb_btn").hide();
+                        }
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
@@ -197,7 +225,7 @@ $(window).resize(function(){
                     $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
@@ -206,16 +234,16 @@ $(window).resize(function(){
                     $(".filterli-"+i+' '+'.prod').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
                         }
                     })
-                    $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
+                    $(".filterli-"+i+' '+'.service').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
                         if(index<=3){
-                            $(this).add();
+                            $(this).show();
                         }
                         else{
                             $(this).hide();
@@ -284,7 +312,7 @@ $(window).resize(function(){
             if(value == 'Product'){
                 $('.prod').each(function (index) { 
                     if(index<=3){
-                        $(this).add();
+                        $(this).show();
                     }
                     else{
                         $(this).hide();
@@ -294,7 +322,7 @@ $(window).resize(function(){
             else if(value == 'Service'){
                 $('.service').each(function (index) { 
                     if(index<=3){
-                        $(this).add();
+                        $(this).show();
                     }
                     else{
                         $(this).hide();
@@ -305,7 +333,7 @@ $(window).resize(function(){
                 var prodcount=$('.brndcomm').length;
                 $('.brndcomm').each(function (index) { 
                     if(index<=3){
-                        $(this).add();
+                        $(this).show();
                     }
                     else{
                         $(this).hide();

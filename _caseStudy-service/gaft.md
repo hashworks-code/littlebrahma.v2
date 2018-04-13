@@ -99,7 +99,7 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "group-6"
+    - SImg18: "gaft-desktop"
     - SImg18: "gaft-screens"
     - SImg18: "gaft-auth"
     - SImg18: "gaft-lookup"
@@ -115,7 +115,8 @@ cContent10: "We were able to come up with following solutions for our customers.
 
 
 cHead10: "3.  Design"
-cContent15: "A modern, interactive and call to action based user experience."
+main_content:
+  - cContent15: "A modern, interactive and call to action based user experience."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"

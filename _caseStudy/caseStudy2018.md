@@ -83,6 +83,19 @@ cImg6: "group-10"
 
 cImg7: "bitmap-copy-20"
 
+lists_img:
+  - slide-imges: "ftr-2017@1"
+  - slide-imges: "ftr-2017@2"
+  - slide-imges: "ftr-2017@3"
+  - slide-imges: "ftr-2017@4"
+  - slide-imges: "ftr-2017@5"
+  - slide-imges: "ftr-2017@6"
+  - slide-imges: "ftr-2017@7"
+  - slide-imges: "ftr-2017@8"
+  - slide-imges: "ftr-2017@9"
+  - slide-imges: "ftr-2017@10"
+  - slide-imges: "ftr-2017@11"
+
 cat: Branding & Communication
 product_title: LB Calendar design 2018
 product_title1: calender 2018

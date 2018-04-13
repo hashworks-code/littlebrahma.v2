@@ -125,43 +125,12 @@
                                     
                         </div>
                         <div class="slider-nav">
+                            {% for imgg in page.lists_img %}
                                 <div class="caseStudy__imgSlide">
-                                    <img src="/assets/img/caseStudy/ftr-2017@1.png">
+                                    <img src="/assets/img/caseStudy/{{ imgg.slide-imges  | downcase }}.png">
                                 </div>
-                                <div class="caseStudy__imgSlide">
-                                        <img src="/assets/img/caseStudy/ftr-2017@2.png">
-                                </div>
-                                <div class="caseStudy__imgSlide">
-                                        <img src="/assets/img/caseStudy/ftr-2017@3.png">
-                                </div>
-                                <div class="caseStudy__imgSlide">
-                                        <img src="/assets/img/caseStudy/ftr-2017@4.png">
-                                </div>
-                                <div class="caseStudy__imgSlide">
-                                        <img src="/assets/img/caseStudy/ftr-2017@5.png">
-                                </div>
-                                <div class="caseStudy__imgSlide">
-                                        <img src="/assets/img/caseStudy/ftr-2017@6.png">
-                                    </div>
-                                    <div class="caseStudy__imgSlide">
-                                            <img src="/assets/img/caseStudy/ftr-2017@7.png">
-                                    </div>
-
-                                    <div class="caseStudy__imgSlide">
-                                      <img src="/assets/img/caseStudy/ftr-2017@8.png">
-                              </div>
-
-                              <div class="caseStudy__imgSlide">
-                                <img src="/assets/img/caseStudy/ftr-2017@9.png">
-                        </div>
-
-                        <div class="caseStudy__imgSlide">
-                          <img src="/assets/img/caseStudy/ftr-2017@10.png">
-                  </div>
-
-                  <div class="caseStudy__imgSlide">
-                    <img src="/assets/img/caseStudy/ftr-2017@11.png">
-            </div>
+                                {% endfor %}
+                                
 
            
                                 
