@@ -24,7 +24,7 @@ flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: Cust. interview
 existprocuctContenthead1: Customer Interview
-existprocuctContent1: Understanding customer's vision of their brand and how they want to communicate to their end user
+existprocuctContent1: Understanding customer vision of their brand and how they want to communicate to their end user
 flowImage2: '/assets/img/service/page-1 (6).svg'
 flowactiveImage2: '/assets/img/service/brand3.svg'
 flowContent2: Research & Analysis
@@ -43,7 +43,7 @@ existprocuctContent4: Creating an inspiring visual identity for the brand which 
 cardlist: 
     - list:
          title: Collaborative Work Environment 
-         content: We collaborate with business SMEs, content writer and strategists to understand your brand better and visually recite your brand story effectively
+         content: We collaborate with business, content writer and strategists to understand your brand better and visually recite your brand story
     - list:
          title: Multiple Design Platforms 
          content: We don’t restrict ourselves by training our designers to become expert in different disciplines of design
