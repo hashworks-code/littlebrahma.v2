@@ -301,9 +301,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 768px) {
   .headingBold {
-    font-size: 32px; }
+    font-size: 24px; }
   .headingLight {
-    font-size: 32px; }
+    font-size: 24px; }
   .typography {
     font-size: 16px; }
   .paragraph {
@@ -337,9 +337,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1025px) {
   .headingBold {
-    font-size: 40px; }
+    font-size: 32px; }
   .headingLight {
-    font-size: 40px; }
+    font-size: 32px; }
   .typography {
     font-size: 20px; }
   .paragraph {
@@ -385,9 +385,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .headingBold {
-    font-size: 48px; }
+    font-size: 40px; }
   .headingLight {
-    font-size: 48px; }
+    font-size: 40px; }
   .typography {
     font-size: 24px; }
   .paragraph {
@@ -1775,6 +1775,7 @@ button.lb_btn:focus {
   padding-top: 15px; }
 
 .lb-filter-headdesc {
+  font-family: 'PT_Sans-Regular';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
