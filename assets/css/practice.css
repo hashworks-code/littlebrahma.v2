@@ -1116,7 +1116,7 @@ h1 {
 
 @media screen and (max-width: 1366px) {
   .footer {
-    height: 760px; }
+    height: 400px; }
     .footer__inner {
       font-size: 40px;
       padding: 80px 0 0 42px; }
@@ -1217,7 +1217,7 @@ h1 {
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 760px; }
+    height: 450px; }
     .footer__inner {
       font-size: 40px;
       padding: 80px 0 0 42px; }
@@ -1226,7 +1226,6 @@ h1 {
       .footer__inner a {
         font-size: 20px; }
     .footer__image {
-      height: 631px;
       background-position: left;
       background-size: 128% 100%; }
     .footer__bottom {
