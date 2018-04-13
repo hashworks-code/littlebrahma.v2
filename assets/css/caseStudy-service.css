@@ -2945,6 +2945,9 @@ h1 {
 .enigma_bg {
   width: 85%; }
 
+.padding-cls {
+  padding-bottom: 20px; }
+
 @media screen and (max-width: 1365px) {
   .CSservice {
     margin: 96px 180px; }
@@ -3091,7 +3094,7 @@ h1 {
     margin: 0 32px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
-    margin: 80px 0 130px;
+    margin: 80px 0 150px;
     padding: 45px 0 115px; }
   .caseStudy__content4 {
     width: 100%;

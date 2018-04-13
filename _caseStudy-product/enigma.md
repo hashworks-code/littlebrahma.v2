@@ -110,7 +110,8 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Designing for better scale and maneuverability"
-cContent9: "We blended with the tech team and introduced an interactive & iterative design model to deliver what the they needed."
+adapt_loop:
+  - cContent9: "We blended with the tech team and introduced an interactive & iterative design model to deliver what the they needed."
 csubHead5: "Output"
 cContent10: "We were able to come up with following solutions for our customers."
 

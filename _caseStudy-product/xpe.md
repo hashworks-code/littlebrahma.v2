@@ -100,7 +100,8 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Enabling the perf. engineers to do more"
-cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams, we were able nail down the following scope and objectives"
+adapt_loop:
+  - cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams, we were able nail down the following scope and objectives"
 csubHead5: "Output"
 cContent10: "A workflow a driven engineering platform with insightful dashboard for measuring the application performance and stability."
 
