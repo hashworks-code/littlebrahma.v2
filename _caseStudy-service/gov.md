@@ -108,7 +108,8 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
+adapt_loop:
+  - cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
 csubHead5: "Output"
 cContent10: "All the parties involved had the same expectation on the outcome of the work."
 
@@ -141,12 +142,13 @@ division_loop:
         - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow.'
       SImg6: 'group-5'
 
-full_image:
-    - cHead8: '3.  Information abstracted in schematic form'
-      cntnt_loop:
-        - cContent13: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
-      SImg8: 'bitmap2'
+    - cHead6: '3.  Information abstracted in schematic form'
+      para_loop:
+        - cContent11: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
+      SImg6: 'bitmap2'
 
+full_image:
+    
     - cHead8: '4.  Smart sorting of data'
       cntnt_loop:
         - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'

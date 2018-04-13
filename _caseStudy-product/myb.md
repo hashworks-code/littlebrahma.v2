@@ -11,6 +11,7 @@ section: "opm"
 SImg19: 'opm-data-03'
 sbHead: "yes"
 color: "pink"
+myb-padding: "padding-cls"
 
 box_lists:
     - box-Head1: '20%'
@@ -94,7 +95,7 @@ SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "myb-people"
 
 SImg10: "myb-wireframe"
-SImg11: "style-guid"
+SImg11: "myb_style"
 SImg12: "myb-customer-audit-summary"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
@@ -108,7 +109,9 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Fitting into their shoes"
-cContent9: "Immersing ourselves in the shopping process as a potential buyer/auditor and from a store front gave us a lot of insights into their major stakeholders/ personas, their hand off points, motivation criteria, pain areas,  demographic, age and daily routines."
+adapt_loop:
+  - cContent9: "Immersing ourselves in the shopping process as a potential buyer/auditor and from a store front gave us a lot of insights into their major stakeholders/ personas, their hand off points, motivation criteria, pain areas,  demographic, age and daily routines."
+  - cContent9: "We further created user personas and their user flows. This, together with the workflow gave a complete picture on the product scope and roadmap."
 csubHead5: "Output"
 cContent10: "We were able to identify the below mentioned user personas:"
 
@@ -117,6 +120,7 @@ cContent10: "We were able to identify the below mentioned user personas:"
 cHead10: "6. Design"
 main_content:
   - cContent15: "Moving on to designing the application, it started first with us having an elaborate mood boarding sessions. We extensively follow the atomic design principle. we created individual components, finalized on the color, type and layout. "
+  - cContent15: "We further created user personas and their user flows. This, together with the workflow gave a complete picture on the product scope and roadmap."
 
 cHead11: "Evolve "
 csubHead6: "Taking the customer along through the entire journey"
