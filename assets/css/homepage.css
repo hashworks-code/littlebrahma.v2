@@ -1258,7 +1258,11 @@ h1 {
           -ms-flex-align: end;
               align-items: flex-end;
       padding-bottom: 37px;
-      width: 1100px; }
+      width: 1100px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
