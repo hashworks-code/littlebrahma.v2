@@ -49,7 +49,7 @@ cardlist:
          content: We don’t restrict ourselves by training our designers to become expert in different disciplines of design
     - list:
          title: Hybrid Roles 
-         content: Most of our folks wear multiple hats while working with a customer. Our designers understand different stakeholders constraints to achieve the business goals
+         content: Most of our folks wear multiple hats. Our designers understand different stakeholders constraints to achieve the business goals
 ourdifferenciate: We have great storytellers who understand the pulse of your end customers. They narrate your brand story with clear emphasis on your organization vision, values and voice.
 
 ---

@@ -1741,7 +1741,8 @@ h1 {
     width: 1100px;
     margin: 0 auto; }
   .branding .enigmabackground {
-    margin: 0px; }
+    margin: 0px;
+    width: 1100px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
@@ -1791,10 +1792,12 @@ h1 {
     margin: 0 auto; }
   .branding__adapt {
     height: 446px;
-    margin: 120px 0px 0px; }
+    margin: 120px auto 0px;
+    width: 1100px;
+    background-size: 100% 100%; }
     .branding__adapt__align {
-      width: 1100px;
-      padding: 0 380px 0px 0px;
+      width: 870px;
+      padding: 0 160px 0px 0px;
       height: 446px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
@@ -1843,11 +1846,14 @@ h1 {
     padding-bottom: 65px; }
   .branding__evolve {
     margin-right: 0;
-    height: 458px; }
+    height: 458px;
+    width: 1100px;
+    margin: 0 auto;
+    background-size: 100% 100%; }
     .branding__evolve__align {
-      width: 1100px;
-      padding: 0 347px 0px 0px;
-      height: 458px; }
+      height: 458px;
+      width: 870px;
+      padding: 0 160px 0px 0px; }
   .branding__fontfamily {
     padding: 0;
     width: 1100px;

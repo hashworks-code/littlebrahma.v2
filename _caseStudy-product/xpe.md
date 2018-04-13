@@ -74,7 +74,7 @@ content_lists1:
 
 box-Head4: '187'
 box-Head5: 'apps'
-box-para4: 'to be on-boarded in the clients IT eco-system for real-time monitoring'
+box-para4: 'on-boarded in the clients IT eco-system for real-time monitoring'
 
 cHead4: "Output"
 cContent8: "Our discovery phase helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
