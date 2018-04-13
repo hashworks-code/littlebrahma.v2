@@ -226,7 +226,8 @@ table {
     font-size: 12px;
     font-weight: normal;
     line-height: 1.5;
-    color: #393939; }
+    letter-spacing: 0.4px;
+    color: #5d6a6f; }
   .commonButton {
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
@@ -306,7 +307,9 @@ textarea:hover, textarea:focus {
   .typography {
     font-size: 16px; }
   .paragraph {
-    font-size: 14px; }
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    line-height: 1.6; }
   .csHeading {
     font-size: 16px; }
   .rajdhaniBold {
@@ -340,7 +343,9 @@ textarea:hover, textarea:focus {
   .typography {
     font-size: 20px; }
   .paragraph {
-    font-size: 16px; }
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 1.8; }
   .csHeading {
     font-size: 24px;
     color: #393939; }
@@ -386,7 +391,9 @@ textarea:hover, textarea:focus {
   .typography {
     font-size: 24px; }
   .paragraph {
-    font-size: 20px; }
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.8; }
   .csHeading {
     font-size: 32px; }
   .commonButton {
@@ -626,7 +633,7 @@ html, body {
   transform: translateX(-50%) translateY(-50%);
   width: 18px;
   height: 2px;
-  background-color: #00c6c6;
+  background-color: #ea1c49;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
   /* these are the upper and lower lines in the menu icon */ }
@@ -636,7 +643,7 @@ html, body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #00c6c6;
+  background-color: #ea1c49;
   right: 0;
   -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
   -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -654,7 +661,7 @@ html, body {
   background-color: rgba(255, 255, 255, 0); }
 
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked::before, .cd-primary-nav-trigger .cd-menu-icon.is-clicked::after {
-  background-color: #00c6c6; }
+  background-color: #ea1c49; }
 
 .cd-primary-nav-trigger .cd-menu-icon.is-clicked::before {
   top: 0;
@@ -724,23 +731,6 @@ html, body {
 
 .cd-primary-nav li:last-child {
   border-bottom: none; }
-
-.cd-primary-nav li:last-child a {
-  width: 80%;
-  text-decoration: none;
-  border-radius: 4px;
-  background-color: #00c6c6;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
-
-.cd-primary-nav li :last-child button {
-  border: none;
-  outline: none;
-  text-align: center;
-  background-color: #00c6c6;
-  width: 100%;
-  height: 31px;
-  border-radius: 4px; }
 
 .cd-primary-nav a {
   display: inline-block;
@@ -1132,9 +1122,8 @@ h1 {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end;
-      padding-bottom: 37px;
-      padding-left: 0px;
-      width: 965px;
+      width: 100%;
+      padding: 0px 42px 37px 42px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1167,9 +1156,8 @@ h1 {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end;
-      padding-bottom: 24px;
-      padding-left: 0px;
-      width: 700px;
+      width: 100%;
+      padding: 0px 35px 24px 35px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1202,9 +1190,8 @@ h1 {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end;
-      padding-bottom: 16px;
-      padding-left: 0px;
-      width: 500px;
+      width: 100%;
+      padding: 0px 15px 16px 15px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1222,7 +1209,8 @@ h1 {
   .footer {
     height: 320px; }
     .footer__bottom {
-      width: 400px; } }
+      width: 100%;
+      padding: 0px 15px 16px 15px; } }
 
 @media screen and (max-width: 420px) {
   .footer {
@@ -1232,7 +1220,8 @@ h1 {
       .footer__inner a {
         padding: 5px 18px 6px; }
     .footer__bottom {
-      width: 220px; } }
+      width: 100%;
+      padding: 0px 15px 16px 15px; } }
 
 /*footer ends*/
 @media screen and (min-width: 1367px) {
@@ -1257,8 +1246,8 @@ h1 {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end;
-      padding-bottom: 37px;
-      width: 1100px;
+      width: 100%;
+      padding: 0px 165px 37px 165px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;

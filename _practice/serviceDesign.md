@@ -24,42 +24,42 @@ flowImage1: '/assets/img/service/page-1 (11).svg'
 flowactiveImage1: '/assets/img/service/service.svg'
 flowContent1: Process/ Persona mapping
 existprocuctContenthead1: Process/Persona Mapping
-existprocuctContent1: Deep diving into the business operations to understand the processes and mapping the stakeholders involved.
+existprocuctContent1: Deep diving into the business operations to understand the processes and mapping the stakeholders involved
 flowImage2: '/assets/img/service/page-1 (12).svg'
 flowactiveImage2: '/assets/img/service/line.svg'
 flowContent2: UX Review
 existprocuctContenthead2: UX Review
-existprocuctContent2: Mapping the user journey for each of the personas and understanding how they behave.
+existprocuctContent2: Mapping the user journey for each of the personas and understanding how they behave
 flowImage3: '/assets/img/service/page-1 (1).svg'
 flowactiveImage3: '/assets/img/service/arrowservice.svg'
 flowContent3: Redesign
 existprocuctContenthead3: Redesign
-existprocuctContent3: Suggesting the design changes and building a wireframe.
+existprocuctContent3: Design overhaul based on concrete user research and testing
 flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User testing
 existprocuctContenthead4: User testing
-existprocuctContent4: Reaching out to the end customers and collecting data to improve by achieving the business goals.
+existprocuctContent4: Reaching out to the end customers and collect data to improve user experience
 newproductImage1: '/assets/img/service/page-1 (16).svg'
 newproductActiveImage1: '/assets/img/service/test1.svg'
 newproductContent1: User research
 newprodContenthead1: User Research
-newprodContent1: Empathizing for end-user and understanding their needs.
+newprodContent1: Empathizing for end-user and understanding their needs
 newproductImage2: '/assets/img/service/page-1 (17).svg'
 newproductActiveImage2: '/assets/img/service/prod2.svg'
-newproductContent2: Workflow mapping & story boarding
+newproductContent2: User journey mapping
 newprodContenthead2: User journey mapping
-newprodContent2: Creating the workflow and mapping the journey for each of the personas.
+newprodContent2: Creating the workflow and mapping the journey for each of the personas
 newproductImage3: '/assets/img/service/page-1 (18).svg'
 newproductActiveImage3: '/assets/img/service/prod-1.svg'
-newproductContent3: Release planning
+newproductContent3: Prototype
 newprodContenthead3: Prototype
-newprodContent3: Building the wireframe and going to market for validation of the idea.
+newprodContent3: Building the wireframe and going to market for validation of the idea
 newproductImage4: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage4: '/assets/img/service/arrowservice.svg'
-newproductContent4: Prototype & design
+newproductContent4: Design
 newprodContenthead4: Design
-newprodContent4: Designing the product with the feedback collected and going to the market.
+newprodContent4: Designing the product with the feedback collected and going to the market
 url: "ServiceDesign"
 cardlist: 
     - list:
@@ -70,10 +70,10 @@ cardlist:
          content: We design and co-create prototype for multiple channels to deliver a seamless customer experience.
     - list:
          title: Atomic design principles 
-         content: We break down design into fundamental building blocks which helps in creating simple and minimalistic interfaces.
+         content: We break down design into fundamental building blocks to achieve simple and consistant design across touchpoints
     - list:
          title: Data Driven Design 
-         content: We love data as its the language in which the user communicates. We do greater analysis and derive business goals through it.      
+         content: We love data as its provides context and direction to the user. Our designs are derived based on complete data analysis      
          
-ourdifferenciate: We work very closely with the business stakeholders to identify and define the core business issues. Our tech-driven design operations workflow and data driven design blend efficiency and helps driving values to your business.
+ourdifferenciate: We work very closely with the business stakeholders to identify and define the core business issues. Our data driven design approach and tech-driven DesignOps blends efficiently to help drive value to your business.
 ---
