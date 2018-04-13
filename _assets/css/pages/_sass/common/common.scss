@@ -251,7 +251,8 @@ table {
     font-size: 12px;
     font-weight: normal;
     line-height: 1.5;
-    color: #393939;
+    letter-spacing:0.4px;
+    color: #5d6a6f;
    
 }
 // BUTTON 
@@ -354,7 +355,9 @@ table {
         font-size: 16px;
     }
     .paragraph{
-        font-size: 14px;
+        font-size: 12px;
+        letter-spacing:0.4px;
+        line-height:1.6;
     }
     .csHeading {
         font-size: 16px;
@@ -405,7 +408,9 @@ table {
         font-size:20px;
     }
     .paragraph{
-        font-size: 16px;
+        font-size: 14px;
+        letter-spacing:0.4px;
+        line-height:1.8;
     }
     .csHeading{
         font-size: 24px;
@@ -471,7 +476,9 @@ table {
         font-size:24px;
     }
     .paragraph{
-        font-size:20px;
+        font-size:16px;
+        letter-spacing:1px;
+        line-height:1.8;
     }
     .csHeading{
         font-size: 32px;

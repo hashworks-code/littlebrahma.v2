@@ -74,9 +74,8 @@ height: 520px;
   display: flex;
   height: 100%;
   align-items: flex-end;
-  padding-bottom: 37px;
-  padding-left: 0px;
-  width: 965px;
+  width: 100%;
+  padding: 0px 42px 37px 42px;
   margin: 0 auto;
 justify-content: space-between;
   div{
@@ -112,9 +111,8 @@ height: 460px;
   display: flex;
   height: 100%;
   align-items: flex-end;
-  padding-bottom: 24px;
-  padding-left: 0px;
-  width: 700px;
+  width: 100%;
+  padding: 0px 35px 24px 35px;
   margin: 0 auto;
   justify-content: space-between;
   div{
@@ -149,9 +147,8 @@ height: 335px;
   display: flex;
   height: 100%;
   align-items: flex-end;
-  padding-bottom: 16px;
-  padding-left: 0px;
-  width: 500px;
+  width: 100%;
+  padding: 0px 15px 16px 15px;
   margin: 0 auto;
   justify-content: space-between;
   div{
@@ -172,7 +169,8 @@ height: 335px;
 .footer{
 height: 320px;
 &__bottom{
-width: 400px;
+  width: 100%;
+  padding: 0px 15px 16px 15px;
 }
 }
 } 
@@ -187,7 +185,8 @@ width: 400px;
   }
 }
 &__bottom{
-  width: 220px;
+  width: 100%;
+  padding: 0px 15px 16px 15px;
   }
 }
 }
@@ -216,8 +215,8 @@ width: 400px;
     display: flex;
     height: 100%;
     align-items: flex-end;
-    padding-bottom: 37px;
-   width: 1100px;
+    width: 100%;
+    padding: 0px 165px 37px 165px;
    margin: 0 auto;
    justify-content: space-between;
 
