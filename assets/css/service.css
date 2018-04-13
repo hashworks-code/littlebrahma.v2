@@ -1953,6 +1953,9 @@ div.test {
 .dropdown-menu li.lb_work_filterActive {
   border-bottom: none; }
 
+.red {
+  color: #ea1c49; }
+
 .homePage {
   margin-top: 80px; }
   .homePage__BnrDiv {
