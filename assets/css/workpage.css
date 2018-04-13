@@ -1263,6 +1263,24 @@ h1 {
 
 .prct {
   line-height: 1.5; }
+  .prct .horizantal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .prct .verticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .prct .hero_img {
     background-image: url(/assets/img/practice/03_Practice.gif); }
   .prct_rnImg {

@@ -1,6 +1,15 @@
 //home/hashworks/Downloads/banner-4-a_2018-03-15/practiceBnr.png
 .prct{
     line-height: 1.5;
+    .horizantal{
+        display: flex;
+        justify-content: center;
+    }
+    .verticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
     .hero{
         &_img{
             background-image: url(/assets/img/practice/03_Practice.gif);
