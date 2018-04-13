@@ -64,7 +64,7 @@ url: "productDesign"
 cardlist: 
     - list:
          title: Components Based Design 
-         content: We make things simple and follow the practice of fundamental brick building so that the hand-off to the developers becomes seamless.
+         content: We follow the practice of fundamental brick building so that the hand-off to the developers becomes seamless.
     - list:
          title: Advanced Version Control 
          content: We help in scaling up slowly and use our tech skills to version control your design releases.
@@ -74,5 +74,5 @@ cardlist:
     - list:
          title: Effective Project Management
          content: We feel accountable for the work and each project is owned by one lead designer who ensures that quality is delivered.
-ourdifferenciate: We believe in being lean, minimalistic and bringing out the usability of the product. Having worked with large enterprises for over 3+years makes it easier for us to understand the innovation driven scalable designs, creating a seamless customer experience. Our tech-based roots, help us to understand the development cycles better, plan productive sprint sessions and lead a version controlled design process.         
+ourdifferenciate: We believe in being lean, minimalistic and bringing out the usability of the product through our sprint sessions. Having worked with large enterprises for over 3+years makes it easier for us to understand the innovation driven scalable designs.          
 ---

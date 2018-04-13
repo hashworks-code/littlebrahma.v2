@@ -1860,6 +1860,8 @@ div.test {
 @media screen and (min-width: 768px) {
   .lb_filter_lg {
     display: block; }
+  .lb-filter-Img {
+    padding-left: 15px !important; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -1887,7 +1889,9 @@ div.test {
   .lb-filter-headdesc {
     font-size: 14px; }
   .lb_btn_div {
-    text-align: center; } }
+    text-align: center; }
+  .lb-filter-Img {
+    padding-left: 30px; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -1903,7 +1907,9 @@ div.test {
   .lb-filter-headdesc {
     font-size: 14px; }
   .lb_btn_div {
-    text-align: center; } }
+    text-align: center; }
+  .lb-filter-Img {
+    padding-left: 30px; } }
 
 .filterli-2 {
   display: none; }
