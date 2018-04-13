@@ -2207,7 +2207,7 @@ div.test {
   .homePage {
     margin-top: 0px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
+      background-image: url(/assets/img/homepage/mobile-home-banner.gif);
       background-size: cover;
       background-position: center center;
       height: 878px; }
