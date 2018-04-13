@@ -301,9 +301,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 768px) {
   .headingBold {
-    font-size: 24px; }
+    font-size: 32px; }
   .headingLight {
-    font-size: 24px; }
+    font-size: 32px; }
   .typography {
     font-size: 16px; }
   .paragraph {
@@ -337,9 +337,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1025px) {
   .headingBold {
-    font-size: 32px; }
+    font-size: 40px; }
   .headingLight {
-    font-size: 32px; }
+    font-size: 40px; }
   .typography {
     font-size: 20px; }
   .paragraph {
@@ -385,9 +385,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .headingBold {
-    font-size: 40px; }
+    font-size: 48px; }
   .headingLight {
-    font-size: 40px; }
+    font-size: 48px; }
   .typography {
     font-size: 24px; }
   .paragraph {
@@ -1775,7 +1775,6 @@ button.lb_btn:focus {
   padding-top: 15px; }
 
 .lb-filter-headdesc {
-  font-family: 'PT_Sans-Regular';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -2092,7 +2091,7 @@ div.test {
 
 .lb-ourworks {
   text-align: center;
-  font-family: 'MavenPro-Medium';
+  /* font-family: MavenPro; */
   font-size: 40px;
   font-weight: 500;
   font-style: normal;
@@ -2169,11 +2168,8 @@ div.test {
       .homePage__BnrDiv__Inner__Content p {
         font-size: 14px;
         line-break: 30px; }
-  .homePage__BnrDiv__dna {
-    padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
-    font-size: 24px;
-    margin-bottom: 40px; }
+    font-size: 24px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
     height: 260px; }
@@ -2228,7 +2224,7 @@ div.test {
             font-size: 12px;
             line-height: 16px; }
       .homePage__BnrDiv__Service {
-        bottom: -466px; }
+        bottom: -230px; }
         .homePage__BnrDiv__Service h1 {
           color: #5d6a6f;
           margin-top: -390px;
@@ -2238,10 +2234,10 @@ div.test {
           display: block; }
           .homePage__BnrDiv__Service__Cards__Inner {
             width: 210px;
-            height: 210px;
+            height: 154px;
             margin: 0 auto 16px; }
             .homePage__BnrDiv__Service__Cards__Inner__a {
-              padding-top: 50px; }
+              padding-top: 30px; }
               .homePage__BnrDiv__Service__Cards__Inner__a h3 {
                 font-size: 16px; }
               .homePage__BnrDiv__Service__Cards__Inner__a p {
@@ -2249,9 +2245,7 @@ div.test {
           .homePage__BnrDiv__Service__Cards__Inner:hover img {
             display: none; }
     .homePage__dna {
-      display: block;
-      margin-top: 40px;
-      padding-bottom: 83px; }
+      display: block; }
       .homePage__dna__left {
         padding-right: 0;
         margin: 0 auto;
@@ -2263,7 +2257,7 @@ div.test {
       .homePage__dna__right {
         width: 264px;
         text-align: center;
-        margin: 80px auto 0px; }
+        margin: 0 auto; }
         .homePage__dna__right h1 {
           font-size: 16px; }
         .homePage__dna__right p {
@@ -2275,11 +2269,7 @@ div.test {
     font-size: 24px;
     padding-bottom: 0px; }
   .lb-ourworks-dna {
-    margin: 530px 0 0; }
-  .dropdown-toggle {
-    text-align: center; }
-  .lb_work_filterli {
-    text-align: center; } }
+    margin: 235px 0 0; } }
 
 .stepwizard-step p {
   margin-top: 20px;
@@ -2595,7 +2585,7 @@ ul.lb_work_filter.lb_service_lg {
       width: 220px; }
     .carousel__card1 {
       width: 155px;
-      height: 230px !important;
+      height: 215px !important;
       -o-object-fit: contain;
          object-fit: contain;
       background-color: #ffffff;
@@ -2667,7 +2657,7 @@ ul.lb_work_filter.lb_service_lg {
       width: 355px; }
     .carousel__card1 {
       width: 155px;
-      height: 259px !important;
+      height: 222px !important;
       margin: 0px 20px 0px 0px; }
       .carousel__card1 img {
         width: 30px;
@@ -2701,7 +2691,7 @@ ul.lb_work_filter.lb_service_lg {
       padding-top: 10px;
       padding-bottom: 10px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 7px;
+    top: 24px;
     left: 110px;
     height: 247px; } }
 
@@ -2712,7 +2702,7 @@ ul.lb_work_filter.lb_service_lg {
     width: 488px; }
   .carousel__card1 {
     width: 155px;
-    height: 322px !important;
+    height: 279px !important;
     margin: 0px 25px 0px 0px; }
     .carousel__card1 img {
       width: 45px;
@@ -2765,7 +2755,7 @@ ul.lb_work_filter.lb_service_lg {
     left: 165px;
     width: 555px; }
   .carousel__card1 {
-    height: 378px !important;
+    height: 324px !important;
     margin: 0px 25px 0px 0px; }
     .carousel__card1 img {
       margin: 56px 0px 32px 96px; }
@@ -2797,10 +2787,10 @@ ul.lb_work_filter.lb_service_lg {
   .carousel .slick-slider .slick-track {
     width: 5000px  !important; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 55px;
+    top: 70px;
     left: 185px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    height: 390px; } }
+    height: 344px; } }
 
 .stepwizard-row .popover-content {
   text-align: center; }
