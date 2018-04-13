@@ -155,7 +155,7 @@ full_image:
 
 cat: Service Design
 product_title: Evaluating the shopping experience.
-product_title1: MYB
+product_title1: Mystery Box
 product_description: Branding / Visual identity / Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/MYB.jpg"

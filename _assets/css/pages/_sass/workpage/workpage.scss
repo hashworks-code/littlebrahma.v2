@@ -479,11 +479,15 @@ button.lb_btn:focus {
 @media screen and (max-width: 420px){
     .lb-filter-Img {
         height: 194px;
+        padding-left:15px;
     }
 }
 @media screen and (min-width: 768px){
     .lb_filter_lg{
        display: block;
+    }
+    .lb-filter-Img {
+        padding-left:15px;
     }
     .lb_work_filter li{
         font-size: 16px;
@@ -528,6 +532,9 @@ button.lb_btn:focus {
     .lb_btn_div{
         text-align: center;
     }
+    .lb-filter-Img {
+        padding-left:30px;
+    }
 
 }
 @media screen and (min-width: 1367px){
@@ -552,6 +559,9 @@ button.lb_btn:focus {
 
     .lb_btn_div{
         text-align: center;
+    }
+    .lb-filter-Img {
+        padding-left:30px;
     }
 }
 .filterli-2{

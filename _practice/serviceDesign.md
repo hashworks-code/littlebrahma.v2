@@ -75,5 +75,5 @@ cardlist:
          title: Data Driven Design 
          content: We love data as its the language in which the user communicates. We do greater analysis and derive business goals through it.      
          
-ourdifferenciate: We work very closely with the business stakeholders to identify and define the core business issues. Our tech-driven design operations workflow blend efficiency and helps driving values to your business.
+ourdifferenciate: We work very closely with the business stakeholders to identify and define the core business issues. Our tech-driven design operations workflow and data driven design blend efficiency and helps driving values to your business.
 ---

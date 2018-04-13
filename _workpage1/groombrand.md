@@ -31,8 +31,8 @@ brandImage3: "groome3.jpg"
 brandImage4: "groome4.jpg"
 
 perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
-paragraph1: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
+percevesubtitle: "Getting to know the vibe"
+paragraph1: "Regular conversations with the customer helped us understand the lanuage that hashworks wants to establish in the community. We came up with"
 paragraph2: "- Brand voice that customer wants to convey"
 paragraph3: " - Design strategy for the marketing"
 paragraph4: "- Concept designs of the artifacts which connects with tech community"
@@ -71,7 +71,7 @@ variations8: "variation8.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iterationDesign with iteration"
+evolveSubTitle: "Design with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"

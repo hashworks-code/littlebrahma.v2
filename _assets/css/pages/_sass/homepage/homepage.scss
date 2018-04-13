@@ -1,4 +1,12 @@
 @import "workpage/workpage.scss";
+
+.red{
+    color: #ea1c49;
+}
+.lb-explore{
+   position: relative;
+   z-index: 2px;
+}
 .homePage{
     margin-top: 80px;
     &__BnrDiv{
@@ -225,7 +233,7 @@
         padding-bottom: 50px;
     }
     .homePage{
-        margin-top: 0;
+         margin-top: 0;
         &__BnrDiv{
             // background-size: cover;
             // background-position: 40% 84px;
@@ -393,22 +401,25 @@
 }
 @media screen and (max-width: 767px) {
     .homePage{
+        margin-top: 80px;
         &__BnrDiv{
-            background-image: url(/assets/img/homepage/mobile-banner.jpg);
-            background-size: 100% 100%;
+            // background-image:none;
+            background-image: url(/assets/img/homepage/mobile-home-banner2.gif);
+            background-size: cover;
             background-position: center center;
             // padding-top: 284px;
+            height: 878px;
             &__Inner{
                 height: 710px;
                 background-image: none;
                 &__Content{
-                     padding: 0 50px 0 50px;
-                    // width: 315px;
+                     padding: 0 65px 0 65px;
+                     width: 100%;
                     padding-top:35%;
                     text-align: center;
                     margin: 0 auto;
-                    position: relative;
-                    top: 241px;
+                    position: absolute;
+                    bottom: 370px;
                     h1{
                         font-size: 24px;
                     }
@@ -421,7 +432,7 @@
             &__Service{
                 // position: relative;
                 // top: 20px;   
-                bottom: -120px;         
+                bottom: -230px;         
                 h1{
                     color: #5d6a6f;
                     margin-top: -390px;
@@ -495,6 +506,6 @@
         padding-bottom: 0px;
     }
     .lb-ourworks-dna{
-        margin: 144px 0 0;
+        margin: 235px 0 0;
     }
 }

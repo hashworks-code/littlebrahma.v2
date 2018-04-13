@@ -142,8 +142,8 @@ full_image:
 
 
 cat: Service Design
-product_title: Fruad detectation tool for E-commerce platform
-product_title1: GAFT
+product_title: Fraud detectation tool for E-commerce platform
+product_title1: Global Anti-Fraud Detection Tool
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/GAFT.jpg"

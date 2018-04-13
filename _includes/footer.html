@@ -20,17 +20,17 @@
     </div>
     <div class="footer__image">
       
-    </div>
+    
     <div class="footer__bottom">
         <div class="footer__bottom__div">© Littlebrahma.2018</div>
         <div class="footer__bottom__div1">
-          <img src="/assets/img/FOOTER/insta-1.svg">
-          <img class="footer__bottom__div1__behance" src="/assets/img/FOOTER/behance2.svg">
-          <img src="/assets/img/FOOTER/facebook.svg">
+      <a href="https://www.instagram.com/little_brahma/" target="_blank"> <img src="/assets/img/FOOTER/insta-1.svg"></a>
+      <a href="https://www.behance.net/littlebrahma" target="_blank">  <img class="footer__bottom__div1__behance" src="/assets/img/FOOTER/behance2.svg"></a>
+        <a href="https://www.facebook.com/Little-Brahma-186396185223366/" target="_blank"><img src="/assets/img/FOOTER/facebook.svg"></a>
         </div>
         <div class="footer__bottom__div2">hello@littlebrahma.com</div>
     </div>
-</section>
+</div>
 
 
 <div id="myModal1" class="modal1">
@@ -87,7 +87,6 @@
 
 </footer>
 
-
 <script>
   var modal = document.getElementById('myModal1');
   var btn = document.getElementsByClassName("myBtn");
@@ -95,13 +94,12 @@
      for(let i=0;i<btn.length;i++){
       btn[i].onclick = function() {
       // modal.style.display = "block";
-      $('#myModal1').slideDown(500);
+      $("#myModal1").slideDown(500);
   }
      }
   span.onclick = function() {
       // modal.style.display = "none";
-      // $('#myModal1').hide(500);
-      $('#myModal1').slideUp(500);
+      $("#myModal1").slideUp(500);
   }
 
 jQuery(document).ready(function($){
