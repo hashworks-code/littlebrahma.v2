@@ -107,7 +107,8 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Learning the user priorities on biz's scenarios, interviews with high frequency users to understand the pain-points, outcome based discussion on the scenarios to draw insights and achieve call to action for every user scenarios within 2 to 3 clicks."
+adapt_loop:
+  - cContent9: "Learning the user priorities on biz's scenarios, interviews with high frequency users to understand the pain-points, outcome based discussion on the scenarios to draw insights and achieve call to action for every user scenarios within 2 to 3 clicks."
 csubHead5: "Output"
 cContent10: "We were able to come up with following solutions for our customers."
 

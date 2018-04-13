@@ -96,7 +96,8 @@ img_list:
 
 cHead5: "Adapt "
 csubHead4: "Designing the digital journey of an order"
-cContent9: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches for visual representations to crack the optimal design"
+adapt_loop:
+  - cContent9: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches for visual representations to crack the optimal design"
 csubHead5: "Output"
 cContent10: "We were able to come up with following solutions for our customers."
 
