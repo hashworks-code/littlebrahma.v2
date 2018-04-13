@@ -137,7 +137,7 @@ full_image:
 
 cat: Service Design
 product_title: Mapping the order-flow management
-product_title1: OPM
+product_title1: Order Profile Management
 product_description: Branding / Visual identity / Application / Website
 product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/OPM.jpg"

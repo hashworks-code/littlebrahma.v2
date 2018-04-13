@@ -153,7 +153,7 @@ full_image:
 
 cat: Service Design
 product_title: Enterprise order management tool
-product_title1: GOV
+product_title1: Global Order Visibility
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/gov-banner.jpg"
