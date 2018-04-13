@@ -2595,7 +2595,7 @@ ul.lb_work_filter.lb_service_lg {
       width: 220px; }
     .carousel__card1 {
       width: 155px;
-      height: 215px !important;
+      height: 230px !important;
       -o-object-fit: contain;
          object-fit: contain;
       background-color: #ffffff;
@@ -2667,7 +2667,7 @@ ul.lb_work_filter.lb_service_lg {
       width: 355px; }
     .carousel__card1 {
       width: 155px;
-      height: 222px !important;
+      height: 259px !important;
       margin: 0px 20px 0px 0px; }
       .carousel__card1 img {
         width: 30px;
@@ -2701,7 +2701,7 @@ ul.lb_work_filter.lb_service_lg {
       padding-top: 10px;
       padding-bottom: 10px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 24px;
+    top: 7px;
     left: 110px;
     height: 247px; } }
 
@@ -2712,7 +2712,7 @@ ul.lb_work_filter.lb_service_lg {
     width: 488px; }
   .carousel__card1 {
     width: 155px;
-    height: 279px !important;
+    height: 322px !important;
     margin: 0px 25px 0px 0px; }
     .carousel__card1 img {
       width: 45px;
@@ -2765,7 +2765,7 @@ ul.lb_work_filter.lb_service_lg {
     left: 165px;
     width: 555px; }
   .carousel__card1 {
-    height: 324px !important;
+    height: 378px !important;
     margin: 0px 25px 0px 0px; }
     .carousel__card1 img {
       margin: 56px 0px 32px 96px; }
@@ -2797,10 +2797,10 @@ ul.lb_work_filter.lb_service_lg {
   .carousel .slick-slider .slick-track {
     width: 5000px  !important; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    top: 70px;
+    top: 55px;
     left: 185px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
-    height: 344px; } }
+    height: 390px; } }
 
 .stepwizard-row .popover-content {
   text-align: center; }

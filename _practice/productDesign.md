@@ -5,7 +5,8 @@ keywords: >-
   Product, Design
 layout: service
 img: /assets/img/homepage/product-design.png
-desc1: Build the relationship between technology and its user. Define the problem statement which impact the masses and brainstorm ideas to find a solution. 
+desc1: Define the problem statement which impact the masses and brainstorm ideas to find a solution. Build a strong relationship between your application and its users.
+
 desc2: We focus on goal-oriented design empathizing for the end users. We help you to design a simplified solution with a minimalist approach to provide a seamless customer experience and greater adoption.
 practice_lists:
   - title: Services
@@ -24,50 +25,50 @@ flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: UX/UI review and analysis
 existprocuctContenthead1: UX/UI Review & Analysis
-existprocuctContent1: Understanding usability of the product and analyzing the customer experience.
+existprocuctContent1: Understanding usability of the product and analyzing the customer experience
 flowImage2: '/assets/img/service/page-1 (1).svg'
 flowactiveImage2: '/assets/img/service/arrowservice.svg'
 flowContent2: Prototype
 existprocuctContenthead2: Prototype
-existprocuctContent2: Building the high fidelity wireframe and validating it.
+existprocuctContent2: Optimizing user experience through high fidelity wire-frame and validating the same with the customer
 flowImage3: '/assets/img/service/page-1 (4).svg'
 flowactiveImage3: '/assets/img/service/box.svg'
 flowContent3: Design
 existprocuctContenthead3: Design
-existprocuctContent3: Designing for scalability and usability with feedback collected.
+existprocuctContent3: Design scalable UI components and create screens which showcases better usability and  experience
 flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User testing
 existprocuctContenthead4: User Testing
-existprocuctContent4: Going out to the market and listening to the end-users.
+existprocuctContent4: Implementing testing techniques on protoypes and live sites. Listening to the end users to iterate and design better
 newproductImage1: '/assets/img/service/page-1 (13).svg'
 newproductActiveImage1: '/assets/img/service/page-1 (3).svg'
 newproductContent1: User research
 newprodContenthead1: User Research
-newprodContent1: Understanding the users need and empathizing for them.
+newprodContent1: Understanding user needs, empathizing their pain points, competitor analysis and bench marking features
 newproductImage2: '/assets/img/service/page-1 (14).svg'
 newproductActiveImage2: '/assets/img/service/service2.svg'
 newproductContent2: User journey mapping
 newprodContenthead2: User journey mapping
-newprodContent2: Mapping the user journey and brainstorming for bringing out the usability.
+newprodContent2: Identifying user personas, mapping their journeys, writing user stories and use cases, keeping in mind scale and business complexities
 newproductImage3: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage3: '/assets/img/service/arrowservice.svg'
 newproductContent3: Prototype
 newprodContenthead3: Release Planning
-newprodContent3: Working with the developers closing and planning the release cycles.
+newprodContent3: Identifying product features and prioritizing them to define MVPs. Working with the developers and project managers to plan release cycles
 newproductImage4: '/assets/img/service/page-1 (15).svg'
 newproductActiveImage4: '/assets/img/service/box.svg'
 newproductContent4: Design
 newprodContenthead4: Prototype & Design
-newprodContent4: Prototyping a high fidelity wireframes for user testing and later building upon it.
+newprodContent4: Creating high fidelity wire frames to MVP showcase features. Get validation from customers and design to scale and launch
 url: "productDesign"
 cardlist: 
     - list:
          title: Components Based Design 
-         content: We follow the practice of fundamental brick building so that the hand-off to the developers becomes seamless.
+         content: We follow the practice of fundamental brick building to make hand-off to the developers becomes effortless
     - list:
          title: Advanced Version Control 
-         content: We help in scaling up slowly and use our tech skills to version control your design releases.
+         content: We use a cloud based approach to handle version control for design artifacts to achieve fast and fluid with our design releases
     - list:
          title: Lean Design Sprints 
          content: Our designers collaborate with other stakeholders to conduct effective sprint to identify and define the stages of product development.
