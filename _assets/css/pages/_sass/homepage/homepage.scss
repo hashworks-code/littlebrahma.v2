@@ -397,12 +397,14 @@
 }
 @media screen and (max-width: 767px) {
     .homePage{
-        margin-top: 80px;
+        margin-top: 0px;
         &__BnrDiv{
-            background-image: url(/assets/img/homepage/mobile-banner.jpg);
-            background-size: 100% 100%;
+            background-image:none;
+            background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
+            background-size: cover;
             background-position: center center;
             // padding-top: 284px;
+            height: 878px;
             &__Inner{
                 height: 710px;
                 background-image: none;
@@ -413,7 +415,7 @@
                     text-align: center;
                     margin: 0 auto;
                     position: absolute;
-                    bottom: 450px;
+                    bottom: 370px;
                     h1{
                         font-size: 24px;
                     }
@@ -426,7 +428,7 @@
             &__Service{
                 // position: relative;
                 // top: 20px;   
-                bottom: -120px;         
+                bottom: -230px;         
                 h1{
                     color: #5d6a6f;
                     margin-top: -390px;
@@ -500,6 +502,6 @@
         padding-bottom: 0px;
     }
     .lb-ourworks-dna{
-        margin: 144px 0 0;
+        margin: 235px 0 0;
     }
 }

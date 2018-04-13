@@ -4,15 +4,15 @@ $(window).resize(function(){
         var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
         $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
         $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
-        $('#lbhmimagemobile').css('display','none')
+        // $('#lbhmimagemobile').css('display','none')
     }
-    if(screen.width <= 767){
-         $('#lbhmimagemobile').css('visibility','hidden')
-         var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
-         var valHeight=(valHeight)+80;
-         $('.homePage__BnrDiv').css('height',$('#lbhmimagemobile').height())
-         $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
-    }
+    // if(screen.width <= 767){
+    //      $('#lbhmimagemobile').css('visibility','hidden')
+    //      var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
+    //      var valHeight=(valHeight)+80;
+    //      $('.homePage__BnrDiv').css('height',$('#lbhmimagemobile').height())
+    //      $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+    // }
     
 });
     $(document).ready(function() {
@@ -21,15 +21,15 @@ $(window).resize(function(){
             var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
             $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
-            $('#lbhmimagemobile').css('display','none')
+            // $('#lbhmimagemobile').css('display','none')
         }       
-        if(screen.width <= 767){
-            $('#lbhmimagemobile').css('visibility','hidden');
-            var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
-            var valHeight=(valHeight)+80;
-            $('.homePage__BnrDiv').css('height',$('#lbhmimagemobile').height())
-            $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
-        } 
+        // if(screen.width <= 767){
+        //     $('#lbhmimagemobile').css('visibility','hidden');
+        //     var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
+        //     var valHeight=(valHeight)+80;
+        //     $('.homePage__BnrDiv').css('height',$('#lbhmimagemobile').height())
+        //     $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
+        // } 
         brandlength=$('.brndcomm').length;
         // $('[data-toggle="popover"]').click(function(){
         //     $(this).popover('show');

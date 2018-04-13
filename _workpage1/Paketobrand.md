@@ -103,17 +103,22 @@ fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. D
 
 enigmaImageListt:
   - enigmaimg: "video-gif.jpg"
+    class: Nopadding
   - enigmaimg: "paketomock.jpg"
+    class: Nopadding
   - enigmaimg: "paketo4.jpg"
+    class: padding
 
 enigmaImage2: "paketo2.jpg"
 enigmaImage3: "paketo3.jpg" 
 
 enigmaImageList:
- 
   - enigmaImage: "paketo5.jpg"
+    class: padding
   - enigmaImage: "paketo6.jpg"
+    class: Nopadding
   - enigmaImage: "paketo7.jpg"
+    class: Nopadding
 
 
 ---

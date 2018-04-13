@@ -105,17 +105,24 @@ icon_list1:
 
 enigmaImageListt:
   - enigmaimg: "1.jpg"
+    class: padding
 
 enigmaImage2: "2.jpg"
 enigmaImage3: "3.jpg"
 
 enigmaImageList:
   - enigmaImage: "4.jpg"
+    class: Nopadding
   - enigmaImage: "5.jpg"
+    class: Nopadding
   - enigmaImage: "6.jpg"
+    class: padding
   - enigmaImage: "7.jpg"
+    class: padding
   - enigmaImage: "8.jpg"
+    class: Nopadding
   - enigmaImage: "web-mock-01.jpg"
+    class: Nopadding
 
 ---
 

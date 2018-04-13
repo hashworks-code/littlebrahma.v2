@@ -7,6 +7,10 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy-service/myb.png"
 banner-Head: "Mysterybox"
 banner-cnt: "A retail software to improve brand equity value"
+section: "opm"
+SImg19: 'opm-data-03'
+sbHead: "yes"
+color: "pink"
 
 box_lists:
     - box-Head1: '20%'
@@ -26,36 +30,52 @@ SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-content_para:
+challenge_list:
+    - subhead: 'B2B target:'
+      content_para:
+        - cContent2: "Designing an assessment platform to integrate the retail stores with retail consultants and auditors for validating their store experience and quality of their products & services."
+      content_lists:
+        - cContent4: "- Design Auditing & Assessment platform for improving store experience"
+        - cContent4: "- Design launchpad platform for new brands"
+      
+        
+    - subhead: 'B2C target:'
+      content_para:
+        - cContent2: "Leverage the omni-channel market and enable tech to connect with human experience for maximizing customer footfalls and to improve the brand loyalty."
+      content_lists:
+        - cContent4: "- Design a concept for online users to a virtual-mall experience"
+        - cContent4: "- Integrate omni-channel commerce into the solution"
+        - cContent4: "- Design brand loyalty gamification "
+        - cContent4: "- Design customer experience models"
 
-    - cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
-
-    - cContent2: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
-
-content_lists:
-
-    - cContent4: '-Establish 2 to 3 click approach for call to action'
-    - cContent4: '-Navigating complex features in a single dashboard'
-    - cContent4: '-Deliver insights to users to perform their actions'
+      
 
 cHead3: "Perceive"
-csubHead3: "Getting into the shoes of Bizops "
+csubHead3: "Treating ourselves to some retail therapy"
 
-perceive_para:
+main_perceive:
+    - perceive_para:
 
-    - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+        - cContent5: "The ideation process was lot of fun. 
+                      For the B2B research, we interviewed auditors to understand the assessment process and looked at the metrics which governs the customer experience index score."
+      content_lists1:
 
-    - cContent5: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
+        - cContent7: '- Understanding assessment process'
+        - cContent7: '- Interviewing auditor for insights'
 
-content_lists1:
+    - perceive_para:
 
-    - cContent7: '- Personas acting on the system (Sales executive, Sales manager, Agents and admin)'
-    - cContent7: '- Entire flow of an order process'
-    - cContent7: '- User experience for multi-search features by categorizing 144 filters to 10 groups.'
-    - cContent7: '- Management of workflows created for order holds'
-    - cContent7: '- Micro views of order delay stages'
-    - cContent7: '- Simplified solution for workforce orchestration'
-    - cContent7: '- Real-time insights required by the stakeholders'
+        - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+      content_lists1:
+
+        - cContent7: '- Field trip'
+        - cContent7: '- Learning the queue'
+        - cContent7: '- Window shopping'
+        - cContent7: '- Store experience drill'
+        - cContent7: '- Point of sale strategies'
+        - cContent7: '- Brand & product knowledge awareness'
+        - cContent7: '- Footfall frequency'
+        - cContent7: '- Visual Merchandising'
 
 
 
@@ -65,61 +85,70 @@ box-para4: 'Latency to perform an
             action on Hold'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
+cContent8: "Our discovery phase helped us visualize the store experience and establish key performance indicators for us to do the assessments and how to gamify it."
 
-SImg3: "gov-user-flow"
+SImg3: "myb-user-flow-1"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "people"
+SImg5: "myb-people"
 
-SImg6: "bitmap1"
-SImg7: "group-5"
-SImg8: "bitmap2"
-SImg9: "bitmap3"
-SImg10: "wireframw-001"
+SImg10: "myb-wireframe"
 SImg11: "style-guid"
-SImg12: "1-gov"
-SImg13: "group-6"
+SImg12: "myb-customer-audit-summary"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "lower-image"
-    - SImg18: "mockup-1"
-    - SImg18: "mockup-2"
+    - SImg18: "myb-design"
+    - SImg18: "mockupmyb"
+    - SImg18: "myb-mockup-2"
+    
 
 cHead5: "Adapt "
-csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
+csubHead4: "Fitting into their shoes"
+cContent9: "Immersing ourselves in the shopping process as a potential buyer/auditor and from a store front gave us a lot of insights into their major stakeholders/ personas, their hand off points, motivation criteria, pain areas,  demographic, age and daily routines."
 csubHead5: "Output"
-cContent10: "All the parties involved had the same expectation on the outcome of the work."
+cContent10: "We were able to identify the below mentioned user personas:"
 
 
-cHead6: "1.  Compact & efficient search functionality"
-cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
 
-cHead7: "2. Short story of an entire order flow "
-cContent12: "Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow."
-
-cHead8: "3.  Information abstracted in schematic form"
-cContent13: "Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales."
-
-cHead9: "4.  Smart sorting of data"
-cContent14: "Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec."
-
-
-cHead10: "5.  Design"
-cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+cHead10: "6. Design"
+cContent15: "Moving on to designing the application, it started first with us having an elaborate mood boarding sessions. We extensively follow the atomic design principle. we created individual components, finalized on the color, type and layout. "
 
 cHead11: "Evolve "
-csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
+csubHead6: "Taking the customer along through the entire journey"
+cContent16: "We kept customer inclusive in the design strategy and ideation phase. We had constant engagements throughout the designing process to take feedback and iterate. "
 
-box-Head7: '25'
-box-Head8: ' Seconds'
-box-para5: 'Latency to perform an 
-            action on Hold'
+box-Head7: '20 %'
+box-Head8: ''
+box-para5: 'Increase in customer footfall'
+
+
+
+
+division_loop:
+    - cHead6: '1. User personas'
+      para_loop:
+        - cContent11: ' Store supervisor, buyer, auditor, analyst, admin and back office crew'
+      SImg6: 'persona-myb'
+
+    - cHead6: '2. Integrating an assessment platform:'
+      para_loop:
+        - cContent11: 'A strong business process integrated with a digital platform was put in place to enhance the store experience. We were able to bring auditor, analyst and store supervisor on a single interface, capture store assessments and showcase store performance metrics. '
+      SImg6: 'myb-create'
+
+    - cHead6: '3. Designing a virtual mall exp:'
+      para_loop:
+        - cContent11: 'In order to address the B2C challenges we designed a platform which meets and satisfies all the use cases. For instance, a user (store supervisor) can propagate the store inventory item on omni-channel platform for the customer to consume and increase the point of sale. '
+      SImg6: 'myb-ui-sprint'
+
+    - cHead6: '4. Conceptualizing gamification model:'
+      para_loop:
+        - cContent11: 'We were able to add a gamification model to this platform. We created loyalty points which the buyer will get when he or she enters a store/ makes a purchase or shares the offer to their peers/friends. The model was created to increase footfalls for each store.'
+      SImg6: 'myb-ui-sprint-2'
+
+full_image:
 
 
 cat: Service Design

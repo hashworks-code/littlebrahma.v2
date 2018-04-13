@@ -1067,59 +1067,82 @@ html, body {
   width: 100%;
   background: #ea1c49; }
 
-/*footer css starts*/
-.footer {
+.footer__image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position: 30px 0;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  position: relative;
-  background-image: url("/assets/img/common/Footr_img.png");
-  height: 100vh; }
-  .footer__inner {
-    font-size: 48px;
-    font-family: 'MavenPro-Regular';
-    color: #393939;
-    padding: 80px 0 0 164px; }
-    .footer__inner h1 {
-      margin-bottom: 10px;
-      margin-top: 15px; }
-    .footer__inner a {
-      font-size: 20px;
-      text-decoration: none; }
-  .footer__bottom {
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    text-align: center; }
-    .footer__bottom div {
-      width: 30%;
-      display: inline-block;
-      font-family: 'MavenPro-Bold';
-      font-size: 16px;
-      color: #ffffff; }
-    .footer__bottom__div {
-      text-align: left; }
-    .footer__bottom__div1 {
-      text-align: center; }
-      .footer__bottom__div1 img {
-        width: 23px;
-        height: 23px;
-        margin-right: 5px; }
-      .footer__bottom__div1 .behance {
-        width: 28px;
-        height: 28px; }
-    .footer__bottom__div2 {
-      text-align: right; }
+  background-image: url("/assets/img/common/Footr_img.png"); }
+
+.footer__inner {
+  font-size: 48px;
+  font-family: 'MavenPro-Regular';
+  color: #393939;
+  padding: 80px 0 0 164px; }
+  .footer__inner s
+h1 {
+    margin-bottom: 10px;
+    margin-top: 15px; }
+  .footer__inner a {
+    font-size: 20px;
+    text-decoration: none; }
+
+.footer__bottom div {
+  width: 30%;
+  display: inline-block;
+  font-family: 'MavenPro-Bold';
+  font-size: 16px;
+  color: #ffffff; }
+
+.footer__bottom__div {
+  text-align: left; }
+
+.footer__bottom__div1 {
+  text-align: center; }
+  .footer__bottom__div1 img {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px; }
+  .footer__bottom__div1 .behance {
+    width: 28px;
+    height: 28px; }
+
+.footer__bottom__div2 {
+  text-align: right; }
 
 @media screen and (max-width: 1366px) {
   .footer {
-    height: 760px; }
+    height: 400px; }
     .footer__inner {
       font-size: 40px;
       padding: 80px 0 0 42px; }
       .footer__inner a {
-        font-size: 20px; } }
+        font-size: 20px; }
+      .footer__inner h1 {
+        padding-bottom: 16px; }
+    .footer__bottom {
+      bottom: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      padding-bottom: 37px;
+      padding-left: 42px; }
+      .footer__bottom div {
+        font-size: 16px; }
+        .footer__bottom div img {
+          width: 21px;
+          height: 21px; }
+        .footer__bottom div .behance {
+          width: 25px;
+          height: 25px; } }
 
 @media screen and (max-width: 1023px) {
   .footer {
@@ -1129,8 +1152,19 @@ html, body {
       padding: 48px 0 0 34px; }
       .footer__inner a {
         font-size: 14px; }
+      .footer__inner h1 {
+        padding-bottom: 16px; }
     .footer__bottom {
-      bottom: 16px; }
+      bottom: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      padding-bottom: 24px;
+      padding-left: 35px; }
       .footer__bottom div {
         font-size: 12px; }
         .footer__bottom div img {
@@ -1148,8 +1182,19 @@ html, body {
       padding: 0px 0 0 24px; }
       .footer__inner a {
         font-size: 14px; }
+      .footer__inner h1 {
+        padding-bottom: 8px; }
     .footer__bottom {
-      bottom: 16px; }
+      bottom: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      padding-bottom: 16px;
+      padding-left: 15px; }
       .footer__bottom div {
         font-size: 8px; }
         .footer__bottom div img {
@@ -1161,33 +1206,48 @@ html, body {
 
 @media screen and (max-width: 600px) {
   .footer {
-    height: 220px; }
-    .footer__inner h1 {
-      margin-bottom: 20px; } }
+    height: 220px; } }
 
 @media screen and (max-width: 420px) {
   .footer__inner {
     padding: 0px 0 0 24px; }
-    .footer__inner h1 {
-      margin-bottom: 5px; }
     .footer__inner a {
       padding: 5px 18px 6px; } }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .footer__image {
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-repeat: repeat-x;
-    background-position: 30px 0; }
-  .footer__inner {
-    z-index: 1; } }
-
 /*footer ends*/
+@media screen and (min-width: 1367px) {
+  .footer {
+    height: 450px; }
+    .footer__inner {
+      font-size: 40px;
+      padding: 80px 0 0 42px; }
+      .footer__inner h1 {
+        padding-bottom: 32px; }
+      .footer__inner a {
+        font-size: 20px; }
+    .footer__image {
+      background-position: left;
+      background-size: 128% 100%; }
+    .footer__bottom {
+      bottom: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      padding-bottom: 37px;
+      padding-left: 42px; }
+      .footer__bottom div {
+        font-size: 16px; }
+        .footer__bottom div img {
+          width: 28px;
+          height: 28px; }
+        .footer__bottom div .behance {
+          width: 28px;
+          height: 28px; } }
+
 .blob1 {
   width: 300px;
   position: relative;
@@ -1198,12 +1258,15 @@ html, body {
   .blob1 button {
     margin: 16px 0px 0px; }
 
-.imageAlignment, .enigmaCup {
+.enigmaCup {
   margin: 10px 5px; }
 
 .imagemargin, .topimage {
   padding: 10px 0px;
   width: 100%; }
+
+.padding {
+  margin: 0px 5px; }
 
 .back {
   background-repeat: no-repeat;
@@ -1312,7 +1375,8 @@ html, body {
 .branding__evolve {
   height: 316px;
   background-repeat: no-repeat;
-  padding: 40px 0px 36px; }
+  padding: 40px 0px 36px;
+  background-size: cover; }
   .branding__evolve__align {
     width: 258px;
     margin: 0 auto; }
@@ -1359,11 +1423,14 @@ html, body {
   background-size: 100% 100%; }
 
 @media screen and (min-width: 767px) {
+  .padding {
+    margin: 0 auto;
+    width: 700px; }
   .mobileClass {
     display: none; }
   .tabClass {
     display: block; }
-  .imageAlignment, .enigmaCup {
+  .enigmaCup {
     margin: 15px 35px; }
   .imagemargin, .topimage {
     padding: 15px 0px;
@@ -1385,7 +1452,8 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    margin: 0px 34px; }
+    width: 700px;
+    margin: 0 auto; }
   .branding__image img {
     padding-bottom: 18px; }
   .branding__perceive {
@@ -1396,7 +1464,7 @@ html, body {
     margin: 0px 0px 64px; }
     .branding__perceive__align {
       width: 451px;
-      margin: 0 0px 0px 36px;
+      margin: 0 auto;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1422,13 +1490,12 @@ html, body {
   .branding__adapt {
     height: 270px;
     margin-top: 64px;
-    background-position: unset;
-    background-size: contain;
+    background-size: cover;
     margin-right: 34px; }
     .branding__adapt__align {
-      width: 451px;
-      margin: 0;
-      padding: 0 0px 0px 34px;
+      width: 515px;
+      margin: 0 auto;
+      padding: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1445,7 +1512,9 @@ html, body {
     .branding__adapt h1 {
       padding: 0px; }
   .branding__concept1 {
-    padding: 0px 35px; }
+    padding: 0;
+    width: 700px;
+    margin: 0 auto; }
     .branding__concept1 .row {
       width: 92%; }
   .branding .back {
@@ -1457,29 +1526,32 @@ html, body {
     .branding__concept h1 {
       padding: 64px 0px 17px; }
   .branding__logo {
-    padding: 60px 50px 60px; }
+    padding: 60px 0px 60px;
+    width: 700px;
+    margin: 0 auto; }
   .branding__meaning {
-    width: 100%;
-    margin: 0;
-    padding: 0 34px 72px 34px; }
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 0px 72px 0px; }
     .branding__meaning p {
       padding: 14px 0px 0px;
       font-size: 12px; }
     .branding__meaning img {
       height: 140px; }
   .branding__enigmalogo {
-    width: 80%;
+    width: 100%;
     margin: 0 auto; }
   .branding .enigmabackground {
-    margin: 0px 30px;
+    margin: 0px auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; }
+    background-size: contain;
+    width: 700px; }
   .branding__enigmalogo img {
-    padding: 0px 34px; }
+    padding: 0px 0px; }
   .branding__enigmalist {
-    width: 100%;
-    padding: 60px 34px; }
+    width: 700px;
+    padding: 60px 0px; }
     .branding__enigmalist img {
       height: 95px;
       width: 130px;
@@ -1491,8 +1563,6 @@ html, body {
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
-    background-position: unset;
-    background-size: contain;
     margin-right: 34px;
     height: 270px;
     display: -webkit-box;
@@ -1504,10 +1574,12 @@ html, body {
             flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    background-size: cover; }
     .branding__evolve__align {
-      width: 451px;
-      margin: 0 0px 0px 36px;
+      width: 650px;
+      margin: 0 auto;
+      padding-right: 30px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1522,9 +1594,9 @@ html, body {
     .branding__evolve h2 {
       padding: 10px 0px 10px; }
   .branding__fontfamily {
-    width: 100%;
-    margin: 0;
-    padding: 0px 34px; }
+    width: 700px;
+    margin: 0 auto;
+    padding: 0; }
     .branding__fontfamily p {
       padding: 24px 0px 40px; }
     .branding__fontfamily h1 {
@@ -1532,8 +1604,8 @@ html, body {
     .branding__fontfamily h2 {
       padding: 20px 0px 0px 0px; }
   .branding__icons {
-    width: 100%;
-    padding: 70px 35px 40px;
+    width: 700px;
+    padding: 70px 0px 40px;
     text-align: left; }
     .branding__icons .threeIcon {
       width: 465px;
@@ -1545,13 +1617,15 @@ html, body {
       text-align: left; } }
 
 @media screen and (min-width: 1025px) {
+  .padding {
+    width: 965px; }
   .blob1 {
     width: 700px;
     top: 55vh; }
     .blob1 button {
       margin: 25px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 18px 39px; }
+  .enigmaCup {
+    margin: 18px 42px; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -1566,16 +1640,16 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    margin: 0px 42px; }
+    width: 965px; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
     height: 533px;
     margin: 0px 0px 96px; }
     .branding__perceive__align {
-      width: 540px;
-      margin: 0 0px 0px 42px;
-      height: 533px; }
+      width: 782px;
+      height: 533px;
+      padding-right: 101px; }
     .branding__perceive h1 {
       font-size: 40px; }
     .branding__perceive h2 {
@@ -1590,30 +1664,35 @@ html, body {
     margin-top: 96px;
     margin-right: 42px; }
     .branding__adapt__align {
-      width: 480px;
-      padding: 0 0px 0px 42px;
+      width: 922px;
+      padding: 0 144px 0px 0px;
       height: 362px; }
     .branding__adapt h2 {
       padding: 28px 0px 18px; }
     .branding__adapt h1 {
       font-size: 40px; }
   .branding__concept1 {
-    padding: 0px 44px; }
+    width: 965px; }
   .branding__concept {
     width: 700px;
     margin: 0px 0px 80px 15px; }
     .branding__concept h1 {
       padding: 96px 0px 24px; }
   .branding__logo {
-    padding: 60px 65px 60px; }
+    padding: 60px 0px 60px;
+    width: 965px; }
   .branding__meaning {
-    padding: 0 42px 72px 42px; }
+    padding: 0 0px 72px 0px;
+    width: 965px; }
     .branding__meaning p {
       padding: 24px 0px 0px; }
     .branding__meaning img {
       height: 220px; }
+  .branding .enigmabackground {
+    width: 965px; }
   .branding__enigmalist {
-    padding: 70px 44px 96px; }
+    padding: 70px 0px 96px;
+    width: 965px; }
     .branding__enigmalist img {
       height: 118px;
       width: 207px;
@@ -1623,15 +1702,16 @@ html, body {
     height: 355px;
     padding: 0px; }
     .branding__evolve__align {
-      width: 540px;
-      margin: 0 0px 0px 42px;
-      height: 355px; }
+      width: 870px;
+      height: 355px;
+      padding-right: 170px; }
     .branding__evolve h2 {
       padding: 40px 0px 36px; }
   .branding__fontfamily {
-    padding: 0px 42px; }
+    width: 965px; }
   .branding__icons {
-    padding: 103px 35px 70px; }
+    padding: 103px 0px 70px;
+    width: 965px; }
     .branding__icons .threeIcon {
       width: 630px;
       padding-bottom: 50px; }
@@ -1639,15 +1719,19 @@ html, body {
       width: 90px; } }
 
 @media screen and (min-width: 1367px) {
+  .padding {
+    width: 1100px;
+    margin: 0 auto; }
   .branding .enigmabackground {
-    margin: 0px 60px; }
+    margin: 0px; }
   .blob1 {
     width: 700px;
     top: 56vh; }
     .blob1 button {
       margin: 33px 0px 0px; }
-  .imageAlignment, .enigmaCup {
-    margin: 15px 150px; }
+  .enigmaCup {
+    width: 1100px;
+    margin: 15px auto; }
   .imagemargin, .topimage {
     padding: 15px 0px; }
   .challange {
@@ -1662,14 +1746,15 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    margin: 0px 135px; }
+    width: 1100px;
+    margin: 0 auto; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
     height: 614px;
-    margin: 0px 0px 120px; }
+    margin: 0 0px 120px; }
     .branding__perceive__align {
-      width: 666px;
+      width: 800px;
       margin: 0 0px 0px 163px;
       height: 613px; }
     .branding__perceive h1 {
@@ -1688,56 +1773,71 @@ html, body {
     margin: 0 auto; }
   .branding__adapt {
     height: 446px;
-    margin-top: 120px;
-    margin-right: 135px; }
+    margin: 120px 0px 0px; }
     .branding__adapt__align {
-      width: 872px;
-      padding: 0 0px 0px 163px;
+      width: 1100px;
+      padding: 0 163px 0px 0px;
       height: 446px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
     .branding__adapt h1 {
       font-size: 48px; }
   .branding__concept1 {
-    padding: 0px 30px; }
+    padding: 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__concept1 .row {
       width: 86%; }
   .branding .back {
     background-size: 100% 100%; }
   .branding__concept {
     width: 800px;
-    padding: 0px 0px 50px 118px;
+    padding: 0px 0px 50px 0px;
     margin: 0; }
     .branding__concept h1 {
       padding: 120px 0px 32px; }
   .branding__logo {
-    padding: 140px 40px 0px 162px; }
+    padding: 140px 0px 0px 0px;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__meaning {
-    padding: 0 150px 120px 150px; }
+    padding: 0px 0px 120px 0px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__meaning p {
-      padding: 38px 0px 0px; }
+      padding: 38px 0px 0px;
+      font-size: 20px; }
     .branding__meaning img {
       height: 300px; }
+  .branding .brandlogo {
+    width: 1100px;
+    margin: 0 auto; }
   .branding__enigmalogo img {
-    padding: 0px 140px; }
+    padding: 0px; }
   .branding__enigmalist {
-    padding: 110px 154px 120px; }
+    padding: 110px 0px 120px;
+    width: 1100px;
+    margin: 0 auto; }
     .branding__enigmalist img {
       height: 118px;
       width: 207px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
-    margin-right: 135px;
+    margin-right: 0;
     height: 458px; }
     .branding__evolve__align {
-      width: 872px;
-      padding: 0 0px 0px 163px;
+      width: 1100px;
+      padding: 0 165px 0px 0px;
       height: 458px; }
   .branding__fontfamily {
-    padding: 0px 155px; }
+    padding: 0;
+    width: 1100px;
+    margin: 0 auto; }
   .branding__icons {
-    padding: 160px 150px 70px 150px; }
+    padding: 160px 0px 70px 0px;
+    margin: 0 auto;
+    width: 1100px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }
@@ -1752,7 +1852,7 @@ html, body {
     border-left: 5px solid #2db2ea;
     padding: 0 0 0 100px; }
   .caseStudy__cHead {
-    padding-bottom: 23px; }
+    margin-bottom: 23px; }
   .caseStudy__cImg {
     margin: 0 165px; }
     .caseStudy__cImg img {
@@ -1939,7 +2039,7 @@ html, body {
     margin: 80px 77px 80px 68px;
     padding: 5px 0 5px 59px; }
   .caseStudy__cHead {
-    padding-bottom: 11px; }
+    margin-bottom: 11px; }
   .caseStudy__cImg {
     margin: 0 65px; }
     .caseStudy__cImg img {
@@ -2000,7 +2100,7 @@ html, body {
     margin: 42px 30px 35px 30px;
     padding: 2px 0 2px 22px; }
   .caseStudy__cHead {
-    padding-bottom: 11px; }
+    margin-bottom: 11px; }
   .caseStudy__cImg {
     margin: 0 30px; }
     .caseStudy__cImg img {

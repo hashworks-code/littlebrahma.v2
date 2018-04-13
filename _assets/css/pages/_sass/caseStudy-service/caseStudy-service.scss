@@ -10,7 +10,7 @@
     margin: 103px 317px 0 317px;
     justify-content: center;
     &__box{
-        background: #22a98b; 
+        // background: #22a98b; 
         width: 220px;
         margin: 17px;
         text-align: right;
@@ -60,7 +60,7 @@
     right: 11%;
     top: 40%;
     width: 258px;
-    background: #22a98b;
+    // background: #22a98b;
     padding: 72px 35px 30px;
 }
 .CSService2{
@@ -73,6 +73,7 @@
     }
 }
 .caseStudy__bgImg {
+    margin-bottom: 120px;
     min-height: 100%;
     padding: 50px 0;
     width: 75%;
@@ -127,6 +128,21 @@
     top: 26% !important;
     width: 258px !important;
     padding: 70px 25px 30px !important;
+}
+.csLightHead {
+    font-size: 24px;
+    color: #5d6a6f;
+    margin-top: 50px;
+    font-family: 'MavenPro-Medium';
+}
+.perceive{
+    padding-bottom: 20px;
+}
+.pink{
+    background: #ff6868;
+}
+.green{
+    background: #22a98b;
 }
 @media screen and (max-width: 1366px){
     .CSservice{
@@ -253,6 +269,7 @@
         .caseStudy__bgImg {
             min-height: 100%;
             margin-top: 72px;
+            margin: 80px 0;
         }
         .caseStudy__content2 {
             width: 81%;
@@ -347,7 +364,7 @@
             }
             .caseStudy__bgImg {
                 min-height: 100%;
-                margin-top: 72px;
+                margin: 80px 0 130px;
                 padding: 45px 0 115px;
                 width: 100%;
             }
