@@ -229,7 +229,8 @@ p{
         display: block;
     }
     .enigmaCup{
-        margin: 15px 35px;
+        width: 700px;
+        margin: 15px auto;
     }
     .imagemargin ,.topimage{
         padding: 15px 0px;
@@ -280,12 +281,13 @@ p{
     margin: 0px 0px 64px;
 
     &__align{
-        width: 451px;
+        width: 575px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 390px;
+        padding-right: 140px;
     }
     h2{
         padding: 16px 0px 17px;
@@ -309,13 +311,14 @@ p{
     margin-right: 34px;
    
     &__align{
-        width: 515px;
+        width:640px;
         margin:0 auto;
         padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height:270px;
+        padding-right: 140px;
     }
     h2{
         padding: 16px 0px 12px;
@@ -410,6 +413,7 @@ p{
             flex-direction: column;
             justify-content: center;
             height: 270px;
+            padding-right: 190px;
         }
 h2{
     padding: 10px 0px 10px;
@@ -462,7 +466,9 @@ h2{
         }
     }
     .enigmaCup{
-        margin: 18px 42px;
+        width: 965px;
+        margin: 18px auto;
+
     }
     .imagemargin,.topimage{
         padding: 18px 0px;
@@ -502,7 +508,7 @@ h2{
         &__align{
             width: 782px;
             height: 533px;
-            padding-right: 101px;
+            padding-right: 170px;
         }
         h1{
             font-size: 40px;
@@ -524,7 +530,7 @@ h2{
        
         &__align{
             width: 922px;
-            padding: 0 144px 0px 0px;
+            padding: 0 340px 0px 0px;
             height: 362px;
         }
         h2{
@@ -577,10 +583,10 @@ h2{
         &__align{
             width: 870px;
             height: 355px;
-            padding-right: 170px;
+            padding-right: 280px;
         }
     h2{
-        padding: 40px 0px 36px;
+        padding: 20px 0px 20px;
     }
     }
     
@@ -687,7 +693,7 @@ h2{
        
         &__align{
             width: 1100px;
-            padding: 0 163px 0px 0px;
+            padding: 0 380px 0px 0px;
             height: 446px;
         }
         h2{
@@ -757,7 +763,7 @@ h2{
         height: 458px;
         &__align{
             width: 1100px;
-            padding: 0 165px 0px 0px;
+            padding: 0 347px 0px 0px;
             height:458px;
         }
 

@@ -31,7 +31,6 @@
     // width: 100%;
     // text-align: center;
     div{
-      width:30%;
       display: inline-block;
       font-family: 'MavenPro-Bold';
       font-size: 16px;
@@ -59,7 +58,7 @@
 }
 @media screen and (max-width: 1366px) {
 .footer{
-height: 400px;
+height: 520px;
 &__inner{
   font-size: 40px;
   padding: 80px 0 0 42px;
@@ -76,7 +75,10 @@ height: 400px;
   height: 100%;
   align-items: flex-end;
   padding-bottom: 37px;
-  padding-left: 42px;
+  padding-left: 0px;
+  width: 965px;
+  margin: 0 auto;
+justify-content: space-between;
   div{
     font-size: 16px;
     img{
@@ -111,7 +113,10 @@ height: 460px;
   height: 100%;
   align-items: flex-end;
   padding-bottom: 24px;
-  padding-left: 35px;
+  padding-left: 0px;
+  width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
   div{
     font-size: 12px;
     img{
@@ -145,7 +150,10 @@ height: 335px;
   height: 100%;
   align-items: flex-end;
   padding-bottom: 16px;
-  padding-left: 15px;
+  padding-left: 0px;
+  width: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
   div{
     font-size: 8px;
     img{
@@ -162,11 +170,15 @@ height: 335px;
 }
 @media screen and (max-width: 600px) {
 .footer{
-height: 220px;
+height: 320px;
+&__bottom{
+width: 400px;
+}
 }
 } 
 @media screen and (max-width: 420px) {
 .footer{
+  height: 220px;
 &__inner{
   padding: 0px 0 0 24px;
 
@@ -174,13 +186,16 @@ height: 220px;
     padding: 5px 18px 6px;
   }
 }
+&__bottom{
+  width: 220px;
+  }
 }
 }
 
  /*footer ends*/
  @media screen and (min-width: 1367px) {
   .footer{
-  height: 450px;
+  height: 631px;
   &__inner{
     font-size: 40px;
     padding: 80px 0 0 42px;
@@ -202,7 +217,8 @@ height: 220px;
     height: 100%;
     align-items: flex-end;
     padding-bottom: 37px;
-    padding-left: 42px;
+   width: 1100px;
+
     div{
       font-size: 16px;
       img{

@@ -1092,7 +1092,6 @@ h1 {
     text-decoration: none; }
 
 .footer__bottom div {
-  width: 30%;
   display: inline-block;
   font-family: 'MavenPro-Bold';
   font-size: 16px;
@@ -1116,7 +1115,7 @@ h1 {
 
 @media screen and (max-width: 1366px) {
   .footer {
-    height: 400px; }
+    height: 520px; }
     .footer__inner {
       font-size: 40px;
       padding: 80px 0 0 42px; }
@@ -1134,7 +1133,12 @@ h1 {
           -ms-flex-align: end;
               align-items: flex-end;
       padding-bottom: 37px;
-      padding-left: 42px; }
+      padding-left: 0px;
+      width: 965px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
@@ -1164,7 +1168,12 @@ h1 {
           -ms-flex-align: end;
               align-items: flex-end;
       padding-bottom: 24px;
-      padding-left: 35px; }
+      padding-left: 0px;
+      width: 700px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       .footer__bottom div {
         font-size: 12px; }
         .footer__bottom div img {
@@ -1194,7 +1203,12 @@ h1 {
           -ms-flex-align: end;
               align-items: flex-end;
       padding-bottom: 16px;
-      padding-left: 15px; }
+      padding-left: 0px;
+      width: 500px;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       .footer__bottom div {
         font-size: 8px; }
         .footer__bottom div img {
@@ -1206,18 +1220,24 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .footer {
-    height: 220px; } }
+    height: 320px; }
+    .footer__bottom {
+      width: 400px; } }
 
 @media screen and (max-width: 420px) {
-  .footer__inner {
-    padding: 0px 0 0 24px; }
-    .footer__inner a {
-      padding: 5px 18px 6px; } }
+  .footer {
+    height: 220px; }
+    .footer__inner {
+      padding: 0px 0 0 24px; }
+      .footer__inner a {
+        padding: 5px 18px 6px; }
+    .footer__bottom {
+      width: 220px; } }
 
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 450px; }
+    height: 631px; }
     .footer__inner {
       font-size: 40px;
       padding: 80px 0 0 42px; }
@@ -1238,7 +1258,7 @@ h1 {
           -ms-flex-align: end;
               align-items: flex-end;
       padding-bottom: 37px;
-      padding-left: 42px; }
+      width: 1100px; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
@@ -1431,7 +1451,8 @@ h1 {
   .tabClass {
     display: block; }
   .enigmaCup {
-    margin: 15px 35px; }
+    width: 700px;
+    margin: 15px auto; }
   .imagemargin, .topimage {
     padding: 15px 0px;
     width: 100%; }
@@ -1463,7 +1484,7 @@ h1 {
     padding: 0;
     margin: 0px 0px 64px; }
     .branding__perceive__align {
-      width: 451px;
+      width: 575px;
       margin: 0 auto;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1475,7 +1496,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 390px; }
+      height: 390px;
+      padding-right: 140px; }
     .branding__perceive h2 {
       padding: 16px 0px 17px; }
     .branding__perceive .margin {
@@ -1493,7 +1515,7 @@ h1 {
     background-size: cover;
     margin-right: 34px; }
     .branding__adapt__align {
-      width: 515px;
+      width: 640px;
       margin: 0 auto;
       padding: 0;
       display: -webkit-box;
@@ -1506,7 +1528,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px; }
+      height: 270px;
+      padding-right: 140px; }
     .branding__adapt h2 {
       padding: 16px 0px 12px; }
     .branding__adapt h1 {
@@ -1590,7 +1613,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px; }
+      height: 270px;
+      padding-right: 190px; }
     .branding__evolve h2 {
       padding: 10px 0px 10px; }
   .branding__fontfamily {
@@ -1625,7 +1649,8 @@ h1 {
     .blob1 button {
       margin: 25px 0px 0px; }
   .enigmaCup {
-    margin: 18px 42px; }
+    width: 965px;
+    margin: 18px auto; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -1649,7 +1674,7 @@ h1 {
     .branding__perceive__align {
       width: 782px;
       height: 533px;
-      padding-right: 101px; }
+      padding-right: 170px; }
     .branding__perceive h1 {
       font-size: 40px; }
     .branding__perceive h2 {
@@ -1665,7 +1690,7 @@ h1 {
     margin-right: 42px; }
     .branding__adapt__align {
       width: 922px;
-      padding: 0 144px 0px 0px;
+      padding: 0 340px 0px 0px;
       height: 362px; }
     .branding__adapt h2 {
       padding: 28px 0px 18px; }
@@ -1704,9 +1729,9 @@ h1 {
     .branding__evolve__align {
       width: 870px;
       height: 355px;
-      padding-right: 170px; }
+      padding-right: 280px; }
     .branding__evolve h2 {
-      padding: 40px 0px 36px; }
+      padding: 20px 0px 20px; }
   .branding__fontfamily {
     width: 965px; }
   .branding__icons {
@@ -1776,7 +1801,7 @@ h1 {
     margin: 120px 0px 0px; }
     .branding__adapt__align {
       width: 1100px;
-      padding: 0 163px 0px 0px;
+      padding: 0 380px 0px 0px;
       height: 446px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
@@ -1828,7 +1853,7 @@ h1 {
     height: 458px; }
     .branding__evolve__align {
       width: 1100px;
-      padding: 0 165px 0px 0px;
+      padding: 0 347px 0px 0px;
       height: 458px; }
   .branding__fontfamily {
     padding: 0;
@@ -2361,7 +2386,8 @@ h1 {
   .tabClass {
     display: block; }
   .enigmaCup {
-    margin: 15px 35px; }
+    width: 700px;
+    margin: 15px auto; }
   .imagemargin, .topimage {
     padding: 15px 0px;
     width: 100%; }
@@ -2393,7 +2419,7 @@ h1 {
     padding: 0;
     margin: 0px 0px 64px; }
     .branding__perceive__align {
-      width: 451px;
+      width: 575px;
       margin: 0 auto;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2405,7 +2431,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 390px; }
+      height: 390px;
+      padding-right: 140px; }
     .branding__perceive h2 {
       padding: 16px 0px 17px; }
     .branding__perceive .margin {
@@ -2423,7 +2450,7 @@ h1 {
     background-size: cover;
     margin-right: 34px; }
     .branding__adapt__align {
-      width: 515px;
+      width: 640px;
       margin: 0 auto;
       padding: 0;
       display: -webkit-box;
@@ -2436,7 +2463,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px; }
+      height: 270px;
+      padding-right: 140px; }
     .branding__adapt h2 {
       padding: 16px 0px 12px; }
     .branding__adapt h1 {
@@ -2520,7 +2548,8 @@ h1 {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px; }
+      height: 270px;
+      padding-right: 190px; }
     .branding__evolve h2 {
       padding: 10px 0px 10px; }
   .branding__fontfamily {
@@ -2555,7 +2584,8 @@ h1 {
     .blob1 button {
       margin: 25px 0px 0px; }
   .enigmaCup {
-    margin: 18px 42px; }
+    width: 965px;
+    margin: 18px auto; }
   .imagemargin, .topimage {
     padding: 18px 0px; }
   .challange {
@@ -2579,7 +2609,7 @@ h1 {
     .branding__perceive__align {
       width: 782px;
       height: 533px;
-      padding-right: 101px; }
+      padding-right: 170px; }
     .branding__perceive h1 {
       font-size: 40px; }
     .branding__perceive h2 {
@@ -2595,7 +2625,7 @@ h1 {
     margin-right: 42px; }
     .branding__adapt__align {
       width: 922px;
-      padding: 0 144px 0px 0px;
+      padding: 0 340px 0px 0px;
       height: 362px; }
     .branding__adapt h2 {
       padding: 28px 0px 18px; }
@@ -2634,9 +2664,9 @@ h1 {
     .branding__evolve__align {
       width: 870px;
       height: 355px;
-      padding-right: 170px; }
+      padding-right: 280px; }
     .branding__evolve h2 {
-      padding: 40px 0px 36px; }
+      padding: 20px 0px 20px; }
   .branding__fontfamily {
     width: 965px; }
   .branding__icons {
@@ -2706,7 +2736,7 @@ h1 {
     margin: 120px 0px 0px; }
     .branding__adapt__align {
       width: 1100px;
-      padding: 0 163px 0px 0px;
+      padding: 0 380px 0px 0px;
       height: 446px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
@@ -2758,7 +2788,7 @@ h1 {
     height: 458px; }
     .branding__evolve__align {
       width: 1100px;
-      padding: 0 165px 0px 0px;
+      padding: 0 347px 0px 0px;
       height: 458px; }
   .branding__fontfamily {
     padding: 0;
