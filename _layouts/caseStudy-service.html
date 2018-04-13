@@ -15,6 +15,7 @@
             </div>
       </div>
       <div class="cs-service">
+            {% if page.boxShow != 'false' %}
       <div class="CSservice">
             {% for box in page.box_lists %}
             <div class="CSservice__box {{page.color}}">
@@ -24,6 +25,7 @@
             </div>
             {% endfor %}
       </div>
+      {% endif %}
       <div class="caseStudy">
       <div class="caseStudy__content1">
         <div class="caseStudy__cHead csHeading">
@@ -32,9 +34,14 @@
         <p class="paragraph">{{ page.cContent1 }}</p>
     </div>
     </div>
-    <div class="CSservice1">
+    <div class="CSservice1 {{page.hide}}">
         <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.png">
     </div>
+    {% if page.model == 'enigma' %}
+    <div class="CSservice1 {{page.mob-hide}}">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg21  | downcase }}.png">
+    </div>
+    {% endif %}
     <div class="caseStudy">
         <div class="caseStudy__content1">
           <div class="caseStudy__cHead csHeading">
@@ -42,7 +49,7 @@
           </div>
           {% for challenge in page.challenge_list %}
           {% if page.sbHead == 'yes' %}
-          <p class="csLightHead">{{ challenge.subhead}}</p></br></br>
+          <p class="csLightHead {{page.className}}">{{ challenge.subhead}}</p></br>
           {% endif %}
           {% for cont in challenge.content_para %}
           <p class="paragraph">{{ cont.cContent2}}</p></br></br>
@@ -114,16 +121,20 @@
                                 <div class="caseStudy__content2">
                                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
                                     <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                                    {% for para in page.perceive_para %}
+                                    {% for perceive in page.main_perceive %}
+                                            {% for para in perceive.perceive_para %}
                                             <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
                                             {% endfor %}
-                                        {% for service in page.content_lists1 %}
+                                            <div class="perceive">
+                                        {% for service in perceive.content_lists1 %}
                                         <p class="paragraph color">{{ service.cContent7}}</p>
+                                        {% endfor %}
+                                    </div>
                                         {% endfor %}
                                 </div>
                                 
                         </div>
-                        <img src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.png">
+                        <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.png">
                         </div>
                         {% endif %}
         </div>
@@ -199,10 +210,10 @@
                                 <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
                                         <div class="csHeading">{{ fullImg.cHead8 }}</div></br>
                                         {% for cntnt in fullImg.cntnt_loop %}
-                                        <div class="paragraph cs-allign">{{ cntnt.cContent13 }}</div>
+                                        <div class="paragraph">{{ cntnt.cContent13 }}</div>
                                         {% endfor %}
                                 </div>
-                                <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
+                                <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1  cs-allign padding-0">
                                         <img src="/assets/img/caseStudy-service/{{ fullImg.SImg8  | downcase }}.png">
                                 </div>
                             </div>
@@ -210,10 +221,12 @@
                                 <div class="row padding-bottom">
                                         <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
                                                 <div class="csHeading">{{ page.cHead10 }}</div></br>
-                                                <div class="paragraph cs-allign">{{ page.cContent15 }}</div>
+                                                {% for last in page.main_content %}
+                                                <div class="paragraph">{{ last.cContent15 }}</div>
+                                                {% endfor %}
                                                 
                                         </div>
-                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0  cs-allign">
                                                 <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
                                         </div>
                                     </div>
@@ -228,6 +241,7 @@
         
         
               <div class="caseStudy">
+                  {% if page.model != 'enigma' %}
                   <div class="SceneImg2">
                       <div class="caseStudy__bgImg2 bg5 csHd " style="background-image: url('{{page.SImg15}}');">
                           <div class="caseStudy__content4">
@@ -250,6 +264,34 @@
                               <p class="paragraph color">{{page.box-para5}}</p>
                           </div>
                       </div>
+                      {% endif %}
+                      {% if page.model == 'enigma' %}
+                      
+                      <div class="caseStudy__bgImg2 enigma_bg csHd"  style="background-image: url('{{page.SImg20}}');">
+                          <div class="caseStudy__content4">
+                              <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                                      <p  class="paragraph color">{{ page.cContent16 }}</p></br>
+                                      {% for evolve in page.evolve_loop %}
+                                                <div class="paragraph color">{{ evolve.cContent18 }}</div>
+                                                {% endfor %}
+                                      
+                          </div>
+                      </div>
+                      <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
+                          <div class="caseStudy__content4">
+                              <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                                      <p  class="paragraph color">{{ page.cContent16 }}</p></br>
+                                      {% for evolve in page.evolve_loop %}
+                                                <div class="paragraph color">{{ evolve.cContent18 }}</div>
+                                                {% endfor %}
+                                      
+                          </div>
+                          
+                  </div>
+                      {% endif %}
+                      
                   </div>
                   <div class="CSService3">
                         <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.png">

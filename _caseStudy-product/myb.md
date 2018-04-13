@@ -58,6 +58,7 @@ main_perceive:
 
         - cContent5: "The ideation process was lot of fun. 
                       For the B2B research, we interviewed auditors to understand the assessment process and looked at the metrics which governs the customer experience index score."
+                      
       content_lists1:
 
         - cContent7: '- Understanding assessment process'
@@ -114,7 +115,8 @@ cContent10: "We were able to identify the below mentioned user personas:"
 
 
 cHead10: "6. Design"
-cContent15: "Moving on to designing the application, it started first with us having an elaborate mood boarding sessions. We extensively follow the atomic design principle. we created individual components, finalized on the color, type and layout. "
+main_content:
+  - cContent15: "Moving on to designing the application, it started first with us having an elaborate mood boarding sessions. We extensively follow the atomic design principle. we created individual components, finalized on the color, type and layout. "
 
 cHead11: "Evolve "
 csubHead6: "Taking the customer along through the entire journey"

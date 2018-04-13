@@ -77,6 +77,20 @@ cImg6: "group@2017"
 
 cImg7: "bitmap-copy-2017"
 
+lists_img:
+  - slide-imges: "xmas-dec-11"
+  - slide-imges: "ramdhan-fasting-06-a"
+  - slide-imges: "cal-shiv-rathri-feb-h"
+  - slide-imges: "11-diwali-cracker-nov-06-a"
+  - slide-imges: "01-k"
+  - slide-imges: "10-street-food-oct-06"
+  - slide-imges: "janmashtami"
+  - slide-imges: "8-vallasadhya-onam-aug-10"
+  - slide-imges: "5-mubai-railway-porters-may-g"
+  - slide-imges: "04-060617-i"
+  - slide-imges: "3-holi-mar-d"
+  - slide-imges: "02-310517-i"
+
 cat: Branding & Communication
 product_title: LD Calendar Design 2017
 product_title1: calendar 2017

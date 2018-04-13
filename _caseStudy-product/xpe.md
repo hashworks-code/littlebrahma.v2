@@ -93,7 +93,7 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "group-6"
+    - SImg18: "xpe-desktop"
     - SImg18: "xps-screen-collage"
     - SImg18: "xpe-mockup-1"
     - SImg18: "xpe-mockup-2"
@@ -109,7 +109,8 @@ cContent10: "A workflow a driven engineering platform with insightful dashboard 
 
 
 cHead10: "6.  Design"
-cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to access risk of delivery & data-driven for the executive teams to measure product quality."
+main_content:
+  - cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to access risk of delivery & data-driven for the executive teams to measure product quality."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"

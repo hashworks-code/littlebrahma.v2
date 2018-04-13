@@ -10,7 +10,6 @@ banner-cnt: "Simplified order management"
 section: "opm"
 SImg19: 'opm-data-03'
 color: "green"
-
 box_lists:
     - box-Head1: '63'
       box-para1: 'Different types of E2E
@@ -89,7 +88,7 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "group-6"
+    - SImg18: "opm--desktop"
     - SImg18: "opm-mockup-collag"
     - SImg18: "opm-mockup-1"
     - SImg18: "opm-mockup-2"
@@ -105,7 +104,8 @@ cContent10: "We were able to come up with following solutions for our customers.
 
 
 cHead10: "3.  Design"
-cContent15: "Our design wireframe helped us establish a platform for us to go back forth on the visual ideas with our users. We worked on multiple approaches in terms visual representations to crack the optimal design"
+main_content:
+  - cContent15: "Our design wireframe helped us establish a platform for us to go back forth on the visual ideas with our users. We worked on multiple approaches in terms visual representations to crack the optimal design"
 
 cHead11: "Evolve "
 csubHead6: "Testing our efforts"

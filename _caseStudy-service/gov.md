@@ -115,7 +115,8 @@ cContent10: "All the parties involved had the same expectation on the outcome of
 
 
 cHead10: "5.  Design"
-cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+main_content:
+  - cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
@@ -155,7 +156,6 @@ cat: Service Design
 product_title: Enterprise order management tool
 product_title1: GOV
 product_description: Application
-#product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/gov-banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"

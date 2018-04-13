@@ -99,7 +99,7 @@
         padding-bottom: 80px;
     }
     .cs-allign{
-        padding-bottom: 40px;
+        padding-top: 40px !important;
     }
     img{
         width: 100%;
@@ -115,7 +115,7 @@
     text-align: center;
 }
 .CSService7{
-    margin: 150px 0 100px; 
+    margin: 150px 0 0; 
     img{
         padding-bottom: 40px;
         width: 100%
@@ -144,7 +144,16 @@
 .green{
     background: #22a98b;
 }
-@media screen and (max-width: 1366px){
+.scenImg{
+    max-height: 370px;
+}
+.CSengima{
+    margin-top: 10px !important;
+}
+.enigma_bg {
+    width: 85%;
+}
+@media screen and (max-width: 1365px){
     .CSservice{
          margin: 96px 180px;
         &__box{ 
@@ -208,7 +217,7 @@
         margin: 64px 0 0 0;
     }
     .CSService7{
-        margin: 40px 0 100px;
+        margin: 40px 0 0;
         img{
             padding-bottom: 32px;
             width: 100%
@@ -222,10 +231,15 @@
         width: 215px !important;
         padding: 50px 20px 30px !important;
     }
-
+    .scenImg{
+        max-height: 320px;
+    }
+    .CSengima{
+        font-size: 18px;
+    }
     }
 
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1023px){
         .CSservice{
             margin: 64px 100px;
             &__box{ 
@@ -300,7 +314,7 @@
             margin: 48px 0 0 0;
         }
         .CSService7{
-            margin: 40px 0 100px;
+            margin: 40px 0 0;
             img{
                 padding-bottom: 32px;
                 width: 100%
@@ -315,11 +329,26 @@
             width: 160px !important;
             padding: 40px 15px 23px !important;
                 }
+                .scenImg {
+                    max-height: 280px;
+                }
+                .CSengima{
+                    font-size: 14px;
+                }
     
         }
-    
+        .mob-true{
+            display: none !important;
+        }
+        
 
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 767px){
+            .true{
+                display: none !important;
+            }
+            .mob-true{
+                display: block !important;
+            }
             .CSservice{
                 display: block;
                 margin: 50px 0;
@@ -365,7 +394,7 @@
             .caseStudy__bgImg {
                 min-height: 100%;
                 margin: 80px 0 130px;
-                padding: 45px 0 115px;
+                padding: 45px 0 73px;
                 width: 100%;
             }
             .caseStudy__content2 {
@@ -399,7 +428,7 @@
                 margin: 48px 0 0 0;
             }
             .CSService7{
-                margin: 40px 0 100px;
+                margin: 40px 0 0;
                 img{
                     padding-bottom: 24px;
                 }
@@ -414,18 +443,19 @@
                 left: 50%;
                 top: 87% !important;
                 padding: 40px 15px 23px !important;
-                    }
-                    .divA{
-                        order:1;
-                    }
-                    .divB{
-                        order:2;
-                    }
-                    .divC{
-                        order: 3;
-                    }
-                    .divD{
-                        order: 4;
-                    }
+              }
+            .divA{
+                order:1;
+            }
+            .divB{
+                order:2;
+            }
+            .divC{
+                order: 3;
+            }
+            .divD{
+                order: 4;
+            }
+            
         
             }

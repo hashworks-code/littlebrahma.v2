@@ -8,66 +8,76 @@ banner_imag1: "/assets/img/caseStudy-service/enigma-banner.png"
 banner-Head: "Enigma"
 banner-cnt: "Root cause application failures in a single click"
 
+section: "opm"
+SImg19: 'enigma-data'
+sbHead: "yes"
+color: "green"
+boxShow: "false"
+className: "CSengima"
+model: "enigma"
+hide: "true"
+mob-hide: "mob-true"
+    
+SImg20: "/assets/img/caseStudy-service/enigma-group-2.png"
+
+SImg21: "enigma-cmr-mob"
 
 box_lists:
-    - box-Head1: '65,000'
-      box-para1: 'Agents, Support & Sales 
-                teams across the globe 
-                using the system  '
-      UImg1: 'user'
-
-    - box-Head1: '10 Million'
-      box-para1: 'Avg. monthly search
-                    volumes helping us discover
-                    the app experience'
-      UImg1: 'search'
-
-    - box-Head1: '28'
-      box-para1: 'System integrations
-                    defining the adoption
-                    in the client ecosystem'
-      UImg1: 'user'
+    
 
 cHead1: "Introduction"
-cContent1: "GOV is designed to mitigate high risk and high impact to orders booked by customers through various                channels and ensure high predictability on order delivery and fulfilling rich customer experience."
+cContent1: "An engineering SaaS product for IT driven companies, to Localize, detect & fix errors instantly 
+            ensuring high availability & reliability of their products & services to their customers."
 
-SImg1: "group-3"
+SImg1: "enigma-cmr"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
 cHead2: "Challenge"
 
-content_para:
 
-    - cContent2: "To enable the users to identify and release order holds in realtime. Design a view to correlate and establish data dependencies to take correction action."
 
-    - cContent2: "Model design usability in the system to handle myriad of filters & search criteria from different user personas in large volumes to run their bizops."
+challenge_list:
+    - content_para:
+        - cContent2: "Design a high velocity system for enterprise users to monitor & action production incidents. We had to consider the following aspects while designing this workload intensive systems."
 
-content_lists:
+      content_lists:
 
-    - cContent4: '-Establish 2 to 3 click approach for call to action'
-    - cContent4: '-Navigating complex features in a single dashboard'
-    - cContent4: '-Deliver insights to users to perform their actions'
+    - subhead: 'Scalability'
+      content_para:
+        - cContent2: "Design for a massive user base and subsequent influx of terabytes of data and exceptions"
+      content_lists:
+
+    - subhead: 'Infrastructure'
+      content_para:
+        - cContent2: "Creating interactions for an engineering team to map virtual environments to real-time cluster environments."
+      content_lists:
+
+    - subhead: 'Insights'
+      content_para:
+        - cContent2: "Design a birds eye view for the entire application set configured and monitored simultaneously, drive call to action on the real-time incidents."
+      content_lists:
+
+    - subhead: 'Navigation'
+      content_para:
+        - cContent2: "Provide interactive and optimized navigation for the users to perform required action."
+      content_lists:
+      
 
 cHead3: "Perceive"
-csubHead3: "Getting into the shoes of Bizops "
+csubHead3: "Stepping into the shoes of a developer"
 
-perceive_para:
+main_perceive:
+    - perceive_para:
 
-    - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+        - cContent5: "Working with the tech teams, we learnt how to re-invent design principles and apply for high performing teams that innovate continuously."
+      content_lists1:
 
-    - cContent5: "Our design senses, pushed us to group, structure & modularize every element of the discussion to create context on the problem statement & dependencies. What came-out as an outcome was magical!"
-
-content_lists1:
-
-    - cContent7: '- Personas acting on the system (Sales executive, Sales manager, Agents and admin)'
-    - cContent7: '- Entire flow of an order process'
-    - cContent7: '- User experience for multi-search features by categorizing 144 filters to 10 groups.'
-    - cContent7: '- Management of workflows created for order holds'
-    - cContent7: '- Micro views of order delay stages'
-    - cContent7: '- Simplified solution for workforce orchestration'
-    - cContent7: '- Real-time insights required by the stakeholders'
-
+        - cContent7: '- We created standard operating procedures of engineering functions' 
+        - cContent7: '- Understood dependencies of multi-system for log analysis'
+        - cContent7: '- Learnt lean principles & queue' 
+        - cContent7: '- Did some competitive bench mark for analysis'
+        - cContent7: '- Able to identify commonalities & eliminate redundancy in the workflow process'
 
 
 box-Head4: '60'
@@ -76,61 +86,80 @@ box-para4: 'Latency to perform an
             action on Hold'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
+cContent8: "In this phase we understood the user personas and complexities involved in designing a enterprise level, realtime monitoring tool."
 
-SImg3: "gov-user-flow"
+SImg3: "enigma-images"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "people"
+SImg5: "enigma-data-02"
 
-SImg6: "bitmap1"
-SImg7: "group-5"
-SImg8: "bitmap2"
-SImg9: "bitmap3"
-SImg10: "wireframw-001"
-SImg11: "style-guid"
-SImg12: "1-gov"
-SImg13: "group-6"
+
+SImg10: "enigma-images-02"
+SImg11: "enigma-style-guide"
+SImg12: "enigma-home-page"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "gaft-screens"
-    - SImg18: "mockup-1"
-    - SImg18: "mockup-2"
+    - SImg18: "enigma-screen"
+    - SImg18: "screen-collage-enigma"
+    - SImg18: "enigma-mock"
+    - SImg18: "enigm-mock-02"
+    
 
 cHead5: "Adapt "
-csubHead4: "Effortless tracking and visualisation of an order"
-cContent9: "Our design component definition, enabled us to socialize the first visual draft of the application for review with the user community. Iterations of data sets, workflow dependencies, user scenarios, workgroup priorities were done progressively."
+csubHead4: "Designing for better scale and maneuverability"
+cContent9: "We blended with the tech team and introduced an interactive & iterative design model to deliver what the they needed."
 csubHead5: "Output"
-cContent10: "All the parties involved had the same expectation on the outcome of the work."
+cContent10: "We were able to come up with following solutions for our customers."
 
 
-cHead6: "1.  Compact & efficient search functionality"
-cContent11: "Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze."
 
-cHead7: "2. Short story of an entire order flow "
-cContent12: "Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow."
-
-cHead8: "3.  Information abstracted in schematic form"
-cContent13: "Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales."
-
-cHead9: "4.  Smart sorting of data"
-cContent14: "Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec."
-
-
-cHead10: "5.  Design"
-cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+cHead10: "3.  Design"
+main_content:
+  - cContent15: "- Simple and context driven screens"
+  - cContent15: "- 2 to 3 click call to action."
+  - cContent15: "- Workflow orchestration for easy transitions and context switching"
+  - cContent15: "- Light-weight menus & search options"
 
 cHead11: "Evolve "
-csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
+csubHead6: "Design with iteration"
+cContent16: "We were able to achieve the desired outcome at the end, delivering intuitive screens for the product that is high velocity and data intensive."
+
+evolve_loop:
+  - cContent18: '- User testing became crucial in understanding the use cases and also '
+  - cContent18: '- We created wireframes to systematically iterate the data displayed on each screen, the user flow and the user experience.'
+  - cContent18: '- Additionally, We took up heat map analysis to screen users behavior. We took into account the click, scroll and navigation aspects.'
 
 box-Head7: '25'
 box-Head8: ' Seconds'
 box-para5: 'Latency to perform an 
             action on Hold'
+
+
+
+
+division_loop:
+    - cHead6: '1. Dissecting data for systemic design'
+      para_loop:
+        - cContent11: '- We created concepts to modualrize and associate relevant functions'
+        - cContent11: '- Integration workbench - to configure disparate systems into our product for log analysis.'
+        - cContent11: '- Engineering Workbench - to build infrastructure topology and label environments'
+        - cContent11: '- Workspace modules to group multi variate work environments for monitoring'
+        - cContent11: '- Dashboards for birds eye view of the system functions and alarm incidents'
+      SImg6: 'enigma-group-1'
+
+    - cHead6: '2. Giving user insights'
+      para_loop:
+        - cContent11: '- Workflow insights, for navigating through the incidents and mitigate the problem'
+        - cContent11: ' Data driven dashboards and actionable metrics'
+        - cContent11: '- Help the support teams to take corrective actions instantly'
+      SImg6: 'opm-order'
+
+
+full_image:
+    
 
 
 cat: Service Design
