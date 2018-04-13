@@ -301,9 +301,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 768px) {
   .headingBold {
-    font-size: 32px; }
+    font-size: 24px; }
   .headingLight {
-    font-size: 32px; }
+    font-size: 24px; }
   .typography {
     font-size: 16px; }
   .paragraph {
@@ -337,9 +337,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1025px) {
   .headingBold {
-    font-size: 40px; }
+    font-size: 32px; }
   .headingLight {
-    font-size: 40px; }
+    font-size: 32px; }
   .typography {
     font-size: 20px; }
   .paragraph {
@@ -385,9 +385,9 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .headingBold {
-    font-size: 48px; }
+    font-size: 40px; }
   .headingLight {
-    font-size: 48px; }
+    font-size: 40px; }
   .typography {
     font-size: 24px; }
   .paragraph {
@@ -1772,6 +1772,7 @@ button.lb_btn:focus {
   padding-top: 15px; }
 
 .lb-filter-headdesc {
+  font-family: 'PT_Sans-Regular';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -2088,7 +2089,7 @@ div.test {
 
 .lb-ourworks {
   text-align: center;
-  /* font-family: MavenPro; */
+  font-family: 'MavenPro-Medium';
   font-size: 40px;
   font-weight: 500;
   font-style: normal;
@@ -2165,8 +2166,11 @@ div.test {
       .homePage__BnrDiv__Inner__Content p {
         font-size: 14px;
         line-break: 30px; }
+  .homePage__BnrDiv__dna {
+    padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 40px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
     height: 260px; }
@@ -2221,7 +2225,7 @@ div.test {
             font-size: 12px;
             line-height: 16px; }
       .homePage__BnrDiv__Service {
-        bottom: -230px; }
+        bottom: -466px; }
         .homePage__BnrDiv__Service h1 {
           color: #5d6a6f;
           margin-top: -390px;
@@ -2231,10 +2235,10 @@ div.test {
           display: block; }
           .homePage__BnrDiv__Service__Cards__Inner {
             width: 210px;
-            height: 154px;
+            height: 210px;
             margin: 0 auto 16px; }
             .homePage__BnrDiv__Service__Cards__Inner__a {
-              padding-top: 30px; }
+              padding-top: 50px; }
               .homePage__BnrDiv__Service__Cards__Inner__a h3 {
                 font-size: 16px; }
               .homePage__BnrDiv__Service__Cards__Inner__a p {
@@ -2242,7 +2246,9 @@ div.test {
           .homePage__BnrDiv__Service__Cards__Inner:hover img {
             display: none; }
     .homePage__dna {
-      display: block; }
+      display: block;
+      margin-top: 40px;
+      padding-bottom: 83px; }
       .homePage__dna__left {
         padding-right: 0;
         margin: 0 auto;
@@ -2254,7 +2260,7 @@ div.test {
       .homePage__dna__right {
         width: 264px;
         text-align: center;
-        margin: 0 auto; }
+        margin: 80px auto 0px; }
         .homePage__dna__right h1 {
           font-size: 16px; }
         .homePage__dna__right p {
@@ -2266,4 +2272,8 @@ div.test {
     font-size: 24px;
     padding-bottom: 0px; }
   .lb-ourworks-dna {
-    margin: 235px 0 0; } }
+    margin: 530px 0 0; }
+  .dropdown-toggle {
+    text-align: center; }
+  .lb_work_filterli {
+    text-align: center; } }
