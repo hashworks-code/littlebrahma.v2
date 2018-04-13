@@ -1472,10 +1472,6 @@ h1 {
     padding-bottom: 21px; }
   .prct_dic .bsTxt {
     font-size: 14px; }
-  .prct_dic img {
-    width: 293px;
-    height: 282px;
-    margin: -20px 0; }
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
@@ -1485,9 +1481,6 @@ h1 {
       font-size: 24px; }
       .prct_svc_title .svcCont {
         padding-top: 72px; }
-        .prct_svc_title .svcCont img {
-          max-width: 85px;
-          margin-top: 20px; }
       .prct_svc_title .indTxt {
         font-size: 24px; }
       .prct_svc_title .indCon {
@@ -1538,10 +1531,6 @@ h1 {
       padding-bottom: 10px; }
     .prct_dic .bsTxt {
       font-size: 16px; }
-    .prct_dic img {
-      width: 414px;
-      height: 377px;
-      margin: -20px 0; }
     .prct_svc {
       padding: 55px 0px 70px; }
       .prct_svc_title {
@@ -1664,10 +1653,6 @@ h1 {
     padding-bottom: 40px; }
   .prct_dic .bsTxt {
     font-size: 20px; }
-  .prct_dic img {
-    width: 557px;
-    height: 506px;
-    margin: -20px 0; }
   .prct_svc {
     padding: 100px 150px 80px; }
     .prct_svc_title {
