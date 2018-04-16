@@ -743,6 +743,7 @@ $(window).resize(function(){
 //             $("#test").toggleClass("drop_arrow");
 //         })
             $('.knowmore a').click(function() {
+                debugger;
                 var text = $(this).closest("div").parent().find("div.indTxt").html();
                 sessionStorage.setItem("pageDetails", text);
             });

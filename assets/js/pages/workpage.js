@@ -12,7 +12,8 @@ if(sessionStorage.getItem("pageDetails") != "") {
         $('#filterli-2').click();
       } else if(sessionStorage.getItem("pageDetails") == "Product Design") {
         $('#filterli-1').click();
-      } else if(sessionStorage.getItem("pageDetails") == "Branding and Communication Design") {
+      } else if(sessionStorage.getItem("pageDetails") == "Branding &amp; Communication Design") {
+        debugger;
         $('#filterli-3').click();
       }
       sessionStorage.setItem("pageDetails", ""); 
