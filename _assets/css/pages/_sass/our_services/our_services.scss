@@ -85,9 +85,10 @@
         display: table;
         // background: #fff;
     }
-    .know-more-link a {
-        color: #4bdffe;
-        margin-left: 10px;
+    .know-more-link {
+        a {
+            color: #4bdffe;
+        }
     }
     .knowmore {
         a:first-child {
