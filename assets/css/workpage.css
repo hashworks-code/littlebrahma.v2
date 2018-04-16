@@ -1259,7 +1259,7 @@ h1 {
         font-size: 20px; }
     .footer__image {
       background-position: left;
-      background-size: 128% 100%; }
+      background-size: 140% 100%; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1734,13 +1734,10 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 30px; }
-
-.lb_caseStusy {
-  margin-top: 50px; }
+  margin-left: 50px; }
 
 .lb-Workfilter {
-  padding-top: 50px; }
+  padding-top: 32px; }
 
 ul.lb_work_filter.lb_filter_lg {
   text-align: center; }
@@ -1766,15 +1763,15 @@ button.lb_btn:focus {
 .lb_btn_div {
   width: 160px;
   margin: 0 auto;
-  padding-bottom: 50px; }
+  padding-bottom: 64px; }
 
 .lb-filter-service {
-  padding-bottom: 30px; }
+  padding-bottom: 32px; }
 
 .lb-filter-head {
   width: 250px;
   height: 56px;
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Medium';
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -1785,7 +1782,7 @@ button.lb_btn:focus {
   padding-top: 24px; }
 
 .lb-filter-header {
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Bold';
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
@@ -1793,8 +1790,7 @@ button.lb_btn:focus {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey);
+  color: #393939;
   padding-top: 15px; }
 
 .lb-filter-headdesc {
@@ -1806,8 +1802,7 @@ button.lb_btn:focus {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey); }
+  color: #737373; }
 
 .lb-filter-footer {
   font-family: MavenPro-Medium;
@@ -1861,7 +1856,8 @@ div.test {
   .lb_filter_mb {
     display: block; }
   .lb-filter-head {
-    font-size: 16px; }
+    font-size: 14px;
+    width: 166px; }
   .lb-filter-header {
     font-size: 16px; }
   .lb-filter-headdesc {
@@ -1884,11 +1880,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
     font-size: 14px; }
+  .lb-filter-header {
+    font-size: 16px; }
+  .lb-filter-headdesc {
+    font-size: 12px; }
   .lb_btn_div {
     text-align: center; } }
 
@@ -1900,11 +1896,12 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 18px;
+    width: 200px; }
   .lb-filter-header {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -1918,11 +1915,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-header {
     font-size: 24px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {

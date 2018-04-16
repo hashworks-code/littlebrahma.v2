@@ -1259,7 +1259,7 @@ h1 {
         font-size: 20px; }
     .footer__image {
       background-position: left;
-      background-size: 128% 100%; }
+      background-size: 140% 100%; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1734,13 +1734,10 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 30px; }
-
-.lb_caseStusy {
-  margin-top: 50px; }
+  margin-left: 50px; }
 
 .lb-Workfilter {
-  padding-top: 50px; }
+  padding-top: 32px; }
 
 ul.lb_work_filter.lb_filter_lg {
   text-align: center; }
@@ -1766,15 +1763,15 @@ button.lb_btn:focus {
 .lb_btn_div {
   width: 160px;
   margin: 0 auto;
-  padding-bottom: 50px; }
+  padding-bottom: 64px; }
 
 .lb-filter-service {
-  padding-bottom: 30px; }
+  padding-bottom: 32px; }
 
 .lb-filter-head {
   width: 250px;
   height: 56px;
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Medium';
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -1785,7 +1782,7 @@ button.lb_btn:focus {
   padding-top: 24px; }
 
 .lb-filter-header {
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Bold';
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
@@ -1793,8 +1790,7 @@ button.lb_btn:focus {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey);
+  color: #393939;
   padding-top: 15px; }
 
 .lb-filter-headdesc {
@@ -1806,8 +1802,7 @@ button.lb_btn:focus {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey); }
+  color: #737373; }
 
 .lb-filter-footer {
   font-family: MavenPro-Medium;
@@ -1861,7 +1856,8 @@ div.test {
   .lb_filter_mb {
     display: block; }
   .lb-filter-head {
-    font-size: 16px; }
+    font-size: 14px;
+    width: 166px; }
   .lb-filter-header {
     font-size: 16px; }
   .lb-filter-headdesc {
@@ -1884,11 +1880,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
     font-size: 14px; }
+  .lb-filter-header {
+    font-size: 16px; }
+  .lb-filter-headdesc {
+    font-size: 12px; }
   .lb_btn_div {
     text-align: center; } }
 
@@ -1900,11 +1896,12 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 18px;
+    width: 200px; }
   .lb-filter-header {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -1918,11 +1915,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-header {
     font-size: 24px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -1983,6 +1980,15 @@ div.test {
   position: relative;
   z-index: 2px; }
 
+li.lb_work_filterli:first-child {
+  margin-left: 40px !important; }
+
+.lb-Workfilter {
+  padding-top: 40px; }
+
+.tabs {
+  margin-left: 50px !important; }
+
 .homePage {
   margin-top: 80px; }
   .homePage__BnrDiv {
@@ -2011,7 +2017,7 @@ div.test {
       width: 100%; }
       .homePage__BnrDiv__Service h1 {
         text-align: center;
-        color: #333;
+        color: #393939;
         font-size: 40px;
         font-family: 'MavenPro-Medium';
         margin-bottom: 40px; }
@@ -2100,23 +2106,19 @@ div.test {
       width: 50%;
       padding-right: 0px; }
       .homePage__dna__left img {
-        height: 97%;
-        width: 88%; }
+        width: 88%;
+        height: 90%; }
     .homePage__dna__right {
       margin: 0px auto;
       width: 50%; }
       .homePage__dna__right h1 {
         margin: 0px;
-        font-size: 40px;
-        font-family: 'MavenPro-Medium';
+        font-size: 24px;
+        font-family: 'MavenPro-Bold';
         color: #393939; }
       .homePage__dna__right p {
-        font-size: 20px;
-        font-family: 'PT_Sans-Regular';
-        color: #5d6a6f;
         margin-bottom: 32px;
-        margin-top: 20px;
-        line-height: 25px; }
+        margin-top: 20px; }
 
 .lb-ourworks {
   text-align: center;
@@ -2129,15 +2131,21 @@ div.test {
   letter-spacing: normal;
   /* text-align: left; */
   color: #393939;
-  padding-bottom: 50px; }
+  padding-bottom: 40px; }
 
 .lb-ourworks-dna {
-  margin: 240px 83px 0; }
+  margin: 250px 83px 0; }
 
 @media screen and (max-width: 1366px) {
+  li.lb_work_filterli:first-child {
+    margin-left: 60px !important; }
+  .lb-Workfilter {
+    padding-top: 36px; }
+  .tabs {
+    margin-left: 50px !important; }
   .lb-ourworks {
-    font-size: 40px;
-    padding-bottom: 50px; }
+    font-size: 32px;
+    padding-bottom: 36px; }
   .homePage {
     margin-top: 0; }
     .homePage__BnrDiv__Inner {
@@ -2180,17 +2188,18 @@ div.test {
       margin: 0px auto;
       padding-right: 90px; }
       .homePage__dna__right h1 {
-        font-size: 32px;
+        font-size: 20px;
         margin: 0px; }
-      .homePage__dna__right p {
-        font-size: 16px;
-        line-height: 25px; }
       .homePage__dna__right a {
         font-size: 16px; }
   .lb-ourworks-dna {
-    margin: 180px 42px 0; } }
+    margin: 193px 42px 0; } }
 
 @media screen and (max-width: 1023px) {
+  li.lb_work_filterli:first-child {
+    margin-left: 15px !important; }
+  .lb-Workfilter {
+    padding-top: 32px; }
   .homePage__BnrDiv__Inner {
     height: auto; }
     .homePage__BnrDiv__Inner__Content {
@@ -2203,8 +2212,8 @@ div.test {
   .homePage__BnrDiv__dna {
     padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
-    font-size: 24px;
-    margin-bottom: 32px; }
+    font-size: 28px;
+    margin-bottom: 36px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
     height: 260px; }
@@ -2226,18 +2235,20 @@ div.test {
     margin: 0px auto;
     padding-right: -1px; }
     .homePage__dna__right h1 {
-      font-size: 24px;
+      font-size: 16px;
       margin: 0px; }
     .homePage__dna__right p {
-      font-size: 14px;
-      line-height: 25px; }
+      margin-bottom: 32px;
+      margin-top: 16px; }
     .homePage__dna__right a {
       font-size: 14px; }
+  .homePage__dna {
+    padding-bottom: 60px; }
   .lb-ourworks {
-    font-size: 24px;
-    padding-bottom: 40px; }
+    font-size: 28px;
+    padding-bottom: 36px; }
   .lb-ourworks-dna {
-    margin: 180px 34px 0; } }
+    margin: 170px 34px 0; } }
 
 @media screen and (max-width: 767px) {
   .homePage {
@@ -2257,16 +2268,15 @@ div.test {
           text-align: center;
           margin: 0 auto; }
           .homePage__BnrDiv__Inner__Content h1 {
-            font-size: 24px; }
+            font-size: 28px; }
           .homePage__BnrDiv__Inner__Content p {
             padding-top: 12px; }
       .homePage__BnrDiv__Service {
-        bottom: -466px; }
+        bottom: -386px; }
         .homePage__BnrDiv__Service h1 {
-          color: #5d6a6f;
           margin-top: -390px;
           font-size: 24px;
-          margin-bottom: 40px; }
+          margin-bottom: 32px; }
         .homePage__BnrDiv__Service__Cards {
           display: block; }
           .homePage__BnrDiv__Service__Cards__Inner {
@@ -2283,33 +2293,30 @@ div.test {
             display: none; }
     .homePage__dna {
       display: block;
-      margin-top: 40px;
+      margin-top: 32px;
       padding-bottom: 65px; }
       .homePage__dna__left {
         padding-right: 0;
-        margin: 0 auto;
-        width: 264px;
-        height: 246px; }
+        margin: 0 auto; }
         .homePage__dna__left img {
           width: 100%;
-          height: 107%; }
+          height: 100%; }
       .homePage__dna__right {
         width: 264px;
         text-align: center;
-        margin: 80px auto 0px;
+        margin: 32px auto 0px;
         padding: 0px; }
         .homePage__dna__right h1 {
           font-size: 16px; }
         .homePage__dna__right p {
-          font-size: 12px;
-          line-height: 16px; }
+          margin-top: 12px; }
         .homePage__dna__right a {
           font-size: 14px; }
   .lb-ourworks {
     font-size: 24px;
-    padding-bottom: 0px; }
+    padding-bottom: 32px; }
   .lb-ourworks-dna {
-    margin: 530px 0 0; }
+    margin: 431px 0 0; }
   .dropdown-toggle {
     text-align: center; }
   .lb_work_filterli {
