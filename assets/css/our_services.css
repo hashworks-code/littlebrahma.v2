@@ -1344,6 +1344,11 @@ h1 {
   .prct .dnaContainer {
     font-family: "PT_Sans-Regular";
     display: table; }
+  .prct .know-more-link a {
+    color: #4bdffe;
+    margin-left: 10px; }
+  .prct .knowmore a:first-child {
+    display: none; }
 
 .prctDiv {
   margin-top: 65px;

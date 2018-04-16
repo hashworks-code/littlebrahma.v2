@@ -15,32 +15,9 @@
             <div class="hero_ptn"></div>
         </div>
     </div>
-    <div class="philSec prct">
-        <div class="dnaSummary">
-            <div class="genericTitle text-center">
-                We design solutions for human interactions
-            </div>
-            <div class="container dnaContainer">
-                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-                    Each discipline is always involved, though at varying levels. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build. Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build.
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="prct">
         <div class="prct_svc" id="svc_section">
             <!-- <div class="prct_svc_title">Our Services</div> -->
-            <div class="dnaSummary">
-                <div class="genericTitle text-center">
-                    Our Services
-                </div>
-                <div class="container dnaContainer">
-                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-                            We work with companies of all shapes and sizes, from early-stage startups to big enterprises, to create digital products and services which create big impact. 
-                            We use the Design Native approach, a high-impact problem-solving framework to gain insights on your customer behaviour. We use these insights to design creative solutions that help you engage your customers effectively and helps you achieve great business value. 
-                    </div>
-                </div>
-            </div>
             <div class="container">
                 {% assign item = site.practice | reverse%} {% for services in item %}
                     <div class="prct_svc_title">
@@ -51,12 +28,15 @@
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 noPadding lgCon">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">{{services.title}}</div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc1}}</div>
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc2}}</div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc2}}
+                                    <span class="know-more-link">
+                                        <a href="{{services.url}}">Know More</button></a>
+                                    </span>
+                                </div>
                                   <div class="knowmore">
                                         <a href="{{services.url}}"><button class="commonButton" type="submit" id="submit-form">Know More</button></a>
                                     <a href="{{services.url}}?url={{services.title}}"><button class="commonButton" type="submit" id="submit-form">View Projects</button></a>
                                   </div>
-                                
                             </div>
                         </div>
                     </div>
