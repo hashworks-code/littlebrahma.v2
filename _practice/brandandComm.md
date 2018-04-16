@@ -11,7 +11,7 @@ practice_lists:
   - title: Services
     description: >-
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
-homebackgroundimg: /assets/img/workpage/group-3.png
+# homebackgroundimg: /assets/img/workpage/group-3.png
 published: true
 practiceList: Branding & Comm.
 practiceList1: Visual communication

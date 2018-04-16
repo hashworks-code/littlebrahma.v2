@@ -1718,7 +1718,7 @@ h1 {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/02_work.gif); }
+  background-image: url(/assets/img/workpage/002_work.gif) !important; }
 
 #lb_btn1 {
   display: none; }
@@ -2254,7 +2254,7 @@ li.lb_work_filterli:first-child {
   .homePage {
     margin-top: 80px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/mobile-home-banner2.gif);
+      background-image: url(/assets/img/homepage/001-5_Home-page-mobile.gif);
       background-size: cover;
       background-position: center center;
       height: 878px; }

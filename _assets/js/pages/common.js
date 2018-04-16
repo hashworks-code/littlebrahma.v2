@@ -16,7 +16,7 @@ $(window).resize(function(){
     
 });
     $(document).ready(function() {
-        debugger;
+        // debugger;
         if(screen.width > 767){
             var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())

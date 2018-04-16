@@ -1718,7 +1718,7 @@ h1 {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/02_work.gif); }
+  background-image: url(/assets/img/workpage/002_work.gif) !important; }
 
 #lb_btn1 {
   display: none; }
