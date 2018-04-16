@@ -1246,7 +1246,7 @@ h1 {
 @media screen and (min-width: 1367px) {
   .footer {
     position: relative;
-    height: 715px;
+    height: 100%;
     margin-top: 80px; }
     .footer__inner {
       position: absolute;
@@ -2134,7 +2134,8 @@ li.lb_work_filterli:first-child {
   padding-bottom: 40px; }
 
 .lb-ourworks-dna {
-  margin: 250px 83px 0; }
+  width: 1100px;
+  margin: 250px auto 0; }
 
 @media screen and (max-width: 1366px) {
   li.lb_work_filterli:first-child {
@@ -2193,7 +2194,8 @@ li.lb_work_filterli:first-child {
       .homePage__dna__right a {
         font-size: 16px; }
   .lb-ourworks-dna {
-    margin: 193px 42px 0; } }
+    width: 965px;
+    margin: 193px auto 0; } }
 
 @media screen and (max-width: 1023px) {
   li.lb_work_filterli:first-child {
@@ -2248,7 +2250,8 @@ li.lb_work_filterli:first-child {
     font-size: 28px;
     padding-bottom: 36px; }
   .lb-ourworks-dna {
-    margin: 170px 34px 0; } }
+    width: 700px;
+    margin: 170px auto 0; } }
 
 @media screen and (max-width: 767px) {
   .homePage {
@@ -2316,7 +2319,8 @@ li.lb_work_filterli:first-child {
     font-size: 24px;
     padding-bottom: 32px; }
   .lb-ourworks-dna {
-    margin: 431px 0 0; }
+    width: 300px;
+    margin: 431px auto 0; }
   .dropdown-toggle {
     text-align: center; }
   .lb_work_filterli {

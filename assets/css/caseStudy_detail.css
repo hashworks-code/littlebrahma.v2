@@ -1246,7 +1246,7 @@ h1 {
 @media screen and (min-width: 1367px) {
   .footer {
     position: relative;
-    height: 715px;
+    height: 100%;
     margin-top: 80px; }
     .footer__inner {
       position: absolute;

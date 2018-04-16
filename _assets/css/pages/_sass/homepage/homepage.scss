@@ -235,7 +235,9 @@ li.lb_work_filterli:first-child {
 }
 
 .lb-ourworks-dna{
-    margin: 250px 83px 0;
+    
+    width: 1100px;
+    margin: 250px auto 0;
 }
 @media screen and (max-width: 1366px) {
     li.lb_work_filterli:first-child {
@@ -341,7 +343,8 @@ li.lb_work_filterli:first-child {
         }
     }
     .lb-ourworks-dna{
-        margin: 193px 42px 0;
+        width: 965px;
+        margin: 193px auto 0;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -434,7 +437,8 @@ li.lb_work_filterli:first-child {
         padding-bottom: 36px;
     }
     .lb-ourworks-dna{
-        margin: 170px 34px 0;
+        width: 700px;
+        margin: 170px auto 0;
     }
 }
 @media screen and (max-width: 767px) {
@@ -535,7 +539,8 @@ li.lb_work_filterli:first-child {
         padding-bottom: 32px;
     }
     .lb-ourworks-dna{
-        margin: 431px 0 0;
+        width: 300px;
+        margin: 431px auto 0;
     }
     .dropdown-toggle{
         text-align:center;
