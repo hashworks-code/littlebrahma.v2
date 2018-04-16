@@ -19,7 +19,12 @@
         width: 100vw;
     }
     .genericTitle, .contextTitle{
+        font-family: "MavenPro-Bold"; 
+        color: #393939;
+    }
+    .contextTitle{
         font-family: "MavenPro-Medium"; 
+        color: #393939;
     }
     .contextualTxt{
         font-family: "PT_Sans-Regular";
@@ -45,14 +50,14 @@
     &_dic{
       padding: 45px 35px;
         .title{
-            font-family: "MavenPro-Medium";
+            font-family: "MavenPro-Bold";
+            color: #393939;
         }
         .bldContent{
-            font-family: "MavenPro-Bold"
+            font-family: "MavenPro-Medium";
+            color: #393939;
         }
-        .bsTxt{
-            font-family: "PT_Sans-Regular"
-        }
+    
         .hckTitle{
             display: none;
         }
@@ -155,7 +160,7 @@
   }
     .prct{
         .genericTitle{
-            font-size: 24px;
+            font-size: 20px;
         }
         .fixCont{
             display: none;
@@ -169,16 +174,18 @@
             }
   
             .title{
-                font-size: 24px;
+                font-size: 20px;
              text-align: center;
             }
             .bldContent{
-                font-size: 14px;
+                font-size: 16px;
                 padding: 16px 0px;
                 text-align: center;
+                font-family: "MavenPro-Medium";
+                color: #393939;
+                
             }
             .bsTxt{
-                font-size: 12px;
                 text-align: center;
             }
         }
@@ -280,16 +287,15 @@
             }
             .title{
                 font-size: 24px;
-                padding-bottom: 20px;
-                padding-top: 15px;
+                padding-bottom: 12px;
+                padding-top: 38px;
+                line-height: 28px;
             }
             .bldContent{
                 font-size: 16px;
-                padding-bottom: 21px;
+                padding-bottom: 12px;
             }
-            .bsTxt{
-                font-size: 14px;
-            }
+           
             img{
                 // width: 293px;
                 // height: 282px;
@@ -355,27 +361,26 @@
     }
     .prct{
         .genericTitle{
-            font-size: 32px;
+            font-size: 28px;
         }
         .contextTitle {
-            font-size: 24px;
+            font-size: 20px;
         }
         .contextualTxt {
             font-size: 16px;
         }
         &_dic{
             .title{
-                font-size: 32px;
-                padding-bottom:41px;
-                padding-top: 35px;
+                font-size: 28px;
+                padding-bottom: 16px;
+                padding-top: 95px;
             }
             .bldContent{
                 font-size: 20px;
-                padding-bottom: 10px;                
+                padding-bottom: 10px;  
+                line-height: 28px;              
             }
-            .bsTxt{
-                font-size: 16px;
-            }
+           
             img{
                 // width: 414px;
                 // height: 377px;
@@ -522,7 +527,7 @@
     }
     .prct{
         .genericTitle{
-            font-size: 48px;
+            font-size: 32px;
         }
         .contextTitle{
             font-size: 24px;
@@ -532,18 +537,16 @@
         }
         &_dic{
             .title{
-                font-size: 40px;
-                padding-bottom:40px;
-                padding-top: 55px;
+                font-size: 32px;
+                padding-bottom:30px;
+                padding-top: 66px;
                 
             }
             .bldContent{
                 font-size: 24px;
-                padding-bottom: 40px;
+                padding-bottom: 30px;
             }
-            .bsTxt{
-                font-size: 20px;
-            }
+         
             img{
                 // width: 557px;
                 // height: 506px;
