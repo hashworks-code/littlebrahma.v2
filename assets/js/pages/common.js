@@ -16,7 +16,7 @@ $(window).resize(function(){
     
 });
     $(document).ready(function() {
-        
+        debugger;
         if(screen.width > 767){
             var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
@@ -742,6 +742,11 @@ $(window).resize(function(){
 //             $(".mobileDropDown__menu").hide();
 //             $("#test").toggleClass("drop_arrow");
 //         })
+            $('.knowmore a').click(function() {
+                var text = $(this).closest("div").parent().find("div.indTxt").html();
+                sessionStorage.setItem("pageDetails", text);
+            });
+            
     });
 
 })();

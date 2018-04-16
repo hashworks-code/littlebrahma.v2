@@ -1348,8 +1348,7 @@ h1 {
     font-family: "PT_Sans-Regular";
     display: table; }
   .prct .know-more-link a {
-    color: #4bdffe;
-    margin-left: 10px; }
+    color: #4bdffe; }
   .prct .knowmore a:first-child {
     display: none; }
 
