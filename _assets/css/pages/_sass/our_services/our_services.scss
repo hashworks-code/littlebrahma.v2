@@ -1,0 +1,586 @@
+//home/hashworks/Downloads/banner-4-a_2018-03-15/practiceBnr.png
+.prct{
+    line-height: 1.5;
+    .horizantal{
+        display: flex;
+        justify-content: center;
+    }
+    .verticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    .hero{
+        &_img{
+            background-image: url(/assets/img/practice/03_Practice.gif);
+        }
+    }
+    &_rnImg{
+        width: 100vw;
+    }
+    .genericTitle, .contextTitle{
+        font-family: "MavenPro-Medium"; 
+    }
+    .contextualTxt{
+        font-family: "PT_Sans-Regular";
+        font-size: 12px;
+    }
+    .prctDicipline{
+        background: #fff;
+    }
+    .rContent_1{
+        visibility: hidden;
+        // position: absolute;
+        // padding-top: 32%;
+    }
+    .right.Containers{
+        background: #fff;
+    }
+    img{
+        width: 100%;
+    }
+    .dnaImgMob{
+        display: none;
+    }
+    &_dic{
+      padding: 45px 35px;
+        .title{
+            font-family: "MavenPro-Medium";
+        }
+        .bldContent{
+            font-family: "MavenPro-Bold"
+        }
+        .bsTxt{
+            font-family: "PT_Sans-Regular"
+        }
+        .hckTitle{
+            display: none;
+        }
+        .imgContainer{
+            text-align: center
+        }
+    }
+    &_svc{
+        padding: 27px 35px 40px 29px;
+        // background: #F4F4F4;
+        &_title{
+            font-family: "MavenPro-Medium";
+            // background: #f4f4f4;
+            text-align: center;
+            .indTxt{
+                font-family: "MavenPro-Medium"
+            }
+            .indCon{
+                font-family: "PT_Sans-Regular"
+            }
+        }
+    }
+    .dnaSummary {
+        background: #fff;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .dnaContainer{
+        font-family: "PT_Sans-Regular";
+        display: table;
+        // background: #fff;
+    }
+}
+.prctDiv{
+    margin-top: 65px;
+    text-align: center;
+    .prctSec{
+        display: inline-block;
+        &_tab{
+            display: inline-block;
+            font-family: "MavenPro-Medium";
+            font-size: 24px;
+            cursor: pointer;
+            padding-bottom: 2px;
+            margin: 0 35px 0;
+        }
+        &_inactive{
+            color: #393939;
+        }
+        &_active, &_tab:hover{
+            color: #ea1c49;
+            border-bottom: 2px solid #ea1c49;
+        }
+    }
+}
+@media screen and (min-width:320px) and (max-width:1024px){
+    .prct{
+        .dnaImgMob{
+            display: block;
+            width: 250px;
+            background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
+            background-size: contain;
+            height: 250px;
+        }
+        .rContent_1,.rContent_2,.rContent_3{
+            visibility: visible;
+            display: flex;
+            flex-direction: column;
+            height: 250px;
+            justify-content: center;
+            padding: 0 15px;
+        }
+        .rContent_2 {
+            padding-left: 40px;
+        }
+        .rContent_1Img,.rContent_3Img{
+            margin-left: -135px;
+        }
+        .rContent_1Img{            
+            transform: rotate(-30deg);
+        }
+        .rContent_2Img{
+            margin-right: -135px;
+            transform: rotate(-90deg);
+        }
+        .rContent_3Img{
+            transform: rotate(210deg);
+        }
+    }
+}
+@media screen and (min-width:320px) and (max-width:767px){
+  .lgCon{
+      margin-top: 30px;
+  }
+  .knowmore{
+    display: flex;
+    width: 236px;
+    justify-content: space-around;
+    margin:0 auto;
+  }
+    .prct{
+        .genericTitle{
+            font-size: 24px;
+        }
+        .fixCont{
+            display: none;
+        }
+        &_dic{
+            .hckTitle{
+                display: block;
+            }
+            img{
+                max-width: 350px;
+            }
+  
+            .title{
+                font-size: 24px;
+             text-align: center;
+            }
+            .bldContent{
+                font-size: 14px;
+                padding: 16px 0px;
+                text-align: center;
+            }
+            .bsTxt{
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        &_svc{
+            &_title{
+                text-align: center;
+                font-size: 24px;
+                .svcCont{
+                    padding-top: 72px;
+                    img{
+                        max-width: 80px;
+                    }
+                }
+                .indTxt{
+                    font-size: 17px;
+                    padding-bottom:16px;
+                    text-align: center;
+                }
+                .indCon{
+                    font-size: 14px;
+                    padding-top:0px;
+                    padding-bottom:24px;
+                }
+            }
+        }
+        .dnaContainer{
+            font-size: 12px;
+            padding-top:16px;
+        }
+    }
+
+
+    .prctDiv{
+        margin-top: 55px;
+        .prctSec{
+            &_tab{
+                font-size: 16px;
+                margin: 0 20px 0;
+            }
+        }
+    }
+    .philSec{
+        margin: 32px 29px 0;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .knowmore{
+        display: flex;
+        width:236px;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    .prct{
+        .fixCont {
+            display: none;
+        }
+        .dnaImgMob{
+            width: 508px;
+            height: 508px;
+        }
+        .rContent_1,.rContent_2,.rContent_3{
+            height: 508px;
+        }
+        .rContent_2 {
+            padding-left: 107px;
+        }
+        .rContent_1Img,.rContent_3Img{
+            margin-left: -270px;
+        }
+        .rContent_1Img{            
+            transform: rotate(-30deg);
+        }
+        .rContent_2Img{
+            margin-right: -265px;
+            transform: rotate(-90deg);
+        }
+        .rContent_3Img{
+            transform: rotate(210deg);
+        }
+    }
+}
+@media screen and (min-width:768px){
+    .prct{
+        .genericTitle{
+            font-size: 24px;
+        }
+        .contextTitle{
+            font-size: 16px;
+        }
+        .contextualTxt{
+            font-size: 14px;
+        }
+        .mobScreen{
+            width: 100%;
+        }
+        &_dic{
+            .hckTitle{
+                display: none;
+            }
+            .title{
+                font-size: 24px;
+                padding-bottom: 20px;
+                padding-top: 15px;
+            }
+            .bldContent{
+                font-size: 16px;
+                padding-bottom: 21px;
+            }
+            .bsTxt{
+                font-size: 14px;
+            }
+            img{
+                // width: 293px;
+                // height: 282px;
+                // margin: -20px 0;
+            }
+            .dicContents{
+                .title{
+                    display: block;
+                }
+            }
+        }
+        &_svc{
+            padding:50px 35px 80px;
+            &_title{
+                text-align: center;
+                font-size: 24px;
+                .svcCont{
+                    padding-top: 72px;
+                    img{
+                        // max-width:85px;
+                        // margin-top: 20px;
+                    }
+                }
+                .indTxt{
+                    font-size: 24px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 14px;
+                    padding: 10px 34px 16px 0px;
+                }
+            }
+        }
+        .dnaContainer{
+            font-size: 14px;
+            padding-top:24px;
+            width: 690px;
+        }
+    }    
+    .prctDiv{
+        margin-top: 80px;
+        .prctSec{
+            &_tab{
+                font-size: 16px;
+                margin: 0 20px 0;
+            }
+        }
+    }
+    .philSec{
+        margin: 50px 29px 0;
+    }
+}
+@media screen and (min-width:1025px){
+    .knowmore{
+        display: flex;
+        width:289px;
+        justify-content: space-between;
+        margin-left: 0;
+        padding-top: 32px;
+    }
+    .noPadding{
+        width: 623px;
+    }
+    .prct{
+        .genericTitle{
+            font-size: 32px;
+        }
+        .contextTitle {
+            font-size: 24px;
+        }
+        .contextualTxt {
+            font-size: 16px;
+        }
+        &_dic{
+            .title{
+                font-size: 32px;
+                padding-bottom:41px;
+                padding-top: 35px;
+            }
+            .bldContent{
+                font-size: 20px;
+                padding-bottom: 10px;                
+            }
+            .bsTxt{
+                font-size: 16px;
+            }
+            img{
+                // width: 414px;
+                // height: 377px;
+                // margin: -20px 0;
+            }
+        }
+        &_svc{
+            padding:55px 0px 70px;
+            &_title{
+                font-size: 40px;
+                .svcCont{
+                    padding-top:120px;
+                    img{
+                        max-width: 105px;
+                    }
+                }
+                .indTxt{
+                    font-size: 32px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 16px;
+                    padding-top: 32px;
+                    padding-bottom: 0px;
+                }
+            }
+            .sCont{
+                padding-top: 15px;
+            }
+        }
+        .dnaContainer{
+            font-size: 16px;
+            padding-top:25px;
+            width: 800px;
+        }
+        .scrollContainer{
+            height: calc(300vh - 80px);
+            position: relative;
+            background: #fff;
+            img{
+                width:auto;
+            }
+        }
+        .fixCont{
+            /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
+            height: calc(100vh - 80px);
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,0);
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 1s;
+        }
+        .fixCont img{
+            // height:inherit;
+            height: 100%;
+        }
+        
+        .fixedClass{
+            position: fixed;
+            top: 80px;
+            left: 0%;
+            transform: translate(-50%,0);
+            -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example2;
+            animation-duration: 1s;
+        }
+        
+        
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example {
+            from {left: 0%;}
+            to {left: 50%;}
+        }
+        
+        /* Standard syntax */
+        @keyframes example {
+            from {left: 0%;}
+            to {left: 50%;}
+        }
+        
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example2 {
+            from {left: 50%;}
+            to {left: 0%;}
+        }
+        
+        /* Standard syntax */
+        @keyframes example2 {
+            from {left: 50%;}
+            to {left: 0%;}
+        }
+        
+        .rContent{
+            height:calc(100vh - 80px);
+        }
+        // .strategy_container{
+        //     height:100vh;
+        // }
+        
+        .posAbs{
+            position: absolute;
+            bottom: 0 !important;
+            left: 0%;
+            top: unset;
+        }
+
+        .right.Containers {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+            top: 10%;
+            position: relative;
+            background: transparent;
+            left: 90px;
+        }
+        .rContent_1 {
+            // padding-top: 135px;
+        }
+    }    
+    .prctDiv{
+        margin-top: 0px;
+        .prctSec{
+            &_tab{
+                font-size: 24px;
+                margin: 0 35px 0;
+            }
+        }
+    }
+    .philSec{
+        margin:64px 29px 0;
+    }
+}
+@media screen and (min-width:1367px){
+    .knowmore{
+        display: flex;
+        width:332px;
+        justify-content: space-between;
+    }
+    .prctDiv {
+        margin-top: 100px;
+    }
+    .prct{
+        .genericTitle{
+            font-size: 48px;
+        }
+        .contextTitle{
+            font-size: 24px;
+        }
+        .contextualTxt{
+            font-size: 20px;
+        }
+        &_dic{
+            .title{
+                font-size: 40px;
+                padding-bottom:40px;
+                padding-top: 55px;
+                
+            }
+            .bldContent{
+                font-size: 24px;
+                padding-bottom: 40px;
+            }
+            .bsTxt{
+                font-size: 20px;
+            }
+            img{
+                // width: 557px;
+                // height: 506px;
+                // margin: -20px 0;
+            }
+        }
+        &_svc{
+            padding: 100px 150px 80px;
+            &_title{
+                font-size: 40px;
+                .svcCont{
+                    padding-top: 160px;
+                    img{
+                        max-width: 120px;
+                    }
+                }
+                .indTxt{
+                    font-size: 32px;
+                    // padding-top: 50px;
+                }
+                .indCon{
+                    font-size: 20px;
+                    padding-top: 24px;
+                    padding-bottom: 16px;
+                }
+                .lgCon{
+                    width: 830px;
+                }
+            }
+        }
+        .dnaContainer{
+            font-size: 20px;
+            padding-top:40px;
+            width: 970px;
+        }
+    }
+    .philSec{
+        margin: 80px 29px 65px;
+    }    
+}
