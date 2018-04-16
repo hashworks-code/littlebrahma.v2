@@ -184,7 +184,7 @@
             }
         }
         &__right{
-            margin: 0px;
+            margin: 0px auto;
             width: 50%;
             h1{
                 margin:0px;
@@ -308,7 +308,7 @@
             }
             &__right{
                width: 50%;
-                margin: 0px;
+                margin: 0px auto;
                 padding-right: 90px;
                 h1{
                     font-size: 32px;
@@ -389,7 +389,7 @@
             }
             &__right{
                 width: 342px;
-                margin: 0px;
+                margin: 0px auto;
                 padding-right: -1px;
                 h1{
                     font-size: 24px;
@@ -502,6 +502,7 @@
                 width: 264px;
                 text-align: center;
                 margin: 80px auto 0px;
+                padding: 0px;
                 h1{
                     font-size: 16px;
                 }
