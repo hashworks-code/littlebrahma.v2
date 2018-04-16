@@ -155,9 +155,9 @@ Primary style
     text-decoration: none;
     display: inline-block;
     color: white;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight:normal;
-    font-family:'MavenPro-Bold';
+    font-family:'MavenPro-Medium';
     font-size: 14px;
     color: #4a4a4a;
     padding-bottom: 10px;
@@ -205,8 +205,13 @@ Primary style
   }
   @media only screen and (min-width:1024px) {
     .cd-secondary-nav a{
-   font-family: 'MavenPro-Bold';
     font-size: 16px;
+  
+  }
+  }
+  @media only screen and (min-width:1367px) {
+    .cd-secondary-nav a{
+    font-size: 18px;
   
   }
   }
