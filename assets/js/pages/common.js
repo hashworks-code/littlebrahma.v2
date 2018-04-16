@@ -130,6 +130,7 @@ $(window).resize(function(){
                 $(this).hide();
             }
         })
+
         // $('.btn').on('click', function (e) {
         //     $('.btn').not(this).popover('hide');
         // });
@@ -385,7 +386,7 @@ $(window).resize(function(){
                         $(this).hide();
                     }
                 })
-            } 
+            }
         // }
         // if ($(window).width() <= 767) {
             // var id =$('.work_select').attr('value');
@@ -741,12 +742,6 @@ $(window).resize(function(){
 //             $(".mobileDropDown__menu").hide();
 //             $("#test").toggleClass("drop_arrow");
 //         })
-
-
-
-
-
-
     });
 
 })();
