@@ -4,10 +4,10 @@
 
       <nav>
         <ul class="cd-secondary-nav">
-          <li class="cd-secondary-navli"><a href="/workpage">Work</a></li>
-        <li class="cd-secondary-navli"><a href="/practice">Practice</a></li>
-        <li class="cd-secondary-navli"><a href="/our-services">Services</a></li>
-          <li class="cd-secondary-navli"><a href="/aboutus">About</a></li>
+          <li class="cd-secondary-navli first "><a href="/workpage">Work</a></li>
+        <li class="cd-secondary-navli second"><a href="/practice">Practice</a></li>
+        <li class="cd-secondary-navli third"><a href="/our-services">Services</a></li>
+          <li class="cd-secondary-navli last"><a href="/aboutus">About</a></li>
           <li ><a class="cd-secondary-navLasta"><button class="commonButton myBtn" >Lets talk</button></a></li>
         </ul>
       </nav> <!-- cd-nav -->
@@ -71,13 +71,17 @@
     
     <script>
       window.onload = function() {
-          console.log(location.href);
-          if(location.href.indexOf('workpage')>-1){
-          document.getElementsByClassName('cd-secondary-navli')[0].style.color = '#f79a3d'
-         
+          if((location.href).includes('workpage')){
+          $('.cd-secondary-navli.first > a ').addClass('hello');
             }
-          else if(location.href.indexOf('practice')>-1){
-          document.getElementsByClassName('cd-secondary-navli')[0].style.color = '#f79a3d'
+            if((location.href).includes('practice')){
+          $('.cd-secondary-navli.second > a ').addClass('hello');
+            }
+            if((location.href).includes('our-services')){
+          $('.cd-secondary-navli.third > a ').addClass('hello');
+            }
+            if((location.href).includes('aboutus')){
+          $('.cd-secondary-navli.last > a ').addClass('hello');
             }
        }
   </script>

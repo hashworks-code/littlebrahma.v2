@@ -138,6 +138,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
+.hello {
+  border-bottom: 3px solid #ea1c49; }
+
 .transition {
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
