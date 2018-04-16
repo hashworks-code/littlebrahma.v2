@@ -1,6 +1,6 @@
 ---
-title: Branding and Communication Design
-subtitle: Branding and Communication
+title: Branding & Communication Design
+subtitle: Branding & Communication
 keywords: >-
   Branding, Design, Communication
 layout: service
@@ -13,7 +13,7 @@ practice_lists:
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
 homebackgroundimg: /assets/img/workpage/group-3.png
 published: true
-practiceList: Branding and Communication
+practiceList: Branding & Comm.
 practiceList1: Visual communication
 practiceList2: Print media
 practiceList3: Package design

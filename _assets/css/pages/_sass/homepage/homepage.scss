@@ -17,20 +17,18 @@
         &__Inner{
              height: 710px;
             &__Content{
-                padding: 21% 0 0 10%;
+                padding: 259px 0 0 81px;
                 width: 655px;
-                color: #5d6a6f;
+                color:#393939;
                 h1{
-                    font-size: 56px;
+                    font-size: 48px;
                     font-family: 'MavenPro-Medium';
                     span{
                         color: #ea1c49;
                     }
                 }
                 p{
-                    margin-top: 20px;
-                    line-height: 25px;
-                    font-size: 20px;
+                    padding-top: 24px;
                     font-family: 'PT_Sans-Regular';
                 }
             }
@@ -46,7 +44,7 @@
                 color: #333;
                 font-size: 40px;
                 font-family: 'MavenPro-Medium';
-                margin-bottom: 80px;
+                margin-bottom: 40px;
                 // margin-top: 120px;
             }
             &__Cards{
@@ -61,13 +59,16 @@
                     border-radius: 16px;
                     box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
                     margin-right: 30px;
-                    color: #5d6a6f !important;
+                    color: #393939 !important;
                     &__a{
                         width: 100%;
                         height: 100%;
                         padding-top:65px;
                         display: block;
-                        color: #5d6a6f !important;
+                        color: #393939 !important; 
+                        h3:hover{
+                            color: #fff;
+                        }
                         &__img{
                             // background-image: url("/assets/img/homepage/service-design.svg");
                             background-repeat: no-repeat;
@@ -102,14 +103,16 @@
                             display: none;
                         }
                         h3{
-                            margin-top: 20px;
+                            margin: 20px 0px;
                             font-size: 24px;
-                            font-family: 'MavenPro-Medium';
+                            font-family: 'MavenPro-Bold';
+                          
                         }
                         p{
                             margin-top: 10px;
-                            font-size: 14px;
+                            font-size: 17px;
                             font-family: 'PT_Sans-Regular';
+                            color: #737373;
                         }
                     }
                 }
@@ -243,15 +246,15 @@
                 background-size: 34%;
                 background-position: right 140px;
                 &__Content{
-                    padding: 21% 0 0 10%;
-                    width: 462px;
+                    padding: 259px 0 0 81px;
+                    width: 541px;
                     h1{
-                        font-size: 48px;
+                        font-size: 40px;
                     }
                     p{
-                        font-size: 16px;
-                        line-height: 25px;
+                        padding-top: 20px
                     }
+                   
                 }
             }
             &__Service{
@@ -334,15 +337,14 @@
             &__Inner{
                 height: auto;
                 &__Content{
-                    padding: 21% 0 0 10%;
-                    width: 342px;
+                    padding: 200px 0px 0px 93px;
+                    width: 382px;
                     h1{
                         font-size: 32px;
                     }
-                    p{
-                        font-size: 14px;
-                        line-break: 30px;
-                    }
+                   p{
+                       padding-top: 16px;
+                   }
                 }
             }
             &__dna{
@@ -354,7 +356,7 @@
             
                 h1{
                     font-size: 24px;
-                    margin-bottom: 40px;
+                    margin-bottom: 32px;
                 }
                 &__Cards{
                     &__Inner{
@@ -427,20 +429,17 @@
                 height: 710px;
                 background-image: none;
                 &__Content{
-                     padding: 0 65px 0 65px;
-                     width: 100%;
-                    padding-top:35%;
+                    padding: 0;
+                    width: 300px;
+                    padding-top: 370px;
                     text-align: center;
                     margin: 0 auto;
-                    position: absolute;
-                    bottom: 370px;
                     h1{
                         font-size: 24px;
                     }
-                    p{
-                        font-size: 12px;
-                        line-height: 16px;
-                    }
+                   p{
+                       padding-top: 12px;
+                   }
                 }
             }
             &__Service{

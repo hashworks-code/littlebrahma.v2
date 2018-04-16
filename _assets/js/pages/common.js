@@ -302,7 +302,7 @@ $(window).resize(function(){
             else if(value == 'Service'){
                 $('.service').show();
             }
-            else if(value == 'Branding and Communication'){
+            else if(value == 'Branding & Communication'){
                     $('.brndcomm').show();
             }   
         })
@@ -330,7 +330,7 @@ $(window).resize(function(){
                     }
                 })
             }
-            else if(value == 'Branding and Communication'){
+            else if(value == 'Branding & Communication'){
                 var prodcount=$('.brndcomm').length;
                 $('.brndcomm').each(function (index) { 
                     if(index<=3){

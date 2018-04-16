@@ -192,15 +192,19 @@ table {
 .heroText{
     font-family: "MavenPro-Medium";
     order: 1;
+    color: #393939;
 }
 .heroHighlight{
     color: #ea1c49;
 }
 .bnrText{
     font-family: "PT_Sans-Regular";
-    letter-spacing: 1px;
     order: 2;
+    font-size: 12px;
+    font-weight: normal;
     line-height: 1.5;
+    letter-spacing:0.4px;
+    color: #737373;
 }
 .lb_bdy{
     position: relative;
@@ -253,7 +257,7 @@ table {
     font-family: 'MavenPro-Medium';
     font-size: 16px;
     font-weight: 500;
-    color: #5d6a6f;
+    color: #737373;
     line-height: normal;
 }
 // PARAGRAPH
@@ -263,7 +267,7 @@ table {
     font-weight: normal;
     line-height: 1.5;
     letter-spacing:0.4px;
-    color: #5d6a6f;
+    color: #737373;
    
 }
 // BUTTON 
@@ -314,7 +318,7 @@ table {
     }
     .bnrText{
       font-size: 12px;
-      padding-top: 16px;
+      padding-top: 12px;
     }
     .lb_bdy{
         margin-top: 70px;
@@ -391,8 +395,8 @@ table {
         font-size: 32px;
     }
     .bnrText{
-      font-size: 14px;
-      padding-top: 24px;
+      font-size: 12px;
+      padding: 16px 50px 0px 50px;
     }
     .hero{
         &_img{
@@ -450,8 +454,8 @@ table {
         font-size: 40px;
     }
     .bnrText{
-      font-size: 17px;
-      padding-top: 30px;
+      font-size: 14px;
+      padding:20px 80px 0px 80px;
     }
     .hero{
         &_img{
@@ -485,7 +489,7 @@ table {
         font-size:24px;
     }
     .paragraph{
-        font-size:16px;
+        font-size:17px;
         letter-spacing:1px;
         line-height:1.8;
     }
@@ -504,8 +508,8 @@ table {
         font-size: 48px;
     }
     .bnrText{
-      font-size: 20px;
-      padding-top: 35px;
+      font-size: 17px;
+      padding: 24px 90px 0px 90px;
     }
     .hero{
         &_cnt{
