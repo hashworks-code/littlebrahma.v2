@@ -66,20 +66,16 @@
      
       </div>
     </div>
-    <script>
-      // debugger;
-      // var modal = document.getElementById('myModal1');
-      // var btn = document.getElementsByClassName("myBtn");
-      // var span = document.getElementsByClassName("close1")[0];
-      //    for(let i=0;i<btn.length;i++){
-      //     btn[i].onclick = function() {
-      //     modal.style.display = "block";
-          
-      // }
-      //    }
-      // span.onclick = function() {
-      //     modal.style.display = "none";
-      // }
-
     
-      </script>
+    <script>
+      window.onload = function() {
+          console.log(location.href);
+          if(location.href.indexOf('workpage')>-1){
+          document.getElementsByClassName('cd-secondary-navli')[0].style.color = '#f79a3d'
+         
+            }
+          else if(location.href.indexOf('practice')>-1){
+          document.getElementsByClassName('cd-secondary-navli')[0].style.color = '#f79a3d'
+            }
+       }
+  </script>

@@ -59,7 +59,11 @@
 @media screen and (max-width: 1366px) {
 .footer{
 height: 520px;
+position: relative;
+margin-top: 80px;
 &__inner{
+  position: absolute;
+    top: -91px;
   font-size: 40px;
   padding: 80px 0 0 42px;
   a{
@@ -96,7 +100,10 @@ justify-content: space-between;
 @media screen and (max-width: 1023px) {
 .footer{
 height: 460px;
+position: unset;
+margin: 0px;
 &__inner{
+  position: unset;
   font-size: 32px;
   padding: 48px 0 0 34px;
   a{
@@ -132,7 +139,10 @@ height: 460px;
 @media screen and (max-width: 767px) {
 .footer{
 height: 335px;
+position: unset;
+margin: 0px;
 &__inner{
+  position: unset;
   font-size: 24px;
   padding: 0px 0 0 24px;
   a{
@@ -194,8 +204,12 @@ height: 320px;
  /*footer ends*/
  @media screen and (min-width: 1367px) {
   .footer{
+    position: relative;
   height: 631px;
+  margin-top: 80px;
   &__inner{
+    position: absolute;
+    top: -91px;
     font-size: 40px;
     padding: 80px 0 0 42px;
      h1{
