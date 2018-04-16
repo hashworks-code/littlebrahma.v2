@@ -37,6 +37,10 @@ collections:
     title: service
     output: true
     permalink: "/service/:path/"
+  our_services:
+    title: ourservice
+    output: true
+    permalink: "/our-services/"
   workpage1:
     title: appbranding
     output: true
