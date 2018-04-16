@@ -142,6 +142,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
 	display: block;
 }
+
+.transition{
+    transition: all .5s ease;
+    &:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
+      transform: scale(1.01);
+    }
+}
 body {
 	line-height: 1;
 }
@@ -274,9 +282,9 @@ table {
     background-color: transparent;
     color: #333;
     // font-weight: bold;
-    -webkit-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
+    // -webkit-transition: background-color 500ms linear;
+    // -ms-transition: background-color 500ms linear;
+    // transition: background-color 500ms linear;
 }
 .rajdhaniBold{
     font-family:'RajdhaniBold';

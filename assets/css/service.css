@@ -138,6 +138,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
+.transition {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+  .transition:hover {
+    -webkit-box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+            box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01); }
+
 body {
   line-height: 1; }
 
@@ -242,9 +251,7 @@ table {
   .commonButton:hover {
     border: solid 2px #333;
     background-color: transparent;
-    color: #333;
-    -webkit-transition: background-color 500ms linear;
-    transition: background-color 500ms linear; }
+    color: #333; }
   .rajdhaniBold {
     font-family: 'RajdhaniBold';
     font-size: 24px;
@@ -2046,8 +2053,8 @@ div.test {
           background-color: #ee4b6e;
           color: #fff !important;
           text-decoration: none !important;
-          -webkit-transition: background-color 500ms linear;
-          transition: background-color 500ms linear; }
+          -webkit-transition: background-color 1500ms linear;
+          transition: background-color 1500ms linear; }
         .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
           color: #fff !important;
           text-decoration: none !important; }

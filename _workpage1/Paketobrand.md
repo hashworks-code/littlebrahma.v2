@@ -80,12 +80,8 @@ colorPaletteImage3: "paketoColor3.svg"
 
 
 fontfamily1: "Typography"
-fontfamily2: "HelveticaNeue Bold"
-fontfamily3: "HelveticaNeue Medium"
-fontfamily4: "HelveticaNeue Light"
-
-
-fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
+font: "paketofont.svg"
+font1: "paketocontent.svg"
 
 # icons: 'Icons'
 # icon_list:
@@ -100,6 +96,8 @@ fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. D
 #   - icons1: 'groomIcon4.svg'
 #   - icons1: 'groomIcon5.svg'
 #   - icons1: 'groomIcon6.svg'
+iconNopadding:
+    class: iconRemove
 
 enigmaImageListt:
   - enigmaimg: "video-gif.jpg"

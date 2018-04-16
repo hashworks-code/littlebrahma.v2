@@ -3,7 +3,7 @@
   
     <div class="branding">
         <div class="lb_bdy prct">
-            <div class="hero_img" style="background-image: url('{{page.enigma_banner}}');"></div>
+          <div class="hero_img" style="background-image: url('{{page.enigma_banner}}');"></div>
             <div class="hero_cnt">
                 <div class="heroText">
                     {{page.title}}
@@ -11,7 +11,6 @@
                 <h1 class="paragraph brand"> Branding for a talent aquisition portal </h1>
                 <button class="commonButton">Know website</button>
             </div>
-            
         </div>
         <div class="challange">
             <div class="engima">
@@ -20,30 +19,30 @@
             </div>
         </div>
         <div class="branding__image">
-                <div class="row">
-                        <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
-                                <img src="/assets/img/branding/{{page.brandImage1}}">
-                        </div>
-                        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
-                                <img src="/assets/img/branding/{{page.brandImage2}}">
-                        </div>
-                        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
-                                <img src="/assets/img/branding/{{page.brandImage3}}">
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
-                                <img src="/assets/img/branding/{{page.brandImage4}}">
-                        </div>
-                </div>
+            <div class="row">
+                  <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
+                          <img src="/assets/img/branding/{{page.brandImage1}}">
+                  </div>
+                  <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+                          <img src="/assets/img/branding/{{page.brandImage2}}">
+                  </div>
+                  <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+                          <img src="/assets/img/branding/{{page.brandImage3}}">
+                  </div>
+                  <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
+                          <img src="/assets/img/branding/{{page.brandImage4}}">
+                  </div>
+             </div>
         </div>
 
            <div class="challange">
-                <div class="engima engima1 ">
-                        <h1 class="csHeading">Challenge</h1>
-                        <p class="paragraph"> - Design a brand identity for Hashworks</p>
-                        <p class="paragraph"> - Should focus on the domains Hashworks is functioning </p>
-                        <p class="paragraph"> - A logo that captures the brand values </p>
-                        <p class="paragraph">- Establish a visual language that resonates the organizations purpose</p>
-                    </div>
+               <div class="engima engima1 ">
+                  <h1 class="csHeading">Challenge</h1>
+                  <p class="paragraph"> - Design a brand identity for Hashworks</p>
+                  <p class="paragraph"> - Should focus on the domains Hashworks is functioning </p>
+                  <p class="paragraph"> - A logo that captures the brand values </p>
+                  <p class="paragraph">- Establish a visual language that resonates the organizations purpose</p>
+               </div>
           </div>
 
           <div class="branding__perceive">
@@ -55,7 +54,7 @@
                    <p class="paragraph"> {{page.paragraph3}}</p>
                    <p class="paragraph">{{page.paragraph4}}</p>
                    <img class="percevieImage" src="/assets/img/branding/{{page.percieveImage}}" alt="">
-                </div>
+               </div>
           </div>
           <div class="branding__banner">
               <img src="/assets/img/branding/{{page.bannerBrand}}" alt="">
@@ -71,16 +70,16 @@
 
             <div class="branding__concept1">
                 <div class="branding__concept">
-                        <h1 class="headingLight">{{page.conceptTitle}}</h1>
-                        <p class="paragraph">{{page.conceptparagraph}}</p> 
+                      <h1 class="headingLight">{{page.conceptTitle}}</h1>
+                      <p class="paragraph">{{page.conceptparagraph}}</p> 
                 </div>
+
                 {% for images in page.background %}
                   {% if images.imageType == "mobile" %}
-                    <div class="back mobileClass" style="background-image: url('{{images.image}}');">
-                  {% elsif images.imageType == "tab" %}
-                    <div class="back tabClass" style="background-image: url('{{images.image}}');">
-                  {% endif %}
-                <!-- <div class="back" style="background-image: url('{{page.background.image}}');"> -->
+                 <div class="back mobileClass" style="background-image: url('{{images.image}}');">
+                      {% elsif images.imageType == "tab" %}
+                        <div class="back tabClass" style="background-image: url('{{images.image}}');">
+                      {% endif %}
                         <div class="row ">
                             <div class="col-xs-12 col-sm-3">
                                     <img src="/assets/img/branding/{{page.conceptImage1}}" alt="concept">
@@ -97,12 +96,13 @@
                          </div>
                         </div>
                       {% endfor %}
-            </div>
+                </div>
 
             <div class="branding__logo">
-                    <h2 class="csHeading">Final Logo</h2>
-                    <img src="/assets/img/branding/{{page.finallogo}}" alt="final logo">
+                <h2 class="csHeading">Final Logo</h2>
+                <img src="/assets/img/branding/{{page.finallogo}}" alt="final logo">
             </div>
+
             <div class="row branding__meaning">
                 <div class="col-xs-12 col-sm-6">
                     <h1 class="csHeading">{{page.meaningTitle}} </h1>
@@ -112,24 +112,22 @@
                     <img src="/assets/img/branding/{{page.meaningImage}}" alt="">
                 </div>
             </div>
-  <div class="brandlogo">
-        {% for image in page.backgroundlogo %}
-        {% if image.imageTypelogo == "mobileLogo" %}
-          <div class="enigmabackground mobileClass" style="background-image: url('{{image.imagelogo}}');">
-        {% elsif image.imageTypelogo == "tabLogo" %}
-          <div class="enigmabackground tabClass" style="background-image: url('{{image.imagelogo}}');">
-        {% endif %}
-        <div class="branding__enigmalogo">
-            <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
-        </div>
-        
-        </div>
-        {% endfor %}
-      </div>
-</div>
-        
-      
 
+          <div class="brandlogo">
+                {% for image in page.backgroundlogo %}
+                {% if image.imageTypelogo == "mobileLogo" %}
+               <div class="enigmabackground mobileClass" style="background-image: url('{{image.imagelogo}}');">
+                {% elsif image.imageTypelogo == "tabLogo" %}
+                    <div class="enigmabackground tabClass" style="background-image: url('{{image.imagelogo}}');">
+                          {% endif %}
+                          <div class="branding__enigmalogo">
+                            <img src="/assets/img/branding/{{page.enigmalogo}}" alt="">
+                          </div>
+                    </div>
+                    {% endfor %}
+              </div>
+         </div>
+        
    <div class="branding__enigmalist">
         <h2 class="csHeading">Variations</h2>
             <div class="row ">
@@ -165,12 +163,12 @@
                 <h1 class="headingLight">{{page.evolveTitle}}</h1>
                 <h2 class="csHeading">{{page.evolveSubTitle}}</h2>
                 <p class="paragraph">{{page.evolveparagraph}} </p>
-              </div>
+             </div>
          </div>
 
 
    <div class="branding__enigmalist ">
-    <h2 class="csHeading colorPalette ">{{page.colorPalette}}</h2>
+      <h2 class="csHeading colorPalette ">{{page.colorPalette}}</h2>
         <div class="row ">
             <div class="col-xs-6 col-sm-3">
                 <img src="/assets/img/branding/{{page.colorPaletteImage1}}" alt="">
@@ -190,44 +188,42 @@
     <div class="branding__fontfamily">
         <div class="row">
             <div class="col-xs-12 col-sm-6 ">
-                <h1 class="csHeading">{{page.fontfamily1}}</h1>
-                <h2 class="rajdhaniBold">{{page.fontfamily2}}</h2>
-                <h2 class="rajdhaniRegular">{{page.fontfamily3}}</h2>
-                <h2 class="ptSans">{{page.fontfamily4}}</h2>
-                <h2 class="ptSans">{{page.fontfamily5}}</h2>
+              <img src="/assets/img/branding/hashworks/{{page.font}}" alt="">
             </div>
             <div class="col-xs-12 col-sm-6">
-                    <p class="paragraph">{{page.fontfamilypara}}</p>
+              <img src="/assets/img/branding/hashworks/{{page.font1}}" alt="">
             </div>
         </div>
     </div>
-    <div class="branding__icons">
-            <h2 class="csHeading">{{page.icons}}</h2>
-                <div class="row threeIcon">
-                        {% for images in page.icon_list %}
-                    <div class="col-xs-4 col-sm-4 ">
-                        <img src="/assets/img/branding/icon/{{images.icons}}" alt="">
-                    </div>
-                    {% endfor %}
-                 
-                 </div>
-                    <div class="row">
-                            {% for image in page.icon_list1 %}
-                     <div class="col-xs-4 col-sm-2">
-                       <img src="/assets/img/branding/icon/{{image.icons1}}" alt="">
-                     </div>
-                     {% endfor %}
+<div>
+    <div class="{{images.class}}">
+      <div class="branding__icons">
+        <h2 class="csHeading">{{page.icons}}</h2>
+          <div class="row threeIcon">
+                {% for images in page.icon_list %}
+               <div class="col-xs-4 col-sm-4 ">
+                   <img src="/assets/img/branding/icon/{{images.icons}}" alt="">
                 </div>
-     </div>
-             <div class="">
-                {% for img in page.enigmaImageListt %}
-                  <div class="{{img.class}}">
-                   <img class="topimage" src="/assets/img/branding/icon/{{img.enigmaimg}}" alt="">
-                  </div> 
+                  {% endfor %}
+          </div>
+          <div class="row">
+               {% for image in page.icon_list1 %}
+                <div class="col-xs-4 col-sm-2 ">
+                  <img src="/assets/img/branding/icon/{{image.icons1}}" alt="">
+                </div>
                 {% endfor %}
-           
-                </div>
-            
+          </div>
+        </div>
+       </div>
+</div>
+
+          <div class="">
+              {% for img in page.enigmaImageListt %}
+                <div class="{{img.class}}">
+                  <img class="topimage" src="/assets/img/branding/icon/{{img.enigmaimg}}" alt="">
+                </div> 
+              {% endfor %}
+         </div>
             <div class="enigmaCup">
                 <div class="row ">
                     <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 ">
@@ -236,43 +232,37 @@
                     <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 ">
                             <img  class="imagemargin" src="/assets/img/branding/icon/{{page.enigmaImage3}}">
                     </div>
+               </div>
             </div>
-            </div>
-      
            <div class="">
                 {% for image in page.enigmaImageList %}
                 <div class="{{image.class}}">
-             <img class="imagemargin" src="/assets/img/branding/icon/{{image.enigmaImage}}" alt="">
-             </div>
-             {% endfor %}
+                  <img class="imagemargin" src="/assets/img/branding/icon/{{image.enigmaImage}}" alt="">
+                </div>
+                {% endfor %}
             </div>
     </div>
+
     <div class="blob1">
-      <div>
+        <div>
              <h1 class="headingLight">Like it?</h1>
              <a href="/workpage"> <button class="commonButton ">Know More</button></a>
-      </div>
-             
+        </div>
 
       <script>
-      let canvas, ctx;
+         let canvas, ctx;
              let render, init;
              let blob;
-             
              class Blob {
                constructor() {
                  this.points = [];
                }
-               
-               
                init() {
                  for(let i = 0; i < this.numPoints; i++) {
                    let point = new Point(this.divisional * ( i + 1 ), this);
-                   // point.acceleration = -1 + Math.random() * 2;
                    this.push(point);
                  }
                }
-               
                render() {
                  let canvas = this.canvas;
                  let ctx = this.ctx;
@@ -282,11 +272,8 @@
                  let points = this.numPoints;
                  let divisional = this.divisional;
                  let center = this.center;
-                 
                  ctx.clearRect(0,0,canvas.width,canvas.height);
-                 
                  pointsArray[0].solveWith(pointsArray[points-1], pointsArray[1]);
-             
                  let p0 = pointsArray[points-1].position;
                  let p1 = pointsArray[0].position;
                  let _p2 = p1;
@@ -294,57 +281,34 @@
                  ctx.beginPath();
                  ctx.moveTo(center.x, center.y);
                  ctx.moveTo( (p0.x + p1.x) / 2, (p0.y + p1.y) / 2 );
-             
                  for(let i = 1; i < points; i++) {
-                   
                    pointsArray[i].solveWith(pointsArray[i-1], pointsArray[i+1] || pointsArray[0]);
-             
                    let p2 = pointsArray[i].position;
                    var xc = (p1.x + p2.x) / 2;
                    var yc = (p1.y + p2.y) / 2;
                    ctx.quadraticCurveTo(p1.x, p1.y, xc, yc);
-                   // ctx.lineTo(p2.x, p2.y);
-             
                    ctx.fillStyle = '#b2e6e5';
-                   // ctx.fillRect(p1.x-2.5, p1.y-2.5, 5, 5);
-             
                    p1 = p2;
                  }
-             
                  var xc = (p1.x + _p2.x) / 2;
                  var yc = (p1.y + _p2.y) / 2;
                  ctx.quadraticCurveTo(p1.x, p1.y, xc, yc);
-                 // ctx.lineTo(_p2.x, _p2.y);
-             
-                 // ctx.closePath();
                  ctx.fillStyle = this.color;
                  ctx.fill();
                  ctx.strokeStyle = '#b2e6e5';
-                 // ctx.stroke();
-                 
-             /*
-                 ctx.fillStyle = '#000000';
-                 if(this.mousePos) {
-                   let angle = Math.atan2(this.mousePos.y, this.mousePos.x) + Math.PI;
-                   ctx.fillRect(center.x + Math.cos(angle) * this.radius, center.y + Math.sin(angle) * this.radius, 5, 5);
-                 }
-             */
                  requestAnimationFrame(this.render.bind(this));
                }
-               
                push(item) {
                  if(item instanceof Point) {
                    this.points.push(item);
                  }
                }
-               
                set color(value) {
                  this._color = value;
                }
                get color() {
                  return this._color || '#b2e6e5';
                }
-               
                set canvas(value) {
                  if(value instanceof HTMLElement && value.tagName.toLowerCase() === 'canvas') {
                    this._canvas = canvas;
@@ -354,7 +318,6 @@
                get canvas() {
                  return this._canvas;
                }
-               
                set numPoints(value) {
                  if(value > 2) {
                    this._points = value;
@@ -363,7 +326,6 @@
                get numPoints() {
                  return this._points || 32;
                }
-               
                set radius(value) {
                  if(value > 0) {
                    this._radius = value;
@@ -397,7 +359,6 @@
                  return this.running !== false;
                }
              }
-             
              class Point {
                constructor(azimuth, parent) {
                  this.parent = parent;
@@ -409,7 +370,6 @@
                  
                  this.acceleration = -0.3 + Math.random() * 0.6;
                }
-               
                solveWith(leftPoint, rightPoint) {
                  this.acceleration = (-0.3 * this.radialEffect + ( leftPoint.radialEffect - this.radialEffect ) + ( rightPoint.radialEffect - this.radialEffect )) * this.elasticity - this.speed * this.friction;
                }
@@ -471,32 +431,24 @@
                  return this._friction || 0.0085;
                }
              }
-             
              blob = new Blob;
-             
              init = function() {
                canvas = document.createElement('canvas');
-             
                document.body.appendChild(canvas);
-             
                let resize = function() {
                  canvas.width = window.innerWidth;
                  canvas.height = window.innerHeight;
                }
                window.addEventListener('resize', resize);
                resize();
-               
                let oldMousePoint = { x: 0, y: 0};
                let hover = false;
                let mouseMove = function(e) {
-                 
                  let pos = blob.center;
                  let diff = { x: e.clientX - pos.x, y: e.clientY - pos.y };
                  let dist = Math.sqrt((diff.x * diff.x) + (diff.y * diff.y));
                  let angle = null;
-                 
                  blob.mousePos = { x: pos.x - e.clientX, y: pos.y - e.clientY };
-                 
                  if(dist < blob.radius && hover === false) {
                    let vector = { x: e.clientX - pos.x, y: e.clientY - pos.y };
                    angle = Math.atan2(vector.y, vector.x);
@@ -508,21 +460,16 @@
                    hover = false;
                    blob.color = null;
                  }
-                 
                  if(typeof angle == 'number') {
-                   
                    let nearestPoint = null;
                    let distanceFromPoint = 100;
-                   
                    blob.points.forEach((point)=> {
                      if(Math.abs(angle - point.azimuth) < distanceFromPoint) {
                        // console.log(point.azimuth, angle, distanceFromPoint);
                        nearestPoint = point;
                        distanceFromPoint = Math.abs(angle - point.azimuth);
                      }
-                     
                    });
-                   
                    if(nearestPoint) {
                      let strength = { x: oldMousePoint.x - e.clientX, y: oldMousePoint.y - e.clientY };
                      strength = Math.sqrt((strength.x * strength.x) + (strength.y * strength.y)) * 10;
@@ -530,17 +477,14 @@
                      nearestPoint.acceleration = strength / 100 * (hover ? -1 : 1);
                    }
                  }
-                 
                  oldMousePoint.x = e.clientX;
                  oldMousePoint.y = e.clientY;
                }
                window.addEventListener('mousemove', mouseMove);
-               
                blob.canvas = canvas;
                blob.init();
                blob.render();
              }
-             
              init();</script>
  </div>
 

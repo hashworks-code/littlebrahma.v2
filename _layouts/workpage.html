@@ -78,7 +78,7 @@
 									   
 										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
 										 <a href="{{work.url}}"> 
-										 <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+										 <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 												<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 													<div class="lb-filter-head {{work.textcolor}}">
 														{{work.product_title}}
@@ -99,7 +99,7 @@
 								{% for work in item %}
 								<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
 									<a href="{{work.url}}">    
-									<div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+									<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 										<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 											<div class="lb-filter-head {{work.textcolor}}">
 												{{work.product_title}}
@@ -119,7 +119,7 @@
 									
 									<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
 											<a href="{{work.url}}">
-												<div class="lb-filter-Img {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
+												<div class="lb-filter-Img transition {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
 												<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 													<div class="lb-filter-head">
 														{{work.product_title}}
@@ -136,7 +136,7 @@
 									{% for work in item %}
 									<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
 										<a href="{{work.url}}">
-											<div class="lb-filter-Img {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
+											<div class="lb-filter-Img transition {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
 											<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 												<div class="lb-filter-head">
 													{{work.product_title}}

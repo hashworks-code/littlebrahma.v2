@@ -83,10 +83,8 @@ colorPaletteImage3: "flag3.svg"
 colorPaletteImage4: "flag4.svg"
 
 fontfamily1: "Typography"
-fontfamily2: "Rajdhani Bold"
-fontfamily3: "Rajdhani Regular"
-fontfamily4: "PT Sans"
-fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
+font: "fontfamily.svg"
+font1: "fontcontent.svg"
 
 enigmapattern: "/assets/img/branding/icon/enigmapattern.svg"
 
