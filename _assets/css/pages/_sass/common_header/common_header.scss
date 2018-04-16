@@ -155,9 +155,9 @@ Primary style
     text-decoration: none;
     display: inline-block;
     color: white;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight:normal;
-    font-family:'MavenPro-Bold';
+    font-family:'MavenPro-Medium';
     font-size: 14px;
     color: #4a4a4a;
     padding-bottom: 10px;
@@ -205,8 +205,13 @@ Primary style
   }
   @media only screen and (min-width:1024px) {
     .cd-secondary-nav a{
-   font-family: 'MavenPro-Bold';
     font-size: 16px;
+  
+  }
+  }
+  @media only screen and (min-width:1367px) {
+    .cd-secondary-nav a{
+    font-size: 18px;
   
   }
   }
@@ -242,9 +247,9 @@ Primary style
     width: 18px;
     height: 2px;
     background-color:#ea1c49;
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    transition: background-color 0.3s;
+    // -webkit-transition: background-color 0.3s;
+    // -moz-transition: background-color 0.3s;
+    // transition: background-color 0.3s;
     /* these are the upper and lower lines in the menu icon */
   }
   .cd-primary-nav-trigger .cd-menu-icon::before, .cd-primary-nav-trigger .cd-menu-icon:after {
@@ -254,9 +259,9 @@ Primary style
     position: absolute;
     background-color:#ea1c49;
     right: 0;
-    -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
-    -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
-    transition: transform .3s, top .3s, background-color 0s;
+    // -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
+    // -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
+    // transition: transform .3s, top .3s, background-color 0s;
   }
   .cd-primary-nav-trigger .cd-menu-icon::before {
     top: -5px;
