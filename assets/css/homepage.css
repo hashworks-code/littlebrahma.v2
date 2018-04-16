@@ -2053,8 +2053,8 @@ div.test {
           background-color: #ee4b6e;
           color: #fff !important;
           text-decoration: none !important;
-          -webkit-transition: background-color 1500ms linear;
-          transition: background-color 1500ms linear; }
+          -webkit-transition: background-color 100ms linear;
+          transition: background-color 100ms linear; }
         .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
           color: #fff !important;
           text-decoration: none !important; }
