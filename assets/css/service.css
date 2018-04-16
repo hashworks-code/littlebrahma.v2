@@ -175,18 +175,22 @@ table {
   font-family: "MavenPro-Medium";
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
-          order: 1; }
+          order: 1;
+  color: #393939; }
 
 .heroHighlight {
   color: #ea1c49; }
 
 .bnrText {
   font-family: "PT_Sans-Regular";
-  letter-spacing: 1px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  line-height: 1.5; }
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #737373; }
 
 .lb_bdy {
   position: relative; }
@@ -231,7 +235,7 @@ table {
     font-family: 'MavenPro-Medium';
     font-size: 16px;
     font-weight: 500;
-    color: #5d6a6f;
+    color: #737373;
     line-height: normal; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
@@ -239,7 +243,7 @@ table {
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: 0.4px;
-    color: #5d6a6f; }
+    color: #737373; }
   .commonButton {
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
@@ -278,7 +282,7 @@ table {
     font-size: 24px; }
   .bnrText {
     font-size: 12px;
-    padding-top: 16px; }
+    padding-top: 12px; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -336,8 +340,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 32px; }
   .bnrText {
-    font-size: 14px;
-    padding-top: 24px; }
+    font-size: 12px;
+    padding: 16px 50px 0px 50px; }
   .hero_img {
     height: calc(380px + 80px); }
   .hero_cnt {
@@ -376,8 +380,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 40px; }
   .bnrText {
-    font-size: 17px;
-    padding-top: 30px; }
+    font-size: 14px;
+    padding: 20px 80px 0px 80px; }
   .hero_img {
     height: calc(100vh - 80px); }
   .hero_cnt {
@@ -401,7 +405,7 @@ textarea:hover, textarea:focus {
   .typography {
     font-size: 24px; }
   .paragraph {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     line-height: 1.8; }
   .csHeading {
@@ -414,8 +418,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 48px; }
   .bnrText {
-    font-size: 20px;
-    padding-top: 35px; }
+    font-size: 17px;
+    padding: 24px 90px 0px 90px; }
   .hero_cnt {
     width: 920px;
     padding: 80px 0px;
@@ -1989,18 +1993,16 @@ div.test {
     .homePage__BnrDiv__Inner {
       height: 710px; }
       .homePage__BnrDiv__Inner__Content {
-        padding: 21% 0 0 10%;
+        padding: 259px 0 0 81px;
         width: 655px;
-        color: #5d6a6f; }
+        color: #393939; }
         .homePage__BnrDiv__Inner__Content h1 {
-          font-size: 56px;
+          font-size: 48px;
           font-family: 'MavenPro-Medium'; }
           .homePage__BnrDiv__Inner__Content h1 span {
             color: #ea1c49; }
         .homePage__BnrDiv__Inner__Content p {
-          margin-top: 20px;
-          line-height: 25px;
-          font-size: 20px;
+          padding-top: 24px;
           font-family: 'PT_Sans-Regular'; }
     .homePage__BnrDiv__Service {
       position: absolute;
@@ -2012,7 +2014,7 @@ div.test {
         color: #333;
         font-size: 40px;
         font-family: 'MavenPro-Medium';
-        margin-bottom: 80px; }
+        margin-bottom: 40px; }
       .homePage__BnrDiv__Service__Cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2032,13 +2034,15 @@ div.test {
           -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
                   box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
           margin-right: 30px;
-          color: #5d6a6f !important; }
+          color: #393939 !important; }
           .homePage__BnrDiv__Service__Cards__Inner__a {
             width: 100%;
             height: 100%;
             padding-top: 65px;
             display: block;
-            color: #5d6a6f !important; }
+            color: #393939 !important; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3:hover {
+              color: #fff; }
             .homePage__BnrDiv__Service__Cards__Inner__a__img {
               background-repeat: no-repeat;
               width: 88px;
@@ -2052,13 +2056,14 @@ div.test {
             .homePage__BnrDiv__Service__Cards__Inner__a img {
               display: none; }
             .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-              margin-top: 20px;
+              margin: 20px 0px;
               font-size: 24px;
-              font-family: 'MavenPro-Medium'; }
+              font-family: 'MavenPro-Bold'; }
             .homePage__BnrDiv__Service__Cards__Inner__a p {
               margin-top: 10px;
-              font-size: 14px;
-              font-family: 'PT_Sans-Regular'; }
+              font-size: 17px;
+              font-family: 'PT_Sans-Regular';
+              color: #737373; }
         .homePage__BnrDiv__Service__Cards__Inner1 {
           margin-right: 0; }
         .homePage__BnrDiv__Service__Cards__Inner:hover {
@@ -2139,13 +2144,12 @@ div.test {
       background-size: 34%;
       background-position: right 140px; }
       .homePage__BnrDiv__Inner__Content {
-        padding: 21% 0 0 10%;
-        width: 462px; }
+        padding: 259px 0 0 81px;
+        width: 541px; }
         .homePage__BnrDiv__Inner__Content h1 {
-          font-size: 48px; }
+          font-size: 40px; }
         .homePage__BnrDiv__Inner__Content p {
-          font-size: 16px;
-          line-height: 25px; }
+          padding-top: 20px; }
     .homePage__BnrDiv__Service h1 {
       font-size: 32px;
       margin-top: 0px; }
@@ -2190,18 +2194,17 @@ div.test {
   .homePage__BnrDiv__Inner {
     height: auto; }
     .homePage__BnrDiv__Inner__Content {
-      padding: 21% 0 0 10%;
-      width: 342px; }
+      padding: 200px 0px 0px 93px;
+      width: 382px; }
       .homePage__BnrDiv__Inner__Content h1 {
         font-size: 32px; }
       .homePage__BnrDiv__Inner__Content p {
-        font-size: 14px;
-        line-break: 30px; }
+        padding-top: 16px; }
   .homePage__BnrDiv__dna {
     padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
     font-size: 24px;
-    margin-bottom: 40px; }
+    margin-bottom: 32px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
     height: 260px; }
@@ -2248,18 +2251,15 @@ div.test {
         height: 710px;
         background-image: none; }
         .homePage__BnrDiv__Inner__Content {
-          padding: 0 65px 0 65px;
-          width: 100%;
-          padding-top: 35%;
+          padding: 0;
+          width: 300px;
+          padding-top: 370px;
           text-align: center;
-          margin: 0 auto;
-          position: absolute;
-          bottom: 370px; }
+          margin: 0 auto; }
           .homePage__BnrDiv__Inner__Content h1 {
             font-size: 24px; }
           .homePage__BnrDiv__Inner__Content p {
-            font-size: 12px;
-            line-height: 16px; }
+            padding-top: 12px; }
       .homePage__BnrDiv__Service {
         bottom: -466px; }
         .homePage__BnrDiv__Service h1 {
