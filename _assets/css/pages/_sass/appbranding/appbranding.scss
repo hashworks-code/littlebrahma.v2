@@ -289,7 +289,7 @@
 }
 &__enigmalogo{
    img{
-    padding: 0px 21px;
+    padding: 0px 20px;
    }
 }
 &__enigmalist{
@@ -562,7 +562,10 @@ p{
 }
 &__enigmalogo{
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
+    img{
+        padding: 0px 40px;
+       } 
 }
 .enigmabackground{
     margin: 0px auto;
@@ -570,11 +573,6 @@ p{
     background-position: center;
     background-size: contain;
     width: 700px;
-}
-&__enigmalogo{
-   img{
-    padding: 0px 0px;
-   }
 }
 &__enigmalist{
     width: 700px;
@@ -670,34 +668,34 @@ h2{
     }
 
    .blobs {
-    width: 300px;
+    width: 359px;
     height: 320px;
     margin: 0 auto;
     border-radius: 100%;
    }   
    .blob:nth-child(1) {
-    width: 300px;
+    width: 336px;
     height: 320px;
    }
    .blob:nth-child(2) {
-    width: 300px;
+    width: 352px;
     height: 320px;
    }
    .blob:nth-child(3) {
-    width: 300px;
+    width: 359px;
     height: 320px;
    }
    .blob:nth-child(4) {
-    width: 300px;
+    width: 331px;
     height: 320px;
    }
    .blob:nth-child(5) {
-    width: 300px;
+    width: 355px;
     height: 320px;
    }
    .blob:nth-child(6) {
-    width: 300px;
-    height: 320px;
+    width: 345px;
+    height: 342px;
    }
     .padding {
         width: 965px;
@@ -758,6 +756,12 @@ h2{
         height: 272px;
         right: -141px;
         top: 137px;
+        }
+    }
+    &__enigmalogo{
+      
+        img {
+            padding: 0px 58px;
         }
     }
     &__adapt{
@@ -957,6 +961,9 @@ h2{
     &__enigmalogo{
         width: 100%;
         margin: 0 auto; 
+        img {
+            padding: 0px 65px;
+        }
     }
     &__adapt{
         height:446px;
@@ -1014,9 +1021,6 @@ h2{
     .brandlogo{
         width: 1100px;
         margin: 0 auto;
-    }
-    &__enigmalogo img {
-        padding: 0px;
     }
     &__enigmalist{
         padding: 110px 0px 120px;

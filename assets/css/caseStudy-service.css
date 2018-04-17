@@ -136,6 +136,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+video {
+  width: 400px; }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
@@ -1654,7 +1657,7 @@ h1 {
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
-  padding: 0px 21px; }
+  padding: 0px 20px; }
 
 .branding__enigmalist {
   padding: 50px 0px 24px;
@@ -1871,14 +1874,14 @@ h1 {
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }
+    .branding__enigmalogo img {
+      padding: 0px 40px; }
   .branding .enigmabackground {
     margin: 0px auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 700px; }
-  .branding__enigmalogo img {
-    padding: 0px 0px; }
   .branding__enigmalist {
     width: 700px;
     padding: 60px 0px; }
@@ -1963,28 +1966,28 @@ h1 {
     top: 113px;
     left: 103px; }
   .blobs {
-    width: 300px;
+    width: 359px;
     height: 320px;
     margin: 0 auto;
     border-radius: 100%; }
   .blob:nth-child(1) {
-    width: 300px;
+    width: 336px;
     height: 320px; }
   .blob:nth-child(2) {
-    width: 300px;
+    width: 352px;
     height: 320px; }
   .blob:nth-child(3) {
-    width: 300px;
+    width: 359px;
     height: 320px; }
   .blob:nth-child(4) {
-    width: 300px;
+    width: 331px;
     height: 320px; }
   .blob:nth-child(5) {
-    width: 300px;
+    width: 355px;
     height: 320px; }
   .blob:nth-child(6) {
-    width: 300px;
-    height: 320px; }
+    width: 345px;
+    height: 342px; }
   .padding {
     width: 965px; }
   .enigmaCup {
@@ -2023,6 +2026,8 @@ h1 {
       height: 272px;
       right: -141px;
       top: 137px; }
+  .branding__enigmalogo img {
+    padding: 0px 58px; }
   .branding__adapt {
     height: 362px;
     margin-top: 96px;
@@ -2160,6 +2165,8 @@ h1 {
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }
+    .branding__enigmalogo img {
+      padding: 0px 65px; }
   .branding__adapt {
     height: 446px;
     margin: 120px auto 0px;
@@ -2203,8 +2210,6 @@ h1 {
   .branding .brandlogo {
     width: 1100px;
     margin: 0 auto; }
-  .branding__enigmalogo img {
-    padding: 0px; }
   .branding__enigmalist {
     padding: 110px 0px 120px;
     width: 1100px;
@@ -2934,7 +2939,7 @@ h1 {
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
-  padding: 0px 21px; }
+  padding: 0px 20px; }
 
 .branding__enigmalist {
   padding: 50px 0px 24px;
@@ -3151,14 +3156,14 @@ h1 {
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }
+    .branding__enigmalogo img {
+      padding: 0px 40px; }
   .branding .enigmabackground {
     margin: 0px auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 700px; }
-  .branding__enigmalogo img {
-    padding: 0px 0px; }
   .branding__enigmalist {
     width: 700px;
     padding: 60px 0px; }
@@ -3243,28 +3248,28 @@ h1 {
     top: 113px;
     left: 103px; }
   .blobs {
-    width: 300px;
+    width: 359px;
     height: 320px;
     margin: 0 auto;
     border-radius: 100%; }
   .blob:nth-child(1) {
-    width: 300px;
+    width: 336px;
     height: 320px; }
   .blob:nth-child(2) {
-    width: 300px;
+    width: 352px;
     height: 320px; }
   .blob:nth-child(3) {
-    width: 300px;
+    width: 359px;
     height: 320px; }
   .blob:nth-child(4) {
-    width: 300px;
+    width: 331px;
     height: 320px; }
   .blob:nth-child(5) {
-    width: 300px;
+    width: 355px;
     height: 320px; }
   .blob:nth-child(6) {
-    width: 300px;
-    height: 320px; }
+    width: 345px;
+    height: 342px; }
   .padding {
     width: 965px; }
   .enigmaCup {
@@ -3303,6 +3308,8 @@ h1 {
       height: 272px;
       right: -141px;
       top: 137px; }
+  .branding__enigmalogo img {
+    padding: 0px 58px; }
   .branding__adapt {
     height: 362px;
     margin-top: 96px;
@@ -3440,6 +3447,8 @@ h1 {
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }
+    .branding__enigmalogo img {
+      padding: 0px 65px; }
   .branding__adapt {
     height: 446px;
     margin: 120px auto 0px;
@@ -3483,8 +3492,6 @@ h1 {
   .branding .brandlogo {
     width: 1100px;
     margin: 0 auto; }
-  .branding__enigmalogo img {
-    padding: 0px; }
   .branding__enigmalist {
     padding: 110px 0px 120px;
     width: 1100px;
