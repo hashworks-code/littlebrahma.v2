@@ -13,7 +13,6 @@ li.lb_work_filterli:first-child {
 .lb-Workfilter {
     padding-top: 40px;
 }
-
 .tabs{
     margin-left: 50px !important;
 }
@@ -154,20 +153,7 @@ li.lb_work_filterli:first-child {
                 &__Inner:hover &__Inner__a &__Inner__a__onHover{
                     display: block;
                 }
-                // &__Inner:hover &__a__onHover{
-                //     display: block;
-                //     color:#fff !important;
-                //     text-decoration: none !important;
-                // }
-                // &__Inner:hover &__Inner__img{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
-                // &__Inner:hover &__Inner__img1{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
-                // &__Inner:hover &__Inner__img2{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
+               
                 &__Inner:hover p{
                     display: none;
                 }

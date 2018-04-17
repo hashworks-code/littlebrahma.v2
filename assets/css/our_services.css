@@ -953,6 +953,8 @@ html, body {
       margin: 16px 46px 24px; } }
 
 @media only screen and (min-width: 767px) {
+  .close1 {
+    padding: 75px 45px 0px 0px; }
   .contactHeading {
     width: 700px; }
   .modal-content1 {
@@ -1341,9 +1343,9 @@ h1 {
       font-family: "MavenPro-Medium";
       text-align: center; }
       .prct_svc_title .indTxt {
-        font-family: "MavenPro-Medium"; }
-      .prct_svc_title .indCon {
-        font-family: "PT_Sans-Regular"; }
+        font-family: 'MavenPro-Medium';
+        font-weight: 500;
+        color: #393939; }
   .prct .dnaSummary {
     background: #fff;
     line-height: 1.5;
@@ -1447,11 +1449,10 @@ h1 {
       .prct_svc_title .svcCont img {
         max-width: 80px; }
     .prct_svc_title .indTxt {
-      font-size: 17px;
+      font-size: 24px;
       padding-bottom: 16px;
       text-align: center; }
     .prct_svc_title .indCon {
-      font-size: 14px;
       padding-top: 0px;
       padding-bottom: 24px; }
   .prct .dnaContainer {
@@ -1520,16 +1521,18 @@ h1 {
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
-    padding: 50px 35px 80px; }
+    padding: 12px 35px 80px; }
     .prct_svc_title {
       text-align: center;
       font-size: 24px; }
       .prct_svc_title .svcCont {
         padding-top: 72px; }
+        .prct_svc_title .svcCont img {
+          max-width: 85px;
+          margin-top: 20px; }
       .prct_svc_title .indTxt {
-        font-size: 24px; }
+        font-size: 28px; }
       .prct_svc_title .indCon {
-        font-size: 14px;
         padding: 10px 34px 16px 0px; }
   .prct .dnaContainer {
     font-size: 14px;
@@ -1577,7 +1580,7 @@ h1 {
     .prct_dic .bsTxt {
       font-size: 16px; }
     .prct_svc {
-      padding: 55px 0px 70px; }
+      padding: 0px 0px 70px; }
       .prct_svc_title {
         font-size: 40px; }
         .prct_svc_title .svcCont {
@@ -1587,7 +1590,6 @@ h1 {
         .prct_svc_title .indTxt {
           font-size: 32px; }
         .prct_svc_title .indCon {
-          font-size: 16px;
           padding-top: 32px;
           padding-bottom: 0px; }
       .prct_svc .sCont {
@@ -1699,19 +1701,19 @@ h1 {
   .prct_dic .bsTxt {
     font-size: 20px; }
   .prct_svc {
-    padding: 100px 150px 80px; }
+    padding: 0px 150px 80px; }
     .prct_svc_title {
       font-size: 40px; }
       .prct_svc_title .svcCont {
         padding-top: 160px; }
         .prct_svc_title .svcCont img {
-          max-width: 120px; }
+          max-width: 190px; }
       .prct_svc_title .indTxt {
-        font-size: 32px; }
+        font-size: 40px;
+        line-height: 48px; }
       .prct_svc_title .indCon {
-        font-size: 20px;
         padding-top: 24px;
-        padding-bottom: 16px; }
+        padding-bottom: 0px; }
       .prct_svc_title .lgCon {
         width: 830px; }
   .prct .dnaContainer {

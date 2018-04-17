@@ -953,6 +953,8 @@ html, body {
       margin: 16px 46px 24px; } }
 
 @media only screen and (min-width: 767px) {
+  .close1 {
+    padding: 75px 45px 0px 0px; }
   .contactHeading {
     width: 700px; }
   .modal-content1 {

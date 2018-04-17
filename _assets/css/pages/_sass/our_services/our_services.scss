@@ -68,11 +68,11 @@
             // background: #f4f4f4;
             text-align: center;
             .indTxt{
-                font-family: "MavenPro-Medium"
+                font-family: 'MavenPro-Medium';
+                font-weight: 500;
+                color: #393939;
             }
-            .indCon{
-                font-family: "PT_Sans-Regular"
-            }
+           
         }
     }
     .dnaSummary {
@@ -203,12 +203,12 @@
                     }
                 }
                 .indTxt{
-                    font-size: 17px;
+                    font-size: 24px;
                     padding-bottom:16px;
                     text-align: center;
                 }
                 .indCon{
-                    font-size: 14px;
+                   
                     padding-top:0px;
                     padding-bottom:24px;
                 }
@@ -312,23 +312,22 @@
             }
         }
         &_svc{
-            padding:50px 35px 80px;
+            padding:12px 35px 80px;
             &_title{
                 text-align: center;
                 font-size: 24px;
                 .svcCont{
                     padding-top: 72px;
                     img{
-                        // max-width:85px;
-                        // margin-top: 20px;
+                        max-width:85px;
+                        margin-top: 20px;
                     }
                 }
                 .indTxt{
-                    font-size: 24px;
+                    font-size: 28px;
                     // padding-top: 50px;
                 }
                 .indCon{
-                    font-size: 14px;
                     padding: 10px 34px 16px 0px;
                 }
             }
@@ -393,7 +392,7 @@
             }
         }
         &_svc{
-            padding:55px 0px 70px;
+            padding:0px 0px 70px;
             &_title{
                 font-size: 40px;
                 .svcCont{
@@ -407,7 +406,6 @@
                     // padding-top: 50px;
                 }
                 .indCon{
-                    font-size: 16px;
                     padding-top: 32px;
                     padding-bottom: 0px;
                 }
@@ -561,23 +559,22 @@
             }
         }
         &_svc{
-            padding: 100px 150px 80px;
+            padding: 0px 150px 80px;
             &_title{
                 font-size: 40px;
                 .svcCont{
                     padding-top: 160px;
                     img{
-                        max-width: 120px;
+                        max-width: 190px;
                     }
                 }
                 .indTxt{
-                    font-size: 32px;
-                    // padding-top: 50px;
+                    font-size: 40px;
+                    line-height: 48px;
                 }
                 .indCon{
-                    font-size: 20px;
                     padding-top: 24px;
-                    padding-bottom: 16px;
+                    padding-bottom:0px;
                 }
                 .lgCon{
                     width: 830px;
