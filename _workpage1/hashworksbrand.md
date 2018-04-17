@@ -79,11 +79,8 @@ colorPaletteImage3: "hashcolor3.svg"
 colorPaletteImage4: "hashcolor4.svg"
 
 fontfamily1: "Typography"
-fontfamily2: "Muli Bold"
-fontfamily3: "Muli Semi Bold"
-fontfamily4: "Muli Regular"
-fontfamily5: "Muli Light"
-fontfamilypara: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo."
+font: "hashfont.svg"
+font1: "hashcontent.svg"
 
 # icons: 'Icons'
 # icon_list:

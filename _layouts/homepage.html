@@ -37,13 +37,12 @@
                 <div class="homePage__dna">
                         
                 <div class="homePage__dna__left">
-                    <img src="/assets/img/homepage/dna.png">
+                    <img src="/assets/img/homepage/003_Practice.png">
                 </div>
                 <div class="homePage__dna__right">
                     <h1>Design is in our DNA</h1>
 
-                    <p class="paragraph">In pursuit of continuous delivery and customer satisfaction, we have encountered various problems pertaining to understanding customers needs, adhering to project deadlines and delivering creative and original design. This journey of ours has led us to implement a sustainable design process, which helps us deliver great business value. 
-                                    </p>
+                  
                    <p class="paragraph"> Our<span class="red"> Design Native Approach  </span> delivers insights and identifies opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple.</p>
                             <a class="commonButton lb-explore" href="/practice">Explore</a>
 
@@ -57,8 +56,8 @@
           <div class="lb_caseStusy">
                 <ul class="lb_work_filter lb_filter_lg">
                     <li class="lb_work_filterli lb_work_filterActive" id="filterli-1"  data-id="Product Design">Product design</li>
-                    <li class="lb_work_filterli" data-id="Service Design" id="filterli-2" >Service Design</li>
-                    <li class="lb_work_filterli" data-id="Branding & Communication" id="filterli-3">Branding & Communication</li>
+                    <li class="lb_work_filterli tabs" data-id="Service Design" id="filterli-2" >Service Design</li>
+                    <li class="lb_work_filterli" data-id="Branding & Communication" id="filterli-3">Branding & Comm.</li>
                 </ul>
 
                 
@@ -92,7 +91,7 @@
                       
                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                         <a href="{{work.url}}"> 
-                        <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                        <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                    <div class="lb-filter-head {{work.textcolor}}">
                                        {{work.product_title}}
@@ -113,7 +112,7 @@
                 {% for work in item %}
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                     <a href="{{work.url}}">    
-                    <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                         <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                             <div class="lb-filter-head {{work.textcolor}}">
                                 {{work.product_title}}
@@ -133,7 +132,7 @@
                     
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                             <a href="{{work.url}}">
-                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
@@ -151,7 +150,7 @@
                     {% for work in item %}
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                         <a href="{{work.url}}">
-                            <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                            <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                 <div class="lb-filter-head {{work.textcolor}}">
                                     {{work.product_title}}

@@ -111,7 +111,10 @@
   src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden !important;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -138,6 +141,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
+.hello {
+  border-bottom: 3px solid #ea1c49; }
+
+.transition {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+  .transition:hover {
+    -webkit-box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+            box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01); }
+
 body {
   line-height: 1; }
 
@@ -163,18 +178,22 @@ table {
   font-family: "MavenPro-Medium";
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
-          order: 1; }
+          order: 1;
+  color: #393939; }
 
 .heroHighlight {
   color: #ea1c49; }
 
 .bnrText {
   font-family: "PT_Sans-Regular";
-  letter-spacing: 1px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  line-height: 1.5; }
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #737373; }
 
 .lb_bdy {
   position: relative; }
@@ -216,10 +235,10 @@ table {
     font-weight: bold;
     color: #393939; }
   .csHeading {
-    font-family: 'MavenPro-Medium';
+    font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
-    color: #5d6a6f;
+    color: #393939;
     line-height: normal; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
@@ -227,7 +246,7 @@ table {
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: 0.4px;
-    color: #5d6a6f; }
+    color: #737373; }
   .commonButton {
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
@@ -242,9 +261,7 @@ table {
   .commonButton:hover {
     border: solid 2px #333;
     background-color: transparent;
-    color: #333;
-    -webkit-transition: background-color 500ms linear;
-    transition: background-color 500ms linear; }
+    color: #333; }
   .rajdhaniBold {
     font-family: 'RajdhaniBold';
     font-size: 24px;
@@ -268,7 +285,7 @@ table {
     font-size: 24px; }
   .bnrText {
     font-size: 12px;
-    padding-top: 16px; }
+    padding-top: 12px; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -326,8 +343,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 32px; }
   .bnrText {
-    font-size: 14px;
-    padding-top: 24px; }
+    font-size: 12px;
+    padding: 16px 50px 0px 50px; }
   .hero_img {
     height: calc(380px + 80px); }
   .hero_cnt {
@@ -366,8 +383,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 40px; }
   .bnrText {
-    font-size: 17px;
-    padding-top: 30px; }
+    font-size: 14px;
+    padding: 20px 80px 0px 80px; }
   .hero_img {
     height: calc(100vh - 80px); }
   .hero_cnt {
@@ -391,7 +408,7 @@ textarea:hover, textarea:focus {
   .typography {
     font-size: 24px; }
   .paragraph {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     line-height: 1.8; }
   .csHeading {
@@ -404,8 +421,8 @@ textarea:hover, textarea:focus {
   .heroText {
     font-size: 48px; }
   .bnrText {
-    font-size: 20px;
-    padding-top: 35px; }
+    font-size: 17px;
+    padding: 24px 90px 0px 90px; }
   .hero_cnt {
     width: 920px;
     padding: 80px 0px;
@@ -425,6 +442,9 @@ textarea:hover, textarea:focus {
 
 .text-black {
   color: #333 !important; }
+
+.row:after, .row:before {
+  content: normal; }
 
 /* -------------------------------- 
 
@@ -558,9 +578,8 @@ html, body {
   text-decoration: none;
   display: inline-block;
   color: white;
-  text-transform: uppercase;
   font-weight: normal;
-  font-family: 'MavenPro-Bold';
+  font-family: 'MavenPro-Medium';
   font-size: 14px;
   color: #4a4a4a;
   padding-bottom: 10px; }
@@ -603,8 +622,11 @@ html, body {
 
 @media only screen and (min-width: 1024px) {
   .cd-secondary-nav a {
-    font-family: 'MavenPro-Bold';
     font-size: 16px; } }
+
+@media only screen and (min-width: 1367px) {
+  .cd-secondary-nav a {
+    font-size: 18px; } }
 
 .cd-primary-nav-trigger {
   position: absolute;
@@ -634,8 +656,6 @@ html, body {
   width: 18px;
   height: 2px;
   background-color: #ea1c49;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
   /* these are the upper and lower lines in the menu icon */ }
 
 .cd-primary-nav-trigger .cd-menu-icon::before, .cd-primary-nav-trigger .cd-menu-icon:after {
@@ -644,12 +664,7 @@ html, body {
   height: 100%;
   position: absolute;
   background-color: #ea1c49;
-  right: 0;
-  -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
-  -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
-  transition: top .3s, background-color 0s, -webkit-transform .3s;
-  transition: transform .3s, top .3s, background-color 0s;
-  transition: transform .3s, top .3s, background-color 0s, -webkit-transform .3s; }
+  right: 0; }
 
 .cd-primary-nav-trigger .cd-menu-icon::before {
   top: -5px; }
@@ -944,6 +959,8 @@ html, body {
       margin: 16px 46px 24px; } }
 
 @media only screen and (min-width: 767px) {
+  .close1 {
+    padding: 75px 45px 0px 0px; }
   .contactHeading {
     width: 700px; }
   .modal-content1 {
@@ -1105,8 +1122,12 @@ h1 {
 
 @media screen and (max-width: 1366px) {
   .footer {
-    height: 520px; }
+    height: 520px;
+    position: relative;
+    margin-top: 80px; }
     .footer__inner {
+      position: absolute;
+      top: -91px;
       font-size: 40px;
       padding: 80px 0 0 42px; }
       .footer__inner a {
@@ -1139,8 +1160,11 @@ h1 {
 
 @media screen and (max-width: 1023px) {
   .footer {
-    height: 460px; }
+    height: 460px;
+    position: unset;
+    margin: 0px; }
     .footer__inner {
+      position: unset;
       font-size: 32px;
       padding: 48px 0 0 34px; }
       .footer__inner a {
@@ -1173,8 +1197,11 @@ h1 {
 
 @media screen and (max-width: 767px) {
   .footer {
-    height: 335px; }
+    height: 335px;
+    position: unset;
+    margin: 0px; }
     .footer__inner {
+      position: unset;
       font-size: 24px;
       padding: 0px 0 0 24px; }
       .footer__inner a {
@@ -1226,8 +1253,12 @@ h1 {
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 631px; }
+    position: relative;
+    height: 656px;
+    margin-top: 80px; }
     .footer__inner {
+      position: absolute;
+      top: -91px;
       font-size: 40px;
       padding: 80px 0 0 42px; }
       .footer__inner h1 {
@@ -1236,7 +1267,7 @@ h1 {
         font-size: 20px; }
     .footer__image {
       background-position: left;
-      background-size: 128% 100%; }
+      background-size: 120% 100%; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1286,7 +1317,11 @@ h1 {
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
-    font-family: "MavenPro-Medium"; }
+    font-family: "MavenPro-Bold";
+    color: #393939; }
+  .prct .contextTitle {
+    font-family: "MavenPro-Medium";
+    color: #393939; }
   .prct .contextualTxt {
     font-family: "PT_Sans-Regular";
     font-size: 12px; }
@@ -1303,11 +1338,11 @@ h1 {
   .prct_dic {
     padding: 45px 35px; }
     .prct_dic .title {
-      font-family: "MavenPro-Medium"; }
+      font-family: "MavenPro-Bold";
+      color: #393939; }
     .prct_dic .bldContent {
-      font-family: "MavenPro-Bold"; }
-    .prct_dic .bsTxt {
-      font-family: "PT_Sans-Regular"; }
+      font-family: "MavenPro-Medium";
+      color: #393939; }
     .prct_dic .hckTitle {
       display: none; }
     .prct_dic .imgContainer {
@@ -1395,7 +1430,7 @@ h1 {
         justify-content: space-around;
     margin: 0 auto; }
   .prct .genericTitle {
-    font-size: 24px; }
+    font-size: 20px; }
   .prct .fixCont {
     display: none; }
   .prct_dic .hckTitle {
@@ -1403,14 +1438,15 @@ h1 {
   .prct_dic img {
     max-width: 350px; }
   .prct_dic .title {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center; }
   .prct_dic .bldContent {
-    font-size: 14px;
+    font-size: 16px;
     padding: 16px 0px;
-    text-align: center; }
+    text-align: center;
+    font-family: "MavenPro-Medium";
+    color: #393939; }
   .prct_dic .bsTxt {
-    font-size: 12px;
     text-align: center; }
   .prct_svc_title {
     text-align: center;
@@ -1483,13 +1519,12 @@ h1 {
     display: none; }
   .prct_dic .title {
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 15px; }
+    padding-bottom: 12px;
+    padding-top: 38px;
+    line-height: 28px; }
   .prct_dic .bldContent {
     font-size: 16px;
-    padding-bottom: 21px; }
-  .prct_dic .bsTxt {
-    font-size: 14px; }
+    padding-bottom: 12px; }
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
@@ -1535,20 +1570,19 @@ h1 {
     /* Safari 4.0 - 8.0 */
     /* Standard syntax */ }
     .prct .genericTitle {
-      font-size: 32px; }
+      font-size: 28px; }
     .prct .contextTitle {
-      font-size: 24px; }
+      font-size: 20px; }
     .prct .contextualTxt {
       font-size: 16px; }
     .prct_dic .title {
-      font-size: 32px;
-      padding-bottom: 41px;
-      padding-top: 35px; }
+      font-size: 28px;
+      padding-bottom: 16px;
+      padding-top: 95px; }
     .prct_dic .bldContent {
       font-size: 20px;
-      padding-bottom: 10px; }
-    .prct_dic .bsTxt {
-      font-size: 16px; }
+      padding-bottom: 10px;
+      line-height: 28px; }
     .prct_svc {
       padding: 55px 0px 70px; }
       .prct_svc_title {
@@ -1657,20 +1691,18 @@ h1 {
   .prctDiv {
     margin-top: 100px; }
   .prct .genericTitle {
-    font-size: 48px; }
+    font-size: 32px; }
   .prct .contextTitle {
     font-size: 24px; }
   .prct .contextualTxt {
     font-size: 20px; }
   .prct_dic .title {
-    font-size: 40px;
-    padding-bottom: 40px;
-    padding-top: 55px; }
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-top: 66px; }
   .prct_dic .bldContent {
     font-size: 24px;
-    padding-bottom: 40px; }
-  .prct_dic .bsTxt {
-    font-size: 20px; }
+    padding-bottom: 30px; }
   .prct_svc {
     padding: 100px 150px 80px; }
     .prct_svc_title {
@@ -1695,7 +1727,7 @@ h1 {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/02_work.gif); }
+  background-image: url(/assets/img/workpage/002_work.gif) !important; }
 
 #lb_btn1 {
   display: none; }
@@ -1711,13 +1743,10 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 30px; }
-
-.lb_caseStusy {
-  margin-top: 50px; }
+  margin-left: 50px; }
 
 .lb-Workfilter {
-  padding-top: 50px; }
+  padding-top: 32px; }
 
 ul.lb_work_filter.lb_filter_lg {
   text-align: center; }
@@ -1743,15 +1772,15 @@ button.lb_btn:focus {
 .lb_btn_div {
   width: 160px;
   margin: 0 auto;
-  padding-bottom: 50px; }
+  padding-bottom: 64px; }
 
 .lb-filter-service {
-  padding-bottom: 30px; }
+  padding-bottom: 32px; }
 
 .lb-filter-head {
   width: 250px;
   height: 56px;
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Medium';
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -1762,7 +1791,7 @@ button.lb_btn:focus {
   padding-top: 24px; }
 
 .lb-filter-header {
-  font-family: MavenPro-Medium;
+  font-family: 'MavenPro-Bold';
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
@@ -1770,8 +1799,7 @@ button.lb_btn:focus {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey);
+  color: #393939;
   padding-top: 15px; }
 
 .lb-filter-headdesc {
@@ -1783,8 +1811,7 @@ button.lb_btn:focus {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #5d6a6f;
-  color: var(--slate-grey); }
+  color: #737373; }
 
 .lb-filter-footer {
   font-family: MavenPro-Medium;
@@ -1838,7 +1865,8 @@ div.test {
   .lb_filter_mb {
     display: block; }
   .lb-filter-head {
-    font-size: 16px; }
+    font-size: 14px;
+    width: 166px; }
   .lb-filter-header {
     font-size: 16px; }
   .lb-filter-headdesc {
@@ -1861,11 +1889,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
-  .lb-filter-header {
-    font-size: 24px; }
-  .lb-filter-headdesc {
     font-size: 14px; }
+  .lb-filter-header {
+    font-size: 16px; }
+  .lb-filter-headdesc {
+    font-size: 12px; }
   .lb_btn_div {
     text-align: center; } }
 
@@ -1877,11 +1905,12 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 18px;
+    width: 200px; }
   .lb-filter-header {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -1895,11 +1924,11 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 24px; }
+    font-size: 20px; }
   .lb-filter-header {
     font-size: 24px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -1960,6 +1989,15 @@ div.test {
   position: relative;
   z-index: 2px; }
 
+li.lb_work_filterli:first-child {
+  margin-left: 40px !important; }
+
+.lb-Workfilter {
+  padding-top: 40px; }
+
+.tabs {
+  margin-left: 50px !important; }
+
 .homePage {
   margin-top: 80px; }
   .homePage__BnrDiv {
@@ -1970,18 +2008,16 @@ div.test {
     .homePage__BnrDiv__Inner {
       height: 710px; }
       .homePage__BnrDiv__Inner__Content {
-        padding: 21% 0 0 10%;
+        padding: 300px 0 0 157px;
         width: 655px;
-        color: #5d6a6f; }
+        color: #393939; }
         .homePage__BnrDiv__Inner__Content h1 {
-          font-size: 56px;
+          font-size: 48px;
           font-family: 'MavenPro-Medium'; }
           .homePage__BnrDiv__Inner__Content h1 span {
             color: #ea1c49; }
         .homePage__BnrDiv__Inner__Content p {
-          margin-top: 20px;
-          line-height: 25px;
-          font-size: 20px;
+          padding-top: 24px;
           font-family: 'PT_Sans-Regular'; }
     .homePage__BnrDiv__Service {
       position: absolute;
@@ -1990,10 +2026,10 @@ div.test {
       width: 100%; }
       .homePage__BnrDiv__Service h1 {
         text-align: center;
-        color: #333;
+        color: #393939;
         font-size: 40px;
         font-family: 'MavenPro-Medium';
-        margin-bottom: 80px; }
+        margin-bottom: 40px; }
       .homePage__BnrDiv__Service__Cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2013,13 +2049,15 @@ div.test {
           -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
                   box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
           margin-right: 30px;
-          color: #5d6a6f !important; }
+          color: #393939 !important; }
           .homePage__BnrDiv__Service__Cards__Inner__a {
             width: 100%;
             height: 100%;
-            padding-top: 50px;
+            padding-top: 65px;
             display: block;
-            color: #5d6a6f !important; }
+            color: #393939 !important; }
+            .homePage__BnrDiv__Service__Cards__Inner__a h3:hover {
+              color: #fff; }
             .homePage__BnrDiv__Service__Cards__Inner__a__img {
               background-repeat: no-repeat;
               width: 88px;
@@ -2033,21 +2071,22 @@ div.test {
             .homePage__BnrDiv__Service__Cards__Inner__a img {
               display: none; }
             .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-              margin-top: 20px;
+              margin: 20px 0px;
               font-size: 24px;
-              font-family: 'MavenPro-Medium'; }
+              font-family: 'MavenPro-Bold'; }
             .homePage__BnrDiv__Service__Cards__Inner__a p {
               margin-top: 10px;
-              font-size: 14px;
-              font-family: 'PT_Sans-Regular'; }
+              font-size: 17px;
+              font-family: 'PT_Sans-Regular';
+              color: #737373; }
         .homePage__BnrDiv__Service__Cards__Inner1 {
           margin-right: 0; }
         .homePage__BnrDiv__Service__Cards__Inner:hover {
           background-color: #ee4b6e;
           color: #fff !important;
           text-decoration: none !important;
-          -webkit-transition: background-color 500ms linear;
-          transition: background-color 500ms linear; }
+          -webkit-transition: background-color 100ms linear;
+          transition: background-color 100ms linear; }
         .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
           color: #fff !important;
           text-decoration: none !important; }
@@ -2073,22 +2112,22 @@ div.test {
         align-self: center;
     padding-bottom: 50px; }
     .homePage__dna__left {
-      padding-right: 125px; }
+      width: 50%;
+      padding-right: 0px; }
+      .homePage__dna__left img {
+        width: 88%;
+        height: 90%; }
     .homePage__dna__right {
-      margin-top: 30px;
-      width: 540px; }
+      margin: 0px auto;
+      width: 50%; }
       .homePage__dna__right h1 {
-        margin-top: 20px;
-        font-size: 40px;
-        font-family: 'MavenPro-Medium';
+        margin: 0px;
+        font-size: 24px;
+        font-family: 'MavenPro-Bold';
         color: #393939; }
       .homePage__dna__right p {
-        font-size: 20px;
-        font-family: 'PT_Sans-Regular';
-        color: #5d6a6f;
         margin-bottom: 32px;
-        margin-top: 20px;
-        line-height: 25px; }
+        margin-top: 20px; }
 
 .lb-ourworks {
   text-align: center;
@@ -2101,28 +2140,34 @@ div.test {
   letter-spacing: normal;
   /* text-align: left; */
   color: #393939;
-  padding-bottom: 50px; }
+  padding-bottom: 40px; }
 
 .lb-ourworks-dna {
-  margin: 100px 83px 0; }
+  width: 1100px;
+  margin: 250px auto 0; }
 
 @media screen and (max-width: 1366px) {
+  li.lb_work_filterli:first-child {
+    margin-left: 60px !important; }
+  .lb-Workfilter {
+    padding-top: 36px; }
+  .tabs {
+    margin-left: 50px !important; }
   .lb-ourworks {
-    font-size: 40px;
-    padding-bottom: 50px; }
+    font-size: 32px;
+    padding-bottom: 36px; }
   .homePage {
     margin-top: 0; }
     .homePage__BnrDiv__Inner {
       background-size: 34%;
       background-position: right 140px; }
       .homePage__BnrDiv__Inner__Content {
-        padding: 21% 0 0 10%;
-        width: 462px; }
+        padding: 259px 0 0 81px;
+        width: 541px; }
         .homePage__BnrDiv__Inner__Content h1 {
-          font-size: 48px; }
+          font-size: 40px; }
         .homePage__BnrDiv__Inner__Content p {
-          font-size: 16px;
-          line-height: 25px; }
+          padding-top: 20px; }
     .homePage__BnrDiv__Service h1 {
       font-size: 32px;
       margin-top: 0px; }
@@ -2131,7 +2176,7 @@ div.test {
       height: 318px;
       margin-right: 20px; }
       .homePage__BnrDiv__Service__Cards__Inner__a {
-        padding-top: 30px; }
+        padding-top: 64px; }
         .homePage__BnrDiv__Service__Cards__Inner__a h3 {
           font-size: 16px; }
         .homePage__BnrDiv__Service__Cards__Inner__a p {
@@ -2143,71 +2188,85 @@ div.test {
       margin-right: 0; }
     .homePage__BnrDiv__Service__Cards__Inner:hover img {
       display: block; }
-    .homePage__dna__left img {
-      width: 366px;
-      height: 376px; }
+    .homePage__dna__left {
+      width: 50%; }
+      .homePage__dna__left img {
+        width: 88%;
+        height: 90%; }
     .homePage__dna__right {
-      width: 460px; }
+      width: 50%;
+      margin: 0px auto;
+      padding-right: 90px; }
       .homePage__dna__right h1 {
-        font-size: 32px; }
-      .homePage__dna__right p {
-        font-size: 16px;
-        line-height: 25px; }
+        font-size: 20px;
+        margin: 0px; }
       .homePage__dna__right a {
         font-size: 16px; }
   .lb-ourworks-dna {
-    margin: 180px 42px 0; } }
+    width: 965px;
+    margin: 193px auto 0; } }
 
 @media screen and (max-width: 1023px) {
+  li.lb_work_filterli:first-child {
+    margin-left: 15px !important; }
+  .lb-Workfilter {
+    padding-top: 32px; }
   .homePage__BnrDiv__Inner {
     height: auto; }
     .homePage__BnrDiv__Inner__Content {
-      padding: 21% 0 0 10%;
-      width: 342px; }
+      padding: 200px 0px 0px 93px;
+      width: 382px; }
       .homePage__BnrDiv__Inner__Content h1 {
         font-size: 32px; }
       .homePage__BnrDiv__Inner__Content p {
-        font-size: 14px;
-        line-break: 30px; }
+        padding-top: 16px; }
   .homePage__BnrDiv__dna {
     padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
-    font-size: 24px;
-    margin-bottom: 40px; }
+    font-size: 28px;
+    margin-bottom: 36px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
     height: 260px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a h3 {
-      font-size: 16px; }
-    .homePage__BnrDiv__Service__Cards__Inner__a p {
-      font-size: 12px; }
+    .homePage__BnrDiv__Service__Cards__Inner__a {
+      padding-top: 48px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a h3 {
+        font-size: 16px; }
+      .homePage__BnrDiv__Service__Cards__Inner__a p {
+        font-size: 12px; }
   .homePage__BnrDiv__Service__Cards__Inner1 {
     margin-right: 0; }
   .homePage__BnrDiv__Service__Cards__Inner:hover img {
     display: block; }
   .homePage__dna__left img {
-    width: 250px;
-    height: 257px; }
+    width: 90%;
+    height: 93%; }
   .homePage__dna__right {
-    width: 342px; }
+    width: 342px;
+    margin: 0px auto;
+    padding-right: -1px; }
     .homePage__dna__right h1 {
-      font-size: 24px; }
+      font-size: 16px;
+      margin: 0px; }
     .homePage__dna__right p {
-      font-size: 14px;
-      line-height: 25px; }
+      margin-bottom: 32px;
+      margin-top: 16px; }
     .homePage__dna__right a {
       font-size: 14px; }
+  .homePage__dna {
+    padding-bottom: 60px; }
   .lb-ourworks {
-    font-size: 24px;
-    padding-bottom: 0px; }
+    font-size: 28px;
+    padding-bottom: 36px; }
   .lb-ourworks-dna {
-    margin: 180px 34px 0; } }
+    width: 700px;
+    margin: 170px auto 0; } }
 
 @media screen and (max-width: 767px) {
   .homePage {
     margin-top: 80px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/mobile-home-banner2.gif);
+      background-image: url(/assets/img/homepage/001-5_Home-page-mobile.gif);
       background-size: cover;
       background-position: center center;
       height: 878px; }
@@ -2215,25 +2274,21 @@ div.test {
         height: 710px;
         background-image: none; }
         .homePage__BnrDiv__Inner__Content {
-          padding: 0 65px 0 65px;
-          width: 100%;
-          padding-top: 35%;
+          padding: 0;
+          width: 300px;
+          padding-top: 370px;
           text-align: center;
-          margin: 0 auto;
-          position: absolute;
-          bottom: 370px; }
+          margin: 0 auto; }
           .homePage__BnrDiv__Inner__Content h1 {
-            font-size: 24px; }
+            font-size: 28px; }
           .homePage__BnrDiv__Inner__Content p {
-            font-size: 12px;
-            line-height: 16px; }
+            padding-top: 12px; }
       .homePage__BnrDiv__Service {
-        bottom: -466px; }
+        bottom: -386px; }
         .homePage__BnrDiv__Service h1 {
-          color: #5d6a6f;
           margin-top: -390px;
           font-size: 24px;
-          margin-bottom: 40px; }
+          margin-bottom: 32px; }
         .homePage__BnrDiv__Service__Cards {
           display: block; }
           .homePage__BnrDiv__Service__Cards__Inner {
@@ -2250,32 +2305,31 @@ div.test {
             display: none; }
     .homePage__dna {
       display: block;
-      margin-top: 40px;
-      padding-bottom: 83px; }
+      margin-top: 32px;
+      padding-bottom: 65px; }
       .homePage__dna__left {
         padding-right: 0;
-        margin: 0 auto;
-        width: 264px;
-        height: 246px; }
+        margin: 0 auto; }
         .homePage__dna__left img {
-          width: 264px;
-          height: 246px; }
+          width: 100%;
+          height: 100%; }
       .homePage__dna__right {
         width: 264px;
         text-align: center;
-        margin: 80px auto 0px; }
+        margin: 32px auto 0px;
+        padding: 0px; }
         .homePage__dna__right h1 {
           font-size: 16px; }
         .homePage__dna__right p {
-          font-size: 12px;
-          line-height: 16px; }
+          margin-top: 12px; }
         .homePage__dna__right a {
           font-size: 14px; }
   .lb-ourworks {
     font-size: 24px;
-    padding-bottom: 0px; }
+    padding-bottom: 32px; }
   .lb-ourworks-dna {
-    margin: 530px 0 0; }
+    width: 300px;
+    margin: 431px auto 0; }
   .dropdown-toggle {
     text-align: center; }
   .lb_work_filterli {

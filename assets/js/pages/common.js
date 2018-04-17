@@ -4,8 +4,11 @@ $(window).resize(function(){
         var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
         $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
         $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
+
+        // $('.homePage__BnrDiv__Service').css({'bottom':'420px',});
         // $('#lbhmimagemobile').css('display','none')
     }
+
     // if(screen.width <= 767){
     //      $('#lbhmimagemobile').css('visibility','hidden')
     //      var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
@@ -16,7 +19,7 @@ $(window).resize(function(){
     
 });
     $(document).ready(function() {
-        
+        // debugger;
         if(screen.width > 767){
             var valHeight = (screen.width < 1560) ? ((31.4/100)*$('.homePage__BnrDiv__Service').height()):0;
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
@@ -130,6 +133,7 @@ $(window).resize(function(){
                 $(this).hide();
             }
         })
+
         // $('.btn').on('click', function (e) {
         //     $('.btn').not(this).popover('hide');
         // });
@@ -301,7 +305,7 @@ $(window).resize(function(){
             else if(value == 'Service'){
                 $('.service').show();
             }
-            else if(value == 'Branding and Communication'){
+            else if(value == 'Branding & Communication'){
                     $('.brndcomm').show();
             }   
         })
@@ -329,7 +333,7 @@ $(window).resize(function(){
                     }
                 })
             }
-            else if(value == 'Branding and Communication'){
+            else if(value == 'Branding & Communication'){
                 var prodcount=$('.brndcomm').length;
                 $('.brndcomm').each(function (index) { 
                     if(index<=3){
@@ -385,7 +389,7 @@ $(window).resize(function(){
                         $(this).hide();
                     }
                 })
-            } 
+            }
         // }
         // if ($(window).width() <= 767) {
             // var id =$('.work_select').attr('value');
@@ -741,12 +745,12 @@ $(window).resize(function(){
 //             $(".mobileDropDown__menu").hide();
 //             $("#test").toggleClass("drop_arrow");
 //         })
-
-
-
-
-
-
+            $('.knowmore a').click(function() {
+                debugger;
+                var text = $(this).closest("div").parent().find("div.indTxt").html();
+                sessionStorage.setItem("pageDetails", text);
+            });
+            
     });
 
 })();

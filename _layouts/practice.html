@@ -15,19 +15,13 @@
             <div class="hero_ptn"></div>
         </div>
     </div>
-    <div class="prctDiv">
-        <ul class="prctSec">
-            <li class="prctSec_active prctSec_tab" id="prctSectab_1">Philosophy</li>
-            <li class="prctSec_inactive prctSec_tab" id="prctSectab_2">Services</li>
-        </ul>
-    </div>
     <div class="philSec prct">
         <div class="dnaSummary">
             <div class="genericTitle text-center">
                 We design solutions for human interactions
             </div>
             <div class="container dnaContainer">
-                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 paragraph">
                     Each discipline is always involved, though at varying levels. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build. Our Design thinking practice delivers insights and identify opportunities to create and improve every touchpoint in a customer experience that are delightful and radically simple. We place greater emphasis on strategy up front, relying more heavily on design conception and development during the build.
                 </div>
             </div>
@@ -46,7 +40,7 @@
                     <div class="rContent rContent_1">
                         <div class="genericTitle">Perceive</div>
                         <div class="contextTitle">Think & Define</div>
-                        <div class="contextualTxt">Understand customer needs, identify pain areas and define problem statement.</div>
+                        <div class="paragraph">Understand customer needs, identify pain areas and define problem statement.</div>
                     </div>
                 </div>
                 <div class="mobScreen">
@@ -54,7 +48,7 @@
                     <div class="rContent rContent_2">
                         <div class="genericTitle">Adapt</div>
                         <div class="contextTitle">Collaborate & Build</div>
-                        <div class="contextualTxt">Work together to draw product roadmap, plan releases and build to scale.</div>              
+                        <div class="paragraph">Work together to draw product roadmap, plan releases and build to scale.</div>              
                     </div>
                 </div>
                 <div class="mobScreen">
@@ -63,7 +57,7 @@
                     <div class="rContent rContent_3">
                         <div class="genericTitle">Evolve</div>
                         <div class="contextTitle">Test & Learn</div>
-                        <div class="contextualTxt">Conduct user acceptance test to learn and iterate.</div>
+                        <div class="paragraph">Conduct user acceptance test to learn and iterate.</div>
                     </div>
                 </div>
             </div>
@@ -83,7 +77,7 @@
                         <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 bldContent noPadding">
                                 People with the game plan, creativity and logic collaborate to deliver great outcomes.
                         </div>
-                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 bsTxt noPadding">
+                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 bsTxt noPadding paragraph">
                             We place great prominence on strategy while understanding, 
                             relying more heavily on design while solving and development during the build.
                             Our workspace reflects our collaborative approach. Product owners and designers hangout with developers and projects managers. We don’t work in silos and keep the communication channel open at all times.
@@ -91,65 +85,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="prct_svc" id="svc_section">
-            <!-- <div class="prct_svc_title">Our Services</div> -->
-            <div class="dnaSummary">
-                <div class="genericTitle text-center">
-                    Our Services
-                </div>
-                <div class="container dnaContainer">
-                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
-                            We work with companies of all shapes and sizes, from early-stage startups to big enterprises, to create digital products and services which create big impact. 
-                            We use the Design Native approach, a high-impact problem-solving framework to gain insights on your customer behaviour. We use these insights to design creative solutions that help you engage your customers effectively and helps you achieve great business value. 
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                {% assign item = site.practice | reverse%} {% for services in item %}
-                    <div class="prct_svc_title">
-                        <div class="row svcCont">
-                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                <img alt="littlebrahma__service-mudra-for-{{services.title}}_img" src="{{services.img}}"/>
-                            </div>
-                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 noPadding lgCon">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">{{services.title}}</div>
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc1}}</div>
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">{{services.desc2}}</div>
-                                  <div class="knowmore">
-                                        <a href="{{services.url}}"><button class="commonButton" type="submit" id="submit-form">Know More</button></a>
-                                    <a href="{{services.url}}?url={{services.title}}"><button class="commonButton" type="submit" id="submit-form">View Projects</button></a>
-                                  </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-            <!-- <div class="prct_svc_title sCont">
-                <div class="row svcCont">
-                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-                        <img src="/assets/img/practice/svc_1.png"/>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">Branding &amp; Communication</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We take ownership to communicate your most precious asset: your brand. We co create an identity for your brand to define your position in the market.</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We help establish credibility and potentiality of your brand in the marketplace by applying our design native principles.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="prct_svc_title sCont">
-                <div class="row svcCont">
-                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
-                        <img src="/assets/img/practice/svc_1.png"/>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">Product Design</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">Our design native principles &amp; techniques blend with agile &amp; lean development models to deliver avant-grade products and experience.</div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We centre people interaction on data, insights &amp; visualization for large scale user adoption.</div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
     {% include common_footer.html %}

@@ -1,0 +1,73 @@
+{% include header.html %}
+    {% include common_header.html %}
+
+
+    <div class="lb_bdy prct">
+        <div class="hero_img"></div>
+        <div class="hero_cnt">
+            <div class="heroText">
+                Design is in our <span class="heroHighlight">DNA</span>
+            </div>
+            <div class="bnrText">
+                Our design native approach is a framework for continuos<br/>
+                design and implementation.
+            </div>
+            <div class="hero_ptn"></div>
+        </div>
+    </div>
+    <div class="prct">
+        <div class="prct_svc" id="svc_section">
+            <!-- <div class="prct_svc_title">Our Services</div> -->
+            <div class="container">
+                {% assign item = site.practice | reverse%} {% for services in item %}
+                    <div class="prct_svc_title">
+                        <div class="row svcCont">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <img alt="littlebrahma__service-mudra-for-{{services.title}}_img" src="{{services.img}}"/>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 noPadding lgCon">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">{{services.title}}</div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon paragraph text-left noPadding">{{services.desc1}}</div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon  paragraph text-left noPadding">{{services.desc2}}
+                                    <span class="know-more-link">
+                                        <a href="{{services.url}}">Know More</button></a>
+                                    </span>
+                                </div>
+                                  <div class="knowmore">
+                                        <a href="{{services.url}}"><button class="commonButton" type="submit" id="submit-form">Know More</button></a>
+                                    <a href="\workpage"><button class="commonButton" type="submit" id="submit-form">View Projects</button></a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- <div class="prct_svc_title sCont">
+                <div class="row svcCont">
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img src="/assets/img/practice/svc_1.png"/>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">Branding &amp; Communication</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We take ownership to communicate your most precious asset: your brand. We co create an identity for your brand to define your position in the market.</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We help establish credibility and potentiality of your brand in the marketplace by applying our design native principles.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prct_svc_title sCont">
+                <div class="row svcCont">
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img src="/assets/img/practice/svc_1.png"/>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-9 col-lg-10 noPadding lgCon">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indTxt text-left noPadding">Product Design</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">Our design native principles &amp; techniques blend with agile &amp; lean development models to deliver avant-grade products and experience.</div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 indCon text-left noPadding">We centre people interaction on data, insights &amp; visualization for large scale user adoption.</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    {% include common_footer.html %}
+ {% include footer.html %}
+   

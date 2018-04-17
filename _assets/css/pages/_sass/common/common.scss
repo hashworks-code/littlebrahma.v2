@@ -114,8 +114,12 @@
 
 
 
-body{
-    overflow-x: hidden;
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -141,6 +145,16 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, main {
 	display: block;
+}
+.hello{
+    border-bottom: 3px solid #ea1c49;;
+}
+.transition{
+    transition: all .5s ease;
+    &:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
+      transform: scale(1.01);
+    }
 }
 body {
 	line-height: 1;
@@ -181,15 +195,19 @@ table {
 .heroText{
     font-family: "MavenPro-Medium";
     order: 1;
+    color: #393939;
 }
 .heroHighlight{
     color: #ea1c49;
 }
 .bnrText{
     font-family: "PT_Sans-Regular";
-    letter-spacing: 1px;
     order: 2;
+    font-size: 12px;
+    font-weight: normal;
     line-height: 1.5;
+    letter-spacing:0.4px;
+    color: #737373;
 }
 .lb_bdy{
     position: relative;
@@ -239,10 +257,10 @@ table {
     color: #393939;
 }
 .csHeading{
-    font-family: 'MavenPro-Medium';
+    font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
-    color: #5d6a6f;
+    color: #393939;
     line-height: normal;
 }
 // PARAGRAPH
@@ -252,7 +270,7 @@ table {
     font-weight: normal;
     line-height: 1.5;
     letter-spacing:0.4px;
-    color: #5d6a6f;
+    color: #737373;
    
 }
 // BUTTON 
@@ -274,9 +292,7 @@ table {
     background-color: transparent;
     color: #333;
     // font-weight: bold;
-    -webkit-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
+   
 }
 .rajdhaniBold{
     font-family:'RajdhaniBold';
@@ -305,7 +321,7 @@ table {
     }
     .bnrText{
       font-size: 12px;
-      padding-top: 16px;
+      padding-top: 12px;
     }
     .lb_bdy{
         margin-top: 70px;
@@ -382,8 +398,8 @@ table {
         font-size: 32px;
     }
     .bnrText{
-      font-size: 14px;
-      padding-top: 24px;
+      font-size: 12px;
+      padding: 16px 50px 0px 50px;
     }
     .hero{
         &_img{
@@ -441,8 +457,8 @@ table {
         font-size: 40px;
     }
     .bnrText{
-      font-size: 17px;
-      padding-top: 30px;
+      font-size: 14px;
+      padding:20px 80px 0px 80px;
     }
     .hero{
         &_img{
@@ -476,7 +492,7 @@ table {
         font-size:24px;
     }
     .paragraph{
-        font-size:16px;
+        font-size:17px;
         letter-spacing:1px;
         line-height:1.8;
     }
@@ -495,8 +511,8 @@ table {
         font-size: 48px;
     }
     .bnrText{
-      font-size: 20px;
-      padding-top: 35px;
+      font-size: 17px;
+      padding: 24px 90px 0px 90px;
     }
     .hero{
         &_cnt{
@@ -521,4 +537,8 @@ table {
 }
 .text-black{
     color:#333 !important;
+}
+
+.row:after, .row:before{
+    content: normal;
 }

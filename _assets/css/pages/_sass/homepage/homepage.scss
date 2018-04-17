@@ -7,6 +7,15 @@
    position: relative;
    z-index: 2px;
 }
+li.lb_work_filterli:first-child {
+    margin-left: 40px !important;
+}
+.lb-Workfilter {
+    padding-top: 40px;
+}
+.tabs{
+    margin-left: 50px !important;
+}
 .homePage{
     margin-top: 80px;
     &__BnrDiv{
@@ -15,41 +24,35 @@
         background-size: 100% 100%;
         position: relative;
         &__Inner{
-            // background-image: url("/assets/img/homepage/001.png");
-            // background-repeat: no-repeat;
-            // background-position: right;
              height: 710px;
             &__Content{
-                padding: 21% 0 0 10%;
+                padding: 300px 0 0 157px;
                 width: 655px;
-                color: #5d6a6f;
+                color:#393939;
                 h1{
-                    font-size: 56px;
+                    font-size: 48px;
                     font-family: 'MavenPro-Medium';
                     span{
                         color: #ea1c49;
                     }
                 }
                 p{
-                    margin-top: 20px;
-                    line-height: 25px;
-                    font-size: 20px;
+                    padding-top: 24px;
                     font-family: 'PT_Sans-Regular';
                 }
             }
         }
         &__Service{
-            // padding: 0 0 0 165px;
             position: absolute;
             left:0px;
             bottom: 0px;
             width:100%;       
             h1{
                 text-align: center;
-                color: #333;
+                color: #393939;
                 font-size: 40px;
                 font-family: 'MavenPro-Medium';
-                margin-bottom: 80px;
+                margin-bottom: 40px;
                 // margin-top: 120px;
             }
             &__Cards{
@@ -64,13 +67,16 @@
                     border-radius: 16px;
                     box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
                     margin-right: 30px;
-                    color: #5d6a6f !important;
+                    color: #393939 !important;
                     &__a{
                         width: 100%;
                         height: 100%;
-                        padding-top: 50px;
+                        padding-top:65px;
                         display: block;
-                        color: #5d6a6f !important;
+                        color: #393939 !important; 
+                        h3:hover{
+                            color: #fff;
+                        }
                         &__img{
                             // background-image: url("/assets/img/homepage/service-design.svg");
                             background-repeat: no-repeat;
@@ -105,14 +111,16 @@
                             display: none;
                         }
                         h3{
-                            margin-top: 20px;
+                            margin: 20px 0px;
                             font-size: 24px;
-                            font-family: 'MavenPro-Medium';
+                            font-family: 'MavenPro-Bold';
+                          
                         }
                         p{
                             margin-top: 10px;
-                            font-size: 14px;
+                            font-size: 17px;
                             font-family: 'PT_Sans-Regular';
+                            color: #737373;
                         }
                     }
                 }
@@ -123,9 +131,9 @@
                     background-color:#ee4b6e;
                     color:#fff !important;
                     text-decoration: none !important;
-                    -webkit-transition: background-color 500ms linear;
-                    -ms-transition: background-color 500ms linear;
-                    transition: background-color 500ms linear;
+                    -webkit-transition: background-color 100ms linear;
+                    -ms-transition: background-color 100ms linear;
+                    transition: background-color 100ms linear;
                     // &__a{
                     //     &__normal{
                     //         display: none;
@@ -145,20 +153,7 @@
                 &__Inner:hover &__Inner__a &__Inner__a__onHover{
                     display: block;
                 }
-                // &__Inner:hover &__a__onHover{
-                //     display: block;
-                //     color:#fff !important;
-                //     text-decoration: none !important;
-                // }
-                // &__Inner:hover &__Inner__img{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
-                // &__Inner:hover &__Inner__img1{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
-                // &__Inner:hover &__Inner__img2{
-                //     background-image: url("/assets/img/homepage/brndg-comm.svg");
-                // }
+               
                 &__Inner:hover p{
                     display: none;
                 }
@@ -179,24 +174,25 @@
        
         padding-bottom: 50px;
         &__left{
-            padding-right: 125px;
+            width: 50%;
+            padding-right: 0px;
+            img{
+                width: 88%;
+                height: 90%;
+            }
         }
         &__right{
-            margin-top: 30px;
-            width: 540px;
+            margin: 0px auto;
+            width: 50%;
             h1{
-                margin-top: 20px;
-                font-size: 40px;
-                font-family: 'MavenPro-Medium';
+                margin:0px;
+                font-size: 24px;
+                font-family: 'MavenPro-Bold';
                 color: #393939;
             }
             p{
-                font-size: 20px;
-                font-family: 'PT_Sans-Regular';
-                color: #5d6a6f;
                 margin-bottom: 32px;
                 margin-top: 20px;
-                line-height: 25px;
             }
             // a{
             //     padding: 12px 30px 14px;
@@ -221,16 +217,27 @@
     letter-spacing: normal;
     /* text-align: left; */
     color: #393939;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .lb-ourworks-dna{
-    margin: 100px 83px 0;
+    
+    width: 1100px;
+    margin: 250px auto 0;
 }
 @media screen and (max-width: 1366px) {
+    li.lb_work_filterli:first-child {
+        margin-left: 60px !important;
+    }
+    .lb-Workfilter {
+        padding-top: 36px;
+    }
+    .tabs{
+        margin-left: 50px !important;
+    }
     .lb-ourworks{
-        font-size: 40px;
-        padding-bottom: 50px;
+        font-size: 32px;
+        padding-bottom: 36px;
     }
     .homePage{
          margin-top: 0;
@@ -241,15 +248,15 @@
                 background-size: 34%;
                 background-position: right 140px;
                 &__Content{
-                    padding: 21% 0 0 10%;
-                    width: 462px;
+                    padding: 259px 0 0 81px;
+                    width: 541px;
                     h1{
-                        font-size: 48px;
+                        font-size: 40px;
                     }
                     p{
-                        font-size: 16px;
-                        line-height: 25px;
+                        padding-top: 20px
                     }
+                   
                 }
             }
             &__Service{
@@ -265,7 +272,7 @@
                         height: 318px;
                         margin-right: 20px;
                         &__a{
-                            padding-top: 30px;
+                            padding-top: 64px;
                             h3{
                                 font-size: 16px;
                             }
@@ -298,19 +305,22 @@
         &__dna{
             
             &__left{
+                width: 50%;
                 img{
-                    width: 366px;
-                    height: 376px;
+                    width: 88%;
+                    height: 90%;
                 }
             }
             &__right{
-                width: 460px;
+               width: 50%;
+                margin: 0px auto;
+                padding-right: 90px;
                 h1{
-                    font-size: 32px;
+                    font-size: 20px;
+                    margin: 0px;
                 }
                 p{
-                    font-size: 16px;
-                    line-height: 25px;
+
                 }
                 a{
                     font-size: 16px;
@@ -319,24 +329,30 @@
         }
     }
     .lb-ourworks-dna{
-        margin: 180px 42px 0;
+        width: 965px;
+        margin: 193px auto 0;
     }
 }
 @media screen and (max-width: 1023px) {
+    li.lb_work_filterli:first-child {
+        margin-left: 15px !important;
+    }
+    .lb-Workfilter {
+        padding-top: 32px;
+    }
     .homePage{
         &__BnrDiv{
             &__Inner{
                 height: auto;
                 &__Content{
-                    padding: 21% 0 0 10%;
-                    width: 342px;
+                    padding: 200px 0px 0px 93px;
+                    width: 382px;
                     h1{
                         font-size: 32px;
                     }
-                    p{
-                        font-size: 14px;
-                        line-break: 30px;
-                    }
+                   p{
+                       padding-top: 16px;
+                   }
                 }
             }
             &__dna{
@@ -347,14 +363,15 @@
                 // top: 130px;
             
                 h1{
-                    font-size: 24px;
-                    margin-bottom: 40px;
+                    font-size: 28px;
+                    margin-bottom: 36px;
                 }
                 &__Cards{
                     &__Inner{
                         width: 220px;
                         height: 260px;
                         &__a{
+                                padding-top: 48px;
                             h3{
                                 font-size: 16px;
                             }
@@ -376,39 +393,47 @@
             
             &__left{
                 img{
-                    width: 250px;
-                    height: 257px;
+                    width: 90%;
+                    height: 93%;
                 }
             }
             &__right{
                 width: 342px;
+                margin: 0px auto;
+                padding-right: -1px;
                 h1{
-                    font-size: 24px;
+                    font-size: 16px;
+                    margin: 0px;
                 }
                 p{
-                    font-size: 14px;
-                    line-height: 25px;
+                    margin-bottom: 32px;
+                    margin-top: 16px; 
                 }
                 a{
                     font-size: 14px;
                 }
             }
         }
+        &__dna {
+            padding-bottom: 60px;
+        }
     }
     .lb-ourworks{
-        font-size: 24px;
-        padding-bottom: 0px;
+        font-size: 28px;
+        padding-bottom: 36px;
     }
     .lb-ourworks-dna{
-        margin: 180px 34px 0;
+        width: 700px;
+        margin: 170px auto 0;
     }
 }
 @media screen and (max-width: 767px) {
+
     .homePage{
         margin-top: 80px;
         &__BnrDiv{
             // background-image:none;
-            background-image: url(/assets/img/homepage/mobile-home-banner2.gif);
+            background-image: url(/assets/img/homepage/001-5_Home-page-mobile.gif);
             background-size: cover;
             background-position: center center;
             // padding-top: 284px;
@@ -417,31 +442,27 @@
                 height: 710px;
                 background-image: none;
                 &__Content{
-                     padding: 0 65px 0 65px;
-                     width: 100%;
-                    padding-top:35%;
+                    padding: 0;
+                    width: 300px;
+                    padding-top: 370px;
                     text-align: center;
                     margin: 0 auto;
-                    position: absolute;
-                    bottom: 370px;
                     h1{
-                        font-size: 24px;
+                        font-size: 28px;
                     }
-                    p{
-                        font-size: 12px;
-                        line-height: 16px;
-                    }
+                   p{
+                       padding-top: 12px;
+                   }
                 }
             }
             &__Service{
                 // position: relative;
                 // top: 20px;   
-                bottom: -466px;         
+                bottom: -386px;         
                 h1{
-                    color: #5d6a6f;
                     margin-top: -390px;
                     font-size: 24px;
-                    margin-bottom: 40px;
+                    margin-bottom: 32px;
                 }
                 &__Cards{
                     display: block;
@@ -452,14 +473,6 @@
                         &__a{
                             padding-top: 50px;
                            
-                            // &__img1{
-                            //     width:56px;
-                            //     height: 56px;
-                            // }
-                            // &__img2{
-                            //     width:56px;
-                            //     height: 56px;
-                            // }
                             h3{
                                 font-size: 16px;
                             }
@@ -476,28 +489,29 @@
         }
         &__dna{
             display: block;
-            margin-top:40px;
-            padding-bottom:83px;
+            margin-top:32px;
+            padding-bottom:65px;
             &__left{
                 padding-right: 0;
                 margin: 0 auto;
-                width: 264px;
-                height: 246px;
+                // width: 264px;
+                // height: 246px;
                 img{
-                    width: 264px;
-                    height: 246px;
+                    width: 100%;
+                    height: 100%;
                 }
             }
             &__right{
                 width: 264px;
                 text-align: center;
-                margin: 80px auto 0px;
+                margin: 32px auto 0px;
+                padding: 0px;
                 h1{
                     font-size: 16px;
                 }
                 p{
-                    font-size: 12px;
-                    line-height: 16px;
+                 margin-top: 12px;
+
                 }
                 a{
                     font-size: 14px;
@@ -508,10 +522,11 @@
     }
     .lb-ourworks{
         font-size: 24px;
-        padding-bottom: 0px;
+        padding-bottom: 32px;
     }
     .lb-ourworks-dna{
-        margin: 530px 0 0;
+        width: 300px;
+        margin: 431px auto 0;
     }
     .dropdown-toggle{
         text-align:center;

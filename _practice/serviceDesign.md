@@ -54,12 +54,12 @@ newproductImage3: '/assets/img/service/page-1 (18).svg'
 newproductActiveImage3: '/assets/img/service/prod-1.svg'
 newproductContent3: Prototype
 newprodContenthead3: Prototype
-newprodContent3: Building the wireframe and going to market for validation of the idea
+newprodContent3: Building omni-channel wireframe and optimise user experience through customer feedback
 newproductImage4: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage4: '/assets/img/service/arrowservice.svg'
 newproductContent4: Design
 newprodContenthead4: Design
-newprodContent4: Designing the product with the feedback collected and going to the market
+newprodContent4: Design scalable UI components and create inspiring screens which captures the user’s imagination 
 url: "ServiceDesign"
 cardlist: 
     - list:

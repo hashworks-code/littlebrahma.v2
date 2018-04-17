@@ -2,7 +2,6 @@ var sVal = false;
 $(document).ready(function() {
     // $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
     newFunction();
-
     $('.prctSec_tab').click(function(){
       $(this).addClass('prctSec_active');
       $(this).siblings().removeClass('prctSec_active').addClass('prctSec_inactive');

@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy/xpe-Banner.jpg"
+banner_imag1: "/assets/img/caseStudy/XPE2.png"
 banner-Head: "Extreme Performance engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
 section: "gov"
@@ -74,7 +74,7 @@ content_lists1:
 
 box-Head4: '187'
 box-Head5: 'apps'
-box-para4: 'to be on-boarded in the clients IT eco-system for real-time monitoring'
+box-para4: 'on-boarded in the clients IT eco-system for real-time monitoring'
 
 cHead4: "Output"
 cContent8: "Our discovery phase helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
@@ -157,7 +157,7 @@ product_title: Monitoring the application performance.
 product_title1: Extreme Performance Engg.
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
+banner_image: "/assets/img/caseStudy/XPE2.png"
 textcolor: text-white
 url: "ServiceDesign1"
 
