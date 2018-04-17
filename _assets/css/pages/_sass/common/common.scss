@@ -145,6 +145,9 @@ footer, header, hgroup, menu, nav, section, main {
 .hello{
     border-bottom: 3px solid #ea1c49;;
 }
+.row:after,.row:before{
+    content: normal;
+}
 
 .transition{
     transition: all .5s ease;
