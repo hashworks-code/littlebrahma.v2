@@ -111,7 +111,7 @@
   src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
 
 body {
-  overflow: hidden !important;
+  overflow-x: hidden !important;
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
