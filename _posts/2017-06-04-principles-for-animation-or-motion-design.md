@@ -1,6 +1,6 @@
 ---
 date: '2017-06-08 16:18 +0530'
-layout: blog_detail
+layout: service_detail
 author_name: sanjay
 published: true
 title: Principles for Animation or Motion Design
