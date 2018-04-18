@@ -1,26 +1,6 @@
 
 .footer{
-  position: relative;
-  &__image{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    background: linear-gradient(to bottom,#ff698f,#ff84a1)
-  //   z-index: -1;
-  //   background-position: 30px 0;
-  //   background-position: center center;
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  //   width: 100%;
-  // background-image: url("/assets/img/common/Footr_img_1.png");
-  }
-  &__img{
-    width: 600px;
-    position: absolute;
-    right: 0;
-    bottom: 58px;
-    z-index: 1;
-  }
+ 
   &__inner{
     font-size: 48px;
     font-family: 'MavenPro-Regular';
@@ -66,11 +46,25 @@
     }
   }
 }
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1024px) {
 .footer{
-height: 520px;
-position: relative;
-margin-top: 80px;
+  height: 500px;
+  position: relative;
+  &__image{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(to top,#ff698f,#ff84a1);
+   z-index: -1;
+  }
+  &__img{
+    width: 870px;
+    position: static;
+    display: flex;
+    margin: 0 auto;
+    z-index: 999;
+    padding-top:22px;
+  }
 &__inner{
   position: absolute;
     top: -91px;
@@ -109,9 +103,23 @@ justify-content: space-between;
 
 @media screen and (max-width: 1023px) {
 .footer{
-height: 460px;
-position: unset;
-margin: 0px;
+  height: 500px;
+  position: relative;
+  &__image{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(to top,#ff698f,#ff84a1);
+   z-index: -1;
+  }
+  &__img{
+    width:600px;
+    position: static;
+    display: flex;
+    margin: 0 auto;
+    z-index: 999;
+    padding-top:3px;
+  }
 &__inner{
   position: unset;
   font-size: 32px;
@@ -129,7 +137,7 @@ margin: 0px;
   height: 100%;
   align-items: flex-end;
   width: 100%;
-  padding: 0px 35px 24px 35px;
+  padding: 55px 35px 24px 35px;
   margin: 0 auto;
   justify-content: space-between;
   div{
@@ -148,9 +156,19 @@ margin: 0px;
 }
 @media screen and (max-width: 767px) {
 .footer{
-height: 335px;
-position: unset;
-margin: 0px;
+  height: 300px;
+  position: relative;
+  &__image{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(to top,#ff698f,#ff84a1);
+   z-index: -1;
+  }
+  &__img{
+    width:320px;
+    padding-top:33px;
+  }
 &__inner{
   position: unset;
   font-size: 24px;
@@ -168,7 +186,7 @@ margin: 0px;
   height: 100%;
   align-items: flex-end;
   width: 100%;
-  padding: 0px 15px 16px 15px;
+  padding: 40px 15px 16px 15px;
   margin: 0 auto;
   justify-content: space-between;
   div{
@@ -185,38 +203,27 @@ margin: 0px;
 }
 }
 }
-@media screen and (max-width: 600px) {
-.footer{
-height: 320px;
-&__bottom{
-  width: 100%;
-  padding: 0px 15px 16px 15px;
-}
-}
-} 
-@media screen and (max-width: 420px) {
-.footer{
-  height: 220px;
-&__inner{
-  padding: 0px 0 0 24px;
 
-  a{
-    padding: 5px 18px 6px;
-  }
-}
-&__bottom{
-  width: 100%;
-  padding: 0px 15px 16px 15px;
-  }
-}
-}
+
 
  /*footer ends*/
  @media screen and (min-width: 1367px) {
   .footer{
+    height: 600px;
     position: relative;
-  height:500px;
-  margin-top: 80px;
+    &__image{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: linear-gradient(to top,#ff698f,#ff84a1);
+     z-index: -1;
+    }
+    &__img{
+      width: 941px;
+      position: absolute;
+      right: 0;
+      bottom: 19px;
+    }
   &__inner{
     position: absolute;
     top: -91px;
@@ -230,10 +237,7 @@ height: 320px;
     }
    
   }
-  &__image{
-    background-position: 20% 0px;
-    background-size:cover;
-  }
+
   &__bottom{
     bottom:16px;
     display: flex;
@@ -257,13 +261,4 @@ height: 320px;
     }
   }
   }
-  }
-  @media screen and (min-width:1600px) {
-    .footer{
-      height: 615px;
-      &__image{
-        background-position: 0% 0px;
-        background-size:143% 100%;
-      }
-    }
   }

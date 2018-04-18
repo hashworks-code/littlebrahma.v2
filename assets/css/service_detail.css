@@ -1106,55 +1106,60 @@ html, body {
   width: 100%;
   background: #ea1c49; }
 
-.footer {
-  position: relative; }
-  .footer__image {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff698f), to(#ff84a1));
-    background: linear-gradient(to bottom, #ff698f, #ff84a1); }
-  .footer__img {
-    width: 600px;
-    position: absolute;
-    right: 0;
-    bottom: 58px;
-    z-index: 1; }
-  .footer__inner {
-    font-size: 48px;
-    font-family: 'MavenPro-Regular';
-    color: #393939;
-    padding: 80px 0 0 164px; }
-    .footer__inner h1 {
-      margin-bottom: 10px;
-      margin-top: 15px; }
-    .footer__inner a {
-      font-size: 20px;
-      text-decoration: none; }
-  .footer__bottom div {
-    display: inline-block;
-    font-family: 'MavenPro-Bold';
-    font-size: 16px;
-    color: #ffffff; }
-  .footer__bottom__div {
-    text-align: left; }
-  .footer__bottom__div1 {
-    text-align: center; }
-    .footer__bottom__div1 img {
-      width: 23px;
-      height: 23px;
-      margin-right: 5px; }
-    .footer__bottom__div1 .behance {
-      width: 28px;
-      height: 28px; }
-  .footer__bottom__div2 {
-    text-align: right; }
+.footer__inner {
+  font-size: 48px;
+  font-family: 'MavenPro-Regular';
+  color: #393939;
+  padding: 80px 0 0 164px; }
+  .footer__inner h1 {
+    margin-bottom: 10px;
+    margin-top: 15px; }
+  .footer__inner a {
+    font-size: 20px;
+    text-decoration: none; }
 
-@media screen and (max-width: 1366px) {
+.footer__bottom div {
+  display: inline-block;
+  font-family: 'MavenPro-Bold';
+  font-size: 16px;
+  color: #ffffff; }
+
+.footer__bottom__div {
+  text-align: left; }
+
+.footer__bottom__div1 {
+  text-align: center; }
+  .footer__bottom__div1 img {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px; }
+  .footer__bottom__div1 .behance {
+    width: 28px;
+    height: 28px; }
+
+.footer__bottom__div2 {
+  text-align: right; }
+
+@media screen and (min-width: 1024px) {
   .footer {
-    height: 520px;
-    position: relative;
-    margin-top: 80px; }
+    height: 500px;
+    position: relative; }
+    .footer__image {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1; }
+    .footer__img {
+      width: 870px;
+      position: static;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      z-index: 999;
+      padding-top: 22px; }
     .footer__inner {
       position: absolute;
       top: -91px;
@@ -1190,9 +1195,24 @@ html, body {
 
 @media screen and (max-width: 1023px) {
   .footer {
-    height: 460px;
-    position: unset;
-    margin: 0px; }
+    height: 500px;
+    position: relative; }
+    .footer__image {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1; }
+    .footer__img {
+      width: 600px;
+      position: static;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      z-index: 999;
+      padding-top: 3px; }
     .footer__inner {
       position: unset;
       font-size: 32px;
@@ -1211,7 +1231,7 @@ html, body {
           -ms-flex-align: end;
               align-items: flex-end;
       width: 100%;
-      padding: 0px 35px 24px 35px;
+      padding: 55px 35px 24px 35px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1227,9 +1247,18 @@ html, body {
 
 @media screen and (max-width: 767px) {
   .footer {
-    height: 335px;
-    position: unset;
-    margin: 0px; }
+    height: 300px;
+    position: relative; }
+    .footer__image {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1; }
+    .footer__img {
+      width: 320px;
+      padding-top: 33px; }
     .footer__inner {
       position: unset;
       font-size: 24px;
@@ -1248,7 +1277,7 @@ html, body {
           -ms-flex-align: end;
               align-items: flex-end;
       width: 100%;
-      padding: 0px 15px 16px 15px;
+      padding: 40px 15px 16px 15px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1262,30 +1291,23 @@ html, body {
           width: 10px;
           height: 10px; } }
 
-@media screen and (max-width: 600px) {
-  .footer {
-    height: 320px; }
-    .footer__bottom {
-      width: 100%;
-      padding: 0px 15px 16px 15px; } }
-
-@media screen and (max-width: 420px) {
-  .footer {
-    height: 220px; }
-    .footer__inner {
-      padding: 0px 0 0 24px; }
-      .footer__inner a {
-        padding: 5px 18px 6px; }
-    .footer__bottom {
-      width: 100%;
-      padding: 0px 15px 16px 15px; } }
-
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    position: relative;
-    height: 500px;
-    margin-top: 80px; }
+    height: 600px;
+    position: relative; }
+    .footer__image {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1; }
+    .footer__img {
+      width: 941px;
+      position: absolute;
+      right: 0;
+      bottom: 19px; }
     .footer__inner {
       position: absolute;
       top: -91px;
@@ -1295,9 +1317,6 @@ html, body {
         padding-bottom: 32px; }
       .footer__inner a {
         font-size: 20px; }
-    .footer__image {
-      background-position: 20% 0px;
-      background-size: cover; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1321,13 +1340,6 @@ html, body {
         .footer__bottom div .behance {
           width: 28px;
           height: 28px; } }
-
-@media screen and (min-width: 1600px) {
-  .footer {
-    height: 615px; }
-    .footer__image {
-      background-position: 0% 0px;
-      background-size: 143% 100%; } }
 
 .alignText {
   text-align: left; }
