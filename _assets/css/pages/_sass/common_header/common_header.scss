@@ -650,6 +650,9 @@ Primary style
   .lb-desktop{
     display: none !important;
   }
+  img.lb-mobile {
+    height: 36px !important;
+}
 
 }
 @media only screen and (min-width:767px) {

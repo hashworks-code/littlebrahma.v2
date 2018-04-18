@@ -575,6 +575,9 @@ button.lb_btn:focus {
     }
     
 }
+.workfilter1{
+    display: none;
+}
 .filterli-2{
     display: none;
 }
@@ -622,4 +625,7 @@ button.lb_btn:focus {
 }
 .dropdown-menu li.lb_work_filterActive{
     border-bottom: none;
+}
+button#menu1 {
+    text-align: center;
 }

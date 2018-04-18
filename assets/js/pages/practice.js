@@ -5,7 +5,19 @@ $(window).resize(function(){
  }
 });
 $(document).ready(function() {
-    // $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
+
+  $('.btn-circle.service-btn').click(function(){
+    $(this).addClass('transparent');
+    $(this).parent('.stepwizard-step').prevAll('.stepwizard-step').addClass('active');
+    $(this).parent('.stepwizard-step').nextAll('.stepwizard-step').removeClass('active');
+    $(this).parent('.stepwizard-step').removeClass('active');
+           $(this).parent('.stepwizard-step').siblings('.stepwizard-step').children('.btn-circle.service-btn').removeClass('transparent');
+ $(this).siblings('.circle1,.circle2').addClass('circle-animation');
+ $(this).siblings('.step-content').addClass('step-content-show');
+ $(this).parent('.stepwizard-step').siblings('.stepwizard-step').children('.step-content').removeClass('step-content-show');
+ $(this).parent('.stepwizard-step').siblings('.stepwizard-step').children('.circle1,.circle2').removeClass('circle-animation');
+
+})
     if(screen.width > 1024){
        newFunction();
     }
