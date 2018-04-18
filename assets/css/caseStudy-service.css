@@ -1182,7 +1182,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
@@ -1236,7 +1237,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 12px; }
         .footer__bottom div img {
@@ -1284,7 +1286,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 8px; }
         .footer__bottom div img {
@@ -1334,7 +1337,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
@@ -1740,7 +1744,7 @@ html, body {
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
-  padding: 0px 20px; }
+  padding: 0px 36px; }
 
 .branding__enigmalist {
   padding: 50px 0px 24px;
@@ -3015,7 +3019,7 @@ html, body {
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
-  padding: 0px 20px; }
+  padding: 0px 36px; }
 
 .branding__enigmalist {
   padding: 50px 0px 24px;
@@ -3877,7 +3881,8 @@ html, body {
   .caseStudy__content1 {
     margin: 57px 32px; }
   .CSservice1 {
-    margin: 0 32px; }
+    margin: 0 32px;
+    width: 204px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
     margin: 80px 0 150px;

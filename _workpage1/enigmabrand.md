@@ -22,7 +22,7 @@ background:
     imageType: "tab"
 
 backgroundlogo:
-  - imagelogo: "/assets/img/branding/hashworks/enigmaLogoMob.png"
+  - imagelogo: "/assets/img/branding/hashworks/enigmaLogoMob.svg"
     imageTypelogo: "mobileLogo"
   - imagelogo: "/assets/img/branding/hashworks/enigmaLogoTab.png"
     imageTypelogo: "tabLogo"
@@ -55,11 +55,11 @@ conceptImage2: "enigmab.svg"
 conceptImage3: "enigmac.svg"
 conceptImage4: "enigmad.svg"
 
-finallogo: "logo.svg"
+finallogo: "logo.png"
 
 meaningTitle: "Meaning behind the Logo"
 meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
-meaningImage: "meaning.svg"
+meaningImage: "meaning.png"
 enigmalogo: "1-st-image.svg"
 
 variations1: "1.svg"
@@ -119,7 +119,7 @@ enigmaImageList:
     class: padding
   - enigmaImage: "8.jpg"
     class: Nopadding
-  - enigmaImage: "web-mock-01.jpg"
+  - enigmaImage: "web_Mock-01.png"
     class: Nopadding
 
 ---

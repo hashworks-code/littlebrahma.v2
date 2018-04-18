@@ -1182,7 +1182,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {
@@ -1236,7 +1237,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 12px; }
         .footer__bottom div img {
@@ -1284,7 +1286,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 8px; }
         .footer__bottom div img {
@@ -1334,7 +1337,8 @@ html, body {
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
         .footer__bottom div img {

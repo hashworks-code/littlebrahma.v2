@@ -18,7 +18,7 @@ background:
   - image: "/assets/img/branding/hashworks/hashconceptTab.png"
     imageType: "tab"
 backgroundlogo:
-  - imagelogo: "/assets/img/branding/hashworks/hashLogoMob.png"
+  - imagelogo: "/assets/img/branding/hashworks/hashLogoMob.svg"
     imageTypelogo: "mobileLogo"
   - imagelogo: "/assets/img/branding/hashworks/hashLogoTab.png"
     imageTypelogo: "tabLogo"
