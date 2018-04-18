@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   // $('.lb-filter-service').hide();
-if(sessionStorage.getItem("pageDetails") != "") {
+if(sessionStorage.getItem("pageDetails") != "" && sessionStorage.getItem("pageDetails") != null) {
   smoothScroll();
 }
   function smoothScroll(text) {
@@ -13,7 +13,6 @@ if(sessionStorage.getItem("pageDetails") != "") {
       } else if(sessionStorage.getItem("pageDetails") == "Product Design") {
         $('#filterli-1').click();
       } else if(sessionStorage.getItem("pageDetails") == "Branding &amp; Communication Design") {
-        debugger;
         $('#filterli-3').click();
       }
       sessionStorage.setItem("pageDetails", ""); 

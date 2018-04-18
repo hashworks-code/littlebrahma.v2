@@ -262,8 +262,8 @@ $(window).resize(function(){
 
         $('#lb_btn').click(function(){
            
-            $("#lb_btn1").show();
-            $("#lb_btn").hide();
+            // $("#lb_btn1").show();
+             $("#lb_btn").hide();
               
              if ($(window).width() > 767) {
                 var id =$('.lb_work_filterActive').attr('id');
@@ -746,11 +746,9 @@ $(window).resize(function(){
 //             $("#test").toggleClass("drop_arrow");
 //         })
             $('.knowmore a').click(function() {
-                debugger;
                 var text = $(this).closest("div").parent().find("div.indTxt").html();
                 sessionStorage.setItem("pageDetails", text);
-            });
-            
+            });  
     });
 
 })();
