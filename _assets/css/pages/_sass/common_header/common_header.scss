@@ -563,6 +563,10 @@ Primary style
   .contactHeading{
     width: 280px;
     margin: 0 auto;
+    display: flex;
+  }
+  .close1{
+    margin-top: 81px;
   }
   .contactHeader{
     width: 175px;
@@ -646,10 +650,13 @@ Primary style
   margin-top: 80px;
 }
   .close1 {
-    padding:75px 45px 0px 0px;
+    // padding:75px 45px 0px 0px;
   }
   .contactHeading{
     width: 700px;
+  }
+  .close1{
+    margin:75px 20px 0px 0px;
   }
   .modal-content1 {
     height: 100%;
@@ -712,6 +719,9 @@ Primary style
     font-size: 40px;
     margin:40px auto 50px;
   }
+  .close1{
+    margin: 43px 80px 0px 0px;
+  }
   .contact1{
     width:936px;
     margin: 0 auto;
@@ -762,6 +772,9 @@ Primary style
  
   .contactHeading{
     width: 1125px;
+  }
+  .close1{
+    margin: 64px 103px 0px 0px;
   }
   .contactHeader{
     width:1125px;
