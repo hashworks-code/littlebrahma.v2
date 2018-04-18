@@ -1343,3 +1343,33 @@ html, body {
         .footer__bottom div .behance {
           width: 28px;
           height: 28px; } }
+
+@media screen and (min-width: 2000px) {
+  .footer {
+    height: 800px; }
+    .footer__image {
+      bottom: 0px; }
+    .footer__img {
+      width: 1260px;
+      right: 70px;
+      bottom: -24px; }
+    .footer__inner {
+      position: absolute;
+      top: 128px;
+      left: 240px;
+      font-size: 40px; } }
+
+@media screen and (min-width: 3000px) {
+  .footer {
+    height: 800px; }
+    .footer__image {
+      bottom: 0px; }
+    .footer__img {
+      width: 1300px;
+      right: 140px;
+      bottom: -30px; }
+    .footer__inner {
+      position: absolute;
+      top: 128px;
+      left: 340px;
+      font-size: 40px; } }
