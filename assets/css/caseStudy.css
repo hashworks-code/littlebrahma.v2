@@ -970,7 +970,9 @@ html, body {
   .lb-mobile {
     display: block !important; }
   .lb-desktop {
-    display: none !important; } }
+    display: none !important; }
+  img.lb-mobile {
+    height: 36px !important; } }
 
 @media only screen and (min-width: 767px) {
   .modal1 {

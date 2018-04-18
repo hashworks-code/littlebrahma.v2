@@ -970,7 +970,9 @@ html, body {
   .lb-mobile {
     display: block !important; }
   .lb-desktop {
-    display: none !important; } }
+    display: none !important; }
+  img.lb-mobile {
+    height: 36px !important; } }
 
 @media only screen and (min-width: 767px) {
   .modal1 {
@@ -1988,6 +1990,9 @@ div.test {
     padding-left: 30px;
     height: 340px; } }
 
+.workfilter1 {
+  display: none; }
+
 .filterli-2 {
   display: none; }
 
@@ -2035,6 +2040,9 @@ div.test {
 
 .dropdown-menu li.lb_work_filterActive {
   border-bottom: none; }
+
+button#menu1 {
+  text-align: center; }
 
 .red {
   color: #ea1c49; }

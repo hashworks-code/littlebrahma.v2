@@ -42,9 +42,11 @@
 		   
 					<div class="lb_caseStusy lb_sevicetop">
 							<ul class="lb_work_filter lb_filter_lg">
-								<li class="lb_work_filterli lb_work_filterActive" id="filterli-1" data-id="Product Design">Product design</li>
+								<li class="lb_work_filterli lb_work_filterActive" data-id="All" id="All">All</li>
+								<li class="lb_work_filterli" id="filterli-1" data-id="Product Design">Product design</li>
 								<li class="lb_work_filterli" data-id="Service Design" id="filterli-2">Service Design</li>
 								<li class="lb_work_filterli brander" data-id="Branding & Communication" id="filterli-3">Branding & Comm.</li>
+								
 							</ul>
 			
 							
@@ -59,9 +61,10 @@
 							</div> -->
 							<div class="lb_filter_mb work_selectdiv">
 									<div class="dropdown">
-											<button class="dropdown-toggle dropdownbtn" id="menu1" type="button" data-toggle="dropdown" aria-expanded="false"><span class="option">Product Design</span>
+											<button class="dropdown-toggle dropdownbtn" id="menu1" type="button" data-toggle="dropdown" aria-expanded="false"><span class="option">All</span>
 											<span class="caret caretcss"></span></button>
 											<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+											  <li class="lb_work_filterli lb_work_filterActive" data="All" id="All">All</li>
 											  <li class="lb_work_filterli lb_work_filterActive" id="filterli-1" data="filterli-1" data-id="Product Design" role="presentation">Product Design</li>
 											  <li role="presentation" class="lb_work_filterli" data-id="Service Design" data="filterli-2" id="filterli-2">Service Design</li>
 											  <li role="presentation" class="lb_work_filterli" data-id="Branding & Communication" data="filterli-3" id="filterli-3">Branding & Comm.</li> 
@@ -72,7 +75,7 @@
 			
 						<div class="lb-filterDiv container">
 						   
-								<div class="row filterli-1 common-filter" valuedata="Product Design">
+								<div class="row filterli-1 workfilter1 common-filter" valuedata="Product Design">
 										{% assign item = site.caseStudy-product %}
 										{% for work in item %}
 									   
@@ -150,6 +153,82 @@
 									{% endfor %}
 									
 									</div>    
+                                   <!-- all starts -->
+									<div class="row common-filter all" valuedata="All">
+
+											{% assign item = site.caseStudy-product %}
+											{% for work in item %}
+										   
+											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+											 <a href="{{work.url}}"> 
+											 <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+													<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+														<div class="lb-filter-head {{work.textcolor}}">
+															{{work.product_title}}
+														</div>
+													</div>
+												 </a>
+													<h3 class="lb-filter-header">{{work.product_title1}}</h3>
+													<h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+													<h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+											</div> 
+										  	{% endfor %}
+											
+											  {% assign item = site.caseStudy-service %}
+											  {% for work in item %}
+											  <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+												  <a href="{{work.url}}">    
+												  <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+													  <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+														  <div class="lb-filter-head {{work.textcolor}}">
+															  {{work.product_title}}
+														  </div>
+													  </div>
+													  </a>
+													  <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+													  <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+													  <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+											  </div> 
+											  {% endfor %}
+
+
+											{% assign item = site.caseStudy %}
+											{% for work in item %}
+											
+											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+													<a href="{{work.url}}">
+														<div class="lb-filter-Img transition {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
+														<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+															<div class="lb-filter-head">
+																{{work.product_title}}
+															</div>
+														</div>
+													</a>
+													<h3 class="lb-filter-header">{{work.product_title1}}</h3>
+													<h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+													<h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+											</div> 
+										   
+											{% endfor %}
+											{% assign item = site.workpage1 %}
+											{% for work in item %}
+											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+												<a href="{{work.url}}">
+													<div class="lb-filter-Img transition {{work.textcolor}}" style="background-image:url('{{work.banner_image}}')">
+													<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+														<div class="lb-filter-head">
+															{{work.product_title}}
+														</div>
+													</div>
+												</a>
+													<h3 class="lb-filter-header">{{work.product_title1}}</h3>
+													<h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+													<h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+											</div> 
+											{% endfor %}
+											
+											</div>    
+											<!-- all end -->
 					 </div>
 			
 					 </div>
