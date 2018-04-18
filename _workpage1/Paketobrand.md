@@ -21,7 +21,7 @@ background:
 backgroundlogo:
   - imagelogo: "/assets/img/branding/hashworks/paketoLogoMob.png"
     imageTypelogo: "mobileLogo"
-  - imagelogo: "/assets/img/branding/hashworks/paketoLogoTab.png"
+  - imagelogo: "/assets/img/branding/hashworks/paketoLogoTab.svg"
     imageTypelogo: "tabLogo"
 
 brandImage1: "paketo1.jpg"
