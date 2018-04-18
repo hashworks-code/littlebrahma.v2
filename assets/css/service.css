@@ -136,9 +136,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-video {
-  width: 400px; }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
@@ -1086,7 +1083,7 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-image: url("/assets/img/common/Footr_img.png"); }
+  background-image: url("/assets/img/common/Footr_img_1.png"); }
 
 .footer__inner {
   font-size: 48px;
@@ -1257,7 +1254,7 @@ h1 {
 @media screen and (min-width: 1367px) {
   .footer {
     position: relative;
-    height: 656px;
+    height: 500px;
     margin-top: 80px; }
     .footer__inner {
       position: absolute;
@@ -1269,8 +1266,8 @@ h1 {
       .footer__inner a {
         font-size: 20px; }
     .footer__image {
-      background-position: left;
-      background-size: 120% 100%; }
+      background-position: 22% 0px;
+      background-size: cover; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
