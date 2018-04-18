@@ -18,4 +18,7 @@ if(sessionStorage.getItem("pageDetails") != "" && sessionStorage.getItem("pageDe
       sessionStorage.setItem("pageDetails", ""); 
     }, 500);
   }
+
+
+  
 });

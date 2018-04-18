@@ -5,10 +5,9 @@ $(window).resize(function(){
  }
 });
 $(document).ready(function() {
-  var size=$(window).width();
+  window.size=$(window).width();
 
   if(size<768){
-
 $('.step-setting').addClass('step-mob-padder');
 
   }
@@ -31,6 +30,8 @@ $('.step-setting').addClass('step-mob-padder');
  }
 
 }) 
+
+
   
     if(screen.width > 1024){
        newFunction();
