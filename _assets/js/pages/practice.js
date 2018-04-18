@@ -5,6 +5,14 @@ $(window).resize(function(){
  }
 });
 $(document).ready(function() {
+  var size=$(window).width();
+
+  if(size<768){
+
+$('.step-setting').addClass('step-mob-padder');
+
+  }
+
 
   $('.btn-circle.service-btn').click(function(){
     $(this).addClass('transparent');
@@ -17,7 +25,13 @@ $(document).ready(function() {
  $(this).parent('.stepwizard-step').siblings('.stepwizard-step').children('.step-content').removeClass('step-content-show');
  $(this).parent('.stepwizard-step').siblings('.stepwizard-step').children('.circle1,.circle2').removeClass('circle-animation');
 
-})
+ if(size<768){
+   $(this).parent('.stepwizard-step').addClass('step-mob-padder');
+   $(this).parent('.stepwizard-step').siblings('.stepwizard-step').removeClass('step-mob-padder');
+ }
+
+}) 
+  
     if(screen.width > 1024){
        newFunction();
     }

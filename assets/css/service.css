@@ -2485,6 +2485,8 @@ ul.lb_work_filter.lb_service_lg {
 @media screen and (min-width: 320px) {
   .stepwizard {
     padding-top: 50px; }
+  .step-mob-padder {
+    padding-bottom: 85px !important; }
   .circle1 {
     width: 44px;
     height: 44px;
@@ -2508,7 +2510,6 @@ ul.lb_work_filter.lb_service_lg {
     -webkit-transform: scale(0);
             transform: scale(0); }
   .step-content {
-    width: 230px;
     margin-left: 40px;
     opacity: 0; }
   .lb-explore {
@@ -2545,7 +2546,7 @@ ul.lb_work_filter.lb_service_lg {
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 14px 0px 85px 90px; }
+    padding: 14px 0px 0px 90px; }
     .stepwizard-step.active::before {
       background: red; }
   .stepper-images {
