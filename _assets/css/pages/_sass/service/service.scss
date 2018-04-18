@@ -176,6 +176,10 @@ ul.lb_work_filter.lb_service_lg{
         .stepwizard{
             padding-top:50px;
         }
+        .step-mob-padder{
+            padding-bottom:40px !important;
+
+        }
         .circle1{
             width:44px;
             height:44px;
@@ -199,7 +203,7 @@ ul.lb_work_filter.lb_service_lg{
                 transform:scale(0);
                         }
         .step-content{
-            width:230px;
+            // width:230px;
             margin-left:40px;
             opacity: 0;
         }
@@ -246,7 +250,7 @@ ul.lb_work_filter.lb_service_lg{
             position: relative;
             margin-top: 0px;
             margin-bottom: 0px;
-            padding: 14px 0px 85px 90px;
+            padding: 14px 0px 0px 90px;
             &.active::before{
                 background: red;
 
