@@ -1762,7 +1762,6 @@ li.lb_work_filterli:first-child {
   margin-left: 10px !important; }
 
 .lb-filter-Img {
-  height: 340px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1875,7 +1874,10 @@ div.test {
   .lb-filter-headdesc {
     font-size: 12px; }
   .lb_btn_div {
-    text-align: center; } }
+    text-align: center; }
+  .lb-filter-Img {
+    height: 194px;
+    padding-left: 15px; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
@@ -1886,7 +1888,8 @@ div.test {
   .lb_filter_lg {
     display: block; }
   .lb-filter-Img {
-    padding-left: 15px; }
+    padding-left: 15px;
+    height: 255px; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -1917,7 +1920,8 @@ div.test {
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
-    padding-left: 30px; } }
+    padding-left: 30px;
+    height: 340px; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -1935,7 +1939,8 @@ div.test {
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
-    padding-left: 30px; } }
+    padding-left: 30px;
+    height: 340px; } }
 
 .filterli-2 {
   display: none; }
