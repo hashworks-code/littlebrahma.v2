@@ -221,7 +221,7 @@ height: 320px;
    
   }
   &__image{
-    background-position: 0% 0px;
+    background-position: 20% 0px;
     background-size:cover;
   }
   &__bottom{
@@ -247,4 +247,12 @@ height: 320px;
     }
   }
   }
+  }
+  @media screen and (min-width:1600px) {
+    .footer{
+      &__image{
+        background-position: 0% 0px;
+        background-size:143% 100%;
+      }
+    }
   }

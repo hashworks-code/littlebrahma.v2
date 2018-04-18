@@ -1299,7 +1299,7 @@ h1 {
       .footer__inner a {
         font-size: 20px; }
     .footer__image {
-      background-position: 0% 0px;
+      background-position: 20% 0px;
       background-size: cover; }
     .footer__bottom {
       bottom: 16px;
@@ -1324,6 +1324,11 @@ h1 {
         .footer__bottom div .behance {
           width: 28px;
           height: 28px; } }
+
+@media screen and (min-width: 1600px) {
+  .footer__image {
+    background-position: 0% 0px;
+    background-size: 143% 100%; } }
 
 .blobs {
   width: 160px;
