@@ -305,7 +305,7 @@ li.lb_work_filterli:first-child{
 }
 .lb-filter-Img{
     // width:100%;
-    height: 340px;
+   
     // background-image:url('/assets/img/workpage/groome.png');
     background-size:cover;
     background-position:center center;
@@ -443,7 +443,7 @@ button.lb_btn:focus {
        display: none;
     }
     .work_selectdiv{
-        width: 215px;
+        width: 150px;
         margin: 0 auto;
     }
     .work_select{
@@ -476,6 +476,10 @@ button.lb_btn:focus {
     .lb_btn_div{
         text-align: center;
     }
+    .lb-filter-Img {
+        height: 194px;
+        padding-left:15px;
+    }
   
 }
 @media screen and (max-width: 420px){
@@ -490,6 +494,7 @@ button.lb_btn:focus {
     }
     .lb-filter-Img {
         padding-left:15px;
+        height: 255px;
     }
     .lb_work_filter li{
         font-size: 16px;
@@ -537,6 +542,7 @@ button.lb_btn:focus {
     }
     .lb-filter-Img {
         padding-left:30px;
+        height: 340px;
     }
 
 }
@@ -565,7 +571,9 @@ button.lb_btn:focus {
     }
     .lb-filter-Img {
         padding-left:30px;
+        height: 340px;
     }
+    
 }
 .filterli-2{
     display: none;

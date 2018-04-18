@@ -367,7 +367,8 @@ textarea:hover, textarea:focus {
     font-size: 24px;
     color: #393939; }
   .input {
-    padding: 14px 10px; }
+    padding: 14px 10px;
+    width: 300px; }
   .commonButton {
     border-radius: 20px;
     font-size: 16px;
@@ -870,17 +871,6 @@ html, body {
   padding-right: 15px; }
 
 /*canvas { position: fixed; touch-action: none; }*/
-.modal1 {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  padding-top: 80px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; }
-
 .modal-content1 {
   background-color: #fefefe;
   margin: auto;
@@ -897,12 +887,33 @@ html, body {
 .close1:focus {
   cursor: pointer; }
 
+.lb-mobile {
+  display: none; }
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
 @media only screen and (min-width: 320px) {
+  .mailbox {
+    width: 100%;
+    height: 100%; }
   .myBtn {
     cursor: pointer; }
   .contactHeading {
-    width: 320px;
-    margin: 0 auto; }
+    width: 280px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .close1 {
+    margin-top: 81px; }
   .contactHeader {
     width: 175px;
     font-family: 'MavenPro-Medium';
@@ -915,7 +926,7 @@ html, body {
     .contactHeader span {
       color: #ea1c49; }
   .contact1 {
-    width: 320px;
+    width: 280px;
     margin: 0 auto; }
     .contact1 h2 {
       font-family: 'MavenPro-Bold';
@@ -955,13 +966,19 @@ html, body {
     .contact1__image img {
       width: 154px;
       height: 137px;
-      margin: 16px 46px 24px; } }
+      margin: 16px 46px 24px; }
+  .lb-mobile {
+    display: block !important; }
+  .lb-desktop {
+    display: none !important; } }
 
 @media only screen and (min-width: 767px) {
-  .close1 {
-    padding: 75px 45px 0px 0px; }
+  .modal1 {
+    margin-top: 80px; }
   .contactHeading {
     width: 700px; }
+  .close1 {
+    margin: 75px 20px 0px 0px; }
   .modal-content1 {
     height: 100%; }
   .contactHeader {
@@ -979,7 +996,7 @@ html, body {
     .contact1__form input {
       margin: 0px 0px 12px; }
     .contact1__form textarea {
-      width: 220px;
+      width: 264px;
       height: 115px;
       font-size: 14px; }
     .contact1__company h2:nth-child(1) {
@@ -991,7 +1008,11 @@ html, body {
     .contact1__image img {
       width: 100%;
       height: 182px;
-      margin: 115px 0px 0px; } }
+      margin: 115px 0px 0px; }
+  .lb-mobile {
+    display: none !important; }
+  .lb-desktop {
+    display: block !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1000,6 +1021,8 @@ html, body {
     width: 936px;
     font-size: 40px;
     margin: 40px auto 50px; }
+  .close1 {
+    margin: 43px 80px 0px 0px; }
   .contact1 {
     width: 936px;
     margin: 0 auto; }
@@ -1025,11 +1048,17 @@ html, body {
       font-size: 14px; }
     .contact1__image img {
       margin-top: 90px;
-      height: 255px; } }
+      height: 255px; }
+  .lb-mobile {
+    display: none !important; }
+  .lb-desktop {
+    display: block !important; } }
 
 @media only screen and (min-width: 1440px) {
   .contactHeading {
     width: 1125px; }
+  .close1 {
+    margin: 64px 103px 0px 0px; }
   .contactHeader {
     width: 1125px;
     font-size: 48px;
@@ -1044,7 +1073,7 @@ html, body {
       margin: 0px 0px 16px; }
     .contact1__form textarea {
       font-size: 14px;
-      width: 350px;
+      width: 300px;
       height: 160px; }
     .contact1__form button {
       margin: 40px 0px 0px; }
@@ -1057,7 +1086,11 @@ html, body {
       font-size: 16px; }
     .contact1__image img {
       margin-top: 90px;
-      height: 300px; } }
+      height: 300px; }
+  .lb-mobile {
+    display: none !important; }
+  .lb-desktop {
+    display: block !important; } }
 
 .cd-secondary-navli:after {
   content: '';
@@ -1082,7 +1115,7 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-image: url("/assets/img/common/Footr_img.png"); }
+  background-image: url("/assets/img/common/Footr_img_1.png"); }
 
 .footer__inner {
   font-size: 48px;
@@ -1128,7 +1161,7 @@ h1 {
       position: absolute;
       top: -91px;
       font-size: 40px;
-      padding: 80px 0 0 42px; }
+      padding: 80px 0 0 68px; }
       .footer__inner a {
         font-size: 20px; }
       .footer__inner h1 {
@@ -1165,7 +1198,7 @@ h1 {
     .footer__inner {
       position: unset;
       font-size: 32px;
-      padding: 48px 0 0 34px; }
+      padding: 48px 0 0 68px; }
       .footer__inner a {
         font-size: 14px; }
       .footer__inner h1 {
@@ -1253,20 +1286,20 @@ h1 {
 @media screen and (min-width: 1367px) {
   .footer {
     position: relative;
-    height: 656px;
+    height: 500px;
     margin-top: 80px; }
     .footer__inner {
       position: absolute;
       top: -91px;
       font-size: 40px;
-      padding: 80px 0 0 42px; }
+      padding: 82px 0 0 168px; }
       .footer__inner h1 {
         padding-bottom: 32px; }
       .footer__inner a {
         font-size: 20px; }
     .footer__image {
-      background-position: left;
-      background-size: 120% 100%; }
+      background-position: 20% 0px;
+      background-size: cover; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1290,6 +1323,11 @@ h1 {
         .footer__bottom div .behance {
           width: 28px;
           height: 28px; } }
+
+@media screen and (min-width: 1600px) {
+  .footer__image {
+    background-position: 0% 0px;
+    background-size: 143% 100%; } }
 
 .prct {
   line-height: 1.5; }
@@ -1758,7 +1796,6 @@ li.lb_work_filterli:first-child {
   margin-left: 10px !important; }
 
 .lb-filter-Img {
-  height: 340px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1848,7 +1885,7 @@ div.test {
   .lb_filter_lg {
     display: none; }
   .work_selectdiv {
-    width: 215px;
+    width: 150px;
     margin: 0 auto; }
   .work_select {
     background-color: #fff;
@@ -1871,7 +1908,10 @@ div.test {
   .lb-filter-headdesc {
     font-size: 12px; }
   .lb_btn_div {
-    text-align: center; } }
+    text-align: center; }
+  .lb-filter-Img {
+    height: 194px;
+    padding-left: 15px; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
@@ -1882,7 +1922,8 @@ div.test {
   .lb_filter_lg {
     display: block; }
   .lb-filter-Img {
-    padding-left: 15px; }
+    padding-left: 15px;
+    height: 255px; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -1913,7 +1954,8 @@ div.test {
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
-    padding-left: 30px; } }
+    padding-left: 30px;
+    height: 340px; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -1931,7 +1973,8 @@ div.test {
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
-    padding-left: 30px; } }
+    padding-left: 30px;
+    height: 340px; } }
 
 .filterli-2 {
   display: none; }
@@ -2329,8 +2372,6 @@ li.lb_work_filterli:first-child {
   .lb-ourworks-dna {
     width: 300px;
     margin: 431px auto 0; }
-  .dropdown-toggle {
-    text-align: center; }
   .lb_work_filterli {
     text-align: center; } }
 

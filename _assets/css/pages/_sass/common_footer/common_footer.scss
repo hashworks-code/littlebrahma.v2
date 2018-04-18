@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-  background-image: url("/assets/img/common/Footr_img.png");
+  background-image: url("/assets/img/common/Footr_img_1.png");
   }
   &__inner{
     font-size: 48px;
@@ -65,7 +65,7 @@ margin-top: 80px;
   position: absolute;
     top: -91px;
   font-size: 40px;
-  padding: 80px 0 0 42px;
+  padding: 80px 0 0 68px;
   a{
     font-size: 20px;
   }
@@ -105,7 +105,7 @@ margin: 0px;
 &__inner{
   position: unset;
   font-size: 32px;
-  padding: 48px 0 0 34px;
+  padding: 48px 0 0 68px;
   a{
     font-size: 14px;
   }
@@ -205,13 +205,13 @@ height: 320px;
  @media screen and (min-width: 1367px) {
   .footer{
     position: relative;
-  height:656px;
+  height:500px;
   margin-top: 80px;
   &__inner{
     position: absolute;
     top: -91px;
     font-size: 40px;
-    padding: 80px 0 0 42px;
+    padding: 82px 0 0 168px;
      h1{
       padding-bottom: 32px;
     }
@@ -221,8 +221,8 @@ height: 320px;
    
   }
   &__image{
-    background-position: left;
-    background-size: 120% 100%;
+    background-position: 20% 0px;
+    background-size:cover;
   }
   &__bottom{
     bottom:16px;
@@ -247,4 +247,12 @@ height: 320px;
     }
   }
   }
+  }
+  @media screen and (min-width:1600px) {
+    .footer{
+      &__image{
+        background-position: 0% 0px;
+        background-size:143% 100%;
+      }
+    }
   }
