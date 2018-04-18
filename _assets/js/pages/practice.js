@@ -5,7 +5,10 @@ $(window).resize(function(){
  }
 });
 $(document).ready(function() {
-    // $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
+ 
+
+
+  
     if(screen.width > 1024){
        newFunction();
     }
