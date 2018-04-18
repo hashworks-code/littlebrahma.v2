@@ -1109,8 +1109,7 @@ html, body {
 .footer__inner {
   font-size: 48px;
   font-family: 'MavenPro-Regular';
-  color: #393939;
-  padding: 80px 0 0 164px; }
+  color: #393939; }
   .footer__inner h1 {
     margin-bottom: 10px;
     margin-top: 15px; }
@@ -1142,7 +1141,7 @@ html, body {
 
 @media screen and (min-width: 1024px) {
   .footer {
-    height: 500px;
+    height: 600px;
     position: relative; }
     .footer__image {
       position: absolute;
@@ -1159,16 +1158,14 @@ html, body {
       display: flex;
       margin: 0 auto;
       z-index: 999;
-      padding-top: 22px; }
+      padding-top: 121px; }
     .footer__inner {
       position: absolute;
-      top: -91px;
-      font-size: 40px;
-      padding: 80px 0 0 68px; }
+      top: 35px;
+      left: 50px;
+      font-size: 40px; }
       .footer__inner a {
         font-size: 20px; }
-      .footer__inner h1 {
-        padding-bottom: 16px; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1205,22 +1202,24 @@ html, body {
       background: linear-gradient(to top, #ff698f, #ff84a1);
       z-index: -1; }
     .footer__img {
-      width: 600px;
+      width: 722px;
       position: static;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
       z-index: 999;
-      padding-top: 3px; }
+      padding-top: 115px; }
     .footer__inner {
-      position: unset;
+      position: absolute;
       font-size: 32px;
-      padding: 48px 0 0 68px; }
+      padding: 0;
+      left: 55px;
+      top: 25px; }
       .footer__inner a {
         font-size: 14px; }
       .footer__inner h1 {
-        padding-bottom: 16px; }
+        padding-bottom: 0px; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1258,15 +1257,17 @@ html, body {
       z-index: -1; }
     .footer__img {
       width: 320px;
-      padding-top: 33px; }
+      padding-top: 110px; }
     .footer__inner {
-      position: unset;
+      position: absolute;
       font-size: 24px;
-      padding: 0px 0 0 24px; }
+      padding: 0;
+      top: 32px;
+      left: 30px; }
       .footer__inner a {
         font-size: 14px; }
       .footer__inner h1 {
-        padding-bottom: 8px; }
+        padding-bottom: 0px; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1294,7 +1295,7 @@ html, body {
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 600px;
+    height: 700px;
     position: relative; }
     .footer__image {
       position: absolute;
@@ -1310,11 +1311,11 @@ html, body {
       bottom: 19px; }
     .footer__inner {
       position: absolute;
-      top: -91px;
-      font-size: 40px;
-      padding: 82px 0 0 168px; }
+      top: 128px;
+      left: 160px;
+      font-size: 40px; }
       .footer__inner h1 {
-        padding-bottom: 32px; }
+        padding-bottom: 15px; }
       .footer__inner a {
         font-size: 20px; }
     .footer__bottom {
