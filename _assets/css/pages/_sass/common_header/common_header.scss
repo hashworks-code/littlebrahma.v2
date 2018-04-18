@@ -540,6 +540,9 @@ Primary style
 .close1:focus {
     cursor: pointer;
 }
+.lb-mobile{
+  display: none;
+}
 
 
 .modal1 {
@@ -642,6 +645,12 @@ Primary style
       }
     }
   }
+  .lb-mobile{
+    display: block !important;
+  }
+  .lb-desktop{
+    display: none !important;
+  }
 
 }
 @media only screen and (min-width:767px) {
@@ -707,6 +716,12 @@ Primary style
       }
     }
   }
+  .lb-mobile{
+    display: none !important;
+  }
+  .lb-desktop{
+    display: block !important;
+  }
 }
 
 @media only screen and (min-width:1024px) {
@@ -766,6 +781,12 @@ Primary style
       }
     }
   }
+  .lb-mobile{
+    display: none !important;
+  }
+  .lb-desktop{
+    display: block !important;
+  }
 }
 
 @media only screen and (min-width:1440px) {
@@ -821,6 +842,12 @@ Primary style
         height:300px;
       }
     }
+  }
+  .lb-mobile{
+    display: none !important;
+  }
+  .lb-desktop{
+    display: block !important;
   }
 }
 
