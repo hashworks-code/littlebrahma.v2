@@ -522,21 +522,6 @@ Primary style
   /*canvas { position: fixed; touch-action: none; }*/
   
 
-
-
-
-  .modal1 {
-    display: none; 
-    position: fixed; 
-    z-index:999; 
-    padding-top: 80px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%;
-    overflow: auto;
-}
-
 .modal-content1 {
     background-color: #fefefe;
     margin: auto;
@@ -556,13 +541,27 @@ Primary style
     cursor: pointer;
 }
 
-@media only screen and (min-width:320px) {
 
+.modal1 {
+  display: none; 
+  position: fixed; 
+  z-index:999999; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+}
+@media only screen and (min-width:320px) {
+  .mailbox{
+    width: 100%;
+    height: 100%
+  }
   .myBtn{
     cursor: pointer;
   }
   .contactHeading{
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
   }
   .contactHeader{
@@ -580,7 +579,7 @@ Primary style
   }
 
   .contact1{
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
 
 
@@ -642,6 +641,10 @@ Primary style
 
 }
 @media only screen and (min-width:767px) {
+
+.modal1 {
+  margin-top: 80px;
+}
   .close1 {
     padding:75px 45px 0px 0px;
   }
@@ -673,7 +676,7 @@ Primary style
         margin: 0px 0px 12px;
       }
       textarea{
-        width: 220px;
+        width: 264px;
         height: 115px;
         font-size: 14px;
       }
