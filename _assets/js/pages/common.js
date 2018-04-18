@@ -100,6 +100,9 @@ $(window).resize(function(){
                 $("#lb_btn").hide();
                 $('#lb_service_btn').hide();
             }
+            else{
+                $("#lb_btn").show();
+            }
             if(index<=3){
                 $(this).show();
             }
@@ -125,6 +128,23 @@ $(window).resize(function(){
             if(brndcomm<=4){
                 $("#lb_btn").hide();
                 $('#lb_service_btn').hide();
+            }
+            
+            if(index<=3){
+                $(this).show();
+            }
+            else{
+                $(this).hide();
+            }
+        })
+        $('.alldata').each(function (index) { 
+            var all=$('.alldata').length;
+            if(all<=4){
+                $("#lb_btn").hide();
+                $('#lb_service_btn').hide();
+            }
+            else{
+                $("#lb_btn").show();
             }
             if(index<=3){
                 $(this).show();
@@ -169,6 +189,7 @@ $(window).resize(function(){
             for(var i=1;i<length+1;i++){
                 tempvalue="filterli-"+i;
                 if(data == tempvalue){
+                    $('.all').hide();
                     $(".filterli-"+i).show();
                     $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
                         // console.log('div' + index + ':' + $(this).attr('id')); 
@@ -211,8 +232,25 @@ $(window).resize(function(){
                         }
                     })
                 }
+                
                 else{
                     $(".filterli-"+i).hide();
+                }
+                if(data == 'All'){
+                    $('.all').show();
+                    $('.alldata').each(function (index) { 
+                        var all=$('.alldata').length;
+                        if(all<=4){
+                            $("#lb_btn").hide();
+                        }
+                        
+                        if(index<=3){
+                            $(this).show();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
                 }
             }
         });
@@ -261,7 +299,7 @@ $(window).resize(function(){
         });
 
         $('#lb_btn').click(function(){
-           
+           debugger;
             // $("#lb_btn1").show();
              $("#lb_btn").hide();
               
@@ -279,20 +317,12 @@ $(window).resize(function(){
                 }
                 else if(id == 'filterli-3'){
                         $('.brndcomm').show();
-                }     
+                }   
+                else if(id == 'All'){
+                    $('.alldata').show();
+                }  
             
-            // if ($(window).width() <= 767) {
-            //     var id =$('.work_select').attr('id');
-            //     if(id == 'filterli-1'){
-            //         $('.prod').show();
-            //     }
-            //     else if(id == 'filterli-2'){
-            //         $('.service').show();
-            //     }
-            //     else if(id == 'filterli-3'){
-            //             $('.brndcomm').show();
-            //     }  
-            // }
+            
         });
 
         $('#lb_service_btn').click(function(){
