@@ -177,7 +177,7 @@ ul.lb_work_filter.lb_service_lg{
             padding-top:50px;
         }
         .step-mob-padder{
-            padding-bottom:40px !important;
+            padding-bottom:30px !important;
 
         }
         .circle1{
@@ -272,6 +272,8 @@ ul.lb_work_filter.lb_service_lg{
             position: relative;
             left: 42px;
             margin-top: 0px !important;
+            font-family: 'MavenPro-Bold';
+
         }
         .stepwizard-row .popover{
             width: 175px;
@@ -314,13 +316,7 @@ transform:scale(0);
            
             width: 192px;
             height: 120px;
-            font-family: PTSans;
-            font-size: 16px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: normal;
+
             text-align: center;
             color: #5d6a6f;
             margin-top:50px;
@@ -479,7 +475,7 @@ transform:scale(0);
             margin-top:160px;
         } 
         .stepwizard-step:before {
-            top: 14px;
+            top: 17px;
             bottom: 0;
             position: absolute;
             content:" ";
