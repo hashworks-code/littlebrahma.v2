@@ -1,7 +1,14 @@
 var sVal = false;
+$(window).resize(function(){
+  if(screen.width > 1024){
+    newFunction();
+ }
+});
 $(document).ready(function() {
     // $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
-    newFunction();
+    if(screen.width > 1024){
+       newFunction();
+    }
     $('.prctSec_tab').click(function(){
       $(this).addClass('prctSec_active');
       $(this).siblings().removeClass('prctSec_active').addClass('prctSec_inactive');
@@ -27,7 +34,7 @@ function scrollFn(val,d){
       valueReceivedLength = vL
       if(valueReceivedLength != testVal){
         testVal = valueReceivedLength;
-        debbugger;
+       
         if("rContent_"+testVal == "rContent_1"){
           return false;
           // $('html, body').animate({
