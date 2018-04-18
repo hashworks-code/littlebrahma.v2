@@ -42,15 +42,10 @@
     opacity:1 !important;
     color:#bbb;
 }
-.stepwizard-step:before {
-    top: 14px;
-    bottom: 0;
-    position: absolute;
-    content:" ";
-    width: 100%;
-    height: 2px;
-    background-color: #ccc;
-    z-index: 0;
+
+ .stepwizard-step:after {
+    transition: all .5s ease;
+
  }
  .stepwizard-step:last-child:before{
     top: 14px;
@@ -234,6 +229,16 @@ ul.lb_work_filter.lb_service_lg{
             background-color: #ccc;
             z-index: 0;
          }
+         .stepwizard-step:after {
+            top: 14px;
+            bottom: 0;
+            position: absolute;
+            content:" ";
+            width: 2px;
+            height: 0%;
+            background-color: #ccc;
+            z-index: 0;
+         }
          .stepwizard-step:last-child:before{
             top: 14px;
             bottom: 0;
@@ -251,8 +256,10 @@ ul.lb_work_filter.lb_service_lg{
             margin-top: 0px;
             margin-bottom: 0px;
             padding: 14px 0px 0px 90px;
-            &.active::before{
+            &.active::after{
                 background: red;
+                height:100%;
+                transition: height .5s ease;
 
             }
         }
@@ -352,6 +359,16 @@ transform:scale(0);
             background-color: #ccc;
             z-index: 0;
          }
+         .stepwizard-step:after {
+            top: 15px;
+            bottom: 0;
+            position: absolute;
+            content:" ";
+            width: 0%;
+            height: 2px;
+            background-color: #ccc;
+            z-index: 0;
+         }
          .stepwizard-step:last-child:before{
             top: 14px;
             bottom: 0;
@@ -370,6 +387,13 @@ transform:scale(0);
             margin-bottom: 100px;
             padding: 0px;
             height:44px;
+            &.active::after{
+                background: red;
+                width:100%;
+                height:2px;
+                transition: width .5s ease;
+
+            }
         }
         .stepper-images{
             position: absolute;
@@ -416,6 +440,16 @@ transform:scale(0);
         position: absolute;
         content:" ";
         width: 100%;
+        height: 2px;
+        background-color: #ccc;
+        z-index: 0;
+     }
+     .stepwizard-step:after {
+        top: 17px;
+        bottom: 0;
+        position: absolute;
+        content:" ";
+        width: 0%;
         height: 2px;
         background-color: #ccc;
         z-index: 0;
@@ -480,6 +514,16 @@ transform:scale(0);
             position: absolute;
             content:" ";
             width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            z-index: 0;
+         }
+         .stepwizard-step:after {
+            top: 17px;
+            bottom: 0;
+            position: absolute;
+            content:" ";
+            width: 0%;
             height: 2px;
             background-color: #ccc;
             z-index: 0;
@@ -614,7 +658,7 @@ transform:scale(0);
         .carousel {
             background-color: #ffffff;
             margin-bottom: 80px;
-            padding-top: 80px;
+            padding-top: 30px;
             &__card {
                 display: -webkit-box;
                 position: relative !important;
