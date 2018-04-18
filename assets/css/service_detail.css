@@ -1352,12 +1352,14 @@ html, body {
     .footer__img {
       width: 1260px;
       right: 70px;
-      bottom: -24px; }
+      bottom: 15px; }
     .footer__inner {
       position: absolute;
       top: 128px;
       left: 240px;
-      font-size: 40px; } }
+      font-size: 40px; }
+    .footer__bottom {
+      padding: 115px 165px 37px 165px; } }
 
 @media screen and (min-width: 3000px) {
   .footer {
@@ -1367,12 +1369,14 @@ html, body {
     .footer__img {
       width: 1300px;
       right: 140px;
-      bottom: -30px; }
+      bottom: 13px; }
     .footer__inner {
       position: absolute;
       top: 128px;
       left: 340px;
-      font-size: 40px; } }
+      font-size: 40px; }
+    .footer__bottom {
+      padding: 120px 165px 37px 165px; } }
 
 .alignText {
   text-align: left; }
