@@ -11,7 +11,7 @@ $(window).resize(function(){
     }
     if(screen.width >1500){
         $('.homePage__BnrDiv__Service').css('bottom','0px');
-        $('.lb-ourworks-dna').css('margin-top','50px');
+        $('.lb-ourworks-dna').css('margin-top','80px');
     }
     if(screen.width >2000){
         $('.homePage__BnrDiv__Service').css('bottom','250px');
@@ -38,7 +38,7 @@ $(window).resize(function(){
         }  
         if(screen.width >1500){
             $('.homePage__BnrDiv__Service').css('bottom','0px');
-            $('.lb-ourworks-dna').css('margin-top','50px');
+            $('.lb-ourworks-dna').css('margin-top','80px');
         }
         if(screen.width >2000){
             $('.homePage__BnrDiv__Service').css('bottom','250px');
