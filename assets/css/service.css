@@ -2367,7 +2367,7 @@ li.lb_work_filterli:first-child {
   .homePage {
     margin-top: 80px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/Landing_Page_Mobile_Animation.gif);
+      background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
       background-size: cover;
       background-position: center center;
       height: 878px; }
@@ -2486,10 +2486,9 @@ li.lb_work_filterli:first-child {
   z-index: 0; }
 
 .btn-circle.service-btn {
-  max-width: 24px;
-  max-height: 24px;
-  min-width: 24px;
-  min-height: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0px !important;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

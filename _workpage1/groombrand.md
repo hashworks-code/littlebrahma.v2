@@ -19,9 +19,9 @@ background:
     imageType: "tab"
     
 backgroundlogo:
-  - imagelogo: "/assets/img/branding/hashworks/groomeLogoMob.png"
+  - imagelogo: "/assets/img/branding/hashworks/groomeLogoMob.svg"
     imageTypelogo: "mobileLogo"
-  - imagelogo: "/assets/img/branding/hashworks/groomeLogoTab.png"
+  - imagelogo: "/assets/img/branding/hashworks/groomeLogoTab.svg"
     imageTypelogo: "tabLogo"
     
 
