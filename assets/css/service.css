@@ -2150,7 +2150,7 @@ li.lb_work_filterli:first-child {
   .homePage__BnrDiv__Inner {
     height: 710px; }
     .homePage__BnrDiv__Inner__Content {
-      padding: 300px 0 0 157px;
+      padding: 25% 0 0 157px;
       width: 655px;
       color: #393939; }
       .homePage__BnrDiv__Inner__Content h1 {
@@ -2451,7 +2451,7 @@ li.lb_work_filterli:first-child {
             display: none; }
     .homePage__dna {
       display: block;
-      margin-top: 32px;
+      margin-top: 0px;
       padding-bottom: 65px; }
       .homePage__dna__left {
         padding-right: 0;
