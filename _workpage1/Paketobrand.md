@@ -61,12 +61,7 @@ enigmalogo: "paketobreak.svg"
 
 variations1: "paketo1.svg"
 variations2: "paketo2.svg"
-variations3: "paketo7.svg"
-variations4: "paketo3.svg"
-variations5: "paketo5.svg"
-variations6: "paketo6.svg"
-variations7: "paketo4.svg"
-variations8: "paketo8.svg"
+
 
 
 evolveTitle: "Evolve"

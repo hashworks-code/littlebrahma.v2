@@ -64,12 +64,6 @@ enigmalogo: "1-st-image.svg"
 
 variations1: "1.svg"
 variations2: "2.svg"
-variations3: "3.svg"
-variations4: "4.svg"
-variations5: "5.svg"
-variations6: "6.svg"
-variations7: "7.svg"
-variations8: "8.svg"
 
 
 evolveTitle: "Evolve"
