@@ -59,9 +59,9 @@ csubHead3: "Understanding the problem"
  
 perceive_para:
 
-    - cContent5: "Working with the IT teams, we understood application development is not the only activity the IT teams involve into. There are multiple supporting activities that need to get into the delivery process for promoting a production ready software."
+    - cContent5: "Working with the IT teams, we understood application development is not the only activity the IT teams are involved into. There are multiple supporting activities that need to get into the delivery process for promoting a production ready software."
 
-    - cContent5: "Our users were facing challenge in analyzing information from multiple sources, they wanted a single reference for monitoring and measuring the application performance. We were challenged to deliver a simple actionable engineering dashboard to configure, run & validate the application for performance and stability. We had do the following"
+    - cContent5: "Our users were facing challenge in analyzing information from multiple sources, they wanted a single reference for monitoring and measuring the application performance. We were challenged to deliver a simple actionable engineering dashboard to configure, run & validate the application for performance and stability. We had do the following:"
 
 content_lists1:
 
@@ -77,7 +77,7 @@ box-Head5: 'apps'
 box-para4: 'on-boarded in the clients IT eco-system for real-time monitoring'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
+cContent8: "Our discovery phase, helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
 
 SImg3: "LB-xpe-output"
 
@@ -87,7 +87,7 @@ SImg5: "xpe-data-02"
 
 SImg10: "xpe-images-06"
 SImg11: "style-guid"
-SImg12: "xpe-first-screen"
+SImg12: "xps-screen-collage"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
@@ -101,9 +101,9 @@ img_list:
 cHead5: "Adapt "
 csubHead4: "Enabling the perf. engineers to do more"
 adapt_loop:
-  - cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams, we were able nail down the following scope and objectives"
+  - cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams."
 csubHead5: "Output"
-cContent10: "A workflow a driven engineering platform with insightful dashboard for measuring the application performance and stability."
+cContent10: "A workflow for a driven engineering platform with insightful dashboard for measuring the application performance and stability. We were able to nail down the following scope and objectives:"
 
 
 
@@ -115,7 +115,7 @@ main_content:
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams needed."
+cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams requirement."
 
 box-Head7: '100%'
 box-Head8: ''
@@ -128,14 +128,14 @@ division_loop:
         - cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
       SImg6: 'xpe-graph'
 
-    - cHead6: '2.  Workbench for perf engineers'
+    - cHead6: '2.  Workbench for perf. engineers'
       para_loop:
-        - cContent11: 'Workbench for perf engrs to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
+        - cContent11: 'Workbench for perf. engineers to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
       SImg6: 'xpe-perf'
 
-    - cHead6: '3.  Delivery dashboard to status perf execution & test results'
+    - cHead6: '3.  Delivery dashboard to status perf. execution & test results'
       para_loop:
-        - cContent11: 'Delivery dashboard to status perf execution & test results for project teams & executives.'
+        - cContent11: 'Delivery dashboard to status perf. execution & test results for project teams & executives.'
       SImg6: 'xpe-dashboard'
 
     - cHead6: '4.  Admin console & configuration screens'

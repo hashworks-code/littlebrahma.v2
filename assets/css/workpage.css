@@ -1436,6 +1436,34 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+.rContent.fixedContainer {
+  position: fixed;
+  top: 40%; }
+
+.fadedIn {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  display: block !important; }
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .prct {
   line-height: 1.5; }
   .prct .horizantal {
@@ -1471,8 +1499,6 @@ html, body {
     font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
-  .prct .rContent_1 {
-    visibility: hidden; }
   .prct .right.Containers {
     background: #fff; }
   .prct img {

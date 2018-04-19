@@ -26,7 +26,7 @@ box_lists:
     
 
 cHead1: "Introduction"
-cContent1: "An engineering SaaS product for IT driven companies, to Localize, detect & fix errors instantly 
+cContent1: "An engineering SaaS product for IT driven companies, to localize, detect & fix errors instantly 
             ensuring high availability & reliability of their products & services to their customers."
 
 SImg1: "enigma-cmr"
@@ -39,13 +39,13 @@ cHead2: "Challenge"
 
 challenge_list:
     - content_para:
-        - cContent2: "Design a high velocity system for enterprise users to monitor & action production incidents. We had to consider the following aspects while designing this workload intensive systems."
+        - cContent2: "Design a high velocity system for enterprise users to monitor & action production incidents. We had to consider the following aspects while designing this workload intensive systems:"
 
       content_lists:
 
     - subhead: 'Scalability'
       content_para:
-        - cContent2: "Design for a massive user base and subsequent influx of terabytes of data and exceptions"
+        - cContent2: "Design for a massive user base and subsequent influx of terabytes of data and exceptions."
       content_lists:
 
     - subhead: 'Infrastructure'
@@ -86,7 +86,7 @@ box-para4: 'Latency to perform an
             action on Hold'
 
 cHead4: "Output"
-cContent8: "In this phase we understood the user personas and complexities involved in designing a enterprise level, realtime monitoring tool."
+cContent8: "In this phase, we understood the user personas and complexities involved in designing an enterprise level, realtime monitoring tool."
 
 SImg3: "enigma-images"
 
@@ -111,27 +111,27 @@ img_list:
 cHead5: "Adapt "
 csubHead4: "Designing for better scale and maneuverability"
 adapt_loop:
-  - cContent9: "We blended with the tech team and introduced an interactive & iterative design model to deliver what the they needed."
+  - cContent9: "We blended with the tech team and introduced an interactive & iterative design model to deliver, what they needed."
 csubHead5: "Output"
-cContent10: "We were able to come up with following solutions for our customers."
+cContent10: "We were able to come up with the following solutions for our customers:"
 
 
 
 cHead10: "3.  Design"
 main_content:
   - cContent15: "- Simple and context driven screens"
-  - cContent15: "- 2 to 3 click call to action."
+  - cContent15: "- 2 to 3 click call to actions"
   - cContent15: "- Workflow orchestration for easy transitions and context switching"
   - cContent15: "- Light-weight menus & search options"
 
 cHead11: "Evolve "
 csubHead6: "Design with iteration"
-cContent16: "We were able to achieve the desired outcome at the end, delivering intuitive screens for the product that is high velocity and data intensive."
+cContent16: "We were able to achieve the desired outcome at the end, delivering intuitive screens for the product that is high velocity and data intensive"
 
 evolve_loop:
-  - cContent18: '- User testing became crucial in understanding the use cases and also '
-  - cContent18: '- We created wireframes to systematically iterate the data displayed on each screen, the user flow and the user experience.'
-  - cContent18: '- Additionally, We took up heat map analysis to screen users behavior. We took into account the click, scroll and navigation aspects.'
+  - cContent18: '- User testing became crucial in understanding the use cases '
+  - cContent18: '- We created wireframes to systematically iterate the data displayed on each screen, the user flow and the user experience'
+  - cContent18: '- Additionally, we took up the heat map analysis to screen users behavior. We took into account the click, scroll and the navigation aspects'
 
 box-Head7: '25'
 box-Head8: ' Seconds'
@@ -154,7 +154,7 @@ division_loop:
     - cHead6: '2. Giving user insights'
       para_loop:
         - cContent11: '- Workflow insights, for navigating through the incidents and mitigate the problem'
-        - cContent11: ' Data driven dashboards and actionable metrics'
+        - cContent11: '- Data driven dashboards and actionable metrics'
         - cContent11: '- Help the support teams to take corrective actions instantly'
       SImg6: 'opm-order'
 

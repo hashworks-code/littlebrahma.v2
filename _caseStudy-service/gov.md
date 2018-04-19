@@ -92,7 +92,7 @@ SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "people"
 
 
-SImg10: "wireframw-001"
+SImg10: "GOV_Wireframe"
 SImg11: "style-guid"
 SImg12: "1-gov"
 SImg14: "bitmap"

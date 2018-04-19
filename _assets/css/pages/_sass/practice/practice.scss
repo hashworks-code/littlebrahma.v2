@@ -1,4 +1,29 @@
 //home/hashworks/Downloads/banner-4-a_2018-03-15/practiceBnr.png
+
+// .rContent{
+//     display: none;
+// }
+.rContent.fixedContainer{
+    position: fixed;
+    top: 40%;
+    // transition: visibility 0s, opacity 1s linear;
+}
+.fadedIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 1s;
+    display: block !important;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 .prct{
     line-height: 1.5;
     .horizantal{
@@ -34,7 +59,7 @@
         background: #fff;
     }
     .rContent_1{
-        visibility: hidden;
+        // visibility: hidden;
         // position: absolute;
         // padding-top: 32%;
     }
