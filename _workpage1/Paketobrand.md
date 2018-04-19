@@ -10,7 +10,7 @@ banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
 textcolor: text-white
-enigma_banner: "/assets/img/branding/paketo.jpg"
+enigma_banner: "/assets/img/branding/paketo.png"
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
