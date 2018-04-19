@@ -14,7 +14,7 @@ practice_lists:
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
 homebackgroundimg: /assets/img/workpage/group-3.png
 published: true
-practiceList: Product design
+practiceList: Product Design
 practiceList1: Product strategy
 practiceList2: Enterprise dashboards
 practiceList3: Web and Mobile apps
