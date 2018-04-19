@@ -8,7 +8,10 @@ $(window).resize(function(){
         // $('.homePage__BnrDiv__Service').css({'bottom':'420px',});
         // $('#lbhmimagemobile').css('display','none')
     }
-    if(screen.width >1560){
+    if(screen.width >1500){
+        $('.homePage__BnrDiv__Service').css('bottom','0px');
+    }
+    if(screen.width >2000){
         $('.homePage__BnrDiv__Service').css('bottom','250px');
     }
 
@@ -29,7 +32,10 @@ $(window).resize(function(){
             $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px')
             // $('#lbhmimagemobile').css('display','none')
         }  
-        if(screen.width >1560){
+        if(screen.width >1500){
+            $('.homePage__BnrDiv__Service').css('bottom','0px');
+        }
+        if(screen.width >2000){
             $('.homePage__BnrDiv__Service').css('bottom','250px');
         }     
         // if(screen.width <= 767){
