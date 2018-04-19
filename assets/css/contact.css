@@ -1199,7 +1199,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
-      left: 50%; }
+      left: 48%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1226,7 +1226,7 @@ html, body {
       display: flex;
       margin: 0 auto;
       z-index: 2;
-      padding-top: 124px; }
+      padding-top: 112px; }
     .footer__inner {
       position: absolute;
       font-size: 32px;
@@ -1247,7 +1247,7 @@ html, body {
           -ms-flex-align: end;
               align-items: flex-end;
       width: 100%;
-      padding: 55px 35px 24px 35px;
+      padding: 67px 35px 24px 35px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1258,7 +1258,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
-      left: 42%; }
+      left: 44%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1372,7 +1372,8 @@ html, body {
     .footer .socialLogo {
       font-size: 16px;
       bottom: 33px;
-      left: 50%; }
+      left: 50%;
+      z-index: 9999; }
       .footer .socialLogo img {
         width: 28px;
         height: 28px; }
@@ -1405,7 +1406,7 @@ html, body {
     left: 21%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 18% 37px 18%; } }
+    padding: 115px 22% 37px 23%; } }
 
 @media screen and (min-width: 2500px) {
   .footer__img {
@@ -1417,7 +1418,7 @@ html, body {
     left: 26%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 15% 37px 20%; } }
+    padding: 115px 23% 37px 25%; } }
 
 @media screen and (min-width: 3000px) {
   .footer {
@@ -1431,7 +1432,9 @@ html, body {
     .footer__inner {
       left: 28%; }
     .footer__bottom {
-      padding: 115px 15% 37px 20%; } }
+      padding: 115px 23% 37px 27%; }
+    .footer .socialLogo {
+      left: 52%; } }
 
 .contact-us {
   margin-bottom: 30px; }
