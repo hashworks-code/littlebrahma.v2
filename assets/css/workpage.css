@@ -522,8 +522,8 @@ html, body {
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-box-shadow: 0 10px 6px -6px #eee;
-            box-shadow: 0 10px 6px -6px #eee; }
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1); }
   .cd-header.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
@@ -1864,7 +1864,7 @@ button.lb_btn:focus {
   padding-bottom: 64px; }
 
 .lb-filter-service {
-  padding-bottom: 32px; }
+  padding-bottom: 48px; }
 
 .lb-filter-head {
   width: 250px;
@@ -1877,7 +1877,7 @@ button.lb_btn:focus {
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
-  padding-top: 24px; }
+  padding-top: 32px; }
 
 .lb-filter-header {
   font-family: 'MavenPro-Bold';
@@ -1889,7 +1889,7 @@ button.lb_btn:focus {
   letter-spacing: normal;
   text-align: left;
   color: #393939;
-  padding-top: 15px; }
+  padding-top: 24px; }
 
 .lb-filter-headdesc {
   font-family: 'PT_Sans-Regular';
@@ -1900,7 +1900,8 @@ button.lb_btn:focus {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #737373; }
+  color: #737373;
+  padding-top: 8px; }
 
 .lb-filter-footer {
   font-family: MavenPro-Medium;
@@ -1955,16 +1956,20 @@ div.test {
     display: block; }
   .lb-filter-head {
     font-size: 14px;
-    width: 166px; }
+    width: 166px;
+    padding-top: 24px; }
   .lb-filter-header {
-    font-size: 16px; }
+    font-size: 16px;
+    padding-top: 16px; }
   .lb-filter-headdesc {
     font-size: 12px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
     height: 194px;
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .lb-filter-service {
+    padding-bottom: 24px; } }
 
 @media screen and (max-width: 420px) {
   .lb-filter-Img {
@@ -1982,13 +1987,17 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 14px; }
+    font-size: 14px;
+    padding-top: 24px; }
   .lb-filter-header {
-    font-size: 16px; }
+    font-size: 16px;
+    padding-top: 16px; }
   .lb-filter-headdesc {
     font-size: 12px; }
   .lb_btn_div {
-    text-align: center; } }
+    text-align: center; }
+  .lb-filter-service {
+    padding-bottom: 24px; } }
 
 @media screen and (min-width: 1024px) {
   .lb_filter_lg {
@@ -1999,16 +2008,20 @@ div.test {
     display: none; }
   .lb-filter-head {
     font-size: 18px;
-    width: 200px; }
+    width: 200px;
+    padding-top: 32px; }
   .lb-filter-header {
-    font-size: 20px; }
+    font-size: 20px;
+    padding-top: 16px; }
   .lb-filter-headdesc {
     font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; } }
+    height: 340px; }
+  .lb-filter-service {
+    padding-bottom: 32px; } }
 
 @media screen and (min-width: 1367px) {
   .lb_filter_lg {
@@ -2018,16 +2031,20 @@ div.test {
   .lb_filter_mb {
     display: none; }
   .lb-filter-head {
-    font-size: 20px; }
+    font-size: 20px;
+    padding-top: 32px; }
   .lb-filter-header {
-    font-size: 24px; }
+    font-size: 24px;
+    padding-top: 24px; }
   .lb-filter-headdesc {
     font-size: 16px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; } }
+    height: 340px; }
+  .lb-filter-service {
+    padding-bottom: 48px; } }
 
 .workfilter1 {
   display: none; }

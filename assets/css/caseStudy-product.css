@@ -522,8 +522,8 @@ html, body {
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-box-shadow: 0 10px 6px -6px #eee;
-            box-shadow: 0 10px 6px -6px #eee; }
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1); }
   .cd-header.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
