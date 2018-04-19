@@ -579,9 +579,6 @@ transform:scale(0);
                margin-bottom: 100px;
               padding-bottom: 100px;
 
-              h1.typography{
-                  font-size:20px !important;
-              }
           }
 
     @media only screen and (min-width:320px) {
@@ -590,6 +587,9 @@ transform:scale(0);
 
 
         .carousel {
+            h1.typography{
+                font-size:12px;
+            }
             display: flex;
             width: 100%;
             position: relative;
@@ -622,7 +622,6 @@ transform:scale(0);
                 }
                 p {
                     padding: 0px 15px 15px;
-                    font-size: 14px;
                     text-align: center;
                 }
             }

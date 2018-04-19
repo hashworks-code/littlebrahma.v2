@@ -2944,8 +2944,6 @@ ul.lb_work_filter.lb_service_lg {
 .carousel {
   margin-bottom: 100px;
   padding-bottom: 100px; }
-  .carousel h1.typography {
-    font-size: 20px !important; }
 
 @media only screen and (min-width: 320px) {
   .carousel {
@@ -2960,6 +2958,8 @@ ul.lb_work_filter.lb_service_lg {
     background-color: #022b3b;
     margin-bottom: 40px;
     padding-bottom: 0px; }
+    .carousel h1.typography {
+      font-size: 12px; }
     .carousel__card {
       display: -webkit-box;
       position: absolute !important;
@@ -2994,7 +2994,6 @@ ul.lb_work_filter.lb_service_lg {
         margin: 15px 0px 15px 65px; }
       .carousel__card1 p {
         padding: 0px 15px 15px;
-        font-size: 14px;
         text-align: center; }
     .carousel h1 {
       padding-bottom: 10px;
