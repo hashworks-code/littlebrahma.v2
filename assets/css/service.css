@@ -2486,10 +2486,13 @@ li.lb_work_filterli:first-child {
   z-index: 0; }
 
 .btn-circle.service-btn {
-  width: 24px;
-  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  min-width: 24px;
+  min-height: 24px;
   text-align: center;
-  /* padding: 6px 0; */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 50% !important;
