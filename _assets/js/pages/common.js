@@ -4,7 +4,7 @@ $(window).resize(function(){
         var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
         $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
         $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
-        $('.lb-ourworks-dna').css('margin-top','80px');
+        $('.lb-ourworks-dna').css('margin-top','160px');
         $('.lb-ourworks').css('margin-top','0px');
         // $('.homePage__BnrDiv__Service').css({'bottom':'420px',});
         // $('#lbhmimagemobile').css('display','none')
@@ -35,7 +35,7 @@ $(window).resize(function(){
             var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
             $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
             $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
-            $('.lb-ourworks-dna').css('margin-top','80px');
+            $('.lb-ourworks-dna').css('margin-top','160px');
             // $('#lbhmimagemobile').css('display','none')
             $('.lb-ourworks').css('margin-top','0px');
         }  
