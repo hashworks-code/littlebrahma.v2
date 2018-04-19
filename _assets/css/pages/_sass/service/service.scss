@@ -655,11 +655,11 @@ transform:scale(0);
         }
     }
     
-    @media only screen and (min-width:767px) {
+    @media only screen and (min-width:768px) {
         .carousel {
             background-color: #ffffff;
             margin-bottom: 80px;
-            padding-top: 30px;
+            padding-top: 64px;
             &__card {
                 display: -webkit-box;
                 position: relative !important;
@@ -728,6 +728,7 @@ transform:scale(0);
             margin-left:-127.5px;
         }
         .carousel {
+            padding-top:100px;
             &__card {
                 top: 62px;
                 left: 162px;
@@ -797,8 +798,9 @@ transform:scale(0);
     }
     
     
-    @media only screen and (min-width:1367px) {
+    @media only screen and (min-width:1366px) {
         .carousel {
+            padding-top:150px;
             &__card {
                 top: 81px;
                 left: 165px;

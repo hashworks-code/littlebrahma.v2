@@ -272,6 +272,9 @@
     }
 }
 @media screen and (min-width:768px){
+    .container.container-set{
+        width:620px !important;
+    }
     .prct{
         .genericTitle{
             font-size: 24px;
@@ -301,11 +304,7 @@
             .bsTxt{
                 font-size: 14px;
             }
-            img{
-                // width: 293px;
-                // height: 282px;
-                // margin: -20px 0;
-            }
+
             .dicContents{
                 .title{
                     display: block;
@@ -318,14 +317,17 @@
                 text-align: center;
                 font-size: 24px;
                 .svcCont{
+                    
                     padding-top: 72px;
                     img{
                         max-width:85px;
                         margin-top: 20px;
+                        float:left;
                     }
                 }
                 .indTxt{
                     font-size: 28px;
+                    padding:0px;
                     // padding-top: 50px;
                 }
                 .indCon{
@@ -352,7 +354,10 @@
         margin: 50px 29px 0;
     }
 }
-@media screen and (min-width:1025px){
+@media screen and (min-width:1024px){
+    .container.container-set{
+        width:640px !important;
+    }
     .knowmore{
         display: flex;
         width:289px;
@@ -386,17 +391,14 @@
             .bsTxt{
                 font-size: 16px;
             }
-            img{
-                // width: 414px;
-                // height: 377px;
-                // margin: -20px 0;
-            }
+
         }
         &_svc{
             padding:0px 0px 70px;
             &_title{
                 font-size: 40px;
                 .svcCont{
+                   
                     padding-top:120px;
                     img{
                         max-width: 105px;
@@ -503,9 +505,7 @@
             background: transparent;
             left: 90px;
         }
-        .rContent_1 {
-            // padding-top: 135px;
-        }
+       
     }    
     .prctDiv{
         margin-top: 0px;
@@ -520,7 +520,10 @@
         margin:64px 29px 0;
     }
 }
-@media screen and (min-width:1367px){
+@media screen and (min-width:1366px){
+    .container.container-set{
+        width:860px !important;
+    }
     .knowmore{
         display: flex;
         width:332px;
@@ -553,17 +556,14 @@
             .bsTxt{
                 font-size: 20px;
             }
-            img{
-                // width: 557px;
-                // height: 506px;
-                // margin: -20px 0;
-            }
+
         }
         &_svc{
             padding: 0px 150px 80px;
             &_title{
                 font-size: 40px;
                 .svcCont{
+                    
                     padding-top: 160px;
                     img{
                         max-width: 120px;
@@ -577,7 +577,6 @@
                 .indCon{
                     padding-top: 24px;
                     padding-bottom:0px;
-                    padding-right:20px;
                 }
                 .lgCon{
                     width: 830px;

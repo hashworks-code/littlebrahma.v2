@@ -3015,11 +3015,11 @@ ul.lb_work_filter.lb_service_lg {
     right: 78px !important;
     height: 18px !important; } }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .carousel {
     background-color: #ffffff;
     margin-bottom: 80px;
-    padding-top: 30px; }
+    padding-top: 64px; }
     .carousel__card {
       display: -webkit-box;
       position: relative !important;
@@ -3070,96 +3070,100 @@ ul.lb_work_filter.lb_service_lg {
   .step-content {
     width: 255px;
     margin-left: -127.5px; }
-  .carousel__card {
-    top: 62px;
-    left: 162px;
-    width: 488px; }
-  .carousel__card1 {
-    width: 155px;
-    height: 322px !important;
-    margin: 0px 25px 0px 0px; }
-    .carousel__card1 img {
-      width: 45px;
-      margin: 30px 0px 22px 86px; }
-    .carousel__card1 h1 {
-      text-align: center !important; }
-    .carousel__card1 p {
-      font-size: 16px; }
-  .carousel h1 {
-    padding-bottom: 10px;
-    text-align: left; }
-  .carousel__card2 {
-    width: 64%;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    padding: 85px 30px 160px 210px; }
-    .carousel__card2 h1 {
-      padding: 0px;
-      width: 407px;
-      font-size: 32px;
-      padding-bottom: 20px; }
-    .carousel__card2 p {
-      width: 381px;
-      padding: 0px;
-      margin: 0px;
+  .carousel {
+    padding-top: 100px; }
+    .carousel__card {
+      top: 62px;
+      left: 162px;
+      width: 488px; }
+    .carousel__card1 {
+      width: 155px;
+      height: 322px !important;
+      margin: 0px 25px 0px 0px; }
+      .carousel__card1 img {
+        width: 45px;
+        margin: 30px 0px 22px 86px; }
+      .carousel__card1 h1 {
+        text-align: center !important; }
+      .carousel__card1 p {
+        font-size: 16px; }
+    .carousel h1 {
+      padding-bottom: 10px;
       text-align: left; }
-  .carousel .slick-prev {
-    top: 255px !important;
-    left: 564px !important; }
-  .carousel .slick-next {
-    top: 255px !important;
-    right: -164px !important; }
-  .carousel .slick-initialized .slick-slide {
-    width: 220px !important; }
-  .carousel .slick-slider .slick-track {
-    width: 4000px  !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    .carousel__card2 {
+      width: 64%;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      padding: 85px 30px 160px 210px; }
+      .carousel__card2 h1 {
+        padding: 0px;
+        width: 407px;
+        font-size: 32px;
+        padding-bottom: 20px; }
+      .carousel__card2 p {
+        width: 381px;
+        padding: 0px;
+        margin: 0px;
+        text-align: left; }
+    .carousel .slick-prev {
+      top: 255px !important;
+      left: 564px !important; }
+    .carousel .slick-next {
+      top: 255px !important;
+      right: -164px !important; }
+    .carousel .slick-initialized .slick-slide {
+      width: 220px !important; }
+    .carousel .slick-slider .slick-track {
+      width: 4000px  !important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 45px;
     left: 128px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     height: 301px; } }
 
-@media only screen and (min-width: 1367px) {
-  .carousel__card {
-    top: 81px;
-    left: 165px;
-    width: 555px; }
-  .carousel__card1 {
-    height: 378px !important;
-    margin: 0px 25px 0px 0px; }
-    .carousel__card1 img {
-      margin: 56px 0px 32px 96px; }
-    .carousel__card1 p {
-      font-size: 16px;
-      padding: 0px 30px 15px; }
-    .carousel__card1 h1 {
-      padding-bottom: 16px; }
-  .carousel__card2 {
-    width: 65%;
-    padding: 120px 165px 165px 270px; }
-    .carousel__card2 h1 {
-      width: 407px;
-      font-size: 40px;
-      padding: 0px 0px 40px; }
-    .carousel__card2 p {
-      width: 450px;
-      padding: 0px;
-      margin: 0px;
-      text-align: left; }
-  .carousel .slick-prev {
-    top: 325px !important;
-    left: 638px !important; }
-  .carousel .slick-next {
-    top: 325px !important;
-    right: -172px !important; }
-  .carousel .slick-initialized .slick-slide {
-    width: 255px !important; }
-  .carousel .slick-slider .slick-track {
-    width: 5000px  !important; }
+@media only screen and (min-width: 1366px) {
+  .carousel {
+    padding-top: 150px; }
+    .carousel__card {
+      top: 81px;
+      left: 165px;
+      width: 555px; }
+    .carousel__card1 {
+      height: 378px !important;
+      margin: 0px 25px 0px 0px; }
+      .carousel__card1 img {
+        margin: 56px 0px 32px 96px; }
+      .carousel__card1 p {
+        font-size: 16px;
+        padding: 0px 30px 15px; }
+      .carousel__card1 h1 {
+        padding-bottom: 16px; }
+    .carousel__card2 {
+      width: 65%;
+      padding: 120px 165px 165px 270px; }
+      .carousel__card2 h1 {
+        width: 407px;
+        font-size: 40px;
+        padding: 0px 0px 40px; }
+      .carousel__card2 p {
+        width: 450px;
+        padding: 0px;
+        margin: 0px;
+        text-align: left; }
+    .carousel .slick-prev {
+      top: 325px !important;
+      left: 638px !important; }
+    .carousel .slick-next {
+      top: 325px !important;
+      right: -172px !important; }
+    .carousel .slick-initialized .slick-slide {
+      width: 255px !important; }
+    .carousel .slick-slider .slick-track {
+      width: 5000px  !important; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 55px;
     left: 185px; }
