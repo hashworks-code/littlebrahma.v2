@@ -1622,6 +1622,8 @@ html, body {
             transform: rotate(210deg); } }
 
 @media screen and (min-width: 768px) {
+  .container.container-set {
+    width: 620px !important; }
   .prct .genericTitle {
     font-size: 24px; }
   .prct .contextTitle {
@@ -1652,9 +1654,11 @@ html, body {
         padding-top: 72px; }
         .prct_svc_title .svcCont img {
           max-width: 85px;
-          margin-top: 20px; }
+          margin-top: 20px;
+          float: left; }
       .prct_svc_title .indTxt {
-        font-size: 28px; }
+        font-size: 28px;
+        padding: 0px; }
       .prct_svc_title .indCon {
         padding: 10px 34px 16px 0px; }
   .prct .dnaContainer {
@@ -1669,7 +1673,9 @@ html, body {
   .philSec {
     margin: 50px 29px 0; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
+  .container.container-set {
+    width: 640px !important; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1797,7 +1803,9 @@ html, body {
   .philSec {
     margin: 64px 29px 0; } }
 
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 1366px) {
+  .container.container-set {
+    width: 860px !important; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1837,8 +1845,7 @@ html, body {
         padding-left: 0px; }
       .prct_svc_title .indCon {
         padding-top: 24px;
-        padding-bottom: 0px;
-        padding-right: 20px; }
+        padding-bottom: 0px; }
       .prct_svc_title .lgCon {
         width: 830px; }
   .prct .dnaContainer {
