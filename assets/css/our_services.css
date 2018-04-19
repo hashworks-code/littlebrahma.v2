@@ -1356,7 +1356,7 @@ html, body {
     .footer__img {
       width: 1260px;
       right: 70px;
-      bottom: 15px; }
+      bottom: 14px; }
     .footer__inner {
       position: absolute;
       top: 128px;
@@ -1803,7 +1803,7 @@ html, body {
       .prct_svc_title .svcCont {
         padding-top: 160px; }
         .prct_svc_title .svcCont img {
-          max-width: 190px; }
+          max-width: 120px; }
       .prct_svc_title .indTxt {
         font-size: 40px;
         line-height: 48px; }

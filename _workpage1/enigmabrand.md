@@ -77,10 +77,12 @@ evolveSubTitle: "Design with iterationDesign with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"
-colorPaletteImage1: "flag1.svg"
-colorPaletteImage2: "flag2.svg"
-colorPaletteImage3: "flag3.svg"
-colorPaletteImage4: "flag4.svg"
+
+colorPaletter_list:
+  - paletter: "flag1.svg"
+  - paletter: "flag2.svg"
+  - paletter: "flag3.svg"
+  - paletter: "flag4.svg"
 
 fontfamily1: "Typography"
 font: "fontfamily.svg"

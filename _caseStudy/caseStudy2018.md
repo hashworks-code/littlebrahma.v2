@@ -79,7 +79,7 @@ cImg4: "bitmap-copy"
 
 cImg5: "group-9"
 
-cImg6: "group-10"
+cImg6: "calendar_thumb"
 
 cImg7: "bitmap-copy-20"
 

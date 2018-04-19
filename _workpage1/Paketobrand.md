@@ -10,7 +10,7 @@ banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
 textcolor: text-white
-enigma_banner: "/assets/img/branding/paketo.jpg"
+enigma_banner: "/assets/img/branding/paketo.png"
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
@@ -74,11 +74,12 @@ evolveSubTitle: "Design with iterationDesign with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"
-colorPaletteImage1: "paketoColor1.svg"
-colorPaletteImage2: "paketoColor2.svg"
-colorPaletteImage3: "paketoColor3.svg"
 
-
+colorPaletter_list:
+  - paletter: "paketoColor1.svg"
+  - paletter: "paketoColor2.svg"
+  - paletter: "paketoColor3.svg"
+  
 fontfamily1: "Typography"
 font: "paketofont.svg"
 font1: "paketocontent.svg"
