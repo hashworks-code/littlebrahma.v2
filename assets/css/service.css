@@ -2682,13 +2682,16 @@ ul.lb_work_filter.lb_service_lg {
     height: 1px;
     background-color: transparent;
     z-index: 0; }
+  .stepwizard {
+    width: 280px;
+    margin: 0 auto; }
   .stepwizard-step {
     display: table-cell;
     text-align: left;
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 14px 0px 0px 90px; }
+    padding: 14px 0px 0px 0px; }
     .stepwizard-step.active::after {
       background: red;
       height: 100%;
@@ -2703,7 +2706,7 @@ ul.lb_work_filter.lb_service_lg {
     top: -8px;
     left: -5px; }
   .stepperp {
-    top: -30px;
+    top: -25px;
     color: #666;
     position: relative;
     left: 42px;
@@ -2741,6 +2744,7 @@ ul.lb_work_filter.lb_service_lg {
     -webkit-transform: scale(0);
             transform: scale(0); }
   .stepwizard {
+    width: 100%;
     height: 310px;
     padding-top: 0px; }
   .step-content {
