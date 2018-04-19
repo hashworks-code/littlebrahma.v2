@@ -522,7 +522,7 @@
 }
 @media screen and (min-width:1366px){
     .container.container-set{
-        width:860px !important;
+        width:950px !important;
     }
     .knowmore{
         display: flex;
@@ -563,7 +563,7 @@
             &_title{
                 font-size: 40px;
                 .svcCont{
-                    
+                    padding-right:0px;
                     padding-top: 160px;
                     img{
                         max-width: 120px;
