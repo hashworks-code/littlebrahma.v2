@@ -1356,7 +1356,7 @@ html, body {
     .footer__img {
       width: 1260px;
       right: 70px;
-      bottom: 15px; }
+      bottom: 14px; }
     .footer__inner {
       position: absolute;
       top: 128px;
@@ -2367,7 +2367,7 @@ li.lb_work_filterli:first-child {
   .homePage {
     margin-top: 80px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/001-5_Home-page-mobile.gif);
+      background-image: url(/assets/img/homepage/Landing_Page_Mobile_Animation.gif);
       background-size: cover;
       background-position: center center;
       height: 878px; }
