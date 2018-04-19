@@ -1449,8 +1449,10 @@ html, body {
   .prct .dnaContainer {
     font-family: "PT_Sans-Regular";
     display: table; }
-  .prct .know-more-link a {
-    color: #4bdffe; }
+  .prct .know-more-link {
+    display: block; }
+    .prct .know-more-link a {
+      color: #ea1d49; }
   .prct .knowmore a:first-child {
     display: none; }
 
