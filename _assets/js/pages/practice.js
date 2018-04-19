@@ -153,6 +153,7 @@ function newFunction() {
     if($(window).scrollTop() + $(window).height() >= $('.strategy_container').offset().top){
       $('.fixCont').addClass("posAbs");
       $('.prct .rContent').fadeOut("slow");
+      $('.rContent_3').removeClass('fadedIn');
     }
     else{
       $('.fixCont').removeClass("posAbs");
