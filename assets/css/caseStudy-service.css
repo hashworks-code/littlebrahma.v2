@@ -1164,7 +1164,7 @@ html, body {
     .footer__inner {
       position: absolute;
       top: 35px;
-      left: 50px;
+      left: 10%;
       font-size: 40px; }
       .footer__inner a {
         font-size: 20px; }
@@ -1312,12 +1312,12 @@ html, body {
     .footer__img {
       width: 941px;
       position: absolute;
-      right: 0;
+      right: 5%;
       bottom: 19px; }
     .footer__inner {
       position: absolute;
       top: 128px;
-      left: 160px;
+      left: 12%;
       font-size: 40px; }
       .footer__inner h1 {
         padding-bottom: 15px; }
@@ -1348,22 +1348,42 @@ html, body {
           width: 28px;
           height: 28px; } }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
   .footer {
     height: 800px; }
     .footer__image {
       bottom: 0px; }
     .footer__img {
       width: 1260px;
-      right: 70px;
-      bottom: 14px; }
+      right: 4%;
+      bottom: -20px; }
     .footer__inner {
-      position: absolute;
       top: 128px;
-      left: 240px;
-      font-size: 40px; }
-    .footer__bottom {
-      padding: 115px 165px 37px 165px; } }
+      left: 17%; } }
+
+@media screen and (min-width: 2000px) {
+  .footer__img {
+    width: 1260px;
+    right: 6%;
+    bottom: 14px; }
+  .footer__inner {
+    top: 128px;
+    left: 20%;
+    font-size: 40px; }
+  .footer__bottom {
+    padding: 115px 165px 37px 165px; } }
+
+@media screen and (min-width: 2500px) {
+  .footer__img {
+    width: 1260px;
+    right: 8%;
+    bottom: 14px; }
+  .footer__inner {
+    top: 128px;
+    left: 25%;
+    font-size: 40px; }
+  .footer__bottom {
+    padding: 115px 165px 37px 165px; } }
 
 @media screen and (min-width: 3000px) {
   .footer {
@@ -1372,13 +1392,10 @@ html, body {
       bottom: 0px; }
     .footer__img {
       width: 1300px;
-      right: 140px;
+      right: 10%;
       bottom: 13px; }
     .footer__inner {
-      position: absolute;
-      top: 128px;
-      left: 340px;
-      font-size: 40px; }
+      left: 28%; }
     .footer__bottom {
       padding: 120px 165px 37px 165px; } }
 

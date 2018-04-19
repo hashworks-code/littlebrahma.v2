@@ -67,7 +67,7 @@
 &__inner{
   position: absolute;
     top: 35px;
-    left: 50px;;
+    left: 10%;;
   font-size: 40px;
   a{
     font-size: 20px;
@@ -225,13 +225,13 @@ z-index: 99999999;
     &__img{
       width: 941px;
       position: absolute;
-      right: 0;
+      right: 5%;
       bottom: 19px;
     }
   &__inner{
     position: absolute;
     top: 128px;
-    left: 160px;
+    left: 12%;
     font-size: 40px;
      h1{
       padding-bottom: 15px;
@@ -267,7 +267,7 @@ z-index: 99999999;
   }
   }
   }
-  @media screen and (min-width:2000px) {
+  @media screen and (min-width:1800px) {
     .footer{
       height: 800px;
       &__image{
@@ -275,13 +275,44 @@ z-index: 99999999;
       }
       &__img{
         width: 1260px;
-        right:70px;
+        right:4%;
+        bottom: -20px;
+      }
+    &__inner{
+      top: 128px;
+      left: 17%;
+  }
+}
+  }
+  @media screen and (min-width:2000px) {
+    .footer{
+     
+      &__img{
+        width: 1260px;
+        right:6%;
         bottom: 14px;
       }
     &__inner{
-      position: absolute;
       top: 128px;
-      left: 240px;
+      left:20%;
+      font-size: 40px;
+  }
+  &__bottom{
+    padding: 115px 165px 37px 165px;
+  }
+}
+  }
+  @media screen and (min-width:2500px) {
+    .footer{
+     
+      &__img{
+        width: 1260px;
+        right:8%;
+        bottom: 14px;
+      }
+    &__inner{
+      top: 128px;
+      left:25%;
       font-size: 40px;
   }
   &__bottom{
@@ -297,14 +328,11 @@ z-index: 99999999;
       }
       &__img{
         width: 1300px;
-        right:140px;
+        right:10%;
         bottom: 13px;
       }
     &__inner{
-      position: absolute;
-      top: 128px;
-      left: 340px;
-      font-size: 40px;
+      left:28%;
   }
   &__bottom{
     padding: 120px 165px 37px 165px;
