@@ -817,6 +817,8 @@ transform:scale(0);
     @media only screen and (min-width:1366px) {
         .carousel {
             padding-top:150px;
+            width: 1170px;
+            margin: 0 auto 80px;
             h1.typography{
                 font-size:20px !important;
             }
@@ -842,7 +844,7 @@ transform:scale(0);
             &__card2 {
                 width: 65%;
                 height:500px;
-                padding:120px 165px 165px 270px;
+                padding:85px 65px 0px 220px;
                 h1 {
                     width: 407px;
                     font-size:40px;
@@ -872,8 +874,8 @@ transform:scale(0);
         }
         .carousel__card.responsive.slick-initialized.slick-slider
         {
-            top: 55px;
-            left: 185px;
+            top: 45px;
+            left: 125px;
         }
         .carousel__card.responsive.slick-initialized.slick-slider {
             height: 390px;
