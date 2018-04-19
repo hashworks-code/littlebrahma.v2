@@ -1831,7 +1831,7 @@ html, body {
 
 @media screen and (min-width: 1366px) {
   .container.container-set {
-    width: 860px !important; }
+    width: 950px !important; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1862,6 +1862,7 @@ html, body {
     .prct_svc_title {
       font-size: 40px; }
       .prct_svc_title .svcCont {
+        padding-right: 0px;
         padding-top: 160px; }
         .prct_svc_title .svcCont img {
           max-width: 120px; }

@@ -19,9 +19,9 @@
     transition:opacity .5s ease;
 }
 .transparent{
-    border:4px solid  #ea1c49 !important;
+    border:2px solid  #ea1c49 !important;
     background-color: white !important;
-    transform: scale(1.1);
+    transform: scale(1.8);
     box-shadow: 0 2px 4px 0 rgba(234, 28, 73, 0.5);
     transition:scale .3s;
 }
@@ -53,6 +53,7 @@
     position: absolute;
     content:" ";
     width: 50%;
+
     height: 1px;
     background-color:transparent;
     z-index: 0;
@@ -102,8 +103,8 @@
 
 
 .btn-circle.service-btn{
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 12px;
     padding:0px !important;
     text-align: center;
 box-sizing: border-box;    
@@ -225,7 +226,7 @@ ul.lb_work_filter.lb_service_lg{
             bottom: 0;
             position: absolute;
             content:" ";
-            width: 2px;
+            width: 1px;
             height: 100%;
             background-color: #ccc;
             z-index: 0;
@@ -235,7 +236,7 @@ ul.lb_work_filter.lb_service_lg{
             bottom: 0;
             position: absolute;
             content:" ";
-            width: 2px;
+            width: 1px;
             height: 0%;
             background-color: #ccc;
             z-index: 0;
@@ -271,8 +272,8 @@ ul.lb_work_filter.lb_service_lg{
         }
         .btn-circle.service-btn{
             margin-top:0px;
-            top: -11px;
-            left: -11px;
+            top: -8px;
+            left: -5px;
         }
         .stepperp {
             top: -30px;
@@ -301,7 +302,7 @@ border-radius:50%;
 left:50%;
 top:50%;
 margin-left:-22px;
-margin-top:-27px;
+margin-top:-29px;
 transform:scale(0);
         }
         .circle2{
@@ -313,7 +314,7 @@ transform:scale(0);
         left:50%;
         top:50%;
         margin-left:-15px;
-        margin-top:-20px;
+        margin-top:-22px;
         transform:scale(0);
                 }
         .stepwizard{
@@ -356,7 +357,7 @@ transform:scale(0);
             position: absolute;
             content:" ";
             width: 100%;
-            height: 2px;
+            height: 1px;
             background-color: #ccc;
             z-index: 0;
          }
@@ -366,7 +367,7 @@ transform:scale(0);
             position: absolute;
             content:" ";
             width: 0%;
-            height: 2px;
+            height: 1px;
             background-color: #ccc;
             z-index: 0;
          }
@@ -391,7 +392,7 @@ transform:scale(0);
             &.active::after{
                 background: red;
                 width:100%;
-                height:2px;
+                height:1px;
                 transition: width .5s ease;
 
             }
@@ -402,7 +403,7 @@ transform:scale(0);
             left: -18px;
         }
         .btn-circle.service-btn{
-            margin-top:4px;
+            margin-top:9px;
             top: 0px;
             left: 0px;
         }
@@ -418,7 +419,7 @@ transform:scale(0);
     }
 
    
-    @media screen and (min-width: 1025px){
+    @media screen and (min-width: 1024px){
         .step-section{
             width:965px;
             margin:0 auto;
@@ -441,7 +442,7 @@ transform:scale(0);
         position: absolute;
         content:" ";
         width: 100%;
-        height: 2px;
+        height: 1px;
         background-color: #ccc;
         z-index: 0;
      }
@@ -451,7 +452,7 @@ transform:scale(0);
         position: absolute;
         content:" ";
         width: 0%;
-        height: 2px;
+        height: 1px;
         background-color: #ccc;
         z-index: 0;
      }
@@ -480,7 +481,7 @@ transform:scale(0);
         left: -18px;
     }
     .btn-circle.service-btn{
-        margin-top:7px;
+        margin-top:11px;
         top: 0px;
         left: 0px;
     }
@@ -494,7 +495,7 @@ transform:scale(0);
         width: 196px;
     }
     }
-    @media screen and (min-width: 1367px){
+    @media screen and (min-width: 1366px){
         .step-section{
             width:1100px;
             margin:0 auto;
@@ -525,7 +526,7 @@ transform:scale(0);
             position: absolute;
             content:" ";
             width: 0%;
-            height: 2px;
+            height: 1px;
             background-color: #ccc;
             z-index: 0;
          }
@@ -553,7 +554,7 @@ transform:scale(0);
             left: -18px;
         }
         .btn-circle.service-btn{
-            margin-top:7px;
+            margin-top:11px;
             top: 0px;
             left: 0px;
         }
@@ -570,6 +571,10 @@ transform:scale(0);
         .carousel{
                margin-bottom: 100px;
               padding-bottom: 100px;
+
+              h1.typography{
+                  font-size:20px !important;
+              }
           }
 
     @media only screen and (min-width:320px) {
@@ -660,6 +665,9 @@ transform:scale(0);
             background-color: #ffffff;
             margin-bottom: 80px;
             padding-top: 64px;
+            h1.typography{
+                font-size:16px !important;
+            }
             &__card {
                 display: -webkit-box;
                 position: relative !important;
@@ -684,6 +692,7 @@ transform:scale(0);
                 text-align: left;
             }
             &__card2 {
+                height:340px;
                 width:64%;
                 padding:50px 30px 89px 177px;
                 h1 {
@@ -710,7 +719,7 @@ transform:scale(0);
              }
              .slick-slider .slick-track{
                  width: 3000px  !important;
-                 padding-top: 10px;
+                 padding-top: 35px;
                  padding-bottom: 10px;
              }
         }
@@ -729,6 +738,9 @@ transform:scale(0);
         }
         .carousel {
             padding-top:100px;
+            h1.typography{
+            font-size:18px !important;
+            }
             &__card {
                 top: 62px;
                 left: 162px;
@@ -744,6 +756,8 @@ transform:scale(0);
                 }
                h1{
                    text-align: center !important;
+                  
+
                }
                p{
                    font-size: 16px;
@@ -755,6 +769,7 @@ transform:scale(0);
             }
             &__card2 {
                 width: 64%;
+                height:440px;
                 justify-content: flex-start;
                 padding: 85px 30px 160px 210px;
                 h1 {
@@ -784,6 +799,7 @@ transform:scale(0);
             .slick-slider .slick-track{
                 width: 4000px  !important;
                 display: flex;
+                padding-top:15px;
             }
         }
         .carousel__card.responsive.slick-initialized.slick-slider
@@ -801,6 +817,9 @@ transform:scale(0);
     @media only screen and (min-width:1366px) {
         .carousel {
             padding-top:150px;
+            h1.typography{
+                font-size:20px !important;
+            }
             &__card {
                 top: 81px;
                 left: 165px;
@@ -822,6 +841,7 @@ transform:scale(0);
             }
             &__card2 {
                 width: 65%;
+                height:500px;
                 padding:120px 165px 165px 270px;
                 h1 {
                     width: 407px;

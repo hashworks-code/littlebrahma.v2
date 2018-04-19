@@ -70,10 +70,10 @@ cardlist:
          content: We design and co-create prototype for multiple channels to deliver a seamless customer experience.
     - list:
          title: Atomic design principles 
-         content: We break down design into fundamental building blocks to achieve simple and consistant design across touchpoints
+         content: We break down design into fundamental building blocks to achieve simple and consistant design across touchpoints.
     - list:
          title: Data Driven Design 
-         content: We love data as its provides context and direction to the user. Our designs are derived based on complete data analysis      
+         content: We love data as its provides context and direction to the user. Our designs are derived based on complete data analysis.      
          
 ourdifferenciate: We work very closely with the business stakeholders to identify and define the core business issues. Our data driven design approach and tech-driven DesignOps blends efficiently to help drive value to your business.
 ---
