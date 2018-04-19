@@ -5,7 +5,6 @@ layout: appbranding
 product_title: Building the brand voice for Groome
 product_title1: Groome Branding
 product_description: Branding / Visual identity / Website
-product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
