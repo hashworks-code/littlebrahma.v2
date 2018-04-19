@@ -9,8 +9,8 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy-3.png"
 url: "ServiceDesign1"
 title: Hashworks Branding
-textcolor: text-white
-enigma_banner: "/assets/img/branding/groome-copy-3.jpg"
+textcolor: text-black
+enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
 
 background:
   - image: "/assets/img/branding/hashworks/hashconceptmob.png"
