@@ -64,15 +64,19 @@ newprodContent4: Creating high fidelity wire frames to MVP showcase features. Ge
 url: "productDesign"
 cardlist: 
     - list:
+         src: /assets/img/service/component.svg
          title: Components Based Design 
          content: We follow the practice of fundamental brick building to make hand-off to the developers becomes effortless
     - list:
+         src: /assets/img/service/version-control.svg
          title: Advanced Version Control 
          content: We use a cloud based approach to handle version control for design artifacts to achieve fast and fluid with our design releases
     - list:
+         src: /assets/img/service/lean.svg
          title: Lean Design Sprints 
          content: Our designers collaborate with other stakeholders to conduct effective sprint to identify and define the stages of product development.
     - list:
+         src: /assets/img/service/proj.svg
          title: Effective Project Management
          content: We feel accountable for the work and each project is owned by one lead designer who ensures that quality is delivered.
 ourdifferenciate: We believe in being lean, minimalistic and bringing out the usability of the product through our sprint sessions. Having worked with large enterprises for over 3+years makes it easier for us to understand the innovation driven scalable designs.          

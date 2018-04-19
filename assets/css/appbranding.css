@@ -179,7 +179,8 @@ table {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: #393939; }
+  color: #393939;
+  text-transform: capitalize; }
 
 .heroHighlight {
   color: #ea1c49; }
@@ -223,23 +224,27 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .typography {
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .csHeading {
     font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -339,7 +344,7 @@ textarea:hover, textarea:focus {
     font-size: 14px;
     padding: 12px 10px; }
   .lb_bdy {
-    margin-top: 80px; }
+    margin-top: 70px; }
   .heroText {
     font-size: 32px; }
   .bnrText {
@@ -982,7 +987,7 @@ html, body {
 
 @media only screen and (min-width: 767px) {
   .modal1 {
-    margin-top: 80px; }
+    margin-top: 70px; }
   .contactHeading {
     width: 700px; }
   .close1 {
@@ -1199,7 +1204,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
-      left: 50%; }
+      left: 48%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1226,7 +1231,7 @@ html, body {
       display: flex;
       margin: 0 auto;
       z-index: 2;
-      padding-top: 124px; }
+      padding-top: 112px; }
     .footer__inner {
       position: absolute;
       font-size: 32px;
@@ -1247,7 +1252,7 @@ html, body {
           -ms-flex-align: end;
               align-items: flex-end;
       width: 100%;
-      padding: 55px 35px 24px 35px;
+      padding: 67px 35px 24px 35px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1258,7 +1263,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
-      left: 42%; }
+      left: 44%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1372,7 +1377,8 @@ html, body {
     .footer .socialLogo {
       font-size: 16px;
       bottom: 33px;
-      left: 50%; }
+      left: 50%;
+      z-index: 9999; }
       .footer .socialLogo img {
         width: 28px;
         height: 28px; }
@@ -1405,7 +1411,7 @@ html, body {
     left: 21%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 18% 37px 18%; } }
+    padding: 115px 22% 37px 23%; } }
 
 @media screen and (min-width: 2500px) {
   .footer__img {
@@ -1417,7 +1423,7 @@ html, body {
     left: 26%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 15% 37px 20%; } }
+    padding: 115px 23% 37px 25%; } }
 
 @media screen and (min-width: 3000px) {
   .footer {
@@ -1431,7 +1437,9 @@ html, body {
     .footer__inner {
       left: 28%; }
     .footer__bottom {
-      padding: 115px 15% 37px 20%; } }
+      padding: 115px 23% 37px 27%; }
+    .footer .socialLogo {
+      left: 52%; } }
 
 .blobs {
   width: 160px;
@@ -1802,9 +1810,24 @@ html, body {
   width: 300px;
   margin: 0 auto;
   text-align: center; }
+  .branding__enigmalist h2 {
+    padding-bottom: 10px; }
   .branding__enigmalist img {
-    padding-top: 30px;
-    width: 112px; }
+    padding: 30px;
+    width: 100%;
+    height: 100%; }
+
+.branding__enigmalist1 {
+  padding: 50px 0px 24px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center; }
+  .branding__enigmalist1 h2 {
+    padding-bottom: 10px; }
+  .branding__enigmalist1 img {
+    padding: 30px 10px;
+    width: 116px;
+    height: 145px; }
 
 .branding__evolve {
   height: 316px;
@@ -2020,11 +2043,22 @@ html, body {
     width: 700px;
     padding: 60px 0px; }
     .branding__enigmalist img {
-      height: 95px;
-      width: 130px;
-      padding: 0px;
-      margin-top: 50px; }
+      height: 205px;
+      width: 340px;
+      padding: 0;
+      margin-top: 40px; }
     .branding__enigmalist h2 {
+      padding-bottom: 0px;
+      text-align: left; }
+  .branding__enigmalist1 {
+    width: 700px;
+    padding: 60px 0px; }
+    .branding__enigmalist1 img {
+      height: 162px;
+      width: 137px;
+      padding: 0;
+      margin-top: 40px; }
+    .branding__enigmalist1 h2 {
       padding-bottom: 0px;
       text-align: left; }
   .branding .colorPalette {
@@ -2066,7 +2100,7 @@ html, body {
     margin: 0 auto;
     padding: 0; }
     .branding__fontfamily h1 {
-      padding: 30px 0px 30px;
+      padding: 30px 0px 40px;
       text-align: left; }
   .branding__icons {
     width: 700px;
@@ -2191,11 +2225,18 @@ html, body {
   .branding .enigmabackground {
     width: 965px; }
   .branding__enigmalist {
-    padding: 70px 0px 96px;
+    padding: 70px 0px 70px;
     width: 965px; }
     .branding__enigmalist img {
-      height: 118px;
-      width: 207px;
+      height: 240px;
+      width: 100%;
+      margin-top: 80px; }
+  .branding__enigmalist1 {
+    padding: 70px 0px 70px;
+    width: 965px; }
+    .branding__enigmalist1 img {
+      height: 125px;
+      width: 100%;
       margin-top: 80px; }
   .branding__evolve {
     margin-right: 44px;
@@ -2209,6 +2250,8 @@ html, body {
       padding: 20px 0px 20px; }
   .branding__fontfamily {
     width: 965px; }
+    .branding__fontfamily h1 {
+      padding: 30px 0px 50px; }
   .branding__icons {
     padding: 103px 0px 70px;
     width: 965px; }
@@ -2342,12 +2385,17 @@ html, body {
     width: 1100px;
     margin: 0 auto; }
   .branding__enigmalist {
-    padding: 110px 0px 120px;
+    padding: 100px 0px 100px;
     width: 1100px;
     margin: 0 auto; }
     .branding__enigmalist img {
-      height: 118px;
-      width: 207px; }
+      height: 350px;
+      width: 100%; }
+  .branding__enigmalist1 {
+    padding: 100px 0px 100px;
+    width: 1100px; }
+    .branding__enigmalist1 img {
+      height: 175px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
@@ -2364,6 +2412,8 @@ html, body {
     padding: 0;
     width: 1100px;
     margin: 0 auto; }
+    .branding__fontfamily h1 {
+      padding: 30px 0px 60px; }
   .branding__icons {
     padding: 160px 0px 70px 0px;
     margin: 0 auto;

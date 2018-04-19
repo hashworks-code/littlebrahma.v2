@@ -60,16 +60,10 @@ enigmalogo: "hashbreak.svg"
 
 variations1: "hashvar1.svg"
 variations2: "hashvar2.svg"
-variations3: "hashvar4.svg"
-variations4: "hashvar3.svg"
-variations5: "hashvar5.svg"
-variations6: "hashvar6.svg"
-variations7: "hashvar7.svg"
-variations8: "hashvar8.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iterationDesign with iteration"
+evolveSubTitle: "Design with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"
