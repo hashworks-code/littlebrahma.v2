@@ -17,12 +17,13 @@ li.lb_work_filterli:first-child {
     margin-left: 50px !important;
 }
 .homePage{
-    margin-top: 80px;
+    // margin-top: 80px;
     &__BnrDiv{
         background-image: url(/assets/img/homepage/01_Home.gif);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
+        margin-top: -2%;
         &__Inner{
              height: 710px;
             &__Content{
@@ -177,13 +178,14 @@ li.lb_work_filterli:first-child {
             width: 50%;
             padding-right: 0px;
             img{
-                width: 88%;
-                height: 90%;
+                width: auto;
+                height: auto;
             }
         }
         &__right{
             margin: 0px auto;
             width: 50%;
+            margin-top:8%;
             h1{
                 margin:0px;
                 font-size: 24px;
@@ -223,7 +225,7 @@ li.lb_work_filterli:first-child {
 .lb-ourworks-dna{
     
     width: 1100px;
-    margin: 250px auto 0;
+    margin: 150px auto 0;
 }
 @media screen and (max-width: 1366px) {
     li.lb_work_filterli:first-child {
@@ -307,14 +309,15 @@ li.lb_work_filterli:first-child {
             &__left{
                 width: 50%;
                 img{
-                    width: 88%;
-                    height: 90%;
+                    width: auto;
+                    height: auto;
                 }
             }
             &__right{
                width: 50%;
                 margin: 0px auto;
                 padding-right: 90px;
+                margin-top:8%;
                 h1{
                     font-size: 20px;
                     margin: 0px;
@@ -401,6 +404,7 @@ li.lb_work_filterli:first-child {
                 width: 342px;
                 margin: 0px auto;
                 padding-right: -1px;
+                margin-top:8%;
                 h1{
                     font-size: 16px;
                     margin: 0px;
