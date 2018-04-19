@@ -179,7 +179,8 @@ table {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: #393939; }
+  color: #393939;
+  text-transform: capitalize; }
 
 .heroHighlight {
   color: #ea1c49; }
@@ -223,23 +224,27 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .typography {
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .csHeading {
     font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -339,7 +344,7 @@ textarea:hover, textarea:focus {
     font-size: 14px;
     padding: 12px 10px; }
   .lb_bdy {
-    margin-top: 80px; }
+    margin-top: 70px; }
   .heroText {
     font-size: 32px; }
   .bnrText {
@@ -1462,7 +1467,8 @@ html, body {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
     font-family: "MavenPro-Bold";
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .prct .contextTitle {
     font-family: "MavenPro-Medium";
     color: #393939; }
@@ -1483,7 +1489,8 @@ html, body {
     padding: 45px 35px; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
-      color: #393939; }
+      color: #393939;
+      text-transform: capitalize; }
     .prct_dic .bldContent {
       font-family: "MavenPro-Medium";
       color: #393939; }
