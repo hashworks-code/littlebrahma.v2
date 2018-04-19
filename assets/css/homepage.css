@@ -1874,7 +1874,6 @@ li.lb_work_filterli:first-child {
   margin-left: 10px !important; }
 
 .lb-filter-Img {
-  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
@@ -2284,7 +2283,8 @@ li.lb_work_filterli:first-child {
   letter-spacing: normal;
   /* text-align: left; */
   color: #393939;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  margin-top: 20px; }
 
 .lb-ourworks-dna {
   width: 1100px;
@@ -2299,7 +2299,8 @@ li.lb_work_filterli:first-child {
     margin-left: 50px !important; }
   .lb-ourworks {
     font-size: 32px;
-    padding-bottom: 36px; }
+    padding-bottom: 36px;
+    margin-top: 80px; }
   .homePage {
     margin-top: 0; }
     .homePage__BnrDiv__Inner {
@@ -2403,7 +2404,8 @@ li.lb_work_filterli:first-child {
     padding-bottom: 60px; }
   .lb-ourworks {
     font-size: 28px;
-    padding-bottom: 36px; }
+    padding-bottom: 36px;
+    margin-top: 0px; }
   .lb-ourworks-dna {
     width: 700px;
     margin: 170px auto 0; } }
@@ -2472,7 +2474,8 @@ li.lb_work_filterli:first-child {
           font-size: 14px; }
   .lb-ourworks {
     font-size: 24px;
-    padding-bottom: 32px; }
+    padding-bottom: 32px;
+    margin-top: 0px; }
   .lb-ourworks-dna {
     width: 300px;
     margin: 431px auto 0; }
