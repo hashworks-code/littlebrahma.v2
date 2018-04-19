@@ -64,16 +64,10 @@ enigmalogo: "1-st-image.svg"
 
 variations1: "1.svg"
 variations2: "2.svg"
-variations3: "3.svg"
-variations4: "4.svg"
-variations5: "5.svg"
-variations6: "6.svg"
-variations7: "7.svg"
-variations8: "8.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iterationDesign with iteration"
+evolveSubTitle: "Design with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"

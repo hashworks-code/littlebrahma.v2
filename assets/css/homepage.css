@@ -179,7 +179,8 @@ table {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: #393939; }
+  color: #393939;
+  text-transform: capitalize; }
 
 .heroHighlight {
   color: #ea1c49; }
@@ -223,23 +224,27 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .typography {
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .csHeading {
     font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
     color: #393939;
-    line-height: normal; }
+    line-height: normal;
+    text-transform: capitalize; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -339,7 +344,7 @@ textarea:hover, textarea:focus {
     font-size: 14px;
     padding: 12px 10px; }
   .lb_bdy {
-    margin-top: 80px; }
+    margin-top: 70px; }
   .heroText {
     font-size: 32px; }
   .bnrText {
@@ -982,7 +987,7 @@ html, body {
 
 @media only screen and (min-width: 767px) {
   .modal1 {
-    margin-top: 80px; }
+    margin-top: 70px; }
   .contactHeading {
     width: 700px; }
   .close1 {
@@ -1199,7 +1204,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
-      left: 50%; }
+      left: 48%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1226,7 +1231,7 @@ html, body {
       display: flex;
       margin: 0 auto;
       z-index: 2;
-      padding-top: 124px; }
+      padding-top: 112px; }
     .footer__inner {
       position: absolute;
       font-size: 32px;
@@ -1247,7 +1252,7 @@ html, body {
           -ms-flex-align: end;
               align-items: flex-end;
       width: 100%;
-      padding: 55px 35px 24px 35px;
+      padding: 67px 35px 24px 35px;
       margin: 0 auto;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -1258,7 +1263,7 @@ html, body {
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
-      left: 42%; }
+      left: 44%; }
       .footer .socialLogo img {
         width: 21px;
         height: 21px; }
@@ -1372,7 +1377,8 @@ html, body {
     .footer .socialLogo {
       font-size: 16px;
       bottom: 33px;
-      left: 50%; }
+      left: 50%;
+      z-index: 9999; }
       .footer .socialLogo img {
         width: 28px;
         height: 28px; }
@@ -1405,7 +1411,7 @@ html, body {
     left: 21%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 18% 37px 18%; } }
+    padding: 115px 22% 37px 23%; } }
 
 @media screen and (min-width: 2500px) {
   .footer__img {
@@ -1417,7 +1423,7 @@ html, body {
     left: 26%;
     font-size: 40px; }
   .footer__bottom {
-    padding: 115px 15% 37px 20%; } }
+    padding: 115px 23% 37px 25%; } }
 
 @media screen and (min-width: 3000px) {
   .footer {
@@ -1431,7 +1437,37 @@ html, body {
     .footer__inner {
       left: 28%; }
     .footer__bottom {
-      padding: 115px 15% 37px 20%; } }
+      padding: 115px 23% 37px 27%; }
+    .footer .socialLogo {
+      left: 52%; } }
+
+.rContent.fixedContainer {
+  position: fixed;
+  top: 40%; }
+
+.fadedIn {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  display: block !important; }
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .prct {
   line-height: 1.5; }
@@ -1459,7 +1495,8 @@ html, body {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
     font-family: "MavenPro-Bold";
-    color: #393939; }
+    color: #393939;
+    text-transform: capitalize; }
   .prct .contextTitle {
     font-family: "MavenPro-Medium";
     color: #393939; }
@@ -1468,8 +1505,6 @@ html, body {
     font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
-  .prct .rContent_1 {
-    visibility: hidden; }
   .prct .right.Containers {
     background: #fff; }
   .prct img {
@@ -1480,7 +1515,8 @@ html, body {
     padding: 45px 35px; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
-      color: #393939; }
+      color: #393939;
+      text-transform: capitalize; }
     .prct_dic .bldContent {
       font-family: "MavenPro-Medium";
       color: #393939; }
@@ -1868,7 +1904,7 @@ html, body {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/002_work.gif) !important; }
+  background-image: url(/assets/img/workpage/shapes2_1.gif) !important; }
 
 #lb_btn1 {
   display: none; }
@@ -2178,7 +2214,8 @@ li.lb_work_filterli:first-child {
     .homePage__BnrDiv__Inner__Content {
       padding: 25% 0 0 157px;
       width: 655px;
-      color: #393939; }
+      color: #393939;
+      text-transform: capitalize; }
       .homePage__BnrDiv__Inner__Content h1 {
         font-size: 48px;
         font-family: 'MavenPro-Medium'; }
@@ -2294,7 +2331,8 @@ li.lb_work_filterli:first-child {
       margin: 0px;
       font-size: 24px;
       font-family: 'MavenPro-Bold';
-      color: #393939; }
+      color: #393939;
+      text-transform: capitalize; }
     .homePage__dna__right p {
       margin-bottom: 32px;
       margin-top: 20px; }
@@ -2435,7 +2473,7 @@ li.lb_work_filterli:first-child {
     margin-top: 0px; }
   .lb-ourworks-dna {
     width: 700px;
-    margin: 170px auto 0; } }
+    margin: 170px auto 0 !important; } }
 
 @media screen and (max-width: 767px) {
   .homePage {

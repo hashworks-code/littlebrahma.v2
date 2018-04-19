@@ -61,16 +61,11 @@ enigmalogo: "paketobreak.svg"
 
 variations1: "paketo1.svg"
 variations2: "paketo2.svg"
-variations3: "paketo7.svg"
-variations4: "paketo3.svg"
-variations5: "paketo5.svg"
-variations6: "paketo6.svg"
-variations7: "paketo4.svg"
-variations8: "paketo8.svg"
+
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iterationDesign with iteration"
+evolveSubTitle: "Design with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"

@@ -63,15 +63,19 @@ newprodContent4: Design scalable UI components and create inspiring screens whic
 url: "ServiceDesign"
 cardlist: 
     - list:
+         src: /assets/img/service/timeline.svg
          title: Timeline 
          content: We respect our time as well as the time of the stakeholders involved. We don’t like things to be kept on hold.
     - list:
+         src: /assets/img/service/atomic.svg
          title: High Fidelity prototypes 
          content: We design and co-create prototype for multiple channels to deliver a seamless customer experience.
     - list:
+         src: /assets/img/service/fidility.svg
          title: Atomic design principles 
          content: We break down design into fundamental building blocks to achieve simple and consistant design across touchpoints.
     - list:
+         src: /assets/img/service/data.svg
          title: Data Driven Design 
          content: We love data as its provides context and direction to the user. Our designs are derived based on complete data analysis.      
          

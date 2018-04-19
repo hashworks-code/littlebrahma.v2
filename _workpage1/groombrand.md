@@ -61,13 +61,6 @@ enigmalogo: "groome1.svg"
 
 variations1: "variation1.svg"
 variations2: "variation2.svg"
-variations3: "variation3.svg"
-variations4: "variation6.svg"
-variations5: "variation5.svg"
-variations6: "variation4.svg"
-variations7: "variation7.svg"
-variations8: "variation8.svg"
-
 
 evolveTitle: "Evolve"
 evolveSubTitle: "Design with iteration"
