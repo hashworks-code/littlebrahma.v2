@@ -42,12 +42,15 @@ existprocuctContenthead4: Design & Documentation
 existprocuctContent4: Creating an inspiring visual identity for the brand which captures its voice and leaves a everlasting impression on their customer’s mind
 cardlist: 
     - list:
+         src: /assets/img/service/collab.svg
          title: Collaborative Work Environment 
          content: We collaborate with business, content writer and strategists to understand your brand better and visually recite your brand story
     - list:
+         src: /assets/img/service/multiple.svg
          title: Multiple Design Platforms 
          content: We don’t restrict ourselves by training our designers to become expert in different disciplines of design
     - list:
+         src: /assets/img/service/hybrid.svg
          title: Hybrid Roles 
          content: Most of our folks wear multiple hats. Our designers understand different stakeholders constraints to achieve the business goals
 ourdifferenciate: We have great storytellers who understand the pulse of your end customers. They narrate your brand story with clear emphasis on your organization vision, values and voice.

@@ -139,7 +139,7 @@
         <div class="carousel__card responsive">
                 {% for img in page.cardlist%}
                     <div class="carousel__card1 ">
-                        <img src="/assets/img/service/arrow1.svg" alt="">
+                        <img src={{img.list.src}} alt="">
                         <h1 class="typography">{{img.list.title}}</h1>
                         <p class="paragraph">{{img.list.content}}</p>
                     </div>
