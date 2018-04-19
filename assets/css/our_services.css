@@ -1656,7 +1656,7 @@ html, body {
 
 @media screen and (min-width: 1024px) {
   .container.container-set {
-    width: 730px !important; }
+    width: 640px !important; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1701,7 +1701,6 @@ html, body {
           font-size: 32px; }
         .prct_svc_title .indCon {
           padding-top: 32px;
-          padding-right: 79px;
           padding-bottom: 0px; }
       .prct_svc .sCont {
         padding-top: 15px; }
@@ -1827,8 +1826,7 @@ html, body {
         padding-left: 0px; }
       .prct_svc_title .indCon {
         padding-top: 24px;
-        padding-bottom: 0px;
-        padding-right: 20px; }
+        padding-bottom: 0px; }
       .prct_svc_title .lgCon {
         width: 830px; }
   .prct .dnaContainer {
