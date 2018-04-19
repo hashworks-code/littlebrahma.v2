@@ -97,8 +97,8 @@ lists_img:
   - slide-imges: "ftr-2017@11"
 
 cat: Branding & Communication
-product_title: LB Calendar design 2018
-product_title1: calender 2018
+product_title: LB Calendar Design 2018
+product_title1: Calendar 2018
 product_description: Visual identity
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/123-copy-7.png"

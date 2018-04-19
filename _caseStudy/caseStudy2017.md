@@ -92,8 +92,8 @@ lists_img:
   - slide-imges: "02-310517-i"
 
 cat: Branding & Communication
-product_title: LD Calendar Design 2017
-product_title1: calendar 2017
+product_title: LB Calendar Design 2017
+product_title1: Calendar 2017
 product_description: Visual identity
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/123-copy-8.png"

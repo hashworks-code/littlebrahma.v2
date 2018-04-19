@@ -2,7 +2,7 @@
 
 cat: Branding & Communication
 layout: appbranding
-product_title: Simplifying the DevOps Practices
+product_title: Simplifying the DevOps practices
 product_title1: Paketo Branding
 product_description: Branding / Visual identity / Website
 #product_thumbnail_description: TALENT AQUISITION

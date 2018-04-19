@@ -143,7 +143,7 @@ full_image:
 
 
 cat: Service Design
-product_title: Fraud detectation tool for E-commerce platform
+product_title: Fraud detection tool for E-commerce platform
 product_title1: Global Anti-Fraud Detection Tool
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
