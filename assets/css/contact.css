@@ -499,7 +499,7 @@ html, body {
   top: 0;
   left: 0;
   background: white;
-  height: 70px;
+  height: 50px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -507,7 +507,7 @@ html, body {
 
 @media only screen and (min-width: 768px) {
   .cd-header {
-    height: 80px;
+    height: 50px;
     background: white;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -618,15 +618,21 @@ html, body {
   } */
 @media only screen and (min-width: 768px) {
   .cd-secondary-nav {
-    display: block; } }
+    display: block; }
+  .cd-header {
+    height: 70px; } }
 
 @media only screen and (min-width: 1024px) {
   .cd-secondary-nav a {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .cd-header {
+    height: 70px; } }
 
 @media only screen and (min-width: 1367px) {
   .cd-secondary-nav a {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .cd-header {
+    height: 80px; } }
 
 .cd-primary-nav-trigger {
   position: absolute;
