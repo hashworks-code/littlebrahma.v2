@@ -2872,7 +2872,7 @@ ul.lb_work_filter.lb_service_lg {
   .stepwizard-row .popover {
     width: 196px; } }
 
-@media screen and (min-width: 1367px) {
+@media screen and (min-width: 1366px) {
   .step-section {
     width: 1100px;
     margin: 0 auto; }
@@ -2936,6 +2936,8 @@ ul.lb_work_filter.lb_service_lg {
 .carousel {
   margin-bottom: 100px;
   padding-bottom: 100px; }
+  .carousel h1.typography {
+    font-size: 20px !important; }
 
 @media only screen and (min-width: 320px) {
   .carousel {
@@ -3023,6 +3025,8 @@ ul.lb_work_filter.lb_service_lg {
     background-color: #ffffff;
     margin-bottom: 80px;
     padding-top: 64px; }
+    .carousel h1.typography {
+      font-size: 16px !important; }
     .carousel__card {
       display: -webkit-box;
       position: relative !important;
@@ -3042,6 +3046,7 @@ ul.lb_work_filter.lb_service_lg {
       padding-bottom: 10px;
       text-align: left; }
     .carousel__card2 {
+      height: 340px;
       width: 64%;
       padding: 50px 30px 89px 177px; }
       .carousel__card2 h1 {
@@ -3062,7 +3067,7 @@ ul.lb_work_filter.lb_service_lg {
       width: 160px !important; }
     .carousel .slick-slider .slick-track {
       width: 3000px  !important;
-      padding-top: 10px;
+      padding-top: 35px;
       padding-bottom: 10px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 7px;
@@ -3075,6 +3080,8 @@ ul.lb_work_filter.lb_service_lg {
     margin-left: -127.5px; }
   .carousel {
     padding-top: 100px; }
+    .carousel h1.typography {
+      font-size: 18px !important; }
     .carousel__card {
       top: 62px;
       left: 162px;
@@ -3095,6 +3102,7 @@ ul.lb_work_filter.lb_service_lg {
       text-align: left; }
     .carousel__card2 {
       width: 64%;
+      height: 440px;
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
@@ -3121,7 +3129,8 @@ ul.lb_work_filter.lb_service_lg {
       width: 4000px  !important;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      padding-top: 15px; }
   .carousel__card.responsive.slick-initialized.slick-slider {
     top: 45px;
     left: 128px; }
@@ -3131,6 +3140,8 @@ ul.lb_work_filter.lb_service_lg {
 @media only screen and (min-width: 1366px) {
   .carousel {
     padding-top: 150px; }
+    .carousel h1.typography {
+      font-size: 20px !important; }
     .carousel__card {
       top: 81px;
       left: 165px;
@@ -3147,6 +3158,7 @@ ul.lb_work_filter.lb_service_lg {
         padding-bottom: 16px; }
     .carousel__card2 {
       width: 65%;
+      height: 500px;
       padding: 120px 165px 165px 270px; }
       .carousel__card2 h1 {
         width: 407px;

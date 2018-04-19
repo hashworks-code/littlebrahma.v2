@@ -495,7 +495,7 @@ transform:scale(0);
         width: 196px;
     }
     }
-    @media screen and (min-width: 1367px){
+    @media screen and (min-width: 1366px){
         .step-section{
             width:1100px;
             margin:0 auto;
@@ -571,6 +571,10 @@ transform:scale(0);
         .carousel{
                margin-bottom: 100px;
               padding-bottom: 100px;
+
+              h1.typography{
+                  font-size:20px !important;
+              }
           }
 
     @media only screen and (min-width:320px) {
@@ -661,6 +665,9 @@ transform:scale(0);
             background-color: #ffffff;
             margin-bottom: 80px;
             padding-top: 64px;
+            h1.typography{
+                font-size:16px !important;
+            }
             &__card {
                 display: -webkit-box;
                 position: relative !important;
@@ -685,6 +692,7 @@ transform:scale(0);
                 text-align: left;
             }
             &__card2 {
+                height:340px;
                 width:64%;
                 padding:50px 30px 89px 177px;
                 h1 {
@@ -711,7 +719,7 @@ transform:scale(0);
              }
              .slick-slider .slick-track{
                  width: 3000px  !important;
-                 padding-top: 10px;
+                 padding-top: 35px;
                  padding-bottom: 10px;
              }
         }
@@ -730,6 +738,9 @@ transform:scale(0);
         }
         .carousel {
             padding-top:100px;
+            h1.typography{
+            font-size:18px !important;
+            }
             &__card {
                 top: 62px;
                 left: 162px;
@@ -745,6 +756,7 @@ transform:scale(0);
                 }
                h1{
                    text-align: center !important;
+                  
 
                }
                p{
@@ -757,6 +769,7 @@ transform:scale(0);
             }
             &__card2 {
                 width: 64%;
+                height:440px;
                 justify-content: flex-start;
                 padding: 85px 30px 160px 210px;
                 h1 {
@@ -786,6 +799,7 @@ transform:scale(0);
             .slick-slider .slick-track{
                 width: 4000px  !important;
                 display: flex;
+                padding-top:15px;
             }
         }
         .carousel__card.responsive.slick-initialized.slick-slider
@@ -803,6 +817,9 @@ transform:scale(0);
     @media only screen and (min-width:1366px) {
         .carousel {
             padding-top:150px;
+            h1.typography{
+                font-size:20px !important;
+            }
             &__card {
                 top: 81px;
                 left: 165px;
@@ -824,6 +841,7 @@ transform:scale(0);
             }
             &__card2 {
                 width: 65%;
+                height:500px;
                 padding:120px 165px 165px 270px;
                 h1 {
                     width: 407px;
