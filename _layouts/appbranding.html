@@ -170,18 +170,11 @@
    <div class="branding__enigmalist ">
       <h2 class="csHeading colorPalette ">{{page.colorPalette}}</h2>
         <div class="row ">
+                {% for imaga in page.colorPaletter_list %}
             <div class="col-xs-6 col-sm-3">
-                <img src="/assets/img/branding/{{page.colorPaletteImage1}}" alt="">
+                <img src="/assets/img/branding/{{imaga.paletter}}" alt="">
             </div>
-            <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/{{page.colorPaletteImage2}}" alt="">
-            </div>
-            <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/{{page.colorPaletteImage3}}" alt="">
-             </div>
-             <div class="col-xs-6 col-sm-3">
-               <img src="/assets/img/branding/{{page.colorPaletteImage4}}" alt="">
-             </div>
+            {% endfor %}
         </div>
     </div>
 
