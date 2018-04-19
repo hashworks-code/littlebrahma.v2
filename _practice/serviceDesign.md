@@ -13,7 +13,7 @@ practice_lists:
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
 homebackgroundimg: /assets/img/workpage/group-3.png      
 published: true
-practiceList: Service design
+practiceList: Service Design
 practiceList1: Customer experience
 practiceList2: Process optimisation
 practiceList3: Service blueprints

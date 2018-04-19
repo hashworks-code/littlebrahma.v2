@@ -351,7 +351,7 @@ button.lb_btn:focus {
 }
 
 .lb-filter-service{
-   padding-bottom: 32px;
+   padding-bottom: 48px;
 }
 .lb-filterDiv{
 //    padding-left:42px;
@@ -368,7 +368,7 @@ button.lb_btn:focus {
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
-    padding-top: 24px;
+    padding-top: 32px;
   }
   .lb-filter-header{
     font-family: 'MavenPro-Bold';
@@ -381,7 +381,7 @@ button.lb_btn:focus {
     text-align: left;
     color: #393939;
  
-    padding-top: 15px;
+    padding-top: 24px;
   }
   .lb-filter-headdesc{
     font-family:'PT_Sans-Regular';
@@ -393,7 +393,7 @@ button.lb_btn:focus {
     letter-spacing: normal;
     text-align: left;
     color:#737373;
-    
+    padding-top:8px;
   }
     .lb-filter-footer{
         font-family: MavenPro-Medium;
@@ -465,10 +465,12 @@ button.lb_btn:focus {
     .lb-filter-head{
         font-size: 14px;
         width: 166px;
-    
+        padding-top: 24px;
     }
     .lb-filter-header{
         font-size: 16px;
+        padding-top: 16px;
+        
     }
     .lb-filter-headdesc{
         font-size: 12px;
@@ -479,6 +481,9 @@ button.lb_btn:focus {
     .lb-filter-Img {
         height: 194px;
         padding-left:15px;
+    }
+    .lb-filter-service{
+        padding-bottom: 24px;
     }
   
 }
@@ -504,9 +509,11 @@ button.lb_btn:focus {
     }
     .lb-filter-head{
         font-size: 14px;
+        padding-top:24px;
     }
     .lb-filter-header{
         font-size: 16px;
+        padding-top: 16px;
     }
     .lb-filter-headdesc{
         font-size: 12px;
@@ -514,6 +521,9 @@ button.lb_btn:focus {
 
     .lb_btn_div{
         text-align: center;
+    }
+    .lb-filter-service{
+        padding-bottom: 24px;
     }
 }
 @media screen and (min-width: 1024px){
@@ -529,9 +539,11 @@ button.lb_btn:focus {
     .lb-filter-head{
         font-size: 18px;
         width: 200px;
+        padding-top:32px;
     }
     .lb-filter-header{
         font-size: 20px;
+        padding-top: 16px;
     }
     .lb-filter-headdesc{
         font-size: 16px;
@@ -543,6 +555,9 @@ button.lb_btn:focus {
     .lb-filter-Img {
         padding-left:30px;
         height: 340px;
+    }
+    .lb-filter-service{
+        padding-bottom: 32px;
     }
 
 }
@@ -558,9 +573,11 @@ button.lb_btn:focus {
     }
     .lb-filter-head{
         font-size: 20px;
+        padding-top:32px;
     }
     .lb-filter-header{
         font-size: 24px;
+        padding-top: 24px;
     }
     .lb-filter-headdesc{
         font-size: 16px;
@@ -573,7 +590,9 @@ button.lb_btn:focus {
         padding-left:30px;
         height: 340px;
     }
-    
+    .lb-filter-service{
+        padding-bottom: 48px;
+    }
 }
 .workfilter1{
     display: none;
