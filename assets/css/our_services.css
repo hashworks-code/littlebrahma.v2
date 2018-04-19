@@ -1812,10 +1812,12 @@ html, body {
           max-width: 120px; }
       .prct_svc_title .indTxt {
         font-size: 40px;
-        line-height: 48px; }
+        line-height: 48px;
+        padding-left: 0px; }
       .prct_svc_title .indCon {
         padding-top: 24px;
-        padding-bottom: 0px; }
+        padding-bottom: 0px;
+        padding-right: 20px; }
       .prct_svc_title .lgCon {
         width: 830px; }
   .prct .dnaContainer {
