@@ -2092,7 +2092,7 @@ html, body {
     margin: 0 auto;
     padding: 0; }
     .branding__fontfamily h1 {
-      padding: 30px 0px 30px;
+      padding: 30px 0px 40px;
       text-align: left; }
   .branding__icons {
     width: 700px;
@@ -2242,6 +2242,8 @@ html, body {
       padding: 20px 0px 20px; }
   .branding__fontfamily {
     width: 965px; }
+    .branding__fontfamily h1 {
+      padding: 30px 0px 50px; }
   .branding__icons {
     padding: 103px 0px 70px;
     width: 965px; }
@@ -2402,6 +2404,8 @@ html, body {
     padding: 0;
     width: 1100px;
     margin: 0 auto; }
+    .branding__fontfamily h1 {
+      padding: 30px 0px 60px; }
   .branding__icons {
     padding: 160px 0px 70px 0px;
     margin: 0 auto;

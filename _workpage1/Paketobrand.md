@@ -65,7 +65,7 @@ variations2: "paketo2.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iterationDesign with iteration"
+evolveSubTitle: "Design with iteration"
 evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
 
 colorPalette: "Color Palette"
