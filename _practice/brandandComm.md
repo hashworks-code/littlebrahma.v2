@@ -1,5 +1,5 @@
 ---
-title: Branding & Communication Design
+title: Branding & Communication
 subtitle: Branding & Communication
 keywords: >-
   Branding, Design, Communication
