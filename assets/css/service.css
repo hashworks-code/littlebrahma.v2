@@ -2471,15 +2471,9 @@ li.lb_work_filterli:first-child {
   opacity: 1 !important;
   color: #bbb; }
 
-.stepwizard-step:before {
-  top: 14px;
-  bottom: 0;
-  position: absolute;
-  content: " ";
-  width: 100%;
-  height: 2px;
-  background-color: #ccc;
-  z-index: 0; }
+.stepwizard-step:after {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
 
 .stepwizard-step:last-child:before {
   top: 14px;
@@ -2492,10 +2486,13 @@ li.lb_work_filterli:first-child {
   z-index: 0; }
 
 .btn-circle.service-btn {
-  width: 24px;
-  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  min-width: 24px;
+  min-height: 24px;
   text-align: center;
-  /* padding: 6px 0; */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 50% !important;
@@ -2590,6 +2587,15 @@ ul.lb_work_filter.lb_service_lg {
     height: 100%;
     background-color: #ccc;
     z-index: 0; }
+  .stepwizard-step:after {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    height: 0%;
+    background-color: #ccc;
+    z-index: 0; }
   .stepwizard-step:last-child:before {
     top: 14px;
     bottom: 0;
@@ -2606,8 +2612,11 @@ ul.lb_work_filter.lb_service_lg {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 14px 0px 0px 90px; }
-    .stepwizard-step.active::before {
-      background: red; }
+    .stepwizard-step.active::after {
+      background: red;
+      height: 100%;
+      -webkit-transition: height .5s ease;
+      transition: height .5s ease; }
   .stepper-images {
     position: absolute;
     top: -14px;
@@ -2680,6 +2689,15 @@ ul.lb_work_filter.lb_service_lg {
     height: 2px;
     background-color: #ccc;
     z-index: 0; }
+  .stepwizard-step:after {
+    top: 15px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0; }
   .stepwizard-step:last-child:before {
     top: 14px;
     bottom: 0;
@@ -2697,6 +2715,12 @@ ul.lb_work_filter.lb_service_lg {
     margin-bottom: 100px;
     padding: 0px;
     height: 44px; }
+    .stepwizard-step.active::after {
+      background: red;
+      width: 100%;
+      height: 2px;
+      -webkit-transition: width .5s ease;
+      transition: width .5s ease; }
   .stepper-images {
     position: absolute;
     top: -70px;
@@ -2730,6 +2754,15 @@ ul.lb_work_filter.lb_service_lg {
     position: absolute;
     content: " ";
     width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0; }
+  .stepwizard-step:after {
+    top: 17px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 0%;
     height: 2px;
     background-color: #ccc;
     z-index: 0; }
@@ -2783,6 +2816,15 @@ ul.lb_work_filter.lb_service_lg {
     position: absolute;
     content: " ";
     width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0; }
+  .stepwizard-step:after {
+    top: 17px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 0%;
     height: 2px;
     background-color: #ccc;
     z-index: 0; }
@@ -2907,7 +2949,7 @@ ul.lb_work_filter.lb_service_lg {
   .carousel {
     background-color: #ffffff;
     margin-bottom: 80px;
-    padding-top: 80px; }
+    padding-top: 30px; }
     .carousel__card {
       display: -webkit-box;
       position: relative !important;
