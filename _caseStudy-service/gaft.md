@@ -31,8 +31,8 @@ box_lists:
       UImg1: 'gaft-security'
 
 cHead1: "Introduction"
-cContent1: "A large global PC manufacturer uses this solution to detect e-commerce frauds, dubious monetary transactions & geo trade compliance. This application contain complex search and
-comparison functionalities integrated to fraud detection rule engine to flag transactions that
+cContent1: "A large global PC manufacturer uses this solution to detect e-commerce frauds, dubious monetary transactions & geo trade compliance. This application contains complex search and
+comparison functionalities integrated to fraud detection rule engine, to flag transactions that
 are inappropriate."
 
 SImg1: "gaft-data"
@@ -75,7 +75,7 @@ content_lists1:
     - cContent7: '- Customer interviews and Surveys'
     - cContent7: '- Personas acting on the system'
     - cContent7: '- Brainstorming on the areas where usabality has to be improved '
-    - cContent7: '- Entire flow of the Fraud detection process'
+    - cContent7: '- Entire flow of the fraud detection process'
 
 
 
@@ -84,7 +84,7 @@ box-Head5: ''
 box-para4: 'Integration services'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us to understand the application in and out so that we could come up with a better experience. We conceptualized a fresh look on how the app should looks and navigate. We finalized on various patterns while retaining user sensibility to the legacy app."
+cContent8: "Our discovery phase helped us to understand the application in and out, so that we could come up with a better experience. We conceptualized a fresh look on how the app should be designed and navigate. We finalized on various patterns, while retaining user sensibility to the legacy app."
 
 SImg3: "gaft-user-flow"
 
@@ -109,9 +109,9 @@ img_list:
 cHead5: "Adapt "
 csubHead4: "Effortless tracking and visualisation of an order"
 adapt_loop:
-  - cContent9: "Learning the user priorities on biz's scenarios, interviews with high frequency users to understand the pain-points, outcome based discussion on the scenarios to draw insights and achieve call to action for every user scenarios within 2 to 3 clicks."
+  - cContent9: "Learning the user priorities on biz's scenarios, interviews with high frequency users to understand the pain-points, outcome based discussion on the scenarios to draw insights and achieve call to action for every user scenarios reducing to 2 - 3 clicks."
 csubHead5: "Output"
-cContent10: "We were able to come up with following solutions for our customers."
+cContent10: "We were able to come up with the following solutions for our customers:"
 
 
 
@@ -122,7 +122,7 @@ main_content:
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis was conducted on the design prototypes for validation with the business users. Over few iterations we were able to achieve the desired outcome for the multi-user system by retaining the old world charm with applied UX principles and methods at scale. "
+cContent16: "Heat map analysis was conducted on the design prototypes for validation with the business users. Over few iterations, we were able to achieve the desired outcome for the multi-user system by retaining the old world charm with applied UX principles and methods at scale. "
 
 box-Head7: '140+'
 box-Head8: ''
@@ -130,7 +130,7 @@ box-para5: 'Features allowing the users to resolve frauds from one platform'
 
 
 division_loop:
-    - cHead6: '1.  Upgradation of the solution'
+    - cHead6: '1.  Upgrading the solution'
       para_loop:
         - cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
       SImg6: 'gaft-senario'

@@ -1,4 +1,10 @@
 (function() {
+
+//scroll to top on refresh
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
+
 $(window).resize(function(){
     if(screen.width > 767){
         var valHeight = ((31.4/100)*$('.homePage__BnrDiv__Service').height());
@@ -32,6 +38,9 @@ $(window).resize(function(){
     // }
     
 });
+    // window.onhashchange = function() {
+    //     alert('data');
+    // }
     $(document).ready(function() {
         // debugger;
         if(screen.width > 767){

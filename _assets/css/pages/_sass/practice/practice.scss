@@ -82,6 +82,7 @@ ul.practiceli.paragraph {
     }
     &_dic{
       padding: 45px 35px;
+      padding-top:0px;
       z-index: 1;
         .title{
             font-family: "MavenPro-Bold";
@@ -183,6 +184,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:320px) and (max-width:767px){
+    .diverse{
+        padding-top:80px;
+    }
   .lgCon{
       margin-top: 30px;
   }
@@ -266,6 +270,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
+    .diverse-content{
+padding-top:48px;
+    }
     .knowmore{
         display: flex;
         width:236px;
@@ -376,6 +383,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:1025px){
+    .diverse-content{
+        padding-top:105px;
+    }
     .knowmore{
         display: flex;
         width:289px;
@@ -472,6 +482,13 @@ ul.practiceli.paragraph {
             -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
             animation-name: example2;
             animation-duration: 1s;
+.heroText__dna{
+
+left:55%;
+
+
+}
+
         }
         
         
@@ -603,4 +620,19 @@ ul.practiceli.paragraph {
     .philSec{
         margin: 80px 29px 65px;
     }    
+}
+
+.heroText__dna{
+    font-family: "MavenPro-Medium";
+    order: 1;
+    color: #393939;
+    position:absolute;
+    top:45%;
+    left:45%;
+    width:200px;
+        font-size: 4s0px;
+}
+.heroHighlight__dna{
+    color: #ea1c49;
+        font-size: 40px;
 }
