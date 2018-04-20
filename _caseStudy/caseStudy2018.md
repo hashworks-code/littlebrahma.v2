@@ -11,6 +11,7 @@ variation_image4: "/assets/img/caseStudy/bitmap.png"
 variation_image5: "/assets/img/caseStudy/group-3.png"
 variation_image6: "/assets/img/caseStudy/group-11.png"
 
+backgroundColor: calender2018
 cImgg1: "groupn1"
 cImgg2: "groupn2"
 cImgg3: "groupn3"
@@ -84,17 +85,18 @@ cImg6: "calendar_thumb"
 cImg7: "bitmap-copy-20"
 
 lists_img:
-  - slide-imges: "ftr-2017@1"
-  - slide-imges: "ftr-2017@2"
-  - slide-imges: "ftr-2017@3"
-  - slide-imges: "ftr-2017@4"
-  - slide-imges: "ftr-2017@5"
-  - slide-imges: "ftr-2017@6"
-  - slide-imges: "ftr-2017@7"
-  - slide-imges: "ftr-2017@8"
-  - slide-imges: "ftr-2017@9"
-  - slide-imges: "ftr-2017@10"
-  - slide-imges: "ftr-2017@11"
+  - slide-imges: "xmas-dec-11"
+  - slide-imges: "ramdhan-fasting-06-a"
+  - slide-imges: "cal-shiv-rathri-feb-h"
+  - slide-imges: "11-diwali-cracker-nov-06-a"
+  - slide-imges: "01-k"
+  - slide-imges: "10-street-food-oct-06"
+  - slide-imges: "janmashtami"
+  - slide-imges: "8-vallasadhya-onam-aug-10"
+  - slide-imges: "5-mubai-railway-porters-may-g"
+  - slide-imges: "04-060617-i"
+  - slide-imges: "3-holi-mar-d"
+  - slide-imges: "02-310517-i"
 
 cat: Branding & Communication
 product_title: LB Calendar Design 2018

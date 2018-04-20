@@ -5,6 +5,7 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/opm.png"
+backgroundchange: "backOpm"
 banner-Head: "Order Profile Management"
 banner-cnt: "Simplified order management"
 section: "opm"
@@ -71,7 +72,7 @@ box-para4: 'Latency to perform an
             action on Hold'
 
 cHead4: "Output"
-cContent8: "We created user journey maps to nail down process and capture data attributes of different types of order profiles"
+cContent8: "We created user journey maps to nail down process and capture data attributes of different types of order profiles."
 
 SImg3: "opm-user-flow"
 
@@ -79,9 +80,9 @@ SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "opm-data-02"
 
 
-SImg10: "gaft-wire-frame"
+SImg10: "OPM_Wireframe1"
 SImg11: "style-guid"
-SImg12: "opm-screens"
+SImg12: "opm-mockup-collag"
 
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
@@ -89,37 +90,37 @@ SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
     - SImg18: "opm--desktop"
-    - SImg18: "opm-mockup-collag"
+    - SImg18: "opmcase"
     - SImg18: "opm-mockup-1"
     - SImg18: "opm-mockup-2"
 
 
 cHead5: "Adapt "
-csubHead4: "Designing the digital journey of an order"
+csubHead4: "Designing the digital journey of an order."
 adapt_loop:
-  - cContent9: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches for visual representations to crack the optimal design"
+  - cContent9: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches for visual representations to crack the optimal design."
 csubHead5: "Output"
-cContent10: "We were able to come up with following solutions for our customers."
+cContent10: "We were able to come up with following solutions for our customers:"
 
 
 
 
 cHead10: "3.  Design"
 main_content:
-  - cContent15: "Our design wireframe helped us establish a platform for us to go back forth on the visual ideas with our users. We worked on multiple approaches in terms visual representations to crack the optimal design"
+  - cContent15: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches in terms of visual representations to crack the optimal design."
 
 cHead11: "Evolve "
 csubHead6: "Testing our efforts"
-cContent16: "We carried out an extensive user testing both on the prototype and during the development phase to recheck our screen flows. Multiple iteration were done to optimize the design in consecutive sprints"
+cContent16: "We carried out extensive user testing both on the prototype and during the development phase, to recheck our screen flows. Multiple iterations were done to optimize the design in consecutive sprints."
 
 box-Head7: '36%'
 box-Head8: ''
-box-para5: 'QE productivity increases'
+box-para5: 'QE productivity increased'
 
 division_loop:
     - cHead6: '1.  Unlocking clear and simple navigation'
       para_loop:
-        - cContent11: '- We used an primary and secondary menu and accordion approach to progressively disclose data. Attributes such as batch status and order stages were captured here.'
+        - cContent11: '- We used primary and secondary menu and accordion approach to progressively disclose data. Attributes such as: batch status and order stages were captured here.'
         - cContent11: '- The primary navigation is a side bar showcasing modules of order profiles, configuration and user management.'
         - cContent11: '- The secondary menu hosts drop downs to select environments, releases and batches'
         - cContent11: '- Additionally, metrics were added to indicate which screen the user is in and the type of data being shown '
@@ -127,9 +128,9 @@ division_loop:
 
     - cHead6: '2.  Progressive disclosure of information'
       para_loop:
-        - cContent11: '- We used components such as drop downs and filters to bifurcate high level data and to bring right context to the user. Attributes like environments and releases were captured here'
+        - cContent11: '- We used components such as: drop downs and filters to bifurcate high level data and to bring right context to the user. Attributes like: environments and releases were captured here'
         - cContent11: '- Primary landing screens were designed in a way where the user can select individual batches to run'
-        - cContent11: '- The screens which followed showed a complete drill down of the order profile status and the subsequent test statuses across multiple application'
+        - cContent11: '- The screens displayed complete drill down of the order profile status and the subsequent test statuses across multiple applications'
       SImg6: 'opm-order'
 
 full_image:

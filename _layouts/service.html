@@ -21,8 +21,8 @@
             {% if page.subtitle != "Branding & Communication"%}
                 <div class="lb_service">
                         <ul class="lb_work_filter lb_service_lg">
-                            <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing product</li>
-                            <li class="lb_work_filterli"  id="datavalue-2">New product</li>
+                            <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing Product</li>
+                            <li class="lb_work_filterli"  id="datavalue-2">New Product</li>
                         </ul>
                 </div>
             {% endif %}
@@ -32,7 +32,7 @@
                 <ul class="lb_work_filter lb_service_lg">
                     <li class="lb_work_filterli lb_work_filterActive">Our Process</li>
                     
-                </u
+                </ul>
             {% endif %}
 
 
@@ -157,7 +157,7 @@
      
         </div>
         <div class="carousel__card2">
-            <h1 class="headingBold">Our differentiators</h1>
+            <h1 class="headingBold">Our Differentiators</h1>
             <p class="paragraph">{{page.ourdifferenciate}}</p>
         </div>
         
@@ -254,7 +254,7 @@
 
          </div>
          <div>
-                <div class="lb_btn_div">
+                <div class="lb_btn_div load-more">
                   <button id="lb_service_btn" class="commonButton" value="{{page.subtitle}}">Load more</button>
                   <button id="lb_service_btn1" class="commonButton" value="{{page.subtitle}}">Load less</button>
                  
@@ -269,7 +269,7 @@
                 {% assign item = site.practice %}
                 {% for practice in item %}
                 {% if practice.subtitle != page.subtitle %}
-                <div class="homePage__BnrDiv__Service__Cards__Inner">
+                <div class="homePage__BnrDiv__Service__Cards__Inner service-aligner">
                         <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
                                 <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
                     <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>

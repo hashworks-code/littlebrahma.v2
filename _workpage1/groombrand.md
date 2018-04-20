@@ -9,7 +9,11 @@ banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
 textcolor: text-white
-enigma_banner: "/assets/img/branding/groome.jpg"
+enigma_banner: "/assets/img/branding/groome.jpg"   
+backgroundColor:  backgroundgroome
+
+inntroTitle: "Introduction"
+introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
 
 background:
   - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
@@ -43,6 +47,14 @@ adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
 adaptSubTitle: "Designing for technology"
 adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
+
+
+challange: "Challenge"
+paragraph1: "- Design a brand identity for Hashworks"
+paragraph2: "- Should focus on the domains Hashworks is functioning"
+paragraph3: "- A logo that captures the brand values"
+paragraph4: "- Establish a visual language that resonates the organizations purpose"
+
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."

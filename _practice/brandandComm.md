@@ -22,7 +22,7 @@ backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
-flowContent1: Cust. interview
+flowContent1: Cust. Interview
 existprocuctContenthead1: Customer Interview
 existprocuctContent1: Understanding customer vision of their brand and how they want to communicate to their end user
 flowImage2: '/assets/img/service/page-1 (6).svg'

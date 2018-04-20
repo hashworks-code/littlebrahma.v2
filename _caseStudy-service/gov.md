@@ -5,6 +5,7 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/gov-banner.png"
+backgroundchange: "backGov"
 banner-Head: "Global Order Visibility"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
 section: "gov"
@@ -92,7 +93,7 @@ SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "people"
 
 
-SImg10: "wireframw-001"
+SImg10: "GOV_Wireframe"
 SImg11: "style-guid"
 SImg12: "1-gov"
 SImg14: "bitmap"
@@ -100,7 +101,6 @@ SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "group-6"
     - SImg18: "lower-image"
     - SImg18: "mockup-1"
     - SImg18: "mockup-2"
@@ -117,7 +117,7 @@ cContent10: "All the parties involved had the same expectation on the outcome of
 
 cHead10: "5.  Design"
 main_content:
-  - cContent15: "Designing a data heavy platform with a global teams as users come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method helped us to come up with a design language that fits all."
+  - cContent15: "Designing a data heavy platform with  global teams as users, come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method, helped us to come up with a design language that fits all."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
@@ -126,7 +126,7 @@ cContent16: "Heat map analysis was conducted on the design prototypes to underst
 box-Head7: '25'
 box-Head8: ' Seconds'
 box-para5: 'Latency to perform an 
-            action on Hold'
+            action on hold'
 
 
 
@@ -134,12 +134,12 @@ box-para5: 'Latency to perform an
 division_loop:
     - cHead6: '1.  Compact & efficient search functionality'
       para_loop:
-        - cContent11: ' Categorization of the search modules based on a regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
+        - cContent11: ' Categorization of the search modules based on a Regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
       SImg6: 'bitmap1'
 
     - cHead6: '2. Short story of an entire order flow '
       para_loop:
-        - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format gave a clear insight on the order journey, to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order reduces the amount of clicks to remediate a hiccup on the flow.'
+        - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format, gave a clear insight on the order journey to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order, reduces the amount of clicks to remediate a hiccup on the flow.'
       SImg6: 'group-5'
 
     - cHead6: '3.  Information abstracted in schematic form'
@@ -151,7 +151,7 @@ full_image:
     
     - cHead8: '4.  Smart sorting of data'
       cntnt_loop:
-        - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
+        - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than, wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
       SImg8: 'bitmap3'
 
 cat: Service Design

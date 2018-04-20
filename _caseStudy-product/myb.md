@@ -5,6 +5,8 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/myb.png"
+
+backgroundchange: "backMyb"
 banner-Head: "Mysterybox"
 banner-cnt: "A retail software to improve brand equity value"
 section: "opm"
@@ -57,7 +59,7 @@ csubHead3: "Treating ourselves to some retail therapy"
 main_perceive:
     - perceive_para:
 
-        - cContent5: "The ideation process was lot of fun. 
+        - cContent5: "The ideation process was a lot of fun. 
                       For the B2B research, we interviewed auditors to understand the assessment process and looked at the metrics which governs the customer experience index score."
                       
       content_lists1:
@@ -67,7 +69,7 @@ main_perceive:
 
     - perceive_para:
 
-        - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data dependencies, workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+        - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data and workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
       content_lists1:
 
         - cContent7: '- Field trip'
@@ -87,7 +89,7 @@ box-para4: 'Latency to perform an
             action on Hold'
 
 cHead4: "Output"
-cContent8: "Our discovery phase helped us visualize the store experience and establish key performance indicators for us to do the assessments and how to gamify it."
+cContent8: "Our discovery phase helped us visualize the store experience and establish key performance indicators for us to do the assessments and to gamify it."
 
 SImg3: "myb-user-flow-1"
 
@@ -110,7 +112,7 @@ img_list:
 cHead5: "Adapt "
 csubHead4: "Fitting into their shoes"
 adapt_loop:
-  - cContent9: "Immersing ourselves in the shopping process as a potential buyer/auditor and from a store front gave us a lot of insights into their major stakeholders/ personas, their hand off points, motivation criteria, pain areas,  demographic, age and daily routines."
+  - cContent9: "Immersing ourselves in the shopping process as a potential buyer/auditor and from a store front, gave us a lot of insights into their major stakeholders/personas, their hand off points, motivation criteria, pain areas,  demographic, age and daily routines."
   - cContent9: "We further created user personas and their user flows. This, together with the workflow gave a complete picture on the product scope and roadmap."
 csubHead5: "Output"
 cContent10: "We were able to identify the below mentioned user personas:"
@@ -136,7 +138,7 @@ box-para5: 'Increase in customer footfall'
 division_loop:
     - cHead6: '1. User personas'
       para_loop:
-        - cContent11: ' Store supervisor, buyer, auditor, analyst, admin and back office crew'
+        - cContent11: ' Store supervisor, buyer, auditor, analyst, admin and back office crew.'
       SImg6: 'persona-myb'
 
     - cHead6: '2. Integrating an assessment platform:'
@@ -144,14 +146,14 @@ division_loop:
         - cContent11: 'A strong business process integrated with a digital platform was put in place to enhance the store experience. We were able to bring auditor, analyst and store supervisor on a single interface, capture store assessments and showcase store performance metrics. '
       SImg6: 'myb-create'
 
-    - cHead6: '3. Designing a virtual mall exp:'
+    - cHead6: '3. Designing a virtual mall exp.:'
       para_loop:
-        - cContent11: 'In order to address the B2C challenges we designed a platform which meets and satisfies all the use cases. For instance, a user (store supervisor) can propagate the store inventory item on omni-channel platform for the customer to consume and increase the point of sale. '
+        - cContent11: 'In order to address the B2C challenges, we designed a platform which meets and satisfies all the use cases. For instance, a user (store supervisor) can propagate the store inventory item on an omni-channel platform for the customer to consume and increase the point of sale. '
       SImg6: 'myb-ui-sprint'
 
     - cHead6: '4. Conceptualizing gamification model:'
       para_loop:
-        - cContent11: 'We were able to add a gamification model to this platform. We created loyalty points which the buyer will get when he or she enters a store/ makes a purchase or shares the offer to their peers/friends. The model was created to increase footfalls for each store.'
+        - cContent11: 'We were able to add a gamification model to this platform. We created loyalty points which the buyer will get when he or she enters a store/makes a purchase or shares the offer to their peers/friends. The model was created to increase footfalls for each store.'
       SImg6: 'myb-ui-sprint-2'
 
 full_image:
@@ -160,7 +162,7 @@ full_image:
 cat: Service Design
 product_title: Evaluating the shopping experience
 product_title1: Mystery Box
-product_description: Branding / Visual identity / Application
+product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/MYB.jpg"
 textcolor: text-black

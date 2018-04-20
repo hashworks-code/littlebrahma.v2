@@ -3,7 +3,9 @@
   
     <div class="branding">
         <div class="lb_bdy prct">
+      <div class="{{page.backgroundColor}}">
           <div class="hero_img" style="background-image: url('{{page.enigma_banner}}');"></div>
+     </div>
             <div class="hero_cnt">
                 <div class="heroText">
                     {{page.title}}
@@ -14,34 +16,38 @@
         </div>
         <div class="challange">
             <div class="engima">
-                <h1 class="csHeading">Introduction</h1>
-                <p class="paragraph">Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility</p>
+                <h1 class="csHeading">{{{{page.inntroTitle}}</h1>
+                <p class="paragraph">{{page.introparagraph}}</p>
             </div>
         </div>
         <div class="branding__image">
             <div class="row">
-                  <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
+                    <div class="col-xs-1 "></div>
+                  <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
                           <img src="/assets/img/branding/{{page.brandImage1}}">
                   </div>
                   <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
                           <img src="/assets/img/branding/{{page.brandImage2}}">
                   </div>
+                  <div class="col-xs-1 "></div>
+                  <div class="col-xs-1 "></div>
                   <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
                           <img src="/assets/img/branding/{{page.brandImage3}}">
                   </div>
-                  <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8">
+                  <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6">
                           <img src="/assets/img/branding/{{page.brandImage4}}">
                   </div>
+                  <div class="col-xs-1 "></div>
              </div>
         </div>
 
            <div class="challange">
                <div class="engima engima1 ">
-                  <h1 class="csHeading">Challenge</h1>
-                  <p class="paragraph"> - Design a brand identity for Hashworks</p>
-                  <p class="paragraph"> - Should focus on the domains Hashworks is functioning </p>
-                  <p class="paragraph"> - A logo that captures the brand values </p>
-                  <p class="paragraph">- Establish a visual language that resonates the organizations purpose</p>
+                  <h1 class="csHeading">{{page.challange}}</h1>
+                  <p class="paragraph">{{page.paragraph1}}</p>
+                  <p class="paragraph">{{page.paragraph2}} </p>
+                  <p class="paragraph"> {{page.paragraph3}}</p>
+                  <p class="paragraph">{{page.paragraph4}}</p>
                </div>
           </div>
 
@@ -99,7 +105,7 @@
                 </div>
 
             <div class="branding__logo">
-                <h2 class="csHeading">Final Logo</h2>
+                <!-- <h2 class="csHeading">Final Logo</h2> -->
                 <img src="/assets/img/branding/{{page.finallogo}}" alt="final logo">
             </div>
 
@@ -172,16 +178,9 @@
         </div>
     </div>
 <div>
-    <div class="{{images.class}}">
+    <div class="{{page.iconsection}}">
       <div class="branding__icons">
         <h2 class="csHeading">{{page.icons}}</h2>
-          <!-- <div class="row threeIcon">
-                {% for images in page.icon_list %}
-               <div class="col-xs-4 col-sm-4 ">
-                   <img src="/assets/img/branding/icon/{{images.icons}}" alt="">
-                </div>
-                  {% endfor %}
-          </div> -->
           <div class="row">
                {% for image in page.icon_list1 %}
                 <div class="col-xs-4 col-sm-2 ">
@@ -235,13 +234,7 @@
         <div class="blob"></div>
     </div>
  </div>
-    <!-- <div class="blips">
-      <div class="blip"></div>
-      <div class="blip"></div>
-      <div class="blip"></div>
-      <div class="blip"></div>
-    </div> -->
- <!-- </div> -->
+  
 
     {% include common_footer.html %}
     {% include footer.html %}

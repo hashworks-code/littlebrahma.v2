@@ -179,8 +179,7 @@ table {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: #393939;
-  text-transform: capitalize; }
+  color: #393939; }
 
 .heroHighlight {
   color: #ea1c49; }
@@ -224,27 +223,23 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
-    line-height: normal;
-    text-transform: capitalize; }
+    line-height: normal; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
-    color: #393939;
-    text-transform: capitalize; }
+    color: #393939; }
   .typography {
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
-    color: #393939;
-    text-transform: capitalize; }
+    color: #393939; }
   .csHeading {
     font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
     color: #393939;
-    line-height: normal;
-    text-transform: capitalize; }
+    line-height: normal; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -407,6 +402,35 @@ textarea:hover, textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .lb_bdy {
+    height: 1020px; }
+  .backgroundImage {
+    background-color: #42a1fa; }
+  .backgroundenigma {
+    background-color: #fddd4e; }
+  .backgroundgroome {
+    background-color: #030303; }
+  .backgroundhash {
+    background-color: #eeeced; }
+  .backEnigma {
+    background-color: #f6fef9; }
+  .backMyb {
+    background-color: #fff7de; }
+  .backXpe {
+    background-color: #bd193b; }
+  .backGaft {
+    background-color: #ffe72a; }
+  .backGov {
+    background-color: #010b1a; }
+  .backOpm {
+    background-color: #05749e; }
+  .calender2017 {
+    background-color: #000203; }
+  .calender2018 {
+    background-color: #009edf; }
+  .hero_img {
+    background-size: 1400px 100%;
+    height: 710px; }
   .headingBold {
     font-size: 40px; }
   .headingLight {
@@ -504,7 +528,7 @@ html, body {
   top: 0;
   left: 0;
   background: white;
-  height: 50px;
+  height: 63px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -727,7 +751,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: #f8f9f9;
-  z-index: 10;
+  z-index: 9999;
   text-align: center;
   padding: 90px 0;
   -webkit-backface-visibility: hidden;
@@ -1154,7 +1178,9 @@ html, body {
   text-align: left; }
 
 .footer__bottom__div2 {
-  text-align: right; }
+  text-align: right;
+  position: relative;
+  z-index: 9999; }
 
 @media screen and (min-width: 1024px) {
   .footer {
@@ -1441,6 +1467,9 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+.iconsectionnone {
+  display: none; }
+
 .blobs {
   width: 160px;
   height: 170px;
@@ -1721,7 +1750,7 @@ html, body {
 .engima {
   border-left: 5px solid #603d95;
   padding: 0px 0px 0px 23px;
-  margin: 40px 0px; }
+  margin: 20px 0px 40px; }
   .engima .csHeading {
     padding-bottom: 13px; }
 
@@ -1742,7 +1771,7 @@ html, body {
   height: 414px;
   background-color: #022b3b;
   padding: 56px 0px 0px 0px;
-  margin-bottom: 164px; }
+  margin-bottom: 140px; }
   .branding__perceive__align {
     width: 260px;
     margin: 0 auto; }
@@ -1794,9 +1823,11 @@ html, body {
 
 .branding__logo {
   padding: 20px 35px 0px; }
+  .branding__logo h2 {
+    padding-left: 32px; }
 
 .branding__meaning {
-  width: 260px;
+  padding: 0px 60px;
   margin: 0px auto 71px; }
   .branding__meaning p {
     padding: 12px 0px 59px;
@@ -1806,24 +1837,24 @@ html, body {
   padding: 0px 36px; }
 
 .branding__enigmalist {
-  padding: 50px 0px 24px;
-  width: 300px;
+  padding: 50px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist h2 {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    text-align: left; }
   .branding__enigmalist img {
     padding: 30px;
     width: 100%;
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 50px 0px 24px;
-  width: 300px;
+  padding: 50px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    text-align: left; }
   .branding__enigmalist1 img {
     padding: 30px 10px;
     width: 116px;
@@ -1847,18 +1878,16 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  width: 262px;
-  margin: 0 auto; }
+  padding: 50px 60px 24px 60px; }
   .branding__fontfamily img {
     width: 100%;
     height: 90%; }
   .branding__fontfamily h1 {
     padding: 30px 0px 24px;
-    text-align: center; }
+    text-align: left; }
 
 .branding__icons {
-  padding: 23px 0px 25px;
-  width: 300px;
+  padding: 23px 60px 25px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__icons img {
@@ -1866,6 +1895,8 @@ html, body {
     width: 50px; }
   .branding__icons .textalign {
     text-align: center; }
+  .branding__icons h2 {
+    text-align: left; }
 
 .mobileClass {
   display: block; }
@@ -1940,7 +1971,7 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    width: 700px;
+    width: 100%;
     margin: 0 auto; }
   .branding__image img {
     padding-bottom: 18px; }
@@ -2053,6 +2084,13 @@ html, body {
   .branding__enigmalist1 {
     width: 700px;
     padding: 60px 0px; }
+    .branding__enigmalist1 .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     .branding__enigmalist1 img {
       height: 162px;
       width: 137px;
@@ -2121,7 +2159,7 @@ html, body {
     .branding__icons .textalign {
       text-align: left; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .blob1 {
     width: 365px;
     margin: 80px auto 120px; }
@@ -2129,7 +2167,7 @@ html, body {
       margin: 24px 0px 0px; }
   .blob2 {
     top: 113px;
-    left: 103px; }
+    left: 120px; }
   .blobs {
     width: 359px;
     height: 320px;
@@ -2171,8 +2209,6 @@ html, body {
     margin: 80px 0px 96px  !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
-  .branding__image .row {
-    width: 965px; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
@@ -2187,10 +2223,10 @@ html, body {
     .branding__perceive h2 {
       padding: 28px 0px 23px; }
     .branding__perceive .percevieImage {
-      width: 341px;
-      height: 272px;
-      right: -141px;
-      top: 137px; }
+      width: 401px;
+      height: 377px;
+      right: -190px;
+      top: 81px; }
   .branding__enigmalogo img {
     padding: 0px 58px; }
   .branding__adapt {
@@ -2314,17 +2350,18 @@ html, body {
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
-    width: 1100px;
+    width: 1321px;
     margin: 0 auto; }
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
+    width: 1100px;
     height: 614px;
-    margin: 0 0px 120px; }
+    margin: 0 auto 120px; }
     .branding__perceive__align {
-      width: 895px;
-      margin: 0 auto;
-      height: 613px; }
+      width: 870px;
+      height: 613px;
+      padding: 0px 39px 0px 0px; }
     .branding__perceive h1 {
       font-size: 48px; }
     .branding__perceive h2 {
@@ -2332,10 +2369,10 @@ html, body {
     .branding__perceive .margin {
       padding-top: 25px; }
     .branding__perceive .percevieImage {
-      width: 564px;
-      height: 410px;
+      width: 350px;
+      height: 280px;
       right: -270px;
-      top: 101px; }
+      top: 155px; }
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }
@@ -2701,10 +2738,10 @@ html, body {
     margin-bottom: 271px; }
     .caseStudy .SceneImg img {
       min-height: 174px;
-      width: 262px;
+      width: 306px;
       top: 75%;
       height: 262px;
-      margin-left: -131px;
+      margin-left: -156px;
       left: 50%; }
   .caseStudy__bgImg1 {
     margin-top: 35px;
@@ -2733,10 +2770,10 @@ html, body {
     width: 100%;
     padding: 31px; }
   .caseStudy .SceneImg2 img {
-    width: 52%;
-    height: 40%;
-    top: 57%;
-    right: 11%; }
+    width: 85%;
+    height: 50%;
+    top: 58%;
+    right: 7%; }
   .caseStudy__eImg {
     margin-top: 35px; }
   .caseStudy__content5 {

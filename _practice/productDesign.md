@@ -23,7 +23,7 @@ backgroundImg: '/assets/img/homepage/product-design.png'
 backgroundHoverImg: '/assets/img/homepage/product-design-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
-flowContent1: UX/UI review and analysis
+flowContent1: UX/UI Review and Analysis
 existprocuctContenthead1: UX/UI Review & Analysis
 existprocuctContent1: Understanding usability of the product and analyzing the customer experience
 flowImage2: '/assets/img/service/page-1 (1).svg'
@@ -38,18 +38,18 @@ existprocuctContenthead3: Design
 existprocuctContent3: Design scalable UI components and create screens which showcases better usability and  experience
 flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
-flowContent4: User testing
+flowContent4: User Testing
 existprocuctContenthead4: User Testing
 existprocuctContent4: Implementing testing techniques on protoypes and live sites. Listening to the end users to iterate and design better
 newproductImage1: '/assets/img/service/page-1 (13).svg'
 newproductActiveImage1: '/assets/img/service/page-1 (3).svg'
-newproductContent1: User research
+newproductContent1: User Research
 newprodContenthead1: User Research
 newprodContent1: Understanding user needs, empathizing their pain points, competitor analysis and bench marking features
 newproductImage2: '/assets/img/service/page-1 (14).svg'
 newproductActiveImage2: '/assets/img/service/service2.svg'
-newproductContent2: User journey mapping
-newprodContenthead2: User journey mapping
+newproductContent2: User Journey Mapping
+newprodContenthead2: User Journey Mapping
 newprodContent2: Identifying user personas, mapping their journeys, writing user stories and use cases, keeping in mind scale and business complexities
 newproductImage3: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage3: '/assets/img/service/arrowservice.svg'

@@ -1,14 +1,18 @@
 var sVal = false;
 $(window).resize(function(){
-  if(screen.width > 1024){
-    newFunction();
- }
+//   if(screen.width > 1024){
+//     newFunction();
+//  }
 });
 $(document).ready(function() {  
     if(screen.width > 1024){
        newFunction();
+<<<<<<< HEAD
     //   jqueryScrollPlugin()
     //   jqueryScrollPluginSetting()
+=======
+       debugger;
+>>>>>>> a9f46da68a6ec3386339b2000128a3f18915db6f
     }
     $('.prctSec_tab').click(function(){
       $(this).addClass('prctSec_active');
