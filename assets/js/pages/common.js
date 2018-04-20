@@ -9,6 +9,9 @@ $(window).resize(function(){
         // $('.homePage__BnrDiv__Service').css({'bottom':'420px',});
         // $('#lbhmimagemobile').css('display','none')
     }
+    if(screen.width > 1024){
+        $('.lb-ourworks-dna').css('margin-top','200px');
+    }
     if(screen.width >1500){
         $('.homePage__BnrDiv__Service').css('bottom','0px');
         $('.lb-ourworks-dna').css('margin-top','80px');
@@ -39,6 +42,9 @@ $(window).resize(function(){
             // $('#lbhmimagemobile').css('display','none')
             $('.lb-ourworks').css('margin-top','0px');
         }  
+        if(screen.width > 1024){
+            $('.lb-ourworks-dna').css('margin-top','200px');
+        }
         if(screen.width >1500){
             $('.homePage__BnrDiv__Service').css('bottom','0px');
             $('.lb-ourworks-dna').css('margin-top','80px');
@@ -801,7 +807,7 @@ $(window).resize(function(){
             $('.knowmore a').click(function() {
                 var text = $(this).closest("div").parent().find("div.indTxt").html();
                 sessionStorage.setItem("pageDetails", text);
-            });  
+            }); 
     });
 
 })();
