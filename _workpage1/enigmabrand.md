@@ -111,7 +111,7 @@ enigmaImageList:
     class: Nopadding
   - enigmaImage: "6.jpg"
     class: padding
-  - enigmaImage: "7.jpg"
+  - enigmaImage: "Enigma_Main_Logo.gif"
     class: padding
   - enigmaImage: "8.jpg"
     class: Nopadding
