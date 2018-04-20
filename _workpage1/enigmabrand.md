@@ -11,6 +11,7 @@ url: "ServiceDesign1"
 title: Enigma Branding
 textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
+backgroundColor: backgroundenigma
 
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"

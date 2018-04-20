@@ -402,6 +402,33 @@ textarea:hover, textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .backgroundImage {
+    background-color: #42a1fa; }
+  .backgroundenigma {
+    background-color: #fddd4e; }
+  .backgroundgroome {
+    background-color: #030303; }
+  .backgroundhash {
+    background-color: #eeeced; }
+  .backEnigma {
+    background-color: #f6fef9; }
+  .backMyb {
+    background-color: #fff7de; }
+  .backXpe {
+    background-color: #be333e; }
+  .backGaft {
+    background-color: #ffe72a; }
+  .backGov {
+    background-color: #010b1a; }
+  .backOpm {
+    background-color: #2e749e; }
+  .calender2017 {
+    background-color: #000203; }
+  .calender2018 {
+    background-color: #3f9fdf; }
+  .hero_img {
+    background-size: 1400px 100%;
+    height: 710px; }
   .headingBold {
     font-size: 40px; }
   .headingLight {
@@ -499,7 +526,7 @@ html, body {
   top: 0;
   left: 0;
   background: white;
-  height: 50px;
+  height: 63px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1494,7 +1521,8 @@ ul.practiceli.paragraph {
         -ms-flex-pack: center;
             justify-content: center; }
   .prct .hero_img {
-    background-image: url(/assets/img/practice/03_Practice.gif); }
+    background-image: url(/assets/img/practice/03_Practice.gif);
+    background-color: #e9fbff; }
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
@@ -1907,7 +1935,8 @@ ul.practiceli.paragraph {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/about_us/004_About.gif); }
+  background-image: url(/assets/img/about_us/004_About.gif);
+  background-color: #ecf9de; }
 
 @media screen and (min-width: 320px) {
   .about-us {

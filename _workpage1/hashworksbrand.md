@@ -11,6 +11,7 @@ url: "ServiceDesign1"
 title: Hashworks Branding
 textcolor: text-black
 enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
+backgroundColor:  backgroundhash
 
 background:
   - image: "/assets/img/branding/hashworks/hashconceptmob.png"

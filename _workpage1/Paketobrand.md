@@ -11,6 +11,7 @@ url: "ServiceDesign1"
 title: Paketo Branding
 textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.png"
+backgroundColor: backgroundImage
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"

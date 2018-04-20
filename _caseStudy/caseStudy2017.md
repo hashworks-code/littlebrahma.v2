@@ -14,7 +14,7 @@ cImgg2: "book-screen"
 cImgg3: "debashis@1"
 
 cImgg4: "6-copy-2"
-
+backgroundColor: calender2017
 
 cImgg5: "intial-17"
 cImgg6: "photo-funia-1510313892"

@@ -9,7 +9,8 @@ banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
 textcolor: text-white
-enigma_banner: "/assets/img/branding/groome.jpg"
+enigma_banner: "/assets/img/branding/groome.jpg"   
+backgroundColor:  backgroundgroome
 
 background:
   - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
