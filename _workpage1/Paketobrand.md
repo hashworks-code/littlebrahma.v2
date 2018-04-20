@@ -13,6 +13,9 @@ textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.png"
 backgroundColor: backgroundImage
 
+inntroTitle: "Introduction"
+introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
     imageType: "mobile"

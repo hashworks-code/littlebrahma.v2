@@ -13,6 +13,10 @@ textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
 backgroundColor: backgroundenigma
 
+inntroTitle: "Introduction"
+introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+
+
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 
