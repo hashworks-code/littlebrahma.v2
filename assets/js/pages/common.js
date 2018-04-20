@@ -11,9 +11,12 @@ $(window).resize(function(){
         $('.homePage__BnrDiv').css('height',$('#lbhmimage').height())
         $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
         $('.lb-ourworks-dna').css('margin-top','160px');
-        $('.lb-ourworks').css('margin-top','0px');
+        $('.lb-ourworks').css('margin-top','50px');
         // $('.homePage__BnrDiv__Service').css({'bottom':'420px',});
         // $('#lbhmimagemobile').css('display','none')
+    }
+    if(screen.width > 1024){
+        $('.lb-ourworks-dna').css('margin-top','250px');
     }
     if(screen.width >1500){
         $('.homePage__BnrDiv__Service').css('bottom','0px');
@@ -43,8 +46,11 @@ $(window).resize(function(){
             $('.homePage__BnrDiv__Service').css('bottom','-'+valHeight+'px');
             $('.lb-ourworks-dna').css('margin-top','160px');
             // $('#lbhmimagemobile').css('display','none')
-            $('.lb-ourworks').css('margin-top','0px');
+            $('.lb-ourworks').css('margin-top','50px');
         }  
+        if(screen.width > 1024){
+            $('.lb-ourworks-dna').css('margin-top','250px');
+        }
         if(screen.width >1500){
             $('.homePage__BnrDiv__Service').css('bottom','0px');
             $('.lb-ourworks-dna').css('margin-top','80px');
@@ -127,7 +133,7 @@ $(window).resize(function(){
             var prod=$('.prod').length;
             if(prod<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             else{
                 $("#lb_btn").show();
@@ -143,7 +149,7 @@ $(window).resize(function(){
             var service=$('.service').length;
             if(service<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             if(index<=3){
                 $(this).show();
@@ -156,7 +162,7 @@ $(window).resize(function(){
             var brndcomm=$('.brndcomm').length;
             if(brndcomm<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             
             if(index<=3){
@@ -170,7 +176,7 @@ $(window).resize(function(){
             var all=$('.alldata').length;
             if(all<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             else{
                 $("#lb_btn").show();
@@ -807,7 +813,7 @@ $(window).resize(function(){
             $('.knowmore a').click(function() {
                 var text = $(this).closest("div").parent().find("div.indTxt").html();
                 sessionStorage.setItem("pageDetails", text);
-            });  
+            }); 
     });
 
 })();

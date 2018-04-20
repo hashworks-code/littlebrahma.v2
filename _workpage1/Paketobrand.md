@@ -96,7 +96,7 @@ iconNopadding:
     class: iconRemove
 
 enigmaImageListt:
-  - enigmaimg: "video-gif.jpg"
+  - enigmaimg: "Pocketo_Pattern_Animation.gif"
     class: Nopadding
   - enigmaimg: "paketomock.jpg"
     class: Nopadding
@@ -111,7 +111,7 @@ enigmaImageList:
     class: padding
   - enigmaImage: "paketo6.jpg"
     class: Nopadding
-  - enigmaImage: "paketo7.jpg"
+  - enigmaImage: "Pocketo_Main.gif"
     class: Nopadding
 
 
