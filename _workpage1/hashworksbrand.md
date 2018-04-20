@@ -50,6 +50,13 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
+challange: "Challenge"
+paragraph1: "- Design a brand identity for Hashworks"
+paragraph2: "- Should focus on the domains Hashworks is functioning"
+paragraph3: "- A logo that captures the brand values"
+paragraph4: "- Establish a visual language that resonates the organizations purpose"
+
+
 conceptImage1: "hashconcept1.png"
 conceptImage2: "hashconcept2.png"
 conceptImage3: "hashconcept3.png"
