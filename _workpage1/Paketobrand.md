@@ -9,13 +9,13 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
+brandTitle: "Branding for DevOps automation tool"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.png"
 backgroundColor: backgroundImage
 
 inntroTitle: "Introduction"
-introparagraph: "Paketo is a fully automated pipeline to commit, build, deploy, test and monitor.
-It connects all developers and DevOps engineers to end devices and ensures software flows quickly and free from interruption creating a seamless DevOps practice."
+introparagraph: "Paketo is an application where the entire devops practices like build, quality, test, deploy and release is automated. Paketo ensures that there is no manual intervention in between commit, build and deploy process resulting in quick deployments.  "
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
@@ -42,10 +42,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 
 challange: "Challenge"
 challangeList:
-  - challangepara: "- Design a brand identity for Hashworks"
-  - challangepara: "- Should focus on the domains Hashworks is functioning"
-  - challangepara: "- A logo that captures the brand values"
-  - challangepara: "- Establish a visual language that resonates the organizations purpose"
+  - challangepara: "- Design a brand identity for Paketo"
+  - challangepara: "- Should focus on the DevOps"
+  - challangepara: "- A logo that encapsulates the problem solving method of the application"
+  - challangepara: "- Establish a visual language that resonates the applications purpose"
 
 perceiveTitle: "Perceive"
 percevesubtitle: "Understanding the DevOps"
