@@ -337,7 +337,6 @@ $(window).resize(function(){
         });
 
         $('#lb_btn').click(function(){
-           debugger;
             // $("#lb_btn1").show();
              $("#lb_btn").hide();
               
@@ -817,6 +816,13 @@ $(window).resize(function(){
                 var text = $(this).closest("div").parent().find("div.indTxt").html();
                 sessionStorage.setItem("pageDetails", text);
             }); 
+
+            $('.lb_work_filterli').click(function(){
+                var  data=$(this).text();
+        sessionStorage.setItem("Hometab",data)
+
+
+            })
     });
 
 })();
