@@ -1962,7 +1962,7 @@ ul.practiceli.paragraph {
   font-size: 40px; }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/002_work.gif) !important;
+  background-image: url(/assets/img/workpage/002_work.gif);
   background-color: #fffade; }
 
 #lb_btn1 {
@@ -2603,6 +2603,10 @@ li.lb_work_filterli:first-child {
     margin: 431px auto 0; }
   .lb_work_filterli {
     text-align: center; } }
+
+.prct .hero_img {
+  background-image: url(/assets/img/practice/new-service-gif.gif);
+  background-color: #f9e2e9; }
 
 .circle-animation {
   -webkit-transform: scale(1.3) !important;
