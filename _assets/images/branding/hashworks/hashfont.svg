@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="204" viewBox="0 0 445 204">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0h445v204H0z"/>
+        <text fill="#000" font-family="Muli-Bold, Muli" font-size="36" font-weight="bold" letter-spacing="1">
+            <tspan x="2" y="36">Muli Bold</tspan>
+        </text>
+        <text fill="#000" font-family="Muli-SemiBold, Muli" font-size="32" font-weight="500" letter-spacing=".889">
+            <tspan x="2" y="115">Muli Semi Bold</tspan>
+        </text>
+        <text fill="#000" font-family="Muli-Regular, Muli" font-size="28" letter-spacing=".778">
+            <tspan x="2" y="196">Muli Regular</tspan>
+        </text>
+    </g>
+</svg>

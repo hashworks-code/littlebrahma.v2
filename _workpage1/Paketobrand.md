@@ -14,7 +14,8 @@ enigma_banner: "/assets/img/branding/paketo.png"
 backgroundColor: backgroundImage
 
 inntroTitle: "Introduction"
-introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+introparagraph: "Paketo is a fully automated pipeline to commit, build, deploy, test and monitor.
+It connects all developers and DevOps engineers to end devices and ensures software flows quickly and free from interruption creating a seamless DevOps practice."
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
@@ -50,10 +51,10 @@ adaptParagraph: "With the brand voice and the newly devised brand strategy to at
 
 
 challange: "Challenge"
-paragraph1: "- Design a brand identity for Hashworks"
-paragraph2: "- Should focus on the domains Hashworks is functioning"
-paragraph3: "- A logo that captures the brand values"
-paragraph4: "- Establish a visual language that resonates the organizations purpose"
+paragraph1: "- Design a brand identity for Paketo"
+paragraph2: "- Should focus on the DevOps."
+paragraph3: "- A logo that encapsulates the problem solving method of the application"
+paragraph4: "- Establish a visual language that resonates the applications purpose"
 
 
 conceptTitle: "Concept"

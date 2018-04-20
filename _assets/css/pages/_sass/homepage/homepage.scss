@@ -164,6 +164,9 @@ li.lb_work_filterli:first-child {
                     width: 31px;
                     height: 28px;
                 }
+                &__Inner:last-child{
+                    margin-right: 0;
+                } 
             }
         }
     }
@@ -262,6 +265,7 @@ li.lb_work_filterli:first-child {
                     }
                    
                 }
+                   
             }
             &__Service{
                 // position: relative;
@@ -432,7 +436,7 @@ li.lb_work_filterli:first-child {
         margin: 170px auto 0;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (hover:none){
 
     .homePage{
         margin-top: 35px;
@@ -488,6 +492,9 @@ li.lb_work_filterli:first-child {
                     }
                     &__Inner:hover img{
                         display: none;
+                    }
+                    &__Inner:last-child{
+                        margin: 0 auto 16px;
                     }
                 }
             }

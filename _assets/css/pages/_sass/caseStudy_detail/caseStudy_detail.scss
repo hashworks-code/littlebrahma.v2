@@ -360,7 +360,7 @@
                 padding: 30px;
             }
             .SceneImg{
-                margin-bottom: 271px;
+                margin-bottom: 230px;
                 img{
                     min-height: 174px;
                     width: 306px;
@@ -379,14 +379,15 @@
             &__content3{
                 width: 100%;
                 padding: 30px;
-    
+                position: relative;
+                top: -42px;
             }
             .SceneImg1{
                 img{
-                    width: 50%;
+                    width: 82%;
                     top: 26px;
-                    left: 30%;
-                    height: 38%;
+                    left: 9%;
+                    height: 40%;
                 }
             }
             &__bgImg2{
