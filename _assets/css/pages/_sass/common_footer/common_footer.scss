@@ -316,6 +316,7 @@ img{
     position: relative;
     &__image{
       position: absolute;
+      top:568px;
       bottom: 0px;
       width: 100%;
       background: linear-gradient(to top,#ff698f,#ff84a1);
@@ -377,11 +378,13 @@ img{
       height: 800px;
       &__image{
         bottom: 0px;
+        top:630px;
       }
       &__img{
         width: 1260px;
         right:10%;
         bottom: 3px;
+      
       }
     &__inner{
       top: 128px;

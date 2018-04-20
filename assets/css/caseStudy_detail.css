@@ -1418,6 +1418,7 @@ html, body {
     position: relative; }
     .footer__image {
       position: absolute;
+      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1471,7 +1472,8 @@ html, body {
   .footer {
     height: 800px; }
     .footer__image {
-      bottom: 0px; }
+      bottom: 0px;
+      top: 630px; }
     .footer__img {
       width: 1260px;
       right: 10%;
