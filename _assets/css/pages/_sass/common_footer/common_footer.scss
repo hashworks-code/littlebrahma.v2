@@ -40,6 +40,7 @@
       font-family: 'MavenPro-Bold';
       font-size: 16px;
       color: #ffffff;
+     
     }
     &__div{
       text-align: left;
@@ -80,6 +81,9 @@
     font-size: 20px;
   }
 }
+.vertical-line{
+  position: relative;
+}
 &__bottom{
   bottom:16px;
   display: flex;
@@ -92,6 +96,29 @@ justify-content: space-between;
 z-index: 99999999;
   div{
     font-size: 16px;
+    .logo-footer{
+      width:40px;
+      height:40px;
+      top:5px;
+      position: relative;
+    }
+    p{
+      display: inline-block;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
+    span{
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 40px;
+      top: 5px;
+      height: 48px;
+      bottom: 0;
+      border: 1px solid;
+      border-width: 0 0 0 1px;
+    }
   }
 }
 .socialLogo{
@@ -155,6 +182,29 @@ img{
   z-index: 99999999;
   div{
     font-size: 12px;
+    .logo-footer{
+      width:30px;
+      height:30px;
+      top:4px;
+      position: relative;
+    }
+    span{
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 69px;
+      top: 68px;
+      height: 38px;
+      bottom: 0;
+      border: 1px solid;
+      border-width: 0 0 0 1px;
+    }
+    p{
+      display: inline-block;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
   }
 }
 .socialLogo{
@@ -216,9 +266,24 @@ img{
       width: 8px;
       height: 8px;
     }
+    span{
+
+      display:none;
+     
+        }
+        p{
+          position: relative;
+          top:0;
+          left:0;
+        }
     .behance{
       width: 10px;
       height: 10px;
+    }
+    .logo-footer{
+      width:24px;
+      height:24px;
+      display:none;
     }
   }
 }
