@@ -5,6 +5,8 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/enigma-banner.png"
+
+backgroundchange: "backEnigma"
 banner-Head: "Enigma"
 banner-cnt: "Root cause application failures in a single click"
 

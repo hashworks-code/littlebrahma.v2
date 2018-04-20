@@ -5,6 +5,8 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/myb.png"
+
+backgroundchange: "backMyb"
 banner-Head: "Mysterybox"
 banner-cnt: "A retail software to improve brand equity value"
 section: "opm"

@@ -11,6 +11,10 @@ url: "ServiceDesign1"
 title: Hashworks Branding
 textcolor: text-black
 enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
+backgroundColor:  backgroundhash
+
+inntroTitle: "Introduction"
+introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
 
 background:
   - image: "/assets/img/branding/hashworks/hashconceptmob.png"

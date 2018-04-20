@@ -5,6 +5,7 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/opm.png"
+backgroundchange: "backOpm"
 banner-Head: "Order Profile Management"
 banner-cnt: "Simplified order management"
 section: "opm"
@@ -81,7 +82,7 @@ SImg5: "opm-data-02"
 
 SImg10: "OPM_Wireframe1"
 SImg11: "style-guid"
-SImg12: "opm-screens"
+SImg12: "opm-mockup-collag"
 
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
@@ -89,7 +90,7 @@ SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
     - SImg18: "opm--desktop"
-    - SImg18: "opm-mockup-collag"
+    - SImg18: "opmcase"
     - SImg18: "opm-mockup-1"
     - SImg18: "opm-mockup-2"
 
