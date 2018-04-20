@@ -1149,7 +1149,9 @@ html, body {
   text-align: left; }
 
 .footer__bottom__div2 {
-  text-align: right; }
+  text-align: right;
+  position: relative;
+  z-index: 9999; }
 
 @media screen and (min-width: 1024px) {
   .footer {
@@ -1435,6 +1437,9 @@ html, body {
       padding: 115px 23% 37px 27%; }
     .footer .socialLogo {
       left: 52%; } }
+
+.iconsectionnone {
+  display: none; }
 
 .blobs {
   width: 160px;
@@ -2123,7 +2128,7 @@ html, body {
     .branding__icons .textalign {
       text-align: left; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .blob1 {
     width: 365px;
     margin: 80px auto 120px; }
@@ -2131,7 +2136,7 @@ html, body {
       margin: 24px 0px 0px; }
   .blob2 {
     top: 113px;
-    left: 103px; }
+    left: 120px; }
   .blobs {
     width: 359px;
     height: 320px;

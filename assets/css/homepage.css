@@ -1149,7 +1149,9 @@ html, body {
   text-align: left; }
 
 .footer__bottom__div2 {
-  text-align: right; }
+  text-align: right;
+  position: relative;
+  z-index: 9999; }
 
 @media screen and (min-width: 1024px) {
   .footer {
@@ -1436,6 +1438,13 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+ul.practiceli.paragraph {
+  padding-left: 16px; }
+
+.practiceli li {
+  list-style: initial !important;
+  font-family: 'PT_Sans-Regular'; }
+
 .rContent.fixedContainer {
   position: fixed;
   top: 40%; }
@@ -1506,7 +1515,8 @@ html, body {
   .prct .dnaImgMob {
     display: none; }
   .prct_dic {
-    padding: 45px 35px; }
+    padding: 45px 35px;
+    z-index: 1; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
       color: #393939; }
@@ -1897,7 +1907,7 @@ html, body {
     margin: 80px 29px 65px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/shapes2_1.gif) !important; }
+  background-image: url(/assets/img/workpage/002_work.gif) !important; }
 
 #lb_btn1 {
   display: none; }

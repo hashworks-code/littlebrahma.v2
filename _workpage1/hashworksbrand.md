@@ -78,7 +78,7 @@ colorPaletter_list:
 fontfamily1: "Typography"
 font: "hashfont.svg"
 font1: "hashcontent.svg"
-
+iconsection: iconsectionnone
 # icons: 'Icons'
 # icon_list:
 #   - icons: 'hashicon.jpg'

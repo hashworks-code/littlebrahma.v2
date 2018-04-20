@@ -1,4 +1,6 @@
-
+    .iconsectionnone{
+        display:none;
+    }
    .blobs {
     width: 160px;
     height: 170px;
@@ -679,7 +681,7 @@ h2{
 
 }
 
-@media screen and (min-width:1025px){
+@media screen and (min-width:1024px){
     .blob1{
         width:365px;
         margin: 80px auto 120px;
@@ -689,7 +691,7 @@ h2{
     }
     .blob2{
         top: 113px;
-        left: 103px;
+        left: 120px;
     }
 
    .blobs {
