@@ -449,7 +449,8 @@ textarea:hover, textarea:focus {
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
-    font-size: 48px; }
+    font-size: 48px;
+    line-height: 55px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }
@@ -1189,6 +1190,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 469px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1267,6 +1269,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 396px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1318,7 +1321,7 @@ html, body {
           position: absolute;
           z-index: 1;
           left: 69px;
-          top: 68px;
+          top: 52px;
           height: 38px;
           bottom: 0;
           border: 1px solid;
@@ -1346,6 +1349,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 235px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1415,6 +1419,7 @@ html, body {
     position: relative; }
     .footer__image {
       position: absolute;
+      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1468,7 +1473,8 @@ html, body {
   .footer {
     height: 800px; }
     .footer__image {
-      bottom: 0px; }
+      bottom: 0px;
+      top: 630px; }
     .footer__img {
       width: 1260px;
       right: 10%;

@@ -14,7 +14,8 @@ enigma_banner: "/assets/img/branding/paketo.png"
 backgroundColor: backgroundImage
 
 inntroTitle: "Introduction"
-introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+introparagraph: "Paketo is a fully automated pipeline to commit, build, deploy, test and monitor.
+It connects all developers and DevOps engineers to end devices and ensures software flows quickly and free from interruption creating a seamless DevOps practice."
 
 background:
   - image: "/assets/img/branding/hashworks/paketoconceptmob.png"
