@@ -7,8 +7,6 @@ $(window).resize(function(){
 $(document).ready(function() {  
     if(screen.width > 1024){
        newFunction();
-    //   jqueryScrollPlugin()
-    //   jqueryScrollPluginSetting()
     }
     $('.prctSec_tab').click(function(){
       $(this).addClass('prctSec_active');
