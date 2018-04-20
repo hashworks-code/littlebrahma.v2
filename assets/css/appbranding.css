@@ -1721,7 +1721,7 @@ html, body {
 .engima {
   border-left: 5px solid #603d95;
   padding: 0px 0px 0px 23px;
-  margin: 40px 0px; }
+  margin: 20px 0px 40px; }
   .engima .csHeading {
     padding-bottom: 13px; }
 
@@ -1742,7 +1742,7 @@ html, body {
   height: 414px;
   background-color: #022b3b;
   padding: 56px 0px 0px 0px;
-  margin-bottom: 164px; }
+  margin-bottom: 140px; }
   .branding__perceive__align {
     width: 260px;
     margin: 0 auto; }
@@ -1794,9 +1794,11 @@ html, body {
 
 .branding__logo {
   padding: 20px 35px 0px; }
+  .branding__logo h2 {
+    padding-left: 32px; }
 
 .branding__meaning {
-  width: 260px;
+  padding: 0px 60px;
   margin: 0px auto 71px; }
   .branding__meaning p {
     padding: 12px 0px 59px;
@@ -1806,24 +1808,24 @@ html, body {
   padding: 0px 36px; }
 
 .branding__enigmalist {
-  padding: 50px 0px 24px;
-  width: 300px;
+  padding: 50px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist h2 {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    text-align: left; }
   .branding__enigmalist img {
     padding: 30px;
     width: 100%;
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 50px 0px 24px;
-  width: 300px;
+  padding: 50px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    text-align: left; }
   .branding__enigmalist1 img {
     padding: 30px 10px;
     width: 116px;
@@ -1847,18 +1849,16 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  width: 262px;
-  margin: 0 auto; }
+  padding: 50px 60px 24px 60px; }
   .branding__fontfamily img {
     width: 100%;
     height: 90%; }
   .branding__fontfamily h1 {
     padding: 30px 0px 24px;
-    text-align: center; }
+    text-align: left; }
 
 .branding__icons {
-  padding: 23px 0px 25px;
-  width: 300px;
+  padding: 23px 60px 25px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__icons img {
@@ -1866,6 +1866,8 @@ html, body {
     width: 50px; }
   .branding__icons .textalign {
     text-align: center; }
+  .branding__icons h2 {
+    text-align: left; }
 
 .mobileClass {
   display: block; }

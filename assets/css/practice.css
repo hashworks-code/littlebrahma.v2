@@ -1816,6 +1816,8 @@ ul.practiceli.paragraph {
       /* Safari 4.0 - 8.0 */
       animation-name: example2;
       animation-duration: 1s; }
+      .prct .fixedClass .heroText__dna {
+        left: 55%; }
   @-webkit-keyframes example {
     from {
       left: 0%; }
@@ -1905,3 +1907,19 @@ ul.practiceli.paragraph {
     width: 970px; }
   .philSec {
     margin: 80px 29px 65px; } }
+
+.heroText__dna {
+  font-family: "MavenPro-Medium";
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #393939;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 200px;
+  font-size: 4s0px; }
+
+.heroHighlight__dna {
+  color: #ea1c49;
+  font-size: 40px; }

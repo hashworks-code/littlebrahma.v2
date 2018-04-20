@@ -471,6 +471,13 @@ ul.practiceli.paragraph {
             -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
             animation-name: example2;
             animation-duration: 1s;
+.heroText__dna{
+
+left:55%;
+
+
+}
+
         }
         
         
@@ -602,4 +609,19 @@ ul.practiceli.paragraph {
     .philSec{
         margin: 80px 29px 65px;
     }    
+}
+
+.heroText__dna{
+    font-family: "MavenPro-Medium";
+    order: 1;
+    color: #393939;
+    position:absolute;
+    top:45%;
+    left:45%;
+    width:200px;
+        font-size: 4s0px;
+}
+.heroHighlight__dna{
+    color: #ea1c49;
+        font-size: 40px;
 }
