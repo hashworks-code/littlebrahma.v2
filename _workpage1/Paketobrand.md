@@ -78,7 +78,7 @@ colorPaletter_list:
 fontfamily1: "Typography"
 font: "paketofont.svg"
 font1: "paketocontent.svg"
-
+iconsection: iconsectionnone
 # icons: 'Icons'
 # icon_list:
 #   - icons: 'appicon-1.svg'

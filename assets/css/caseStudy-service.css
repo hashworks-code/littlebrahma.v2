@@ -1436,6 +1436,9 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+.iconsectionnone {
+  display: none; }
+
 .blobs {
   width: 160px;
   height: 170px;
@@ -2759,6 +2762,9 @@ html, body {
     width: 100%; }
   .caseStudy__calImg {
     margin: 64px 0 0; } }
+
+.iconsectionnone {
+  display: none; }
 
 .blobs {
   width: 160px;
