@@ -121,7 +121,7 @@ $(window).resize(function(){
             var prod=$('.prod').length;
             if(prod<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             else{
                 $("#lb_btn").show();
@@ -137,7 +137,7 @@ $(window).resize(function(){
             var service=$('.service').length;
             if(service<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             if(index<=3){
                 $(this).show();
@@ -150,7 +150,7 @@ $(window).resize(function(){
             var brndcomm=$('.brndcomm').length;
             if(brndcomm<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             
             if(index<=3){
@@ -164,7 +164,7 @@ $(window).resize(function(){
             var all=$('.alldata').length;
             if(all<=4){
                 $("#lb_btn").hide();
-                $('#lb_service_btn').hide();
+                $('.load-more').hide();
             }
             else{
                 $("#lb_btn").show();
