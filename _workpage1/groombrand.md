@@ -8,13 +8,13 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
-brandTitle: "Branding for application run-time monitoring tool"
+brandTitle: "Branding for Machine Intelligence powered HR solution application"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"   
 backgroundColor:  backgroundgroome
 
 inntroTitle: "Introduction"
-introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+introparagraph: "Groome, an AI-enabled HR solution which helps to find a desired candidature for the job rule from the talent pool. It synchronizes the sales, operations and recruitment processes to ease the workflow management."
 
 background:
   - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
@@ -38,29 +38,29 @@ bannerBrand: "groomebrand.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
-adaptSubTitle: "Designing for technology"
-adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
+adaptSubTitle: "Designing for a human-centered product"
+adaptParagraph: "After identifying the brand voice, we started designing the logo encapsulating the blend of technology and the human-element which brand holds inside itself."
 
 challange: "Challenge"
 challangeList:
-  - challangepara: "- Design a brand identity for Hashworks"
-  - challangepara: "- Should focus on the domains Hashworks is functioning"
-  - challangepara: "- A logo that captures the brand values"
-  - challangepara: "- Establish a visual language that resonates the organizations purpose"
+  - challangepara: "- Design for a brand identity of Groome"
+  - challangepara: "- Portrait the brand as a product and a consulting company"
+  - challangepara: "- Give a human-centered visual identity"
+  - challangepara: "- A logo that captures the brand value"
 
 perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
+percevesubtitle: "Understanding the Essence"
 perceiveList: 
- - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is                      offering to the tech community. With this insights we were able to come up with"
- - perceivepara: "- Brand voice that customer wants to convey"
- - perceivepara: " - Design strategy for the marketing"
- - perceivepara: "- Concept designs of the artifacts which connects with tech community"
+ - perceivepara: "The discussion with business stakeholders helped us in understanding the recruitment market and the need of a technology product to meet the needs of enterprises to make quality hires. Post this, we were able to achieve:"
+ - perceivepara: "- Understand the customer’s vision for the brand"
+ - perceivepara: " - Brand voice for telling the story"
+ - perceivepara: "- Design the storytelling strategy"
 percieveImage: "percieve.jpg"
 
 
 
 conceptTitle: "Concept"
-conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
+conceptparagraph: "The logo was conceptualized from the overlapping of three circles which represent the key features of recruitment - Demand, Supply & Fulfillment."
 
 conceptImage1: "concept1.png"
 conceptImage2: "concept2.png"
@@ -70,7 +70,7 @@ conceptImage4: "concept4.png"
 finallogo: "groomelogo.svg"
 
 meaningTitle: "Meaning behind the Logo"
-meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
+meaningpara: "The logo was evolved out of the search icon and human icon which represent the key of the brand, finding a ideal hire for the job role. "
 meaningImage: "groomemeaning.svg"
 enigmalogo: "groome1.svg"
 
@@ -78,8 +78,8 @@ variations1: "variation1.svg"
 variations2: "variation2.svg"
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iteration"
-evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
+evolveSubTitle: "Designing the variations"
+evolveparagraph: "With the logo created, we decided to add colours and typography to give the brand a vibrant personality and match the modernization in the talent recruitment industry. After iterating with the customer for some variations we finalized the visual representation and published the brand guidelines."
 
 colorPalette: "Color Palette"
 

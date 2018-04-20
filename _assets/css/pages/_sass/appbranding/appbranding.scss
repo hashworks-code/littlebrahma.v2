@@ -177,7 +177,7 @@ margin: 0px 5px;
 .back{
     // background-image: url(/assets/img/branding/hashworks/group-15.svg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
   }
 
 .challange{
@@ -212,7 +212,7 @@ img{
 height: 414px;
 background-color: #022b3b;
 padding: 56px 0px 0px 0px;
-margin-bottom: 140px;
+margin-bottom: 100px;
 &__align{
     width: 260px;
     margin: 0 auto;
@@ -234,7 +234,7 @@ p{
 .percevieImage{
 width: 205px;
 height: 164px;
-margin: 46px 0px 0px 25px;
+margin: 25px 0px 0px 25px;
 }
 }
 
@@ -272,14 +272,11 @@ margin: 0 auto;
 }
 &__concept{
 width: 260px;
-margin: 20px auto 32px;
+margin: 40px auto 32px;
 h1{
     padding: 0px 0px 19px;
-    color: #5d6a6f;
 }
-p{
-    color: #5d6a6f;
-}
+
 }
 &__logo{
 padding: 20px 35px 0px;
@@ -291,8 +288,8 @@ padding-left: 32px;
 width: 300px;
 margin: 0 auto;
 p{
-    padding: 12px 0px 40px;
-    color: #5d6a6f;
+    padding: 16px 0px 40px;
+ 
 }   
 }
 &__enigmalogo{
@@ -301,7 +298,7 @@ img {
 }
 }
 &__enigmalist{
-padding: 50px 60px 24px 60px;
+padding: 40px 60px 24px 60px;
 margin: 0 auto;
 text-align: center;
 h2{
@@ -315,7 +312,7 @@ img{
 }
 }
 &__enigmalist1{
-padding: 50px 60px 24px 60px;
+padding: 40px 60px 24px 60px;
 margin: 0 auto;
 text-align: center;
 h2{
@@ -568,9 +565,8 @@ h1{
 
 }
 &__logo{
-padding: 60px 0px 60px;
-width: 700px;
-margin: 0 auto;
+padding:0px 30px;
+
 
 }
 &__meaning{
@@ -578,7 +574,7 @@ width: 700px;
 margin: 0 auto;
 padding: 0 50px 72px 0px;
 p{
-    padding: 14px 0px 0px;
+    padding: 24px 0px 0px;
     font-size: 12px;
 }  
 img{
@@ -661,7 +657,7 @@ width: 700px;
 margin: 0 auto;
 padding: 0;
 h1{
-    padding: 30px 0px 40px;
+    padding: 0px 0px 40px;
     text-align: left;
 }
 }
@@ -699,6 +695,9 @@ padding-top: 30px;
     button{
         margin: 24px 0px 0px;
     }
+}
+.lb_bdy {
+    height: calc(100vh + 110px);
 }
 .blob2{
     top: 113px;
@@ -789,10 +788,10 @@ height: 342px;
         padding:28px 0px 23px;
     } 
    .percevieImage{
-    width: 401px;
-    height: 377px;
+    width: 375px;
+    height: 302px;
     right: -190px;
-    top: 81px;
+    top: 112px;
     }
 }
 &__enigmalogo{
@@ -825,12 +824,11 @@ height: 342px;
     width: 700px;
     margin: 0px 0px 80px 15px;
     h1{
-        padding:96px 0px 24px;
+        padding:80px 0px 24px;
     }
 }
 &__logo{
-    padding: 60px 0px 60px;
-    width: 965px;
+    padding: 0px 45px;
   }
 &__meaning{
     padding: 0 145px 72px 0px;
@@ -1054,7 +1052,7 @@ height: 400px;
     }
 }
 &__logo{
-    padding: 140px 0px 0px 0px;
+    padding:0px;
     width: 1100px;
     margin: 0 auto;
   }

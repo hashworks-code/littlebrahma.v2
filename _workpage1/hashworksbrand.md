@@ -37,7 +37,7 @@ bannerBrand: "hashBrand.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
-adaptSubTitle: "Designing for technology"
+adaptSubTitle: "Designing for the tech savvy"
 adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
 
 conceptTitle: "Concept"
@@ -53,7 +53,7 @@ challangeList:
 perceiveTitle: "Perceive"
 percevesubtitle: "Understanding the DevOps"
 perceiveList: 
- - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is                      offering to the tech community. With this insights we were able to come up with"
+ - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
  - perceivepara: "- Brand voice that customer wants to convey"
  - perceivepara: " - Design strategy for the marketing"
  - perceivepara: "- Concept designs of the artifacts which connects with tech community"
