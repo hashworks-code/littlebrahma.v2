@@ -5,6 +5,8 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/enigma-banner.png"
+
+backgroundchange: "backEnigma"
 banner-Head: "Enigma"
 banner-cnt: "Root cause application failures in a single click"
 
@@ -166,7 +168,7 @@ full_image:
 cat: Service Design
 product_title: Identifying the root cause for code break
 product_title1: Enigma
-product_description: Branding / Visual identity / Application / Website
+product_description:  Application / Website
 # product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/enigma.jpg"
 textcolor: text-black

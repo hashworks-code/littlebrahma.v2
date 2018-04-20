@@ -402,6 +402,35 @@ textarea:hover, textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .lb_bdy {
+    height: 1020px; }
+  .backgroundImage {
+    background-color: #42a1fa; }
+  .backgroundenigma {
+    background-color: #fddd4e; }
+  .backgroundgroome {
+    background-color: #030303; }
+  .backgroundhash {
+    background-color: #eeeced; }
+  .backEnigma {
+    background-color: #f6fef9; }
+  .backMyb {
+    background-color: #fff7de; }
+  .backXpe {
+    background-color: #bd193b; }
+  .backGaft {
+    background-color: #ffe72a; }
+  .backGov {
+    background-color: #010b1a; }
+  .backOpm {
+    background-color: #05749e; }
+  .calender2017 {
+    background-color: #000203; }
+  .calender2018 {
+    background-color: #009edf; }
+  .hero_img {
+    background-size: 1400px 100%;
+    height: 710px; }
   .headingBold {
     font-size: 40px; }
   .headingLight {
@@ -420,7 +449,8 @@ textarea:hover, textarea:focus {
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
-    font-size: 48px; }
+    font-size: 48px;
+    line-height: 55px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }
@@ -499,7 +529,7 @@ html, body {
   top: 0;
   left: 0;
   background: white;
-  height: 50px;
+  height: 63px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -722,7 +752,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: #f8f9f9;
-  z-index: 10;
+  z-index: 9999;
   text-align: center;
   padding: 90px 0;
   -webkit-backface-visibility: hidden;
@@ -1160,6 +1190,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 469px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1180,6 +1211,8 @@ html, body {
       font-size: 40px; }
       .footer__inner a {
         font-size: 20px; }
+    .footer .vertical-line {
+      position: relative; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1198,6 +1231,26 @@ html, body {
       z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
+        .footer__bottom div .logo-footer {
+          width: 40px;
+          height: 40px;
+          top: 5px;
+          position: relative; }
+        .footer__bottom div p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px; }
+        .footer__bottom div span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 40px;
+          top: 5px;
+          height: 48px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
@@ -1216,6 +1269,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 396px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1257,6 +1311,26 @@ html, body {
       z-index: 99999999; }
       .footer__bottom div {
         font-size: 12px; }
+        .footer__bottom div .logo-footer {
+          width: 30px;
+          height: 30px;
+          top: 4px;
+          position: relative; }
+        .footer__bottom div span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 69px;
+          top: 52px;
+          height: 38px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px; }
+        .footer__bottom div p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
@@ -1275,6 +1349,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 235px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1313,9 +1388,19 @@ html, body {
         .footer__bottom div img {
           width: 8px;
           height: 8px; }
+        .footer__bottom div span {
+          display: none; }
+        .footer__bottom div p {
+          position: relative;
+          top: 0;
+          left: 0; }
         .footer__bottom div .behance {
           width: 10px;
           height: 10px; }
+        .footer__bottom div .logo-footer {
+          width: 24px;
+          height: 24px;
+          display: none; }
     .footer .socialLogo {
       font-size: 8px;
       bottom: 14px;
@@ -1334,6 +1419,7 @@ html, body {
     position: relative; }
     .footer__image {
       position: absolute;
+      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1387,7 +1473,8 @@ html, body {
   .footer {
     height: 800px; }
     .footer__image {
-      bottom: 0px; }
+      bottom: 0px;
+      top: 630px; }
     .footer__img {
       width: 1260px;
       right: 10%;
@@ -1494,7 +1581,8 @@ ul.practiceli.paragraph {
         -ms-flex-pack: center;
             justify-content: center; }
   .prct .hero_img {
-    background-image: url(/assets/img/practice/03_Practice.gif); }
+    background-image: url(/assets/img/practice/03_Practice.gif);
+    background-color: #e9faff; }
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
@@ -1516,6 +1604,7 @@ ul.practiceli.paragraph {
     display: none; }
   .prct_dic {
     padding: 45px 35px;
+    padding-top: 0px;
     z-index: 1; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
@@ -1601,6 +1690,8 @@ ul.practiceli.paragraph {
     display: none; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .diverse {
+    padding-top: 80px; }
   .lgCon {
     margin-top: 30px; }
   .knowmore {
@@ -1659,6 +1750,8 @@ ul.practiceli.paragraph {
     display: none; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .diverse-content {
+    padding-top: 48px; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1738,6 +1831,8 @@ ul.practiceli.paragraph {
     margin: 50px 29px 0; } }
 
 @media screen and (min-width: 1025px) {
+  .diverse-content {
+    padding-top: 105px; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1973,7 +2068,8 @@ li.lb_work_filterli:first-child {
   display: none; }
 
 .prct .hero_img {
-  background-image: url(/assets/img/about_us/004_About.gif); }
+  background-image: url(/assets/img/about_us/004_About.gif);
+  background-color: #eeffde; }
 
 @media screen and (min-width: 320px) {
   .about-us {
@@ -2005,6 +2101,9 @@ li.lb_work_filterli:first-child {
     padding: 48px 34px 12px; }
     .about-us img {
       padding: 0 10px 22px; }
+    .about-us .row {
+      width: 700px;
+      margin: 0 auto; }
   .about__us {
     width: 700px; }
     .about__us p {
@@ -2027,6 +2126,8 @@ li.lb_work_filterli:first-child {
     padding: 56px 42px 42px; }
     .about-us img {
       padding: 0 10px 22px; }
+    .about-us .row {
+      width: 935px; }
   .about__us {
     width: 935px; }
     .about__us p {
@@ -2047,4 +2148,6 @@ li.lb_work_filterli:first-child {
   .about-us {
     padding: 64px 165px 50px; }
     .about-us img {
-      padding: 0 15px 30px; } }
+      padding: 0 15px 30px; }
+    .about-us .row {
+      width: 1100px; } }

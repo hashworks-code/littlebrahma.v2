@@ -5,6 +5,8 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy/xp.png"
+
+backgroundchange: "backXpe"
 banner-Head: "Extreme Performance engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
 section: "gov"

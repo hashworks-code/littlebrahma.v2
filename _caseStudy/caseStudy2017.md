@@ -14,7 +14,7 @@ cImgg2: "book-screen"
 cImgg3: "debashis@1"
 
 cImgg4: "6-copy-2"
-
+backgroundColor: calender2017
 
 cImgg5: "intial-17"
 cImgg6: "photo-funia-1510313892"
@@ -25,7 +25,7 @@ cImgg9: "g8-img"
 
 cImgg10: "sleeping-ganapa"
 
-cBanner1: "The year of inception :"
+cBanner1: "The year of inception:"
 
 cBanner2: "2017"
 
@@ -35,7 +35,7 @@ cImg1: "bitmap"
 
 cHead1: "The story of Brahma "
 
-cContent1: " We related our idea of creation to Brahma an Indian mythical god. He is an omnipresent and attributed to every creation on earth. Inspired with this thought our 2017 calendar was published narrating his origin stories."
+cContent1: " We related our idea of creation to Brahma an Indian mythical god. He is an omnipresent and attributed to every creation on earth. Inspired with this thought, our 2017 calendar was published narrating his origin stories."
 
 cImg2: "group"
 
@@ -53,7 +53,7 @@ cHead4: "Highlighting civic and social knick knacks:"
 
 cContent4: " With a growing population we wanted to highlight the civil issues afflicting the country. 
             With the various festivals as the backdrop, carelessness in public property, vandalism,
-              pains of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
+              pain of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
 
 cHead5: "Bringing old stories into the pop culture:"
 
@@ -78,18 +78,17 @@ cImg6: "group@2017"
 cImg7: "bitmap-copy-2017"
 
 lists_img:
-  - slide-imges: "xmas-dec-11"
-  - slide-imges: "ramdhan-fasting-06-a"
-  - slide-imges: "cal-shiv-rathri-feb-h"
-  - slide-imges: "11-diwali-cracker-nov-06-a"
-  - slide-imges: "01-k"
-  - slide-imges: "10-street-food-oct-06"
-  - slide-imges: "janmashtami"
-  - slide-imges: "8-vallasadhya-onam-aug-10"
-  - slide-imges: "5-mubai-railway-porters-may-g"
-  - slide-imges: "04-060617-i"
-  - slide-imges: "3-holi-mar-d"
-  - slide-imges: "02-310517-i"
+  - slide-imges: "ftr-2017@1"
+  - slide-imges: "ftr-2017@2"
+  - slide-imges: "ftr-2017@3"
+  - slide-imges: "ftr-2017@4"
+  - slide-imges: "ftr-2017@5"
+  - slide-imges: "ftr-2017@6"
+  - slide-imges: "ftr-2017@7"
+  - slide-imges: "ftr-2017@8"
+  - slide-imges: "ftr-2017@9"
+  - slide-imges: "ftr-2017@10"
+  - slide-imges: "ftr-2017@11"
 
 cat: Branding & Communication
 product_title: LB Calendar Design 2017

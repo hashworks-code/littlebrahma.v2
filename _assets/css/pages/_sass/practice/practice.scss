@@ -45,6 +45,7 @@ ul.practiceli.paragraph {
     .hero{
         &_img{
             background-image: url(/assets/img/practice/03_Practice.gif);
+            background-color:  #e9faff;
         }
     }
     &_rnImg{
@@ -81,6 +82,7 @@ ul.practiceli.paragraph {
     }
     &_dic{
       padding: 45px 35px;
+      padding-top:0px;
       z-index: 1;
         .title{
             font-family: "MavenPro-Bold";
@@ -185,6 +187,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:320px) and (max-width:767px){
+    .diverse{
+        padding-top:80px;
+    }
   .lgCon{
       margin-top: 30px;
   }
@@ -271,6 +276,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){
+    .diverse-content{
+padding-top:48px;
+    }
     .knowmore{
         display: flex;
         width:236px;
@@ -383,6 +391,9 @@ ul.practiceli.paragraph {
     }
 }
 @media screen and (min-width:1025px){
+    .diverse-content{
+        padding-top:105px;
+    }
     .knowmore{
         display: flex;
         width:289px;
@@ -510,12 +521,11 @@ left:55%;
         /* Standard syntax */
         @keyframes example2 {
             from {left: 50%;}
-            to {left: 0%;}
+            to {left: 0%;} 
         }
         
         .rContent{
-            // height:calc(100vh - 80px);
-            // background-color:lightgrey;
+
         }
         // .strategy_container{
         //     height:100vh;

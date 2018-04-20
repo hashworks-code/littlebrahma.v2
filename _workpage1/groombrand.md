@@ -8,8 +8,13 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
+brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-white
-enigma_banner: "/assets/img/branding/groome.jpg"
+enigma_banner: "/assets/img/branding/groome.jpg"   
+backgroundColor:  backgroundgroome
+
+inntroTitle: "Introduction"
+introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
 
 background:
   - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
@@ -29,20 +34,30 @@ brandImage2: "groome2.jpg"
 brandImage3: "groome3.jpg"
 brandImage4: "groome4.jpg"
 
-perceiveTitle: "Perceive"
-percevesubtitle: "Getting to know the vibe"
-paragraph1: "Regular conversations with the customer helped us understand the lanuage that hashworks wants to establish in the community. We came up with"
-paragraph2: "- Brand voice that customer wants to convey"
-paragraph3: " - Design strategy for the marketing"
-paragraph4: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "groomepercieve.jpg"
-
 bannerBrand: "groomebrand.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
 adaptSubTitle: "Designing for technology"
 adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
+
+challange: "Challenge"
+challangeList:
+  - challangepara: "- Design a brand identity for Hashworks"
+  - challangepara: "- Should focus on the domains Hashworks is functioning"
+  - challangepara: "- A logo that captures the brand values"
+  - challangepara: "- Establish a visual language that resonates the organizations purpose"
+
+perceiveTitle: "Perceive"
+percevesubtitle: "Understanding the DevOps"
+perceiveList: 
+ - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is                      offering to the tech community. With this insights we were able to come up with"
+ - perceivepara: "- Brand voice that customer wants to convey"
+ - perceivepara: " - Design strategy for the marketing"
+ - perceivepara: "- Concept designs of the artifacts which connects with tech community"
+percieveImage: "percieve.jpg"
+
+
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
@@ -75,8 +90,8 @@ colorPaletter_list:
   - paletter: "color4.svg"
 
 fontfamily1: "Typography"
-font: "groomefont.svg"
-font1: "groomecontent.svg"
+font: "groomefont.png"
+font1: "groomecontent.png"
 
 icons: 'Icons'
 icon_list:

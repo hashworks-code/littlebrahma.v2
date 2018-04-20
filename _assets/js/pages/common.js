@@ -38,6 +38,9 @@ $(window).resize(function(){
     // }
     
 });
+    // window.onhashchange = function() {
+    //     alert('data');
+    // }
     $(document).ready(function() {
         // debugger;
         if(screen.width > 767){

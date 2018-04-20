@@ -11,7 +11,7 @@ practice_lists:
   - title: Services
     description: >-
       We adapt people first approach to collaborate and grow your ideas into human centered products or services.
-# homebackgroundimg: /assets/img/workpage/group-3.png
+homebackgroundimg: /assets/img/practice/new-service-gif.gif
 published: true
 practiceList: Branding & Comm.
 practiceList1: Visual communication
@@ -22,7 +22,7 @@ backgroundImg: '/assets/img/homepage/brndg-comm.png'
 backgroundHoverImg: '/assets/img/homepage/brndg-comm-white.png'
 flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
-flowContent1: Cust. interview
+flowContent1: Cust. Interview
 existprocuctContenthead1: Customer Interview
 existprocuctContent1: Understanding customer vision of their brand and how they want to communicate to their end user
 flowImage2: '/assets/img/service/page-1 (6).svg'

@@ -40,6 +40,7 @@
       font-family: 'MavenPro-Bold';
       font-size: 16px;
       color: #ffffff;
+     
     }
     &__div{
       text-align: left;
@@ -59,6 +60,7 @@
   &__image{
     position: absolute;
     bottom: 0px;
+    top:469px;
     width: 100%;
     background: linear-gradient(to top,#ff698f,#ff84a1);
    z-index: -1;
@@ -80,6 +82,9 @@
     font-size: 20px;
   }
 }
+.vertical-line{
+  position: relative;
+}
 &__bottom{
   bottom:16px;
   display: flex;
@@ -92,6 +97,29 @@ justify-content: space-between;
 z-index: 99999999;
   div{
     font-size: 16px;
+    .logo-footer{
+      width:40px;
+      height:40px;
+      top:5px;
+      position: relative;
+    }
+    p{
+      display: inline-block;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
+    span{
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 40px;
+      top: 5px;
+      height: 48px;
+      bottom: 0;
+      border: 1px solid;
+      border-width: 0 0 0 1px;
+    }
   }
 }
 .socialLogo{
@@ -117,6 +145,7 @@ img{
   &__image{
     position: absolute;
     bottom: 0px;
+    top:396px;
     width: 100%;
     background: linear-gradient(to top,#ff698f,#ff84a1);
    z-index: -1;
@@ -155,6 +184,29 @@ img{
   z-index: 99999999;
   div{
     font-size: 12px;
+    .logo-footer{
+      width:30px;
+      height:30px;
+      top:4px;
+      position: relative;
+    }
+    span{
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 69px;
+      top: 52px;
+      height: 38px;
+      bottom: 0;
+      border: 1px solid;
+      border-width: 0 0 0 1px;
+    }
+    p{
+      display: inline-block;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
   }
 }
 .socialLogo{
@@ -179,6 +231,7 @@ img{
   &__image{
     position: absolute;
     bottom: 0px;
+    top:235px;
     width: 100%;
     background: linear-gradient(to top,#ff698f,#ff84a1);
    z-index: -1;
@@ -216,9 +269,24 @@ img{
       width: 8px;
       height: 8px;
     }
+    span{
+
+      display:none;
+     
+        }
+        p{
+          position: relative;
+          top:0;
+          left:0;
+        }
     .behance{
       width: 10px;
       height: 10px;
+    }
+    .logo-footer{
+      width:24px;
+      height:24px;
+      display:none;
     }
   }
 }
@@ -248,6 +316,7 @@ img{
     position: relative;
     &__image{
       position: absolute;
+      top:568px;
       bottom: 0px;
       width: 100%;
       background: linear-gradient(to top,#ff698f,#ff84a1);
@@ -309,11 +378,13 @@ img{
       height: 800px;
       &__image{
         bottom: 0px;
+        top:630px;
       }
       &__img{
         width: 1260px;
         right:10%;
         bottom: 3px;
+      
       }
     &__inner{
       top: 128px;

@@ -11,6 +11,7 @@ variation_image4: "/assets/img/caseStudy/bitmap.png"
 variation_image5: "/assets/img/caseStudy/group-3.png"
 variation_image6: "/assets/img/caseStudy/group-11.png"
 
+backgroundColor: calender2018
 cImgg1: "groupn1"
 cImgg2: "groupn2"
 cImgg3: "groupn3"
@@ -27,7 +28,7 @@ cImgg9: "g8-img"
 
 cImgg10: "g6-img"
 
-cBanner1: "The year of inception :"
+cBanner1: "The year of inception:"
 
 cBanner2: "2018"
 
@@ -69,11 +70,11 @@ cContent5: " India is famous for the street food. The sights of people thronging
 
 cHead6: "Celebration of the indian culture:"
 
-cContent6: "Indian culture symbolizes family, tradition colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
+cContent6: "Indian culture symbolizes family, traditional colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
 
 cHead7: "Comical way of awareness:"
 
-cContent7: " Our goal was to send out a social message of preserving  out culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
+cContent7: " Our goal was to send out a social message of preserving  our culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
 
 cImg4: "bitmap-copy"
 
@@ -84,17 +85,18 @@ cImg6: "calendar_thumb"
 cImg7: "bitmap-copy-20"
 
 lists_img:
-  - slide-imges: "ftr-2017@1"
-  - slide-imges: "ftr-2017@2"
-  - slide-imges: "ftr-2017@3"
-  - slide-imges: "ftr-2017@4"
-  - slide-imges: "ftr-2017@5"
-  - slide-imges: "ftr-2017@6"
-  - slide-imges: "ftr-2017@7"
-  - slide-imges: "ftr-2017@8"
-  - slide-imges: "ftr-2017@9"
-  - slide-imges: "ftr-2017@10"
-  - slide-imges: "ftr-2017@11"
+  - slide-imges: "xmas-dec-11"
+  - slide-imges: "ramdhan-fasting-06-a"
+  - slide-imges: "cal-shiv-rathri-feb-h"
+  - slide-imges: "11-diwali-cracker-nov-06-a"
+  - slide-imges: "01-k"
+  - slide-imges: "10-street-food-oct-06"
+  - slide-imges: "janmashtami"
+  - slide-imges: "8-vallasadhya-onam-aug-10"
+  - slide-imges: "5-mubai-railway-porters-may-g"
+  - slide-imges: "04-060617-i"
+  - slide-imges: "3-holi-mar-d"
+  - slide-imges: "02-310517-i"
 
 cat: Branding & Communication
 product_title: LB Calendar Design 2018

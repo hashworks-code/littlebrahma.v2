@@ -1,9 +1,10 @@
 // @import "workpage/workpage.scss";
 // @import "practice/practice.scss";
 @import "homepage/homepage.scss";
-// .prct .hero_img{
-//     background-image: url(/assets/img/workpage/group-3.png);
-// }
+.prct .hero_img{
+    background-image: url(/assets/img/practice/new-service-gif.gif);
+    background-color: #fee2e9;
+}
 
 // .lb_service{
 //    margin-top:80px;
@@ -266,6 +267,8 @@ ul.lb_work_filter.lb_service_lg{
             position: relative;
             margin-top: 0px;
             margin-bottom: 0px;
+            height:120px;
+            
             padding: 14px 0px 0px 0px;
           
         
@@ -300,6 +303,14 @@ ul.lb_work_filter.lb_service_lg{
         }
     }
     @media screen and (min-width: 768px){
+        .service-redirect{
+            width:580px;
+            margin:0 auto;
+            justify-content: flex-end;
+        }
+        .service-aligner{
+            margin:0px !important;
+        }
         .step-section{
             width:700px;
             margin:0 auto;
@@ -432,6 +443,9 @@ transform:scale(0);
 
    
     @media screen and (min-width: 1024px){
+        .service-redirect{
+            width:775px;
+        }
         .step-section{
             width:965px;
             margin:0 auto;
@@ -509,6 +523,10 @@ transform:scale(0);
     }
     }
     @media screen and (min-width: 1366px){
+        
+        .service-redirect{
+            width:850px;
+        }
         .step-section{
             width:1100px;
             margin:0 auto;

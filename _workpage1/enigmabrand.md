@@ -9,8 +9,14 @@ product_description: Branding / Visual identity
 banner_image: "/assets/img/caseStudy/groome-copy-4.png"
 url: "ServiceDesign1"
 title: Enigma Branding
+brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-black
 enigma_banner: "/assets/img/branding/enigma.png"
+backgroundColor: backgroundenigma
+
+inntroTitle: "Introduction"
+introparagraph: "Enigma analyzes code in staging and production to automatically detect and deliver root cause for all errors - with no dependency on logging.  This helps to cut down the resolution time by 97% and provide the end customer a delightful experience."
+
 
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
 backgroundMobile: "/assets/img/branding/hashworks/group-15.svg"
@@ -32,23 +38,31 @@ brandImage2: "2.jpg"
 brandImage3: "3.jpg"
 brandImage4: "4.jpg"
 
+challange: "Challenge"
+challangeList:
+  - challangepara: "Design a brand identity for Enigma"
+  - challangepara: "- Should focus on product features"
+  - challangepara: "- Establish a visual language telling the critical situations during production"
+  - challangepara: "- A logo that encapsulates the elements of DevOps practices"
+
 perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
-paragraph1: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
-paragraph2: "- Brand voice that customer wants to convey"
-paragraph3: " - Design strategy for the marketing"
-paragraph4: "- Concept designs of the artifacts which connects with tech community"
+percevesubtitle: "Understanding the key functionalities"
+perceiveList: 
+ - perceivepara: "Talking to the product manager, tech team and customer, we understood the key                  functionalities of Enigma and complexities the tool handles during staging and production.             With these insights, we were able to come up with:"
+ - perceivepara: "- Brand voice that business owners wants to convey"
+ - perceivepara: " - Design strategy for marketing"
+ - perceivepara: "- Concept designs for the artifacts"
 percieveImage: "percieve.jpg"
 
 bannerBrand: "banner-2.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
-adaptSubTitle: "Designing for technology"
-adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
-
+adaptSubTitle: "Designing for positioning the product"
+adaptParagraph: "With the brand voice and new branding strategy, we came up with a design solution that any technology enterprise or SME can connect and relate with the features of the product."
+  
 conceptTitle: "Concept"
-conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
+conceptparagraph: "We worked on concepts which depict the war-like situations during production when an error or a exception occur."
 
 conceptImage1: "enigmaa.svg"
 conceptImage2: "enigmab.svg"
@@ -58,7 +72,7 @@ conceptImage4: "enigmad.svg"
 finallogo: "logo.png"
 
 meaningTitle: "Meaning behind the Logo"
-meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
+meaningpara: "The logo encompasses the importance of Enigma as device in the history and relates its code complexity with the products key features. The formation of the circuit lines also showcases the letter “E” of Enigma."
 meaningImage: "meaning.png"
 enigmalogo: "1-st-image.svg"
 
@@ -67,8 +81,8 @@ variations2: "2.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iteration"
-evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
+evolveSubTitle: "Setting the visual tone"
+evolveparagraph: "We needed to give colors, typography and all the other collaterals, which would add to the visualization of the brand and the personality of the logo. After discussions and lot of iterations, we were able to produce a bunch of artifacts which resonates the products brand voice. "
 
 colorPalette: "Color Palette"
 
@@ -79,8 +93,8 @@ colorPaletter_list:
   - paletter: "flag4.svg"
 
 fontfamily1: "Typography"
-font: "fontfamily.svg"
-font1: "fontcontent.svg"
+font: "fontfamily.png"
+font1: "fontcontent.png"
 
 enigmapattern: "/assets/img/branding/icon/enigmapattern.svg"
 
