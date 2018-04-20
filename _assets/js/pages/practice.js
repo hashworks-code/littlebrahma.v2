@@ -1,8 +1,8 @@
 var sVal = false;
 $(window).resize(function(){
-  if(screen.width > 1024){
-    newFunction();
- }
+//   if(screen.width > 1024){
+//     newFunction();
+//  }
 });
 $(document).ready(function() {  
     if(screen.width > 1024){

@@ -3,6 +3,13 @@
 // .rContent{
 //     display: none;
 // }
+ul.practiceli.paragraph {
+    padding-left: 16px;
+}
+.practiceli li{
+    list-style: initial !important;
+    font-family: 'PT_Sans-Regular';
+}
 .rContent.fixedContainer{
     position: fixed;
     top: 40%;
@@ -74,6 +81,7 @@
     }
     &_dic{
       padding: 45px 35px;
+      z-index: 1;
         .title{
             font-family: "MavenPro-Bold";
             color: #393939;

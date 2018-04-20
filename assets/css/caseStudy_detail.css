@@ -1149,7 +1149,9 @@ html, body {
   text-align: left; }
 
 .footer__bottom__div2 {
-  text-align: right; }
+  text-align: right;
+  position: relative;
+  z-index: 9999; }
 
 @media screen and (min-width: 1024px) {
   .footer {
