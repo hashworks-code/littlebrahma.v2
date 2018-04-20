@@ -402,6 +402,8 @@ textarea:hover, textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .lb_bdy {
+    height: 1020px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
