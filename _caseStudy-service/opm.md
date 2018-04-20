@@ -79,7 +79,7 @@ SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "opm-data-02"
 
 
-SImg10: "gaft-wire-frame"
+SImg10: "OPM_Wireframe1"
 SImg11: "style-guid"
 SImg12: "opm-screens"
 
