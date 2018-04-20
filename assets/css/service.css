@@ -2783,6 +2783,14 @@ ul.lb_work_filter.lb_service_lg {
     width: 175px; } }
 
 @media screen and (min-width: 768px) {
+  .service-redirect {
+    width: 580px;
+    margin: 0 auto;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .service-aligner {
+    margin: 0px !important; }
   .step-section {
     width: 700px;
     margin: 0 auto; }
@@ -2887,6 +2895,8 @@ ul.lb_work_filter.lb_service_lg {
     width: 196px; } }
 
 @media screen and (min-width: 1024px) {
+  .service-redirect {
+    width: 775px; }
   .step-section {
     width: 965px;
     margin: 0 auto; }
@@ -2950,6 +2960,8 @@ ul.lb_work_filter.lb_service_lg {
     width: 196px; } }
 
 @media screen and (min-width: 1366px) {
+  .service-redirect {
+    width: 850px; }
   .step-section {
     width: 1100px;
     margin: 0 auto; }

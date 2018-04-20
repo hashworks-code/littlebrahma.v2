@@ -302,6 +302,14 @@ ul.lb_work_filter.lb_service_lg{
         }
     }
     @media screen and (min-width: 768px){
+        .service-redirect{
+            width:580px;
+            margin:0 auto;
+            justify-content: flex-end;
+        }
+        .service-aligner{
+            margin:0px !important;
+        }
         .step-section{
             width:700px;
             margin:0 auto;
@@ -434,6 +442,9 @@ transform:scale(0);
 
    
     @media screen and (min-width: 1024px){
+        .service-redirect{
+            width:775px;
+        }
         .step-section{
             width:965px;
             margin:0 auto;
@@ -511,6 +522,10 @@ transform:scale(0);
     }
     }
     @media screen and (min-width: 1366px){
+        
+        .service-redirect{
+            width:850px;
+        }
         .step-section{
             width:1100px;
             margin:0 auto;
