@@ -30,7 +30,6 @@ li.lb_work_filterli:first-child {
                 padding: 25% 0 0 157px;
                 width: 655px;
                 color:#393939;
-                text-transform: capitalize;
                 h1{
                     font-size: 48px;
                     font-family: 'MavenPro-Medium';
@@ -192,7 +191,6 @@ li.lb_work_filterli:first-child {
                 font-size: 24px;
                 font-family: 'MavenPro-Bold';
                 color: #393939;
-                text-transform: capitalize;
             }
             p{
                 margin-bottom: 32px;
@@ -431,7 +429,7 @@ li.lb_work_filterli:first-child {
     }
     .lb-ourworks-dna{
         width: 700px;
-        margin: 170px auto 0 !important;
+        margin: 170px auto 0;
     }
 }
 @media screen and (max-width: 767px) {

@@ -179,8 +179,7 @@ table {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  color: #393939;
-  text-transform: capitalize; }
+  color: #393939; }
 
 .heroHighlight {
   color: #ea1c49; }
@@ -224,27 +223,23 @@ table {
     font-size: 24px;
     font-weight: 500;
     color: #393939;
-    line-height: normal;
-    text-transform: capitalize; }
+    line-height: normal; }
   .headingLight {
     font-family: 'MavenPro-Regular';
     font-size: 24px;
     font-weight: normal;
-    color: #393939;
-    text-transform: capitalize; }
+    color: #393939; }
   .typography {
     font-size: 12px;
     font-family: 'MavenPro-Bold';
     font-weight: bold;
-    color: #393939;
-    text-transform: capitalize; }
+    color: #393939; }
   .csHeading {
     font-family: 'MavenPro-Bold';
     font-size: 16px;
     font-weight: 500;
     color: #393939;
-    line-height: normal;
-    text-transform: capitalize; }
+    line-height: normal; }
   .paragraph {
     font-family: 'PT_Sans-Regular';
     font-size: 12px;
@@ -1504,8 +1499,7 @@ ul.practiceli.paragraph {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
     font-family: "MavenPro-Bold";
-    color: #393939;
-    text-transform: capitalize; }
+    color: #393939; }
   .prct .contextTitle {
     font-family: "MavenPro-Medium";
     color: #393939; }
@@ -1525,8 +1519,7 @@ ul.practiceli.paragraph {
     z-index: 1; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
-      color: #393939;
-      text-transform: capitalize; }
+      color: #393939; }
     .prct_dic .bldContent {
       font-family: "MavenPro-Medium";
       color: #393939; }
@@ -2224,8 +2217,7 @@ li.lb_work_filterli:first-child {
     .homePage__BnrDiv__Inner__Content {
       padding: 25% 0 0 157px;
       width: 655px;
-      color: #393939;
-      text-transform: capitalize; }
+      color: #393939; }
       .homePage__BnrDiv__Inner__Content h1 {
         font-size: 48px;
         font-family: 'MavenPro-Medium'; }
@@ -2341,8 +2333,7 @@ li.lb_work_filterli:first-child {
       margin: 0px;
       font-size: 24px;
       font-family: 'MavenPro-Bold';
-      color: #393939;
-      text-transform: capitalize; }
+      color: #393939; }
     .homePage__dna__right p {
       margin-bottom: 32px;
       margin-top: 20px; }
@@ -2483,7 +2474,7 @@ li.lb_work_filterli:first-child {
     margin-top: 0px; }
   .lb-ourworks-dna {
     width: 700px;
-    margin: 170px auto 0 !important; } }
+    margin: 170px auto 0; } }
 
 @media screen and (max-width: 767px) {
   .homePage {
@@ -2661,6 +2652,8 @@ ul.lb_work_filter.lb_service_lg {
   padding-bottom: 50px; }
 
 @media screen and (min-width: 320px) {
+  li.lb_work_filterli:first-child {
+    margin-left: 0px !important; }
   .stepwizard {
     padding-top: 50px; }
   .step-mob-padder {
@@ -2689,7 +2682,9 @@ ul.lb_work_filter.lb_service_lg {
             transform: scale(0); }
   .step-content {
     margin-left: 40px;
-    opacity: 0; }
+    opacity: 0;
+    position: relative;
+    top: -20px; }
   .lb-explore {
     font-size: 16px;
     padding-top: 0px; }
@@ -2795,6 +2790,7 @@ ul.lb_work_filter.lb_service_lg {
   .step-content {
     width: 192px;
     height: 120px;
+    top: 50px;
     text-align: center;
     color: #5d6a6f;
     margin-top: 50px;
