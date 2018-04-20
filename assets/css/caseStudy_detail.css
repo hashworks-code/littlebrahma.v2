@@ -1799,7 +1799,7 @@ html, body {
 
 .back {
   background-repeat: no-repeat;
-  background-size: 100% 100%; }
+  background-size: contain; }
 
 .challange {
   width: 260px;
@@ -1829,7 +1829,7 @@ html, body {
   height: 414px;
   background-color: #022b3b;
   padding: 56px 0px 0px 0px;
-  margin-bottom: 140px; }
+  margin-bottom: 100px; }
   .branding__perceive__align {
     width: 260px;
     margin: 0 auto; }
@@ -1846,7 +1846,7 @@ html, body {
   .branding__perceive .percevieImage {
     width: 205px;
     height: 164px;
-    margin: 46px 0px 0px 25px; }
+    margin: 25px 0px 0px 25px; }
 
 .branding__adapt {
   height: 218px;
@@ -1874,12 +1874,9 @@ html, body {
 
 .branding__concept {
   width: 260px;
-  margin: 20px auto 32px; }
+  margin: 40px auto 32px; }
   .branding__concept h1 {
-    padding: 0px 0px 19px;
-    color: #5d6a6f; }
-  .branding__concept p {
-    color: #5d6a6f; }
+    padding: 0px 0px 19px; }
 
 .branding__logo {
   padding: 20px 35px 0px; }
@@ -1890,14 +1887,13 @@ html, body {
   width: 300px;
   margin: 0 auto; }
   .branding__meaning p {
-    padding: 12px 0px 40px;
-    color: #5d6a6f; }
+    padding: 16px 0px 40px; }
 
 .branding__enigmalogo img {
   padding: 0px 36px; }
 
 .branding__enigmalist {
-  padding: 50px 60px 24px 60px;
+  padding: 40px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist h2 {
@@ -1909,7 +1905,7 @@ html, body {
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 50px 60px 24px 60px;
+  padding: 40px 60px 24px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
@@ -2110,15 +2106,13 @@ html, body {
     .branding__concept h1 {
       padding: 64px 0px 17px; }
   .branding__logo {
-    padding: 60px 0px 60px;
-    width: 700px;
-    margin: 0 auto; }
+    padding: 0px 30px; }
   .branding__meaning {
     width: 700px;
     margin: 0 auto;
     padding: 0 50px 72px 0px; }
     .branding__meaning p {
-      padding: 14px 0px 0px;
+      padding: 24px 0px 0px;
       font-size: 12px; }
     .branding__meaning img {
       height: 140px; }
@@ -2201,7 +2195,7 @@ html, body {
     margin: 0 auto;
     padding: 0; }
     .branding__fontfamily h1 {
-      padding: 30px 0px 40px;
+      padding: 0px 0px 40px;
       text-align: left; }
   .branding__icons {
     width: 700px;
@@ -2228,6 +2222,8 @@ html, body {
     margin: 80px auto 120px; }
     .blob1 button {
       margin: 24px 0px 0px; }
+  .lb_bdy {
+    height: calc(100vh + 110px); }
   .blob2 {
     top: 113px;
     left: 120px; }
@@ -2286,10 +2282,10 @@ html, body {
     .branding__perceive h2 {
       padding: 28px 0px 23px; }
     .branding__perceive .percevieImage {
-      width: 401px;
-      height: 377px;
+      width: 375px;
+      height: 302px;
       right: -190px;
-      top: 81px; }
+      top: 112px; }
   .branding__enigmalogo img {
     padding: 0px 58px; }
   .branding__adapt {
@@ -2310,10 +2306,9 @@ html, body {
     width: 700px;
     margin: 0px 0px 80px 15px; }
     .branding__concept h1 {
-      padding: 96px 0px 24px; }
+      padding: 80px 0px 24px; }
   .branding__logo {
-    padding: 60px 0px 60px;
-    width: 965px; }
+    padding: 0px 45px; }
   .branding__meaning {
     padding: 0 145px 72px 0px;
     width: 965px; }
@@ -2469,7 +2464,7 @@ html, body {
     .branding__concept h1 {
       padding: 120px 0px 32px; }
   .branding__logo {
-    padding: 140px 0px 0px 0px;
+    padding: 0px;
     width: 1100px;
     margin: 0 auto; }
   .branding__meaning {
