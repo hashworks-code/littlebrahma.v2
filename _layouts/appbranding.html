@@ -10,7 +10,7 @@
                 <div class="heroText">
                     {{page.title}}
                 </div>
-                <h1 class="paragraph brand"> Branding for a talent aquisition portal </h1>
+                <h1 class="paragraph brand"> {{page.brandTitle}} </h1>
                 <button class="commonButton">View website</button>
             </div>
         </div>
@@ -44,21 +44,23 @@
            <div class="challange">
                <div class="engima engima1 ">
                   <h1 class="csHeading">{{page.challange}}</h1>
-                  <p class="paragraph">{{page.paragraph1}}</p>
-                  <p class="paragraph">{{page.paragraph2}} </p>
-                  <p class="paragraph"> {{page.paragraph3}}</p>
-                  <p class="paragraph">{{page.paragraph4}}</p>
+                  {% for paragraph in page.challangeList %}
+                  <p class="paragraph">{{paragraph.challangepara}}</p>
+                  {% endfor %}
+                
                </div>
-          </div>
+            </div>
 
           <div class="branding__perceive">
               <div class="branding__perceive__align" >
                   <h1 class="headingLight">{{page.perceiveTitle}}</h1>
                   <h2 class="csHeading">{{page.percevesubtitle}}</h2>
-                  <p class="paragraph">{{page.paragraph1}}</p>
-                   <p class="paragraph margin">{{page.paragraph2}}</p>
+                  {% for paragraph1 in page.perceiveList %}
+                  <p class="paragraph">{{paragraph1.perceivepara}}</p>
+                  {% endfor %}
+                   <!-- <p class="paragraph margin">{{page.paragraph2}}</p>
                    <p class="paragraph"> {{page.paragraph3}}</p>
-                   <p class="paragraph">{{page.paragraph4}}</p>
+                   <p class="paragraph">{{page.paragraph4}}</p> -->
                    <img class="percevieImage" src="/assets/img/branding/{{page.percieveImage}}" alt="">
                </div>
           </div>
@@ -79,7 +81,7 @@
                       <h1 class="headingLight">{{page.conceptTitle}}</h1>
                       <p class="paragraph">{{page.conceptparagraph}}</p> 
                 </div>
-
+<div class="conecptImage">
                 {% for images in page.background %}
                   {% if images.imageType == "mobile" %}
                  <div class="back mobileClass" style="background-image: url('{{images.image}}');">
@@ -103,19 +105,16 @@
                         </div>
                       {% endfor %}
                 </div>
-
+            </div>
             <div class="branding__logo">
                 <!-- <h2 class="csHeading">Final Logo</h2> -->
                 <img src="/assets/img/branding/{{page.finallogo}}" alt="final logo">
             </div>
 
             <div class="row branding__meaning">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12">
                     <h1 class="csHeading">{{page.meaningTitle}} </h1>
                     <p class="paragraph">{{page.meaningpara}}</p>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <img src="/assets/img/branding/{{page.meaningImage}}" alt="">
                 </div>
             </div>
 

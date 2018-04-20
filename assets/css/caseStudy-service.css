@@ -1802,7 +1802,7 @@ html, body {
 .engima {
   border-left: 5px solid #603d95;
   padding: 0px 0px 0px 23px;
-  margin: 20px 0px 40px; }
+  margin: 40px 0px 40px; }
   .engima .csHeading {
     padding-bottom: 13px; }
 
@@ -1858,11 +1858,13 @@ html, body {
   .branding__adapt p {
     color: rgba(255, 255, 255, 0.9); }
 
-.branding__concept1 {
-  padding: 0px 58px; }
-  .branding__concept1 .row {
-    width: 80%;
-    margin: 0 auto; }
+.branding__concept1 .row {
+  width: 100%;
+  margin: 0 auto; }
+
+.branding .conecptImage {
+  width: 300px;
+  margin: 0 auto; }
 
 .branding__concept {
   width: 260px;
@@ -1879,10 +1881,10 @@ html, body {
     padding-left: 32px; }
 
 .branding__meaning {
-  padding: 0px 60px;
-  margin: 0px auto 71px; }
+  width: 300px;
+  margin: 0 auto; }
   .branding__meaning p {
-    padding: 12px 0px 59px;
+    padding: 12px 0px 40px;
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
@@ -1930,12 +1932,12 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  padding: 50px 60px 24px 60px; }
+  padding: 0px 60px 24px 60px; }
   .branding__fontfamily img {
     width: 100%;
     height: 90%; }
   .branding__fontfamily h1 {
-    padding: 30px 0px 24px;
+    padding: 20px 0px 24px;
     text-align: left; }
 
 .branding__icons {
@@ -2089,7 +2091,10 @@ html, body {
     width: 700px;
     margin: 0 auto; }
     .branding__concept1 .row {
-      width: 92%; }
+      width: 100%; }
+  .branding .conecptImage {
+    width: 100%;
+    margin: 0 auto; }
   .branding .back {
     background-repeat: no-repeat;
     background-size: 99% 100%; }
@@ -2105,7 +2110,7 @@ html, body {
   .branding__meaning {
     width: 700px;
     margin: 0 auto;
-    padding: 0 0px 72px 0px; }
+    padding: 0 50px 72px 0px; }
     .branding__meaning p {
       padding: 14px 0px 0px;
       font-size: 12px; }
@@ -2304,7 +2309,7 @@ html, body {
     padding: 60px 0px 60px;
     width: 965px; }
   .branding__meaning {
-    padding: 0 0px 72px 0px;
+    padding: 0 145px 72px 0px;
     width: 965px; }
     .branding__meaning p {
       padding: 24px 0px 0px; }
@@ -2462,7 +2467,7 @@ html, body {
     width: 1100px;
     margin: 0 auto; }
   .branding__meaning {
-    padding: 0px 0px 120px 0px;
+    padding: 0px 180px 120px 0px;
     width: 1100px;
     margin: 0 auto; }
     .branding__meaning p {
@@ -3130,7 +3135,7 @@ html, body {
 .engima {
   border-left: 5px solid #603d95;
   padding: 0px 0px 0px 23px;
-  margin: 20px 0px 40px; }
+  margin: 40px 0px 40px; }
   .engima .csHeading {
     padding-bottom: 13px; }
 
@@ -3186,11 +3191,13 @@ html, body {
   .branding__adapt p {
     color: rgba(255, 255, 255, 0.9); }
 
-.branding__concept1 {
-  padding: 0px 58px; }
-  .branding__concept1 .row {
-    width: 80%;
-    margin: 0 auto; }
+.branding__concept1 .row {
+  width: 100%;
+  margin: 0 auto; }
+
+.branding .conecptImage {
+  width: 300px;
+  margin: 0 auto; }
 
 .branding__concept {
   width: 260px;
@@ -3207,10 +3214,10 @@ html, body {
     padding-left: 32px; }
 
 .branding__meaning {
-  padding: 0px 60px;
-  margin: 0px auto 71px; }
+  width: 300px;
+  margin: 0 auto; }
   .branding__meaning p {
-    padding: 12px 0px 59px;
+    padding: 12px 0px 40px;
     color: #5d6a6f; }
 
 .branding__enigmalogo img {
@@ -3258,12 +3265,12 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  padding: 50px 60px 24px 60px; }
+  padding: 0px 60px 24px 60px; }
   .branding__fontfamily img {
     width: 100%;
     height: 90%; }
   .branding__fontfamily h1 {
-    padding: 30px 0px 24px;
+    padding: 20px 0px 24px;
     text-align: left; }
 
 .branding__icons {
@@ -3417,7 +3424,10 @@ html, body {
     width: 700px;
     margin: 0 auto; }
     .branding__concept1 .row {
-      width: 92%; }
+      width: 100%; }
+  .branding .conecptImage {
+    width: 100%;
+    margin: 0 auto; }
   .branding .back {
     background-repeat: no-repeat;
     background-size: 99% 100%; }
@@ -3433,7 +3443,7 @@ html, body {
   .branding__meaning {
     width: 700px;
     margin: 0 auto;
-    padding: 0 0px 72px 0px; }
+    padding: 0 50px 72px 0px; }
     .branding__meaning p {
       padding: 14px 0px 0px;
       font-size: 12px; }
@@ -3632,7 +3642,7 @@ html, body {
     padding: 60px 0px 60px;
     width: 965px; }
   .branding__meaning {
-    padding: 0 0px 72px 0px;
+    padding: 0 145px 72px 0px;
     width: 965px; }
     .branding__meaning p {
       padding: 24px 0px 0px; }
@@ -3790,7 +3800,7 @@ html, body {
     width: 1100px;
     margin: 0 auto; }
   .branding__meaning {
-    padding: 0px 0px 120px 0px;
+    padding: 0px 180px 120px 0px;
     width: 1100px;
     margin: 0 auto; }
     .branding__meaning p {

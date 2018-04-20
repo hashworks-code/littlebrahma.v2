@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" d="M0 0h540v180H0z"/>
-        <text fill="#5D6A6F" font-family="GothamRounded-Book, Gotham Rounded" font-size="20" font-weight="300">
-            <tspan x="0" y="16">Fusce vehicula dolor arcu, sit amet blandit dolor </tspan> <tspan x="0" y="45">mollis nec. Donec viverra eleifend lacus, vitae </tspan> <tspan x="0" y="74">ullamcorper metus. Sed sollicitudin ipsum quis nunc </tspan> <tspan x="0" y="103">sollicitudin ultrices. Donec euismod scelerisque ligula. </tspan> <tspan x="0" y="132">Maecenas eu varius risus, eu aliquet arcu. Curabitur </tspan> <tspan x="0" y="161">fermentum suscipit est, tincidunt mattis lorem luctus </tspan> <tspan x="0" y="190">id. Donec eget massa a diam condimentum pretium. </tspan> <tspan x="0" y="219">Aliquam erat volutpat. Integer ut tincidunt orci. Etiam </tspan> <tspan x="0" y="248">tristique, elit ut consectetur iaculis, metus lectus </tspan> <tspan x="0" y="277">mattis justo, vel mollis eros neque quis augue. Sed </tspan> <tspan x="0" y="306">lobortis ultrices lacus, a placerat metus rutrum sit </tspan> <tspan x="0" y="335">amet. Aenean ut suscipit justo.</tspan>
-        </text>
-    </g>
-</svg>

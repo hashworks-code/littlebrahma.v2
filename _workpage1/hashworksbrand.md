@@ -32,14 +32,6 @@ brandImage2: "hash2.jpg"
 brandImage3: "hash3.png"
 brandImage4: "hash4.jpg"
 
-perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
-paragraph1: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
-paragraph2: "- Brand voice that customer wants to convey"
-paragraph3: " - Design strategy for the marketing"
-paragraph4: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "hashpercieve.jpg"
-
 bannerBrand: "hashBrand.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
@@ -51,11 +43,20 @@ conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
 
 challange: "Challenge"
-paragraph1: "- Design a brand identity for Hashworks"
-paragraph2: "- Should focus on the domains Hashworks is functioning"
-paragraph3: "- A logo that captures the brand values"
-paragraph4: "- Establish a visual language that resonates the organizations purpose"
+challangeList:
+  - challangepara: "- Design a brand identity for Hashworks"
+  - challangepara: "- Should focus on the domains Hashworks is functioning"
+  - challangepara: "- A logo that captures the brand values"
+  - challangepara: "- Establish a visual language that resonates the organizations purpose"
 
+perceiveTitle: "Perceive"
+percevesubtitle: "Understanding the DevOps"
+perceiveList: 
+ - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is                      offering to the tech community. With this insights we were able to come up with"
+ - perceivepara: "- Brand voice that customer wants to convey"
+ - perceivepara: " - Design strategy for the marketing"
+ - perceivepara: "- Concept designs of the artifacts which connects with tech community"
+percieveImage: "percieve.jpg"
 
 conceptImage1: "hashconcept1.png"
 conceptImage2: "hashconcept2.png"
@@ -87,8 +88,8 @@ colorPaletter_list:
   
 
 fontfamily1: "Typography"
-font: "hashfont.svg"
-font1: "hashcontent.svg"
+font: "hashfont.png"
+font1: "hashcontent.png"
 iconsection: iconsectionnone
 # icons: 'Icons'
 # icon_list:

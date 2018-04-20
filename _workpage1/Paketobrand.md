@@ -32,15 +32,6 @@ brandImage1: "paketo1.jpg"
 brandImage2: "paketo2.jpg"
 brandImage3: "paketo3.jpg"
 brandImage4: "paketo4.jpg"
-
-perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
-paragraph1: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
-paragraph2: "- Brand voice that customer wants to convey"
-paragraph3: " - Design strategy for the marketing"
-paragraph4: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "paketopercieve.jpg"
-
 bannerBrand: "paketobanner.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
@@ -48,13 +39,21 @@ adaptTitle: "Adapt"
 adaptSubTitle: "Designing for technology"
 adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
 
-
 challange: "Challenge"
-paragraph1: "- Design a brand identity for Hashworks"
-paragraph2: "- Should focus on the domains Hashworks is functioning"
-paragraph3: "- A logo that captures the brand values"
-paragraph4: "- Establish a visual language that resonates the organizations purpose"
+challangeList:
+  - challangepara: "- Design a brand identity for Hashworks"
+  - challangepara: "- Should focus on the domains Hashworks is functioning"
+  - challangepara: "- A logo that captures the brand values"
+  - challangepara: "- Establish a visual language that resonates the organizations purpose"
 
+perceiveTitle: "Perceive"
+percevesubtitle: "Understanding the DevOps"
+perceiveList: 
+ - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is                      offering to the tech community. With this insights we were able to come up with"
+ - perceivepara: "- Brand voice that customer wants to convey"
+ - perceivepara: " - Design strategy for the marketing"
+ - perceivepara: "- Concept designs of the artifacts which connects with tech community"
+percieveImage: "percieve.jpg"
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
@@ -88,8 +87,8 @@ colorPaletter_list:
   - paletter: "paketoColor3.svg"
   
 fontfamily1: "Typography"
-font: "paketofont.svg"
-font1: "paketocontent.svg"
+font: "paketofont.png"
+font1: "paketocontent.png"
 iconsection: iconsectionnone
 # icons: 'Icons'
 # icon_list:
