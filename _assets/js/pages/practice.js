@@ -7,6 +7,7 @@ $(window).resize(function(){
 $(document).ready(function() {  
     if(screen.width > 1024){
        newFunction();
+       debugger;
     }
     $('.prctSec_tab').click(function(){
       $(this).addClass('prctSec_active');
