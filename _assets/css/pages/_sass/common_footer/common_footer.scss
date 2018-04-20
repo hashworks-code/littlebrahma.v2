@@ -47,6 +47,8 @@
    
     &__div2{
       text-align: right;
+      position: relative;
+      z-index: 9999
     }
   }
 }
