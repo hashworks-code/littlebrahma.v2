@@ -1516,6 +1516,7 @@ ul.practiceli.paragraph {
     display: none; }
   .prct_dic {
     padding: 45px 35px;
+    padding-top: 0px;
     z-index: 1; }
     .prct_dic .title {
       font-family: "MavenPro-Bold";
@@ -1599,6 +1600,8 @@ ul.practiceli.paragraph {
             transform: rotate(210deg); } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .diverse {
+    padding-top: 80px; }
   .lgCon {
     margin-top: 30px; }
   .knowmore {
@@ -1655,6 +1658,8 @@ ul.practiceli.paragraph {
     margin: 32px 29px 0; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .diverse-content {
+    padding-top: 48px; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1732,6 +1737,8 @@ ul.practiceli.paragraph {
     margin: 50px 29px 0; } }
 
 @media screen and (min-width: 1025px) {
+  .diverse-content {
+    padding-top: 105px; }
   .knowmore {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2750,6 +2757,7 @@ ul.lb_work_filter.lb_service_lg {
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
+    height: 120px;
     padding: 14px 0px 0px 0px; }
     .stepwizard-step.active::after {
       background: red;
