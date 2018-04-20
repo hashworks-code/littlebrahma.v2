@@ -420,7 +420,8 @@ textarea:hover, textarea:focus {
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
-    font-size: 48px; }
+    font-size: 48px;
+    line-height: 55px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }

@@ -34,7 +34,7 @@ brandImage4: "4.jpg"
 
 perceiveTitle: "Perceive"
 percevesubtitle: "Understanding the DevOps"
-paragraph1: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
+paragraph1: "Regular conversations with the customer helped us understand the lanuage that hashworks wants to establish in the community. We came up with"
 paragraph2: "- Brand voice that customer wants to convey"
 paragraph3: " - Design strategy for the marketing"
 paragraph4: "- Concept designs of the artifacts which connects with tech community"

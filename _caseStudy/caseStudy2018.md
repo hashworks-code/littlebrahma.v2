@@ -27,7 +27,7 @@ cImgg9: "g8-img"
 
 cImgg10: "g6-img"
 
-cBanner1: "The year of inception :"
+cBanner1: "The year of inception:"
 
 cBanner2: "2018"
 
@@ -69,11 +69,11 @@ cContent5: " India is famous for the street food. The sights of people thronging
 
 cHead6: "Celebration of the indian culture:"
 
-cContent6: "Indian culture symbolizes family, tradition colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
+cContent6: "Indian culture symbolizes family, traditional colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
 
 cHead7: "Comical way of awareness:"
 
-cContent7: " Our goal was to send out a social message of preserving  out culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
+cContent7: " Our goal was to send out a social message of preserving  our culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
 
 cImg4: "bitmap-copy"
 
