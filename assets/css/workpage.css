@@ -1834,7 +1834,7 @@ html, body {
     to {
       left: 0%; } }
     .prct .rContent {
-      height: calc(100vh - 80px); }
+      height: calc(120vh - 80px); }
     .prct .posAbs {
       position: absolute;
       bottom: 0 !important;
