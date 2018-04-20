@@ -402,6 +402,35 @@ textarea:hover, textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .lb_bdy {
+    height: 1020px; }
+  .backgroundImage {
+    background-color: #42a1fa; }
+  .backgroundenigma {
+    background-color: #fddd4e; }
+  .backgroundgroome {
+    background-color: #030303; }
+  .backgroundhash {
+    background-color: #eeeced; }
+  .backEnigma {
+    background-color: #f6fef9; }
+  .backMyb {
+    background-color: #fff7de; }
+  .backXpe {
+    background-color: #bd193b; }
+  .backGaft {
+    background-color: #ffe72a; }
+  .backGov {
+    background-color: #010b1a; }
+  .backOpm {
+    background-color: #05749e; }
+  .calender2017 {
+    background-color: #000203; }
+  .calender2018 {
+    background-color: #009edf; }
+  .hero_img {
+    background-size: 1400px 100%;
+    height: 710px; }
   .headingBold {
     font-size: 40px; }
   .headingLight {
@@ -499,7 +528,7 @@ html, body {
   top: 0;
   left: 0;
   background: white;
-  height: 50px;
+  height: 63px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1546,7 +1575,8 @@ ul.practiceli.paragraph {
         -ms-flex-pack: center;
             justify-content: center; }
   .prct .hero_img {
-    background-image: url(/assets/img/practice/03_Practice.gif); }
+    background-image: url(/assets/img/practice/03_Practice.gif);
+    background-color: #e9faff; }
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
@@ -1898,7 +1928,7 @@ ul.practiceli.paragraph {
     to {
       left: 0%; } }
     .prct .rContent {
-      height: calc(100vh - 80px); }
+      height: calc(120vh - 80px); }
     .prct .posAbs {
       position: absolute;
       bottom: 0 !important;
@@ -1984,7 +2014,8 @@ ul.practiceli.paragraph {
   font-size: 40px; }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/002_work.gif) !important; }
+  background-image: url(/assets/img/workpage/002_work.gif) !important;
+  background-color: #fffade; }
 
 #lb_btn1 {
   display: none; }

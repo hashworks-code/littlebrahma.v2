@@ -45,6 +45,7 @@ ul.practiceli.paragraph {
     .hero{
         &_img{
             background-image: url(/assets/img/practice/03_Practice.gif);
+            background-color:  #e9faff;
         }
     }
     &_rnImg{
@@ -516,7 +517,7 @@ left:55%;
         }
         
         .rContent{
-            height:calc(100vh - 80px);
+            height:calc(120vh - 80px);
         }
         // .strategy_container{
         //     height:100vh;

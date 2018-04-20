@@ -11,6 +11,7 @@ variation_image4: "/assets/img/caseStudy/bitmap.png"
 variation_image5: "/assets/img/caseStudy/group-3.png"
 variation_image6: "/assets/img/caseStudy/group-11.png"
 
+backgroundColor: calender2018
 cImgg1: "groupn1"
 cImgg2: "groupn2"
 cImgg3: "groupn3"
