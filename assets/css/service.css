@@ -1190,6 +1190,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 469px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1210,6 +1211,8 @@ html, body {
       font-size: 40px; }
       .footer__inner a {
         font-size: 20px; }
+    .footer .vertical-line {
+      position: relative; }
     .footer__bottom {
       bottom: 16px;
       display: -webkit-box;
@@ -1228,6 +1231,26 @@ html, body {
       z-index: 99999999; }
       .footer__bottom div {
         font-size: 16px; }
+        .footer__bottom div .logo-footer {
+          width: 40px;
+          height: 40px;
+          top: 5px;
+          position: relative; }
+        .footer__bottom div p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px; }
+        .footer__bottom div span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 40px;
+          top: 5px;
+          height: 48px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
@@ -1246,6 +1269,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 396px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1287,6 +1311,26 @@ html, body {
       z-index: 99999999; }
       .footer__bottom div {
         font-size: 12px; }
+        .footer__bottom div .logo-footer {
+          width: 30px;
+          height: 30px;
+          top: 4px;
+          position: relative; }
+        .footer__bottom div span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 69px;
+          top: 52px;
+          height: 38px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px; }
+        .footer__bottom div p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
@@ -1305,6 +1349,7 @@ html, body {
     .footer__image {
       position: absolute;
       bottom: 0px;
+      top: 235px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -1343,9 +1388,19 @@ html, body {
         .footer__bottom div img {
           width: 8px;
           height: 8px; }
+        .footer__bottom div span {
+          display: none; }
+        .footer__bottom div p {
+          position: relative;
+          top: 0;
+          left: 0; }
         .footer__bottom div .behance {
           width: 10px;
           height: 10px; }
+        .footer__bottom div .logo-footer {
+          width: 24px;
+          height: 24px;
+          display: none; }
     .footer .socialLogo {
       font-size: 8px;
       bottom: 14px;
@@ -1364,6 +1419,7 @@ html, body {
     position: relative; }
     .footer__image {
       position: absolute;
+      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1417,7 +1473,8 @@ html, body {
   .footer {
     height: 800px; }
     .footer__image {
-      bottom: 0px; }
+      bottom: 0px;
+      top: 630px; }
     .footer__img {
       width: 1260px;
       right: 10%;
@@ -1525,7 +1582,7 @@ ul.practiceli.paragraph {
             justify-content: center; }
   .prct .hero_img {
     background-image: url(/assets/img/practice/03_Practice.gif);
-    background-color: #e9fbff; }
+    background-color: #e9faff; }
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle, .prct .contextTitle {
@@ -1877,7 +1934,7 @@ ul.practiceli.paragraph {
     to {
       left: 0%; } }
     .prct .rContent {
-      height: calc(100vh - 80px); }
+      height: calc(120vh - 80px); }
     .prct .posAbs {
       position: absolute;
       bottom: 0 !important;
@@ -1963,7 +2020,7 @@ ul.practiceli.paragraph {
   font-size: 40px; }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/002_work.gif) !important;
+  background-image: url(/assets/img/workpage/002_work.gif);
   background-color: #fffade; }
 
 #lb_btn1 {
@@ -2608,6 +2665,10 @@ li.lb_work_filterli:first-child {
     margin: 431px auto 0; }
   .lb_work_filterli {
     text-align: center; } }
+
+.prct .hero_img {
+  background-image: url(/assets/img/practice/new-service-gif.gif);
+  background-color: #f9e2e9; }
 
 .circle-animation {
   -webkit-transform: scale(1.3) !important;
