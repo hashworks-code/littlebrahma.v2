@@ -3793,7 +3793,6 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 103px 317px 0 317px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -3931,9 +3930,13 @@ html, body {
 .padding-cls {
   padding-bottom: 20px; }
 
+@media screen and (min-width: 1365px) {
+  margin-top: 0px; }
+
 @media screen and (max-width: 1365px) {
   .CSservice {
-    margin: 96px 180px; }
+    margin: 96px 180px;
+    margin-top: 0px; }
     .CSservice__box {
       width: 185px;
       margin: 15px;
@@ -4093,9 +4096,9 @@ html, body {
     width: 100%;
     padding: 0 31px; }
   .CSservice__box1 {
-    width: 163px;
+    width: 145px;
     padding: 20px 20px;
-    margin-left: -82px;
+    margin-left: -67px;
     left: 50%;
     top: 87%; }
   .CSService2 {
