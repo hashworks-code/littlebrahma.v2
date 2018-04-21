@@ -140,6 +140,7 @@ full_image:
 cat: Service Design
 product_title: Mapping the order-flow management
 product_title1: Order Profile Management
+current: Service Design
 product_description: Branding / Visual identity / Application / Website
 banner_image: "/assets/img/caseStudy/OPM.jpg"
 textcolor: text-white

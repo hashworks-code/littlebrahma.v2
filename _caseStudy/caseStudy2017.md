@@ -98,5 +98,7 @@ product_description: Visual identity
 banner_image: "/assets/img/caseStudy/123-copy-8.png"
 textcolor: text-white
 url: "ServiceDesign1"
+current : Branding & Comm.
+
 
 ---

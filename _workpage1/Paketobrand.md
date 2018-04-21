@@ -9,6 +9,7 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
+current : Branding & Comm.
 brandTitle: "Branding for DevOps automation tool"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.png"
