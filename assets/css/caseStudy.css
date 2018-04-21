@@ -1247,7 +1247,7 @@ html, body {
           display: block;
           position: absolute;
           z-index: 1;
-          left: 38px;
+          left: 40px;
           top: 5px;
           height: 48px;
           bottom: 0;
@@ -1485,7 +1485,9 @@ html, body {
       top: 128px;
       left: 17%; }
     .footer__bottom {
-      padding: 115px 15% 37px 15%; } }
+      padding: 115px 15% 37px 15%; }
+      .footer__bottom div span {
+        left: 38px !important; } }
 
 @media screen and (min-width: 2000px) {
   .footer__img {

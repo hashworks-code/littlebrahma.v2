@@ -113,7 +113,7 @@ z-index: 99999999;
       display: block;
       position: absolute;
       z-index: 1;
-      left: 38px;
+      left: 40px;
       top: 5px;
       height: 48px;
       bottom: 0;
@@ -392,6 +392,12 @@ img{
   }
   &__bottom{
     padding: 115px 15% 37px 15%;
+    div{
+      span{
+        left:38px !important;
+      }
+    }
+    
   }
 }
   }

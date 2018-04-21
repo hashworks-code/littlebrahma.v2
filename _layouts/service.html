@@ -7,8 +7,8 @@
                 <div class="hero_img"></div>
                 <div class="hero_cnt">
                     <div class="heroText">
-                        {{page.subtitle}}
-                        {% if page.subtitle != "Branding & Communication"%}
+                        {{page.subtitle}} <span style="color:red">{{page.extra}}</span>
+                        {% if page.subtitle != "Branding &"%}
                             <span class="heroHighlight">Design</span>
                             {% endif %}
 
