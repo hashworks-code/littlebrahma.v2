@@ -186,9 +186,9 @@
         }
         .SceneImg{
             img{
-                height: 73%;
-                width: 37%;
-                right: 0;
+                height: 263px;
+                width: 366px;
+                right: 0px;
                 top: 16%;
             }
         }
@@ -218,10 +218,10 @@
         }
         .SceneImg2{
             img{
-                width: 35%;
-                height: 65%;
+                width: 426px;
+                height: 276px;
                 top: 17%;
-                right: 13%;
+                right: 10%;
             }
         }
         &__eImg{
@@ -250,6 +250,7 @@
         }
         &__cHead{
             margin-bottom: 11px;
+            padding-right: 70px;
         }
         &__cImg{
             margin: 0 65px;
@@ -268,8 +269,8 @@
             }
             .SceneImg{
                 img{
-                    height: 77%;
-                    width: 35%;
+                    height: 208px;
+                    width: 310px;
                     top: 12%;
                 }
             }  
@@ -297,11 +298,14 @@
             &__content4{
                 width: 57%;
                 padding-right: 40px;
+                p{
+                    padding-right: 68px;
+                }
             }
             .SceneImg2{
                 img{
-                    width: 32%;
-                    height: 60%;
+                    width: 340px;
+                    height: 208px;
                     top: 24%;
                     right: 12%;
                 
@@ -363,9 +367,9 @@
                 margin-bottom: 230px;
                 img{
                     min-height: 174px;
-                    width: 306px;
+                    width: 310px;
                     top: 75%;
-                    height: 262px;
+                    height: 208px;
                     margin-left: -156px;
                     left: 50%;
                 }
@@ -394,8 +398,8 @@
 
                 background-size: 100% 100%;
                 margin-top: 64px;
-                margin-bottom: 55px;
-                min-height: 430px;
+                margin-bottom: 2px;
+                min-height: 166px;
                 align-items: flex-start;
             }
             &__content4{
@@ -404,10 +408,11 @@
             }
             .SceneImg2{
                 img{
-                    width: 85%;
-                    height: 50%;
-                    top: 58%;
-                    right: 7%;
+                    width: 340px;
+                    height: 208px;
+                    margin: 0 auto;
+                    display: flex;
+                    position: static;
                 }
             }
             &__eImg{
