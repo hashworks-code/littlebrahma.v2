@@ -168,6 +168,7 @@ full_image:
 cat: Service Design
 product_title: Identifying the root cause for code break
 product_title1: Enigma
+current: Product Design
 product_description:  Application / Website
 # product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/enigma.jpg"

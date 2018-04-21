@@ -286,6 +286,8 @@ table {
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
+    .bnrText span {
+      color: red; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -1687,7 +1689,9 @@ ul.practiceli.paragraph {
     -webkit-transform: rotate(210deg);
             transform: rotate(210deg); }
   .lb_work_filter {
-    display: none; } }
+    display: none; }
+  .step-head {
+    display: block !important; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .diverse {
@@ -2973,7 +2977,7 @@ ul.lb_work_filter.lb_service_lg {
             transform: scale(0); }
   .stepwizard {
     width: 100%;
-    height: 310px;
+    height: 315px;
     padding-top: 0px; }
   .step-content {
     width: 192px;
