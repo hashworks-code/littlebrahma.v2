@@ -55,7 +55,7 @@ perceiveList:
  - perceivepara: "- Brand voice that customer wants to convey"
  - perceivepara: " - Design strategy for the marketing"
  - perceivepara: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve1.png"
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."

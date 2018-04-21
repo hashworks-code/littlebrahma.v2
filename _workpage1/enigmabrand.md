@@ -53,7 +53,7 @@ perceiveList:
  - perceivepara: "- Brand voice that business owners wants to convey"
  - perceivepara: " - Design strategy for marketing"
  - perceivepara: "- Concept designs for the artifacts"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve4.png"
 
 bannerBrand: "banner-2.jpg"
 

@@ -56,7 +56,7 @@ perceiveList:
  - perceivepara: "- Understand the customer’s vision for the brand"
  - perceivepara: " - Brand voice for telling the story"
  - perceivepara: "- Design the storytelling strategy"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve3.png"
 
 
 
