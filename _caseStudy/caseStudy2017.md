@@ -61,11 +61,11 @@ cContent5: "Little brahma as a brand takes inspiration from the creative storyte
 in our culture and heritage from time immemorial. This can be seen in the architecture and artifacts left behind by our ancestors and forefathers for eons.  As Brahma is the god of creation, we took inspiration from this to create 
 the little brahma calendar."
 
-cHead6: "Brahma and art:"
+cHead6: "Brahma and art"
 
 cContent6: " We narrated different stories of lord Brahma in the calendar pages. To bring these stories to life in the current era and add relevance to it, we interplayed it with subtle humor on the illustration while still keeping the stories close to the original."
 
-cHead7: "Representation of facts:"
+cHead7: "Representation of facts"
 
 cContent7: " We captured the eminent stories of Brahma with clear facts. We showcased origin stories of Brahma which many have not heard off. Visually, we used new world elements to showcase old world facts in the illustrations. Usage of desk with mirrors an example of the neo-modern approach of our visual narration of facts."
 
