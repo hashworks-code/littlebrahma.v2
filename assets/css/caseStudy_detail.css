@@ -2064,7 +2064,7 @@ html, body {
       margin: 0;
       position: absolute;
       right: -141px;
-      top: 87px; }
+      top: 75px; }
   .branding__adapt {
     margin-top: 64px;
     background-size: cover;
@@ -2271,7 +2271,7 @@ html, body {
       width: 375px;
       height: 302px;
       right: -190px;
-      top: 112px; }
+      top: 78px; }
   .branding__enigmalogo img {
     padding: 0px 69px 0px 64px; }
   .branding__adapt {
@@ -2397,7 +2397,7 @@ html, body {
     margin: 0 auto 120px; }
     .branding__perceive__align {
       width: 870px;
-      padding: 110px 39px 110px 0px; }
+      padding: 110px 175px 110px 0px; }
     .branding__perceive h1 {
       font-size: 48px; }
     .branding__perceive h2 {
@@ -2407,8 +2407,8 @@ html, body {
     .branding__perceive .percevieImage {
       width: 350px;
       height: 280px;
-      right: -270px;
-      top: 155px; }
+      right: -178px;
+      top: 124px; }
   .branding__enigmalogo {
     width: 100%;
     margin: 0 auto; }

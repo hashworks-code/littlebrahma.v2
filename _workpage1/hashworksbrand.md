@@ -58,7 +58,7 @@ perceiveList:
  - perceivepara: "- Brand voice which the customer wants to convey"
  - perceivepara: " - Design the marketing & visual strategy"
  - perceivepara: "- Design the storytelling strategy"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve2.png"
 
 conceptImage1: "hashconcept1.png"
 conceptImage2: "hashconcept2.png"
