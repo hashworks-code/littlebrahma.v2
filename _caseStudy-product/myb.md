@@ -162,10 +162,12 @@ full_image:
 cat: Service Design
 product_title: Evaluating the shopping experience
 product_title1: Mystery Box
+current: Product Design
 product_description: Application
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/MYB.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

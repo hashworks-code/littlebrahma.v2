@@ -728,10 +728,10 @@ Primary style
     }
   }
   .lb-mobile{
-    display: none !important;
+    display: block !important;
   }
   .lb-desktop{
-    display: block !important;
+    display: none !important;
   }
 }
 

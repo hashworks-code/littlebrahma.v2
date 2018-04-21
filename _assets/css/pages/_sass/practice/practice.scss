@@ -185,8 +185,12 @@ ul.practiceli.paragraph {
     .lb_work_filter{
         display:none;
     }
+    .step-head{
+        display:block !important;
+    }
 }
 @media screen and (min-width:320px) and (max-width:767px){
+   
     .diverse{
         padding-top:80px;
     }

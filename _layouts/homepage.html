@@ -75,9 +75,9 @@
                                 <button class="dropdown-toggle dropdownbtn" id="menu1" type="button" data-toggle="dropdown" aria-expanded="false"><span class="option">Product Design</span>
                                 <span class="caret caretcss"></span></button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                  <li class="lb_work_filterli lb_work_filterActive" id="filterli-1" data="filterli-1" data-id="Product Design" role="presentation">Product Design</li>
-                                  <li role="presentation" class="lb_work_filterli" data-id="Service Design" data="filterli-2" id="filterli-2">Service Design</li>
-                                  <li role="presentation" class="lb_work_filterli" data-id="Branding & Communication" data="filterli-3" id="filterli-3">Branding & Comm.</li> 
+                                  <li class="lb_work_filterli lb_work_filterActive data-loc" id="filterli-1" data="filterli-1" data-id="Product Design" role="presentation">Product Design</li>
+                                  <li role="presentation" class="lb_work_filterli data-loc" data-id="Service Design" data="filterli-2" id="filterli-2">Service Design</li>
+                                  <li role="presentation" class="lb_work_filterli data-loc" data-id="Branding & Communication" data="filterli-3" id="filterli-3">Branding & Comm.</li> 
                                 </ul>
                               </div>
                 </div>
@@ -90,7 +90,7 @@
                        {% for work in item %}
                       
                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                        <a href="{{work.url}}"> 
+                        <a   data-loc="{{work.current}}" href="{{work.url}}" class="data-loc"> 
                         <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                    <div class="lb-filter-head {{work.textcolor}}">
@@ -111,8 +111,8 @@
                 {% assign item = site.caseStudy-service %}
                 {% for work in item %}
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                    <a href="{{work.url}}">    
-                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+                    <a  data-loc="{{work.current}}"  href="{{work.url}}"  class="data-loc">    
+                    <div   class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                         <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                             <div class="lb-filter-head {{work.textcolor}}">
                                 {{work.product_title}}
@@ -131,7 +131,7 @@
                     {% for work in item %}
                     
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                            <a href="{{work.url}}">
+                            <a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
                                 <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head {{work.textcolor}}">
@@ -149,7 +149,7 @@
                     {% assign item = site.workpage1 %}
                     {% for work in item %}
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                        <a href="{{work.url}}">
+                        <a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
                             <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                 <div class="lb-filter-head {{work.textcolor}}">

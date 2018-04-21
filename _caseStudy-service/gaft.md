@@ -147,9 +147,11 @@ cat: Service Design
 product_title: Fraud detection tool for E-commerce platform
 product_title1: Global Anti-Fraud Detection Tool
 product_description: Application
+current: Service Design
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/GAFT.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

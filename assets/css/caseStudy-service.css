@@ -286,6 +286,8 @@ table {
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
+    .bnrText span {
+      color: red; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -1048,9 +1050,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -3848,6 +3850,12 @@ html, body {
     width: 100%;
     height: 100%; }
 
+.CSservice11 {
+  margin: 0 215px; }
+  .CSservice11 img {
+    width: 100%;
+    height: 100%; }
+
 .caseStudy__bgImg2 {
   margin: 120px 0;
   min-height: 100%;
@@ -3969,6 +3977,8 @@ html, body {
       padding: 0; }
   .CSservice1 {
     margin: 0 124px; }
+  .CSservice11 {
+    margin: 0 124px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
     padding: 50px 0; }
@@ -4028,6 +4038,8 @@ html, body {
   .caseStudy__content1 {
     margin: 80px 95px 80px 95px; }
   .CSservice1 {
+    margin: 0 95px; }
+  .CSservice11 {
     margin: 0 95px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
@@ -4095,10 +4107,16 @@ html, body {
       width: 138px;
       margin: 14px auto;
       padding: 10px; }
+  .CSservice11 img {
+    width: auto; }
   .caseStudy__content1 {
     margin: 57px 32px; }
   .CSservice1 {
-    margin: 0 32px; }
+    margin: 0 32px;
+    text-align: center; }
+  .CSservice11 {
+    margin: 0 32px;
+    text-align: center; }
   .caseStudy__bgImg2 {
     min-height: 100%;
     margin: 80px 0 150px;

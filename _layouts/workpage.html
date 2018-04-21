@@ -80,7 +80,7 @@
 										{% for work in item %}
 									   
 										<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-										 <a href="{{work.url}}"> 
+										 <a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc"> 
 										 <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 												<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 													<div class="lb-filter-head {{work.textcolor}}">
@@ -101,7 +101,7 @@
 								{% assign item = site.caseStudy-service %}
 								{% for work in item %}
 								<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-									<a href="{{work.url}}">    
+									<a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">    
 									<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 										<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 											<div class="lb-filter-head {{work.textcolor}}">
@@ -121,7 +121,7 @@
 									{% for work in item %}
 									
 									<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-											<a href="{{work.url}}">
+											<a  data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
 												<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 												<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 													<div class="lb-filter-head {{work.textcolor}}">
@@ -138,7 +138,7 @@
 									{% assign item = site.workpage1 %}
 									{% for work in item %}
 									<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-										<a href="{{work.url}}">
+										<a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
 											<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 											<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 												<div class="lb-filter-head {{work.textcolor}}">
@@ -160,7 +160,7 @@
 											{% for work in item %}
 										   
 											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-											 <a href="{{work.url}}"> 
+											 <a  data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc"> 
 											 <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 													<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 														<div class="lb-filter-head {{work.textcolor}}">
@@ -177,7 +177,7 @@
 											  {% assign item = site.caseStudy-service %}
 											  {% for work in item %}
 											  <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-												  <a href="{{work.url}}">    
+												  <a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">    
 												  <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 													  <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 														  <div class="lb-filter-head {{work.textcolor}}">
@@ -196,7 +196,7 @@
 											{% for work in item %}
 											
 											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-													<a href="{{work.url}}">
+													<a  data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
 														<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 														<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 															<div class="lb-filter-head {{work.textcolor}}">
@@ -213,7 +213,7 @@
 											{% assign item = site.workpage1 %}
 											{% for work in item %}
 											<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service alldata {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-												<a href="{{work.url}}">
+												<a data-loc="{{work.current}}" href="{{work.url}}"  class="data-loc">
 													<div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
 													<!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
 														<div class="lb-filter-head {{work.textcolor}}">

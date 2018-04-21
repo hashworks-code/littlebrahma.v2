@@ -8,6 +8,7 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
+current : Branding & Comm.
 brandTitle: "Branding for Machine Intelligence powered HR solution application"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"   

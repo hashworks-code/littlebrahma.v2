@@ -11,6 +11,7 @@ url: "ServiceDesign1"
 title: Enigma Branding
 brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-black
+current : Branding & Comm.
 enigma_banner: "/assets/img/branding/enigma.png"
 backgroundColor: backgroundenigma
 

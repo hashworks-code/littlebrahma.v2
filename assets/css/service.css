@@ -286,6 +286,8 @@ table {
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
+    .bnrText span {
+      color: red; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -1048,9 +1050,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1687,7 +1689,9 @@ ul.practiceli.paragraph {
     -webkit-transform: rotate(210deg);
             transform: rotate(210deg); }
   .lb_work_filter {
-    display: none; } }
+    display: none; }
+  .step-head {
+    display: block !important; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .diverse {
@@ -2219,7 +2223,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     height: 194px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1); }
   .lb-filter-service {
     padding-bottom: 24px; } }
 
@@ -2233,7 +2239,9 @@ div.test {
     display: block; }
   .lb-filter-Img {
     padding-left: 15px;
-    height: 255px; }
+    height: 255px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -2271,7 +2279,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 32px; } }
 
@@ -2294,7 +2304,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 48px; } }
 
@@ -2965,7 +2977,7 @@ ul.lb_work_filter.lb_service_lg {
             transform: scale(0); }
   .stepwizard {
     width: 100%;
-    height: 310px;
+    height: 315px;
     padding-top: 0px; }
   .step-content {
     width: 192px;

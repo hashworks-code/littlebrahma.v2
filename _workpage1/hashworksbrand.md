@@ -9,6 +9,7 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy-3.png"
 url: "ServiceDesign1"
 title: Hashworks Branding
+current : Branding & Comm.
 brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-black
 enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
