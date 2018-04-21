@@ -557,7 +557,8 @@ margin: 0 auto;
 }
 .back{
 background-repeat: no-repeat;
-background-size: 99% 100%;
+background-size: 100% 100%;
+padding: 0px 30px 0px 4px;
 }
 &__concept{
 width: 607px;
@@ -588,7 +589,7 @@ img{
 width: 100%;
 margin: 0 auto;
 img{
-    padding: 0px 40px;
+    padding: 0px 53px 0px 42px;
    } 
 }
 .enigmabackground{
@@ -672,10 +673,6 @@ h1{
 width: 700px;
 padding: 0px 0px 40px;
 text-align: left;
-.threeIcon{
-    width: 465px;
-    padding-bottom: 20px;
-}
 
 .row{
     justify-content: space-between;
@@ -685,7 +682,7 @@ h2{
 }
 img{
 padding-top: 30px;
- width: 70px;
+ width: 100%;
 }
 .textalign{
     text-align: left;
@@ -702,6 +699,9 @@ padding-top: 30px;
     button{
         margin: 24px 0px 0px;
     }
+}
+.back {
+    padding: 0px 44px 0px 8px;
 }
 
 .blob2{
@@ -799,7 +799,7 @@ height: 342px;
 &__enigmalogo{
   
     img {
-        padding: 0px 58px;
+        padding: 0px 69px 0px 64px;
     }
 }
 &__adapt{
@@ -894,9 +894,7 @@ h2{
         width: 630px;
         padding-bottom:50px;
     }
-    img{
-     width: 90px;
-    }
+ 
 }
 }
 }
@@ -1035,7 +1033,7 @@ height: 400px;
     width: 1100px;
     margin: 0 auto;
     .row{
-        width: 86%;
+        width: 100%;
     }
 }
 .back{
@@ -1118,14 +1116,7 @@ height: 400px;
 &__icons{
     padding: 0px 0px 70px 0px;
     margin: 0 auto;
-    width: 1100px;
-    .threeIcon{
-        width: 716px;
-        padding-bottom: 101px;
-    }
-    img{
-     width:75%;
-    }
+    width: 1100px;   
 }
 }
 }
