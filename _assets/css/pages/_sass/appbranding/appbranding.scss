@@ -209,13 +209,13 @@ img{
 }
 }
 &__perceive{
-height: 414px;
-background-color: #022b3b;
-padding: 56px 0px 0px 0px;
-margin-bottom: 100px;
+    background-color: #022b3b;
+    padding: 56px 0px 100px 0px;
+    margin-bottom: 155px;
 &__align{
     width: 260px;
     margin: 0 auto;
+    position: relative;
 }
 h2{
     color: rgba(255, 255, 255, 0.9);
@@ -232,19 +232,20 @@ p{
     padding-top: 18px;
 }
 .percevieImage{
-width: 205px;
-height: 164px;
-margin: 25px 0px 0px 25px;
+    width: 205px;
+    position: absolute;
+    height: 164px;
+    margin: 50px 0px 0px 25px;
 }
 }
 
 &__adapt{
-height: 218px;
 background-repeat: no-repeat;
 
 &__align{
     width: 260px;
-    margin: 20px auto;
+    margin: 20px auto 0px;
+    padding: 32px 0px;
 }
 h2{
     color: rgba(255, 255, 255, 0.9);
@@ -253,7 +254,6 @@ h2{
 h1{
     color: #33c2f8;
     font-size: 32px;
-    padding-top: 32px;
 }
 p{
     color: rgba(255, 255, 255, 0.9);
@@ -298,7 +298,7 @@ img {
 }
 }
 &__enigmalist{
-padding: 40px 60px 24px 60px;
+padding: 40px 32px 24px 32px;
 margin: 0 auto;
 text-align: center;
 h2{
@@ -312,7 +312,7 @@ img{
 }
 }
 &__enigmalist1{
-padding: 40px 60px 24px 60px;
+padding: 40px 32px 24px 32px;
 margin: 0 auto;
 text-align: center;
 h2{
@@ -320,20 +320,18 @@ h2{
     text-align: left;
 }
 img{
-    padding: 30px 10px;
-    width: 116px;
-    height: 145px;
+    padding: 30px 0px;
+    width: 60%;
+    height: 100%;
 }
 }
 &__evolve{
-height: 316px;
-background-repeat: no-repeat;
-padding: 40px 0px 36px;
-background-size: cover;
-&__align{
-width: 258px;
-margin: 0 auto;
-}
+    background-repeat: no-repeat;
+    &__align{
+        width: 260px;
+        margin: 20px auto 0px;
+        padding: 32px 0px;
+    }
 h2{
 color: rgba(255, 255, 255, 0.9);
 padding: 20px 0px 18px;
@@ -348,10 +346,14 @@ color: rgba(255, 255, 255, 0.9);
 }
 
 &__fontfamily{
-padding: 0px 60px 24px 60px;
-img{
+padding: 0px 60px 40px 60px;
+
+.font1{
     width: 100%;
-    height: 90%;
+    height: 100%;
+}
+.font2{
+    height: 105px;
 }
 h1{
     padding: 20px 0px 24px;
@@ -359,7 +361,7 @@ h1{
 }
 }
 &__icons{
-padding: 23px 60px 25px 60px;
+padding: 0px 60px 25px 60px;
 margin: 0 auto;
 text-align: center;
 img{
@@ -488,7 +490,6 @@ img{
 }
 &__perceive{
 width: 87%;
-height: 390px;
 position: relative;
 padding: 0;
 margin: 0px 0px 64px;
@@ -499,8 +500,8 @@ margin: 0px 0px 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 390px;
-    padding-right: 140px;
+    padding:72px 140px 72px 0px;
+    position: static;
 }
 h2{
     padding: 16px 0px 17px;
@@ -518,7 +519,6 @@ top: 87px;
 }
 }
 &__adapt{
-height: 270px;
 margin-top: 64px;
 background-size: cover;
 margin-right: 34px;
@@ -530,8 +530,7 @@ margin-right: 34px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height:270px;
-    padding-right: 140px;
+    padding: 80px 140px 80px 0px;
 }
 h2{
     padding: 16px 0px 12px;
@@ -617,13 +616,13 @@ padding: 60px 0px;
 justify-content: center;
 }
 img{
-    height: 162px;
-    width: 137px;
     padding: 0;
-    margin-top: 40px;    
+    margin:0px;   
+    width: 70%; 
+    height: 175px;
 }
 h2{
-    padding-bottom: 0px;
+    padding-bottom: 40px;
     text-align: left;
 }
 }
@@ -631,21 +630,17 @@ h2{
 padding-bottom: 50px;
 }
 &__evolve{
-margin-right: 34px;
-height: 270px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-background-size: cover;
+    background-size: cover;
+    margin-right: 34px;
+    
     &__align{
-        width: 650px;
-        margin: 0 auto;
-        padding-right: 30px;
+        width:640px;
+        margin:0 auto;
+        padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 270px;
-        padding-right: 190px;
+        padding: 80px 140px 80px 0px;
     }
 h2{
 padding: 10px 0px 10px;
@@ -655,15 +650,23 @@ padding: 10px 0px 10px;
 &__fontfamily{
 width: 700px;
 margin: 0 auto;
-padding: 0;
+padding-bottom: 60px;
 h1{
     padding: 0px 0px 40px;
     text-align: left;
 }
+.font1{
+    width: 445px;
+    height: 204px;
 }
+.font2{
+    height: 115px;
+}
+}
+
 &__icons{
 width: 700px;
-padding: 70px 0px 40px;
+padding: 0px 0px 40px;
 text-align: left;
 .threeIcon{
     width: 465px;
@@ -696,9 +699,7 @@ padding-top: 30px;
         margin: 24px 0px 0px;
     }
 }
-.lb_bdy {
-    height: calc(100vh + 110px);
-}
+
 .blob2{
     top: 113px;
     left: 120px;
@@ -772,14 +773,11 @@ height: 342px;
     }
 }
 &__perceive{
-    height:533px;
     margin: 0px 0px 96px;
    
-
     &__align{
         width: 782px;
-        height: 533px;
-        padding-right: 170px;
+        padding: 107px 170px 107px 0px;
     }
     h1{
         font-size: 40px;
@@ -801,14 +799,12 @@ height: 342px;
     }
 }
 &__adapt{
-   height:362px;
     margin-top: 96px;
     margin-right: 42px;
    
     &__align{
         width: 922px;
-        padding: 0 340px 0px 0px;
-        height: 362px;
+        padding: 87px 405px 87px 0px;
     }
     h2{
         padding: 28px 0px 18px;
@@ -853,22 +849,23 @@ height: 342px;
     }
 }
 &__enigmalist1{
-    padding: 70px 0px 70px;
+    padding: 80px 0px 70px;
     width: 965px;
+    h2{
+        padding-bottom: 55px;
+    }
     img{
-        height:125px;
-        width: 100%;
-        margin-top: 80px;
+        width: 75%;
     }
 }
 &__evolve{
-    margin-right: 44px;
-    height:355px;
-    padding: 0px;
+    margin-top: 96px;
+    margin-right: 42px;
+   
     &__align{
-        width: 870px;
-        height: 355px;
-        padding-right: 280px;
+        width: 922px;
+        padding: 87px 363px 87px 0px;
+    
     }
 h2{
     padding: 20px 0px 20px;
@@ -877,13 +874,17 @@ h2{
 
 &__fontfamily{
     width: 965px;
+    padding-bottom: 80px
     h1{
         padding: 30px 0px 50px;
+    }
+    .font2{
+        height: 145px;
     }
 
 }
 &__icons{
-    padding: 103px 0px 70px;
+    padding: 0px 0px 70px;
     width: 965px;
     .threeIcon{
         width: 630px;
@@ -894,11 +895,8 @@ h2{
     }
 }
 }
-
 }
-
 @media screen and (min-width:1367px){
-
 .blob1{
     width: 465px;
     margin: 120px auto 120px;
@@ -959,7 +957,7 @@ height: 400px;
 }
 .engima{
     padding: 0px 0px 0px 57px;
-    margin: 100px 0px 126px;
+    margin: 0px 0px 126px;
     .csHeading{
         padding-bottom:32px;
     }
@@ -984,13 +982,11 @@ height: 400px;
 }
 &__perceive{
     width: 1100px;
-    height: 614px;
     margin: 0 auto 120px;
 
     &__align{
         width: 870px;
-        height: 613px;
-        padding: 0px 39px 0px 0px;
+        padding: 110px 39px 110px 0px;
     }
     h1{
         font-size: 48px;
@@ -1016,14 +1012,12 @@ height: 400px;
     }
 }
 &__adapt{
-    height:446px;
     margin: 120px auto 0px;
     width: 1100px;
     background-size: 100% 100%;
     &__align{
         width: 870px;
-        padding: 0 160px 0px 0px;
-        height: 446px;
+        padding: 96px 160px 96px 0px;
     }
     h2{
         padding: 28px 0px 30px;
@@ -1085,23 +1079,18 @@ height: 400px;
 &__enigmalist1{
     padding: 100px 0px 100px;
     width: 1100px;
-    img{
-        height: 175px;
-    }
 }
 .colorPalette {
     padding-bottom: 65px;
 }
 &__evolve{
     margin-right: 0;
-    height: 458px;
     width: 1100px;
     margin: 0 auto;
     background-size: 100% 100%;
     &__align{
-        height:458px;
         width: 870px;
-        padding: 0 160px 0px 0px;
+        padding: 96px 160px 96px 0px;
     }
 
 }
@@ -1110,12 +1099,21 @@ height: 400px;
     padding: 0;
     width: 1100px;
     margin: 0 auto;
+    padding-bottom: 120px;
     h1{
         padding: 30px 0px 60px;
     }
+    .font2{
+        width: 100%;
+        height: 100%;
+    }
+    .font1{
+        width: 100%;
+        height: 100%;
+    }
 }
 &__icons{
-    padding: 160px 0px 70px 0px;
+    padding: 0px 0px 70px 0px;
     margin: 0 auto;
     width: 1100px;
     .threeIcon{
@@ -1123,7 +1121,7 @@ height: 400px;
         padding-bottom: 101px;
     }
     img{
-     width:130px;
+     width:75%;
     }
 }
 }

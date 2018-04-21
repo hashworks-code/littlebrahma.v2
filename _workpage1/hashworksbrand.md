@@ -66,7 +66,7 @@ conceptImage4: "hashconcept4.png"
 
 finallogo: "hashlogo1.svg"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
 meaningImage: "hashMean.svg"
 enigmalogo: "hashbreak.svg"
@@ -82,10 +82,10 @@ evolveparagraph: " With the newly created logo we showcased the applications, pu
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "hashcolor1.svg"
-  - paletter: "hashcolor2.svg"
-  - paletter: "hashcolor3.svg"
-  - paletter: "hashcolor4.svg"
+  - paletter: "hashcolor1.png"
+  - paletter: "hashcolor2.png"
+  - paletter: "hashcolor3.png"
+  - paletter: "hashcolor4.png"
   
 
 fontfamily1: "Typography"

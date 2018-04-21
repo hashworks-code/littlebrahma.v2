@@ -66,7 +66,7 @@ conceptImage4: "paktoconcept4.png"
 
 finallogo: "paketo.svg"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
 meaningImage: "paketomean.svg"
 enigmalogo: "paketobreak.svg"
@@ -83,9 +83,9 @@ evolveparagraph: " With the newly created logo we showcased the applications, pu
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "paketoColor1.svg"
-  - paletter: "paketoColor2.svg"
-  - paletter: "paketoColor3.svg"
+  - paletter: "paketoColor1.png"
+  - paletter: "paketoColor2.png"
+  - paletter: "paketoColor3.png"
   
 fontfamily1: "Typography"
 font: "paketofont.png"

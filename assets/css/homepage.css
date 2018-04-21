@@ -352,7 +352,7 @@ textarea:hover, textarea:focus {
     padding: 32px 0px;
     margin-top: -80px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .headingBold {
     font-size: 32px; }
   .headingLight {
@@ -380,7 +380,7 @@ textarea:hover, textarea:focus {
   .ptSans {
     font-size: 20px; }
   .lb_bdy {
-    height: calc(100vh + 160px); }
+    height: calc(100vh + 140px); }
   .heroText {
     font-size: 40px; }
   .bnrText {
@@ -403,7 +403,7 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1020px; }
+    height: 1024px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -1830,7 +1830,7 @@ ul.practiceli.paragraph {
   .philSec {
     margin: 50px 29px 0; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .diverse-content {
     padding-top: 105px; }
   .knowmore {
