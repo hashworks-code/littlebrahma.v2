@@ -202,9 +202,9 @@
         }
         .SceneImg1{
             img{
-                width: 35%;
-                height: 65%;
-                top: 19%;
+                width: 428px;
+                height: 285px;
+                top: 16%;
                 left: 13%;
             }
         }
@@ -285,11 +285,15 @@
             }
             .SceneImg1{
                 img{
-                    width: 32%;
+                    min-width: 284px;
                     top: 22%;
-                    left: 11%;
-                    height: 60%;
+                    left: 12%;
+                    height: 202px;
+                    max-width: 300px;
                 }
+            }
+            .cal2018{
+                padding-left: 45px;
             }
             &__bgImg2{
                 margin-top: 64px;
@@ -364,7 +368,7 @@
                 padding: 30px;
             }
             .SceneImg{
-                margin-bottom: 230px;
+                margin-bottom: 180px;
                 img{
                     min-height: 174px;
                     width: 310px;
@@ -376,22 +380,27 @@
             }  
             &__bgImg1{
                 margin-top: 35px;
-                min-height: 460px;
                 background-size: 100% 100%;
-                align-items: flex-end;
+                min-height: 300px;
             }
             &__content3{
                 width: 100%;
+                padding: 0;
+                // position: relative;
+                // top: -42px;
+            }
+            .cal2018{
                 padding: 30px;
-                position: relative;
-                top: -42px;
             }
             .SceneImg1{
                 img{
-                    width: 82%;
-                    top: 26px;
-                    left: 9%;
-                    height: 40%;
+                    width: 262px;
+                top: 26px;
+                left: 9%;
+                height: 162px;
+                display: flex;
+                margin: 30px auto 0px;
+                position: static;
                 }
             }
             &__bgImg2{
@@ -408,7 +417,7 @@
             }
             .SceneImg2{
                 img{
-                    width: 340px;
+                    width: 310px;
                     height: 208px;
                     margin: 0 auto;
                     display: flex;

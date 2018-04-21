@@ -2654,9 +2654,9 @@ html, body {
   .caseStudy__content3 {
     width: 45%; }
   .caseStudy .SceneImg1 img {
-    width: 35%;
-    height: 65%;
-    top: 19%;
+    width: 428px;
+    height: 285px;
+    top: 16%;
     left: 13%; }
   .caseStudy__bgImg2 {
     margin-top: 96px;
@@ -2708,10 +2708,13 @@ html, body {
     width: 53%;
     padding-right: 40px; }
   .caseStudy .SceneImg1 img {
-    width: 32%;
+    min-width: 284px;
     top: 22%;
-    left: 11%;
-    height: 60%; }
+    left: 12%;
+    height: 202px;
+    max-width: 300px; }
+  .caseStudy .cal2018 {
+    padding-left: 45px; }
   .caseStudy__bgImg2 {
     margin-top: 64px;
     min-height: 344px; }
@@ -2766,7 +2769,7 @@ html, body {
     width: 100%;
     padding: 30px; }
   .caseStudy .SceneImg {
-    margin-bottom: 230px; }
+    margin-bottom: 180px; }
     .caseStudy .SceneImg img {
       min-height: 174px;
       width: 310px;
@@ -2776,21 +2779,23 @@ html, body {
       left: 50%; }
   .caseStudy__bgImg1 {
     margin-top: 35px;
-    min-height: 460px;
     background-size: 100% 100%;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end; }
+    min-height: 300px; }
   .caseStudy__content3 {
     width: 100%;
-    padding: 30px;
-    position: relative;
-    top: -42px; }
+    padding: 0; }
+  .caseStudy .cal2018 {
+    padding: 30px; }
   .caseStudy .SceneImg1 img {
-    width: 82%;
+    width: 262px;
     top: 26px;
     left: 9%;
-    height: 40%; }
+    height: 162px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px auto 0px;
+    position: static; }
   .caseStudy__bgImg2 {
     background-size: 100% 100%;
     margin-top: 64px;
@@ -2803,7 +2808,7 @@ html, body {
     width: 100%;
     padding: 31px; }
   .caseStudy .SceneImg2 img {
-    width: 340px;
+    width: 310px;
     height: 208px;
     margin: 0 auto;
     display: -webkit-box;
