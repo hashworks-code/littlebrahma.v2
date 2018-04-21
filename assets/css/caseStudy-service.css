@@ -1917,8 +1917,7 @@ html, body {
     text-align: left; }
   .branding__enigmalist1 img {
     padding: 30px 0px;
-    width: 60%;
-    height: 100%; }
+    width: 60%; }
 
 .branding__evolve {
   background-repeat: no-repeat; }
@@ -2150,8 +2149,7 @@ html, body {
     .branding__enigmalist1 img {
       padding: 0;
       margin: 0px;
-      width: 70%;
-      height: 175px; }
+      width: 70%; }
     .branding__enigmalist1 h2 {
       padding-bottom: 40px;
       text-align: left; }
@@ -2180,10 +2178,12 @@ html, body {
   .branding__fontfamily {
     width: 700px;
     margin: 0 auto;
-    padding-bottom: 60px; }
+    padding: 0px 0px 40px 0px; }
     .branding__fontfamily h1 {
       padding: 0px 0px 40px;
       text-align: left; }
+    .branding__fontfamily .font2 {
+      padding-left: 40px; }
   .branding__icons {
     width: 700px;
     padding: 0px 0px 40px;
@@ -2481,6 +2481,8 @@ html, body {
     padding-bottom: 120px; }
     .branding__fontfamily h1 {
       padding: 30px 0px 60px; }
+    .branding__fontfamily .font2 {
+      padding-left: 40px; }
   .branding__icons {
     padding: 0px 0px 70px 0px;
     margin: 0 auto;
@@ -3215,8 +3217,7 @@ html, body {
     text-align: left; }
   .branding__enigmalist1 img {
     padding: 30px 0px;
-    width: 60%;
-    height: 100%; }
+    width: 60%; }
 
 .branding__evolve {
   background-repeat: no-repeat; }
@@ -3448,8 +3449,7 @@ html, body {
     .branding__enigmalist1 img {
       padding: 0;
       margin: 0px;
-      width: 70%;
-      height: 175px; }
+      width: 70%; }
     .branding__enigmalist1 h2 {
       padding-bottom: 40px;
       text-align: left; }
@@ -3478,10 +3478,12 @@ html, body {
   .branding__fontfamily {
     width: 700px;
     margin: 0 auto;
-    padding-bottom: 60px; }
+    padding: 0px 0px 40px 0px; }
     .branding__fontfamily h1 {
       padding: 0px 0px 40px;
       text-align: left; }
+    .branding__fontfamily .font2 {
+      padding-left: 40px; }
   .branding__icons {
     width: 700px;
     padding: 0px 0px 40px;
@@ -3779,6 +3781,8 @@ html, body {
     padding-bottom: 120px; }
     .branding__fontfamily h1 {
       padding: 30px 0px 60px; }
+    .branding__fontfamily .font2 {
+      padding-left: 40px; }
   .branding__icons {
     padding: 0px 0px 70px 0px;
     margin: 0 auto;
