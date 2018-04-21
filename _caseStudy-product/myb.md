@@ -167,5 +167,6 @@ product_description: Application
 banner_image: "/assets/img/caseStudy/MYB.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

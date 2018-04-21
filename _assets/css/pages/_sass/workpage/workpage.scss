@@ -482,6 +482,7 @@ button.lb_btn:focus {
     .lb-filter-Img {
         height: 194px;
         padding-left:15px;
+        box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
     }
     .lb-filter-service{
         padding-bottom: 24px;
@@ -501,6 +502,7 @@ button.lb_btn:focus {
     .lb-filter-Img {
         padding-left:15px;
         height: 255px;
+        box-shadow:none;
     }
     .lb_work_filter li{
         font-size: 16px;
@@ -556,6 +558,7 @@ button.lb_btn:focus {
     .lb-filter-Img {
         padding-left:30px;
         height: 340px;
+        box-shadow:none;
     }
     .lb-filter-service{
         padding-bottom: 32px;
@@ -590,6 +593,7 @@ button.lb_btn:focus {
     .lb-filter-Img {
         padding-left:30px;
         height: 340px;
+        box-shadow:none;
     }
     .lb-filter-service{
         padding-bottom: 48px;

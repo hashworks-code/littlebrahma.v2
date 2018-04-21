@@ -1048,9 +1048,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -2219,7 +2219,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     height: 194px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1); }
   .lb-filter-service {
     padding-bottom: 24px; } }
 
@@ -2233,7 +2235,9 @@ div.test {
     display: block; }
   .lb-filter-Img {
     padding-left: 15px;
-    height: 255px; }
+    height: 255px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -2271,7 +2275,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 32px; } }
 
@@ -2294,7 +2300,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 48px; } }
 
