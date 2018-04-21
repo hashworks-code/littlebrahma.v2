@@ -354,7 +354,7 @@ textarea:hover, textarea:focus {
     padding: 32px 0px;
     margin-top: -80px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .headingBold {
     font-size: 32px; }
   .headingLight {
@@ -382,7 +382,7 @@ textarea:hover, textarea:focus {
   .ptSans {
     font-size: 20px; }
   .lb_bdy {
-    height: calc(100vh + 160px); }
+    height: calc(100vh + 140px); }
   .heroText {
     font-size: 40px; }
   .bnrText {
@@ -405,7 +405,7 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1020px; }
+    height: 1024px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -1050,9 +1050,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1834,7 +1834,7 @@ ul.practiceli.paragraph {
   .philSec {
     margin: 50px 29px 0; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .diverse-content {
     padding-top: 105px; }
   .knowmore {
@@ -2223,7 +2223,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     height: 194px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    -webkit-box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1); }
   .lb-filter-service {
     padding-bottom: 24px; } }
 
@@ -2237,7 +2239,9 @@ div.test {
     display: block; }
   .lb-filter-Img {
     padding-left: 15px;
-    height: 255px; }
+    height: 255px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -2275,7 +2279,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 32px; } }
 
@@ -2298,7 +2304,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 48px; } }
 

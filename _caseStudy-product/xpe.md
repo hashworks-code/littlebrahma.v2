@@ -89,7 +89,7 @@ SImg5: "xpe-data-02"
 
 SImg10: "xpe-images-06"
 SImg11: "style-guid"
-SImg12: "xps-screen-collage"
+SImg12: "XPE_Img"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
@@ -163,5 +163,6 @@ current: Product Design
 banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

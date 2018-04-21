@@ -354,7 +354,7 @@ textarea:hover, textarea:focus {
     padding: 32px 0px;
     margin-top: -80px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .headingBold {
     font-size: 32px; }
   .headingLight {
@@ -382,7 +382,7 @@ textarea:hover, textarea:focus {
   .ptSans {
     font-size: 20px; }
   .lb_bdy {
-    height: calc(100vh + 160px); }
+    height: calc(100vh + 140px); }
   .heroText {
     font-size: 40px; }
   .bnrText {
@@ -405,7 +405,7 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1020px; }
+    height: 1024px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -1050,9 +1050,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1828,13 +1828,13 @@ html, body {
   padding-bottom: 20px; }
 
 .branding__perceive {
-  height: 414px;
   background-color: #022b3b;
-  padding: 56px 0px 0px 0px;
-  margin-bottom: 100px; }
+  padding: 56px 0px 100px 0px;
+  margin-bottom: 155px; }
   .branding__perceive__align {
     width: 260px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
   .branding__perceive h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 24px 0px 18px; }
@@ -1847,22 +1847,22 @@ html, body {
     padding-top: 18px; }
   .branding__perceive .percevieImage {
     width: 205px;
+    position: absolute;
     height: 164px;
-    margin: 25px 0px 0px 25px; }
+    margin: 50px 0px 0px 25px; }
 
 .branding__adapt {
-  height: 218px;
   background-repeat: no-repeat; }
   .branding__adapt__align {
     width: 260px;
-    margin: 20px auto; }
+    margin: 20px auto 0px;
+    padding: 32px 0px; }
   .branding__adapt h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 16px 0px 12px; }
   .branding__adapt h1 {
     color: #33c2f8;
-    font-size: 32px;
-    padding-top: 32px; }
+    font-size: 32px; }
   .branding__adapt p {
     color: rgba(255, 255, 255, 0.9); }
 
@@ -1895,7 +1895,7 @@ html, body {
   padding: 0px 36px; }
 
 .branding__enigmalist {
-  padding: 40px 60px 24px 60px;
+  padding: 40px 32px 24px 32px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist h2 {
@@ -1907,25 +1907,23 @@ html, body {
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 40px 60px 24px 60px;
+  padding: 40px 32px 24px 32px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
     padding-bottom: 10px;
     text-align: left; }
   .branding__enigmalist1 img {
-    padding: 30px 10px;
-    width: 116px;
-    height: 145px; }
+    padding: 30px 0px;
+    width: 60%;
+    height: 100%; }
 
 .branding__evolve {
-  height: 316px;
-  background-repeat: no-repeat;
-  padding: 40px 0px 36px;
-  background-size: cover; }
+  background-repeat: no-repeat; }
   .branding__evolve__align {
-    width: 258px;
-    margin: 0 auto; }
+    width: 260px;
+    margin: 20px auto 0px;
+    padding: 32px 0px; }
   .branding__evolve h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 20px 0px 18px; }
@@ -1936,16 +1934,16 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  padding: 0px 60px 24px 60px; }
+  padding: 0px 60px 40px 60px; }
   .branding__fontfamily img {
     width: 100%;
-    height: 90%; }
+    height: 100%; }
   .branding__fontfamily h1 {
     padding: 20px 0px 24px;
     text-align: left; }
 
 .branding__icons {
-  padding: 23px 60px 25px 60px;
+  padding: 0px 60px 25px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__icons img {
@@ -2035,7 +2033,6 @@ html, body {
     padding-bottom: 18px; }
   .branding__perceive {
     width: 87%;
-    height: 390px;
     position: relative;
     padding: 0;
     margin: 0px 0px 64px; }
@@ -2052,8 +2049,8 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 390px;
-      padding-right: 140px; }
+      padding: 72px 140px 72px 0px;
+      position: static; }
     .branding__perceive h2 {
       padding: 16px 0px 17px; }
     .branding__perceive .margin {
@@ -2066,7 +2063,6 @@ html, body {
       right: -141px;
       top: 87px; }
   .branding__adapt {
-    height: 270px;
     margin-top: 64px;
     background-size: cover;
     margin-right: 34px; }
@@ -2084,8 +2080,7 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px;
-      padding-right: 140px; }
+      padding: 80px 140px 80px 0px; }
     .branding__adapt h2 {
       padding: 16px 0px 12px; }
     .branding__adapt h1 {
@@ -2151,33 +2146,22 @@ html, body {
           -ms-flex-pack: center;
               justify-content: center; }
     .branding__enigmalist1 img {
-      height: 162px;
-      width: 137px;
       padding: 0;
-      margin-top: 40px; }
+      margin: 0px;
+      width: 70%;
+      height: 175px; }
     .branding__enigmalist1 h2 {
-      padding-bottom: 0px;
+      padding-bottom: 40px;
       text-align: left; }
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
-    margin-right: 34px;
-    height: 270px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-size: cover; }
+    background-size: cover;
+    margin-right: 34px; }
     .branding__evolve__align {
-      width: 650px;
+      width: 640px;
       margin: 0 auto;
-      padding-right: 30px;
+      padding: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -2188,20 +2172,19 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px;
-      padding-right: 190px; }
+      padding: 80px 140px 80px 0px; }
     .branding__evolve h2 {
       padding: 10px 0px 10px; }
   .branding__fontfamily {
     width: 700px;
     margin: 0 auto;
-    padding: 0; }
+    padding-bottom: 60px; }
     .branding__fontfamily h1 {
       padding: 0px 0px 40px;
       text-align: left; }
   .branding__icons {
     width: 700px;
-    padding: 70px 0px 40px;
+    padding: 0px 0px 40px;
     text-align: left; }
     .branding__icons .threeIcon {
       width: 465px;
@@ -2224,8 +2207,6 @@ html, body {
     margin: 80px auto 120px; }
     .blob1 button {
       margin: 24px 0px 0px; }
-  .lb_bdy {
-    height: calc(100vh + 110px); }
   .blob2 {
     top: 113px;
     left: 120px; }
@@ -2273,12 +2254,10 @@ html, body {
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
-    height: 533px;
     margin: 0px 0px 96px; }
     .branding__perceive__align {
       width: 782px;
-      height: 533px;
-      padding-right: 170px; }
+      padding: 107px 170px 107px 0px; }
     .branding__perceive h1 {
       font-size: 40px; }
     .branding__perceive h2 {
@@ -2291,13 +2270,11 @@ html, body {
   .branding__enigmalogo img {
     padding: 0px 58px; }
   .branding__adapt {
-    height: 362px;
     margin-top: 96px;
     margin-right: 42px; }
     .branding__adapt__align {
       width: 922px;
-      padding: 0 340px 0px 0px;
-      height: 362px; }
+      padding: 87px 405px 87px 0px; }
     .branding__adapt h2 {
       padding: 28px 0px 18px; }
     .branding__adapt h1 {
@@ -2328,28 +2305,26 @@ html, body {
       width: 100%;
       margin-top: 80px; }
   .branding__enigmalist1 {
-    padding: 70px 0px 70px;
+    padding: 80px 0px 70px;
     width: 965px; }
+    .branding__enigmalist1 h2 {
+      padding-bottom: 55px; }
     .branding__enigmalist1 img {
-      height: 125px;
-      width: 100%;
-      margin-top: 80px; }
+      width: 75%; }
   .branding__evolve {
-    margin-right: 44px;
-    height: 355px;
-    padding: 0px; }
+    margin-top: 96px;
+    margin-right: 42px; }
     .branding__evolve__align {
-      width: 870px;
-      height: 355px;
-      padding-right: 280px; }
+      width: 922px;
+      padding: 87px 363px 87px 0px; }
     .branding__evolve h2 {
       padding: 20px 0px 20px; }
   .branding__fontfamily {
-    width: 965px; }
-    .branding__fontfamily h1 {
-      padding: 30px 0px 50px; }
+    width: 965px;
+    padding-bottom: 80px h1;
+      padding-bottom-padding: 30px 0px 50px; }
   .branding__icons {
-    padding: 103px 0px 70px;
+    padding: 0px 0px 70px;
     width: 965px; }
     .branding__icons .threeIcon {
       width: 630px;
@@ -2402,7 +2377,7 @@ html, body {
     width: 1000px; }
   .engima {
     padding: 0px 0px 0px 57px;
-    margin: 100px 0px 126px; }
+    margin: 0px 0px 126px; }
     .engima .csHeading {
       padding-bottom: 32px; }
   .engima1 {
@@ -2416,12 +2391,10 @@ html, body {
     padding-bottom: 26px; }
   .branding__perceive {
     width: 1100px;
-    height: 614px;
     margin: 0 auto 120px; }
     .branding__perceive__align {
       width: 870px;
-      height: 613px;
-      padding: 0px 39px 0px 0px; }
+      padding: 110px 39px 110px 0px; }
     .branding__perceive h1 {
       font-size: 48px; }
     .branding__perceive h2 {
@@ -2439,14 +2412,12 @@ html, body {
     .branding__enigmalogo img {
       padding: 0px 65px; }
   .branding__adapt {
-    height: 446px;
     margin: 120px auto 0px;
     width: 1100px;
     background-size: 100% 100%; }
     .branding__adapt__align {
       width: 870px;
-      padding: 0 160px 0px 0px;
-      height: 446px; }
+      padding: 96px 160px 96px 0px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
     .branding__adapt h1 {
@@ -2491,35 +2462,32 @@ html, body {
   .branding__enigmalist1 {
     padding: 100px 0px 100px;
     width: 1100px; }
-    .branding__enigmalist1 img {
-      height: 175px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
     margin-right: 0;
-    height: 458px;
     width: 1100px;
     margin: 0 auto;
     background-size: 100% 100%; }
     .branding__evolve__align {
-      height: 458px;
       width: 870px;
-      padding: 0 160px 0px 0px; }
+      padding: 96px 160px 96px 0px; }
   .branding__fontfamily {
     padding: 0;
     width: 1100px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 120px; }
     .branding__fontfamily h1 {
       padding: 30px 0px 60px; }
   .branding__icons {
-    padding: 160px 0px 70px 0px;
+    padding: 0px 0px 70px 0px;
     margin: 0 auto;
     width: 1100px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }
     .branding__icons img {
-      width: 130px; } }
+      width: 75%; } }
 
 .caseStudy {
   max-width: 1440px;
@@ -3158,13 +3126,13 @@ html, body {
   padding-bottom: 20px; }
 
 .branding__perceive {
-  height: 414px;
   background-color: #022b3b;
-  padding: 56px 0px 0px 0px;
-  margin-bottom: 100px; }
+  padding: 56px 0px 100px 0px;
+  margin-bottom: 155px; }
   .branding__perceive__align {
     width: 260px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
   .branding__perceive h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 24px 0px 18px; }
@@ -3177,22 +3145,22 @@ html, body {
     padding-top: 18px; }
   .branding__perceive .percevieImage {
     width: 205px;
+    position: absolute;
     height: 164px;
-    margin: 25px 0px 0px 25px; }
+    margin: 50px 0px 0px 25px; }
 
 .branding__adapt {
-  height: 218px;
   background-repeat: no-repeat; }
   .branding__adapt__align {
     width: 260px;
-    margin: 20px auto; }
+    margin: 20px auto 0px;
+    padding: 32px 0px; }
   .branding__adapt h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 16px 0px 12px; }
   .branding__adapt h1 {
     color: #33c2f8;
-    font-size: 32px;
-    padding-top: 32px; }
+    font-size: 32px; }
   .branding__adapt p {
     color: rgba(255, 255, 255, 0.9); }
 
@@ -3225,7 +3193,7 @@ html, body {
   padding: 0px 36px; }
 
 .branding__enigmalist {
-  padding: 40px 60px 24px 60px;
+  padding: 40px 32px 24px 32px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist h2 {
@@ -3237,25 +3205,23 @@ html, body {
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 40px 60px 24px 60px;
+  padding: 40px 32px 24px 32px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
     padding-bottom: 10px;
     text-align: left; }
   .branding__enigmalist1 img {
-    padding: 30px 10px;
-    width: 116px;
-    height: 145px; }
+    padding: 30px 0px;
+    width: 60%;
+    height: 100%; }
 
 .branding__evolve {
-  height: 316px;
-  background-repeat: no-repeat;
-  padding: 40px 0px 36px;
-  background-size: cover; }
+  background-repeat: no-repeat; }
   .branding__evolve__align {
-    width: 258px;
-    margin: 0 auto; }
+    width: 260px;
+    margin: 20px auto 0px;
+    padding: 32px 0px; }
   .branding__evolve h2 {
     color: rgba(255, 255, 255, 0.9);
     padding: 20px 0px 18px; }
@@ -3266,16 +3232,16 @@ html, body {
     color: rgba(255, 255, 255, 0.9); }
 
 .branding__fontfamily {
-  padding: 0px 60px 24px 60px; }
+  padding: 0px 60px 40px 60px; }
   .branding__fontfamily img {
     width: 100%;
-    height: 90%; }
+    height: 100%; }
   .branding__fontfamily h1 {
     padding: 20px 0px 24px;
     text-align: left; }
 
 .branding__icons {
-  padding: 23px 60px 25px 60px;
+  padding: 0px 60px 25px 60px;
   margin: 0 auto;
   text-align: center; }
   .branding__icons img {
@@ -3365,7 +3331,6 @@ html, body {
     padding-bottom: 18px; }
   .branding__perceive {
     width: 87%;
-    height: 390px;
     position: relative;
     padding: 0;
     margin: 0px 0px 64px; }
@@ -3382,8 +3347,8 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 390px;
-      padding-right: 140px; }
+      padding: 72px 140px 72px 0px;
+      position: static; }
     .branding__perceive h2 {
       padding: 16px 0px 17px; }
     .branding__perceive .margin {
@@ -3396,7 +3361,6 @@ html, body {
       right: -141px;
       top: 87px; }
   .branding__adapt {
-    height: 270px;
     margin-top: 64px;
     background-size: cover;
     margin-right: 34px; }
@@ -3414,8 +3378,7 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px;
-      padding-right: 140px; }
+      padding: 80px 140px 80px 0px; }
     .branding__adapt h2 {
       padding: 16px 0px 12px; }
     .branding__adapt h1 {
@@ -3481,33 +3444,22 @@ html, body {
           -ms-flex-pack: center;
               justify-content: center; }
     .branding__enigmalist1 img {
-      height: 162px;
-      width: 137px;
       padding: 0;
-      margin-top: 40px; }
+      margin: 0px;
+      width: 70%;
+      height: 175px; }
     .branding__enigmalist1 h2 {
-      padding-bottom: 0px;
+      padding-bottom: 40px;
       text-align: left; }
   .branding .colorPalette {
     padding-bottom: 50px; }
   .branding__evolve {
-    margin-right: 34px;
-    height: 270px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-size: cover; }
+    background-size: cover;
+    margin-right: 34px; }
     .branding__evolve__align {
-      width: 650px;
+      width: 640px;
       margin: 0 auto;
-      padding-right: 30px;
+      padding: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3518,20 +3470,19 @@ html, body {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 270px;
-      padding-right: 190px; }
+      padding: 80px 140px 80px 0px; }
     .branding__evolve h2 {
       padding: 10px 0px 10px; }
   .branding__fontfamily {
     width: 700px;
     margin: 0 auto;
-    padding: 0; }
+    padding-bottom: 60px; }
     .branding__fontfamily h1 {
       padding: 0px 0px 40px;
       text-align: left; }
   .branding__icons {
     width: 700px;
-    padding: 70px 0px 40px;
+    padding: 0px 0px 40px;
     text-align: left; }
     .branding__icons .threeIcon {
       width: 465px;
@@ -3554,8 +3505,6 @@ html, body {
     margin: 80px auto 120px; }
     .blob1 button {
       margin: 24px 0px 0px; }
-  .lb_bdy {
-    height: calc(100vh + 110px); }
   .blob2 {
     top: 113px;
     left: 120px; }
@@ -3603,12 +3552,10 @@ html, body {
   .branding__image img {
     padding-bottom: 26px; }
   .branding__perceive {
-    height: 533px;
     margin: 0px 0px 96px; }
     .branding__perceive__align {
       width: 782px;
-      height: 533px;
-      padding-right: 170px; }
+      padding: 107px 170px 107px 0px; }
     .branding__perceive h1 {
       font-size: 40px; }
     .branding__perceive h2 {
@@ -3621,13 +3568,11 @@ html, body {
   .branding__enigmalogo img {
     padding: 0px 58px; }
   .branding__adapt {
-    height: 362px;
     margin-top: 96px;
     margin-right: 42px; }
     .branding__adapt__align {
       width: 922px;
-      padding: 0 340px 0px 0px;
-      height: 362px; }
+      padding: 87px 405px 87px 0px; }
     .branding__adapt h2 {
       padding: 28px 0px 18px; }
     .branding__adapt h1 {
@@ -3658,28 +3603,26 @@ html, body {
       width: 100%;
       margin-top: 80px; }
   .branding__enigmalist1 {
-    padding: 70px 0px 70px;
+    padding: 80px 0px 70px;
     width: 965px; }
+    .branding__enigmalist1 h2 {
+      padding-bottom: 55px; }
     .branding__enigmalist1 img {
-      height: 125px;
-      width: 100%;
-      margin-top: 80px; }
+      width: 75%; }
   .branding__evolve {
-    margin-right: 44px;
-    height: 355px;
-    padding: 0px; }
+    margin-top: 96px;
+    margin-right: 42px; }
     .branding__evolve__align {
-      width: 870px;
-      height: 355px;
-      padding-right: 280px; }
+      width: 922px;
+      padding: 87px 363px 87px 0px; }
     .branding__evolve h2 {
       padding: 20px 0px 20px; }
   .branding__fontfamily {
-    width: 965px; }
-    .branding__fontfamily h1 {
-      padding: 30px 0px 50px; }
+    width: 965px;
+    padding-bottom: 80px h1;
+      padding-bottom-padding: 30px 0px 50px; }
   .branding__icons {
-    padding: 103px 0px 70px;
+    padding: 0px 0px 70px;
     width: 965px; }
     .branding__icons .threeIcon {
       width: 630px;
@@ -3732,7 +3675,7 @@ html, body {
     width: 1000px; }
   .engima {
     padding: 0px 0px 0px 57px;
-    margin: 100px 0px 126px; }
+    margin: 0px 0px 126px; }
     .engima .csHeading {
       padding-bottom: 32px; }
   .engima1 {
@@ -3746,12 +3689,10 @@ html, body {
     padding-bottom: 26px; }
   .branding__perceive {
     width: 1100px;
-    height: 614px;
     margin: 0 auto 120px; }
     .branding__perceive__align {
       width: 870px;
-      height: 613px;
-      padding: 0px 39px 0px 0px; }
+      padding: 110px 39px 110px 0px; }
     .branding__perceive h1 {
       font-size: 48px; }
     .branding__perceive h2 {
@@ -3769,14 +3710,12 @@ html, body {
     .branding__enigmalogo img {
       padding: 0px 65px; }
   .branding__adapt {
-    height: 446px;
     margin: 120px auto 0px;
     width: 1100px;
     background-size: 100% 100%; }
     .branding__adapt__align {
       width: 870px;
-      padding: 0 160px 0px 0px;
-      height: 446px; }
+      padding: 96px 160px 96px 0px; }
     .branding__adapt h2 {
       padding: 28px 0px 30px; }
     .branding__adapt h1 {
@@ -3821,35 +3760,32 @@ html, body {
   .branding__enigmalist1 {
     padding: 100px 0px 100px;
     width: 1100px; }
-    .branding__enigmalist1 img {
-      height: 175px; }
   .branding .colorPalette {
     padding-bottom: 65px; }
   .branding__evolve {
     margin-right: 0;
-    height: 458px;
     width: 1100px;
     margin: 0 auto;
     background-size: 100% 100%; }
     .branding__evolve__align {
-      height: 458px;
       width: 870px;
-      padding: 0 160px 0px 0px; }
+      padding: 96px 160px 96px 0px; }
   .branding__fontfamily {
     padding: 0;
     width: 1100px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 120px; }
     .branding__fontfamily h1 {
       padding: 30px 0px 60px; }
   .branding__icons {
-    padding: 160px 0px 70px 0px;
+    padding: 0px 0px 70px 0px;
     margin: 0 auto;
     width: 1100px; }
     .branding__icons .threeIcon {
       width: 716px;
       padding-bottom: 101px; }
     .branding__icons img {
-      width: 130px; } }
+      width: 75%; } }
 
 .cs-service {
   max-width: 1440px;
@@ -3881,6 +3817,12 @@ html, body {
 .CSservice1 {
   margin: 0 215px; }
   .CSservice1 img {
+    width: 100%;
+    height: 100%; }
+
+.CSservice11 {
+  margin: 0 215px; }
+  .CSservice11 img {
     width: 100%;
     height: 100%; }
 
@@ -4005,6 +3947,8 @@ html, body {
       padding: 0; }
   .CSservice1 {
     margin: 0 124px; }
+  .CSservice11 {
+    margin: 0 124px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
     padding: 50px 0; }
@@ -4064,6 +4008,8 @@ html, body {
   .caseStudy__content1 {
     margin: 80px 95px 80px 95px; }
   .CSservice1 {
+    margin: 0 95px; }
+  .CSservice11 {
     margin: 0 95px; }
   .caseStudy__bgImg2 {
     min-height: 100%;
@@ -4131,10 +4077,16 @@ html, body {
       width: 138px;
       margin: 14px auto;
       padding: 10px; }
+  .CSservice11 img {
+    width: auto; }
   .caseStudy__content1 {
     margin: 57px 32px; }
   .CSservice1 {
-    margin: 0 32px; }
+    margin: 0 32px;
+    text-align: center; }
+  .CSservice11 {
+    margin: 0 32px;
+    text-align: center; }
   .caseStudy__bgImg2 {
     min-height: 100%;
     margin: 80px 0 150px;

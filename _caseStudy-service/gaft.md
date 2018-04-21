@@ -152,5 +152,6 @@ current: Service Design
 banner_image: "/assets/img/caseStudy/GAFT.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---
