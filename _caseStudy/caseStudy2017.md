@@ -39,7 +39,7 @@ cContent1: " We related our idea of creation to Brahma an Indian mythical god. H
 
 cImg2: "group"
 
-cHead2: "Finding the right balance:"
+cHead2: "Finding the right balance"
 
 cContent2: "The focus was to bring the right balance of story telling and contemporary design to the illustrations. Images of young lord brahma and his introduction to the new world realities."
 
@@ -55,7 +55,7 @@ cContent4: " With a growing population we wanted to highlight the civil issues a
             With the various festivals as the backdrop, carelessness in public property, vandalism,
               pain of saree shopping were some of the tongue in cheek examples that we have tried to showcase with subtlety."
 
-cHead5: "Bringing old stories into the pop culture:"
+cHead5: "Bringing old stories into the pop culture"
 
 cContent5: "Little brahma as a brand takes inspiration from the creative storytelling and symbolism that is deep rooted 
 in our culture and heritage from time immemorial. This can be seen in the architecture and artifacts left behind by our ancestors and forefathers for eons.  As Brahma is the god of creation, we took inspiration from this to create 

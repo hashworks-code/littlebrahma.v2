@@ -2652,7 +2652,7 @@ li.lb_work_filterli:first-child {
     width: 700px;
     margin: 170px auto 0; } }
 
-@media screen and (max-width: 767px) and (hover: none) {
+@media screen and (max-width: 767px) {
   .homePage {
     margin-top: 35px; }
     .homePage__BnrDiv {
