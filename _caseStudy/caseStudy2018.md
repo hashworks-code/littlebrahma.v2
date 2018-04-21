@@ -46,7 +46,7 @@ cContent1: " India is a diverse country with a profound and rich history.
 
 cImg2: "group"
 
-cHead2: "Highlighting civic and social knick knacks:"
+cHead2: "Highlighting civic and social knick knacks"
 
 cContent2: "With a growing population we wanted to highlight the civil issues afflicting the country. 
             With the various festivals as the backdrop, carelessness in public property, vandalism,
@@ -64,7 +64,7 @@ cHead4: "Potraying the cultural harmony"
 
 cContent4: " Showing visual illustration of all festival. Capturing the contrast of festivals from different culture and interplay of humor between characters."
 
-cHead5: "Capturing the street food culture of india:"
+cHead5: "Capturing the street food culture of india"
 
 cContent5: " India is famous for the street food. The sights of people thronging to eat delicious food. Street food has always stood as a highlight in our country. It brings people from different backgrounds closer, no matter the culture or the religion."
 
