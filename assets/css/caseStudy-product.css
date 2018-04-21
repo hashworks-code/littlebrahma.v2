@@ -1909,7 +1909,7 @@ html, body {
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 40px 32px 24px 32px;
+  padding: 40px 32px 24px 40px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
@@ -2307,7 +2307,7 @@ html, body {
       width: 100%;
       margin-top: 80px; }
   .branding__enigmalist1 {
-    padding: 80px 0px 70px;
+    padding: 80px 0px 80px;
     width: 965px; }
     .branding__enigmalist1 h2 {
       padding-bottom: 55px; }

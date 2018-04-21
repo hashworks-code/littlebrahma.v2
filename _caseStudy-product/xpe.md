@@ -7,7 +7,7 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy/xp.png"
 
 backgroundchange: "backXpe"
-banner-Head: "Extreme Performance engg."
+banner-Head: "Extreme Performance Engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
 section: "gov"
 color: "green"
