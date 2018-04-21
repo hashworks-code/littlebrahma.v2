@@ -286,6 +286,8 @@ table {
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
+    .bnrText span {
+      color: red; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
