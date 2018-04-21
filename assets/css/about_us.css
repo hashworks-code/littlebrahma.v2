@@ -1247,7 +1247,7 @@ html, body {
           display: block;
           position: absolute;
           z-index: 1;
-          left: 38px;
+          left: 40px;
           top: 5px;
           height: 48px;
           bottom: 0;
@@ -1485,7 +1485,9 @@ html, body {
       top: 128px;
       left: 17%; }
     .footer__bottom {
-      padding: 115px 15% 37px 15%; } }
+      padding: 115px 15% 37px 15%; }
+      .footer__bottom div span {
+        left: 38px !important; } }
 
 @media screen and (min-width: 2000px) {
   .footer__img {
@@ -2087,10 +2089,10 @@ li.lb_work_filterli:first-child {
     padding-right: 0px; }
     .about__us p {
       padding: 16px 0px 0px;
-      text-align: justify; }
+      text-align: left; }
     .about__us h2 {
       padding-top: 16px;
-      text-align: justify; }
+      text-align: left; }
     .about__us h1 {
       line-height: normal !important; }
   .aboutheading h1 {
@@ -2098,7 +2100,7 @@ li.lb_work_filterli:first-child {
     text-align: left;
     padding-left: 7px; }
   .aboutheading h3 {
-    padding-bottom: 16px; } }
+    padding-bottom: 24px; } }
 
 @media screen and (min-width: 768px) {
   .about-us {

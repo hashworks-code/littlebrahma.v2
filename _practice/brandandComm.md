@@ -1,6 +1,7 @@
 ---
 title: Branding & Communication
-subtitle: Branding & Communication
+extra: Communication
+subtitle: Branding &
 keywords: >-
   Branding, Design, Communication
 layout: service

@@ -1247,7 +1247,7 @@ html, body {
           display: block;
           position: absolute;
           z-index: 1;
-          left: 38px;
+          left: 40px;
           top: 5px;
           height: 48px;
           bottom: 0;
@@ -1485,7 +1485,9 @@ html, body {
       top: 128px;
       left: 17%; }
     .footer__bottom {
-      padding: 115px 15% 37px 15%; } }
+      padding: 115px 15% 37px 15%; }
+      .footer__bottom div span {
+        left: 38px !important; } }
 
 @media screen and (min-width: 2000px) {
   .footer__img {
@@ -1907,7 +1909,7 @@ html, body {
     height: 100%; }
 
 .branding__enigmalist1 {
-  padding: 40px 32px 24px 32px;
+  padding: 40px 32px 24px 40px;
   margin: 0 auto;
   text-align: center; }
   .branding__enigmalist1 h2 {
@@ -1937,6 +1939,8 @@ html, body {
   .branding__fontfamily img {
     width: 100%;
     height: 100%; }
+  .branding__fontfamily .font2 {
+    padding-top: 48px; }
   .branding__fontfamily h1 {
     padding: 20px 0px 24px;
     text-align: left; }
@@ -1947,7 +1951,7 @@ html, body {
   text-align: center; }
   .branding__icons img {
     padding-top: 30px;
-    width: 50px; }
+    width: 80px; }
   .branding__icons .textalign {
     text-align: center; }
   .branding__icons h2 {
@@ -2095,7 +2099,8 @@ html, body {
     margin: 0 auto; }
   .branding .back {
     background-repeat: no-repeat;
-    background-size: 99% 100%; }
+    background-size: 100% 100%;
+    padding: 0px 30px 0px 4px; }
   .branding__concept {
     width: 607px;
     margin: 0px 0px 30px 15px; }
@@ -2116,7 +2121,7 @@ html, body {
     width: 100%;
     margin: 0 auto; }
     .branding__enigmalogo img {
-      padding: 0px 40px; }
+      padding: 0px 53px 0px 42px; }
   .branding .enigmabackground {
     margin: 0px auto;
     background-repeat: no-repeat;
@@ -2181,14 +2186,12 @@ html, body {
       padding: 0px 0px 40px;
       text-align: left; }
     .branding__fontfamily .font2 {
-      padding-left: 40px; }
+      padding-left: 40px;
+      padding-top: 0px; }
   .branding__icons {
     width: 700px;
     padding: 0px 0px 40px;
     text-align: left; }
-    .branding__icons .threeIcon {
-      width: 465px;
-      padding-bottom: 20px; }
     .branding__icons .row {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
@@ -2197,7 +2200,7 @@ html, body {
       padding-bottom: 31px; }
     .branding__icons img {
       padding-top: 30px;
-      width: 70px; }
+      width: 100%; }
     .branding__icons .textalign {
       text-align: left; } }
 
@@ -2207,6 +2210,8 @@ html, body {
     margin: 80px auto 120px; }
     .blob1 button {
       margin: 24px 0px 0px; }
+  .back {
+    padding: 0px 44px 0px 8px; }
   .blob2 {
     top: 113px;
     left: 120px; }
@@ -2268,7 +2273,7 @@ html, body {
       right: -190px;
       top: 112px; }
   .branding__enigmalogo img {
-    padding: 0px 58px; }
+    padding: 0px 69px 0px 64px; }
   .branding__adapt {
     margin-top: 96px;
     margin-right: 42px; }
@@ -2305,7 +2310,7 @@ html, body {
       width: 100%;
       margin-top: 80px; }
   .branding__enigmalist1 {
-    padding: 80px 0px 70px;
+    padding: 80px 0px 80px;
     width: 965px; }
     .branding__enigmalist1 h2 {
       padding-bottom: 55px; }
@@ -2328,9 +2333,7 @@ html, body {
     width: 965px; }
     .branding__icons .threeIcon {
       width: 630px;
-      padding-bottom: 50px; }
-    .branding__icons img {
-      width: 90px; } }
+      padding-bottom: 50px; } }
 
 @media screen and (min-width: 1367px) {
   .blob1 {
@@ -2427,7 +2430,7 @@ html, body {
     width: 1100px;
     margin: 0 auto; }
     .branding__concept1 .row {
-      width: 86%; }
+      width: 100%; }
   .branding .back {
     background-size: 100% 100%; }
   .branding__concept {
@@ -2484,9 +2487,4 @@ html, body {
   .branding__icons {
     padding: 0px 0px 70px 0px;
     margin: 0 auto;
-    width: 1100px; }
-    .branding__icons .threeIcon {
-      width: 716px;
-      padding-bottom: 101px; }
-    .branding__icons img {
-      width: 75%; } }
+    width: 1100px; } }
