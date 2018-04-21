@@ -417,7 +417,7 @@ table {
     }
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
     .headingBold{
         font-size:32px;
     }
@@ -456,7 +456,7 @@ table {
     }
 
     .lb_bdy{
-        height: calc(100vh + 160px);
+        height: calc(100vh + 140px);
     }
     .heroText{
         font-size: 40px;
@@ -488,7 +488,7 @@ table {
 
 @media screen and (min-width: 1367px){
     .lb_bdy {
-        height:1020px;
+        height: 1024px;
     }
 
     .backgroundImage{

@@ -10,13 +10,13 @@ banner_image: "/assets/img/caseStudy/groome-copy-3.png"
 url: "ServiceDesign1"
 title: Hashworks Branding
 current : Branding & Comm.
-brandTitle: "Branding for application run-time monitoring tool"
+brandTitle: "Humanizing the Tech Startup"
 textcolor: text-black
 enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
 backgroundColor:  backgroundhash
 
 inntroTitle: "Introduction"
-introparagraph: "Hashworks as an organization are IT-change partners enabling digital transformation for Large enterprise & Captive IT units. They focus on DevOps, DataOps, DataScience, UX/UI & Enterprise Mobility"
+introparagraph: "Hashworks as an organization are IT change partners enabling the digital transformation for large enterprise and captive IT units. They focus on Devops, Data Science, UX/UI and Enterprise Mobility"
 
 background:
   - image: "/assets/img/branding/hashworks/hashconceptmob.png"
@@ -38,11 +38,11 @@ bannerBrand: "hashBrand.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
-adaptSubTitle: "Designing for the tech savvy"
-adaptParagraph: "With the brand voice and the newly devised brand strategy to attract tech people, we came up with a design solution that any technology person can relate."
+adaptSubTitle: "Designing for a humanized brand voice"
+adaptParagraph: "After identifying the brand voice, we started designing the logo encapsulating the essence of a community where tech savvy come together to make the digital transformation possible."
 
 conceptTitle: "Concept"
-conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
+conceptparagraph: "The logo was conceptualized from the chromosomes which take the shape to create a new life. This concept blended with the feeling of being a partner of growth gave the birth to this logo."
 
 challange: "Challenge"
 challangeList:
@@ -52,12 +52,12 @@ challangeList:
   - challangepara: "- Establish a visual language that resonates the organizations purpose"
 
 perceiveTitle: "Perceive"
-percevesubtitle: "Understanding the DevOps"
+percevesubtitle: "Understanding the organizational values"
 perceiveList: 
- - perceivepara: "Working with the tech teams and customer, we understood the solutions, paketo is offering to the tech community. With this insights we were able to come up with"
- - perceivepara: "- Brand voice that customer wants to convey"
- - perceivepara: " - Design strategy for the marketing"
- - perceivepara: "- Concept designs of the artifacts which connects with tech community"
+ - perceivepara: "Talking to the business owners and the different stakeholders we were able to understand the culture and values of the organization. These conversations helped us to over come the challenges and come up with:"
+ - perceivepara: "- Brand voice which the customer wants to convey"
+ - perceivepara: " - Design the marketing & visual strategy"
+ - perceivepara: "- Design the storytelling strategy"
 percieveImage: "percieve.jpg"
 
 conceptImage1: "hashconcept1.png"
@@ -67,8 +67,8 @@ conceptImage4: "hashconcept4.png"
 
 finallogo: "hashlogo1.svg"
 
-meaningTitle: "Meaning behind the Logo"
-meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
+meaningTitle: "Meaning behind the logo"
+meaningpara: "The logo stands for the expertise from different domains of technology come together to form an organization to achieve growth."
 meaningImage: "hashMean.svg"
 enigmalogo: "hashbreak.svg"
 
@@ -77,16 +77,16 @@ variations2: "hashvar2.svg"
 
 
 evolveTitle: "Evolve"
-evolveSubTitle: "Design with iteration"
-evolveparagraph: " With the newly created logo we showcased the applications, purpose and personality. To add to this personality we needed colour, typography and all the other collaterals. Continuos discussions and iteratons with the clients produced an array of artifacts which supported the applications brand voice."
+evolveSubTitle: "Designing the variations"
+evolveparagraph: "With the logo created, we decided to add some vibrant colours and typography to give the brand a personality and match the startup culture. After iterating with the customer for some variations we finalized the visual representation and published the brand guidelines."
 
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "hashcolor1.svg"
-  - paletter: "hashcolor2.svg"
-  - paletter: "hashcolor3.svg"
-  - paletter: "hashcolor4.svg"
+  - paletter: "hashcolor1.png"
+  - paletter: "hashcolor2.png"
+  - paletter: "hashcolor3.png"
+  - paletter: "hashcolor4.png"
   
 
 fontfamily1: "Typography"

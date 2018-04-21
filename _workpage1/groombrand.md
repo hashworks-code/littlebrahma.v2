@@ -70,7 +70,7 @@ conceptImage4: "concept4.png"
 
 finallogo: "groomelogo.svg"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo was evolved out of the search icon and human icon which represent the key of the brand, finding a ideal hire for the job role. "
 meaningImage: "groomemeaning.svg"
 enigmalogo: "groome1.svg"
@@ -85,10 +85,10 @@ evolveparagraph: "With the logo created, we decided to add colours and typograph
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "color1.svg"
-  - paletter: "color2.svg"
-  - paletter: "color3.svg"
-  - paletter: "color4.svg"
+  - paletter: "color1.png"
+  - paletter: "color2.png"
+  - paletter: "color3.png"
+  - paletter: "color4.png"
 
 fontfamily1: "Typography"
 font: "groomefont.png"
