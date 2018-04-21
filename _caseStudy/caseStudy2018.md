@@ -68,11 +68,11 @@ cHead5: "Capturing the street food culture of india"
 
 cContent5: " India is famous for the street food. The sights of people thronging to eat delicious food. Street food has always stood as a highlight in our country. It brings people from different backgrounds closer, no matter the culture or the religion."
 
-cHead6: "Celebration of the indian culture:"
+cHead6: "Celebration of the indian culture"
 
 cContent6: "Indian culture symbolizes family, traditional colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
 
-cHead7: "Comical way of awareness:"
+cHead7: "Comical way of awareness"
 
 cContent7: " Our goal was to send out a social message of preserving  our culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
 
