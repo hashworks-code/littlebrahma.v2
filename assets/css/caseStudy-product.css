@@ -1935,11 +1935,9 @@ html, body {
 
 .branding__fontfamily {
   padding: 0px 60px 40px 60px; }
-  .branding__fontfamily .font1 {
+  .branding__fontfamily img {
     width: 100%;
     height: 100%; }
-  .branding__fontfamily .font2 {
-    height: 105px; }
   .branding__fontfamily h1 {
     padding: 20px 0px 24px;
     text-align: left; }
@@ -2184,11 +2182,6 @@ html, body {
     .branding__fontfamily h1 {
       padding: 0px 0px 40px;
       text-align: left; }
-    .branding__fontfamily .font1 {
-      width: 445px;
-      height: 204px; }
-    .branding__fontfamily .font2 {
-      height: 115px; }
   .branding__icons {
     width: 700px;
     padding: 0px 0px 40px;
@@ -2330,8 +2323,6 @@ html, body {
     width: 965px;
     padding-bottom: 80px h1;
       padding-bottom-padding: 30px 0px 50px; }
-    .branding__fontfamily .font2 {
-      height: 145px; }
   .branding__icons {
     padding: 0px 0px 70px;
     width: 965px; }
@@ -2488,12 +2479,6 @@ html, body {
     padding-bottom: 120px; }
     .branding__fontfamily h1 {
       padding: 30px 0px 60px; }
-    .branding__fontfamily .font2 {
-      width: 100%;
-      height: 100%; }
-    .branding__fontfamily .font1 {
-      width: 100%;
-      height: 100%; }
   .branding__icons {
     padding: 0px 0px 70px 0px;
     margin: 0 auto;
