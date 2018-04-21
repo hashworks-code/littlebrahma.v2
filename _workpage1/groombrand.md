@@ -102,8 +102,8 @@ icon_list:
 
 icon_list1:
   - icons1: 'groomIcon1.png'
-  - icons1: 'groomIcon1.png'
-  - icons1: 'groomIcon1.png'
+  - icons1: 'groomIcon2.png'
+  - icons1: 'groomIcon3.png'
 
 enigmaImageListt:
   - enigmaimg: "mockup-1.jpg"
