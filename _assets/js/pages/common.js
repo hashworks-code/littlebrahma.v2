@@ -202,22 +202,13 @@ $(window).resize(function(){
             $(this).addClass('lb_work_filterActive');
             var dataValue=$(this).attr("value");
             $(this).siblings().removeClass('lb_work_filterActive');
-            // if(dataValue=="Productdesign"){
-            //   $('.Productdesign').show();
-            //   $('.Servicedesign').hide();
-            //   $('.BrandingandCommunication').hide();
-            // }
-            // if(dataValue=="Servicedesign"){
-            //   $('.Productdesign').hide();
-            //   $('.Servicedesign').show();
-            //   $('.BrandingandCommunication').hide();
-            // }
-            // if(dataValue=="BrandingandCommunication"){
-            //   $('.Productdesign').hide();
-            //   $('.Servicedesign').hide();
-            //   $('.BrandingandCommunication').show();
-            // }
         });
+       //mobile
+       $(".lb_work_filterli-mb").click(function(){
+        $(this).addClass('lb_work_filterActive');
+        var dataValue=$(this).attr("value");
+        $(this).siblings().removeClass('lb_work_filterActive');
+      });
 
         $(".lb_work_filterli").click(function() {
             $("#lb_btn1").hide();
@@ -292,6 +283,83 @@ $(window).resize(function(){
                 }
             }
         });
+
+
+        // mobile
+        $(".lb_work_filterli-mb").click(function() {
+            $("#lb_btn1").hide();
+            $("#lb_btn").show();
+            var data=$(this).attr('data');
+            var length = $(".common-filter").length;
+            for(var i=1;i<length+1;i++){
+                tempvalue="filterli-"+i;
+                if(data == tempvalue){
+                    $('.all').hide();
+                    $(".filterli-"+i).show();
+                    $(".filterli-"+i+' '+'.brndcomm').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var brand=$(".filterli-"+i+' '+'.brndcomm').length;
+                        if(brand<=4){
+                            $("#lb_btn").hide();
+                        }
+
+                        if(index<=3){
+                            $(this).show();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                    $(".filterli-"+i+' '+'.prod').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var prod=$(".filterli-"+i+' '+'.prod').length;
+                        if(prod<=4){
+                            $("#lb_btn").hide();
+                        }
+                        if(index<=3){
+                            $(this).show();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                    $(".filterli-"+i+' '+'.service').each(function (index) { 
+                        // console.log('div' + index + ':' + $(this).attr('id')); 
+                        var service=$(".filterli-"+i+' '+'.service').length;
+                        if(service<=4){
+                            $("#lb_btn").hide();
+                        }
+                        if(index<=3){
+                            $(this).show();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                }
+                
+                else{
+                    $(".filterli-"+i).hide();
+                }
+                if(data == 'All'){
+                    $('.all').show();
+                    $('.alldata').each(function (index) { 
+                        var all=$('.alldata').length;
+                        if(all<=4){
+                            $("#lb_btn").hide();
+                        }
+                        
+                        if(index<=3){
+                            $(this).show();
+                        }
+                        else{
+                            $(this).hide();
+                        }
+                    })
+                }
+            }
+        });
+        
         
         $(".work_select").change(function() {
             var data=$(this).val();
@@ -877,15 +945,17 @@ $( document ).ready(function() {
         });
         if(sessionStorage.getItem("Hometab") == "Service Design") {
             $('#filterli-2').click();
-            $(".option").text('Service Design');
+            // $(".option").text('Service Design');
+            $('.data-2').click();
+            
 
           } else if(sessionStorage.getItem("Hometab") == "Product Design") {
             $('#filterli-1').click();
-            $(".option").text('Product Design');
+            $('.data-1').click();
 
           } else if(sessionStorage.getItem("Hometab") == "Branding & Comm.") {
             $('#filterli-3').click();
-            $(".option").text('Branding & Comm.');
+            $('.data-3').click();
 
           }
           sessionStorage.setItem("Hometab", ""); 
