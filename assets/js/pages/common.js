@@ -432,54 +432,54 @@ $(window).resize(function(){
 
         $('#lb_service_btn').click(function(){
               var value=$(this).val();
-              $('#lb_service_btn1').show();
-              $(this).hide();
+            //   $('#lb_service_btn1').show();
+              $(this).parent('div').hide();
               if(value == 'Product'){
                 $('.prod').show();
             }
             else if(value == 'Service'){
                 $('.service').show();
             }
-            else if(value == 'Branding & Communication'){
+            else if(value == 'Branding &'){
                     $('.brndcomm').show();
             }   
         })
-        $('#lb_service_btn1').click(function(){
-            var value=$(this).val();
-            $('#lb_service_btn').show();
-            $(this).hide();
-            if(value == 'Product'){
-                $('.prod').each(function (index) { 
-                    if(index<=3){
-                        $(this).show();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            }
-            else if(value == 'Service'){
-                $('.service').each(function (index) { 
-                    if(index<=3){
-                        $(this).show();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            }
-            else if(value == 'Branding & Communication'){
-                var prodcount=$('.brndcomm').length;
-                $('.brndcomm').each(function (index) { 
-                    if(index<=3){
-                        $(this).show();
-                    }
-                    else{
-                        $(this).hide();
-                    }
-                })
-            } 
-      })
+    //     $('#lb_service_btn1').click(function(){
+    //         var value=$(this).val();
+    //         $('#lb_service_btn').show();
+    //         $(this).hide();
+    //         if(value == 'Product'){
+    //             $('.prod').each(function (index) { 
+    //                 if(index<=3){
+    //                     $(this).show();
+    //                 }
+    //                 else{
+    //                     $(this).hide();
+    //                 }
+    //             })
+    //         }
+    //         else if(value == 'Service'){
+    //             $('.service').each(function (index) { 
+    //                 if(index<=3){
+    //                     $(this).show();
+    //                 }
+    //                 else{
+    //                     $(this).hide();
+    //                 }
+    //             })
+    //         }
+    //         else if(value == 'Branding & Communication'){
+    //             var prodcount=$('.brndcomm').length;
+    //             $('.brndcomm').each(function (index) { 
+    //                 if(index<=3){
+    //                     $(this).show();
+    //                 }
+    //                 else{
+    //                     $(this).hide();
+    //                 }
+    //             })
+    //         } 
+    //   })
     
         $('#lb_btn1').click(function(){
             $("#lb_btn1").hide();
