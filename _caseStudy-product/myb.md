@@ -119,10 +119,10 @@ cContent10: "We were able to identify the below mentioned user personas:"
 
 
 
-cHead10: "6. Design"
+cHead10: "Design"
 main_content:
   - cContent15: "Moving on to designing the application, it started first with us having an elaborate mood boarding sessions. We extensively follow the atomic design principle. we created individual components, finalized on the color, type and layout. "
-  - cContent15: "We further created user personas and their user flows. This, together with the workflow gave a complete picture on the product scope and roadmap."
+  - cContent15: "Web application uses a split design layout with 30 and 70 percent grid. The whole website uses vibrant colors to communicate the energy and also to complement it with the logo. The icons used stic in nature and are outlined with primary colors to further reinforce the style."
 
 cHead11: "Evolve "
 csubHead6: "Taking the customer along through the entire journey"
@@ -136,22 +136,22 @@ box-para5: 'Increase in customer footfall'
 
 
 division_loop:
-    - cHead6: '1. User personas'
+    - cHead6: 'User personas'
       para_loop:
         - cContent11: ' Store supervisor, buyer, auditor, analyst, admin and back office crew.'
       SImg6: 'persona-myb'
 
-    - cHead6: '2. Integrating an assessment platform:'
+    - cHead6: 'Integrating an assessment platform:'
       para_loop:
         - cContent11: 'A strong business process integrated with a digital platform was put in place to enhance the store experience. We were able to bring auditor, analyst and store supervisor on a single interface, capture store assessments and showcase store performance metrics. '
       SImg6: 'myb-create'
 
-    - cHead6: '3. Designing a virtual mall exp.:'
+    - cHead6: 'Designing a virtual mall exp.:'
       para_loop:
         - cContent11: 'In order to address the B2C challenges, we designed a platform which meets and satisfies all the use cases. For instance, a user (store supervisor) can propagate the store inventory item on an omni-channel platform for the customer to consume and increase the point of sale. '
       SImg6: 'myb-ui-sprint'
 
-    - cHead6: '4. Conceptualizing gamification model:'
+    - cHead6: 'Conceptualizing gamification model:'
       para_loop:
         - cContent11: 'We were able to add a gamification model to this platform. We created loyalty points which the buyer will get when he or she enters a store/makes a purchase or shares the offer to their peers/friends. The model was created to increase footfalls for each store.'
       SImg6: 'myb-ui-sprint-2'

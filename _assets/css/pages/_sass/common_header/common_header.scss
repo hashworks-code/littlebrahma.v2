@@ -565,7 +565,7 @@ Primary style
 }
 @media only screen and (min-width:320px) {
   .modal1 {
-    position: relative;
+    position: fixed;
   }
   .mailbox{
     width: 100%;

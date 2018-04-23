@@ -33,7 +33,7 @@ box_lists:
      UImg1: "page-3"
 
 cHead1: "Introduction"
-cContent1: "India is a diverse country with a profound and rich history. With centuries of invasion and trading with foreign people, India has now become a cultural boiling pot of the sight, sound and people. With the country ushering in the new century by being at the edge of business and technology, the culture aspect is still deep rooted in the people who embrace and celebrate festivals with vigor. "
+cContent1: "XPE is an AI powered engineering dashboard designed to showcase insights on the application performance. Visualization of performance metrics graphically in real-time and trickle down every performance parameters for engineering analysis and action."
 
 SImg1: "xpe-data"
 
@@ -111,7 +111,7 @@ cContent10: "A workflow for a driven engineering platform with insightful dashbo
 
 
 
-cHead10: "6.  Design"
+cHead10: "Design"
 main_content:
   - cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to access risk of delivery & data-driven for the executive teams to measure product quality."
 
@@ -125,29 +125,29 @@ box-para5: 'Real-time insights for pro-active'
 
 
 division_loop:
-    - cHead6: '1.  Integration Workbench'
+    - cHead6: 'Integration Workbench'
       para_loop:
         - cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
       SImg6: 'xpe-graph'
 
-    - cHead6: '2.  Workbench for perf. engineers'
+    - cHead6: 'Workbench for perf. engineers'
       para_loop:
         - cContent11: 'Workbench for perf. engineers to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
       SImg6: 'xpe-perf'
 
-    - cHead6: '3.  Delivery dashboard to status perf. execution & test results'
+    - cHead6: 'Delivery dashboard to status perf. execution & test results'
       para_loop:
         - cContent11: 'Delivery dashboard to status perf. execution & test results for project teams & executives.'
       SImg6: 'xpe-dashboard'
 
-    - cHead6: '4.  Admin console & configuration screens'
+    - cHead6: 'Admin console & configuration screens'
       para_loop:
         - cContent11: 'Admin console & configuration screens for management.'
       SImg6: 'xpe-admin'
 
 
 full_image:
-    - cHead8: '2.  “Workload model catalogue” for production systems'
+    - cHead8: '“Workload model catalogue” for production systems'
       cntnt_loop:
         - cContent13: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
       SImg8: 'xpe-catalog'

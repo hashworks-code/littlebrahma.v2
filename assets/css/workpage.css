@@ -940,7 +940,7 @@ html, body {
 
 @media only screen and (min-width: 320px) {
   .modal1 {
-    position: relative; }
+    position: fixed; }
   .mailbox {
     width: 100%;
     height: 100%; }
@@ -1983,7 +1983,7 @@ ul.practiceli.paragraph {
       font-size: 24px;
       margin: 0 35px 0; }
   .philSec {
-    margin: 64px 29px 0; } }
+    margin: 50px 29px 0; } }
 
 @media screen and (min-width: 1367px) {
   .knowmore {
@@ -2030,7 +2030,7 @@ ul.practiceli.paragraph {
     padding-top: 40px;
     width: 970px; }
   .philSec {
-    margin: 80px 29px 65px; } }
+    margin: 0px 29px 65px; } }
 
 .heroText__dna {
   font-family: "MavenPro-Medium";
@@ -2125,8 +2125,7 @@ button.lb_btn:focus {
 
 .lb_btn_div {
   width: 160px;
-  margin: 0 auto;
-  padding-bottom: 64px; }
+  margin: 0 auto; }
 
 .lb-filter-service {
   padding-bottom: 48px; }
@@ -2196,7 +2195,7 @@ div.test {
   display: none; }
 
 .lb_sevicetop {
-  margin-top: 80px; }
+  margin-top: 40px; }
 
 @media screen and (min-width: 320px) {
   .lb_work_filter li {

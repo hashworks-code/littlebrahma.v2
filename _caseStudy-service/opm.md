@@ -105,7 +105,7 @@ cContent10: "We were able to come up with following solutions for our customers:
 
 
 
-cHead10: "3.  Design"
+cHead10: "Design"
 main_content:
   - cContent15: "Our design wireframe helped us establish a platform for us to go back & forth on the visual ideas with our users. We worked on multiple approaches in terms of visual representations to crack the optimal design."
 
@@ -118,7 +118,7 @@ box-Head8: ''
 box-para5: 'QE productivity increased'
 
 division_loop:
-    - cHead6: '1.  Unlocking clear and simple navigation'
+    - cHead6: 'Unlocking clear and simple navigation'
       para_loop:
         - cContent11: '- We used primary and secondary menu and accordion approach to progressively disclose data. Attributes such as: batch status and order stages were captured here.'
         - cContent11: '- The primary navigation is a side bar showcasing modules of order profiles, configuration and user management.'
@@ -126,7 +126,7 @@ division_loop:
         - cContent11: '- Additionally, metrics were added to indicate which screen the user is in and the type of data being shown '
       SImg6: 'opm-output'
 
-    - cHead6: '2.  Progressive disclosure of information'
+    - cHead6: 'Progressive disclosure of information'
       para_loop:
         - cContent11: '- We used components such as: drop downs and filters to bifurcate high level data and to bring right context to the user. Attributes like: environments and releases were captured here'
         - cContent11: '- Primary landing screens were designed in a way where the user can select individual batches to run'
