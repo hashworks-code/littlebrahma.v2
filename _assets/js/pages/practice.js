@@ -1,6 +1,7 @@
 $(document).ready(function() {
   if (screen.width > 1024) {
     $('#fullpage').fullpage({
+      verticalCentered: false,
       afterLoad: function(anchorLink, index) {
         var loadedSection = $(this);
 

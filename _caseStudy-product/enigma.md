@@ -119,7 +119,7 @@ cContent10: "We were able to come up with the following solutions for our custom
 
 
 
-cHead10: "3.  Design"
+cHead10: "Design"
 main_content:
   - cContent15: "- Simple and context driven screens"
   - cContent15: "- 2 to 3 click call to actions"
@@ -144,7 +144,7 @@ box-para5: 'Latency to perform an
 
 
 division_loop:
-    - cHead6: '1. Dissecting data for systemic design'
+    - cHead6: 'Dissecting data for systemic design'
       para_loop:
         - cContent11: '- We created concepts to modualrize and associate relevant functions'
         - cContent11: '- Integration workbench - to configure disparate systems into our product for log analysis.'
@@ -153,7 +153,7 @@ division_loop:
         - cContent11: '- Dashboards for birds eye view of the system functions and alarm incidents'
       SImg6: 'enigma-group-1'
 
-    - cHead6: '2. Giving user insights'
+    - cHead6: 'Giving user insights'
       para_loop:
         - cContent11: '- Workflow insights, for navigating through the incidents and mitigate the problem'
         - cContent11: '- Data driven dashboards and actionable metrics'

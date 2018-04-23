@@ -115,7 +115,7 @@ cContent10: "All the parties involved had the same expectation on the outcome of
 
 
 
-cHead10: "5.  Design"
+cHead10: "Design"
 main_content:
   - cContent15: "Designing a data heavy platform with  global teams as users, come with a lot of restrictions. But the Adapt stage of our process along with the atomic design method, helped us to come up with a design language that fits all."
 
@@ -132,24 +132,24 @@ box-para5: 'Latency to perform an
 
 
 division_loop:
-    - cHead6: '1.  Compact & efficient search functionality'
+    - cHead6: 'Compact & efficient search functionality'
       para_loop:
         - cContent11: ' Categorization of the search modules based on a Regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
       SImg6: 'bitmap1'
 
-    - cHead6: '2. Short story of an entire order flow '
+    - cHead6: 'Short story of an entire order flow '
       para_loop:
         - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format, gave a clear insight on the order journey to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order, reduces the amount of clicks to remediate a hiccup on the flow.'
       SImg6: 'group-5'
 
-    - cHead6: '3.  Information abstracted in schematic form'
+    - cHead6: 'Information abstracted in schematic form'
       para_loop:
         - cContent11: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
       SImg6: 'bitmap2'
 
 full_image:
     
-    - cHead8: '4.  Smart sorting of data'
+    - cHead8: 'Smart sorting of data'
       cntnt_loop:
         - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than, wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
       SImg8: 'bitmap3'

@@ -116,7 +116,7 @@ cContent10: "We were able to come up with the following solutions for our custom
 
 
 
-cHead10: "3.  Design"
+cHead10: "Design"
 main_content:
   - cContent15: "A modern, interactive and call to action based user experience."
 
@@ -130,12 +130,12 @@ box-para5: 'Features allowing the users to resolve frauds from one platform'
 
 
 division_loop:
-    - cHead6: '1.  Upgrading the solution'
+    - cHead6: 'Upgrading the solution'
       para_loop:
         - cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
       SImg6: 'gaft-senario'
 
-    - cHead6: '2.  Scenario based engg. techniques'
+    - cHead6: 'Scenario based engg. techniques'
       para_loop:
         - cContent11: 'Scenario based engg. techniques to capture business outcomes.'
       SImg6: 'gaft-senario-2'

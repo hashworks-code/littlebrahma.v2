@@ -90,6 +90,7 @@
         display:block;
         a {
             color: #ea1d49;
+            font-weight: bold;
         }
     }
     .knowmore {
@@ -199,7 +200,7 @@
                 text-align: center;
                 font-size: 24px;
                 .svcCont{
-                    padding-top: 72px;
+                    padding-bottom: 72px;
                     img{
                         max-width: 80px;
                     }
@@ -319,7 +320,7 @@
                 font-size: 24px;
                 .svcCont{
                     
-                    padding-top: 72px;
+                    padding-bottom: 72px;
                     img{
                         max-width:85px;
                         margin-top: 20px;
@@ -400,7 +401,7 @@
                 font-size: 40px;
                 .svcCont{
                    
-                    padding-top:120px;
+                    padding-bottom:72px;
                     img{
                         max-width: 105px;
                     }
@@ -565,7 +566,7 @@
                 font-size: 40px;
                 .svcCont{
                     padding-right:0px;
-                    padding-top: 160px;
+                    padding-bottom: 72px;
                     img{
                         max-width: 120px;
                     }
