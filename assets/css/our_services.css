@@ -1551,10 +1551,11 @@ html, body {
     background-color: #f9e2e9; }
   .prct_rnImg {
     width: 100vw; }
-  .prct .genericTitle, .prct .contextTitle {
-    font-family: "MavenPro-Medium"; }
+  .prct .genericTitle,
+  .prct .contextTitle {
+    font-family: 'MavenPro-Medium'; }
   .prct .contextualTxt {
-    font-family: "PT_Sans-Regular";
+    font-family: 'PT_Sans-Regular';
     font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
@@ -1569,11 +1570,11 @@ html, body {
   .prct_dic {
     padding: 45px 35px; }
     .prct_dic .title {
-      font-family: "MavenPro-Medium"; }
+      font-family: 'MavenPro-Medium'; }
     .prct_dic .bldContent {
-      font-family: "MavenPro-Bold"; }
+      font-family: 'MavenPro-Bold'; }
     .prct_dic .bsTxt {
-      font-family: "PT_Sans-Regular"; }
+      font-family: 'PT_Sans-Regular'; }
     .prct_dic .hckTitle {
       display: none; }
     .prct_dic .imgContainer {
@@ -1581,7 +1582,7 @@ html, body {
   .prct_svc {
     padding: 27px 35px 40px 29px; }
     .prct_svc_title {
-      font-family: "MavenPro-Medium";
+      font-family: 'MavenPro-Medium';
       text-align: center; }
       .prct_svc_title .indTxt {
         font-family: 'MavenPro-Medium';
@@ -1592,7 +1593,7 @@ html, body {
     line-height: 1.5;
     text-align: center; }
   .prct .dnaContainer {
-    font-family: "PT_Sans-Regular";
+    font-family: 'PT_Sans-Regular';
     display: table; }
   .prct .know-more-link {
     display: block; }
@@ -1609,7 +1610,7 @@ html, body {
     display: inline-block; }
     .prctDiv .prctSec_tab {
       display: inline-block;
-      font-family: "MavenPro-Medium";
+      font-family: 'MavenPro-Medium';
       font-size: 24px;
       cursor: pointer;
       padding-bottom: 2px;
@@ -1627,7 +1628,9 @@ html, body {
     background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
     background-size: contain;
     height: 250px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+  .prct .rContent_1,
+  .prct .rContent_2,
+  .prct .rContent_3 {
     visibility: visible;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1643,7 +1646,8 @@ html, body {
     padding: 0 15px; }
   .prct .rContent_2 {
     padding-left: 40px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
+  .prct .rContent_1Img,
+  .prct .rContent_3Img {
     margin-left: -135px; }
   .prct .rContent_1Img {
     -webkit-transform: rotate(-30deg);
@@ -1725,11 +1729,14 @@ html, body {
   .prct .dnaImgMob {
     width: 508px;
     height: 508px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+  .prct .rContent_1,
+  .prct .rContent_2,
+  .prct .rContent_3 {
     height: 508px; }
   .prct .rContent_2 {
     padding-left: 107px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
+  .prct .rContent_1Img,
+  .prct .rContent_3Img {
     margin-left: -270px; }
   .prct .rContent_1Img {
     -webkit-transform: rotate(-30deg);

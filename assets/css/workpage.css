@@ -2052,7 +2052,12 @@ html, body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%; } }
+    height: 100%; }
+  #fullpage .hero_ptn {
+    position: absolute;
+    left: 25%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); } }
 
 @media screen and (min-width: 1367px) {
   #fullpage .knowmore {
