@@ -162,6 +162,7 @@
         }
     }
 }
+
 @media screen and (max-width: 1365px){
     .caseStudy{
 
@@ -334,6 +335,9 @@
     display: none;
 }
 @media screen and (max-width: 767px){
+    .calcolor{
+        background-color: #fafafa;
+    }
     .csHd{
         display: none;
     }
