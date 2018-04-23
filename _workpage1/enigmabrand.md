@@ -11,6 +11,7 @@ url: "ServiceDesign1"
 title: Enigma Branding
 brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-black
+current : Branding & Comm.
 enigma_banner: "/assets/img/branding/enigma.png"
 backgroundColor: backgroundenigma
 
@@ -52,7 +53,7 @@ perceiveList:
  - perceivepara: "- Brand voice that business owners wants to convey"
  - perceivepara: " - Design strategy for marketing"
  - perceivepara: "- Concept designs for the artifacts"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve4.png"
 
 bannerBrand: "banner-2.jpg"
 
@@ -71,7 +72,7 @@ conceptImage4: "enigmad.svg"
 
 finallogo: "logo.png"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo encompasses the importance of Enigma as device in the history and relates its code complexity with the products key features. The formation of the circuit lines also showcases the letter “E” of Enigma."
 meaningImage: "meaning.png"
 enigmalogo: "1-st-image.svg"
@@ -87,10 +88,10 @@ evolveparagraph: "We needed to give colors, typography and all the other collate
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "flag1.svg"
-  - paletter: "flag2.svg"
-  - paletter: "flag3.svg"
-  - paletter: "flag4.svg"
+  - paletter: "flag1.png"
+  - paletter: "flag2.png"
+  - paletter: "flag3.png"
+  - paletter: "flag4.png"
 
 fontfamily1: "Typography"
 font: "fontfamily.png"

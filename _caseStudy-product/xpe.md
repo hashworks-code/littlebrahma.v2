@@ -7,7 +7,7 @@ js: "No"
 banner_imag1: "/assets/img/caseStudy/xp.png"
 
 backgroundchange: "backXpe"
-banner-Head: "Extreme Performance engg."
+banner-Head: "Extreme Performance Engg."
 banner-cnt: "Measuring application performance and engineering insights for production readiness"
 section: "gov"
 color: "green"
@@ -89,7 +89,7 @@ SImg5: "xpe-data-02"
 
 SImg10: "xpe-images-06"
 SImg11: "style-guid"
-SImg12: "xps-screen-collage"
+SImg12: "XPE_Img"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
@@ -158,9 +158,11 @@ cat: Service Design
 product_title: Monitoring the application performance
 product_title1: Extreme Performance Engg.
 product_description: Application
+current: Product Design
 #product_thumbnail_description: TALENT AQUISITION
 banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

@@ -162,6 +162,7 @@
         }
     }
 }
+
 @media screen and (max-width: 1365px){
     .caseStudy{
 
@@ -186,9 +187,9 @@
         }
         .SceneImg{
             img{
-                height: 73%;
-                width: 37%;
-                right: 0;
+                height: 263px;
+                width: 366px;
+                right: 0px;
                 top: 16%;
             }
         }
@@ -202,9 +203,9 @@
         }
         .SceneImg1{
             img{
-                width: 35%;
-                height: 65%;
-                top: 19%;
+                width: 428px;
+                height: 285px;
+                top: 16%;
                 left: 13%;
             }
         }
@@ -218,10 +219,10 @@
         }
         .SceneImg2{
             img{
-                width: 35%;
-                height: 65%;
+                width: 426px;
+                height: 276px;
                 top: 17%;
-                right: 13%;
+                right: 10%;
             }
         }
         &__eImg{
@@ -250,6 +251,7 @@
         }
         &__cHead{
             margin-bottom: 11px;
+            padding-right: 70px;
         }
         &__cImg{
             margin: 0 65px;
@@ -268,8 +270,8 @@
             }
             .SceneImg{
                 img{
-                    height: 77%;
-                    width: 35%;
+                    height: 208px;
+                    width: 310px;
                     top: 12%;
                 }
             }  
@@ -284,11 +286,15 @@
             }
             .SceneImg1{
                 img{
-                    width: 32%;
+                    min-width: 284px;
                     top: 22%;
-                    left: 11%;
-                    height: 60%;
+                    left: 12%;
+                    height: 202px;
+                    max-width: 300px;
                 }
+            }
+            .cal2018{
+                padding-left: 45px;
             }
             &__bgImg2{
                 margin-top: 64px;
@@ -297,11 +303,14 @@
             &__content4{
                 width: 57%;
                 padding-right: 40px;
+                p{
+                    padding-right: 68px;
+                }
             }
             .SceneImg2{
                 img{
-                    width: 32%;
-                    height: 60%;
+                    width: 340px;
+                    height: 208px;
                     top: 24%;
                     right: 12%;
                 
@@ -326,6 +335,9 @@
     display: none;
 }
 @media screen and (max-width: 767px){
+    .calcolor{
+        background-color: #fafafa;
+    }
     .csHd{
         display: none;
     }
@@ -360,42 +372,47 @@
                 padding: 30px;
             }
             .SceneImg{
-                margin-bottom: 230px;
+                margin-bottom: 180px;
                 img{
                     min-height: 174px;
-                    width: 306px;
+                    width: 310px;
                     top: 75%;
-                    height: 262px;
+                    height: 208px;
                     margin-left: -156px;
                     left: 50%;
                 }
             }  
             &__bgImg1{
                 margin-top: 35px;
-                min-height: 460px;
                 background-size: 100% 100%;
-                align-items: flex-end;
+                min-height: 300px;
             }
             &__content3{
                 width: 100%;
+                padding: 0;
+                // position: relative;
+                // top: -42px;
+            }
+            .cal2018{
                 padding: 30px;
-                position: relative;
-                top: -42px;
             }
             .SceneImg1{
                 img{
-                    width: 82%;
-                    top: 26px;
-                    left: 9%;
-                    height: 40%;
+                    width: 262px;
+                top: 26px;
+                left: 9%;
+                height: 162px;
+                display: flex;
+                margin: 30px auto 0px;
+                position: static;
                 }
             }
             &__bgImg2{
 
                 background-size: 100% 100%;
                 margin-top: 64px;
-                margin-bottom: 55px;
-                min-height: 430px;
+                margin-bottom: 2px;
+                min-height: 166px;
                 align-items: flex-start;
             }
             &__content4{
@@ -404,10 +421,11 @@
             }
             .SceneImg2{
                 img{
-                    width: 85%;
-                    height: 50%;
-                    top: 58%;
-                    right: 7%;
+                    width: 310px;
+                    height: 208px;
+                    margin: 0 auto;
+                    display: flex;
+                    position: static;
                 }
             }
             &__eImg{

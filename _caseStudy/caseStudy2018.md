@@ -46,7 +46,7 @@ cContent1: " India is a diverse country with a profound and rich history.
 
 cImg2: "group"
 
-cHead2: "Highlighting civic and social knick knacks:"
+cHead2: "Highlighting civic and social knick knacks"
 
 cContent2: "With a growing population we wanted to highlight the civil issues afflicting the country. 
             With the various festivals as the backdrop, carelessness in public property, vandalism,
@@ -64,15 +64,15 @@ cHead4: "Potraying the cultural harmony"
 
 cContent4: " Showing visual illustration of all festival. Capturing the contrast of festivals from different culture and interplay of humor between characters."
 
-cHead5: "Capturing the street food culture of india:"
+cHead5: "Capturing the street food culture of india"
 
 cContent5: " India is famous for the street food. The sights of people thronging to eat delicious food. Street food has always stood as a highlight in our country. It brings people from different backgrounds closer, no matter the culture or the religion."
 
-cHead6: "Celebration of the indian culture:"
+cHead6: "Celebration of the indian culture"
 
 cContent6: "Indian culture symbolizes family, traditional colors and huge gatherings and mouthwatering food. It is also about people celebrating together, the aftermath of the festivals and what a common man goes through. We have showcased this in a fun humorous illustrations with vibrant color and comic scenes."
 
-cHead7: "Comical way of awareness:"
+cHead7: "Comical way of awareness"
 
 cContent7: " Our goal was to send out a social message of preserving  our culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
 
@@ -106,5 +106,7 @@ product_description: Visual identity
 banner_image: "/assets/img/caseStudy/123-copy-7.png"
 textcolor: text-black
 url: "ServiceDesign1"
+current : Branding & Comm.
+
 
 ---

@@ -4,726 +4,734 @@
 //     display: none;
 // }
 ul.practiceli.paragraph {
-    padding-left: 16px;
+  padding-left: 16px;
 }
-.practiceli li{
-    list-style: initial !important;
-    font-family: 'PT_Sans-Regular';
+.practiceli li {
+  list-style: initial !important;
+  font-family: 'PT_Sans-Regular';
 }
-.rContent.fixedContainer{
-    position: fixed;
-    top: 40%;
-    // transition: visibility 0s, opacity 1s linear;
+.rContent.fixedContainer {
+  position: fixed;
+  top: 40%;
+  // transition: visibility 0s, opacity 1s linear;
 }
 .fadedIn {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-    animation-duration: 1s;
-    display: block !important;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  display: block !important;
 }
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-.prct{
-    line-height: 1.5;
-    .horizantal{
-        display: flex;
-        justify-content: center;
-    }
-    .verticle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center
-    }
-    .hero{
-        &_img{
-            background-image: url(/assets/img/practice/03_Practice.gif);
-            background-color:  #e9faff;
-        }
-    }
-    &_rnImg{
-        width: 100vw;
-    }
-    .genericTitle, .contextTitle{
-        font-family: "MavenPro-Bold"; 
-        color: #393939;
-    }
-    .contextTitle{
-        font-family: "MavenPro-Medium"; 
-        color: #393939;
-    }
-    .contextualTxt{
-        font-family: "PT_Sans-Regular";
-        font-size: 12px;
-    }
-    .prctDicipline{
-        background: #fff;
-    }
-    .rContent_1{
-        // visibility: hidden;
-        // position: absolute;
-        // padding-top: 32%;
-    }
-    .right.Containers{
-        background: #fff;
-    }
-    img{
-        width: 100%;
-    }
-    .dnaImgMob{
-        display: none;
-    }
-    &_dic{
-      padding: 45px 35px;
-      padding-top:0px;
-      z-index: 1;
-        .title{
-            font-family: "MavenPro-Bold";
-            color: #393939;
-        }
-        .bldContent{
-            font-family: "MavenPro-Medium";
-            color: #393939;
-        }
-    
-        .hckTitle{
-            display: none;
-        }
-        .imgContainer{
-            text-align: center
-        }
-    }
-    &_svc{
-        padding: 27px 35px 40px 29px;
-        // background: #F4F4F4;
-        &_title{
-            font-family: "MavenPro-Medium";
-            // background: #f4f4f4;
-            text-align: center;
-            .indTxt{
-                font-family: "MavenPro-Medium"
-            }
-            .indCon{
-                font-family: "PT_Sans-Regular"
-            }
-        }
-    }
-    .dnaSummary {
-        background: #fff;
-        line-height: 1.5;
-        text-align: center;
-    }
-    .dnaContainer{
-        font-family: "PT_Sans-Regular";
-        display: table;
-        // background: #fff;
-    }
-}
-.prctDiv{
-    margin-top: 65px;
-    text-align: center;
-    .prctSec{
-        display: inline-block;
-        &_tab{
-            display: inline-block;
-            font-family: "MavenPro-Medium";
-            font-size: 24px;
-            cursor: pointer;
-            padding-bottom: 2px;
-            margin: 0 35px 0;
-        }
-        &_inactive{
-            color: #393939;
-        }
-        &_active, &_tab:hover{
-            color: #ea1c49;
-            border-bottom: 2px solid #ea1c49;
-        }
-    }
-}
-@media screen and (min-width:320px) and (max-width:1024px){
-    .prct{
-        .dnaImgMob{
-            display: block;
-            width: 250px;
-            background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
-            background-size: contain;
-            height: 250px;
-        }
-        .rContent_1,.rContent_2,.rContent_3{
-            visibility: visible;
-            display: flex;
-            flex-direction: column;
-            height: 250px;
-            justify-content: center;
-            padding: 0 15px;
-        }
-        .rContent_2 {
-            padding-left: 40px;
-        }
-        .rContent_1Img,.rContent_3Img{
-            margin-left: -135px;
-        }
-        .rContent_1Img{            
-            transform: rotate(-30deg);
-        }
-        .rContent_2Img{
-            margin-right: -135px;
-            transform: rotate(-90deg);
-        }
-        .rContent_3Img{
-            transform: rotate(210deg);
-        }
-    }
-    .lb_work_filter{
-        display:none;
-    }
-    .step-head{
-        display:block !important;
-    }
-}
-@media screen and (min-width:320px) and (max-width:767px){
-   
-    .diverse{
-        padding-top:80px;
-    }
-  .lgCon{
-      margin-top: 30px;
+  0% {
+    opacity: 0;
   }
-  .knowmore{
+  100% {
+    opacity: 1;
+  }
+}
+.prct {
+  line-height: 1.5;
+  .horizantal {
+    display: flex;
+    justify-content: center;
+  }
+  .verticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero {
+    &_img {
+      background-image: url(/assets/img/practice/03_Practice.gif);
+      background-color: #e9faff;
+    }
+  }
+  &_rnImg {
+    width: 100vw;
+  }
+  .genericTitle,
+  .contextTitle {
+    font-family: 'MavenPro-Bold';
+    color: #393939;
+  }
+  .contextTitle {
+    font-family: 'MavenPro-Medium';
+    color: #393939;
+  }
+  .contextualTxt {
+    font-family: 'PT_Sans-Regular';
+    font-size: 12px;
+  }
+  .prctDicipline {
+    background: #fff;
+  }
+  .rContent_1 {
+    // visibility: hidden;
+    // position: absolute;
+    // padding-top: 32%;
+  }
+  .right.Containers {
+    background: #fff;
+  }
+  img {
+    width: 100%;
+  }
+  .dnaImgMob {
+    display: none;
+  }
+  &_dic {
+    padding: 45px 35px;
+    padding-top: 0px;
+    z-index: 1;
+    .title {
+      font-family: 'MavenPro-Bold';
+      color: #393939;
+    }
+    .bldContent {
+      font-family: 'MavenPro-Medium';
+      color: #393939;
+    }
+
+    .hckTitle {
+      display: none;
+    }
+    .imgContainer {
+      text-align: center;
+    }
+  }
+  &_svc {
+    padding: 27px 35px 40px 29px;
+    // background: #F4F4F4;
+    &_title {
+      font-family: 'MavenPro-Medium';
+      // background: #f4f4f4;
+      text-align: center;
+      .indTxt {
+        font-family: 'MavenPro-Medium';
+      }
+      .indCon {
+        font-family: 'PT_Sans-Regular';
+      }
+    }
+  }
+  .dnaSummary {
+    background: #fff;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .dnaContainer {
+    font-family: 'PT_Sans-Regular';
+    display: table;
+    // background: #fff;
+  }
+}
+.prctDiv {
+  margin-top: 65px;
+  text-align: center;
+  .prctSec {
+    display: inline-block;
+    &_tab {
+      display: inline-block;
+      font-family: 'MavenPro-Medium';
+      font-size: 24px;
+      cursor: pointer;
+      padding-bottom: 2px;
+      margin: 0 35px 0;
+    }
+    &_inactive {
+      color: #393939;
+    }
+    &_active,
+    &_tab:hover {
+      color: #ea1c49;
+      border-bottom: 2px solid #ea1c49;
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .prct {
+    .dnaImgMob {
+      display: block;
+      width: 250px;
+      background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0
+        transparent;
+      background-size: contain;
+      height: 250px;
+    }
+    .rContent_1,
+    .rContent_2,
+    .rContent_3 {
+      visibility: visible;
+      display: flex;
+      flex-direction: column;
+      height: 250px;
+      justify-content: center;
+      padding: 0 15px;
+    }
+    .rContent_2 {
+      padding-left: 40px;
+    }
+    .rContent_1Img,
+    .rContent_3Img {
+      margin-left: -135px;
+    }
+    .rContent_1Img {
+      transform: rotate(-30deg);
+    }
+    .rContent_2Img {
+      margin-right: -135px;
+      transform: rotate(-90deg);
+    }
+    .rContent_3Img {
+      transform: rotate(210deg);
+    }
+  }
+  .lb_work_filter {
+    display: none;
+  }
+  .step-head {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .diverse {
+    padding-top: 80px;
+  }
+  .lgCon {
+    margin-top: 30px;
+  }
+  .knowmore {
     display: flex;
     width: 236px;
     justify-content: space-around;
-    margin:0 auto;
+    margin: 0 auto;
   }
-    .prct{
-        .genericTitle{
-            font-size: 20px;
-        }
-        .fixCont{
-            display: none;
-        }
-        &_dic{
-            .hckTitle{
-                display: block;
-            }
-            img{
-                max-width: 350px;
-            }
-  
-            .title{
-                font-size: 20px;
-             text-align: center;
-            }
-            .bldContent{
-                font-size: 16px;
-                padding: 16px 0px;
-                text-align: center;
-                font-family: "MavenPro-Medium";
-                color: #393939;
-                
-            }
-            .bsTxt{
-                text-align: center;
-            }
-        }
-        &_svc{
-            &_title{
-                text-align: center;
-                font-size: 24px;
-                .svcCont{
-                    padding-top: 72px;
-                    img{
-                        max-width: 80px;
-                    }
-                }
-                .indTxt{
-                    font-size: 17px;
-                    padding-bottom:16px;
-                    text-align: center;
-                }
-                .indCon{
-                    font-size: 14px;
-                    padding-top:0px;
-                    padding-bottom:24px;
-                }
-            }
-        }
-        .dnaContainer{
-            font-size: 12px;
-            padding-top:16px;
-        }
+  .prct {
+    .genericTitle {
+      font-size: 20px;
     }
+    .fixCont {
+      display: none;
+    }
+    &_dic {
+      .hckTitle {
+        display: block;
+      }
+      img {
+        max-width: 350px;
+      }
 
-
-    .prctDiv{
-        margin-top: 55px;
-        .prctSec{
-            &_tab{
-                font-size: 16px;
-                margin: 0 20px 0;
-            }
+      .title {
+        font-size: 20px;
+        text-align: center;
+      }
+      .bldContent {
+        font-size: 16px;
+        padding: 16px 0px;
+        text-align: center;
+        font-family: 'MavenPro-Medium';
+        color: #393939;
+      }
+      .bsTxt {
+        text-align: center;
+      }
+    }
+    &_svc {
+      &_title {
+        text-align: center;
+        font-size: 24px;
+        .svcCont {
+          padding-top: 72px;
+          img {
+            max-width: 80px;
+          }
         }
+        .indTxt {
+          font-size: 17px;
+          padding-bottom: 16px;
+          text-align: center;
+        }
+        .indCon {
+          font-size: 14px;
+          padding-top: 0px;
+          padding-bottom: 24px;
+        }
+      }
     }
-    .philSec{
-        margin: 32px 29px 0;
+    .dnaContainer {
+      font-size: 12px;
+      padding-top: 16px;
     }
-       .lb_work_filter{
-        display:none;
+  }
+
+  .prctDiv {
+    margin-top: 55px;
+    .prctSec {
+      &_tab {
+        font-size: 16px;
+        margin: 0 20px 0;
+      }
     }
+  }
+  .philSec {
+    margin: 32px 29px 0;
+  }
+  .lb_work_filter {
+    display: none;
+  }
 }
-@media screen and (min-width:768px) and (max-width:1024px){
-    .diverse-content{
-padding-top:48px;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .diverse-content {
+    padding-top: 48px;
+  }
+  .knowmore {
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .prct {
+    .fixCont {
+      display: none;
     }
-    .knowmore{
-        display: flex;
-        width:236px;
-        justify-content: space-between;
-        margin-left: 0px;
+    .dnaImgMob {
+      width: 508px;
+      height: 508px;
     }
-    .prct{
-        .fixCont {
-            display: none;
-        }
-        .dnaImgMob{
-            width: 508px;
-            height: 508px;
-        }
-        .rContent_1,.rContent_2,.rContent_3{
-            height: 508px;
-        }
-        .rContent_2 {
-            padding-left: 107px;
-        }
-        .rContent_1Img,.rContent_3Img{
-            margin-left: -270px;
-        }
-        .rContent_1Img{            
-            transform: rotate(-30deg);
-        }
-        .rContent_2Img{
-            margin-right: -265px;
-            transform: rotate(-90deg);
-        }
-        .rContent_3Img{
-            transform: rotate(210deg);
-        }
+    .rContent_1,
+    .rContent_2,
+    .rContent_3 {
+      height: 508px;
     }
+    .rContent_2 {
+      padding-left: 107px;
+    }
+    .rContent_1Img,
+    .rContent_3Img {
+      margin-left: -270px;
+    }
+    .rContent_1Img {
+      transform: rotate(-30deg);
+    }
+    .rContent_2Img {
+      margin-right: -265px;
+      transform: rotate(-90deg);
+    }
+    .rContent_3Img {
+      transform: rotate(210deg);
+    }
+  }
 }
-@media screen and (min-width:768px){
-    .prct{
-        .genericTitle{
-            font-size: 24px;
-        }
-        .contextTitle{
-            font-size: 16px;
-        }
-        .contextualTxt{
-            font-size: 14px;
-        }
-        .mobScreen{
-            width: 100%;
-                margin-top: 50px;
-    margin-left: 10px;
-        }
-        &_dic{
-            .hckTitle{
-                display: none;
-            }
-            .title{
-                font-size: 24px;
-                padding-bottom: 12px;
-                padding-top: 38px;
-                line-height: 28px;
-            }
-            .bldContent{
-                font-size: 16px;
-                padding-bottom: 12px;
-            }
-           
+@media screen and (min-width: 768px) {
+  .prct {
+    .genericTitle {
+      font-size: 24px;
+    }
+    .contextTitle {
+      font-size: 16px;
+    }
+    .contextualTxt {
+      font-size: 14px;
+    }
+    .mobScreen {
+      width: 100%;
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+    &_dic {
+      .hckTitle {
+        display: none;
+      }
+      .title {
+        font-size: 24px;
+        padding-bottom: 12px;
+        padding-top: 38px;
+        line-height: 28px;
+      }
+      .bldContent {
+        font-size: 16px;
+        padding-bottom: 12px;
+      }
 
-            .dicContents{
-                .title{
-                    display: block;
-                }
-            }
+      .dicContents {
+        .title {
+          display: block;
         }
-        &_svc{
-            padding:50px 35px 80px;
-            &_title{
-                text-align: center;
-                font-size: 24px;
-                .svcCont{
-                    padding-top: 72px;
-                   
-                }
-                .indTxt{
-                    font-size: 24px;
-                    // padding-top: 50px;
-                }
-                .indCon{
-                    font-size: 14px;
-                    padding: 10px 34px 16px 0px;
-                }
-            }
-        }
-        .dnaContainer{
-            font-size: 14px;
-            padding-top:24px;
-            width: 690px;
-        }
-    }    
-    .prctDiv{
-        margin-top: 80px;
-        .prctSec{
-            &_tab{
-                font-size: 16px;
-                margin: 0 20px 0;
-            }
-        }
+      }
     }
-    .philSec{
-        margin: 50px 29px 0;
+    &_svc {
+      padding: 50px 35px 80px;
+      &_title {
+        text-align: center;
+        font-size: 24px;
+        .svcCont {
+          padding-top: 72px;
+        }
+        .indTxt {
+          font-size: 24px;
+          // padding-top: 50px;
+        }
+        .indCon {
+          font-size: 14px;
+          padding: 10px 34px 16px 0px;
+        }
+      }
     }
+    .dnaContainer {
+      font-size: 14px;
+      padding-top: 24px;
+      width: 690px;
+    }
+  }
+  .prctDiv {
+    margin-top: 80px;
+    .prctSec {
+      &_tab {
+        font-size: 16px;
+        margin: 0 20px 0;
+      }
+    }
+  }
+  .philSec {
+    margin: 50px 29px 0;
+  }
 }
-@media screen and (min-width:1025px){
-    .diverse-content{
-        padding-top:105px;
+@media screen and (min-width: 1024px) {
+  .diverse-content {
+    padding-top: 105px;
+  }
+  .knowmore {
+    display: flex;
+    width: 289px;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-top: 32px;
+  }
+  .noPadding {
+    width: 623px;
+  }
+  .prct {
+    .genericTitle {
+      font-size: 28px;
     }
-    .knowmore{
-        display: flex;
-        width:289px;
-        justify-content: space-between;
-        margin-left: 0;
-        padding-top: 32px;
+    .contextTitle {
+      font-size: 20px;
     }
-    .noPadding{
-        width: 623px;
+    .contextualTxt {
+      font-size: 16px;
     }
-    .prct{
-        .genericTitle{
-            font-size: 28px;
-        }
-        .contextTitle {
-            font-size: 20px;
-        }
-        .contextualTxt {
-            font-size: 16px;
-        }
-        &_dic{
-            .title{
-                font-size: 28px;
-                padding-bottom: 16px;
-                padding-top: 95px;
-            }
-            .bldContent{
-                font-size: 20px;
-                padding-bottom: 10px;  
-                line-height: 28px;              
-            }
-           
-
-        }
-        &_svc{
-            padding:55px 0px 70px;
-            &_title{
-                font-size: 40px;
-                .svcCont{
-                    padding-top:120px;
-                    img{
-                        max-width: 105px;
-                    }
-                }
-                .indTxt{
-                    font-size: 32px;
-                    // padding-top: 50px;
-                }
-                .indCon{
-                    font-size: 16px;
-                    padding-top: 32px;
-                    padding-bottom: 0px;
-                }
-            }
-            .sCont{
-                padding-top: 15px;
-            }
-        }
-        .dnaContainer{
-            font-size: 16px;
-            padding-top:25px;
-            width: 800px;
-        }
-        .scrollContainer{
-            height: calc(100vh - 80px);
-            position: relative;
-            background: #fff;
-            img{
-                width:auto;
-            }
-        }
-        .fixCont{
-            /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
-            height: calc(100vh - 80px);
-            left: 50%;
-            position: absolute;
-            transform: translate(-50%,0);
-            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-            animation-name: example;
-            animation-duration: 1s;
-        }
-        .fixCont img{
-            // height:inherit;
-            height: 100%;
-        }
-        
-        .fixedClass{
-            position: absolute;
-            top: 80px;
-            left: 0%;
-            transform: translate(-50%,0);
-            -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-            animation-name: example2;
-            animation-duration: 1s;
-.heroText__dna{
-
-left:55%;
-
-
-}
-
-        }
-        
-        
-        /* Safari 4.0 - 8.0 */
-        @-webkit-keyframes example {
-            from {left: 0%;}
-            to {left: 50%;}
-        }
-        
-        /* Standard syntax */
-        @keyframes example {
-            from {left: 0%;}
-            to {left: 50%;}
-        }
-        
-        /* Safari 4.0 - 8.0 */
-        @-webkit-keyframes example2 {
-            from {left: 50%;}
-            to {left: 0%;}
-        }
-        
-        /* Standard syntax */
-        @keyframes example2 {
-            from {left: 50%;}
-            to {left: 0%;} 
-        }
-        
-        .rContent{
-
-        }
-        // .strategy_container{
-        //     height:100vh;
-        // }
-        
-        .posAbs{
-            position: absolute;
-            bottom: 0 !important;
-            left: 0%;
-            top: unset;
-        }
-
-.scrollContainer{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-        .right.Containers {
-          
-            width: 42%;
-            left: 20%;
-            height: 300px;
-            margin: 0 auto;
-            // top: 20%;
-            position: relative;
-            background: transparent;
-           
-            display:none;
-            &.active{
-                display:block;
-            }
-        }
-
-    }    
-    .prctDiv{
-        margin-top: 0px;
-        .prctSec{
-            &_tab{
-                font-size: 24px;
-                margin: 0 35px 0;
-            }
-        }
+    &_dic {
+      .title {
+        font-size: 28px;
+        padding-bottom: 16px;
+        padding-top: 95px;
+      }
+      .bldContent {
+        font-size: 20px;
+        padding-bottom: 10px;
+        line-height: 28px;
+      }
     }
-    .philSec{
-        margin:64px 29px 0;
-    }
-}
-@media screen and (min-width:1367px){
-    .knowmore{
-        display: flex;
-        width:332px;
-        justify-content: space-between;
-    }
-    .prctDiv {
-        margin-top: 100px;
-    }
-    .prct{
-        .genericTitle{
-            font-size: 32px;
-        }
-        .contextTitle{
-            font-size: 24px;
-        }
-        .contextualTxt{
-            font-size: 20px;
-        }
-        &_dic{
-            .title{
-                font-size: 32px;
-                padding-bottom:30px;
-                padding-top: 66px;
-                
-            }
-            .bldContent{
-                font-size: 24px;
-                padding-bottom: 30px;
-            }
-         
-
-        }
-        &_svc{
-            padding: 100px 150px 80px;
-            &_title{
-                font-size: 40px;
-                .svcCont{
-                    padding-top: 160px;
-                    img{
-                        max-width: 120px;
-                    }
-                }
-                .indTxt{
-                    font-size: 32px;
-                    // padding-top: 50px;
-                }
-                .indCon{
-                    font-size: 20px;
-                    padding-top: 24px;
-                    padding-bottom: 16px;
-                }
-                .lgCon{
-                    width: 830px;
-                }
-            }
-        }
-        .dnaContainer{
-            font-size: 20px;
-            padding-top:40px;
-            width: 970px;
-        }
-    }
-    .philSec{
-        margin: 80px 29px 65px;
-    }    
-}
-
-.heroText__dna{
-    font-family: "MavenPro-Medium";
-    order: 1;
-    color: #393939;
-    position:absolute;
-   top: 37%;
-    left: 37%;
-    width: 100%;
-    
+    &_svc {
+      padding: 55px 0px 70px;
+      &_title {
         font-size: 40px;
+        .svcCont {
+          padding-top: 120px;
+          img {
+            max-width: 105px;
+          }
+        }
+        .indTxt {
+          font-size: 32px;
+          // padding-top: 50px;
+        }
+        .indCon {
+          font-size: 16px;
+          padding-top: 32px;
+          padding-bottom: 0px;
+        }
+      }
+      .sCont {
+        padding-top: 15px;
+      }
+    }
+    .dnaContainer {
+      font-size: 16px;
+      padding-top: 25px;
+      width: 800px;
+    }
+    .scrollContainer {
+      height: calc(100vh - 80px);
+      position: relative;
+      background: #fff;
+      img {
+        width: auto;
+      }
+    }
+    .fixCont {
+      /* background:url("../img/1.png") scroll 0 0 no-repeat transparent; */
+      height: calc(100vh - 80px);
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, 0);
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 1s;
+    }
+    .fixCont img {
+      // height:inherit;
+      height: 100%;
+    }
+
+    .fixedClass {
+      position: absolute;
+      top: 80px;
+      left: 0%;
+      transform: translate(-50%, 0);
+      -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: example2;
+      animation-duration: 1s;
+      .heroText__dna {
+        left: 55%;
+      }
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+      from {
+        left: 0%;
+      }
+      to {
+        left: 50%;
+      }
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+      from {
+        left: 0%;
+      }
+      to {
+        left: 50%;
+      }
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example2 {
+      from {
+        left: 50%;
+      }
+      to {
+        left: 0%;
+      }
+    }
+
+    /* Standard syntax */
+    @keyframes example2 {
+      from {
+        left: 50%;
+      }
+      to {
+        left: 0%;
+      }
+    }
+
+    .rContent {
+    }
+    // .strategy_container{
+    //     height:100vh;
+    // }
+
+    .posAbs {
+      position: absolute;
+      bottom: 0 !important;
+      left: 0%;
+      top: unset;
+    }
+
+    .scrollContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .right.Containers {
+      width: 42%;
+      left: 20%;
+      height: 300px;
+      margin: 0 auto;
+      // top: 20%;
+      position: relative;
+      background: transparent;
+
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  .prctDiv {
+    margin-top: 0px;
+    .prctSec {
+      &_tab {
+        font-size: 24px;
+        margin: 0 35px 0;
+      }
+    }
+  }
+  .philSec {
+    margin: 64px 29px 0;
+  }
 }
-.heroHighlight__dna{
-    color: #ea1c49;
+@media screen and (min-width: 1367px) {
+  .knowmore {
+    display: flex;
+    width: 332px;
+    justify-content: space-between;
+  }
+  .prctDiv {
+    margin-top: 100px;
+  }
+  .prct {
+    .genericTitle {
+      font-size: 32px;
+    }
+    .contextTitle {
+      font-size: 24px;
+    }
+    .contextualTxt {
+      font-size: 20px;
+    }
+    &_dic {
+      .title {
+        font-size: 32px;
+        padding-bottom: 30px;
+        padding-top: 66px;
+      }
+      .bldContent {
+        font-size: 24px;
+        padding-bottom: 30px;
+      }
+    }
+    &_svc {
+      padding: 100px 150px 80px;
+      &_title {
         font-size: 40px;
+        .svcCont {
+          padding-top: 160px;
+          img {
+            max-width: 120px;
+          }
+        }
+        .indTxt {
+          font-size: 32px;
+          // padding-top: 50px;
+        }
+        .indCon {
+          font-size: 20px;
+          padding-top: 24px;
+          padding-bottom: 16px;
+        }
+        .lgCon {
+          width: 830px;
+        }
+      }
+    }
+    .dnaContainer {
+      font-size: 20px;
+      padding-top: 40px;
+      width: 970px;
+    }
+  }
+  .philSec {
+    margin: 80px 29px 65px;
+  }
+}
+
+.heroText__dna {
+  font-family: 'MavenPro-Medium';
+  order: 1;
+  color: #393939;
+  position: absolute;
+  top: 37%;
+  left: 37%;
+  width: 100%;
+
+  font-size: 40px;
+}
+.heroHighlight__dna {
+  color: #ea1c49;
+  font-size: 40px;
 }
 
 .rContent {
-//   -moz-transition: all 700ms ease-out;
-//   -webkit-transition: all 700ms ease-out;
-//   -o-transition: all 700ms ease-out;
-//   transition: all 700ms ease-out;
-//   -moz-transform: translate3d(0px, 200px, 0px);
-//   -webkit-transform: translate3d(0px, 200px, 0px);
-//   -o-transform: translate(0px, 200px);
-//   -ms-transform: translate(0px, 200px);
-//   transform: translate3d(0px, 200, 0px);
-//   -webkit-backface-visibility: hidden;
-//   -moz-backface-visibility: hidden;
-//   backface-visibility: hidden;
-
+  //   -moz-transition: all 700ms ease-out;
+  //   -webkit-transition: all 700ms ease-out;
+  //   -o-transition: all 700ms ease-out;
+  //   transition: all 700ms ease-out;
+  //   -moz-transform: translate3d(0px, 200px, 0px);
+  //   -webkit-transform: translate3d(0px, 200px, 0px);
+  //   -o-transform: translate(0px, 200px);
+  //   -ms-transform: translate(0px, 200px);
+  //   transform: translate3d(0px, 200, 0px);
+  //   -webkit-backface-visibility: hidden;
+  //   -moz-backface-visibility: hidden;
+  //   backface-visibility: hidden;
 }
 
- .rContent.in-view {
-    //   opacity: 1;
-    //   -moz-transform: translate3d(0px, 0px, 0px);
-    //   -webkit-transform: translate3d(0px, 0px, 0px);
-    //   -o-transform: translate(0px, 0px);
-    //   -ms-transform: translate(0px, 0px);
-    //   transform: translate3d(0px, 0px, 0px);
-    //      position: fixed;
-    //     top: 50%;
-    //     left: 50%;
+.rContent.in-view {
+  //   opacity: 1;
+  //   -moz-transform: translate3d(0px, 0px, 0px);
+  //   -webkit-transform: translate3d(0px, 0px, 0px);
+  //   -o-transform: translate(0px, 0px);
+  //   -ms-transform: translate(0px, 0px);
+  //   transform: translate3d(0px, 0px, 0px);
+  //      position: fixed;
+  //     top: 50%;
+  //     left: 50%;
+  //
 }
 
 .lb_work_filter li {
-    display: inline;
-    padding: 0 0px 4px 0px;
-    cursor: pointer;
-    font-family: MavenPro-Medium;
-    // font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    margin-left:50px;
+  display: inline;
+  padding: 0 0px 4px 0px;
+  cursor: pointer;
+  font-family: MavenPro-Medium;
+  // font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 50px;
 }
 
-ul.lb_work_filter.lb_filter_lg{
-    // text-align: center;
+ul.lb_work_filter.lb_filter_lg {
+  // text-align: center;
 }
-li.lb_work_filterActive{
-    border-bottom: 2px solid #ea1c49;
-    color: #ea1c49;
+li.lb_work_filterActive {
+  border-bottom: 2px solid #ea1c49;
+  color: #ea1c49;
 }
-li.lb_work_filterli:first-child{
-    margin-left: 10px !important;
+li.lb_work_filterli:first-child {
+  margin-left: 10px !important;
 }
-.dropdown-menu li.lb_work_filterli:first-child{
-     margin: 0px !important;
+.dropdown-menu li.lb_work_filterli:first-child {
+  margin: 0px !important;
 }
-.dropdown-menu li.lb_work_filterActive{
-    border-bottom: none;
+.dropdown-menu li.lb_work_filterActive {
+  border-bottom: none;
 }
 
-.right.in-view{
-    position:fixed;
+.right.in-view {
+  position: fixed;
 }
-.rContent_2,.rContent_3{
-    display:none;
+.rContent_2,
+.rContent_3 {
+  display: none;
 }

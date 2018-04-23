@@ -158,8 +158,10 @@ cat: Service Design
 product_title: Enterprise order management tool
 product_title1: Global Order Visibility
 product_description: Application
+current: Service Design
 banner_image: "/assets/img/caseStudy/gov-banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
+CSservice1: CSservice1
 
 ---

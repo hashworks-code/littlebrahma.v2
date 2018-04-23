@@ -9,6 +9,7 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy-2.png"
 url: "ServiceDesign1"
 title: Paketo Branding
+current : Branding & Comm.
 brandTitle: "Branding for DevOps automation tool"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/paketo.png"
@@ -54,7 +55,7 @@ perceiveList:
  - perceivepara: "- Brand voice that customer wants to convey"
  - perceivepara: " - Design strategy for the marketing"
  - perceivepara: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve1.png"
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
@@ -66,7 +67,7 @@ conceptImage4: "paktoconcept4.png"
 
 finallogo: "paketo.svg"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo encompasses the idea of packing a code and pushing it for deployment. The sprites showcasing movement is an abstract representation of word DevOps. in morse code"
 meaningImage: "paketomean.svg"
 enigmalogo: "paketobreak.svg"
@@ -83,9 +84,9 @@ evolveparagraph: " With the newly created logo we showcased the applications, pu
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "paketoColor1.svg"
-  - paletter: "paketoColor2.svg"
-  - paletter: "paketoColor3.svg"
+  - paletter: "paketoColor1.png"
+  - paletter: "paketoColor2.png"
+  - paletter: "paketoColor3.png"
   
 fontfamily1: "Typography"
 font: "paketofont.png"

@@ -7,7 +7,7 @@
 }
 .CSservice{
     display: flex;
-    margin: 103px 317px 0 317px;
+    // margin: 103px 317px 0 317px;
     justify-content: center;
     &__box{
         // background: #22a98b; 
@@ -30,6 +30,14 @@
     }
 }
 .CSservice1{
+    margin: 0 215px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+.CSservice11{
     margin: 0 215px;
     img{
         width: 100%;
@@ -153,9 +161,13 @@
 .padding-cls{
     padding-bottom: 20px;
 }
+@media screen and (min-width: 1365px){
+    margin-top:0px;
+}
 @media screen and (max-width: 1365px){
     .CSservice{
          margin: 96px 180px;
+         margin-top:0px;
         &__box{ 
             width: 185px;
             margin: 15px;
@@ -170,6 +182,10 @@
         }
     }
     .CSservice1{
+        margin: 0 124px;
+        
+    }
+    .CSservice11{
         margin: 0 124px;
         
     }
@@ -258,6 +274,10 @@
             margin: 80px 95px 80px 95px;
         }
         .CSservice1{
+            margin: 0 95px;
+            
+        }
+        .CSservice11{
             margin: 0 95px;
             
         }
@@ -359,13 +379,23 @@
                     
                 }
             }
+            .CSservice11{
+                img{
+                    width: auto;
+                }
+            }
             .caseStudy__content1 {
                 margin: 57px 32px;
             }
             .CSservice1{
                 margin: 0 32px;
                 // width: 204px;
-                
+                text-align: center;
+            }
+            .CSservice11{
+                margin: 0 32px;
+                // width: 204px;
+                text-align: center;
             }
             .caseStudy__bgImg2 {
                 min-height: 100%;
@@ -378,9 +408,9 @@
                 padding: 0 31px;
             }
             .CSservice__box1 {
-                width: 163px;
+                width: 145px;
                 padding: 20px 20px;
-                margin-left: -82px;
+                margin-left: -67px;
                 left: 50%;
                 top: 87%;
             }

@@ -36,11 +36,11 @@
         <p class="paragraph">{{ page.cContent1 }}</p>
     </div>
     </div>
-    <div class="CSservice1 {{page.hide}}">
+    <div class="{{page.CSservice1}} {{page.hide}}">
         <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.png">
     </div>
     {% if page.model == 'enigma' %}
-    <div class="CSservice1 {{page.mob-hide}}">
+    <div class="{{page.CSservice1}} {{page.mob-hide}}">
         <img src="/assets/img/caseStudy-service/{{ page.SImg21  | downcase }}.png">
     </div>
     {% endif %}
@@ -232,7 +232,7 @@
                                                 {% endfor %}
                                                 
                                         </div>
-                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0  cs-allign">
+                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 cs-allign">
                                                 <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
                                         </div>
                                     </div>

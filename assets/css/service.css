@@ -286,6 +286,8 @@ table {
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
+    .bnrText span {
+      color: red; }
   .lb_bdy {
     margin-top: 70px;
     height: auto; }
@@ -352,7 +354,7 @@ textarea:hover, textarea:focus {
     padding: 32px 0px;
     margin-top: -80px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .headingBold {
     font-size: 32px; }
   .headingLight {
@@ -380,7 +382,7 @@ textarea:hover, textarea:focus {
   .ptSans {
     font-size: 20px; }
   .lb_bdy {
-    height: calc(100vh + 160px); }
+    height: calc(100vh + 140px); }
   .heroText {
     font-size: 40px; }
   .bnrText {
@@ -403,7 +405,7 @@ textarea:hover, textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1020px; }
+    height: 1024px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -937,6 +939,8 @@ html, body {
   overflow: auto; }
 
 @media only screen and (min-width: 320px) {
+  .modal1 {
+    position: relative; }
   .mailbox {
     width: 100%;
     height: 100%; }
@@ -949,7 +953,9 @@ html, body {
     display: -ms-flexbox;
     display: flex; }
   .close1 {
-    margin-top: 81px; }
+    margin-top: 10px; }
+    .close1 img {
+      width: 24px; }
   .contactHeader {
     width: 175px;
     font-family: 'MavenPro-Medium';
@@ -1012,11 +1018,14 @@ html, body {
 
 @media only screen and (min-width: 767px) {
   .modal1 {
-    margin-top: 70px; }
+    margin-top: 70px;
+    position: fixed; }
   .contactHeading {
     width: 700px; }
   .close1 {
     margin: 75px 20px 0px 0px; }
+    .close1 img {
+      width: 30px; }
   .modal-content1 {
     height: 100%; }
   .contactHeader {
@@ -1048,9 +1057,9 @@ html, body {
       height: 182px;
       margin: 115px 0px 0px; }
   .lb-mobile {
-    display: none !important; }
+    display: block !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: none !important; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1483,7 +1492,9 @@ html, body {
       top: 128px;
       left: 17%; }
     .footer__bottom {
-      padding: 115px 15% 37px 15%; } }
+      padding: 115px 15% 37px 15%; }
+      .footer__bottom div span {
+        left: 38px !important; } }
 
 @media screen and (min-width: 2000px) {
   .footer__img {
@@ -1585,14 +1596,15 @@ ul.practiceli.paragraph {
     background-color: #e9faff; }
   .prct_rnImg {
     width: 100vw; }
-  .prct .genericTitle, .prct .contextTitle {
-    font-family: "MavenPro-Bold";
+  .prct .genericTitle,
+  .prct .contextTitle {
+    font-family: 'MavenPro-Bold';
     color: #393939; }
   .prct .contextTitle {
-    font-family: "MavenPro-Medium";
+    font-family: 'MavenPro-Medium';
     color: #393939; }
   .prct .contextualTxt {
-    font-family: "PT_Sans-Regular";
+    font-family: 'PT_Sans-Regular';
     font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
@@ -1607,10 +1619,10 @@ ul.practiceli.paragraph {
     padding-top: 0px;
     z-index: 1; }
     .prct_dic .title {
-      font-family: "MavenPro-Bold";
+      font-family: 'MavenPro-Bold';
       color: #393939; }
     .prct_dic .bldContent {
-      font-family: "MavenPro-Medium";
+      font-family: 'MavenPro-Medium';
       color: #393939; }
     .prct_dic .hckTitle {
       display: none; }
@@ -1619,18 +1631,18 @@ ul.practiceli.paragraph {
   .prct_svc {
     padding: 27px 35px 40px 29px; }
     .prct_svc_title {
-      font-family: "MavenPro-Medium";
+      font-family: 'MavenPro-Medium';
       text-align: center; }
       .prct_svc_title .indTxt {
-        font-family: "MavenPro-Medium"; }
+        font-family: 'MavenPro-Medium'; }
       .prct_svc_title .indCon {
-        font-family: "PT_Sans-Regular"; }
+        font-family: 'PT_Sans-Regular'; }
   .prct .dnaSummary {
     background: #fff;
     line-height: 1.5;
     text-align: center; }
   .prct .dnaContainer {
-    font-family: "PT_Sans-Regular";
+    font-family: 'PT_Sans-Regular';
     display: table; }
 
 .prctDiv {
@@ -1640,7 +1652,7 @@ ul.practiceli.paragraph {
     display: inline-block; }
     .prctDiv .prctSec_tab {
       display: inline-block;
-      font-family: "MavenPro-Medium";
+      font-family: 'MavenPro-Medium';
       font-size: 24px;
       cursor: pointer;
       padding-bottom: 2px;
@@ -1658,7 +1670,9 @@ ul.practiceli.paragraph {
     background: url(/assets/img/practice/dna.png) no-repeat scroll 0 0 transparent;
     background-size: contain;
     height: 250px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+  .prct .rContent_1,
+  .prct .rContent_2,
+  .prct .rContent_3 {
     visibility: visible;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1674,7 +1688,8 @@ ul.practiceli.paragraph {
     padding: 0 15px; }
   .prct .rContent_2 {
     padding-left: 40px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
+  .prct .rContent_1Img,
+  .prct .rContent_3Img {
     margin-left: -135px; }
   .prct .rContent_1Img {
     -webkit-transform: rotate(-30deg);
@@ -1719,7 +1734,7 @@ ul.practiceli.paragraph {
     font-size: 16px;
     padding: 16px 0px;
     text-align: center;
-    font-family: "MavenPro-Medium";
+    font-family: 'MavenPro-Medium';
     color: #393939; }
   .prct_dic .bsTxt {
     text-align: center; }
@@ -1768,11 +1783,14 @@ ul.practiceli.paragraph {
   .prct .dnaImgMob {
     width: 508px;
     height: 508px; }
-  .prct .rContent_1, .prct .rContent_2, .prct .rContent_3 {
+  .prct .rContent_1,
+  .prct .rContent_2,
+  .prct .rContent_3 {
     height: 508px; }
   .prct .rContent_2 {
     padding-left: 107px; }
-  .prct .rContent_1Img, .prct .rContent_3Img {
+  .prct .rContent_1Img,
+  .prct .rContent_3Img {
     margin-left: -270px; }
   .prct .rContent_1Img {
     -webkit-transform: rotate(-30deg);
@@ -1832,7 +1850,7 @@ ul.practiceli.paragraph {
   .philSec {
     margin: 50px 29px 0; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .diverse-content {
     padding-top: 105px; }
   .knowmore {
@@ -2022,7 +2040,7 @@ ul.practiceli.paragraph {
     margin: 80px 29px 65px; } }
 
 .heroText__dna {
-  font-family: "MavenPro-Medium";
+  font-family: 'MavenPro-Medium';
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -2066,7 +2084,8 @@ li.lb_work_filterli:first-child {
 .right.in-view {
   position: fixed; }
 
-.rContent_2, .rContent_3 {
+.rContent_2,
+.rContent_3 {
   display: none; }
 
 .prct .hero_img {
@@ -2221,7 +2240,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     height: 194px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    -webkit-box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .lb-filter-service {
     padding-bottom: 24px; } }
 
@@ -2235,7 +2256,9 @@ div.test {
     display: block; }
   .lb-filter-Img {
     padding-left: 15px;
-    height: 255px; }
+    height: 255px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb_work_filter li {
     font-size: 16px; }
   .lb_filter_mb {
@@ -2273,7 +2296,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 32px; } }
 
@@ -2296,7 +2321,9 @@ div.test {
     text-align: center; }
   .lb-filter-Img {
     padding-left: 30px;
-    height: 340px; }
+    height: 340px;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
   .lb-filter-service {
     padding-bottom: 48px; } }
 
@@ -2427,8 +2454,6 @@ li.lb_work_filterli:first-child {
           padding-top: 65px;
           display: block;
           color: #393939 !important; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3:hover {
-            color: #fff; }
           .homePage__BnrDiv__Service__Cards__Inner__a__img {
             background-repeat: no-repeat;
             width: 88px;
@@ -2452,26 +2477,6 @@ li.lb_work_filterli:first-child {
             color: #737373; }
       .homePage__BnrDiv__Service__Cards__Inner1 {
         margin-right: 0; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover {
-        background-color: #ee4b6e;
-        color: #fff !important;
-        text-decoration: none !important;
-        -webkit-transition: background-color 100ms linear;
-        transition: background-color 100ms linear; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-        display: block; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover p {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover img {
-        display: block;
-        margin: 30px auto;
-        width: 31px;
-        height: 28px; }
       .homePage__BnrDiv__Service__Cards__Inner:last-child {
         margin-right: 0; }
 
@@ -2522,6 +2527,32 @@ li.lb_work_filterli:first-child {
   width: 1100px;
   margin: 150px auto 0; }
 
+@media screen and (min-width: 767px) {
+  .homePage__BnrDiv__Service__Cards__Inner h3:hover {
+    color: #fff; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover img {
+    display: block; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover {
+    background-color: #ee4b6e;
+    color: #fff !important;
+    text-decoration: none !important;
+    -webkit-transition: background-color 100ms linear;
+    transition: background-color 100ms linear; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
+    color: #fff !important;
+    text-decoration: none !important; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+    display: none; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+    display: block; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover p {
+    display: none; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover img {
+    display: block;
+    margin: 30px auto;
+    width: 31px;
+    height: 28px; } }
+
 @media screen and (max-width: 1366px) {
   li.lb_work_filterli:first-child {
     margin-left: 60px !important; }
@@ -2563,8 +2594,6 @@ li.lb_work_filterli:first-child {
           height: 64px; }
     .homePage__BnrDiv__Service__Cards__Inner1 {
       margin-right: 0; }
-    .homePage__BnrDiv__Service__Cards__Inner:hover img {
-      display: block; }
     .homePage__dna__left {
       width: 50%; }
       .homePage__dna__left img {
@@ -2642,7 +2671,7 @@ li.lb_work_filterli:first-child {
     width: 700px;
     margin: 170px auto 0; } }
 
-@media screen and (max-width: 767px) and (hover: none) {
+@media screen and (max-width: 767px) {
   .homePage {
     margin-top: 35px; }
     .homePage__BnrDiv {
@@ -2967,7 +2996,7 @@ ul.lb_work_filter.lb_service_lg {
             transform: scale(0); }
   .stepwizard {
     width: 100%;
-    height: 310px;
+    height: 315px;
     padding-top: 0px; }
   .step-content {
     width: 192px;

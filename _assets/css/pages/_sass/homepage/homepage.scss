@@ -75,9 +75,7 @@ li.lb_work_filterli:first-child {
                         padding-top:65px;
                         display: block;
                         color: #393939 !important; 
-                        h3:hover{
-                            color: #fff;
-                        }
+                        
                         &__img{
                             // background-image: url("/assets/img/homepage/service-design.svg");
                             background-repeat: no-repeat;
@@ -128,42 +126,7 @@ li.lb_work_filterli:first-child {
                 &__Inner1{
                     margin-right: 0;
                 }
-                &__Inner:hover{
-                    background-color:#ee4b6e;
-                    color:#fff !important;
-                    text-decoration: none !important;
-                    -webkit-transition: background-color 100ms linear;
-                    -ms-transition: background-color 100ms linear;
-                    transition: background-color 100ms linear;
-                    // &__a{
-                    //     &__normal{
-                    //         display: none;
-                    //     }
-                    //     &__onHover{
-                    //         display: block;
-                    //     }
-                    // }
-                }
-                &__Inner:hover &__Inner__a{
-                    color:#fff !important;
-                    text-decoration: none !important;
-                }
-                &__Inner:hover &__Inner__a &__Inner__a__normal{
-                    display: none;
-                }
-                &__Inner:hover &__Inner__a &__Inner__a__onHover{
-                    display: block;
-                }
-               
-                &__Inner:hover p{
-                    display: none;
-                }
-                &__Inner:hover img{
-                    display: block;
-                    margin: 30px auto;
-                    width: 31px;
-                    height: 28px;
-                }
+                
                 &__Inner:last-child{
                     margin-right: 0;
                 } 
@@ -230,6 +193,62 @@ li.lb_work_filterli:first-child {
     
     width: 1100px;
     margin: 150px auto 0;
+}
+@media screen and (min-width: 767px) {
+    .homePage{
+        &__BnrDiv{ 
+            &__Service{
+                &__Cards{
+                    &__Inner{
+                        h3:hover{
+                            color: #fff;
+                        }
+                    }
+                    &__Inner:hover img{
+                        display: block;
+                    }
+                    &__Inner:hover{
+                        background-color:#ee4b6e;
+                        color:#fff !important;
+                        text-decoration: none !important;
+                        -webkit-transition: background-color 100ms linear;
+                        -ms-transition: background-color 100ms linear;
+                        transition: background-color 100ms linear;
+                        // &__a{
+                        //     &__normal{
+                        //         display: none;
+                        //     }
+                        //     &__onHover{
+                        //         display: block;
+                        //     }
+                        // }
+                    }
+                    &__Inner:hover &__Inner__a{
+                        color:#fff !important;
+                        text-decoration: none !important;
+                    }
+                    &__Inner:hover &__Inner__a &__Inner__a__normal{
+                        display: none;
+                    }
+                    &__Inner:hover &__Inner__a &__Inner__a__onHover{
+                        display: block;
+                    }
+                   
+                    &__Inner:hover p{
+                        display: none;
+                    }
+                    &__Inner:hover img{
+                        display: block;
+                        margin: 30px auto;
+                        width: 31px;
+                        height: 28px;
+                    }
+                }
+
+            }
+
+        }
+    }
 }
 @media screen and (max-width: 1366px) {
     li.lb_work_filterli:first-child {
@@ -300,13 +319,12 @@ li.lb_work_filterli:first-child {
                             //     height: 64px;
                             // }
                         }
+                        
                     }
                     &__Inner1{
                         margin-right: 0;
                     }
-                    &__Inner:hover img{
-                        display: block;
-                    }
+                    
                 }
             }
         }
@@ -341,6 +359,7 @@ li.lb_work_filterli:first-child {
     }
 }
 @media screen and (max-width: 1023px) {
+    
     li.lb_work_filterli:first-child {
         margin-left: 15px !important;
     }
@@ -436,7 +455,7 @@ li.lb_work_filterli:first-child {
         margin: 170px auto 0;
     }
 }
-@media screen and (max-width: 767px) and (hover:none){
+@media screen and (max-width: 767px){
 
     .homePage{
         margin-top: 35px;

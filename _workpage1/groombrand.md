@@ -8,6 +8,7 @@ product_description: Branding / Visual identity / Website
 banner_image: "/assets/img/caseStudy/groome-copy.png"
 url: "ServiceDesign2"
 title: Groome Branding
+current : Branding & Comm.
 brandTitle: "Branding for Machine Intelligence powered HR solution application"
 textcolor: text-white
 enigma_banner: "/assets/img/branding/groome.jpg"   
@@ -55,7 +56,7 @@ perceiveList:
  - perceivepara: "- Understand the customer’s vision for the brand"
  - perceivepara: " - Brand voice for telling the story"
  - perceivepara: "- Design the storytelling strategy"
-percieveImage: "percieve.jpg"
+percieveImage: "percieve3.png"
 
 
 
@@ -69,7 +70,7 @@ conceptImage4: "concept4.png"
 
 finallogo: "groomelogo.svg"
 
-meaningTitle: "Meaning behind the Logo"
+meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo was evolved out of the search icon and human icon which represent the key of the brand, finding a ideal hire for the job role. "
 meaningImage: "groomemeaning.svg"
 enigmalogo: "groome1.svg"
@@ -84,10 +85,10 @@ evolveparagraph: "With the logo created, we decided to add colours and typograph
 colorPalette: "Color Palette"
 
 colorPaletter_list:
-  - paletter: "color1.svg"
-  - paletter: "color2.svg"
-  - paletter: "color3.svg"
-  - paletter: "color4.svg"
+  - paletter: "color1.png"
+  - paletter: "color2.png"
+  - paletter: "color3.png"
+  - paletter: "color4.png"
 
 fontfamily1: "Typography"
 font: "groomefont.png"
@@ -100,13 +101,9 @@ icon_list:
   - icons: 'appicon-3.svg'
 
 icon_list1:
-  - icons1: 'groomIcon1.svg'
-  - icons1: 'groomIcon2.svg'
-  - icons1: 'groomIcon3.svg'
-  - icons1: 'groomIcon4.svg'
-  - icons1: 'groomIcon5.svg'
-  - icons1: 'groomIcon6.svg'
-
+  - icons1: 'groomIcon1.png'
+  - icons1: 'groomIcon2.png'
+  - icons1: 'groomIcon3.png'
 
 enigmaImageListt:
   - enigmaimg: "mockup-1.jpg"

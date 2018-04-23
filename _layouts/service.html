@@ -7,8 +7,11 @@
                 <div class="hero_img"></div>
                 <div class="hero_cnt">
                     <div class="heroText">
-                        {{page.subtitle}}
-                            <span class="heroHighlight">design</span>
+                        {{page.subtitle}} <span style="color:red">{{page.extra}}</span>
+                        {% if page.subtitle != "Branding &"%}
+                            <span class="heroHighlight">Design</span>
+                            {% endif %}
+
                     </div>
                     <div class="bnrText">
                            {{page.desc1}}
@@ -18,7 +21,7 @@
             </div>
 <div class="lb-service-content">
       
-            {% if page.subtitle != "Branding & Communication"%}
+            {% if page.subtitle != "Branding &"%}
                 <div class="lb_service">
                         <ul class="lb_work_filter lb_service_lg  step-head">
                             <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing Product</li>
@@ -26,10 +29,10 @@
                         </ul>
                 </div>
             {% endif %}
-            {% if page.subtitle == "Branding & Communication"%}
+            {% if page.subtitle == "Branding &"%}
    
             <div class="lb_service">
-                <ul class="lb_work_filter lb_service_lg">
+                <ul class="lb_work_filter lb_service_lg step-head">
                     <li class="lb_work_filterli lb_work_filterActive">Our Process</li>
                     
                 </ul>
@@ -45,7 +48,7 @@
 
                         <button class="btn-circle service-btn trigger-1 transparent"></button> 
                         <p class="stepperp"><small>{{page.flowContent1}}</small></p>
-                        <div class="step-content paragraph step-content-show">Deep diving into the business operations to understand the processes and mapping the stakeholders involved</div>
+                        <div class="step-content paragraph step-content-show">{{page.existprocuctContent1}}</div>
                     </div>
                     <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
                             <!-- <img src="/assets/img/service/arrow.png"> -->
@@ -53,7 +56,7 @@
                         <div class="circle2"></div>
                         <button class="btn-circle service-btn"></button> 
                         <p class="stepperp"><small>{{page.flowContent2}}</small></p>
-                        <div class="step-content paragraph">Mapping the user journey for each of the personas and understanding how they behave</div>
+                        <div class="step-content paragraph">{{page.existprocuctContent2}}</div>
                     </div>
                     <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
                             <!-- <img src="/assets/img/service/arrow.png"> -->
@@ -61,7 +64,7 @@
                         <div class="circle2 "></div>
                         <button type="button" class="btn-circle service-btn"></button>
                         <p class="stepperp"><small>{{page.flowContent3}}</small></p>
-                        <div class="step-content paragraph">Design overhaul based on concrete user research and testing</div>
+                        <div class="step-content paragraph">{{page.existprocuctContent3}}</div>
 
                     </div>
                     <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
@@ -70,7 +73,7 @@
                         <div class="circle2"></div>
                         <button type="button" class="btn-circle service-btn"></button>
                         <p class="stepperp"><small>{{page.flowContent4}}</small></p>
-                        <div class="step-content paragraph">Reaching out to the end customers and collect data to improve user experience</div>
+                        <div class="step-content paragraph">{{page.existprocuctContent4}}</div>
 
                     </div>
                 </div>
@@ -85,7 +88,7 @@
                         <div class="circle2 circle-animation"></div>
                         <button class="btn-circle service-btn transparent"></button>
                         <p class="stepperp"><small>{{page.newproductContent1}}</small></p>
-                        <div class="step-content paragraph step-content-show">Empathizing for end-user and understanding their needs</div>
+                        <div class="step-content paragraph step-content-show">{{page.newprodContent1}}</div>
 
                         </div>
                     <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
@@ -93,21 +96,21 @@
                             <div class="circle2 "></div>
                         <button class="btn-circle service-btn"></button>
                         <p class="stepperp"><small>{{page.newproductContent2}}</small></p>
-                        <div class="step-content paragraph">Creating the workflow and mapping the journey for each of the personas</div>
+                        <div class="step-content paragraph">{{page.newprodContent2}}</div>
                     </div>
                     <div class="stepwizard-step  col-xs-12 col-sm-3 col-md-3 col-lg-3">
                             <div class="circle1"></div>
                             <div class="circle2"></div>
                         <button class="btn-circle service-btn"></button>
                         <p class="stepperp"><small>{{page.newproductContent3}}</small></p>
-                        <div class="step-content paragraph">Building omni-channel wireframe and optimise user experience through customer feedback</div>
+                        <div class="step-content paragraph">{{page.newprodContent3}}</div>
                     </div>
                     <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
                             <div class="circle1"></div>
                             <div class="circle2"></div> 
                         <button class="btn-circle service-btn"></button>
                         <p class="stepperp"><small>{{page.newproductContent4}} </small></p>
-                        <div class="step-content paragraph">Design scalable UI components and create inspiring screens which captures the user’s imagination</div>
+                        <div class="step-content paragraph">{{page.newprodContent4}}</div>
                     </div>
                 </div>
 
@@ -167,14 +170,14 @@
 <section>
     <div>
         <div class="lb-filterDiv container">
-               {% if page.subtitle == "Branding & Communication"%}
+               {% if page.subtitle == "Branding &"%}
                 <div class="row">
                     {% assign item = site.caseStudy %}
                     {% for work in item %}
                     
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service  brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                             <a href="{{work.url}}">
-                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
@@ -192,7 +195,7 @@
                     {% for work in item %}
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                         <a href="{{work.url}}">
-                            <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                            <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                             <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                 <div class="lb-filter-head {{work.textcolor}}">
                                     {{work.product_title}}
@@ -214,7 +217,7 @@
                        
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                                 <a href="{{work.url}}">
-                                <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                                <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
@@ -236,7 +239,7 @@
                         {% for work in item %}
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
                             <a href="{{work.url}}">    
-                            <div class="lb-filter-Img" style="background-image:url('{{work.banner_image}}')">
+                            <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
                                 <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
                                     <div class="lb-filter-head {{work.textcolor}}">
                                         {{work.product_title}}
