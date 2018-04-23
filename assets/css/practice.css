@@ -371,7 +371,7 @@ table {
     font-size: 24px; }
   .genericTitle2 {
     font-size: 24px;
-    padding-top: 40px; }
+    margin-top: 40px; }
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
@@ -2108,7 +2108,7 @@ html, body {
     margin: 0; }
   #fullpage .hero_cnt {
     position: absolute;
-    bottom: 20px;
+    bottom: 15%;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
@@ -2163,8 +2163,9 @@ html, body {
     left: 25%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
-  #fullpage .hero__img {
-    background-size: 100%; } }
+  #fullpage .hero_img {
+    background-size: 100%;
+    margin-top: 70px; } }
 
 @media screen and (min-width: 1367px) {
   #fullpage .knowmore {
@@ -2215,7 +2216,9 @@ html, body {
   #fullpage .footer__img {
     bottom: 34px; }
   #fullpage .hero_img {
-    height: calc(100vh - 160px); } }
+    height: calc(100vh - 160px); }
+  #fullpage .hero_cnt {
+    bottom: 10px; } }
 
 #fullpage .heroText__dna {
   font-family: 'MavenPro-Medium';

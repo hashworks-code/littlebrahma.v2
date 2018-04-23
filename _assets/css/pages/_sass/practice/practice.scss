@@ -613,7 +613,7 @@
     }
     .hero_cnt {
       position: absolute;
-      bottom: 20px;
+      bottom: 15%;
       left: 50%;
       transform: translate(-50%, 0);
       //   &::before {
@@ -663,8 +663,9 @@
       left: 25%;
       transform: translate(-50%, 0);
     }
-    .hero__img {
+    .hero_img {
       background-size: 100%;
+      margin-top: 70px;
     }
   }
   @media screen and (min-width: 1367px) {
@@ -736,6 +737,9 @@
     }
     .hero_img {
       height: calc(100vh - 160px);
+    }
+    .hero_cnt {
+      bottom: 10px;
     }
   }
 
