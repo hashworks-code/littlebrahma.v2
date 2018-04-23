@@ -564,6 +564,9 @@ Primary style
   overflow: auto;
 }
 @media only screen and (min-width:320px) {
+  .modal1 {
+    position: relative;
+  }
   .mailbox{
     width: 100%;
     height: 100%
@@ -671,6 +674,7 @@ Primary style
 
 .modal1 {
   margin-top: 70px;
+  position: fixed;
 }
 
   .contactHeading{
