@@ -158,7 +158,7 @@ division_loop:
         - cContent11: '- Workflow insights, for navigating through the incidents and mitigate the problem'
         - cContent11: '- Data driven dashboards and actionable metrics'
         - cContent11: '- Help the support teams to take corrective actions instantly'
-      SImg6: 'opm-order'
+      SImg6: 'opm-order1'
 
 
 full_image:
