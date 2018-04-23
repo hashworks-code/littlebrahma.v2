@@ -2164,6 +2164,9 @@ html, body {
   background-image: url(/assets/img/about_us/004_About.gif);
   background-color: #eeffde; }
 
+.philSec1 {
+  margin-top: 40px; }
+
 @media screen and (min-width: 320px) {
   .about-us {
     padding: 40px 29px 24px;
@@ -2188,7 +2191,13 @@ html, body {
     text-align: left;
     padding-left: 7px; }
   .aboutheading h3 {
-    padding-bottom: 24px; } }
+    padding-bottom: 24px; }
+  .philSec1 {
+    margin-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .philSecdata .headingBold {
+    text-align: center; } }
 
 @media screen and (min-width: 768px) {
   .about-us {
@@ -2214,7 +2223,9 @@ html, body {
       text-align: left;
       padding-left: 7px; }
     .aboutheading h3 {
-      padding-bottom: 50px; } }
+      padding-bottom: 50px; }
+  .philSec1 {
+    margin-top: 24px; } }
 
 @media screen and (min-width: 1024px) {
   .about-us {
@@ -2238,7 +2249,9 @@ html, body {
     width: 935px;
     margin: 0 auto; }
     .aboutheading h3 {
-      padding-bottom: 50px; } }
+      padding-bottom: 50px; }
+  .philSec1 {
+    margin-top: 32px; } }
 
 @media screen and (min-width: 1366px) {
   .about-us {
@@ -2247,4 +2260,6 @@ html, body {
     .about-us img {
       padding: 0 15px 30px; }
     .about-us .row {
-      width: 1100px; } }
+      width: 1100px; }
+  .philSec1 {
+    margin-top: 40px; } }

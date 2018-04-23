@@ -15,7 +15,7 @@ enigma_banner: "/assets/img/branding/groome.jpg"
 backgroundColor:  backgroundgroome
 
 inntroTitle: "Introduction"
-introparagraph: "Groome, an AI-enabled HR solution which helps to find a desired candidature for the job rule from the talent pool. It synchronizes the sales, operations and recruitment processes to ease the workflow management."
+introparagraph: "Groome, an AI-enabled HR solution which helps to find a desired candidature for the job role from the talent pool. It synchronizes the sales, operations and recruitment processes to ease the workflow management."
 
 background:
   - image: "/assets/img/branding/hashworks/groomeconceptmob.png"
