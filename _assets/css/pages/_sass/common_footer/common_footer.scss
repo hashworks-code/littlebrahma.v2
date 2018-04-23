@@ -1,461 +1,448 @@
-
-.footer{
- 
-  &__inner{
+.footer {
+  &__inner {
     font-size: 48px;
     font-family: 'MavenPro-Regular';
     color: #393939;
-    h1{
+    h1 {
       margin-bottom: 10px;
       margin-top: 15px;
     }
-    a{
+    a {
       font-size: 20px;
       text-decoration: none;
     }
   }
-  .socialLogo{
+  .socialLogo {
     text-align: center;
     text-align: center;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  img{
-    width: 23px;
-    height: 23px;
-    margin-right: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    img {
+      width: 23px;
+      height: 23px;
+      margin-right: 5px;
+    }
+    .behance {
+      width: 28px;
+      height: 28px;
+    }
   }
-  .behance{
-    width: 28px;
-    height: 28px;
-  }
-  }
-  &__bottom{
+  &__bottom {
     // position: absolute;
     // bottom: 40px;
     // width: 100%;
     // text-align: center;
-    div{
+    div {
       display: inline-block;
       font-family: 'MavenPro-Bold';
       font-size: 16px;
       color: #ffffff;
-     
     }
-    &__div{
+    &__div {
       text-align: left;
     }
-   
-    &__div2{
+
+    &__div2 {
       text-align: right;
       position: relative;
-      z-index: 9999
+      z-index: 9999;
     }
   }
 }
 @media screen and (min-width: 1024px) {
-.footer{
-  height: 600px;
-  position: relative;
-  &__image{
-    position: absolute;
-    bottom: 0px;
-    top:469px;
-    width: 100%;
-    background: linear-gradient(to top,#ff698f,#ff84a1);
-   z-index: -1;
-  }
-  &__img{
-    width: 870px;
-    position: static;
-    display: flex;
-    margin: 0 auto;
-    z-index: 2;
-    padding-top:126px;
-  }
-&__inner{
-  position: absolute;
-    top: 35px;
-    left: 10%;;
-  font-size: 40px;
-  a{
-    font-size: 20px;
-  }
-}
-.vertical-line{
-  position: relative;
-}
-&__bottom{
-  bottom:16px;
-  display: flex;
-  height: 100%;
-  align-items: flex-end;
-  width: 100%;
-  padding: 78px 42px 37px 42px;
-  margin: 0 auto;
-justify-content: space-between;
-z-index: 99999999;
-  div{
-    font-size: 16px;
-    .logo-footer{
-      width:40px;
-      height:40px;
-      top:5px;
-      position: relative;
-    }
-    p{
-      display: inline-block;
-      position: relative;
-      top: -5px;
-      left: 10px;
-    }
-    span{
-      display: block;
+  .footer {
+    height: 600px;
+    position: relative;
+    &__image {
       position: absolute;
-      z-index: 1;
-      left: 40px;
-      top: 5px;
-      height: 48px;
-      bottom: 0;
-      border: 1px solid;
-      border-width: 0 0 0 1px;
+      bottom: 0px;
+      top: 469px;
+      width: 100%;
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1;
+    }
+    &__img {
+      width: 870px;
+      position: static;
+      display: flex;
+      margin: 0 auto;
+      z-index: 2;
+      padding-top: 126px;
+    }
+    &__inner {
+      position: absolute;
+      top: 35px;
+      left: 10%;
+      font-size: 40px;
+      a {
+        font-size: 20px;
+      }
+    }
+    .vertical-line {
+      position: relative;
+    }
+    &__bottom {
+      bottom: 16px;
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      width: 100%;
+      padding: 78px 42px 37px 42px;
+      margin: 0 auto;
+      justify-content: space-between;
+      z-index: 99999999;
+      div {
+        font-size: 16px;
+        .logo-footer {
+          width: 40px;
+          height: 40px;
+          top: 5px;
+          position: relative;
+        }
+        p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px;
+        }
+        span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 40px;
+          top: 5px;
+          height: 48px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px;
+        }
+      }
+    }
+    .socialLogo {
+      font-size: 12px;
+      bottom: 33px;
+      left: 48%;
+      img {
+        width: 21px;
+        height: 21px;
+      }
+      .behance {
+        width: 25px;
+        height: 25px;
+      }
     }
   }
-}
-.socialLogo{
-  font-size: 12px;
-bottom: 33px;
-left: 48%;
-img{
-  width: 21px;
-  height: 21px;
-}
-.behance{
-  width: 25px;
-  height: 25px;
-}
-}
-}
 }
 
 @media screen and (max-width: 1023px) {
-.footer{
-  height: 500px;
-  position: relative;
-  &__image{
-    position: absolute;
-    bottom: 0px;
-    top:396px;
-    width: 100%;
-    background: linear-gradient(to top,#ff698f,#ff84a1);
-   z-index: -1;
-  }
-  &__img{
-    width:722px;
-    position: static;
-    display: flex;
-    margin: 0 auto;
-    z-index: 2;
-    padding-top:112px;
-  }
-&__inner{
-  position: absolute;
-  font-size: 32px;
-  padding: 0;
-  left: 55px;
-  top: 25px;
-
-  a{
-    font-size: 14px;
-  }
-  h1{
-    padding-bottom: 0px;
-  }
-}
-&__bottom{
-  bottom:16px;
-  display: flex;
-  height: 100%;
-  align-items: flex-end;
-  width: 100%;
-  padding: 67px 35px 24px 35px;
-  margin: 0 auto;
-  justify-content: space-between;
-  z-index: 99999999;
-  div{
-    font-size: 12px;
-    .logo-footer{
-      width:30px;
-      height:30px;
-      top:4px;
-      position: relative;
-    }
-    span{
-      display: block;
+  .footer {
+    height: 500px;
+    position: relative;
+    &__image {
       position: absolute;
-      z-index: 1;
-      left: 69px;
-      top: 52px;
-      height: 38px;
-      bottom: 0;
-      border: 1px solid;
-      border-width: 0 0 0 1px;
+      bottom: 0px;
+      top: 396px;
+      width: 100%;
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1;
     }
-    p{
-      display: inline-block;
-      position: relative;
-      top: -5px;
-      left: 10px;
+    &__img {
+      width: 722px;
+      position: static;
+      display: flex;
+      margin: 0 auto;
+      z-index: 2;
+      padding-top: 112px;
+    }
+    &__inner {
+      position: absolute;
+      font-size: 32px;
+      padding: 0;
+      left: 55px;
+      top: 25px;
+
+      a {
+        font-size: 14px;
+      }
+      h1 {
+        padding-bottom: 0px;
+      }
+    }
+    &__bottom {
+      bottom: 16px;
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      width: 100%;
+      padding: 67px 35px 24px 35px;
+      margin: 0 auto;
+      justify-content: space-between;
+      z-index: 99999999;
+      div {
+        font-size: 12px;
+        .logo-footer {
+          width: 30px;
+          height: 30px;
+          top: 4px;
+          position: relative;
+        }
+        span {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          left: 69px;
+          top: 52px;
+          height: 38px;
+          bottom: 0;
+          border: 1px solid;
+          border-width: 0 0 0 1px;
+        }
+        p {
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          left: 10px;
+        }
+      }
+    }
+    .socialLogo {
+      font-size: 12px;
+      bottom: 17px;
+      left: 44%;
+      img {
+        width: 21px;
+        height: 21px;
+      }
+      .behance {
+        width: 25px;
+        height: 25px;
+      }
     }
   }
-}
-.socialLogo{
-  font-size: 12px;
-bottom: 17px;
-left: 44%;
-img{
-  width: 21px;
-  height: 21px;
-}
-.behance{
-  width: 25px;
-  height: 25px;
-}
-}
-}
 }
 @media screen and (max-width: 767px) {
-.footer{
-  height: 300px;
-  position: relative;
-  &__image{
-    position: absolute;
-    bottom: 0px;
-    top:235px;
-    width: 100%;
-    background: linear-gradient(to top,#ff698f,#ff84a1);
-   z-index: -1;
-  }
-  &__img{
-    width:320px;
-    padding-top:110px;
-  }
-&__inner{
-  position: absolute;
-  font-size: 24px;
-  padding: 0;
-  top: 32px;
-  left: 30px;
-  a{
-    font-size: 14px;
-  }
-  h1{
-    padding-bottom: 0px;
-  }
-}
-&__bottom{
-  bottom:16px;
-  display: flex;
-  height: 100%;
-  align-items: flex-end;
-  width: 100%;
-  padding: 40px 15px 16px 15px;
-  margin: 0 auto;
-  justify-content: space-between;
-  z-index: 99999999;
-  div{
-    font-size: 8px;
-    img{
-      width: 8px;
-      height: 8px;
+  .footer {
+    height: 300px;
+    position: relative;
+    &__image {
+      position: absolute;
+      bottom: 0px;
+      top: 235px;
+      width: 100%;
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1;
     }
-    span{
-
-      display:none;
-     
+    &__img {
+      width: 320px;
+      padding-top: 110px;
+    }
+    &__inner {
+      position: absolute;
+      font-size: 24px;
+      padding: 0;
+      top: 32px;
+      left: 30px;
+      a {
+        font-size: 14px;
+      }
+      h1 {
+        padding-bottom: 0px;
+      }
+    }
+    &__bottom {
+      bottom: 16px;
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      width: 100%;
+      padding: 40px 15px 16px 15px;
+      margin: 0 auto;
+      justify-content: space-between;
+      z-index: 99999999;
+      div {
+        font-size: 8px;
+        img {
+          width: 8px;
+          height: 8px;
         }
-        p{
+        span {
+          display: none;
+        }
+        p {
           position: relative;
-          top:0;
-          left:0;
+          top: 0;
+          left: 0;
         }
-    .behance{
-      width: 10px;
-      height: 10px;
+        .behance {
+          width: 10px;
+          height: 10px;
+        }
+        .logo-footer {
+          width: 24px;
+          height: 24px;
+          display: none;
+        }
+      }
     }
-    .logo-footer{
-      width:24px;
-      height:24px;
-      display:none;
+    .socialLogo {
+      font-size: 8px;
+      bottom: 10px;
+      left: 41%;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+      .behance {
+        width: 10px;
+        height: 10px;
+      }
     }
   }
 }
-.socialLogo{
-  font-size: 8px;
-bottom: 14px;
-left: 42%;
-img{
-  width: 8px;
-  height: 8px;
-}
-.behance{
-  width: 10px;
-  height: 10px;
-}
-}
-}
 
-}
-
-
-
- /*footer ends*/
- @media screen and (min-width: 1367px) {
-  .footer{
+/*footer ends*/
+@media screen and (min-width: 1367px) {
+  .footer {
     height: 700px;
     position: relative;
-    &__image{
+    &__image {
       position: absolute;
-      top:568px;
+      top: 568px;
       bottom: 0px;
       width: 100%;
-      background: linear-gradient(to top,#ff698f,#ff84a1);
-     z-index: -1;
+      background: linear-gradient(to top, #ff698f, #ff84a1);
+      z-index: -1;
     }
-    &__img{
+    &__img {
       width: 941px;
       position: absolute;
       right: 5%;
       bottom: 8px;
     }
-  &__inner{
-    position: absolute;
-    top: 128px;
-    left: 12%;
-    font-size: 40px;
-     h1{
-      padding-bottom: 15px;
+    &__inner {
+      position: absolute;
+      top: 128px;
+      left: 12%;
+      font-size: 40px;
+      h1 {
+        padding-bottom: 15px;
+      }
+      a {
+        font-size: 20px;
+      }
     }
-    a{
-      font-size: 20px;
+
+    &__bottom {
+      bottom: 16px;
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      width: 100%;
+      padding: 78px 165px 37px 165px;
+      margin: 0 auto;
+      justify-content: space-between;
+      z-index: 99999999;
+
+      div {
+        font-size: 16px;
+      }
     }
-   
-  }
-
-  &__bottom{
-    bottom:16px;
-    display: flex;
-    height: 100%;
-    align-items: flex-end;
-    width: 100%;
-    padding: 78px 165px 37px 165px;
-   margin: 0 auto;
-   justify-content: space-between;
-   z-index: 99999999;
-
-    div{
+    .socialLogo {
       font-size: 16px;
+      bottom: 33px;
+      left: 50%;
+      z-index: 9999;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+      .behance {
+        width: 28px;
+        height: 28px;
+      }
     }
   }
-  .socialLogo{
-    font-size: 16px;
-  bottom: 33px;
-  left: 50%;
-  z-index: 9999;
-  img{
-    width: 28px;
-    height: 28px;
-  }
-  .behance{
-    width: 28px;
-    height: 28px;
-  }
-  }
-  }
-  }
-  @media screen and (min-width:1800px) {
-    .footer{
-      height: 800px;
-      &__image{
-        bottom: 0px;
-        top:630px;
-      }
-      &__img{
-        width: 1260px;
-        right:10%;
-        bottom: 3px;
-      
-      }
-    &__inner{
+}
+@media screen and (min-width: 1800px) {
+  .footer {
+    height: 800px;
+    &__image {
+      bottom: 0px;
+      top: 630px;
+    }
+    &__img {
+      width: 1260px;
+      right: 10%;
+      bottom: 3px;
+    }
+    &__inner {
       top: 128px;
       left: 17%;
-  }
-  &__bottom{
-    padding: 115px 15% 37px 15%;
-    div{
-      span{
-        left:38px !important;
+    }
+    &__bottom {
+      padding: 115px 15% 37px 15%;
+      div {
+        span {
+          left: 38px !important;
+        }
       }
     }
-    
   }
 }
-  }
-  @media screen and (min-width:2000px) {
-    .footer{
-     
-      &__img{
-        width: 1260px;
-        right:20%;
-        bottom: 4px;
-      }
-    &__inner{
+@media screen and (min-width: 2000px) {
+  .footer {
+    &__img {
+      width: 1260px;
+      right: 20%;
+      bottom: 4px;
+    }
+    &__inner {
       top: 128px;
-      left:21%;
+      left: 21%;
       font-size: 40px;
-  }
-  &__bottom{
-    padding: 115px 22% 37px 23%;
+    }
+    &__bottom {
+      padding: 115px 22% 37px 23%;
+    }
   }
 }
-  }
-  @media screen and (min-width:2500px) {
-    .footer{
-     
-      &__img{
-        width: 1260px;
-        right:20%;
-        bottom: 4px;
-      }
-    &__inner{
+@media screen and (min-width: 2500px) {
+  .footer {
+    &__img {
+      width: 1260px;
+      right: 20%;
+      bottom: 4px;
+    }
+    &__inner {
       top: 128px;
-      left:26%;
+      left: 26%;
       font-size: 40px;
-  }
-  &__bottom{
-    padding: 115px 23% 37px 25%;
+    }
+    &__bottom {
+      padding: 115px 23% 37px 25%;
+    }
   }
 }
+@media screen and (min-width: 3000px) {
+  .footer {
+    height: 800px;
+    &__image {
+      bottom: 0px;
+    }
+    &__img {
+      width: 1300px;
+      right: 20%;
+      bottom: 0px;
+    }
+    &__inner {
+      left: 28%;
+    }
+    &__bottom {
+      padding: 115px 23% 37px 27%;
+    }
+    .socialLogo {
+      left: 52%;
+    }
   }
-  @media screen and (min-width:3000px) {
-    .footer{
-      height: 800px;
-      &__image{
-        bottom: 0px;
-      }
-      &__img{
-        width: 1300px;
-        right:20%;
-        bottom: 0px;
-      }
-    &__inner{
-      left:28%;
-  }
-  &__bottom{
-    padding: 115px 23% 37px 27%;
-  }
-  .socialLogo{
-  left: 52%;
 }
-}
-  }

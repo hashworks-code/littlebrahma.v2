@@ -1502,11 +1502,11 @@ html, body {
           display: none; }
     .footer .socialLogo {
       font-size: 8px;
-      bottom: 14px;
-      left: 42%; }
+      bottom: 10px;
+      left: 41%; }
       .footer .socialLogo img {
-        width: 8px;
-        height: 8px; }
+        width: 16px;
+        height: 16px; }
       .footer .socialLogo .behance {
         width: 10px;
         height: 10px; } }
