@@ -1,121 +1,137 @@
-{% include header.html %}
-    {% include common_header.html %}
-    
+{% include header.html %} {% include common_header.html %}
+
 <section>
 
-        <div class="lb_bdy prct">
-                <div class="hero_img"></div>
-                <div class="hero_cnt">
-                    <div class="heroText">
-                        {{page.subtitle}} <span style="color:red">{{page.extra}}</span>
-                        {% if page.subtitle != "Branding &"%}
-                            <span class="heroHighlight">Design</span>
-                            {% endif %}
+    <div class="lb_bdy prct">
+        <div class="hero_img"></div>
+        <div class="hero_cnt">
+            <div class="heroText">
+                {{page.subtitle}}
+                <span style="color:red">{{page.extra}}</span>
+                {% if page.subtitle != "Branding &"%}
+                <span class="heroHighlight">Design</span>
+                {% endif %}
 
-                    </div>
-                    <div class="bnrText">
-                           {{page.desc1}}
-                    </div>
-                    <div class="hero_ptn"></div>
-                </div>
             </div>
-<div class="lb-service-content">
-      
-            {% if page.subtitle != "Branding &"%}
-                <div class="lb_service">
-                        <ul class="lb_work_filter lb_service_lg  step-head">
-                            <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing Product</li>
-                            <li class="lb_work_filterli"  id="datavalue-2">New Product</li>
-                        </ul>
-                </div>
+            <div class="bnrText">
+                {{page.desc1}}
+            </div>
+            <div class="hero_ptn"></div>
+        </div>
+    </div>
+    <div class="lb-service-content">
+
+        {% if page.subtitle != "Branding &"%}
+        <div class="lb_service">
+            <ul class="lb_work_filter lb_service_lg  step-head">
+                <li class="lb_work_filterli lb_work_filterActive" id="datavalue-1">Existing Product</li>
+                <li class="lb_work_filterli" id="datavalue-2">New Product</li>
+            </ul>
+        </div>
+        {% endif %} {% if page.subtitle == "Branding &"%}
+
+        <div class="lb_service">
+            <ul class="lb_work_filter lb_service_lg step-head">
+                <li class="lb_work_filterli lb_work_filterActive">Our Process</li>
+
+            </ul>
             {% endif %}
-            {% if page.subtitle == "Branding &"%}
-   
-            <div class="lb_service">
-                <ul class="lb_work_filter lb_service_lg step-head">
-                    <li class="lb_work_filterli lb_work_filterActive">Our Process</li>
-                    
-                </ul>
-            {% endif %}
 
 
-<section class="step-section">
-        <div class="stepwizard datavalue-1">
-                <div class="stepwizard-row setup-panel">
-                    <div class="stepwizard-step   step-setting col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
-                        <div class="circle1 circle-animation"></div>
-                        <div class="circle2 circle-animation"></div>
+            <section class="step-section">
+                <div class="stepwizard datavalue-1">
+                    <div class="stepwizard-row setup-panel">
+                        <div class="stepwizard-step   step-setting col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <!-- <span class="pulse"></span> -->
+                            <div class="circle1 circle-animation"></div>
+                            <div class="circle2 circle-animation"></div>
 
-                        <button class="btn-circle service-btn trigger-1 transparent"></button> 
-                        <p class="stepperp"><small>{{page.flowContent1}}</small></p>
-                        <div class="step-content paragraph step-content-show">{{page.existprocuctContent1}}</div>
-                    </div>
-                    <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
+                            <button class="btn-circle service-btn trigger-1 transparent"></button>
+                            <p class="stepperp">
+                                <small>{{page.flowContent1}}</small>
+                            </p>
+                            <div class="step-content paragraph step-content-show">{{page.existprocuctContent1}}</div>
+                        </div>
+                        <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
                             <!-- <img src="/assets/img/service/arrow.png"> -->
                             <div class="circle1 "></div>
-                        <div class="circle2"></div>
-                        <button class="btn-circle service-btn"></button> 
-                        <p class="stepperp"><small>{{page.flowContent2}}</small></p>
-                        <div class="step-content paragraph">{{page.existprocuctContent2}}</div>
-                    </div>
-                    <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
-                            <!-- <img src="/assets/img/service/arrow.png"> -->
-                            <div class="circle1"></div>
-                        <div class="circle2 "></div>
-                        <button type="button" class="btn-circle service-btn"></button>
-                        <p class="stepperp"><small>{{page.flowContent3}}</small></p>
-                        <div class="step-content paragraph">{{page.existprocuctContent3}}</div>
-
-                    </div>
-                    <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
-                            <!-- <img src="/assets/img/service/arrow.png"> -->
-                            <div class="circle1"></div>
-                        <div class="circle2"></div>
-                        <button type="button" class="btn-circle service-btn"></button>
-                        <p class="stepperp"><small>{{page.flowContent4}}</small></p>
-                        <div class="step-content paragraph">{{page.existprocuctContent4}}</div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    <section class="step-section">
-            <div class="stepwizard datavalue-2">
-                <div class="stepwizard-row setup-panel">
-                    <div class="stepwizard-step step-setting col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                        <div class="abc"></div> 
-                        <div class="circle1 circle-animation"></div>
-                        <div class="circle2 circle-animation"></div>
-                        <button class="btn-circle service-btn transparent"></button>
-                        <p class="stepperp"><small>{{page.newproductContent1}}</small></p>
-                        <div class="step-content paragraph step-content-show">{{page.newprodContent1}}</div>
-
+                            <div class="circle2"></div>
+                            <button class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.flowContent2}}</small>
+                            </p>
+                            <div class="step-content paragraph">{{page.existprocuctContent2}}</div>
                         </div>
-                    <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3"> 
+                        <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <!-- <img src="/assets/img/service/arrow.png"> -->
                             <div class="circle1"></div>
                             <div class="circle2 "></div>
-                        <button class="btn-circle service-btn"></button>
-                        <p class="stepperp"><small>{{page.newproductContent2}}</small></p>
-                        <div class="step-content paragraph">{{page.newprodContent2}}</div>
-                    </div>
-                    <div class="stepwizard-step  col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <button type="button" class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.flowContent3}}</small>
+                            </p>
+                            <div class="step-content paragraph">{{page.existprocuctContent3}}</div>
+
+                        </div>
+                        <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <!-- <img src="/assets/img/service/arrow.png"> -->
                             <div class="circle1"></div>
                             <div class="circle2"></div>
-                        <button class="btn-circle service-btn"></button>
-                        <p class="stepperp"><small>{{page.newproductContent3}}</small></p>
-                        <div class="step-content paragraph">{{page.newprodContent3}}</div>
-                    </div>
-                    <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                            <div class="circle1"></div>
-                            <div class="circle2"></div> 
-                        <button class="btn-circle service-btn"></button>
-                        <p class="stepperp"><small>{{page.newproductContent4}} </small></p>
-                        <div class="step-content paragraph">{{page.newprodContent4}}</div>
+                            <button type="button" class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.flowContent4}}</small>
+                            </p>
+                            <div class="step-content paragraph">{{page.existprocuctContent4}}</div>
+
+                        </div>
                     </div>
                 </div>
+            </section>
+            <section class="step-section">
+                <div class="stepwizard datavalue-2">
+                    <div class="stepwizard-row setup-panel">
+                        <div class="stepwizard-step step-setting col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="abc"></div>
+                            <div class="circle1 circle-animation"></div>
+                            <div class="circle2 circle-animation"></div>
+                            <button class="btn-circle service-btn transparent"></button>
+                            <p class="stepperp">
+                                <small>{{page.newproductContent1}}</small>
+                            </p>
+                            <div class="step-content paragraph step-content-show">{{page.newprodContent1}}</div>
 
-                   <div>
-                    <!-- <div class="stepper">
+                        </div>
+                        <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="circle1"></div>
+                            <div class="circle2 "></div>
+                            <button class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.newproductContent2}}</small>
+                            </p>
+                            <div class="step-content paragraph">{{page.newprodContent2}}</div>
+                        </div>
+                        <div class="stepwizard-step  col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <button class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.newproductContent3}}</small>
+                            </p>
+                            <div class="step-content paragraph">{{page.newprodContent3}}</div>
+                        </div>
+                        <div class="stepwizard-step col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <button class="btn-circle service-btn"></button>
+                            <p class="stepperp">
+                                <small>{{page.newproductContent4}} </small>
+                            </p>
+                            <div class="step-content paragraph">{{page.newprodContent4}}</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- <div class="stepper">
                         <input class="stepper__input" id="stepper-5-0" name="stepper-5" type="radio" checked="checked"/>
                         <div class="stepper__step">
                           <label class="stepper__button" for="stepper-5-0"></label>
@@ -138,201 +154,190 @@
                         </div>
                         
                       </div> -->
-                   </div>
-            </div>
+                    </div>
+                </div>
             </section>
 
-            
 
 
-<section class="carousel ">
-        <div class="carousel__card responsive">
-                {% for img in page.cardlist%}
+
+            <section class="carousel ">
+                <div class="carousel__card responsive">
+                    {% for img in page.cardlist%}
                     <div class="carousel__card1 ">
                         <img src={{img.list.src}} alt="">
                         <h1 class="typography">{{img.list.title}}</h1>
                         <p class="paragraph">{{img.list.content}}</p>
                     </div>
-                {% endfor %}
-            
-           
-            
-     
-        </div>
-        <div class="carousel__card2">
-            <h1 class="headingBold">Our Differentiators</h1>
-            <p class="paragraph">{{page.ourdifferenciate}}</p>
-        </div>
-        
-     </section>
-     <div class="lb-explore"><h4>Our Works</h4></div>
-
-<section>
-    <div>
-        <div class="lb-filterDiv container">
-               {% if page.subtitle == "Branding &"%}
-                <div class="row">
-                    {% assign item = site.caseStudy %}
-                    {% for work in item %}
-                    
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service  brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                            <a href="{{work.url}}">
-                                <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
-                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head {{work.textcolor}}">
-                                        {{work.product_title}}
-                                    </div>
-                                </div>
-                            </a>
-                            <h3 class="lb-filter-header">{{work.product_title1}}</h3>
-                            <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-                            <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
-                    </div> 
-                   
                     {% endfor %}
 
-                    {% assign item = site.workpage1 %}
-                    {% for work in item %}
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                        <a href="{{work.url}}">
-                            <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
-                            <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                <div class="lb-filter-head {{work.textcolor}}">
-                                    {{work.product_title}}
-                                </div>
-                            </div>
-                        </a>
-                            <h3 class="lb-filter-header">{{work.product_title1}}</h3>
-                            <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-                            <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
-                    </div> 
-                    {% endfor %}                  
-               </div>  
-               {% endif %}
 
-               {% if page.subtitle == "Product"%}
-                <div class="row">
-                        {% assign item = site.caseStudy-product %}
-                        {% for work in item %}
-                       
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                                <a href="{{work.url}}">
-                                <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
-                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head {{work.textcolor}}">
-                                        {{work.product_title}}
-                                    </div>
-                                </div>
-                                </a>
-                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
-                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
-                        </div> 
-                      {% endfor %}
-                     
-               </div>  
-               {% endif %}
 
-               {% if page.subtitle == "Service"%}
-                <div class="row">
-                        {% assign item = site.caseStudy-service %}
-                        {% for work in item %}
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
-                            <a href="{{work.url}}">    
-                            <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
-                                <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
-                                    <div class="lb-filter-head {{work.textcolor}}">
-                                        {{work.product_title}}
-                                    </div>
-                                </div>
-                                </a>
-                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
-                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
-                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
-                        </div> 
-                        {% endfor %}
-                     
-               </div>  
-               {% endif %}
 
-         </div>
-         <div>
-                <div class="lb_btn_div load-more">
-                  <button id="lb_service_btn" class="commonButton" value="{{page.subtitle}}">Load more</button>
-                  <button id="lb_service_btn1" class="commonButton" value="{{page.subtitle}}">Load less</button>
-                 
                 </div>
+                <div class="carousel__card2">
+                    <h1 class="headingBold">Our Differentiators</h1>
+                    <p class="paragraph">{{page.ourdifferenciate}}</p>
+                </div>
+
+            </section>
+            <div class="lb-explore">
+                <h4>Our Works</h4>
             </div>
-             
-        </div>
 
-        <div class="lb-explore"><h4>Explore our other services</h4></div>
+            <section>
+                <div>
+                    <div class="lb-filterDiv container">
+                        {% if page.subtitle == "Branding &"%}
+                        <div class="row">
+                            {% assign item = site.caseStudy %} {% for work in item %}
 
-        <div class="homePage__BnrDiv__Service__Cards service-redirect">
-                {% assign item = site.practice %}
-                {% for practice in item %}
-                {% if practice.subtitle != page.subtitle %}
-                <div class="homePage__BnrDiv__Service__Cards__Inner service-aligner">
-                        <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
-                                <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
-                    <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>
-                    <h3>{{practice.practiceList}}</h3>
-                    <p>{{practice.practiceList1}}</p>
-                    <p>{{practice.practiceList2}}</p>
-                    <p>{{practice.practiceList3}}</p>
-                    <p>{{practice.practiceList4}}</p>
-                    <img src="{{practice.practiceImg}}">
-                    </a>
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service  brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
+                                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+                                        <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                        <div class="lb-filter-head {{work.textcolor}}">
+                                            {{work.product_title}}
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                            </div>
+
+                            {% endfor %} {% assign item = site.workpage1 %} {% for work in item %}
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service brndcomm {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
+                                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+                                        <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                        <div class="lb-filter-head {{work.textcolor}}">
+                                            {{work.product_title}}
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %} {% if page.subtitle == "Product"%}
+                        <div class="row">
+                            {% assign item = site.caseStudy-product %} {% for work in item %}
+
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service prod {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
+                                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+                                        <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                        <div class="lb-filter-head {{work.textcolor}}">
+                                            {{work.product_title}}
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        {% endif %} {% if page.subtitle == "Service"%}
+                        <div class="row">
+                            {% assign item = site.caseStudy-service %} {% for work in item %}
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 lb-filter-service service {{work.categories}} work{{forloop.index}}" data-id="{{work.cat}}">
+                                <a href="{{work.url}}">
+                                    <div class="lb-filter-Img transition" style="background-image:url('{{work.banner_image}}')">
+                                        <!--<img src="../assets/images/groome.png" class="landingImg" alt="Logo">-->
+                                        <div class="lb-filter-head {{work.textcolor}}">
+                                            {{work.product_title}}
+                                        </div>
+                                    </div>
+                                </a>
+                                <h3 class="lb-filter-header">{{work.product_title1}}</h3>
+                                <h5 class="lb-filter-headdesc">{{work.product_description}}</h5>
+                                <h6 class="lb-filter-footer">{{work.product_thumbnail_description}}</h6>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        {% endif %}
+
+                    </div>
+                    <div>
+                        <div class="lb_btn_div load-more">
+                            <button id="lb_service_btn" class="commonButton" value="{{page.subtitle}}">Load more</button>
+                            <button id="lb_service_btn1" class="commonButton" value="{{page.subtitle}}">Load less</button>
+
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-sm-1"></div>
-                {% endif %}
-                {% endfor %}
+
+                <div class="lb-explore">
+                    <h4>Explore our other services</h4>
+                </div>
+
+                <div class="homePage__BnrDiv__Service__Cards service-redirect">
+                    {% assign item = site.practice %} {% for practice in item %} {% if practice.subtitle != page.subtitle %}
+                    <div class="homePage__BnrDiv__Service__Cards__Inner service-aligner">
+                        <a class="homePage__BnrDiv__Service__Cards__Inner__a" href="{{practice.url}}">
+                            <div style="background-image:url('{{practice.backgroundImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__normal"></div>
+                            <div style="background-image:url('{{practice.backgroundHoverImg}}')" class="homePage__BnrDiv__Service__Cards__Inner__a__img homePage__BnrDiv__Service__Cards__Inner__a__onHover"></div>
+                            <h3>{{practice.practiceList}}</h3>
+                            <p>{{practice.practiceList1}}</p>
+                            <p>{{practice.practiceList2}}</p>
+                            <p>{{practice.practiceList3}}</p>
+                            <p>{{practice.practiceList4}}</p>
+                            <img src="{{practice.practiceImg}}">
+                        </a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    {% endif %} {% endfor %}
+                </div>
+
+            </section>
+
         </div>
-       
 </section>
-
-</div>
-</section>
-<script type="text/javascript" src="/assets/js/pages/service.js"></script>
-
-{% include common_footer.html %} {% include footer.html %}
+<script type="text/javascript" src="/assets/js/pages/service.js"></script> {% include common_footer.html %} {% include footer.html %}
 
 <script>
 
 
-        $('.responsive').slick({
-           prevArrow:"<img class='a-left control-c prev slick-prev' src='/assets/img/service/Left .svg'>",
-             nextArrow:"<img class='a-right control-c next slick-next' src='/assets/img/service/Right.svg'>",
-         dots: false,
+    $('.responsive').slick({
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='/assets/img/service/Left .svg'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='/assets/img/service/Right.svg'>",
+        dots: false,
         //  infinite: false,
-         speed: 500,
-         slidesToShow: 2,
-         slidesToScroll: 2,
-         responsive: [
-           {
-             breakpoint: 1024,
-             settings: {
-               slidesToShow: 2,
-               slidesToScroll: 2,
-               speed: 500,
-               
-            //    infinite: false
-             }
-           },
-        
-           {
-             breakpoint: 767,
-             settings: {
-               slidesToShow: 1,
-               slidesToScroll: 1,
-               speed: 500,
-            //    infinite: false
-             }
-           }
-         ]
-        });
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    speed: 500,
 
-            
-          
-           
-           </script>
+                    //    infinite: false
+                }
+            },
+
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    speed: 500,
+                    //    infinite: false
+                }
+            }
+        ]
+    });
+
+
+
+
+</script>
