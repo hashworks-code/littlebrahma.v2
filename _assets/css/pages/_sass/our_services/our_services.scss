@@ -65,6 +65,7 @@
   &_svc {
     padding: 27px 35px 40px 29px;
     // background: #F4F4F4;
+    padding-bottom: 0px;
     &_title {
       font-family: 'MavenPro-Medium';
       // background: #f4f4f4;
@@ -201,11 +202,13 @@
       }
     }
     &_svc {
+      padding-bottom: 0px;
       &_title {
         text-align: center;
         font-size: 24px;
+        padding-bottom: 72px;
         .svcCont {
-          padding-bottom: 72px;
+         
           img {
             max-width: 80px;
           }
@@ -219,6 +222,9 @@
           padding-top: 0px;
           padding-bottom: 24px;
         }
+      }
+      &_title:last-child {
+        padding-bottom: 0px;
       }
     }
     .dnaContainer {
@@ -321,16 +327,21 @@
     }
     &_svc {
       padding: 12px 35px 80px;
+      padding-bottom: 0px;
       &_title {
         text-align: center;
         font-size: 24px;
+        padding-bottom: 72px;
         .svcCont {
-          padding-bottom: 72px;
+         
           img {
             max-width: 85px;
             margin-top: 20px;
             float: left;
           }
+        }
+        &_title:last-child{
+          padding-bottom: 0px
         }
         .indTxt {
           font-size: 28px;
@@ -401,10 +412,12 @@
     }
     &_svc {
       padding: 0px 0px 70px;
+      padding-bottom: 0px;
       &_title {
         font-size: 40px;
+        padding-bottom: 72px;
         .svcCont {
-          padding-bottom: 72px;
+          
           img {
             max-width: 105px;
           }
@@ -417,6 +430,9 @@
           padding-top: 32px;
           padding-bottom: 0px;
         }
+      }
+      &_title:last-child{
+        padding-bottom: 0px;
       }
       .sCont {
         padding-top: 15px;
@@ -577,11 +593,13 @@
     }
     &_svc {
       padding: 0px 150px 80px;
+      padding-bottom: 0px;
       &_title {
+        padding-bottom: 72px;
         font-size: 40px;
         .svcCont {
           padding-right: 0px;
-          padding-bottom: 72px;
+         
           img {
             max-width: 120px;
           }
@@ -598,6 +616,9 @@
         .lgCon {
           width: 830px;
         }
+      }
+      &_title:last-child{
+        padding-bottom: 0px;
       }
     }
     .dnaContainer {

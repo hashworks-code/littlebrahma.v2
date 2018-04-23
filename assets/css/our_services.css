@@ -1680,7 +1680,8 @@ html, body {
     .prct_dic .imgContainer {
       text-align: center; }
   .prct_svc {
-    padding: 27px 35px 40px 29px; }
+    padding: 27px 35px 40px 29px;
+    padding-bottom: 0px; }
     .prct_svc_title {
       font-family: 'MavenPro-Medium';
       text-align: center; }
@@ -1789,20 +1790,23 @@ html, body {
   .prct_dic .bsTxt {
     font-size: 12px;
     text-align: center; }
-  .prct_svc_title {
-    text-align: center;
-    font-size: 24px; }
-    .prct_svc_title .svcCont {
+  .prct_svc {
+    padding-bottom: 0px; }
+    .prct_svc_title {
+      text-align: center;
+      font-size: 24px;
       padding-bottom: 72px; }
       .prct_svc_title .svcCont img {
         max-width: 80px; }
-    .prct_svc_title .indTxt {
-      font-size: 24px;
-      padding-bottom: 16px;
-      text-align: center; }
-    .prct_svc_title .indCon {
-      padding-top: 0px;
-      padding-bottom: 24px; }
+      .prct_svc_title .indTxt {
+        font-size: 24px;
+        padding-bottom: 16px;
+        text-align: center; }
+      .prct_svc_title .indCon {
+        padding-top: 0px;
+        padding-bottom: 24px; }
+    .prct_svc_title:last-child {
+      padding-bottom: 0px; }
   .prct .dnaContainer {
     font-size: 12px;
     padding-top: 16px; }
@@ -1874,16 +1878,18 @@ html, body {
   .prct_dic .dicContents .title {
     display: block; }
   .prct_svc {
-    padding: 12px 35px 80px; }
+    padding: 12px 35px 80px;
+    padding-bottom: 0px; }
     .prct_svc_title {
       text-align: center;
-      font-size: 24px; }
-      .prct_svc_title .svcCont {
-        padding-bottom: 72px; }
-        .prct_svc_title .svcCont img {
-          max-width: 85px;
-          margin-top: 20px;
-          float: left; }
+      font-size: 24px;
+      padding-bottom: 72px; }
+      .prct_svc_title .svcCont img {
+        max-width: 85px;
+        margin-top: 20px;
+        float: left; }
+      .prct_svc_title_title:last-child {
+        padding-bottom: 0px; }
       .prct_svc_title .indTxt {
         font-size: 28px;
         padding: 0px; }
@@ -1937,18 +1943,20 @@ html, body {
     .prct_dic .bsTxt {
       font-size: 16px; }
     .prct_svc {
-      padding: 0px 0px 70px; }
+      padding: 0px 0px 70px;
+      padding-bottom: 0px; }
       .prct_svc_title {
-        font-size: 40px; }
-        .prct_svc_title .svcCont {
-          padding-bottom: 72px; }
-          .prct_svc_title .svcCont img {
-            max-width: 105px; }
+        font-size: 40px;
+        padding-bottom: 72px; }
+        .prct_svc_title .svcCont img {
+          max-width: 105px; }
         .prct_svc_title .indTxt {
           font-size: 32px; }
         .prct_svc_title .indCon {
           padding-top: 32px;
           padding-bottom: 0px; }
+      .prct_svc_title:last-child {
+        padding-bottom: 0px; }
       .prct_svc .sCont {
         padding-top: 15px; }
     .prct .dnaContainer {
@@ -2060,12 +2068,13 @@ html, body {
   .prct_dic .bsTxt {
     font-size: 20px; }
   .prct_svc {
-    padding: 0px 150px 80px; }
+    padding: 0px 150px 80px;
+    padding-bottom: 0px; }
     .prct_svc_title {
+      padding-bottom: 72px;
       font-size: 40px; }
       .prct_svc_title .svcCont {
-        padding-right: 0px;
-        padding-bottom: 72px; }
+        padding-right: 0px; }
         .prct_svc_title .svcCont img {
           max-width: 120px; }
       .prct_svc_title .indTxt {
@@ -2077,6 +2086,8 @@ html, body {
         padding-bottom: 0px; }
       .prct_svc_title .lgCon {
         width: 830px; }
+    .prct_svc_title:last-child {
+      padding-bottom: 0px; }
   .prct .dnaContainer {
     font-size: 20px;
     padding-top: 40px;
