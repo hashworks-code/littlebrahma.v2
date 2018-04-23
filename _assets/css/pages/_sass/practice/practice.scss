@@ -50,6 +50,7 @@
       &_img {
         background-image: url(/assets/img/practice/03_Practice.gif);
         background-color: #e9faff;
+        background-size: 100%;
       }
     }
     &_rnImg {
@@ -612,6 +613,11 @@
       bottom: 20px;
       left: 50%;
       transform: translate(-50%, 0);
+      &::before {
+        content: '';
+        background: url(/assets/img/common/grid.png) scroll 0 0 no-repeat
+          transparent;
+      }
     }
     .footer__inner {
       position: absolute;
@@ -807,4 +813,7 @@
   .rContent_3 {
     display: none;
   }
+}
+.para2 {
+  margin-top: 20px;
 }
