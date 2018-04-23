@@ -69,7 +69,7 @@ main_perceive:
 
     - perceive_para:
 
-        - cContent5: "We partnered with in-house tech teams for an ice-breaker session with our customer. We spent time understanding their bizops, data and workgroup dependencies in the organization. Learnt few things about the performance issues in their current system."
+        - cContent5: "For the B2C research, we started by ideating a game plan to understand the store operations by socializing with the teams and understanding the business processes."
       content_lists1:
 
         - cContent7: '- Field trip'
