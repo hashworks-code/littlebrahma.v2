@@ -1536,6 +1536,9 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+.lb_bdy1 {
+  background-color: #ecfafe; }
+
 ul.practiceli.paragraph {
   padding-left: 16px; }
 
@@ -1704,7 +1707,13 @@ ul.practiceli.paragraph {
   .lb_work_filter {
     display: none; }
   .step-head {
-    display: block !important; } }
+    display: block !important; }
+  .hero_cnt {
+    position: absolute;
+    bottom: -30px;
+    width: 100%; }
+  .hero_img {
+    position: relative; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .diverse {
@@ -1851,6 +1860,9 @@ ul.practiceli.paragraph {
     margin: 50px 29px 0; } }
 
 @media screen and (min-width: 1024px) {
+  .lb_bdy {
+    background-color: #e9faff;
+    height: auto; }
   .diverse-content {
     padding-top: 105px; }
   .knowmore {
@@ -1905,7 +1917,7 @@ ul.practiceli.paragraph {
       padding-top: 25px;
       width: 800px; }
     .prct .scrollContainer {
-      height: calc(100vh - 80px);
+      height: calc(100vh - 150px);
       position: relative;
       background: #fff; }
       .prct .scrollContainer img {
@@ -1927,7 +1939,7 @@ ul.practiceli.paragraph {
       height: 100%; }
     .prct .fixedClass {
       position: absolute;
-      top: 80px;
+      top: 0;
       left: 0%;
       -webkit-transform: translate(-50%, 0);
               transform: translate(-50%, 0);
@@ -1990,7 +2002,28 @@ ul.practiceli.paragraph {
       font-size: 24px;
       margin: 0 35px 0; }
   .philSec {
-    margin: 64px 29px 0; } }
+    margin: 0; }
+  .hero_cnt {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    padding: 32px 0px; }
+  .footer__inner {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 40px; }
+  .footer__img {
+    bottom: 34px; }
+  .footer__image {
+    bottom: 0;
+    top: unset; }
+  .footer {
+    height: 100vh; }
+  .strategy_cont .genericTitle {
+    padding-top: 100px; } }
 
 @media screen and (min-width: 1367px) {
   .knowmore {
@@ -2037,7 +2070,9 @@ ul.practiceli.paragraph {
     padding-top: 40px;
     width: 970px; }
   .philSec {
-    margin: 80px 29px 65px; } }
+    margin: 0; }
+  .footer__img {
+    bottom: 34px; } }
 
 .heroText__dna {
   font-family: 'MavenPro-Medium';
