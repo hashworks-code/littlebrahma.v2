@@ -30,17 +30,17 @@ flowImage2: '/assets/img/service/page-1 (6).svg'
 flowactiveImage2: '/assets/img/service/brand3.svg'
 flowContent2: Research & Analysis
 existprocuctContenthead2: Research & Analysis
-existprocuctContent2: Studying the customer’s industry, competitors and audience to bring out the brand voice and brand positioning
+existprocuctContent2: Research on customer’s industry, competitors and audience to bring out the brand elements
 flowImage3: '/assets/img/service/page-1 (8).svg'
 flowactiveImage3: '/assets/img/service/bran2.svg'
 flowContent3: Ideation
 existprocuctContenthead3: Ideation
-existprocuctContent3: Brainstorming on multiple ideas to come up with a brand strategy which showcases the brand in the best way possible and to the right audience
+existprocuctContent3: Brainstorm on multiple ideas to come up with a brand strategy which showcases the brand in the best way possible
 flowImage4: '/assets/img/service/page-1 (10).svg'
 flowactiveImage4: '/assets/img/service/bran4.svg'
 flowContent4: Design & Documentation
 existprocuctContenthead4: Design & Documentation
-existprocuctContent4: Creating an inspiring visual identity for the brand which captures its voice and leaves a everlasting impression on their customer’s mind
+existprocuctContent4: Create inspiring visual identity and experience for the brand capturing its voice and provide the great recall value
 cardlist: 
     - list:
          src: /assets/img/service/collab.svg

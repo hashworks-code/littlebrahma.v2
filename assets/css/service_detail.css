@@ -937,7 +937,8 @@ html, body {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; }
 
 @media only screen and (min-width: 320px) {
   .modal1 {
