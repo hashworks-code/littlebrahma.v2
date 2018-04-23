@@ -1944,7 +1944,9 @@ html, body {
       font-size: 16px;
       margin: 0 20px 0; }
   #fullpage .philSec {
-    margin: 50px 29px 0; } }
+    margin: 50px 29px 0; }
+  #fullpage .hero_img {
+    height: calc(380px + 180px); } }
 
 @media screen and (min-width: 1024px) {
   #fullpage .lb_bdy {
@@ -2109,9 +2111,6 @@ html, body {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
-    #fullpage .hero_cnt::before {
-      content: '';
-      background: url(/assets/img/common/grid.png) scroll 0 0 no-repeat transparent; }
   #fullpage .footer__inner {
     position: absolute;
     top: 20%;
