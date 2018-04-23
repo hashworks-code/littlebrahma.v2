@@ -625,18 +625,23 @@
     }
     .footer__inner {
       position: absolute;
-      top: 20%;
+      top: 8%;
       left: 10%;
       font-size: 40px;
     }
     .footer__img {
-      bottom: 44px;
+      bottom: 105px;
       position: absolute;
       right: 0;
     }
     .footer__image {
-      bottom: 0;
+      bottom: 60px;
       top: unset;
+    }
+    .footer .socialLogo {
+      font-size: 12px;
+      bottom: 92px;
+      left: 48%;
     }
     .footer {
       height: 100vh;
@@ -733,7 +738,7 @@
       margin: 0;
     }
     .footer__img {
-      bottom: 34px;
+      bottom: 93px;
     }
     .hero_img {
       height: calc(100vh - 160px);
@@ -832,14 +837,14 @@
 
   @media screen and (min-width: 2000px) {
     .footer__inner {
-      top: 40%;
+      top: 30%;
       left: 21%;
       font-size: 40px;
     }
     .footer__img {
       width: 1260px;
       right: 20%;
-      bottom: 4px;
+      bottom: 88px;
     }
   }
 }

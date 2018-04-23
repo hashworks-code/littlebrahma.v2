@@ -2114,16 +2114,20 @@ html, body {
             transform: translate(-50%, 0); }
   #fullpage .footer__inner {
     position: absolute;
-    top: 20%;
+    top: 8%;
     left: 10%;
     font-size: 40px; }
   #fullpage .footer__img {
-    bottom: 44px;
+    bottom: 105px;
     position: absolute;
     right: 0; }
   #fullpage .footer__image {
-    bottom: 0;
+    bottom: 60px;
     top: unset; }
+  #fullpage .footer .socialLogo {
+    font-size: 12px;
+    bottom: 92px;
+    left: 48%; }
   #fullpage .footer {
     height: 100vh; }
   #fullpage .strategy_cont {
@@ -2214,7 +2218,7 @@ html, body {
   #fullpage .philSec {
     margin: 0; }
   #fullpage .footer__img {
-    bottom: 34px; }
+    bottom: 93px; }
   #fullpage .hero_img {
     height: calc(100vh - 160px); }
   #fullpage .hero_cnt {
@@ -2274,13 +2278,13 @@ html, body {
 
 @media screen and (min-width: 2000px) {
   #fullpage .footer__inner {
-    top: 40%;
+    top: 30%;
     left: 21%;
     font-size: 40px; }
   #fullpage .footer__img {
     width: 1260px;
     right: 20%;
-    bottom: 4px; } }
+    bottom: 88px; } }
 
 .prct .hero_img {
   background-image: url(/assets/img/workpage/002_work.gif);
