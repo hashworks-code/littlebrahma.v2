@@ -951,7 +951,9 @@ html, body {
     display: -ms-flexbox;
     display: flex; }
   .close1 {
-    margin-top: 81px; }
+    margin-top: 10px; }
+    .close1 img {
+      width: 24px; }
   .contactHeader {
     width: 175px;
     font-family: 'MavenPro-Medium';
@@ -1019,6 +1021,8 @@ html, body {
     width: 700px; }
   .close1 {
     margin: 75px 20px 0px 0px; }
+    .close1 img {
+      width: 30px; }
   .modal-content1 {
     height: 100%; }
   .contactHeader {

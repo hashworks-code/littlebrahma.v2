@@ -577,7 +577,10 @@ Primary style
     display: flex;
   }
   .close1{
-    margin-top: 81px;
+    margin-top: 10px;
+    img{
+      width: 24px;
+    }
   }
   .contactHeader{
     width: 175px;
@@ -669,14 +672,15 @@ Primary style
 .modal1 {
   margin-top: 70px;
 }
-  .close1 {
-    // padding:75px 45px 0px 0px;
-  }
+
   .contactHeading{
     width: 700px;
   }
   .close1{
     margin:75px 20px 0px 0px;
+    img{
+      width: 30px;
+    }
   }
   .modal-content1 {
     height: 100%;
