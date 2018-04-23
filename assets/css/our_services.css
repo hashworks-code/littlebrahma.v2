@@ -524,7 +524,8 @@ a {
   -------------------------------- */
 html, body {
   height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 .cd-header {
   position: fixed;
@@ -1139,19 +1140,8 @@ html, body {
   .lb-desktop {
     display: block !important; } }
 
-.cd-secondary-navli:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 3px;
-  width: 0px;
-  background: transparent;
-  -webkit-transition: width .5s ease,  background-color .5s ease;
-  transition: width .5s ease,  background-color .5s ease; }
-
-.cd-secondary-navli:hover:after {
-  width: 100%;
-  background: #ea1c49; }
+.cd-secondary-navli :hover {
+  color: #ea1c49; }
 
 .footer__inner {
   font-size: 48px;
@@ -1607,7 +1597,8 @@ html, body {
   .prct .know-more-link {
     display: block; }
     .prct .know-more-link a {
-      color: #ea1d49; }
+      color: #ea1d49;
+      font-weight: bold; }
   .prct .knowmore a:first-child {
     display: none; }
 

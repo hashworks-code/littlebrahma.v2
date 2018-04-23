@@ -892,19 +892,12 @@ $(window).resize(function(){
     });
 
 })();
-// $( document ).ready(function() {
+$( document ).ready(function() {
     // $('.lb-filter-service').hide();
-//   if(sessionStorage.getItem("pageDetails") != "" && sessionStorage.getItem("pageDetails") != null) {
-//     smoothScroll();
   
-//   }
-//   else{
-//     return false;
-  
-//   }
    
    
-//   });
+  });
   
   
   
