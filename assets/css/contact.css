@@ -111,7 +111,6 @@
   src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
 
 body {
-  overflow-x: hidden !important;
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -524,7 +523,8 @@ a {
   
   -------------------------------- */
 html, body {
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 .cd-header {
   position: fixed;
