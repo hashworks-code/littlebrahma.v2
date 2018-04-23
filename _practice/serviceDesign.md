@@ -24,42 +24,42 @@ flowImage1: '/assets/img/service/page-1 (11).svg'
 flowactiveImage1: '/assets/img/service/service.svg'
 flowContent1: Process/Persona Mapping
 existprocuctContenthead1: Process/Persona Mapping
-existprocuctContent1: Deep diving into the business operations to understand the processes and mapping the stakeholders involved
+existprocuctContent1: Deep dive into the business operations to understand the processes and map the user journey for the users involved
 flowImage2: '/assets/img/service/page-1 (12).svg'
 flowactiveImage2: '/assets/img/service/line.svg'
 flowContent2: UX Review
 existprocuctContenthead2: UX Review
-existprocuctContent2: Mapping the user journey for each of the personas and understanding how they behave
+existprocuctContent2: Review workflows to understand process and recommend best practices for screen interaction and flow 
 flowImage3: '/assets/img/service/page-1 (1).svg'
 flowactiveImage3: '/assets/img/service/arrowservice.svg'
 flowContent3: Redesign
 existprocuctContenthead3: Redesign
-existprocuctContent3: Design overhaul based on concrete user research and testing
+existprocuctContent3: Implement component driven design based on evidence from concrete user research and acceptance testing
 flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User Testing
 existprocuctContenthead4: User Testing
-existprocuctContent4: Reaching out to the end customers and collect data to improve user experience
+existprocuctContent4: Employee methods such as guerrilla testing, Heat map analysis and A/B testing to improve user experience
 newproductImage1: '/assets/img/service/page-1 (16).svg'
 newproductActiveImage1: '/assets/img/service/test1.svg'
 newproductContent1: User Research
 newprodContenthead1: User Research
-newprodContent1: Empathizing for end-user and understanding their needs
+newprodContent1: Conduct competitor analysis, deep dive into the business processes and user personas to understand user needs
 newproductImage2: '/assets/img/service/page-1 (17).svg'
 newproductActiveImage2: '/assets/img/service/prod2.svg'
 newproductContent2: User Journey Mapping
 newprodContenthead2: User Journey Mapping
-newprodContent2: Creating the workflow and mapping the journey for each of the personas
+newprodContent2: Create user personas, catalog their capabilities, limitations and needs to map the journey for each persona
 newproductImage3: '/assets/img/service/page-1 (18).svg'
 newproductActiveImage3: '/assets/img/service/prod-1.svg'
 newproductContent3: Prototype
 newprodContenthead3: Prototype
-newprodContent3: Building omni-channel wireframe and optimise user experience through customer feedback
+newprodContent3: Capture features and collaborate with customer on MVPs. Create and validate omni-channel wireframe
 newproductImage4: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage4: '/assets/img/service/arrowservice.svg'
 newproductContent4: Design
 newprodContenthead4: Design
-newprodContent4: Design scalable UI components and create inspiring screens which captures the user’s imagination 
+newprodContent4: Design scalable UI components and create inspiring screens which capture the user’s imagination 
 url: "ServiceDesign"
 cardlist: 
     - list:

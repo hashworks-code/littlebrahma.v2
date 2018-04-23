@@ -25,42 +25,42 @@ flowImage1: '/assets/img/service/page-1.svg'
 flowactiveImage1: '/assets/img/service/test2.svg'
 flowContent1: UX/UI Review and Analysis
 existprocuctContenthead1: UX/UI Review & Analysis
-existprocuctContent1: Understanding usability of the product and analyzing the customer experience
+existprocuctContent1: Understand usability of the product and recommend on context building , screen interaction and flow 
 flowImage2: '/assets/img/service/page-1 (1).svg'
 flowactiveImage2: '/assets/img/service/arrowservice.svg'
 flowContent2: Prototype
 existprocuctContenthead2: Prototype
-existprocuctContent2: Optimizing user experience through high fidelity wire-frame and validating the same with the customer
+existprocuctContent2: Undersatnd product features and optimize user experience through high fidelity wire-frame and validate the same
 flowImage3: '/assets/img/service/page-1 (4).svg'
 flowactiveImage3: '/assets/img/service/box.svg'
 flowContent3: Design
 existprocuctContenthead3: Design
-existprocuctContent3: Design scalable UI components and create screens which showcases better usability and  experience
+existprocuctContent3: Design scalable UI components and create screens which showcase better usability and  experience
 flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User Testing
 existprocuctContenthead4: User Testing
-existprocuctContent4: Implementing testing techniques on protoypes and live sites. Listening to the end users to iterate and design better
+existprocuctContent4: Implement multiple testing techniques on prototypes and beta/staging sites. Listen to the end users to iterate
 newproductImage1: '/assets/img/service/page-1 (13).svg'
 newproductActiveImage1: '/assets/img/service/page-1 (3).svg'
 newproductContent1: User Research
 newprodContenthead1: User Research
-newprodContent1: Understanding user needs, empathizing their pain points, competitor analysis and bench marking features
+newprodContent1: Conduct competitor analysis, deep dive into business processes and user personas to understand user needs
 newproductImage2: '/assets/img/service/page-1 (14).svg'
 newproductActiveImage2: '/assets/img/service/service2.svg'
 newproductContent2: User Journey Mapping
 newprodContenthead2: User Journey Mapping
-newprodContent2: Identifying user personas, mapping their journeys, writing user stories and use cases, keeping in mind scale and business complexities
+newprodContent2: Identify user personas, map their journeys, accommodate scale & business complexities in the requirement
 newproductImage3: '/assets/img/service/page-1 (1).svg'
 newproductActiveImage3: '/assets/img/service/arrowservice.svg'
 newproductContent3: Prototype
 newprodContenthead3: Release Planning
-newprodContent3: Identifying product features and prioritizing them to define MVPs. Working with the developers and project managers to plan release cycles
+newprodContent3: Identify and group product features and prioritize. Collaborate with dev and business teams to plan release
 newproductImage4: '/assets/img/service/page-1 (15).svg'
 newproductActiveImage4: '/assets/img/service/box.svg'
 newproductContent4: Design
 newprodContenthead4: Prototype & Design
-newprodContent4: Creating high fidelity wire frames to MVP showcase features. Get validation from customers and design to scale and launch
+newprodContent4: Create high fidelity wire frames to showcase MVP features. Get validation from customers and design to scale 
 url: "productDesign"
 cardlist: 
     - list:
