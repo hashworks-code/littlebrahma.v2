@@ -410,6 +410,9 @@
     .philSec {
       margin: 50px 29px 0;
     }
+    .hero_img {
+      height: calc(380px + 180px);
+    }
   }
   @media screen and (min-width: 1024px) {
     .lb_bdy {
@@ -613,11 +616,12 @@
       bottom: 20px;
       left: 50%;
       transform: translate(-50%, 0);
-      &::before {
-        content: '';
-        background: url(/assets/img/common/grid.png) scroll 0 0 no-repeat
-          transparent;
-      }
+      //   &::before {
+      //     content: url(/assets/img/common/grid.png);
+      //     position: absolute;
+      //     left: 0;
+      //     bottom: 0;
+      //   }
     }
     .footer__inner {
       position: absolute;
