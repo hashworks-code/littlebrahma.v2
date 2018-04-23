@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  if (screen.width > 1024) {
+  if (screen.width > 1025) {
     $('#fullpage').fullpage({
       verticalCentered: false,
       afterLoad: function(anchorLink, index) {

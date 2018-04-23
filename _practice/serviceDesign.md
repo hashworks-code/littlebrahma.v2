@@ -39,7 +39,7 @@ flowImage4: '/assets/img/service/page-1 (5).svg'
 flowactiveImage4: '/assets/img/service/page-1 (2).svg'
 flowContent4: User Testing
 existprocuctContenthead4: User Testing
-existprocuctContent4: Employee methods such as guerrilla testing, Heat map analysis and A/B testing to improve user experience
+existprocuctContent4: Employee methods such as guerrilla testing, heat map analysis and A/B testing to improve user experience
 newproductImage1: '/assets/img/service/page-1 (16).svg'
 newproductActiveImage1: '/assets/img/service/test1.svg'
 newproductContent1: User Research
