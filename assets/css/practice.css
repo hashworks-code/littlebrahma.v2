@@ -1753,7 +1753,7 @@ html, body {
       color: #ea1c49;
       border-bottom: 2px solid #ea1c49; }
 
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1025px) {
   #fullpage .prct .dnaImgMob {
     display: block;
     width: 250px;
@@ -1863,7 +1863,7 @@ html, body {
   #fullpage .lb_work_filter {
     display: none; } }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1025px) {
   #fullpage .diverse-content {
     padding-top: 48px; }
   #fullpage .knowmore {
@@ -1949,7 +1949,7 @@ html, body {
   #fullpage .hero_img {
     height: calc(380px + 180px); } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   #fullpage .lb_bdy {
     background-color: #e9faff;
     height: auto; }
