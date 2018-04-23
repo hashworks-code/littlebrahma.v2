@@ -370,7 +370,8 @@ table {
   .heroText {
     font-size: 24px; }
   .genericTitle2 {
-    font-size: 24px; }
+    font-size: 24px;
+    padding-top: 40px; }
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }

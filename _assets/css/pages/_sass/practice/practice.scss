@@ -50,7 +50,6 @@
       &_img {
         background-image: url(/assets/img/practice/03_Practice.gif);
         background-color: #e9faff;
-        background-size: 100%;
       }
     }
     &_rnImg {
@@ -206,6 +205,7 @@
     }
     .hero_img {
       position: relative;
+      margin-top: 80px;
     }
   }
   @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -630,7 +630,9 @@
       font-size: 40px;
     }
     .footer__img {
-      bottom: 34px;
+      bottom: 44px;
+      position: absolute;
+      right: 0;
     }
     .footer__image {
       bottom: 0;
@@ -660,6 +662,9 @@
       position: absolute;
       left: 25%;
       transform: translate(-50%, 0);
+    }
+    .hero__img {
+      background-size: 100%;
     }
   }
   @media screen and (min-width: 1367px) {
@@ -727,7 +732,7 @@
       margin: 0;
     }
     .footer__img {
-      bottom: 30px;
+      bottom: 34px;
     }
     .hero_img {
       height: calc(100vh - 160px);

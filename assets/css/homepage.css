@@ -370,7 +370,8 @@ table {
   .heroText {
     font-size: 24px; }
   .genericTitle2 {
-    font-size: 24px; }
+    font-size: 24px;
+    padding-top: 40px; }
   .bnrText {
     font-size: 12px;
     padding-top: 12px; }
@@ -1682,8 +1683,7 @@ html, body {
             justify-content: center; }
   #fullpage .prct .hero_img {
     background-image: url(/assets/img/practice/03_Practice.gif);
-    background-color: #e9faff;
-    background-size: 100%; }
+    background-color: #e9faff; }
   #fullpage .prct_rnImg {
     width: 100vw; }
   #fullpage .prct .genericTitle,
@@ -1800,7 +1800,8 @@ html, body {
     bottom: -30px;
     width: 100%; }
   #fullpage .hero_img {
-    position: relative; } }
+    position: relative;
+    margin-top: 80px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   #fullpage .diverse {
@@ -2117,7 +2118,9 @@ html, body {
     left: 10%;
     font-size: 40px; }
   #fullpage .footer__img {
-    bottom: 34px; }
+    bottom: 44px;
+    position: absolute;
+    right: 0; }
   #fullpage .footer__image {
     bottom: 0;
     top: unset; }
@@ -2159,7 +2162,9 @@ html, body {
     position: absolute;
     left: 25%;
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
+            transform: translate(-50%, 0); }
+  #fullpage .hero__img {
+    background-size: 100%; } }
 
 @media screen and (min-width: 1367px) {
   #fullpage .knowmore {
@@ -2208,7 +2213,7 @@ html, body {
   #fullpage .philSec {
     margin: 0; }
   #fullpage .footer__img {
-    bottom: 30px; }
+    bottom: 34px; }
   #fullpage .hero_img {
     height: calc(100vh - 160px); } }
 
