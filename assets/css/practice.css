@@ -2269,5 +2269,15 @@ html, body {
 #fullpage .rContent_3 {
   display: none; }
 
-.para2 {
+#fullpage .para2 {
   margin-top: 20px; }
+
+@media screen and (min-width: 2000px) {
+  #fullpage .footer__inner {
+    top: 40%;
+    left: 21%;
+    font-size: 40px; }
+  #fullpage .footer__img {
+    width: 1260px;
+    right: 20%;
+    bottom: 4px; } }

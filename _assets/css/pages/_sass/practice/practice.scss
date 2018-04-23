@@ -826,7 +826,20 @@
   .rContent_3 {
     display: none;
   }
-}
-.para2 {
-  margin-top: 20px;
+  .para2 {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .footer__inner {
+      top: 40%;
+      left: 21%;
+      font-size: 40px;
+    }
+    .footer__img {
+      width: 1260px;
+      right: 20%;
+      bottom: 4px;
+    }
+  }
 }
