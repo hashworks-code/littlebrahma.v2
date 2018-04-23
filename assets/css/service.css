@@ -2439,8 +2439,6 @@ li.lb_work_filterli:first-child {
           padding-top: 65px;
           display: block;
           color: #393939 !important; }
-          .homePage__BnrDiv__Service__Cards__Inner__a h3:hover {
-            color: #fff; }
           .homePage__BnrDiv__Service__Cards__Inner__a__img {
             background-repeat: no-repeat;
             width: 88px;
@@ -2464,26 +2462,6 @@ li.lb_work_filterli:first-child {
             color: #737373; }
       .homePage__BnrDiv__Service__Cards__Inner1 {
         margin-right: 0; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover {
-        background-color: #ee4b6e;
-        color: #fff !important;
-        text-decoration: none !important;
-        -webkit-transition: background-color 100ms linear;
-        transition: background-color 100ms linear; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
-        color: #fff !important;
-        text-decoration: none !important; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
-        display: block; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover p {
-        display: none; }
-      .homePage__BnrDiv__Service__Cards__Inner:hover img {
-        display: block;
-        margin: 30px auto;
-        width: 31px;
-        height: 28px; }
       .homePage__BnrDiv__Service__Cards__Inner:last-child {
         margin-right: 0; }
 
@@ -2534,6 +2512,32 @@ li.lb_work_filterli:first-child {
   width: 1100px;
   margin: 150px auto 0; }
 
+@media screen and (min-width: 767px) {
+  .homePage__BnrDiv__Service__Cards__Inner h3:hover {
+    color: #fff; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover img {
+    display: block; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover {
+    background-color: #ee4b6e;
+    color: #fff !important;
+    text-decoration: none !important;
+    -webkit-transition: background-color 100ms linear;
+    transition: background-color 100ms linear; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a {
+    color: #fff !important;
+    text-decoration: none !important; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__normal {
+    display: none; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover .homePage__BnrDiv__Service__Cards__Inner__a .homePage__BnrDiv__Service__Cards__Inner__a__onHover {
+    display: block; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover p {
+    display: none; }
+  .homePage__BnrDiv__Service__Cards__Inner:hover img {
+    display: block;
+    margin: 30px auto;
+    width: 31px;
+    height: 28px; } }
+
 @media screen and (max-width: 1366px) {
   li.lb_work_filterli:first-child {
     margin-left: 60px !important; }
@@ -2575,8 +2579,6 @@ li.lb_work_filterli:first-child {
           height: 64px; }
     .homePage__BnrDiv__Service__Cards__Inner1 {
       margin-right: 0; }
-    .homePage__BnrDiv__Service__Cards__Inner:hover img {
-      display: block; }
     .homePage__dna__left {
       width: 50%; }
       .homePage__dna__left img {
