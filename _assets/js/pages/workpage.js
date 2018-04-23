@@ -28,9 +28,7 @@ $(document).ready(function() {
       } else if (sessionStorage.getItem('Hometab') == 'Product Design') {
         $('#filterli-1').click();
         $('.data-1').click();
-      } else if (
-        sessionStorage.getItem('Hometab') == 'Branding & Communication'
-      ) {
+      } else if (sessionStorage.getItem('Hometab') == 'Branding & Comm.') {
         $('#filterli-3').click();
         $('.data-3').click();
       }
