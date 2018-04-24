@@ -1,40 +1,39 @@
-{% include header.html %}
-    {% include common_header.html %}
+{% include header.html %} {% include common_header.html %}
 
-   
-    <div class="lb_bdy prct">
-       <div class="{{page.backgroundchange}}">
-            <div class="hero_img"  style="background-image: url('{{page.banner_imag1}}');"></div>
-        </div>   
-            <div class="hero_cnt">
-                <div class="heroText">
-                        {{ page.banner-Head }}
-                </div>
-                <div class="bnrText">
-                    {{ page.banner-cnt }}
-                </div>
-                <div class="hero_ptn"></div>
-            </div>
-      </div>
-      <div class="cs-service">
-            {% if page.boxShow != 'false' %}
-      <div class="CSservice">
-            {% for box in page.box_lists %}
-            <div class="CSservice__box {{page.color}}">
-                <img src="/assets/img/caseStudy-service/{{ box.UImg1  | downcase }}.png">
-                <div class="csHeading boxHeading">{{box.box-Head1}}</div>
-                <p class="paragraph boxPara">{{box.box-para1}}</p>
-            </div>
-            {% endfor %}
-      </div>
-      {% endif %}
-      <div class="caseStudy">
-      <div class="caseStudy__content1">
-        <div class="caseStudy__cHead csHeading">
-                {{ page.cHead1 }}
-        </div>
-        <p class="paragraph">{{ page.cContent1 }}</p>
+
+<div class="lb_bdy prct">
+    <div class="{{page.backgroundchange}}">
+        <div class="hero_img" style="background-image: url('{{page.banner_imag1}}');"></div>
     </div>
+    <div class="hero_cnt">
+        <div class="heroText">
+            {{ page.banner-Head }}
+        </div>
+        <div class="bnrText">
+            {{ page.banner-cnt }}
+        </div>
+        <div class="hero_ptn"></div>
+    </div>
+</div>
+<div class="cs-service">
+    {% if page.boxShow != 'false' %}
+    <div class="CSservice">
+        {% for box in page.box_lists %}
+        <div class="CSservice__box {{page.color}}">
+            <img src="/assets/img/caseStudy-service/{{ box.UImg1  | downcase }}.png">
+            <div class="csHeading boxHeading">{{box.box-Head1}}</div>
+            <p class="paragraph boxPara">{{box.box-para1}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div class="caseStudy">
+        <div class="caseStudy__content1">
+            <div class="caseStudy__cHead csHeading">
+                {{ page.cHead1 }}
+            </div>
+            <p class="paragraph">{{ page.cContent1 }}</p>
+        </div>
     </div>
     <div class="{{page.CSservice1}} {{page.hide}}">
         <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.png">
@@ -46,290 +45,307 @@
     {% endif %}
     <div class="caseStudy">
         <div class="caseStudy__content1">
-          <div class="caseStudy__cHead csHeading">
-                  {{ page.cHead2 }}
-          </div>
-          {% for challenge in page.challenge_list %}
-          {% if page.sbHead == 'yes' %}
-          <p class="csLightHead {{page.className}}">{{ challenge.subhead}}</p></br>
-          {% endif %}
-          {% for cont in challenge.content_para %}
-          <p class="paragraph">{{ cont.cContent2}}</p></br></br>
-          {% endfor %}
-          {% for service in challenge.content_lists %}
-          <p class="paragraph">{{ service.cContent4}}</p>
-          {% endfor %}
-          {% endfor %}
+            <div class="caseStudy__cHead csHeading">
+                {{ page.cHead2 }}
+            </div>
+            {% for challenge in page.challenge_list %} {% if page.sbHead == 'yes' %}
+            <p class="csLightHead {{page.className}}">{{ challenge.subhead}}</p>
+            </br>
+            {% endif %} {% for cont in challenge.content_para %}
+            <p class="paragraph">{{ cont.cContent2}}</p>
 
-         
+            {% if forloop.last != true %}</br>
+            </br>{% endif %} {% endfor %} {% for service in challenge.content_lists %}
+            <p class="paragraph">{{ service.cContent4}}</p>
+            {% endfor %} {% endfor %}
+
+
         </div>
     </div>
-    
+
     <div class="caseStudy">
-            {% if page.section == 'gov' %}
+        {% if page.section == 'gov' %}
         <div class="SceneImg2">
             <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
                     <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
                     {% for para in page.perceive_para %}
-                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
-                            {% endfor %}
-                            {% for service in page.content_lists1 %}
-                            <p class="paragraph color">{{ service.cContent7}}</p>
-                            {% endfor %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %} {% for service in page.content_lists1 %}
+                    <p class="paragraph color">{{ service.cContent7}}</p>
+                    {% endfor %}
                 </div>
             </div>
             <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.SImg16}}');">
-                    <div class="caseStudy__content4">
-                        <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                        <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                        {% for para in page.perceive_para %}
-                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
-                            {% endfor %}
-                                {% for service in page.content_lists1 %}
-                                <p class="paragraph color">{{ service.cContent7}}</p>
-                                {% endfor %}
-                    </div>
-                </div>
-            
-            
-                <div class="CSservice__box1 {{page.color}}">
-                    <div ><span class="headingBold color">{{page.box-Head4}}</span><span class="csHeading color">{{page.box-Head5}}</span></div></br>
-                    <p class="paragraph color">{{page.box-para4}}</p>
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    {% for para in page.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %} {% for service in page.content_lists1 %}
+                    <p class="paragraph color">{{ service.cContent7}}</p>
+                    {% endfor %}
                 </div>
             </div>
-            {% endif %}
-            {% if page.section == 'opm' %}
-                    <div class="SceneImg">
-                        <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
-                                <div class="caseStudy__content2">
-                                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                                    {% for perceive in page.main_perceive %}
-                                            {% for para in perceive.perceive_para %}
-                                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
-                                            {% endfor %}
-                                            <div class="perceive">
-                                        {% for service in perceive.content_lists1 %}
-                                        <p class="paragraph color">{{ service.cContent7}}</p>
-                                        {% endfor %}
-                                    </div>
-                                        {% endfor %}
-                                </div>
-                                
-                        </div>
-                        <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
-                                <div class="caseStudy__content2">
-                                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
-                                    {% for perceive in page.main_perceive %}
-                                            {% for para in perceive.perceive_para %}
-                                            <p  class="paragraph color">{{ para.cContent5 }}</p></br></br>
-                                            {% endfor %}
-                                            <div class="perceive">
-                                        {% for service in perceive.content_lists1 %}
-                                        <p class="paragraph color">{{ service.cContent7}}</p>
-                                        {% endfor %}
-                                    </div>
-                                        {% endfor %}
-                                </div>
-                                
-                        </div>
-                        <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.png">
-                        </div>
-                        {% endif %}
-        </div>
-       
 
 
-        <div class="CSService2">
-            <div class="csHeading">{{ page.cHead4 }}</div></br>
-            <div class="paragraph">{{ page.cContent8 }}</div>
-        </div>
-        <div class="CSService3">
-            <img src="/assets/img/caseStudy-service/{{ page.SImg3  | downcase }}.png">
-        </div>
-        <div class="caseStudy">
-            <div class="SceneImg">
-                <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
-                        <div class="caseStudy__content2">
-                            <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
-                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
-                            {% for adapt in page.adapt_loop %}
-                            <p  class="paragraph color">{{ adapt.cContent9 }}</p></br></br>
-                            {% endfor %}
-                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
-                            <p  class="paragraph color">{{ page.cContent10 }}</p>
-                        </div>
-                        
+            <div class="CSservice__box1 {{page.color}}">
+                <div>
+                    <span class="headingBold color">{{page.box-Head4}}</span>
+                    <span class="csHeading color">{{page.box-Head5}}</span>
                 </div>
-                <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
-                        <div class="caseStudy__content2">
-                            <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
-                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
-                            {% for adapt in page.adapt_loop %}
-                            <p  class="paragraph color ">{{ adapt.cContent9 }}</p></br></br>
-                            {% endfor %}
-                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
-                            <p  class="paragraph color">{{ page.cContent10 }}</p>
-                        </div>
-                        
-                </div>
-                <img src="/assets/img/caseStudy-service/{{ page.SImg5 | downcase }}.png">
-                </div>
+                </br>
+                <p class="paragraph color">{{page.box-para4}}</p>
+            </div>
         </div>
-        <div class="CSService4">
-                {% for design in page.division_loop %}
-                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                {% if thecycle == 'odd' %}
-                <div class="row padding-bottom {{forloop.index}}">
-                    
-                        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-lg-6 col-lg-offset-1 padding-0">
-                                <div class="csHeading">{{ design.cHead6 }}</div></br>
-                                {% for design in design.para_loop %}
-                                <div class="paragraph">{{ design.cContent11 }}</div>
-                                {% endfor %}
-                        </div>
-                        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0  col-lg-4 col-lg-offset-0 padding-0 padding-left">
-                                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
-                        </div>
-                    </div>
-                    {% endif %}
-                {% if thecycle == 'even' %}
-                    <div class="row padding-bottom">
-                            
-                        <div class="col-xs-10 col-xs-offset-1 col-xs-offset-0 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1  col-lg-4 col-lg-offset-1 padding-0 divB padding-right">
-                                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
-                        </div>
-                        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-lg-6 col-lg-offset-0 divA padding-0">
-                                <div class="csHeading">{{ design.cHead6 }}</div></br>
-                                {% for design in design.para_loop %}
-                                <div class="paragraph">{{ design.cContent11 }}</div>
-                                {% endfor %}
-                        </div>
-                    </div>
-                    {% endif %}
+        {% endif %} {% if page.section == 'opm' %}
+        <div class="SceneImg">
+            <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
+                <div class="caseStudy__content2">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    {% for perceive in page.main_perceive %} {% for para in perceive.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    </br>
                     {% endfor %}
-                    {% for fullImg in page.full_image%}
-                        <div class="row padding-bottom">
-                                <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
-                                        <div class="csHeading">{{ fullImg.cHead8 }}</div></br>
-                                        {% for cntnt in fullImg.cntnt_loop %}
-                                        <div class="paragraph">{{ cntnt.cContent13 }}</div>
-                                        {% endfor %}
-                                </div>
-                                <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1  cs-allign padding-0">
-                                        <img src="/assets/img/caseStudy-service/{{ fullImg.SImg8  | downcase }}.png">
-                                </div>
-                            </div>
-                                {% endfor %}
-                                <div class="row padding-bottom">
-                                        <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
-                                                <div class="csHeading">{{ page.cHead10 }}</div></br>
-                                                {% for last in page.main_content %}
-                                                <div class="paragraph {{page.myb-padding}}">{{ last.cContent15 }}</div>
-                                                {% endfor %}
-                                                
-                                        </div>
-                                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 cs-allign">
-                                                <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
-                                        </div>
-                                    </div>
-                                    
-                                        <div class="row padding-bottom">
-                                                <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
-                                                        <img src="/assets/img/caseStudy-service/{{ page.SImg11  | downcase }}.png">
-                                                </div>
-                                            </div>
+                    <div class="perceive">
+                        {% for service in perceive.content_lists1 %}
+                        <p class="paragraph color">{{ service.cContent7}}</p>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
                 </div>
 
-        
-        
-              <div class="caseStudy">
-                  {% if page.model != 'enigma' %}
-                  <div class="SceneImg2">
-                      <div class="caseStudy__bgImg2 bg5 csHd " style="background-image: url('{{page.SImg15}}');">
-                          <div class="caseStudy__content4">
-                              <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
-                                      <p  class="paragraph color">{{ page.cContent16 }}</p></br>
-                                      
-                          </div>
-                      </div>
-                      <div class="caseStudy__bgImg2 bg5 csMobile" style="background-image: url('{{page.SImg16}}');">
-                        <div class="caseStudy__content4">
-                            <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                            <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
-                                    <p  class="paragraph color">{{ page.cContent16 }}</p>
-                        </div>
+            </div>
+            <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
+                <div class="caseStudy__content2">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    {% for perceive in page.main_perceive %} {% for para in perceive.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %}
+                    <div class="perceive">
+                        {% for service in perceive.content_lists1 %}
+                        <p class="paragraph color">{{ service.cContent7}}</p>
+                        {% endfor %}
                     </div>
-                      
-                          <div class="CSservice__box1 box {{page.color}}">
-                              <div ><span class="headingBold color">{{page.box-Head7}}</span><span class="csHeading color">{{page.box-Head8}}</span></div></br>
-                              <p class="paragraph color">{{page.box-para5}}</p>
-                          </div>
-                      </div>
-                      {% endif %}
-                      {% if page.model == 'enigma' %}
-                      
-                      <div class="caseStudy__bgImg2 enigma_bg csHd"  style="background-image: url('{{page.SImg20}}');">
-                          <div class="caseStudy__content4">
-                              <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
-                                      <p  class="paragraph color">{{ page.cContent16 }}</p></br>
-                                      {% for evolve in page.evolve_loop %}
-                                                <div class="paragraph color">{{ evolve.cContent18 }}</div>
-                                                {% endfor %}
-                                      
-                          </div>
-                      </div>
-                      <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
-                          <div class="caseStudy__content4">
-                              <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                              <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
-                                      <p  class="paragraph color">{{ page.cContent16 }}</p></br>
-                                      {% for evolve in page.evolve_loop %}
-                                                <div class="paragraph color">{{ evolve.cContent18 }}</div>
-                                                {% endfor %}
-                                      
-                          </div>
-                          
-                  </div>
-                      {% endif %}
-                      
-                  </div>
-                  <div class="CSService3">
-                        <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.png">
-                    </div>
-                    <!-- <div class="CSService5">
+                    {% endfor %}
+                </div>
+
+            </div>
+            <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.png">
+        </div>
+        {% endif %}
+    </div>
+
+
+
+    <div class="CSService2">
+        <div class="csHeading">{{ page.cHead4 }}</div>
+        </br>
+        <div class="paragraph">{{ page.cContent8 }}</div>
+    </div>
+    <div class="CSService3">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg3  | downcase }}.png">
+    </div>
+    <div class="caseStudy">
+        <div class="SceneImg">
+            <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
+                <div class="caseStudy__content2">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
+                    {% for adapt in page.adapt_loop %}
+                    <p class="paragraph color">{{ adapt.cContent9 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %}
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
+                    <p class="paragraph color">{{ page.cContent10 }}</p>
+                </div>
+
+            </div>
+            <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
+                <div class="caseStudy__content2">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
+                    {% for adapt in page.adapt_loop %}
+                    <p class="paragraph color ">{{ adapt.cContent9 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %}
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
+                    <p class="paragraph color">{{ page.cContent10 }}</p>
+                </div>
+
+            </div>
+            <img src="/assets/img/caseStudy-service/{{ page.SImg5 | downcase }}.png">
+        </div>
+    </div>
+    <div class="CSService4">
+        {% for design in page.division_loop %} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %} {% if thecycle ==
+        'odd' %}
+        <div class="row padding-bottom {{forloop.index}}">
+
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-lg-6 col-lg-offset-1 padding-0">
+                <div class="csHeading">{{ design.cHead6 }}</div>
+                </br>
+                {% for design in design.para_loop %}
+                <div class="paragraph">{{ design.cContent11 }}</div>
+                {% endfor %}
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0  col-lg-4 col-lg-offset-0 padding-0 padding-left">
+                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
+            </div>
+        </div>
+        {% endif %} {% if thecycle == 'even' %}
+        <div class="row padding-bottom">
+
+            <div class="col-xs-10 col-xs-offset-1 col-xs-offset-0 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1  col-lg-4 col-lg-offset-1 padding-0 divB padding-right">
+                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-lg-6 col-lg-offset-0 divA padding-0">
+                <div class="csHeading">{{ design.cHead6 }}</div>
+                </br>
+                {% for design in design.para_loop %}
+                <div class="paragraph">{{ design.cContent11 }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %} {% endfor %} {% for fullImg in page.full_image%}
+        <div class="row padding-bottom">
+            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
+                <div class="csHeading">{{ fullImg.cHead8 }}</div>
+                </br>
+                {% for cntnt in fullImg.cntnt_loop %}
+                <div class="paragraph">{{ cntnt.cContent13 }}</div>
+                {% endfor %}
+            </div>
+            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1  cs-allign padding-0">
+                <img src="/assets/img/caseStudy-service/{{ fullImg.SImg8  | downcase }}.png">
+            </div>
+        </div>
+        {% endfor %}
+        <div class="row padding-bottom">
+            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
+                <div class="csHeading">{{ page.cHead10 }}</div>
+                </br>
+                {% for last in page.main_content %}
+                <div class="paragraph {{page.myb-padding}}">{{ last.cContent15 }}</div>
+                {% endfor %}
+
+            </div>
+            <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 cs-allign">
+                <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
+            </div>
+        </div>
+
+        <div class="row padding-bottom">
+            <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
+                <img src="/assets/img/caseStudy-service/{{ page.SImg11  | downcase }}.png">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="caseStudy">
+        {% if page.model != 'enigma' %}
+        <div class="SceneImg2">
+            <div class="caseStudy__bgImg2 bg5 csHd " style="background-image: url('{{page.SImg15}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                    <p class="paragraph color">{{ page.cContent16 }}</p>
+                    </br>
+
+                </div>
+            </div>
+            <div class="caseStudy__bgImg2 bg5 csMobile" style="background-image: url('{{page.SImg16}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                    <p class="paragraph color">{{ page.cContent16 }}</p>
+                </div>
+            </div>
+
+            <div class="CSservice__box1 box {{page.color}}">
+                <div>
+                    <span class="headingBold color">{{page.box-Head7}}</span>
+                    <span class="csHeading color">{{page.box-Head8}}</span>
+                </div>
+                </br>
+                <p class="paragraph color">{{page.box-para5}}</p>
+            </div>
+        </div>
+        {% endif %} {% if page.model == 'enigma' %}
+
+        <div class="caseStudy__bgImg2 enigma_bg csHd" style="background-image: url('{{page.SImg20}}');">
+            <div class="caseStudy__content4">
+                <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                <p class="paragraph color">{{ page.cContent16 }}</p>
+                </br>
+                {% for evolve in page.evolve_loop %}
+                <div class="paragraph color">{{ evolve.cContent18 }}</div>
+                {% endfor %}
+
+            </div>
+        </div>
+        <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
+            <div class="caseStudy__content4">
+                <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
+                <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                <p class="paragraph color">{{ page.cContent16 }}</p>
+                </br>
+                {% for evolve in page.evolve_loop %}
+                <div class="paragraph color">{{ evolve.cContent18 }}</div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+        {% endif %}
+
+    </div>
+    <div class="CSService3">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.png">
+    </div>
+    <!-- <div class="CSService5">
                             <img src="/assets/img/caseStudy-service/{{ page.SImg13  | downcase }}.png">
                         </div>
                         <div class="CSService6">
                                 <img src="/assets/img/caseStudy-service/{{ page.SImg14  | downcase }}.png">
                             </div> -->
-                            <div class="CSService7">
-                                    {% for images in page.img_list %}
-                                    
-                                    <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.png">
-                                    {% endfor %}
-                                </div>
-                            </div>
-                            <div class="blob1">
-                              <div  class="blob2">
-                                   <h1 class="headingLight">Like it?</h1>
-                                   <a href="/workpage"> <button class="commonButton ">View more</button></a>
-                              </div>
-                        
-                        
-                            <div class="blobs">  
-                              <div class="blob"></div>
-                              <div class="blob"></div>
-                              <div class="blob"></div>
-                              <div class="blob"></div>
-                              <div class="blob"></div>
-                              <div class="blob"></div>
-                          </div>
-                        </div>  
-            {% include common_footer.html %}
-            {% include footer.html %}
+    <div class="CSService7">
+        {% for images in page.img_list %}
+
+        <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.png"> {% endfor %}
+    </div>
+</div>
+<div class="blob1">
+    <div class="blob2">
+        <h1 class="headingLight">Like it?</h1>
+        <a href="/workpage">
+            <button class="commonButton ">View more</button>
+        </a>
+    </div>
+
+
+    <div class="blobs">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+    </div>
+</div>
+{% include common_footer.html %} {% include footer.html %}

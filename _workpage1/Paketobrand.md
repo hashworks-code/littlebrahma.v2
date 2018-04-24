@@ -32,7 +32,7 @@ backgroundlogo:
 
 brandImage1: "paketo1.jpg"
 brandImage2: "paketo2.jpg"
-brandImage3: "paketo3.jpg"
+brandImage3: "paketo3.png"
 brandImage4: "paketo4.jpg"
 bannerBrand: "paketobanner.jpg"
 
@@ -117,7 +117,7 @@ enigmaImageListt:
     class: padding
 
 enigmaImage2: "paketo2.jpg"
-enigmaImage3: "paketo3.jpg" 
+enigmaImage3: "paketo3.png" 
 
 enigmaImageList:
   - enigmaImage: "paketo5.jpg"
@@ -126,6 +126,4 @@ enigmaImageList:
     class: Nopadding
   - enigmaImage: "Pocketo_Main.gif"
     class: Nopadding
-
-
 ---

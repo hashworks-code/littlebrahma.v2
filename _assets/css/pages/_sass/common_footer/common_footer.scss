@@ -49,6 +49,12 @@
       z-index: 9999;
     }
   }
+  &__image {
+    a:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 @media screen and (min-width: 1024px) {
   .footer {
@@ -60,7 +66,6 @@
       top: 469px;
       width: 100%;
       background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1;
     }
     &__img {
       width: 870px;
@@ -145,7 +150,6 @@
       top: 396px;
       width: 100%;
       background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1;
     }
     &__img {
       width: 722px;
@@ -231,7 +235,9 @@
       top: 235px;
       width: 100%;
       background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1;
+      a:hover {
+        text-decoration: none;
+      }
     }
     &__img {
       width: 320px;
@@ -312,7 +318,9 @@
       bottom: 0px;
       width: 100%;
       background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1;
+      a:hover {
+        text-decoration: none;
+      }
     }
     &__img {
       width: 941px;
