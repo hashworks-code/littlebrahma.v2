@@ -105,7 +105,7 @@ csubHead4: "Enabling the perf. engineers to do more"
 adapt_loop:
   - cContent9: "Our periodic assessments & iterative design thinking process equipped us to understand the engineering mind of the tech teams."
 csubHead5: "Output"
-cContent10: "A workflow for a driven engineering platform with insightful dashboard for measuring the application performance and stability. We were able to nail down the following scope and objectives:"
+cContent10: "A workflow for a data driven engineering platform with insightful dashboard for measuring the application performance and stability. We were able to nail down the following scope and objectives:"
 
 
 
@@ -113,11 +113,11 @@ cContent10: "A workflow for a driven engineering platform with insightful dashbo
 
 cHead10: "Design"
 main_content:
-  - cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to access risk of delivery & data-driven for the executive teams to measure product quality."
+  - cContent15: "Delivered a high quality engineering platform actionable for the performance engineers, insightful for the project management teams to assess risk of delivery & data-driven for the executive teams to measure product quality."
 
 cHead11: "Evolve "
 csubHead6: "An improved UX solution"
-cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams requirement."
+cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams required."
 
 box-Head7: '100%'
 box-Head8: ''
@@ -164,5 +164,4 @@ banner_image: "/assets/img/caseStudy/xpe-Banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
 CSservice1: CSservice1
-
 ---
