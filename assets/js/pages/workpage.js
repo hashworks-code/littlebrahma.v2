@@ -23,7 +23,7 @@ $(document).ready(function() {
 
       if (sessionStorage.getItem('Hometab') == 'Service Design') {
         $('#filterli-2').click();
-
+        // $(".option").text('Service Design');
         $('.data-2').click();
       } else if (sessionStorage.getItem('Hometab') == 'Product Design') {
         $('#filterli-1').click();
@@ -44,7 +44,7 @@ $(document).ready(function() {
       });
       if (sessionStorage.getItem('pageDetails') == 'Service Design') {
         $('#filterli-2').click();
-
+        // $(".option").text('Service Design');
         $('.data-2').click();
       } else if (sessionStorage.getItem('pageDetails') == 'Product Design') {
         $('#filterli-1').click();

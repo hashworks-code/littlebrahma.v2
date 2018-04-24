@@ -300,42 +300,47 @@
 
         </div>
 </section>
-<script type="text/javascript" src="/assets/js/pages/service.js"></script> {% include common_footer.html %} {% include footer.html %}
+<!-- <script type="text/javascript" src="/assets/js/pages/service.js">
+</script>  -->
+{% include common_footer.html %} {% include footer.html %}
 
 <script>
 
+    $(document).ready(function () {
+        $('.responsive').slick({
+            prevArrow: "<img class='a-left control-c prev slick-prev' src='/assets/img/service/Left .svg'>",
+            nextArrow: "<img class='a-right control-c next slick-next' src='/assets/img/service/Right.svg'>",
+            dots: false,
+            //  infinite: false,
+            speed: 500,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        speed: 500,
 
-    $('.responsive').slick({
-        prevArrow: "<img class='a-left control-c prev slick-prev' src='/assets/img/service/Left .svg'>",
-        nextArrow: "<img class='a-right control-c next slick-next' src='/assets/img/service/Right.svg'>",
-        dots: false,
-        //  infinite: false,
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    speed: 500,
+                        //    infinite: false
+                    }
+                },
 
-                    //    infinite: false
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        speed: 500,
+                        //    infinite: false
+                    }
                 }
-            },
+            ]
+        });
 
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    speed: 500,
-                    //    infinite: false
-                }
-            }
-        ]
     });
+
 
 
 
