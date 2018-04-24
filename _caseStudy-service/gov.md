@@ -68,7 +68,7 @@ content_lists1:
 
     - cContent7: '- Personas acting on the system (Sales executive, Sales manager, Agents and admin)'
     - cContent7: '- Entire flow of an order process'
-    - cContent7: '- User experience for multi-search features by categorizing 144 filters to 10 groups.'
+    - cContent7: '- User experience for multi-search features by categorizing 42 filters to 10 groups.'
     - cContent7: '- Management of workflows created for order holds'
     - cContent7: '- Micro views of order delay stages'
     - cContent7: '- Simplified solution for workforce orchestration'
@@ -163,5 +163,4 @@ banner_image: "/assets/img/caseStudy/gov-banner.jpg"
 textcolor: text-white
 url: "ServiceDesign1"
 CSservice1: CSservice1
-
 ---
