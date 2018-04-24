@@ -577,6 +577,16 @@ textarea:focus {
 .row:before {
   content: normal; }
 
+li.lb_work_filterli:hover {
+  color: #ea1c49; }
+
+.loader-overlay {
+  width: 100%;
+  height: 100%;
+  background: url("/assets/img/loader.gif") center no-repeat #fff;
+  z-index: 99999;
+  position: fixed; }
+
 /* -------------------------------- 
 
 Primary style
@@ -1282,6 +1292,10 @@ html, body {
   position: relative;
   z-index: 9999; }
 
+.footer__image a:hover {
+  text-decoration: none;
+  color: white; }
+
 @media screen and (min-width: 1024px) {
   .footer {
     height: 600px;
@@ -1292,8 +1306,7 @@ html, body {
       top: 469px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
-      background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1; }
+      background: linear-gradient(to top, #ff698f, #ff84a1); }
     .footer__img {
       width: 870px;
       position: static;
@@ -1371,8 +1384,7 @@ html, body {
       top: 396px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
-      background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1; }
+      background: linear-gradient(to top, #ff698f, #ff84a1); }
     .footer__img {
       width: 722px;
       position: static;
@@ -1451,8 +1463,9 @@ html, body {
       top: 235px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
-      background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1; }
+      background: linear-gradient(to top, #ff698f, #ff84a1); }
+      .footer__image a:hover {
+        text-decoration: none; }
     .footer__img {
       width: 320px;
       padding-top: 110px; }
@@ -1522,8 +1535,9 @@ html, body {
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
-      background: linear-gradient(to top, #ff698f, #ff84a1);
-      z-index: -1; }
+      background: linear-gradient(to top, #ff698f, #ff84a1); }
+      .footer__image a:hover {
+        text-decoration: none; }
     .footer__img {
       width: 941px;
       position: absolute;

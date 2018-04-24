@@ -513,7 +513,7 @@
 
       .fixedClass {
         position: absolute;
-        top: 90px;
+        top: 0;
         left: 0%;
         transform: translate(-50%, 0);
         -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
@@ -816,6 +816,9 @@
   }
   li.lb_work_filterli:first-child {
     margin-left: 10px !important;
+  }
+  li.lb_work_filterli:hover {
+    color: #ea1c49;
   }
   .dropdown-menu li.lb_work_filterli:first-child {
     margin: 0px !important;
