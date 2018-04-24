@@ -1,10 +1,7 @@
 (function() {
   //scroll to top on refresh
-  // $(window).on('beforeunload', function() {
-  //   $(window).scrollTop(0);
-  // });
-  $(window).on('load', function() {
-    $('.loader-overlay').fadeOut(500);
+  $(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
   });
 
   $(window).resize(function() {
