@@ -1,4 +1,8 @@
 (function() {
+  $(window).on('load', function() {
+    $('.loader-overlay').fadeOut(500);
+  });
+
   //scroll to top on refresh
   $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
