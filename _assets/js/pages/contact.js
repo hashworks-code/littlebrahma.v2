@@ -66,9 +66,9 @@
     xhr.onreadystatechange = function() {
       //document.getElementById('gform').style.display = 'none'; // hide form
       document.getElementById('thankyou_message').style.display = 'block';
-      setTimeout(function() {
+       setTimeout(function() {
         document.getElementById('thankyou_message').style.display = 'none';
-      }, 3000);
+       }, 3000);
       $('#gform').trigger('reset');
       return;
     };

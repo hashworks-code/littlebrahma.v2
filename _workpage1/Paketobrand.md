@@ -32,7 +32,7 @@ backgroundlogo:
 
 brandImage1: "paketo1.jpg"
 brandImage2: "paketo2.jpg"
-brandImage3: "paketo3.png"
+brandImage3: "paketo3.jpg"
 brandImage4: "paketo4.jpg"
 bannerBrand: "paketobanner.jpg"
 
