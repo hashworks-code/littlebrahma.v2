@@ -1820,6 +1820,12 @@ html, body {
     .footer .socialLogo {
       left: 52%; } }
 
+a:focus, a:hover {
+  color: #fff; }
+
+.footerlogo a {
+  color: #fff; }
+
 .alignText {
   text-align: left; }
 
