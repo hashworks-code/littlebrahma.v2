@@ -765,8 +765,8 @@ li.lb_work_filterli:hover {
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
   visibility: hidden; /* Hidden by default. Visible on click */
-  min-width: 40%; /* Set a default minimum width */
-  margin-left: 18px; /* Divide value of min-width by 2 */
+   /* Set a default minimum width */
+  // margin-left: 18px; /* Divide value of min-width by 2 */
   background-color: #5d6a6f; /* Black background color */
   color: #fff; /* White text color */
   text-align: center; /* Centered text */
@@ -774,7 +774,7 @@ li.lb_work_filterli:hover {
   padding: 16px; /* Padding */
   position: fixed; /* Sit on top of the screen */
   z-index: 1; /* Add a z-index if needed */
-  right: 30%; /* Center the snackbar */
+ /* Center the snackbar */
   top: 80px; /* 30px from the bottom */
 }
 
@@ -830,5 +830,30 @@ However, delay the fade out process for 2.5 seconds */
   to {
     top: 0;
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  #snackbar{
+    width: 100%;
+    right: 0px;
+  }
+}
+@media screen and (min-width: 767px) {
+  #snackbar{
+    width: 40%;
+    right: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #snackbar{
+    width: 40%;
+    right: 30%;
+  }
+}
+@media screen and (min-width: 1366px) {
+  #snackbar{
+    width: 40%;
+    right: 30%;
   }
 }
