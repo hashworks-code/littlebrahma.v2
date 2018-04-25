@@ -684,11 +684,8 @@ li.lb_work_filterli:hover {
 #snackbar {
   visibility: hidden;
   /* Hidden by default. Visible on click */
-  min-width: 250px;
   /* Set a default minimum width */
-  margin-left: 18px;
-  /* Divide value of min-width by 2 */
-  background-color: #333;
+  background-color: #5d6a6f;
   /* Black background color */
   color: #fff;
   /* White text color */
@@ -702,7 +699,6 @@ li.lb_work_filterli:hover {
   /* Sit on top of the screen */
   z-index: 1;
   /* Add a z-index if needed */
-  right: 30px;
   /* Center the snackbar */
   top: 80px;
   /* 30px from the bottom */ }
@@ -719,35 +715,55 @@ However, delay the fade out process for 2.5 seconds */
 /* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
   from {
-    right: 0;
+    top: 0;
     opacity: 0; }
   to {
-    right: 30px;
+    top: 80px;
     opacity: 1; } }
 
 @keyframes fadein {
   from {
-    right: 0;
+    top: 0;
     opacity: 0; }
   to {
-    right: 30px;
+    top: 80px;
     opacity: 1; } }
 
 @-webkit-keyframes fadeout {
   from {
-    right: 30px;
+    top: 80px;
     opacity: 1; }
   to {
-    right: 0;
+    top: 0;
     opacity: 0; } }
 
 @keyframes fadeout {
   from {
-    right: 30px;
+    top: 80px;
     opacity: 1; }
   to {
-    right: 0;
+    top: 0;
     opacity: 0; } }
+
+@media screen and (min-width: 320px) {
+  #snackbar {
+    width: 100%;
+    right: 0px; } }
+
+@media screen and (min-width: 767px) {
+  #snackbar {
+    width: 40%;
+    right: 30%; } }
+
+@media screen and (min-width: 1024px) {
+  #snackbar {
+    width: 40%;
+    right: 30%; } }
+
+@media screen and (min-width: 1366px) {
+  #snackbar {
+    width: 40%;
+    right: 30%; } }
 
 /* -------------------------------- 
 
@@ -1471,13 +1487,14 @@ html, body {
       background: linear-gradient(to top, #ff698f, #ff84a1); }
     .footer__img {
       width: 870px;
-      position: static;
+      position: absolute;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
       z-index: 2;
-      padding-top: 126px; }
+      padding-top: 126px;
+      right: 8%; }
     .footer__inner {
       position: absolute;
       top: 35px;
@@ -1549,13 +1566,14 @@ html, body {
       background: linear-gradient(to top, #ff698f, #ff84a1); }
     .footer__img {
       width: 722px;
-      position: static;
+      position: absolute;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
       z-index: 2;
-      padding-top: 112px; }
+      padding-top: 112px;
+      right: 3%; }
     .footer__inner {
       position: absolute;
       font-size: 32px;
@@ -1801,6 +1819,12 @@ html, body {
       padding: 115px 23% 37px 27%; }
     .footer .socialLogo {
       left: 52%; } }
+
+a:focus, a:hover {
+  color: #fff; }
+
+.footerlogo a {
+  color: #fff; }
 
 #fullpage ul.practiceli.paragraph {
   padding-left: 16px; }
@@ -2294,11 +2318,11 @@ html, body {
     left: 10%;
     font-size: 40px; }
   #fullpage .footer__img {
-    bottom: 105px;
+    bottom: 92px;
     position: absolute;
     right: 0; }
   #fullpage .footer__image {
-    bottom: 60px;
+    bottom: 49px;
     top: unset; }
   #fullpage .footer .socialLogo {
     font-size: 12px;
@@ -2394,7 +2418,7 @@ html, body {
   #fullpage .philSec {
     margin: 0; }
   #fullpage .footer__img {
-    bottom: 93px; }
+    bottom: 82px; }
   #fullpage .hero_img {
     height: calc(100vh - 160px); }
   #fullpage .hero_cnt {
@@ -2463,4 +2487,4 @@ html, body {
   #fullpage .footer__img {
     width: 1260px;
     right: 20%;
-    bottom: 88px; } }
+    bottom: 76px; } }

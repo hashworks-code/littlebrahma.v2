@@ -74,9 +74,9 @@ content_lists1:
 
 
 
-box-Head4: '187'
-box-Head5: 'apps'
-box-para4: 'on-boarded in the clients IT eco-system for real-time monitoring'
+box-Head4: '800+'
+box-Head5: ''
+box-para4: 'Users onboarded from diverse teams (Perf. Engg., PM, Leadership, QE and App dev.)'
 
 cHead4: "Output"
 cContent8: "Our discovery phase, helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
@@ -119,9 +119,9 @@ cHead11: "Evolve "
 csubHead6: "An improved UX solution"
 cContent16: "Heat map analysis conducted on the design prototypes helped us to continuously iterate the product and we were able to deliver what the engineering teams required."
 
-box-Head7: '100%'
+box-Head7: '1 click'
 box-Head8: ''
-box-para5: 'Real-time insights for pro-active'
+box-para5: 'Engineering dashboard for all stakeholders'
 
 
 division_loop:

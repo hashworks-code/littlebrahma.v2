@@ -113,9 +113,9 @@ cHead11: "Evolve "
 csubHead6: "Testing our efforts"
 cContent16: "We carried out extensive user testing both on the prototype and during the development phase, to recheck our screen flows. Multiple iterations were done to optimize the design in consecutive sprints."
 
-box-Head7: '36%'
+box-Head7: '470+'
 box-Head8: ''
-box-para5: 'QE productivity increased'
+box-para5: 'Quality engineers across the globe onboarded into the system'
 
 division_loop:
     - cHead6: 'Unlocking clear and simple navigation'

@@ -69,11 +69,12 @@
     }
     &__img {
       width: 870px;
-      position: static;
+      position: absolute;
       display: flex;
       margin: 0 auto;
       z-index: 2;
       padding-top: 126px;
+      right:8%;
     }
     &__inner {
       position: absolute;
@@ -153,11 +154,12 @@
     }
     &__img {
       width: 722px;
-      position: static;
+      position: absolute;
       display: flex;
       margin: 0 auto;
       z-index: 2;
       padding-top: 112px;
+      right: 3%;
     }
     &__inner {
       position: absolute;
@@ -453,4 +455,12 @@
       left: 52%;
     }
   }
+}
+
+a:focus, a:hover{
+   color: #fff;
+}
+
+.footerlogo a{
+  color: #fff;
 }
