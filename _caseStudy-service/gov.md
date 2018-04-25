@@ -79,10 +79,9 @@ content_lists1:
 
 
 
-box-Head4: '60'
-box-Head5: ' Seconds'
-box-para4: 'Latency to perform an 
-            action on Hold'
+box-Head4: '42+'
+box-Head5: ''
+box-para4: 'Search attributes simplified iteratively for an amazimg search experience'
 
 cHead4: "Output"
 cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
@@ -123,10 +122,9 @@ cHead11: "Evolve "
 csubHead6: "An improved UX solution"
 cContent16: "Heat map analysis was conducted on the design prototypes to understand the success rate of the UX strategies we applied. Staying in touch and continuous engagement with the customers made the entire ideation and design flow seamless which resulted in a product which customer wanted and love."
 
-box-Head7: '25'
-box-Head8: ' Seconds'
-box-para5: 'Latency to perform an 
-            action on hold'
+box-Head7: '3 click'
+box-Head8: ''
+box-para5: 'Optimized CTA design from 15 click operation'
 
 
 

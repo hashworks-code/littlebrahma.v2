@@ -128,9 +128,9 @@ cHead11: "Evolve "
 csubHead6: "Taking the customer along through the entire journey"
 cContent16: "We kept customer inclusive in the design strategy and ideation phase. We had constant engagements throughout the designing process to take feedback and iterate. "
 
-box-Head7: '20 %'
+box-Head7: '60 %'
 box-Head8: ''
-box-para5: 'Increase in customer footfall'
+box-para5: 'Inproved benefit on "soft savings" improving bottom line'
 
 
 

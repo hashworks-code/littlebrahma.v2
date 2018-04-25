@@ -126,7 +126,7 @@ cContent16: "Heat map analysis was conducted on the design prototypes for valida
 
 box-Head7: '140+'
 box-Head8: ''
-box-para5: 'Features allowing the users to resolve frauds from one platform'
+box-para5: 'Features allowing the users to resolve frauds from a single platform'
 
 
 division_loop:
