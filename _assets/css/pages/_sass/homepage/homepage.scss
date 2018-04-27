@@ -19,7 +19,7 @@ li.lb_work_filterli:first-child {
 .homePage{
     // margin-top: 80px;
     &__BnrDiv{
-        background-image: url(/assets/img/homepage/01_Home.gif);
+        background-image: url(/assets/img/BANNER_IMG/Landing_page.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: relative;
@@ -471,9 +471,9 @@ li.lb_work_filterli:first-child {
         margin-top: 35px;
         &__BnrDiv{
             // background-image:none;
-            background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
-            background-size: cover;
-            background-position: center center;
+            // background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
+            background-size: 100% 60%;
+            // background-position: center center;
             // padding-top: 284px;
             height: 878px;
             &__Inner{

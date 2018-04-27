@@ -1299,11 +1299,12 @@ html, body {
       height: 137px;
       margin: 16px 46px 24px; }
   .lb-mobile {
-    display: block !important; }
-  .lb-desktop {
     display: none !important; }
-  img.lb-mobile {
-    height: 36px !important; } }
+  .lb-desktop {
+    position: absolute;
+    top: -21px;
+    height: 36px !important;
+    clip: rect(0px, 21px, 36px, 0px); } }
 
 @media only screen and (min-width: 767px) {
   .modal1 {
@@ -1348,7 +1349,7 @@ html, body {
   .lb-mobile {
     display: block !important; }
   .lb-desktop {
-    display: none !important; } }
+    top: -18px; } }
 
 @media only screen and (min-width: 1024px) {
   .contactHeading {
@@ -1388,7 +1389,9 @@ html, body {
   .lb-mobile {
     display: none !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: block !important;
+    position: static;
+    height: 50px !important; } }
 
 @media only screen and (min-width: 1440px) {
   .contactHeading {
@@ -2803,7 +2806,7 @@ li.lb_work_filterli:first-child {
   margin-left: 50px !important; }
 
 .homePage__BnrDiv {
-  background-image: url(/assets/img/homepage/01_Home.gif);
+  background-image: url(/assets/img/BANNER_IMG/Landing_page.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -3088,9 +3091,7 @@ li.lb_work_filterli:first-child {
   .homePage {
     margin-top: 35px; }
     .homePage__BnrDiv {
-      background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
-      background-size: cover;
-      background-position: center center;
+      background-size: 100% 60%;
       height: 878px; }
       .homePage__BnrDiv__Inner {
         height: 710px;

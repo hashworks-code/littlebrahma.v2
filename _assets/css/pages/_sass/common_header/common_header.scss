@@ -663,13 +663,17 @@ Primary style
     }
   }
   .lb-mobile{
-    display: block !important;
-  }
-  .lb-desktop{
     display: none !important;
   }
-  img.lb-mobile {
+  .lb-desktop{
+    // display: block !important;
+    position: absolute;
+    top: -21px;
     height: 36px !important;
+    clip: rect(0px,21px,36px,0px);
+  }
+  img.lb-mobile {
+    
 }
 
 }
@@ -742,7 +746,8 @@ Primary style
     display: block !important;
   }
   .lb-desktop{
-    display: none !important;
+    // display: none !important;
+    top: -18px;
   }
 }
 
@@ -808,6 +813,8 @@ Primary style
   }
   .lb-desktop{
     display: block !important;
+    position: static;
+    height: 50px !important;
   }
 }
 
