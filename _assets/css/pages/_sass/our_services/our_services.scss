@@ -183,6 +183,11 @@
     .fixCont {
       display: none;
     }
+    .hero {
+      &_img {
+        background-image: url(/assets/img/BANNER_IMG/Service_Page.png);
+      }
+    }
     &_dic {
       .hckTitle {
         display: block;

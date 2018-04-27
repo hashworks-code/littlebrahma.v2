@@ -2024,6 +2024,8 @@ a:focus, a:hover {
     font-size: 20px; }
   #fullpage .prct .fixCont {
     display: none; }
+  #fullpage .prct .hero_img {
+    background-image: url(/assets/img/BANNER_IMG/Practice_Page.png); }
   #fullpage .prct_dic .hckTitle {
     display: block; }
   #fullpage .prct_dic img {
@@ -2505,6 +2507,8 @@ a:focus, a:hover {
   margin-top: 40px; }
 
 @media screen and (min-width: 320px) {
+  .prct .hero_img {
+    background-image: url(/assets/img/BANNER_IMG/About_Page.png); }
   .about-us {
     padding: 40px 29px 24px;
     padding-bottom: 0px; }
@@ -2541,6 +2545,8 @@ a:focus, a:hover {
     padding-top: 24px; } }
 
 @media screen and (min-width: 768px) {
+  .prct .hero_img {
+    background-image: none; }
   .about-us {
     padding: 48px 34px 12px;
     padding-bottom: 0px; }

@@ -1983,6 +1983,8 @@ a:focus, a:hover {
     font-size: 24px; }
   .prct .fixCont {
     display: none; }
+  .prct .hero_img {
+    background-image: url(/assets/img/BANNER_IMG/Service_Page.png); }
   .prct_dic .hckTitle {
     display: block; }
   .prct_dic img {
