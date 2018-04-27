@@ -62,13 +62,13 @@ Primary style
     width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
     z-index: 99999;
   }
   @media only screen and (min-width: 768px) {
     .cd-header {
       height: 50px;
       background:white;
-      box-shadow: none;
       z-index: 99999;
     }
   }
