@@ -471,9 +471,9 @@ li.lb_work_filterli:first-child {
         margin-top: 35px;
         &__BnrDiv{
             // background-image:none;
-            // background-image: url(/assets/img/homepage/001_mobile-home-banner.gif);
-            background-size: 100% 60%;
-            // background-position: center center;
+            background-image: url(/assets/img/homepage/Mobile_banner.png);
+            background-size: cover;
+            background-position: center center;
             // padding-top: 284px;
             height: 878px;
             &__Inner{

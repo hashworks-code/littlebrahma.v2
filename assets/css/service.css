@@ -3091,7 +3091,9 @@ li.lb_work_filterli:first-child {
   .homePage {
     margin-top: 35px; }
     .homePage__BnrDiv {
-      background-size: 100% 60%;
+      background-image: url(/assets/img/homepage/Mobile_banner.png);
+      background-size: cover;
+      background-position: center center;
       height: 878px; }
       .homePage__BnrDiv__Inner {
         height: 710px;
