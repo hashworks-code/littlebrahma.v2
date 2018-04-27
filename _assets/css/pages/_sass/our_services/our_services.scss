@@ -12,8 +12,12 @@
   }
   .hero {
     &_img {
-      background-image: url(/assets/img/practice/new-service-gif.gif);
+      display: flex;
+      // background-image: url(/assets/img/practice/new-service-gif.gif);
       background-color: #f9e2e9;
+      video{
+        width: 100%;
+      }
     }
   }
   &_rnImg {

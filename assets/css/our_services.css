@@ -1847,8 +1847,12 @@ a:focus, a:hover {
         -ms-flex-pack: center;
             justify-content: center; }
   .prct .hero_img {
-    background-image: url(/assets/img/practice/new-service-gif.gif);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     background-color: #f9e2e9; }
+    .prct .hero_img video {
+      width: 100%; }
   .prct_rnImg {
     width: 100vw; }
   .prct .genericTitle,

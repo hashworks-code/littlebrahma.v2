@@ -1882,8 +1882,9 @@ a:focus, a:hover {
         -ms-flex-pack: center;
             justify-content: center; }
   #fullpage .prct .hero_img {
-    background-image: url(/assets/img/practice/03_Practice.gif);
     background-color: #e9faff; }
+    #fullpage .prct .hero_img video {
+      width: 100%; }
   #fullpage .prct_rnImg {
     width: 100vw; }
   #fullpage .prct .genericTitle,
@@ -2490,8 +2491,12 @@ a:focus, a:hover {
     bottom: 76px; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/workpage/002_work.gif);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fffade; }
+  .prct .hero_img video {
+    width: 100%; }
 
 #lb_btn1 {
   display: none; }

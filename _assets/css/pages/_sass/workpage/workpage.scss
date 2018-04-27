@@ -267,8 +267,12 @@
 // }
 @import "practice/practice.scss";
 .prct .hero_img{
-    background-image: url(/assets/img/workpage/002_work.gif);
+    // background-image: url(/assets/img/workpage/002_work.gif);
+    display: flex;
     background-color: #fffade;
+    video{
+        width: 100%;
+    }
 }
 #lb_btn1{
     display: none;

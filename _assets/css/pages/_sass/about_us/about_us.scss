@@ -1,8 +1,12 @@
 @import 'practice/practice.scss';
 
 .prct .hero_img {
-  background-image: url(/assets/img/about_us/004_About.gif);
+  // background-image: url(/assets/img/about_us/004_About.gif);
+  display: flex;
   background-color: #eeffde;
+  video{
+    width: 100%;
+  }
 }
 .philSec1 {
   margin-top: 40px;
