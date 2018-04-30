@@ -5,7 +5,7 @@ layout: appbranding
 product_title: Building the brand voice for Groome
 product_title1: Groome Branding
 product_description: Branding / Visual identity / Website
-banner_image: "/assets/img/caseStudy/groome-copy.png"
+banner_image: "/assets/img/caseStudy/4.png"
 url: "ServiceDesign2"
 title: Groome Branding
 current : Branding & Comm.

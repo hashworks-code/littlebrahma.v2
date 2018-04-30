@@ -95,7 +95,7 @@ product_title: LB Calendar Design 2017
 product_title1: Calendar 2017
 product_description: Visual identity
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy/123-copy-8.png"
+banner_image: "/assets/img/caseStudy/1.png"
 textcolor: text-white
 url: "ServiceDesign1"
 current : Branding & Comm.

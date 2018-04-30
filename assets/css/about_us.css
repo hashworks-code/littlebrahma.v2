@@ -1453,7 +1453,8 @@ html, body {
   text-align: center;
   position: absolute;
   bottom: 20px;
-  left: 50%; }
+  left: 50%;
+  z-index: 3; }
   .footer .socialLogo img {
     width: 23px;
     height: 23px;
@@ -2002,10 +2003,6 @@ a:focus, a:hover {
     display: none; }
   #fullpage .step-head {
     display: block !important; }
-  #fullpage .hero_cnt {
-    position: absolute;
-    bottom: -30px;
-    width: 100%; }
   #fullpage .hero_img {
     position: relative;
     margin-top: 50px; } }
@@ -2317,7 +2314,7 @@ a:focus, a:hover {
     margin: 0; }
   #fullpage .hero_cnt {
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }

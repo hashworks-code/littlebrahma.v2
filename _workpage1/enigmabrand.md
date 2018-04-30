@@ -6,7 +6,7 @@ product_title: Branding for code monitoring software
 product_title1: Enigma Branding
 product_description: Branding / Visual identity
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy/groome-copy-4.png"
+banner_image: "/assets/img/caseStudy/3.png"
 url: "ServiceDesign1"
 title: Enigma Branding
 brandTitle: "Branding for application run-time monitoring tool"
