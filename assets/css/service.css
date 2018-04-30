@@ -3177,7 +3177,6 @@ li.lb_work_filterli:first-child {
     text-align: center; } }
 
 .prct .hero_img {
-  background-image: url(/assets/img/practice/new-service-gif.gif);
   background-color: #fee2e9; }
 
 .step-content-show {
@@ -3272,6 +3271,9 @@ ul.lb_work_filter.lb_service_lg {
 @media screen and (min-width: 320px) {
   li.lb_work_filterli:first-child {
     margin-left: 0px !important; }
+  .prct .hero_img {
+    background-image: url(/assets/img/BANNER_IMG/Service_Page.png);
+    background-color: #fee7f2d6; }
   .stepwizard {
     padding-top: 50px; }
   .step-mob-padder {
