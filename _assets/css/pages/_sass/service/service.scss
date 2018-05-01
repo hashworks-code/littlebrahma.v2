@@ -2,7 +2,7 @@
 // @import "practice/practice.scss";
 @import 'homepage/homepage.scss';
 .prct .hero_img {
-  background-image: url(/assets/img/practice/new-service-gif.gif);
+  // background-image: url(/assets/img/practice/new-service-gif.gif);
   background-color: #fee2e9;
 }
 
@@ -176,6 +176,10 @@ ul.lb_work_filter.lb_service_lg {
 @media screen and (min-width: 320px) {
   li.lb_work_filterli:first-child {
     margin-left: 0px !important;
+  }
+  .prct .hero_img {
+    background-image: url(/assets/img/BANNER_IMG/Service_Page.png );
+    background-color: #fee7f2d6;
   }
   .stepwizard {
     padding-top: 50px;

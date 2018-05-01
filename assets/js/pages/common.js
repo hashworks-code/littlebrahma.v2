@@ -1,6 +1,9 @@
 (function() {
   $(window).on('load', function() {
     $('.loader-overlay').fadeOut(500);
+    if(screen.width<768){
+      $('video').remove();
+    }
   });
 
   //scroll to top on refresh

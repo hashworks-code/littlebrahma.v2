@@ -48,8 +48,11 @@
     }
     .hero {
       &_img {
-        background-image: url(/assets/img/practice/03_Practice.gif);
+        // background-image: url(/assets/img/BANNER_IMG/Practice_Page.png);
         background-color: #e9faff;
+        video{
+          width: 100%;
+        }
       }
     }
     &_rnImg {
@@ -164,6 +167,7 @@
         background-size: contain;
         height: 250px;
       }
+      
       .rContent_1,
       .rContent_2,
       .rContent_3 {
@@ -198,11 +202,11 @@
     .step-head {
       display: block !important;
     }
-    .hero_cnt {
-      position: absolute;
-      bottom: -30px;
-      width: 100%;
-    }
+    // .hero_cnt {
+    //   position: absolute;
+    //   bottom: -30px;
+    //   width: 100%;
+    // }
     .hero_img {
       position: relative;
       margin-top: 50px;
@@ -227,6 +231,11 @@
       }
       .fixCont {
         display: none;
+      }
+      .hero {
+        &_img {
+          background-image: url(/assets/img/BANNER_IMG/Practice_Page.png);
+        }
       }
       &_dic {
         .hckTitle {
@@ -613,7 +622,7 @@
     }
     .hero_cnt {
       position: absolute;
-      bottom: 15%;
+      bottom: 10%;
       left: 50%;
       transform: translate(-50%, 0);
       //   &::before {

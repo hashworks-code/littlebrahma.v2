@@ -6,7 +6,7 @@ product_title: Humanizing the tech startup
 product_title1: Hashworks Branding
 product_description: Branding / Visual identity / Website
 #product_thumbnail_description: TALENT AQUISITION
-banner_image: "/assets/img/caseStudy/groome-copy-3.png"
+banner_image: "/assets/img/caseStudy/5.png"
 url: "ServiceDesign1"
 title: Hashworks Branding
 current : Branding & Comm.

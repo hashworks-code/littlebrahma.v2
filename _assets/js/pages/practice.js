@@ -1,10 +1,19 @@
 $(document).ready(function() {
   if (screen.width > 1025) {
     $('#fullpage').fullpage({
+
+      scrollOverflow: false,
+      afterRender: function(){
+       
+            
+      },
       verticalCentered: false,
       afterLoad: function(anchorLink, index) {
         var loadedSection = $(this);
-
+if(index==1){
+  $('#practiceVideo')[0].play(); 
+}
+        
         //using index
         if (index == 3) {
           $('.fixCont').addClass('fixedClass');

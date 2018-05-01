@@ -833,13 +833,15 @@ However, delay the fade out process for 2.5 seconds */
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 767px) {
   #snackbar{
-    width: 100%;
+    width: 90%;
     right: 0px;
+    left: 0px;
+    margin: 0 auto;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #snackbar{
     width: 40%;
     right: 30%;

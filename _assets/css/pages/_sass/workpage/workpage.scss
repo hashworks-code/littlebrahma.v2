@@ -267,8 +267,12 @@
 // }
 @import "practice/practice.scss";
 .prct .hero_img{
-    background-image: url(/assets/img/workpage/002_work.gif);
+    // background-image: url(/assets/img/workpage/002_work.gif);
+    display: flex;
     background-color: #fffade;
+    video{
+        width: 100%;
+    }
 }
 #lb_btn1{
     display: none;
@@ -437,6 +441,8 @@ button.lb_btn:focus {
         margin-top:40px;
     }
 @media screen and (min-width: 320px){
+    .prct .hero_img {
+        background-image:url(/assets/img/BANNER_IMG/Work_Page.png) ;}
     .lb_work_filter li{
         font-size: 16px;
     }
@@ -496,6 +502,8 @@ button.lb_btn:focus {
     }
 }
 @media screen and (min-width: 768px){
+    .prct .hero_img {
+        background-image:none;}
     .lb_filter_lg{
        display: block;
     }
