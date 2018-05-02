@@ -2428,9 +2428,17 @@ a:focus, a:hover {
   #fullpage .footer__img {
     bottom: 82px; }
   #fullpage .hero_img {
-    height: calc(100vh - 160px); }
+    height: 710px; }
+    #fullpage .hero_img video {
+      height: 100%; }
   #fullpage .hero_cnt {
-    bottom: 10px; } }
+    bottom: unset;
+    position: relative;
+    left: unset;
+    -webkit-transform: unset;
+            transform: unset; }
+  #fullpage .hero_ptn {
+    left: 0px; } }
 
 #fullpage .heroText__dna {
   font-family: 'MavenPro-Medium';
@@ -2749,7 +2757,7 @@ div.test {
 .filterli-2 {
   display: none; }
 
-.filterli-1 {
+.filterli-3 {
   display: none; }
 
 .caretcss {

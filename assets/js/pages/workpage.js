@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
   if (
     sessionStorage.getItem('Hometab') != '' &&
     sessionStorage.getItem('Hometab') != null
@@ -59,4 +60,7 @@ $(document).ready(function() {
       sessionStorage.setItem('pageDetails', '');
     }, 500);
   }
+
+  
+
 });

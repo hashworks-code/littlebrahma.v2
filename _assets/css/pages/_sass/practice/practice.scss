@@ -751,10 +751,19 @@
       bottom: 82px;
     }
     .hero_img {
-      height: calc(100vh - 160px);
+      height: 710px;
+      video{
+        height: 100%;
+      }
     }
     .hero_cnt {
-      bottom: 10px;
+      bottom: unset;
+    position: relative;
+    left: unset;
+    transform: unset;
+    }
+    .hero_ptn{
+      left: 0px;
     }
   }
 
