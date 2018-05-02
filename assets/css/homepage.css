@@ -2945,7 +2945,7 @@ li.lb_work_filterli:first-child {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
   .homePage__dna__left {
     width: 50%;
     padding-right: 0px; }
@@ -2979,7 +2979,7 @@ li.lb_work_filterli:first-child {
   /* text-align: left; */
   color: #393939;
   padding-bottom: 40px;
-  margin-top: 20px; }
+  margin-top: 0px !important; }
 
 .lb-ourworks-dna {
   width: 1100px;
@@ -3052,21 +3052,23 @@ li.lb_work_filterli:first-child {
           height: 64px; }
     .homePage__BnrDiv__Service__Cards__Inner1 {
       margin-right: 0; }
-    .homePage__dna__left {
-      width: 50%; }
-      .homePage__dna__left img {
-        width: auto;
-        height: auto; }
-    .homePage__dna__right {
-      width: 50%;
-      margin: 0px auto;
-      padding-right: 90px;
-      margin-top: 8%; }
-      .homePage__dna__right h1 {
-        font-size: 20px;
-        margin: 0px; }
-      .homePage__dna__right a {
-        font-size: 16px; }
+    .homePage__dna {
+      padding-bottom: 20px; }
+      .homePage__dna__left {
+        width: 50%; }
+        .homePage__dna__left img {
+          width: auto;
+          height: auto; }
+      .homePage__dna__right {
+        width: 50%;
+        margin: 0px auto;
+        padding-right: 90px;
+        margin-top: 8%; }
+        .homePage__dna__right h1 {
+          font-size: 20px;
+          margin: 0px; }
+        .homePage__dna__right a {
+          font-size: 16px; }
   .lb-ourworks-dna {
     width: 965px;
     margin: 193px auto 0; } }
@@ -3121,7 +3123,7 @@ li.lb_work_filterli:first-child {
     .homePage__dna__right a {
       font-size: 14px; }
   .homePage__dna {
-    padding-bottom: 60px; }
+    padding-bottom: 0px; }
   .lb-ourworks {
     font-size: 28px;
     padding-bottom: 36px;
