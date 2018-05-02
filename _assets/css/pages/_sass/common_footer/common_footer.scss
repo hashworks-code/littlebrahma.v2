@@ -314,11 +314,10 @@
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 700px;
+    height: 6 00px;
     position: relative;
     &__image {
       position: absolute;
-      top: 568px;
       bottom: 0px;
       width: 100%;
       background: linear-gradient(to top, #ff698f, #ff84a1);
@@ -334,7 +333,7 @@
     }
     &__inner {
       position: absolute;
-      top: 128px;
+      top: 70px;
       left: 12%;
       font-size: 40px;
       h1 {

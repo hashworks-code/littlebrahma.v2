@@ -338,7 +338,7 @@ table {
     background-color: #ea1c49;
     border-radius: 25px;
     font-size: 14px;
-    padding: 7px 14px;
+    padding: 6px 12px;
     font-family: 'PT_Sans-Regular';
     color: #fff;
     outline: none;
@@ -467,8 +467,8 @@ textarea:focus {
     width: 300px; }
   .commonButton {
     border-radius: 20px;
-    font-size: 16px;
-    padding: 7px 14px; }
+    font-size: 15px;
+    padding: 7px 12px; }
   .rajdhaniBold {
     font-size: 36px; }
   .rajdhaniRegular {
@@ -1717,11 +1717,10 @@ html, body {
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 700px;
+    height: 6 00px;
     position: relative; }
     .footer__image {
       position: absolute;
-      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1735,7 +1734,7 @@ html, body {
       bottom: 8px; }
     .footer__inner {
       position: absolute;
-      top: 128px;
+      top: 70px;
       left: 12%;
       font-size: 40px; }
       .footer__inner h1 {
@@ -2750,7 +2749,7 @@ div.test {
 .filterli-2 {
   display: none; }
 
-.filterli-3 {
+.filterli-1 {
   display: none; }
 
 .caretcss {
@@ -3068,10 +3067,10 @@ li.lb_work_filterli:first-child {
     margin-bottom: 36px; }
   .homePage__BnrDiv__Service__Cards__Inner {
     width: 220px;
-    height: 260px;
+    height: 220px;
     margin-right: 20px; }
     .homePage__BnrDiv__Service__Cards__Inner__a {
-      padding-top: 48px; }
+      padding-top: 22px; }
       .homePage__BnrDiv__Service__Cards__Inner__a h3 {
         font-size: 16px; }
       .homePage__BnrDiv__Service__Cards__Inner__a p {
@@ -3087,7 +3086,7 @@ li.lb_work_filterli:first-child {
     width: 342px;
     margin: 0px auto;
     padding-right: -1px;
-    margin-top: 8%; }
+    margin-top: 28px; }
     .homePage__dna__right h1 {
       font-size: 16px;
       margin: 0px; }
