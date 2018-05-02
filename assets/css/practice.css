@@ -2441,7 +2441,8 @@ a:focus, a:hover {
     -webkit-transform: unset;
             transform: unset; }
   #fullpage .hero_ptn {
-    left: 0px; } }
+    left: 0px;
+    display: block; } }
 
 #fullpage .heroText__dna {
   font-family: 'MavenPro-Medium';
