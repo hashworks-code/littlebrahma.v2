@@ -165,7 +165,7 @@ li.lb_work_filterli:first-child {
         align-self: center;
         // margin-top: 180px;
        
-        padding-bottom: 20px;
+        padding-bottom: 50px;
         &__left{
             width: 50%;
             padding-right: 0px;
@@ -358,7 +358,7 @@ li.lb_work_filterli:first-child {
             }
         }
         &__dna{
-            padding-bottom: 20px;
+            padding-bottom: 40px;
             &__left{
                 width: 50%;
                 img{
@@ -410,9 +410,9 @@ li.lb_work_filterli:first-child {
                    }
                 }
             }
-            &__dna{
-                padding-bottom: 100px;
-            }
+            // &__dna{
+            //     padding-bottom: 100px;
+            // }
             &__Service{
                 // position: relative;
                 // top: 130px;
@@ -472,7 +472,7 @@ li.lb_work_filterli:first-child {
             }
         }
         &__dna {
-            padding-bottom: 0px;
+            padding-bottom: 20px;
         }
     }
     .lb-ourworks{

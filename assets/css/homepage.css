@@ -2945,7 +2945,7 @@ li.lb_work_filterli:first-child {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
   .homePage__dna__left {
     width: 50%;
     padding-right: 0px; }
@@ -3053,7 +3053,7 @@ li.lb_work_filterli:first-child {
     .homePage__BnrDiv__Service__Cards__Inner1 {
       margin-right: 0; }
     .homePage__dna {
-      padding-bottom: 20px; }
+      padding-bottom: 40px; }
       .homePage__dna__left {
         width: 50%; }
         .homePage__dna__left img {
@@ -3087,8 +3087,6 @@ li.lb_work_filterli:first-child {
         font-size: 32px; }
       .homePage__BnrDiv__Inner__Content p {
         padding-top: 16px; }
-  .homePage__BnrDiv__dna {
-    padding-bottom: 100px; }
   .homePage__BnrDiv__Service h1 {
     font-size: 28px;
     margin-bottom: 36px; }
@@ -3123,7 +3121,7 @@ li.lb_work_filterli:first-child {
     .homePage__dna__right a {
       font-size: 14px; }
   .homePage__dna {
-    padding-bottom: 0px; }
+    padding-bottom: 20px; }
   .lb-ourworks {
     font-size: 28px;
     padding-bottom: 36px;
