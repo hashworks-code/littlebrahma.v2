@@ -52,6 +52,7 @@
         background-color: #e9faff;
         video{
           width: 100%;
+          height: 100%;
         }
       }
     }
@@ -213,6 +214,9 @@
     }
   }
   @media screen and (min-width: 320px) and (max-width: 767px) {
+    .hero_ptn{
+      display: none;
+    }
     .diverse {
       padding-top: 80px;
     }
@@ -420,7 +424,11 @@
       margin: 50px 29px 0;
     }
     .hero_img {
-      height: calc(380px + 180px);
+      // height: calc(380px + 180px);
+      height: 460px;
+      video{
+        height: 100%;
+      }
     }
   }
   @media screen and (min-width: 1025px) {
@@ -429,7 +437,7 @@
       height: auto;
     }
     .diverse-content {
-      padding-top: 105px;
+      padding-top: 100px;
     }
     .knowmore {
       display: flex;
@@ -677,10 +685,15 @@
       position: absolute;
       left: 25%;
       transform: translate(-50%, 0);
+      display: none;
     }
     .hero_img {
       background-size: 100%;
       margin-top: 50px;
+      height: calc(100vh - 80px);
+      video{
+        height: unset;
+      }
     }
   }
   @media screen and (min-width: 1367px) {
@@ -688,6 +701,9 @@
       display: flex;
       width: 332px;
       justify-content: space-between;
+    }
+    .diverse-content {
+      padding-top: 68px;
     }
     .prctDiv {
       margin-top: 100px;
@@ -751,10 +767,20 @@
       bottom: 82px;
     }
     .hero_img {
-      height: calc(100vh - 160px);
+      height: 710px;
+      video{
+        height: 100%;
+      }
     }
     .hero_cnt {
-      bottom: 10px;
+      bottom: unset;
+    position: relative;
+    left: unset;
+    transform: unset;
+    }
+    .hero_ptn{
+      left: 0px;
+      display: block;
     }
   }
 

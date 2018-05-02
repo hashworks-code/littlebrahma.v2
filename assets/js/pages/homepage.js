@@ -27,6 +27,9 @@
 // })
 
 $(document).ready(function(){
+
+
+
     if(sessionStorage.getItem("Hometab") != "" &&  sessionStorage.getItem("Hometab") != null) {
         slowScroll();
     

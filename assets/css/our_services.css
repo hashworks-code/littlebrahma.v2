@@ -338,12 +338,13 @@ table {
     background-color: #ea1c49;
     border-radius: 25px;
     font-size: 14px;
-    padding: 7px 14px;
+    padding: 6px 12px;
     font-family: 'PT_Sans-Regular';
     color: #fff;
     outline: none;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
   .commonButton:hover {
     border: solid 2px #333;
     background-color: transparent;
@@ -466,8 +467,8 @@ textarea:focus {
     width: 300px; }
   .commonButton {
     border-radius: 20px;
-    font-size: 16px;
-    padding: 10px 20px; }
+    font-size: 15px;
+    padding: 7px 12px; }
   .rajdhaniBold {
     font-size: 36px; }
   .rajdhaniRegular {
@@ -500,7 +501,7 @@ textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1024px; }
+    height: 960px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -542,7 +543,8 @@ textarea:focus {
     font-size: 32px; }
   .commonButton {
     border-radius: 28px;
-    font-size: 20px; }
+    font-size: 18px;
+    padding: 8px 16px; }
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
@@ -1393,7 +1395,7 @@ html, body {
   .lb-desktop {
     display: block !important;
     position: static;
-    height: 50px !important; } }
+    height: 42px !important; } }
 
 @media only screen and (min-width: 1440px) {
   .contactHeading {
@@ -1431,7 +1433,8 @@ html, body {
   .lb-mobile {
     display: none !important; }
   .lb-desktop {
-    display: block !important; } }
+    display: block !important;
+    height: 45px !important; } }
 
 .cd-secondary-navli :hover {
   color: #ea1c49; }
@@ -1714,11 +1717,10 @@ html, body {
 /*footer ends*/
 @media screen and (min-width: 1367px) {
   .footer {
-    height: 700px;
+    height: 6 00px;
     position: relative; }
     .footer__image {
       position: absolute;
-      top: 568px;
       bottom: 0px;
       width: 100%;
       background: -webkit-gradient(linear, left bottom, left top, from(#ff698f), to(#ff84a1));
@@ -1732,7 +1734,7 @@ html, body {
       bottom: 8px; }
     .footer__inner {
       position: absolute;
-      top: 128px;
+      top: 70px;
       left: 12%;
       font-size: 40px; }
       .footer__inner h1 {

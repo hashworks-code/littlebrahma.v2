@@ -361,13 +361,13 @@ table {
     background-color: #ea1c49;
     border-radius: 25px;
     font-size: 14px;
-    padding: 7px 14px;
+    padding: 6px 12px;
     font-family: 'PT_Sans-Regular';
     color: #fff;
     outline: none;
     text-align: center;
     text-decoration: none;
-    // font-weight: bold;
+    font-weight: bold;
   }
   .commonButton:hover {
     border: solid 2px #333;
@@ -531,8 +531,8 @@ textarea:focus {
   }
   .commonButton {
     border-radius: 20px;
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 15px;
+    padding: 7px 12px;
   }
   .rajdhaniBold {
     font-size: 36px;
@@ -580,7 +580,7 @@ textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1024px;
+    height: 960px;
   }
 
   .backgroundImage {
@@ -643,7 +643,8 @@ textarea:focus {
   }
   .commonButton {
     border-radius: 28px;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 8px 16px;
   }
 
   .bnr {

@@ -1,5 +1,13 @@
 @import "workpage/workpage.scss";
-
+.filterli-2{
+    display: none;
+}
+.filterli-1{
+    display: none;
+}
+.filterli-3{
+    display: block;
+}
 .red{
     color: #ea1c49;
 }
@@ -29,7 +37,7 @@ li.lb_work_filterli:first-child {
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 90.64%;
+        padding-top: 86.64%;
         &__Video{
             position: absolute;
             z-index: -1;
@@ -79,18 +87,18 @@ li.lb_work_filterli:first-child {
                 align-items: center;
                 justify-content: center;
                 &__Inner{
-                    width: 350px;
-                    height: 350px;
+                    width: 300px;
+                    height: 300px;
                     background-color: #fff;
                     text-align: center;
                     border-radius: 16px;
                     box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.1);
-                    margin-right: 30px;
+                    margin-right: 50px;
                     color: #393939 !important;
                     &__a{
                         width: 100%;
                         height: 100%;
-                        padding-top:65px;
+                        padding-top:35px;
                         display: block;
                         color: #393939 !important; 
                         
@@ -177,8 +185,11 @@ li.lb_work_filterli:first-child {
                 color: #393939;
             }
             p{
-                margin-bottom: 32px;
+                margin-bottom: 20px;
                 margin-top: 20px;
+            }
+            .paragraph1{
+                margin-bottom: 30px;
             }
             // a{
             //     padding: 12px 30px 14px;
@@ -204,7 +215,7 @@ li.lb_work_filterli:first-child {
     /* text-align: left; */
     color: #393939;
     padding-bottom: 40px;
-    margin-top:20px;
+    margin-top:0px !important;
 }
 
 .lb-ourworks-dna{
@@ -313,11 +324,11 @@ li.lb_work_filterli:first-child {
                 }
                 &__Cards{
                     &__Inner{
-                        width: 300px;
-                        height: 318px;
-                        margin-right: 20px;
+                        width: 250px;
+                        height: 250px;
+                        margin-right: 40px;
                         &__a{
-                            padding-top: 64px;
+                            padding-top: 34px;
                             h3{
                                 font-size: 16px;
                             }
@@ -347,7 +358,7 @@ li.lb_work_filterli:first-child {
             }
         }
         &__dna{
-            
+            padding-bottom: 40px;
             &__left{
                 width: 50%;
                 img{
@@ -373,7 +384,7 @@ li.lb_work_filterli:first-child {
     }
     .lb-ourworks-dna{
         width: 965px;
-        margin: 193px auto 0;
+        margin: 170px auto 0;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -399,9 +410,9 @@ li.lb_work_filterli:first-child {
                    }
                 }
             }
-            &__dna{
-                padding-bottom: 100px;
-            }
+            // &__dna{
+            //     padding-bottom: 100px;
+            // }
             &__Service{
                 // position: relative;
                 // top: 130px;
@@ -413,9 +424,10 @@ li.lb_work_filterli:first-child {
                 &__Cards{
                     &__Inner{
                         width: 220px;
-                        height: 260px;
+                        height: 220px;
+                        margin-right: 20px;
                         &__a{
-                                padding-top: 48px;
+                                padding-top: 22px;
                             h3{
                                 font-size: 16px;
                             }
@@ -445,13 +457,13 @@ li.lb_work_filterli:first-child {
                 width: 342px;
                 margin: 0px auto;
                 padding-right: -1px;
-                margin-top:8%;
+                margin-top:28px;
                 h1{
                     font-size: 16px;
                     margin: 0px;
                 }
                 p{
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                     margin-top: 16px; 
                 }
                 a{
@@ -460,7 +472,7 @@ li.lb_work_filterli:first-child {
             }
         }
         &__dna {
-            padding-bottom: 60px;
+            padding-bottom: 20px;
         }
     }
     .lb-ourworks{
