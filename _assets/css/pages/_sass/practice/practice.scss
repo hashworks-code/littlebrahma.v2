@@ -423,7 +423,11 @@
       margin: 50px 29px 0;
     }
     .hero_img {
-      height: calc(380px + 180px);
+      // height: calc(380px + 180px);
+      height: 460px;
+      video{
+        height: 100%;
+      }
     }
   }
   @media screen and (min-width: 1025px) {
@@ -685,6 +689,9 @@
     .hero_img {
       background-size: 100%;
       margin-top: 50px;
+      video{
+        height: unset;
+      }
     }
   }
   @media screen and (min-width: 1367px) {

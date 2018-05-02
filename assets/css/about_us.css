@@ -501,7 +501,7 @@ textarea:focus {
 
 @media screen and (min-width: 1367px) {
   .lb_bdy {
-    height: 1024px; }
+    height: 960px; }
   .backgroundImage {
     background-color: #42a1fa; }
   .backgroundenigma {
@@ -2157,7 +2157,9 @@ a:focus, a:hover {
   #fullpage .philSec {
     margin: 50px 29px 0; }
   #fullpage .hero_img {
-    height: calc(380px + 180px); } }
+    height: 460px; }
+    #fullpage .hero_img video {
+      height: 100%; } }
 
 @media screen and (min-width: 1025px) {
   #fullpage .lb_bdy {
@@ -2380,7 +2382,9 @@ a:focus, a:hover {
     display: none; }
   #fullpage .hero_img {
     background-size: 100%;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+    #fullpage .hero_img video {
+      height: unset; } }
 
 @media screen and (min-width: 1367px) {
   #fullpage .knowmore {
