@@ -2010,6 +2010,8 @@ a:focus, a:hover {
     margin-top: 50px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  #fullpage .hero_ptn {
+    display: none; }
   #fullpage .diverse {
     padding-top: 80px; }
   #fullpage .lgCon {
@@ -2374,7 +2376,8 @@ a:focus, a:hover {
     position: absolute;
     left: 25%;
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
+            transform: translate(-50%, 0);
+    display: none; }
   #fullpage .hero_img {
     background-size: 100%;
     margin-top: 50px; } }

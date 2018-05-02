@@ -213,6 +213,9 @@
     }
   }
   @media screen and (min-width: 320px) and (max-width: 767px) {
+    .hero_ptn{
+      display: none;
+    }
     .diverse {
       padding-top: 80px;
     }
@@ -677,6 +680,7 @@
       position: absolute;
       left: 25%;
       transform: translate(-50%, 0);
+      display: none;
     }
     .hero_img {
       background-size: 100%;
