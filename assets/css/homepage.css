@@ -1893,7 +1893,8 @@ a:focus, a:hover {
   #fullpage .prct .hero_img {
     background-color: #e9faff; }
     #fullpage .prct .hero_img video {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
   #fullpage .prct_rnImg {
     width: 100vw; }
   #fullpage .prct .genericTitle,
@@ -2382,7 +2383,8 @@ a:focus, a:hover {
     display: none; }
   #fullpage .hero_img {
     background-size: 100%;
-    margin-top: 50px; }
+    margin-top: 50px;
+    height: calc(100vh - 80px); }
     #fullpage .hero_img video {
       height: unset; } }
 
@@ -2848,7 +2850,7 @@ li.lb_work_filterli:first-child {
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
-  padding-top: 90.64%; }
+  padding-top: 86.64%; }
   .homePage__BnrDiv__Video {
     position: absolute;
     z-index: -1;
@@ -3071,7 +3073,7 @@ li.lb_work_filterli:first-child {
           font-size: 16px; }
   .lb-ourworks-dna {
     width: 965px;
-    margin: 193px auto 0; } }
+    margin: 170px auto 0; } }
 
 @media screen and (max-width: 1023px) {
   li.lb_work_filterli:first-child {

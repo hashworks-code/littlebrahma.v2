@@ -22,11 +22,11 @@
       // $('#lbhmimagemobile').css('display','none')
     }
     if (screen.width > 1024) {
-      $('.lb-ourworks-dna').css('margin-top', '250px');
+      $('.lb-ourworks-dna').css('margin-top', '200px');
     }
     if (screen.width > 1500) {
       $('.homePage__BnrDiv__Service').css('bottom', '0px');
-      $('.lb-ourworks-dna').css('margin-top', '80px');
+      $('.lb-ourworks-dna').css('margin-top', '100px');
       $('.lb-ourworks').css('margin-top', '20px');
     }
     if (screen.width > 2000) {

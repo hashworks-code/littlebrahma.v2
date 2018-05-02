@@ -1893,7 +1893,8 @@ a:focus, a:hover {
   #fullpage .prct .hero_img {
     background-color: #e9faff; }
     #fullpage .prct .hero_img video {
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
   #fullpage .prct_rnImg {
     width: 100vw; }
   #fullpage .prct .genericTitle,
@@ -2382,7 +2383,8 @@ a:focus, a:hover {
     display: none; }
   #fullpage .hero_img {
     background-size: 100%;
-    margin-top: 50px; }
+    margin-top: 50px;
+    height: calc(100vh - 80px); }
     #fullpage .hero_img video {
       height: unset; } }
 
