@@ -6,8 +6,8 @@ keywords: >-
   Branding, Design, Communication
 layout: service
 img: /assets/img/homepage/brndg-comm.png
-desc1: Communicate vision and values to your audience. Define what you stand for and share with the outside world your thoughts by making an identity of yourself.
-desc2: We help you to build relationships and connect with the human world through our strong storytelling and visual branding expertise. We deep-dive into your organizational cultural and use our creativity to build a strong brand value for you.
+desc1: We help you to build relationships and connect with the human world through our strong storytelling and visual branding expertise. We deep-dive into your organizational cultural and use our creativity to build a strong brand value for you. 
+desc2: We help to communicate your vision and values to your audience. Define what you stand for and share with the outside world your thoughts by making an identity of yourself.
 practice_lists:
   - title: Services
     description: >-

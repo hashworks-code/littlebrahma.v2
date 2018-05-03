@@ -5,14 +5,9 @@ keywords: 'Services, Design'
 layout: service
 img: /assets/img/homepage/service-design.png
 desc1: >-
-  Gain a clear visualization of how your users experience their journey on your
-  application and platform  – along with critical points and insights along the
-  way.
+  We use the Design Native approach, a high-impact problem-solving framework to gain insights on the customer behaviour.
 desc2: >-
-  Through design, with the help of behaviour journey maps and omni channel
-  prototypes, we help you understand your customers better. Fail fast, go
-  through an iterative process and enhance design and experience on every touch
-  point for your next big idea.
+  Our design methods adapt omni channel prototypes, heat maps and behavioral maps to learn user interactions, gain faster feedback & iterate changes to enhance design and experience on every touch point of products & services.
 practice_lists:
   - title: Services
     description: >-

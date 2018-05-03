@@ -5,13 +5,9 @@ keywords: 'Product, Design'
 layout: service
 img: /assets/img/homepage/product-design.png
 desc1: >-
-  Define the problem statement which impact the masses and brainstorm ideas to
-  find a solution. Build a strong relationship between your application and its
-  users.
+  We focus on goal-oriented design. We work with engineers and product owners to validate your idea and design simplified solution to provide a great customer experience and seamless adoption. 
 desc2: >-
-  We focus on goal-oriented design empathizing for the end users. We help you to
-  design a simplified solution with a minimalist approach to provide a seamless
-  customer experience and greater adoption.
+  We’re passionate about colors, shapes, types, information design, complex interactions & data correlations. Everyone at Littlebrahma does hands on research, flow, and walk that extra mile in nailing customer delight.
 practice_lists:
   - title: Services
     description: >-
