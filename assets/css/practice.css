@@ -1731,7 +1731,8 @@ html, body {
       width: 941px;
       position: absolute;
       right: 5%;
-      bottom: 8px; }
+      bottom: 8px;
+      padding-top: 0px; }
     .footer__inner {
       position: absolute;
       top: 70px;
