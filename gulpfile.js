@@ -297,10 +297,13 @@
 
   });
   gulp.task('optimize-page-js', ['page-scripts'], function() {
+    var gutil = require('gulp-util');
       log('Optimizing js');
       return gulp
           .src(config.temp + '/js/pages/*.js')
           .pipe($.uglify())
+          .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+          
           .pipe(gulp.dest(config.build + '/js/pages'));
 
   });

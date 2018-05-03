@@ -32,7 +32,7 @@ if(index==1){
     });
 
     $('.lb_work_filterli').click(function(e) {
-      let currentTab = e.currentTarget.textContent;
+      var currentTab = e.currentTarget.textContent;
 
       $('.rContent').hide();
       if (currentTab == 'Perceive') {
