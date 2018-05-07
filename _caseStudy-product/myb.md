@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/myb.png"
+banner_imag1: "/assets/img/caseStudy-service/myb/1.jpg"
 
 backgroundchange: "backMyb"
 banner-Head: "Mysterybox"
@@ -27,7 +27,7 @@ box_lists:
 cHead1: "Introduction"
 cContent1: "Mystery box is an assessment platform for retail brands to enhance customer shopping experience. The retail industry is evolving towards connecting human emotions to maximize the brand equity value."
 
-SImg1: "myb-data"
+SImg1: "myb/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -91,22 +91,22 @@ box-para4: 'Latency to perform an
 cHead4: "Output"
 cContent8: "Our discovery phase helped us visualize the store experience and establish key performance indicators for us to do the assessments and to gamify it."
 
-SImg3: "myb-user-flow-1"
+SImg3: "myb/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "myb-people"
 
-SImg10: "myb-wireframe"
-SImg11: "myb_style"
-SImg12: "myb-customer-audit-summary"
+SImg10: "myb/10"
+SImg11: "myb/11"
+SImg12: "myb/12"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "myb-design"
-    - SImg18: "mockupmyb"
-    - SImg18: "myb-mockup-2"
+    - SImg18: "myb/13"
+    - SImg18: "myb/14"
+    - SImg18: "myb/15"
     
 
 cHead5: "Adapt "
@@ -139,22 +139,22 @@ division_loop:
     - cHead6: 'User personas'
       para_loop:
         - cContent11: ' Store supervisor, buyer, auditor, analyst, admin and back office crew.'
-      SImg6: 'persona-myb'
+      SImg6: 'myb/6'
 
     - cHead6: 'Integrating an assessment platform:'
       para_loop:
         - cContent11: 'A strong business process integrated with a digital platform was put in place to enhance the store experience. We were able to bring auditor, analyst and store supervisor on a single interface, capture store assessments and showcase store performance metrics. '
-      SImg6: 'myb-create'
+      SImg6: 'myb/7'
 
     - cHead6: 'Designing a virtual mall exp.:'
       para_loop:
         - cContent11: 'In order to address the B2C challenges, we designed a platform which meets and satisfies all the use cases. For instance, a user (store supervisor) can propagate the store inventory item on an omni-channel platform for the customer to consume and increase the point of sale. '
-      SImg6: 'myb-ui-sprint'
+      SImg6: 'myb/8'
 
     - cHead6: 'Conceptualizing gamification model:'
       para_loop:
         - cContent11: 'We were able to add a gamification model to this platform. We created loyalty points which the buyer will get when he or she enters a store/makes a purchase or shares the offer to their peers/friends. The model was created to increase footfalls for each store.'
-      SImg6: 'myb-ui-sprint-2'
+      SImg6: 'myb/9'
 
 full_image:
 

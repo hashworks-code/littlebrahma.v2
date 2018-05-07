@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/enigma-banner.png"
+banner_imag1: "/assets/img/caseStudy-service/enigma/1.jpg"
 
 backgroundchange: "backEnigma"
 banner-Head: "Enigma"
@@ -31,7 +31,7 @@ cHead1: "Introduction"
 cContent1: "An engineering SaaS product for IT driven companies, to localize, detect & fix errors instantly 
             ensuring high availability & reliability of their products & services to their customers."
 
-SImg1: "enigma-cmr"
+SImg1: "enigma/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -90,24 +90,24 @@ box-para4: 'Latency to perform an
 cHead4: "Output"
 cContent8: "In this phase, we understood the user personas and complexities involved in designing an enterprise level, realtime monitoring tool."
 
-SImg3: "enigma-images"
+SImg3: "enigma/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "enigma-data-02"
 
 
-SImg10: "enigma-images-02"
-SImg11: "enigma-style-guide"
-SImg12: "enigma-home-page"
+SImg10: "enigma/8"
+SImg11: "enigma/9"
+SImg12: "enigma/10"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "enigma-screen"
-    - SImg18: "screen-collage-enigma"
-    - SImg18: "enigma-mock"
-    - SImg18: "enigm-mock-02"
+    - SImg18: "enigma/11"
+    - SImg18: "enigma/12"
+    - SImg18: "enigma/13"
+    - SImg18: "enigma/14"
     
 
 cHead5: "Adapt "
@@ -151,14 +151,14 @@ division_loop:
         - cContent11: '- Engineering Workbench - to build infrastructure topology and label environments'
         - cContent11: '- Workspace modules to group multi variate work environments for monitoring'
         - cContent11: '- Dashboards for birds eye view of the system functions and alarm incidents'
-      SImg6: 'enigma-group-1'
+      SImg6: 'enigma/6'
 
     - cHead6: 'Giving user insights'
       para_loop:
         - cContent11: '- Workflow insights, for navigating through the incidents and mitigate the problem'
         - cContent11: '- Data driven dashboards and actionable metrics'
         - cContent11: '- Help the support teams to take corrective actions instantly'
-      SImg6: 'opm-order1'
+      SImg6: 'enigma/7'
 
 
 full_image:

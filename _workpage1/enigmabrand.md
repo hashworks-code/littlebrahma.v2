@@ -12,7 +12,7 @@ title: Enigma Branding
 brandTitle: "Branding for application run-time monitoring tool"
 textcolor: text-black
 current : Branding & Comm.
-enigma_banner: "/assets/img/branding/enigma.png"
+enigma_banner: "/assets/img/branding/enigma/1.jpg"
 backgroundColor: backgroundenigma
 
 inntroTitle: "Introduction"
@@ -34,10 +34,10 @@ backgroundlogo:
   - imagelogo: "/assets/img/branding/hashworks/enigmaLogoTab.png"
     imageTypelogo: "tabLogo"
 
-brandImage1: "1.jpg"
-brandImage2: "2.jpg"
-brandImage3: "3.jpg"
-brandImage4: "4.jpg"
+brandImage1: "enigma/2.jpg"
+brandImage2: "enigma/3.jpg"
+brandImage3: "enigma/4.jpg"
+brandImage4: "enigma/5.jpg"
 
 challange: "Challenge"
 challangeList:
@@ -53,9 +53,9 @@ perceiveList:
  - perceivepara: "- Brand voice that business owners wants to convey"
  - perceivepara: " - Design strategy for marketing"
  - perceivepara: "- Concept designs for the artifacts"
-percieveImage: "percieve4.png"
+percieveImage: "enigma/6.jpg"
 
-bannerBrand: "banner-2.jpg"
+bannerBrand: "enigma/7.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
@@ -70,7 +70,7 @@ conceptImage2: "enigmab.svg"
 conceptImage3: "enigmac.svg"
 conceptImage4: "enigmad.svg"
 
-finallogo: "logo.png"
+finallogo: "enigma/8.jpg"
 
 meaningTitle: "Meaning behind the logo"
 meaningpara: "The logo encompasses the importance of Enigma as device in the history and relates its code complexity with the products key features. The formation of the circuit lines also showcases the letter “E” of Enigma."
@@ -113,24 +113,24 @@ icon_list1:
   - icons1: '8.svg'
 
 enigmaImageListt:
-  - enigmaimg: "1.jpg"
+  - enigmaimg: "enigma/9.jpg"
     class: padding
 
-enigmaImage2: "2.jpg"
-enigmaImage3: "3.jpg"
+enigmaImage2: "enigma/10.jpg"
+enigmaImage3: "enigma/11.jpg"
 
 enigmaImageList:
-  - enigmaImage: "4.jpg"
+  - enigmaImage: "enigma/12.jpg"
     class: Nopadding
-  - enigmaImage: "5.jpg"
+  - enigmaImage: "enigma/13.jpg"
     class: Nopadding
-  - enigmaImage: "6.jpg"
+  - enigmaImage: "enigma/14.jpg"
     class: padding
-  - enigmaImage: "Enigma_Main_Logo.gif"
+  - enigmaImage: "icon/Enigma_Main_Logo.gif"
     class: padding
-  - enigmaImage: "8.jpg"
+  - enigmaImage: "enigma/15.jpg"
     class: Nopadding
-  - enigmaImage: "web_Mock-01.png"
+  - enigmaImage: "enigma/16.jpg"
     class: Nopadding
 
 ---

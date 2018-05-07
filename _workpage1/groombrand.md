@@ -11,7 +11,7 @@ title: Groome Branding
 current : Branding & Comm.
 brandTitle: "Branding for Machine Intelligence powered HR solution application"
 textcolor: text-white
-enigma_banner: "/assets/img/branding/groome.jpg"   
+enigma_banner: "/assets/img/branding/groome/1.jpg"   
 backgroundColor:  backgroundgroome
 
 inntroTitle: "Introduction"
@@ -30,12 +30,12 @@ backgroundlogo:
     imageTypelogo: "tabLogo"
     
 
-brandImage1: "groome1.jpg"
-brandImage2: "groome2.jpg"
-brandImage3: "groome3.jpg"
-brandImage4: "groome4.jpg"
+brandImage1: "groome/2.jpg"
+brandImage2: "groome/3.jpg"
+brandImage3: "groome/4.jpg"
+brandImage4: "groome/5.jpg"
 
-bannerBrand: "groomebrand.jpg"
+bannerBrand: "groome/7.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
@@ -56,7 +56,7 @@ perceiveList:
  - perceivepara: "- Understand the customer’s vision for the brand"
  - perceivepara: " - Brand voice for telling the story"
  - perceivepara: "- Design the storytelling strategy"
-percieveImage: "percieve3.png"
+percieveImage: "groome/6.jpg"
 
 
 
@@ -106,24 +106,24 @@ icon_list1:
   - icons1: 'groomIcon3.png'
 
 enigmaImageListt:
-  - enigmaimg: "mockup-1.jpg"
+  - enigmaimg: "groome/8.jpg"
     class: padding
-  - enigmaimg: "mockup-2.jpg"
+  - enigmaimg: "groome/9.jpg"
     class: Nopadding
-  - enigmaimg: "mockup-3.jpg"
+  - enigmaimg: "groome/10.jpg"
     class: Nopadding
-  - enigmaimg: "mockup-4.jpg"
+  - enigmaimg: "groome/11.jpg"
     class: padding
-  - enigmaimg:  "mockup-5.jpg"
+  - enigmaimg:  "groome/12.jpg"
     class: padding
 
-enigmaImage2: "mockup-6.jpg"
-enigmaImage3: "mockup-7.jpg" 
+enigmaImage2: "groome/13.jpg"
+enigmaImage3: "groome/14.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "mockup-8.jpg"
+  - enigmaImage: "groome/15.jpg"
     class: padding
-  - enigmaImage: "mockup-9.jpg"
+  - enigmaImage: "groome/16.jpg"
     class: Nopadding
 
 

@@ -12,7 +12,7 @@ title: Paketo Branding
 current : Branding & Comm.
 brandTitle: "Branding for DevOps automation tool"
 textcolor: text-white
-enigma_banner: "/assets/img/branding/paketo.png"
+enigma_banner: "/assets/img/branding/paketo1/1.jpg"
 backgroundColor: backgroundImage
 
 inntroTitle: "Introduction"
@@ -30,11 +30,11 @@ backgroundlogo:
   - imagelogo: "/assets/img/branding/hashworks/paketoLogoTab.svg"
     imageTypelogo: "tabLogo"
 
-brandImage1: "paketo1.jpg"
-brandImage2: "paketo2.jpg"
-brandImage3: "paketo3.jpg"
-brandImage4: "paketo4.jpg"
-bannerBrand: "paketobanner.jpg"
+brandImage1: "paketo1/2.jpg"
+brandImage2: "paketo1/3.jpg"
+brandImage3: "paketo1/4.jpg"
+brandImage4: "paketo1/5.jpg"
+bannerBrand: "paketo1/7.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
@@ -55,7 +55,7 @@ perceiveList:
  - perceivepara: "- Brand voice that customer wants to convey"
  - perceivepara: " - Design strategy for the marketing"
  - perceivepara: "- Concept designs of the artifacts which connects with tech community"
-percieveImage: "percieve1.png"
+percieveImage: "paketo1/6.jpg"
 
 conceptTitle: "Concept"
 conceptparagraph: "We worked on concepts which depicts the behaviour of the application while adding the concept of how the application is helping the DevOps practice."
@@ -109,21 +109,21 @@ iconNopadding:
     class: iconRemove
 
 enigmaImageListt:
-  - enigmaimg: "Pocketo_Pattern_Animation.gif"
+  - enigmaimg: "icon/Pocketo_Pattern_Animation.gif"
     class: Nopadding
-  - enigmaimg: "paketomock.png"
+  - enigmaimg: "paketo1/8.jpg"
     class: padding
-  - enigmaimg: "paketo4.jpg"
+  - enigmaimg: "paketo1/9.jpg"
     class: padding
 
-enigmaImage2: "paketo2.jpg"
-enigmaImage3: "paketo3.png" 
+enigmaImage2: "paketo1/10.jpg"
+enigmaImage3: "paketo1/11.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "paketo5.jpg"
+  - enigmaImage: "paketo1/12.jpg"
     class: padding
-  - enigmaImage: "paketo6.jpg"
+  - enigmaImage: "paketo1/13.jpg"
     class: Nopadding
-  - enigmaImage: "Pocketo_Main.gif"
+  - enigmaImage: "icon/Pocketo_Main.gif"
     class: Nopadding
 ---

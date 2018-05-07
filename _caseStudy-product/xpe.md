@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy/xp.png"
+banner_imag1: "/assets/img/caseStudy-service/xpe/1.jpg"
 
 backgroundchange: "backXpe"
 banner-Head: "Extreme Performance Engg."
@@ -35,7 +35,7 @@ box_lists:
 cHead1: "Introduction"
 cContent1: "XPE is an AI powered engineering dashboard designed to showcase insights on the application performance. Visualization of performance metrics graphically in real-time and trickle down every performance parameters for engineering analysis and action."
 
-SImg1: "xpe-data"
+SImg1: "xpe/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -81,24 +81,24 @@ box-para4: 'Users onboarded from diverse teams (Perf. Engg., PM, Leadership, QE 
 cHead4: "Output"
 cContent8: "Our discovery phase, helped us to envision an interactive engineering platform and to orchestrate the product behavior for adoption by tech teams."
 
-SImg3: "LB-xpe-output"
+SImg3: "xpe/3"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "xpe-data-02"
 
 
-SImg10: "xpe-images-06"
-SImg11: "style-guid"
-SImg12: "XPE_Img"
+SImg10: "xpe/11"
+SImg11: "xpe/12"
+SImg12: "xpe/13"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "xpe-desktop"
-    - SImg18: "xps-screen-collage"
-    - SImg18: "xpe-mockup-1"
-    - SImg18: "xpe-mockup-2"
+    - SImg18: "xpe/14"
+    - SImg18: "xpe/15"
+    - SImg18: "xpe/16"
+    - SImg18: "xpe/17"
 
 cHead5: "Adapt "
 csubHead4: "Enabling the perf. engineers to do more"
@@ -128,29 +128,29 @@ division_loop:
     - cHead6: 'Integration Workbench'
       para_loop:
         - cContent11: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
-      SImg6: 'xpe-graph'
+      SImg6: 'xpe/6'
 
     - cHead6: 'Workbench for perf. engineers'
       para_loop:
         - cContent11: 'Workbench for perf. engineers to completely understand AUT w.r.t business and infrastructure workload and its usage pattern for WLM.'
-      SImg6: 'xpe-perf'
+      SImg6: 'xpe/7'
 
     - cHead6: 'Delivery dashboard to status perf. execution & test results'
       para_loop:
         - cContent11: 'Delivery dashboard to status perf. execution & test results for project teams & executives.'
-      SImg6: 'xpe-dashboard'
+      SImg6: 'xpe/8'
 
     - cHead6: 'Admin console & configuration screens'
       para_loop:
         - cContent11: 'Admin console & configuration screens for management.'
-      SImg6: 'xpe-admin'
+      SImg6: 'xpe/9'
 
 
 full_image:
     - cHead8: '“Workload model catalogue” for production systems'
       cntnt_loop:
         - cContent13: 'Integration workbench to extract and aggregate data from multiple systems for WLM, workbench and dashboard.'
-      SImg8: 'xpe-catalog'
+      SImg8: 'xpe/10'
 
 
 

@@ -7,26 +7,26 @@ js: "No"
 variation_imagg1: "/assets/img/caseStudy/rectangle-6.png"
 variation_image2: "/assets/img/caseStudy/group-8.png"
 variation_image3: "/assets/img/caseStudy/group-6.png"
-variation_image4: "/assets/img/caseStudy/bitmap.png"
+variation_image4: "/assets/img/caseStudy/Calendar_2018/1.jpg"
 variation_image5: "/assets/img/caseStudy/group-3.png"
 variation_image6: "/assets/img/caseStudy/group-11.png"
 
 backgroundColor: calender2018
-cImgg1: "groupn1"
-cImgg2: "groupn2"
-cImgg3: "groupn3"
+cImgg1: "calendar_2018/2"
+cImgg2: "calendar_2018/3"
+cImgg3: "calendar_2018/4"
 
-cImgg4: "scene-2"
+cImgg4: "calendar_2018/5"
 
 
-cImgg5: "group1"
-cImgg6: "group2"
-cImgg7: "group3"
-cImgg8: "group4"
+cImgg5: "calendar_2018/6"
+cImgg6: "calendar_2018/7"
+cImgg7: "calendar_2018/8"
+cImgg8: "calendar_2018/9"
 
-cImgg9: "g8-img"
+cImgg9: "calendar_2018/10"
 
-cImgg10: "g6-img"
+cImgg10: "calendar_2018/11"
 
 cBanner1: "The year of inception:"
 
@@ -76,27 +76,26 @@ cHead7: "Comical way of awareness"
 
 cContent7: " Our goal was to send out a social message of preserving  our culture and creating awareness on civic responsibilities. What better way than to add a little humor to convey the message. The idea was to instill this idea of accountability for our surrounding and have a lasting impression on the audience."
 
-cImg4: "bitmap-copy"
+cImg4: "calendar_2018/12"
 
 cImg5: "group-9"
 
 cImg6: "calendar_thumb"
 
-cImg7: "bitmap-copy-20"
+cImg7: "calendar_2018/13"
 
 lists_img:
-  - slide-imges: "xmas-dec-11"
-  - slide-imges: "ramdhan-fasting-06-a"
-  - slide-imges: "cal-shiv-rathri-feb-h"
-  - slide-imges: "11-diwali-cracker-nov-06-a"
-  - slide-imges: "01-k"
-  - slide-imges: "10-street-food-oct-06"
-  - slide-imges: "janmashtami"
-  - slide-imges: "8-vallasadhya-onam-aug-10"
-  - slide-imges: "5-mubai-railway-porters-may-g"
-  - slide-imges: "04-060617-i"
-  - slide-imges: "3-holi-mar-d"
-  - slide-imges: "02-310517-i"
+  - slide-imges: "calendar_2018/14"
+  - slide-imges: "calendar_2018/15"
+  - slide-imges: "calendar_2018/16"
+  - slide-imges: "calendar_2018/17"
+  - slide-imges: "calendar_2018/18"
+  - slide-imges: "calendar_2018/19"
+  - slide-imges: "calendar_2018/20"
+  - slide-imges: "calendar_2018/21"
+  - slide-imges: "calendar_2018/22"
+  - slide-imges: "calendar_2018/23"
+  - slide-imges: "calendar_2018/24"
 
 cat: Branding & Communication
 product_title: LB Calendar Design 2018

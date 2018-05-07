@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/gov-banner.png"
+banner_imag1: "/assets/img/caseStudy-service/gov/1.jpg"
 backgroundchange: "backGov"
 banner-Head: "Global Order Visibility"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
@@ -35,7 +35,7 @@ box_lists:
 cHead1: "Introduction"
 cContent1: "GOV is designed to mitigate high risk and high impact to orders booked by customers through various                channels and ensure high predictability on order delivery and fulfilling rich customer experience."
 
-SImg1: "group-3"
+SImg1: "gov/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -86,23 +86,23 @@ box-para4: 'Search attributes simplified iteratively for an amazimg search exper
 cHead4: "Output"
 cContent8: "Our discovery phase helped us to move from the concept stage to visualization. Though the transactions volume were high with multiple user types, we were able to nail the components required for the design iteration stages."
 
-SImg3: "gov-user-flow"
+SImg3: "gov/3"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "people"
 
 
-SImg10: "GOV_Wireframe"
-SImg11: "style-guid"
-SImg12: "1-gov"
+SImg10: "gov/9"
+SImg11: "gov/10"
+SImg12: "gov/11"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "lower-image"
-    - SImg18: "mockup-1"
-    - SImg18: "mockup-2"
+    - SImg18: "gov/12"
+    - SImg18: "gov/13"
+    - SImg18: "gov/14"
     
 
 cHead5: "Adapt "
@@ -133,24 +133,24 @@ division_loop:
     - cHead6: 'Compact & efficient search functionality'
       para_loop:
         - cContent11: ' Categorization of the search modules based on a Regular search, Workflow search and Distress order search with a simple dropdown model. This categorization with the added smart multi-search capability makes finding an order a breeze.'
-      SImg6: 'bitmap1'
+      SImg6: 'gov/5'
 
     - cHead6: 'Short story of an entire order flow '
       para_loop:
         - cContent11: 'Entire flow of an order from booking to dispatching in a slider tray format, gave a clear insight on the order journey to help order prediction. The ability to navigate to the hold and workflow actions from respective orders irrespective of single or tie order, reduces the amount of clicks to remediate a hiccup on the flow.'
-      SImg6: 'group-5'
+      SImg6: 'gov/6'
 
     - cHead6: 'Information abstracted in schematic form'
       para_loop:
         - cContent11: 'Insights and reports visualised in efficient graphic representation. Viewing the data by region and country wise distribution helps the decision making faster for sales.'
-      SImg6: 'bitmap2'
+      SImg6: 'gov/7'
 
 full_image:
     
     - cHead8: 'Smart sorting of data'
       cntnt_loop:
         - cContent13:  'Interactive sorting of the search result data makes the decision makers focus on actionable items rather than, wasting time on horizontal scrolling across the 144 columns to perform an action. Smart grouping of filters based on user context decreased the latency to take an action on an issue from 50 sec to 23 sec.'
-      SImg8: 'bitmap3'
+      SImg8: 'gov/8'
 
 cat: Service Design
 product_title: Enterprise order management tool

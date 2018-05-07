@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/opm.png"
+banner_imag1: "/assets/img/caseStudy-service/opm/1.jpg"
 backgroundchange: "backOpm"
 banner-Head: "Order Profile Management"
 banner-cnt: "Simplified order management"
@@ -33,7 +33,7 @@ resolution was faster'
 cHead1: "Introduction"
 cContent1: "This application is a single system of reference for a large PC manufacturer to diagnose and act on “order flow” bottle-necks in an heterogeneous app ecosystem. It enables the IT teams to validate new orders, recognize failure patterns & test vulnerabilities first in-hand."
 
-SImg1: "opm-intro"
+SImg1: "opm/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -74,25 +74,25 @@ box-para4: 'Latency to perform an
 cHead4: "Output"
 cContent8: "We created user journey maps to nail down process and capture data attributes of different types of order profiles."
 
-SImg3: "opm-user-flow"
+SImg3: "opm/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "opm-data-02"
 
 
-SImg10: "OPM_Wireframe1"
-SImg11: "style-guid"
-SImg12: "opm-mockup-collag"
+SImg10: "opm/8"
+SImg11: "gov/10"
+SImg12: "opm/9"
 
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "opm--desktop"
-    - SImg18: "opmcase"
-    - SImg18: "opm-mockup-1"
-    - SImg18: "opm-mockup-2"
+    - SImg18: "opm/10"
+    - SImg18: "opm/11"
+    - SImg18: "opm/12"
+    - SImg18: "opm/13"
 
 
 cHead5: "Adapt "
@@ -124,7 +124,7 @@ division_loop:
         - cContent11: '- The primary navigation is a side bar showcasing modules of order profiles, configuration and user management.'
         - cContent11: '- The secondary menu hosts drop downs to select environments, releases and batches'
         - cContent11: '- Additionally, metrics were added to indicate which screen the user is in and the type of data being shown '
-      SImg6: 'opm-output'
+      SImg6: 'opm/6'
 
     - cHead6: 'Progressive disclosure of information'
       para_loop:

@@ -12,7 +12,7 @@ title: Hashworks Branding
 current : Branding & Comm.
 brandTitle: "Humanizing the Tech Startup"
 textcolor: text-black
-enigma_banner: "/assets/img/caseStudy/Hashworks_Banner.png"
+enigma_banner: "/assets/img/branding/hashwork/1.jpg"
 backgroundColor:  backgroundhash
 
 inntroTitle: "Introduction"
@@ -29,12 +29,12 @@ backgroundlogo:
   - imagelogo: "/assets/img/branding/hashworks/hashLogoTab.png"
     imageTypelogo: "tabLogo"
 
-brandImage1: "hash1.jpg"
-brandImage2: "hash2.jpg"
-brandImage3: "hash3.png"
-brandImage4: "hash4.jpg"
+brandImage1: "hashwork/2.jpg"
+brandImage2: "hashwork/3.jpg"
+brandImage3: "hashwork/4.jpg"
+brandImage4: "hashwork/5.jpg"
 
-bannerBrand: "hashBrand.jpg"
+bannerBrand: "hashwork/7.jpg"
 
 adaptImage: "/assets/img/branding/adapt.svg"
 adaptTitle: "Adapt"
@@ -58,7 +58,7 @@ perceiveList:
  - perceivepara: "- Brand voice which the customer wants to convey"
  - perceivepara: " - Design the marketing & visual strategy"
  - perceivepara: "- Design the storytelling strategy"
-percieveImage: "percieve2.png"
+percieveImage: "hashwork/6.jpg"
 
 conceptImage1: "hashconcept1.png"
 conceptImage2: "hashconcept2.png"
@@ -108,31 +108,31 @@ iconsection: iconsectionnone
 #   - icons1: 'groomIcon6.svg'
 
 enigmaImageListt:
-  - enigmaimg: "Hash_Main_Logo.gif"
+  - enigmaimg: "icon/Hash_Main_Logo.gif"
     class: padding
-  - enigmaimg: "hashbee1.jpg"
+  - enigmaimg: "hashwork/8.jpg"
     class: padding
   
 
-enigmaImage2: "hashbee2.jpg"
-enigmaImage3: "hashbee3.jpg" 
+enigmaImage2: "hashwork/9.jpg"
+enigmaImage3: "hashwork/10.jpg" 
 
 enigmaImageList:
-  - enigmaImage: "hashbee4.jpg"
+  - enigmaImage: "hashwork/11.jpg"
     class: padding
-  - enigmaImage: "hashbee5.jpg"
+  - enigmaImage: "hashwork/12.jpg"
     class: padding
-  - enigmaImage: "hashbee6.jpg"
+  - enigmaImage: "hashwork/13.jpg"
     class: padding
-  - enigmaImage: "hashbee7.jpg"
+  - enigmaImage: "hashwork/14.jpg"
     class: padding
-  - enigmaImage: "hashbee8.jpg"
+  - enigmaImage: "hashwork/15.jpg"
     class: padding
-  - enigmaImage: "hashbee9.jpg"
+  - enigmaImage: "hashwork/16.jpg"
     class: padding
-  - enigmaImage: "hashbee10.jpg"
+  - enigmaImage: "hashwork/17.jpg"
     class: Nopadding
-  - enigmaImage: "Hash_Logo_Variations.gif"
+  - enigmaImage: "icon/Hash_Logo_Variations.gif"
     class: padding
 
 

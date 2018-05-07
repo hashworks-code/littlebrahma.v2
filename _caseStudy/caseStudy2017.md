@@ -7,23 +7,23 @@ js: "No"
 variation_imagg1: "/assets/img/caseStudy/rectangle-6.png"
 variation_image2: "/assets/img/caseStudy/group-8.png"
 variation_image3: "/assets/img/caseStudy/group-6.png"
-variation_image4: "/assets/img/caseStudy/123.png"
+variation_image4: "/assets/img/caseStudy/calendar_2017/1.jpg"
 cal_section: "yes"
-cImgg1: "diego-duarte"
-cImgg2: "book-screen"
-cImgg3: "debashis@1"
+cImgg1: "calendar_2017/2"
+cImgg2: "calendar_2017/3"
+cImgg3: "calendar_2017/4"
 
-cImgg4: "6-copy-2"
+cImgg4: "calendar_2017/5"
 backgroundColor: calender2017
 
-cImgg5: "intial-17"
-cImgg6: "photo-funia-1510313892"
-cImgg7: "calender"
-cImgg8: "gd-st-working"
+cImgg5: "calendar_2017/6"
+cImgg6: "calendar_2017/7"
+cImgg7: "calendar_2017/8"
+cImgg8: "calendar_2017/9"
 
 cImgg9: "g8-img"
 
-cImgg10: "sleeping-ganapa"
+cImgg10: "calendar_2017/10"
 
 cBanner1: "The year of inception:"
 
@@ -69,26 +69,26 @@ cHead7: "Representation of facts"
 
 cContent7: " We captured the eminent stories of Brahma with clear facts. We showcased origin stories of Brahma which many have not heard off. Visually, we used new world elements to showcase old world facts in the illustrations. Usage of desk with mirrors an example of the neo-modern approach of our visual narration of facts."
 
-cImg4: "people-group"
+cImg4: "calendar_2017/11"
 
 cImg5: "group-2017"
 
 cImg6: "group@2017"
 
-cImg7: "bitmap-copy-2017"
+cImg7: "calendar_2017/14"
 
 lists_img:
-  - slide-imges: "ftr-2017@1"
-  - slide-imges: "ftr-2017@2"
-  - slide-imges: "ftr-2017@3"
-  - slide-imges: "ftr-2017@4"
-  - slide-imges: "ftr-2017@5"
-  - slide-imges: "ftr-2017@6"
-  - slide-imges: "ftr-2017@7"
-  - slide-imges: "ftr-2017@8"
-  - slide-imges: "ftr-2017@9"
-  - slide-imges: "ftr-2017@10"
-  - slide-imges: "ftr-2017@11"
+  - slide-imges: "calendar_2017/15"
+  - slide-imges: "calendar_2017/16"
+  - slide-imges: "calendar_2017/17"
+  - slide-imges: "calendar_2017/18"
+  - slide-imges: "calendar_2017/19"
+  - slide-imges: "calendar_2017/20"
+  - slide-imges: "calendar_2017/21"
+  - slide-imges: "calendar_2017/22"
+  - slide-imges: "calendar_2017/23"
+  - slide-imges: "calendar_2017/24"
+  - slide-imges: "calendar_2017/25"
 
 cat: Branding & Communication
 product_title: LB Calendar Design 2017

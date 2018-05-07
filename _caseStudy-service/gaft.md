@@ -4,7 +4,7 @@ title: Expertise - Take the help from our hiring work
 description: Your company's greatest assest are your people. Take help our hiring experts to recruit the best desired talents.
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
-banner_imag1: "/assets/img/caseStudy-service/gaft.png"
+banner_imag1: "/assets/img/caseStudy-service/gaft/1.jpg"
 backgroundchange: "backGaft"
 banner-Head: "Global Anti-fraud Detection tool"
 banner-cnt: "Simplified order visibility for BizOps and Sales"
@@ -35,7 +35,7 @@ cContent1: "A large global PC manufacturer uses this solution to detect e-commer
 comparison functionalities integrated to fraud detection rule engine, to flag transactions that
 are inappropriate."
 
-SImg1: "gaft-data"
+SImg1: "gaft/2"
 
 SImg2: "/assets/img/caseStudy-service/group-4.png"
 
@@ -86,24 +86,24 @@ box-para4: 'Integration services'
 cHead4: "Output"
 cContent8: "Our discovery phase helped us to understand the application in and out, so that we could come up with a better experience. We conceptualized a fresh look on how the app should be designed and navigate. We finalized on various patterns, while retaining user sensibility to the legacy app."
 
-SImg3: "gaft-user-flow"
+SImg3: "gaft/3"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "gaft-data-02"
 
 
-SImg10: "gaft-wire-frame"
-SImg11: "style-guid"
-SImg12: "gaft-search"
+SImg10: "gaft/7"
+SImg11: "gaft/8"
+SImg12: "gaft/9"
 SImg14: "bitmap"
 SImg15: "/assets/img/caseStudy-service/group-7.png"
 SImg16: "/assets/img/caseStudy-service/LBrect.png"
 SImg17: "/assets/img/caseStudy-service/LBrect1.png"
 img_list:
-    - SImg18: "gaft-desktop"
-    - SImg18: "gaft-screens"
-    - SImg18: "gaft-auth"
-    - SImg18: "gaft-lookup"
+    - SImg18: "gaft/10"
+    - SImg18: "gaft/11"
+    - SImg18: "gaft/12"
+    - SImg18: "gaft/13"
     
 
 cHead5: "Adapt "
@@ -133,12 +133,12 @@ division_loop:
     - cHead6: 'Upgrading the solution'
       para_loop:
         - cContent11: 'Migration of the complete .net forms application to a cloud based solution while keeping all the 700+ integration services intact.'
-      SImg6: 'gaft-senario'
+      SImg6: 'gaft/5'
 
     - cHead6: 'Scenario based engg. techniques'
       para_loop:
         - cContent11: 'Scenario based engg. techniques to capture business outcomes.'
-      SImg6: 'gaft-senario-2'
+      SImg6: 'gaft/6'
 
 full_image:
 
