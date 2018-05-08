@@ -89,7 +89,7 @@ cContent8: "Our discovery phase helped us to move from the concept stage to visu
 SImg3: "gov/3"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "people"
+SImg5: "gov/4"
 
 
 SImg10: "gov/9"
