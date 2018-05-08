@@ -9,7 +9,7 @@ backgroundchange: "backOpm"
 banner-Head: "Order Profile Management"
 banner-cnt: "Simplified order management"
 section: "opm"
-SImg19: 'opm-data-03'
+SImg19: 'opm/3'
 color: "green"
 box_lists:
     - box-Head1: '63'

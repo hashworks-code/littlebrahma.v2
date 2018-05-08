@@ -84,7 +84,7 @@ cContent8: "Our discovery phase, helped us to envision an interactive engineerin
 SImg3: "xpe/3"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "xpe-data-02"
+SImg5: "xpe/5"
 
 
 SImg10: "xpe/11"

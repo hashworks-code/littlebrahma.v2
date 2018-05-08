@@ -11,7 +11,7 @@ banner-Head: "Enigma"
 banner-cnt: "Root cause application failures in a single click"
 
 section: "opm"
-SImg19: 'enigma-data'
+SImg19: 'enigma/3'
 sbHead: "yes"
 color: "green"
 boxShow: "false"
@@ -93,7 +93,7 @@ cContent8: "In this phase, we understood the user personas and complexities invo
 SImg3: "enigma/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "enigma-data-02"
+SImg5: "enigma/5"
 
 
 SImg10: "enigma/8"

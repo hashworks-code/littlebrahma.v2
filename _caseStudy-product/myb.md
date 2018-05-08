@@ -10,7 +10,7 @@ backgroundchange: "backMyb"
 banner-Head: "Mysterybox"
 banner-cnt: "A retail software to improve brand equity value"
 section: "opm"
-SImg19: 'opm-data-03'
+SImg19: 'myb/3'
 sbHead: "yes"
 color: "pink"
 myb-padding: "padding-cls"
@@ -94,7 +94,7 @@ cContent8: "Our discovery phase helped us visualize the store experience and est
 SImg3: "myb/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "myb-people"
+SImg5: "myb/5"
 
 SImg10: "myb/10"
 SImg11: "myb/11"
