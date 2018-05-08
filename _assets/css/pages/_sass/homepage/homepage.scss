@@ -56,9 +56,9 @@ li.lb_work_filterli:first-child {
                 animation-delay: 1.5s;
             }
             @keyframes mymove {
-                0%   {top: 0px;}
-                50%  {top: 0px; transform: translate(0,30px);}
-                100% {top: 0px;}
+                0%   {top: 0px; transform: translateY(0px);}
+                50%  {top: 0px; transform: translateY(30px);}
+                100% {top: 0px; transform: translateY(0px);}
             }
         }
         &__Video{

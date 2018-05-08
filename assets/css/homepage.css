@@ -2777,23 +2777,31 @@ li.lb_work_filterli:first-child {
 
 @-webkit-keyframes mymove {
   0% {
-    top: 0px; }
+    top: 0px;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
   50% {
     top: 0px;
-    -webkit-transform: translate(0, 30px);
-            transform: translate(0, 30px); }
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
   100% {
-    top: 0px; } }
+    top: 0px;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
 
 @keyframes mymove {
   0% {
-    top: 0px; }
+    top: 0px;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
   50% {
     top: 0px;
-    -webkit-transform: translate(0, 30px);
-            transform: translate(0, 30px); }
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
   100% {
-    top: 0px; } }
+    top: 0px;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); } }
   .homePage__BnrDiv__Video {
     position: absolute;
     z-index: -1;
