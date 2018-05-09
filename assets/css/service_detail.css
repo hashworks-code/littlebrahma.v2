@@ -1,19 +1,3 @@
-@font-face {
-  font-family: 'MavenPro-Medium';
-  src: url("/assets/font/MavenPro-Medium.ttf"); }
-
-@font-face {
-  font-family: 'MavenPro-Bold';
-  src: url("/assets/font/MavenPro-Bold.ttf"); }
-
-@font-face {
-  font-family: 'MavenPro-Regular';
-  src: url("/assets/font/MavenPro-Regular.ttf"); }
-
-@font-face {
-  font-family: 'PT Sans', sans-serif;
-  src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
-
 body {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -160,27 +144,28 @@ table {
   border-spacing: 0; }
 
 .heroText {
-  font-family: 'MavenPro-Medium';
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
   color: #393939; }
 
 .genericTitle2 {
-  font-size: 48px;
-  font-family: 'MavenPro-Medium';
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
   color: #393939; }
 
 .heroHighlight {
   color: #ea1c49; }
 
 .bnrText {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   font-size: 12px;
-  font-weight: normal;
   line-height: 1.5;
   letter-spacing: 0.4px;
   color: #737373; }
@@ -208,10 +193,34 @@ table {
   z-index: -1; }
 
 @media screen and (min-width: 320px) {
-  .headingBold {
-    font-family: 'MavenPro-Medium';
-    font-size: 24px;
+  .hebob {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700; }
+  .hebom {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500; }
+  .hebor {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400; }
+  .heboo__large {
+    font-size: 14px; }
+  .heboo__medium {
+    font-size: 12px; }
+  .heboo__small {
+    font-size: 10px; }
+  .rubik {
     font-weight: 500;
+    font-family: 'Rubik', sans-serif; }
+  .rubik__large {
+    font-size: 20px; }
+  .rubik__medium {
+    font-size: 17px; }
+  .rubik__small {
+    font-size: 14px; }
+  .headingBold {
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
     color: #393939;
     line-height: normal; }
   .headingLight {
@@ -225,15 +234,15 @@ table {
     font-weight: bold;
     color: #393939; }
   .csHeading {
-    font-family: 'MavenPro-Bold';
-    font-size: 16px;
     font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
     color: #393939;
     line-height: normal; }
   .paragraph {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.4px;
     color: #737373; }
@@ -243,12 +252,12 @@ table {
     border-radius: 25px;
     font-size: 14px;
     padding: 6px 12px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #fff;
     outline: none;
     text-align: center;
     text-decoration: none;
-    font-weight: bold; }
+    font-weight: 500; }
   .commonButton:hover {
     border: solid 2px #333;
     background-color: transparent;
@@ -273,9 +282,9 @@ table {
     letter-spacing: 0.5px;
     color: #000000; }
   .heroText {
-    font-size: 24px; }
+    font-size: 20px; }
   .genericTitle2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 40px; }
   .bnrText {
     font-size: 12px;
@@ -296,14 +305,12 @@ table {
 
 .input {
   width: 264px;
-  font-size: 12px;
   border-radius: 8px;
   background-color: #ffffff;
   border: solid 1px #bfbfbf;
   margin: 12px 0px 6px;
   padding: 12px;
   outline: none;
-  font-family: 'PtSansRegular';
   padding: 12px 14px; }
 
 .input:hover,
@@ -315,6 +322,18 @@ textarea:focus {
   border: solid 2px #7d8d92; }
 
 @media screen and (min-width: 768px) {
+  .heboo__large {
+    font-size: 17px; }
+  .heboo__medium {
+    font-size: 14px; }
+  .heboo__small {
+    font-size: 12px; }
+  .rubik__large {
+    font-size: 28px; }
+  .rubik__medium {
+    font-size: 24px; }
+  .rubik__small {
+    font-size: 17px; }
   .headingBold {
     font-size: 24px; }
   .headingLight {
@@ -322,11 +341,11 @@ textarea:focus {
   .typography {
     font-size: 16px; }
   .paragraph {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.4px;
     line-height: 1.6; }
   .csHeading {
-    font-size: 16px; }
+    font-size: 17px; }
   .rajdhaniBold {
     font-size: 36px; }
   .rajdhaniRegular {
@@ -334,16 +353,15 @@ textarea:focus {
   .ptSans {
     font-size: 20px; }
   .input {
-    font-size: 14px;
     padding: 12px 10px; }
   .lb_bdy {
     margin-top: 50px; }
   .heroText {
-    font-size: 32px; }
+    font-size: 28px; }
   .genericTitle2 {
-    font-size: 32px; }
+    font-size: 28px; }
   .bnrText {
-    font-size: 12px;
+    font-size: 14px;
     padding: 16px 50px 0px 50px; }
   .hero_img {
     height: calc(380px + 80px); }
@@ -353,18 +371,30 @@ textarea:focus {
     margin-top: -80px; } }
 
 @media screen and (min-width: 1024px) {
+  .heboo__large {
+    font-size: 20px; }
+  .heboo__medium {
+    font-size: 17px; }
+  .heboo__small {
+    font-size: 14px; }
+  .rubik__large {
+    font-size: 31px; }
+  .rubik__medium {
+    font-size: 28px; }
+  .rubik__small {
+    font-size: 20px; }
   .headingBold {
-    font-size: 32px; }
+    font-size: 28px; }
   .headingLight {
     font-size: 32px; }
   .typography {
     font-size: 20px; }
   .paragraph {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 0.4px;
     line-height: 1.8; }
   .csHeading {
-    font-size: 24px;
+    font-size: 20px;
     color: #393939; }
   .input {
     padding: 14px 10px;
@@ -382,11 +412,11 @@ textarea:focus {
   .lb_bdy {
     height: calc(100vh + 140px); }
   .heroText {
-    font-size: 40px; }
+    font-size: 31px; }
   .genericTitle2 {
-    font-size: 40px; }
+    font-size: 31px; }
   .bnrText {
-    font-size: 14px;
+    font-size: 17px;
     padding: 20px 80px 0px 80px; }
   .hero_img {
     height: calc(100vh - 80px); }
@@ -404,6 +434,18 @@ textarea:focus {
     background-size: contain; } }
 
 @media screen and (min-width: 1367px) {
+  .heboo__large {
+    font-size: 20px; }
+  .heboo__medium {
+    font-size: 17px; }
+  .heboo__small {
+    font-size: 14px; }
+  .rubik__large {
+    font-size: 42px; }
+  .rubik__medium {
+    font-size: 31px; }
+  .rubik__small {
+    font-size: 20px; }
   .lb_bdy {
     height: 960px; }
   .backgroundImage {
@@ -434,7 +476,7 @@ textarea:focus {
     background-size: 1400px 100%;
     height: 710px; }
   .headingBold {
-    font-size: 40px; }
+    font-size: 31px; }
   .headingLight {
     font-size: 40px; }
   .typography {
@@ -444,7 +486,7 @@ textarea:focus {
     letter-spacing: 1px;
     line-height: 1.8; }
   .csHeading {
-    font-size: 32px; }
+    font-size: 20px; }
   .commonButton {
     border-radius: 28px;
     font-size: 18px;
@@ -452,10 +494,10 @@ textarea:focus {
   .bnr {
     padding: 0 0 0% 18%; }
   .heroText {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 55px; }
   .genericTitle2 {
-    font-size: 48px; }
+    font-size: 42px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }
@@ -806,9 +848,6 @@ html, body {
   text-decoration: none;
   display: inline-block;
   color: white;
-  font-weight: normal;
-  font-family: 'MavenPro-Medium';
-  font-size: 14px;
   color: #4a4a4a;
   padding-bottom: 10px; }
 
@@ -851,14 +890,10 @@ html, body {
     height: 70px; } }
 
 @media only screen and (min-width: 1024px) {
-  .cd-secondary-nav a {
-    font-size: 16px; }
   .cd-header {
     height: 70px; } }
 
 @media only screen and (min-width: 1367px) {
-  .cd-secondary-nav a {
-    font-size: 18px; }
   .cd-header {
     height: 80px; } }
 
@@ -1155,9 +1190,6 @@ html, body {
       width: 24px; }
   .contactHeader {
     width: 175px;
-    font-family: 'MavenPro-Medium';
-    font-size: 24px;
-    font-weight: 500;
     font-style: normal;
     color: #5d6a6f;
     margin: 70px auto 0px;
@@ -1168,8 +1200,6 @@ html, body {
     width: 280px;
     margin: 0 auto; }
     .contact1 h2 {
-      font-family: 'MavenPro-Bold';
-      font-size: 12px;
       font-weight: 500;
       font-style: normal;
       line-height: normal;
@@ -1190,9 +1220,7 @@ html, body {
       border: solid 1px #979797;
       padding: 12px;
       outline: none;
-      resize: none;
-      font-family: 'PtSansRegular';
-      font-size: 12px; }
+      resize: none; }
     .contact1__company h2 {
       margin: 24px 0px 12px; }
     .contact1__company h3 {
@@ -1228,22 +1256,18 @@ html, body {
     height: 100%; }
   .contactHeader {
     width: 700px;
-    font-size: 32px;
     margin: 68px auto 64px;
     text-align: left; }
   .contact1 {
     width: 700px;
     margin: 0 auto; }
-    .contact1 h2 {
-      font-size: 12px; }
     .contact1__form h2 {
       margin: 12px 0px 12px; }
     .contact1__form input {
       margin: 0px 0px 12px; }
     .contact1__form textarea {
       width: 264px;
-      height: 115px;
-      font-size: 14px; }
+      height: 115px; }
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 12px; }
     .contact1__company h2 {
@@ -1264,22 +1288,18 @@ html, body {
     width: 936px; }
   .contactHeader {
     width: 936px;
-    font-size: 40px;
     margin: 40px auto 50px; }
   .close1 {
     margin: 43px 80px 0px 0px; }
   .contact1 {
     width: 936px;
     margin: 0 auto; }
-    .contact1 h2 {
-      font-size: 12px; }
     .contact1__form h2 {
       margin: 12px 0px 16px;
       font-size: 16px; }
     .contact1__form input {
       margin: 0px 0px 16px; }
     .contact1__form textarea {
-      font-size: 14px;
       width: 300px;
       height: 160px; }
     .contact1__form button {
@@ -1308,18 +1328,15 @@ html, body {
     margin: 64px 103px 0px 0px; }
   .contactHeader {
     width: 1125px;
-    font-size: 48px;
     margin: 50px auto 60px; }
   .contact1 {
     width: 1125px;
     margin: 0 auto; }
     .contact1__form h2 {
-      margin: 12px 0px 16px;
-      font-size: 16px; }
+      margin: 12px 0px 16px; }
     .contact1__form input {
       margin: 0px 0px 16px; }
     .contact1__form textarea {
-      font-size: 14px;
       width: 300px;
       height: 160px; }
     .contact1__form button {
@@ -1350,7 +1367,8 @@ html, body {
   z-index: 3; }
   .footer__inner h1 {
     margin-bottom: 10px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    color: #5d6a6f; }
   .footer__inner a {
     font-size: 20px;
     text-decoration: none; }
@@ -1372,8 +1390,6 @@ html, body {
 
 .footer__bottom div {
   display: inline-block;
-  font-family: 'MavenPro-Bold';
-  font-size: 16px;
   color: #ffffff; }
 
 .footer__bottom__div {
@@ -1434,28 +1450,26 @@ html, body {
           -ms-flex-pack: justify;
               justify-content: space-between;
       z-index: 99999999; }
-      .footer__bottom div {
-        font-size: 16px; }
-        .footer__bottom div .logo-footer {
-          width: 40px;
-          height: 40px;
-          top: 5px;
-          position: relative; }
-        .footer__bottom div p {
-          display: inline-block;
-          position: relative;
-          top: -5px;
-          left: 10px; }
-        .footer__bottom div span {
-          display: block;
-          position: absolute;
-          z-index: 1;
-          left: 40px;
-          top: 5px;
-          height: 48px;
-          bottom: 0;
-          border: 1px solid;
-          border-width: 0 0 0 1px; }
+      .footer__bottom div .logo-footer {
+        width: 40px;
+        height: 40px;
+        top: 5px;
+        position: relative; }
+      .footer__bottom div p {
+        display: inline-block;
+        position: relative;
+        top: -5px;
+        left: 10px; }
+      .footer__bottom div span {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 40px;
+        top: 5px;
+        height: 48px;
+        bottom: 0;
+        border: 1px solid;
+        border-width: 0 0 0 1px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 33px;
@@ -1514,28 +1528,26 @@ html, body {
           -ms-flex-pack: justify;
               justify-content: space-between;
       z-index: 99999999; }
-      .footer__bottom div {
-        font-size: 12px; }
-        .footer__bottom div .logo-footer {
-          width: 30px;
-          height: 30px;
-          top: 4px;
-          position: relative; }
-        .footer__bottom div span {
-          display: block;
-          position: absolute;
-          z-index: 1;
-          left: 69px;
-          top: 52px;
-          height: 38px;
-          bottom: 0;
-          border: 1px solid;
-          border-width: 0 0 0 1px; }
-        .footer__bottom div p {
-          display: inline-block;
-          position: relative;
-          top: -5px;
-          left: 10px; }
+      .footer__bottom div .logo-footer {
+        width: 30px;
+        height: 30px;
+        top: 4px;
+        position: relative; }
+      .footer__bottom div span {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 69px;
+        top: 52px;
+        height: 38px;
+        bottom: 0;
+        border: 1px solid;
+        border-width: 0 0 0 1px; }
+      .footer__bottom div p {
+        display: inline-block;
+        position: relative;
+        top: -5px;
+        left: 10px; }
     .footer .socialLogo {
       font-size: 12px;
       bottom: 17px;
@@ -1589,24 +1601,22 @@ html, body {
           -ms-flex-pack: justify;
               justify-content: space-between;
       z-index: 99999999; }
-      .footer__bottom div {
-        font-size: 8px; }
-        .footer__bottom div img {
-          width: 8px;
-          height: 8px; }
-        .footer__bottom div span {
-          display: none; }
-        .footer__bottom div p {
-          position: relative;
-          top: 0;
-          left: 0; }
-        .footer__bottom div .behance {
-          width: 10px;
-          height: 10px; }
-        .footer__bottom div .logo-footer {
-          width: 24px;
-          height: 24px;
-          display: none; }
+      .footer__bottom div img {
+        width: 8px;
+        height: 8px; }
+      .footer__bottom div span {
+        display: none; }
+      .footer__bottom div p {
+        position: relative;
+        top: 0;
+        left: 0; }
+      .footer__bottom div .behance {
+        width: 10px;
+        height: 10px; }
+      .footer__bottom div .logo-footer {
+        width: 24px;
+        height: 24px;
+        display: none; }
     .footer .socialLogo {
       font-size: 8px;
       bottom: 10px;

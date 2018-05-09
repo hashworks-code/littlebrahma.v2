@@ -1,115 +1,3 @@
-@font-face {
-  font-family: 'MavenPro-Medium';
-  src: url('/assets/font/MavenPro-Medium.ttf');
-}
-@font-face {
-  font-family: 'MavenPro-Bold';
-  src: url('/assets/font/MavenPro-Bold.ttf');
-}
-@font-face {
-  font-family: 'MavenPro-Regular';
-  src: url('/assets/font/MavenPro-Regular.ttf');
-}
-@font-face {
-  font-family: 'PT Sans', sans-serif;
-  src: url('/assets/font/PT_Sans-Web-Regular.ttf');
-}
-// @font-face {
-//   font-family: 'latoBold';
-//   src: url('/assets/font/Lato-Bold.ttf');
-// }
-// @font-face {
-//   font-family: 'latoRegular';
-//   src: url('/assets/font/Lato-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'latoLight';
-//   src: url('/assets/font/Lato-Light.ttf');
-// }
-// @font-face {
-//   font-family: 'quicksandRegular';
-//   src: url('/assets/font/quicksandRegular.ttf');
-// }
-// @font-face {
-//   font-family: 'quicksandLight';
-//   src: url('/assets/font/quicksandLight.ttf');
-// }
-// @font-face {
-//   font-family: 'quicksandSemibold';
-//   src: url('/assets/font/quicksandSemibold.ttf');
-// }
-// @font-face {
-//   font-family: 'quicksandBold';
-//   src: url('/assets/font/quicksandBold.ttf');
-// }
-// @font-face {
-//   font-family: 'robotoRegular';
-//   src: url('/assets/font/robotoRegular.ttf');
-// }
-// @font-face {
-//   font-family: 'robotoLight';
-//   src: url('/assets/font/robotoRegular.ttf');
-// }
-// @font-face {
-//   font-family: 'robotoBold';
-//   src: url('/assets/font/robotoRegular.ttf');
-// }
-// @font-face {
-//   font-family: 'PtSansRegular';
-//   src: url('/assets/font/PT_Sans-Web-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'RajdhaniBold';
-//   src: url('/assets/font/Rajdhani-Bold.ttf');
-// }
-// @font-face {
-//   font-family: 'RajdhaniMedium';
-//   src: url('/assets/font/Rajdhani-Medium.ttf');
-// }
-// @font-face {
-//   font-family: 'RajdhaniRegular';
-//   src: url('/assets/font/Rajdhani-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'MuliBold';
-//   src: url('/assets/font/Muli-Bold.ttf');
-// }
-// @font-face {
-//   font-family: 'MuliLight';
-//   src: url('/assets/font/Muli-Light.ttf');
-// }
-// @font-face {
-//   font-family: 'MuliRegular';
-//   src: url('/assets/font/Muli-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'MuliSemiBold';
-//   src: url('/assets/font/Muli-SemiBold.ttf');
-// }
-// @font-face {
-//   font-family: 'NotoSansBold';
-//   src: url('/assets/font/NotoSans-Bold.ttf');
-// }
-// @font-face {
-//   font-family: 'NotoSansRegular';
-//   src: url('/assets/font/NotoSans-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'NunitoRegular';
-//   src: url('/assets/font/Nunito-Regular.ttf');
-// }
-// @font-face {
-//   font-family: 'HelveticaBold';
-//   src: url('/assets/font/Helvetica Neu Bold.ttf');
-// }
-// @font-face {
-//   font-family: 'HelveticaNeueLight';
-//   src: url('/assets/font/HelveticaNeue Light.ttf');
-// }
-// @font-face {
-//   font-family: 'HHelveticaNeueMeduim';
-//   src: url('/assets/font/HHelveticaNeue Medium.ttf');
-// }
 
 body {
   width: 100%;
@@ -270,23 +158,24 @@ table {
 //     padding-top:38vh !important;
 // }
 .heroText {
-  font-family: 'MavenPro-Medium';
+  font-weight: 500;
+    font-family: 'Rubik', sans-serif;
   order: 1;
   color: #393939;
 }
 .genericTitle2 {
-  font-size: 48px;
-  font-family: 'MavenPro-Medium';
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
   color: #393939;
 }
 .heroHighlight {
   color: #ea1c49;
 }
 .bnrText {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
   order: 2;
   font-size: 12px;
-  font-weight: normal;
   line-height: 1.5;
   letter-spacing: 0.4px;
   color: #737373;
@@ -318,10 +207,44 @@ table {
 
 @media screen and (min-width: 320px) {
   // HEADING BOLD
-  .headingBold {
-    font-family: 'MavenPro-Medium';
-    font-size: 24px;
+  .hebob{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+  }
+  .hebom{
+    font-family: 'Heebo', sans-serif;
     font-weight: 500;
+  }
+  .hebor{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+  }
+  .heboo__large{
+    font-size: 14px;
+  }
+  .heboo__medium{
+    font-size: 12px;
+  }
+  .heboo__small{
+    font-size: 10px;
+  }
+  .rubik{
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+  }
+  .rubik__large{
+    font-size: 20px;
+  }
+  .rubik__medium{
+    font-size: 17px;
+  }
+  .rubik__small{
+    font-size: 14px;
+  }
+  .headingBold {
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
     color: #393939;
     line-height: normal;
   }
@@ -340,17 +263,17 @@ table {
     color: #393939;
   }
   .csHeading {
-    font-family: 'MavenPro-Bold';
-    font-size: 16px;
     font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
     color: #393939;
     line-height: normal;
   }
   // PARAGRAPH
   .paragraph {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.4px;
     color: #737373;
@@ -362,12 +285,12 @@ table {
     border-radius: 25px;
     font-size: 14px;
     padding: 6px 12px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #fff;
     outline: none;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
   }
   .commonButton:hover {
     border: solid 2px #333;
@@ -398,10 +321,10 @@ table {
     color: #000000;
   }
   .heroText {
-    font-size: 24px;
+    font-size: 20px;
   }
   .genericTitle2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 40px;
   }
   .bnrText {
@@ -432,14 +355,14 @@ table {
 
 .input {
   width: 264px;
-  font-size: 12px;
+  // font-size: 12px;
   border-radius: 8px;
   background-color: #ffffff;
   border: solid 1px #bfbfbf;
   margin: 12px 0px 6px;
   padding: 12px;
   outline: none;
-  font-family: 'PtSansRegular';
+  // font-family: 'PtSansRegular';
   padding: 12px 14px;
 }
 .input:hover,
@@ -451,6 +374,24 @@ textarea:focus {
   border: solid 2px #7d8d92;
 }
 @media screen and (min-width: 768px) {
+  .heboo__large{
+    font-size: 17px;
+  }
+  .heboo__medium{
+    font-size: 14px;
+  }
+  .heboo__small{
+    font-size: 12px;
+  }
+  .rubik__large{
+    font-size: 28px;
+  }
+  .rubik__medium{
+    font-size: 24px;
+  }
+  .rubik__small{
+    font-size: 17px;
+  }
   .headingBold {
     font-size: 24px;
   }
@@ -461,12 +402,12 @@ textarea:focus {
     font-size: 16px;
   }
   .paragraph {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.4px;
     line-height: 1.6;
   }
   .csHeading {
-    font-size: 16px;
+    font-size: 17px;
   }
   .rajdhaniBold {
     font-size: 36px;
@@ -478,20 +419,20 @@ textarea:focus {
     font-size: 20px;
   }
   .input {
-    font-size: 14px;
+    // font-size: 14px;
     padding: 12px 10px;
   }
   .lb_bdy {
     margin-top: 50px;
   }
   .heroText {
-    font-size: 32px;
+    font-size: 28px;
   }
   .genericTitle2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .bnrText {
-    font-size: 12px;
+    font-size: 14px;
     padding: 16px 50px 0px 50px;
   }
   .hero {
@@ -507,8 +448,26 @@ textarea:focus {
 }
 
 @media screen and (min-width: 1024px) {
+  .heboo__large{
+    font-size: 20px;
+  }
+  .heboo__medium{
+    font-size: 17px;
+  }
+  .heboo__small{
+    font-size: 14px;
+  }
+  .rubik__large{
+    font-size: 31px;
+  }
+  .rubik__medium{
+    font-size: 28px;
+  }
+  .rubik__small{
+    font-size: 20px;
+  }
   .headingBold {
-    font-size: 32px;
+    font-size: 28px;
   }
   .headingLight {
     font-size: 32px;
@@ -517,12 +476,12 @@ textarea:focus {
     font-size: 20px;
   }
   .paragraph {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 0.4px;
     line-height: 1.8;
   }
   .csHeading {
-    font-size: 24px;
+    font-size: 20px;
     color: #393939;
   }
   .input {
@@ -548,13 +507,13 @@ textarea:focus {
     height: calc(100vh + 140px);
   }
   .heroText {
-    font-size: 40px;
+    font-size: 31px;
   }
   .genericTitle2 {
-    font-size: 40px;
+    font-size: 31px;
   }
   .bnrText {
-    font-size: 14px;
+    font-size: 17px;
     padding: 20px 80px 0px 80px;
   }
   .hero {
@@ -579,6 +538,24 @@ textarea:focus {
 }
 
 @media screen and (min-width: 1367px) {
+  .heboo__large{
+    font-size: 20px;
+  }
+  .heboo__medium{
+    font-size: 17px;
+  }
+  .heboo__small{
+    font-size: 14px;
+  }
+  .rubik__large{
+    font-size: 42px;
+  }
+  .rubik__medium{
+    font-size: 31px;
+  }
+  .rubik__small{
+    font-size: 20px;
+  }
   .lb_bdy {
     height: 960px;
   }
@@ -625,7 +602,7 @@ textarea:focus {
   }
 
   .headingBold {
-    font-size: 40px;
+    font-size: 31px;
   }
   .headingLight {
     font-size: 40px;
@@ -639,7 +616,7 @@ textarea:focus {
     line-height: 1.8;
   }
   .csHeading {
-    font-size: 32px;
+    font-size: 20px;
   }
   .commonButton {
     border-radius: 28px;
@@ -651,11 +628,11 @@ textarea:focus {
     padding: 0 0 0% 18%;
   }
   .heroText {
-    font-size: 48px;
+    font-size: 42px;
     line-height: 55px;
   }
   .genericTitle2 {
-    font-size: 48px;
+    font-size: 42px;
   }
   .bnrText {
     font-size: 17px;

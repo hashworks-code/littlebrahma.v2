@@ -7,6 +7,7 @@
     h1 {
       margin-bottom: 10px;
       margin-top: 15px;
+      color: #5d6a6f;
     }
     a {
       font-size: 20px;
@@ -37,8 +38,8 @@
     // text-align: center;
     div {
       display: inline-block;
-      font-family: 'MavenPro-Bold';
-      font-size: 16px;
+      // font-family: 'MavenPro-Bold';
+      // font-size: 16px;
       color: #ffffff;
     }
     &__div {
@@ -101,7 +102,7 @@
       justify-content: space-between;
       z-index: 99999999;
       div {
-        font-size: 16px;
+        // font-size: 16px;
         .logo-footer {
           width: 40px;
           height: 40px;
@@ -188,7 +189,7 @@
       justify-content: space-between;
       z-index: 99999999;
       div {
-        font-size: 12px;
+        // font-size: 12px;
         .logo-footer {
           width: 30px;
           height: 30px;
@@ -271,7 +272,7 @@
       justify-content: space-between;
       z-index: 99999999;
       div {
-        font-size: 8px;
+        // font-size: 8px;
         img {
           width: 8px;
           height: 8px;

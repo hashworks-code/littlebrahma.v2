@@ -74,21 +74,21 @@ li.lb_work_filterli:first-child {
         &__Inner{
              height: 710px;
              position: absolute;
-             top: 25%;
+             top: 30%;
             &__Content{
                 padding: 0px 0 0 157px;
                 width: 655px;
                 color:#393939;
                 h1{
-                    font-size: 48px;
-                    font-family: 'MavenPro-Medium';
+                    //font-size: 48px;
+                    //font-family: 'MavenPro-Medium';
                     span{
                         color: #ea1c49;
                     }
                 }
                 p{
                     padding-top: 24px;
-                    font-family: 'PT Sans', sans-serif;
+                    //font-family: 'PT Sans', sans-serif;
                 }
             }
         }
@@ -100,8 +100,8 @@ li.lb_work_filterli:first-child {
             h1{
                 text-align: center;
                 color: #393939;
-                font-size: 40px;
-                font-family: 'MavenPro-Medium';
+                //font-size: 40px;
+                //font-family: 'MavenPro-Medium';
                 margin-bottom: 40px;
                 // margin-top: 120px;
             }
@@ -160,14 +160,14 @@ li.lb_work_filterli:first-child {
                         }
                         h3{
                             margin: 20px 0px;
-                            font-size: 24px;
-                            font-family: 'MavenPro-Bold';
+                            //font-size: 24px;
+                            //font-family: 'MavenPro-Bold';
                           
                         }
                         p{
                             margin-top: 10px;
-                            font-size: 17px;
-                            font-family: 'PT Sans', sans-serif;
+                            //font-size: 17px;
+                            //font-family: 'PT Sans', sans-serif;
                             color: #737373;
                         }
                     }
@@ -203,8 +203,8 @@ li.lb_work_filterli:first-child {
             margin-top:8%;
             h1{
                 margin:0px;
-                font-size: 24px;
-                font-family: 'MavenPro-Bold';
+                //font-size: 24px;
+                //font-family: 'MavenPro-Bold';
                 color: #393939;
             }
             p{
@@ -219,8 +219,8 @@ li.lb_work_filterli:first-child {
             //     color: #393939;
             //     border-radius: 28px;
             //     border: solid 2px #022b3b;
-            //     font-size: 20px;
-            //     font-family: 'PT Sans', sans-serif;
+            //     //font-size: 20px;
+            //     //font-family: 'PT Sans', sans-serif;
             //     text-decoration: none;
             // }
         }
@@ -228,8 +228,8 @@ li.lb_work_filterli:first-child {
 }
 .lb-ourworks{
     text-align: center;
-    font-family: 'MavenPro-Medium';
-    font-size: 40px;
+    //font-family: 'MavenPro-Medium';
+    //font-size: 40px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -313,7 +313,7 @@ li.lb_work_filterli:first-child {
         margin-left: 50px !important;
     }
     .lb-ourworks{
-        font-size: 32px;
+        //font-size: 32px;
         padding-bottom: 36px;
         margin-top:80px;
     }
@@ -327,9 +327,9 @@ li.lb_work_filterli:first-child {
                 background-position: right 140px;
                 &__Content{
                     padding: 0px 0 0 81px;
-                    width: 541px;
+                    width: 520px;
                     h1{
-                        font-size: 40px;
+                        //font-size: 40px;
                     }
                     p{
                         padding-top: 20px
@@ -342,7 +342,7 @@ li.lb_work_filterli:first-child {
                 // position: relative;
                 // top: 130px;            
                 h1{
-                    font-size: 32px;
+                    //font-size: 32px;
                     margin-top: 0px;
                 }
                 &__Cards{
@@ -353,10 +353,10 @@ li.lb_work_filterli:first-child {
                         &__a{
                             padding-top: 34px;
                             h3{
-                                font-size: 16px;
+                                //font-size: 16px;
                             }
                             p{
-                                font-size: 14px;
+                                //font-size: 14px;
                             }
                             &__img{
                                 width:64px;
@@ -395,12 +395,12 @@ li.lb_work_filterli:first-child {
                 padding-right: 90px;
                 margin-top:8%;
                 h1{
-                    font-size: 20px;
+                    //font-size: 20px;
                     margin: 0px;
                 }
 
                 a{
-                    font-size: 16px;
+                    //font-size: 16px;
                 }
             }
         }
@@ -424,9 +424,9 @@ li.lb_work_filterli:first-child {
                 height: auto;
                 &__Content{
                     padding: 0px 0px 0px 93px;
-                    width: 382px;
+                    width: 405px;
                     h1{
-                        font-size: 32px;
+                        //font-size: 32px;
                     }
                    p{
                        padding-top: 16px;
@@ -441,7 +441,7 @@ li.lb_work_filterli:first-child {
                 // top: 130px;
             
                 h1{
-                    font-size: 28px;
+                    //font-size: 28px;
                     margin-bottom: 36px;
                 }
                 &__Cards{
@@ -452,10 +452,10 @@ li.lb_work_filterli:first-child {
                         &__a{
                                 padding-top: 22px;
                             h3{
-                                font-size: 16px;
+                                //font-size: 16px;
                             }
                             p{
-                                font-size: 12px;
+                                //font-size: 12px;
                             }
                         }
                     }
@@ -479,10 +479,10 @@ li.lb_work_filterli:first-child {
             &__right{
                 width: 342px;
                 margin: 0px auto;
-                padding-right: -1px;
+                padding-right: 1px;
                 margin-top:28px;
                 h1{
-                    font-size: 16px;
+                    //font-size: 16px;
                     margin: 0px;
                 }
                 p{
@@ -490,7 +490,7 @@ li.lb_work_filterli:first-child {
                     margin-top: 16px; 
                 }
                 a{
-                    font-size: 14px;
+                    //font-size: 14px;
                 }
             }
         }
@@ -499,7 +499,7 @@ li.lb_work_filterli:first-child {
         }
     }
     .lb-ourworks{
-        font-size: 28px;
+        //font-size: 28px;
         padding-bottom: 36px;
         margin-top:0px;
     }
@@ -534,7 +534,7 @@ li.lb_work_filterli:first-child {
                     text-align: center;
                     margin: 0 auto;
                     h1{
-                        font-size: 28px;
+                        //font-size: 28px;
                     }
                    p{
                        padding-top: 12px;
@@ -547,7 +547,7 @@ li.lb_work_filterli:first-child {
                 bottom: -386px;         
                 h1{
                     margin-top: -390px;
-                    font-size: 24px;
+                    //font-size: 24px;
                     margin-bottom: 32px;
                 }
                 &__Cards{
@@ -560,7 +560,7 @@ li.lb_work_filterli:first-child {
                             padding-top: 50px;
                            
                             h3{
-                                font-size: 16px;
+                                //font-size: 16px;
                             }
                             p{
                                 display:none;
@@ -596,21 +596,21 @@ li.lb_work_filterli:first-child {
                 margin: 32px auto 0px;
                 padding: 0px;
                 h1{
-                    font-size: 16px;
+                    //font-size: 16px;
                 }
                 p{
                  margin-top: 12px;
 
                 }
                 a{
-                    font-size: 14px;
+                    //font-size: 14px;
                 }
             }
         }
         
     }
     .lb-ourworks{
-        font-size: 24px;
+        //font-size: 24px;
         padding-bottom: 32px;
         margin-top:0px;
     }
