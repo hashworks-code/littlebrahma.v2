@@ -77,7 +77,7 @@ cContent8: "We created user journey maps to nail down process and capture data a
 SImg3: "opm/4"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
-SImg5: "opm/3"
+SImg5: "opm/5"
 
 
 SImg10: "opm/8"
@@ -131,7 +131,7 @@ division_loop:
         - cContent11: '- We used components such as: drop downs and filters to bifurcate high level data and to bring right context to the user. Attributes like: environments and releases were captured here'
         - cContent11: '- Primary landing screens were designed in a way where the user can select individual batches to run'
         - cContent11: '- The screens displayed complete drill down of the order profile status and the subsequent test statuses across multiple applications'
-      SImg6: 'opm-order'
+      SImg6: 'opm/7'
 
 full_image:
    
