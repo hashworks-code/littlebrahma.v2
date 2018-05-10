@@ -284,7 +284,7 @@ table {
   .heroText {
     font-size: 20px; }
   .genericTitle2 {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 40px; }
   .bnrText {
     font-size: 12px;
@@ -359,7 +359,7 @@ textarea:focus {
   .heroText {
     font-size: 28px; }
   .genericTitle2 {
-    font-size: 28px; }
+    font-size: 24px; }
   .bnrText {
     font-size: 14px;
     padding: 16px 50px 0px 50px; }
@@ -414,7 +414,7 @@ textarea:focus {
   .heroText {
     font-size: 31px; }
   .genericTitle2 {
-    font-size: 31px; }
+    font-size: 28px; }
   .bnrText {
     font-size: 17px;
     padding: 20px 80px 0px 80px; }
@@ -497,7 +497,7 @@ textarea:focus {
     font-size: 42px;
     line-height: 55px; }
   .genericTitle2 {
-    font-size: 42px; }
+    font-size: 31px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }
@@ -1812,7 +1812,7 @@ a:focus, a:hover {
   #fullpage .prct_rnImg {
     width: 100vw; }
   #fullpage .prct .genericTitle {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #393939; }
   #fullpage .prct .contextTitle {
@@ -1930,7 +1930,7 @@ a:focus, a:hover {
         justify-content: space-around;
     margin: 0 auto; }
   #fullpage .prct .genericTitle {
-    font-size: 20px; }
+    font-size: 17px; }
   #fullpage .prct .contextTitle {
     font-size: 14px; }
   #fullpage .prct .fixCont {
@@ -2012,7 +2012,7 @@ a:focus, a:hover {
 
 @media screen and (min-width: 768px) {
   #fullpage .prct .genericTitle {
-    font-size: 28px; }
+    font-size: 24px; }
   #fullpage .prct .contextTitle {
     font-size: 17px; }
   #fullpage .prct .mobScreen {
@@ -2076,7 +2076,7 @@ a:focus, a:hover {
     /* Safari 4.0 - 8.0 */
     /* Standard syntax */ }
     #fullpage .prct .genericTitle {
-      font-size: 31px; }
+      font-size: 28px; }
     #fullpage .prct .contextTitle {
       font-size: 20px; }
     #fullpage .prct_dic .title {
@@ -2280,7 +2280,7 @@ a:focus, a:hover {
   #fullpage .prctDiv {
     margin-top: 100px; }
   #fullpage .prct .genericTitle {
-    font-size: 42px; }
+    font-size: 31px; }
   #fullpage .prct_dic .title {
     padding-bottom: 30px;
     padding-top: 66px; }

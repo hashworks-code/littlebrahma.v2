@@ -284,7 +284,7 @@ table {
   .heroText {
     font-size: 20px; }
   .genericTitle2 {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 40px; }
   .bnrText {
     font-size: 12px;
@@ -359,7 +359,7 @@ textarea:focus {
   .heroText {
     font-size: 28px; }
   .genericTitle2 {
-    font-size: 28px; }
+    font-size: 24px; }
   .bnrText {
     font-size: 14px;
     padding: 16px 50px 0px 50px; }
@@ -414,7 +414,7 @@ textarea:focus {
   .heroText {
     font-size: 31px; }
   .genericTitle2 {
-    font-size: 31px; }
+    font-size: 28px; }
   .bnrText {
     font-size: 17px;
     padding: 20px 80px 0px 80px; }
@@ -497,7 +497,7 @@ textarea:focus {
     font-size: 42px;
     line-height: 55px; }
   .genericTitle2 {
-    font-size: 42px; }
+    font-size: 31px; }
   .bnrText {
     font-size: 17px;
     padding: 24px 90px 0px 90px; }
