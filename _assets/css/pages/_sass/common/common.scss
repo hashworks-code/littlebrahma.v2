@@ -244,16 +244,16 @@ table {
   .headingBold {
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     color: #393939;
     line-height: normal;
   }
   // HEADING LIGHT
   .headingLight {
-    font-family: 'MavenPro-Regular';
-    font-size: 24px;
-    font-weight: normal;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
     color: #393939;
+    font-size: 20px;
   }
   //  SUB HEADING
   .typography {
@@ -263,6 +263,13 @@ table {
     color: #393939;
   }
   .csHeading {
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size:17px;
+    color: #393939;
+    line-height: normal;
+  }
+  .aboutHeading{
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     font-size:14px;
@@ -393,10 +400,10 @@ textarea:focus {
     font-size: 17px;
   }
   .headingBold {
-    font-size: 24px;
+    font-size: 28px;
   }
   .headingLight {
-    font-size: 24px;
+    font-size: 28px;
   }
   .typography {
     font-size: 16px;
@@ -407,6 +414,9 @@ textarea:focus {
     line-height: 1.6;
   }
   .csHeading {
+    font-size: 24px;
+  }
+  .aboutHeading{
     font-size: 17px;
   }
   .commonButton {
@@ -470,10 +480,10 @@ textarea:focus {
     font-size: 20px;
   }
   .headingBold {
-    font-size: 28px;
+    font-size: 31px;
   }
   .headingLight {
-    font-size: 32px;
+    font-size: 31px;
   }
   .typography {
     font-size: 20px;
@@ -484,8 +494,11 @@ textarea:focus {
     line-height: 1.8;
   }
   .csHeading {
-    font-size: 20px;
+    font-size: 28px;
     color: #393939;
+  }
+  .aboutHeading{
+    font-size:20px;
   }
   .input {
     padding: 14px 10px;
@@ -605,10 +618,10 @@ textarea:focus {
   }
 
   .headingBold {
-    font-size: 31px;
+    font-size: 42px;
   }
   .headingLight {
-    font-size: 40px;
+    font-size: 42px;
   }
   .typography {
     font-size: 24px;
@@ -619,7 +632,10 @@ textarea:focus {
     line-height: 1.8;
   }
   .csHeading {
-    font-size: 20px;
+    font-size: 31px;
+  }
+  .aboutHeading{
+    font-size:20px;
   }
   .commonButton {
     border-radius: 28px;

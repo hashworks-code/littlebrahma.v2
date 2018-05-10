@@ -24,7 +24,6 @@
     }
     .boxPara{
         text-align: left;
-        font-size: 16px;
         color: #fff; 
         padding-right: 20px;
     }
@@ -135,10 +134,8 @@
     padding: 70px 25px 30px !important;
 }
 .csLightHead {
-    font-size: 24px;
     color: #5d6a6f;
     margin-top: 50px;
-    font-family: 'MavenPro-Medium';
 }
 .perceive{
     padding-bottom: 20px;
@@ -377,6 +374,9 @@
                     margin: 14px auto;
                     padding: 10px;
                     
+                }
+                .boxPara{
+                    font-size: 10px;
                 }
             }
             .CSservice11{
