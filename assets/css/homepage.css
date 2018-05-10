@@ -250,7 +250,7 @@ table {
     border: solid 2px #ea1c49;
     background-color: #ea1c49;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 6px 12px;
     font-family: 'Heebo', sans-serif;
     color: #fff;
@@ -346,6 +346,8 @@ textarea:focus {
     line-height: 1.6; }
   .csHeading {
     font-size: 17px; }
+  .commonButton {
+    font-size: 14px; }
   .rajdhaniBold {
     font-size: 36px; }
   .rajdhaniRegular {
@@ -401,7 +403,7 @@ textarea:focus {
     width: 300px; }
   .commonButton {
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 17px;
     padding: 7px 12px; }
   .rajdhaniBold {
     font-size: 36px; }
@@ -489,7 +491,7 @@ textarea:focus {
     font-size: 20px; }
   .commonButton {
     border-radius: 28px;
-    font-size: 18px;
+    font-size: 17px;
     padding: 8px 16px; }
   .bnr {
     padding: 0 0 0% 18%; }
@@ -1672,8 +1674,6 @@ html, body {
           -ms-flex-pack: justify;
               justify-content: space-between;
       z-index: 99999999; }
-      .footer__bottom div {
-        font-size: 16px; }
     .footer .socialLogo {
       font-size: 16px;
       bottom: 33px;
@@ -2337,7 +2337,7 @@ a:focus, a:hover {
   cursor: pointer;
   font-family: 'Heebo', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -2459,7 +2459,7 @@ button.lb_btn:focus {
 .lb-filter-headdesc {
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
@@ -2556,7 +2556,7 @@ div.test {
     font-size: 17px;
     padding-top: 16px; }
   .lb-filter-headdesc {
-    font-size: 14px; }
+    font-size: 12px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-service {
@@ -2575,7 +2575,7 @@ div.test {
     font-size: 20px;
     padding-top: 16px; }
   .lb-filter-headdesc {
-    font-size: 17px; }
+    font-size: 14px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
@@ -2598,7 +2598,7 @@ div.test {
     font-size: 20px;
     padding-top: 24px; }
   .lb-filter-headdesc {
-    font-size: 17px; }
+    font-size: 14px; }
   .lb_btn_div {
     text-align: center; }
   .lb-filter-Img {
