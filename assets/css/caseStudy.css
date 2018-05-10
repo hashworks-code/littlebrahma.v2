@@ -229,9 +229,9 @@ table {
     color: #393939;
     font-size: 20px; }
   .typography {
-    font-size: 12px;
-    font-family: 'MavenPro-Bold';
-    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
     color: #393939; }
   .csHeading {
     font-weight: 500;
@@ -345,7 +345,7 @@ textarea:focus {
   .headingLight {
     font-size: 28px; }
   .typography {
-    font-size: 16px; }
+    font-size: 17px; }
   .paragraph {
     font-size: 14px;
     letter-spacing: 0.4px;
@@ -492,7 +492,7 @@ textarea:focus {
   .headingLight {
     font-size: 42px; }
   .typography {
-    font-size: 24px; }
+    font-size: 20px; }
   .paragraph {
     font-size: 17px;
     letter-spacing: 1px;
@@ -1309,8 +1309,7 @@ html, body {
     width: 936px;
     margin: 0 auto; }
     .contact1__form h2 {
-      margin: 12px 0px 16px;
-      font-size: 16px; }
+      margin: 12px 0px 16px; }
     .contact1__form input {
       margin: 0px 0px 16px; }
     .contact1__form textarea {
@@ -1321,7 +1320,6 @@ html, body {
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
-      font-size: 24px;
       margin: 32px 0px 6px; }
     .contact1__company h3 {
       font-size: 14px; }
@@ -1358,7 +1356,6 @@ html, body {
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
-      font-size: 24px;
       margin: 24px 0px 6px; }
     .contact1__company h3 {
       font-size: 16px; }

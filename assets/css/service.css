@@ -229,9 +229,9 @@ table {
     color: #393939;
     font-size: 20px; }
   .typography {
-    font-size: 12px;
-    font-family: 'MavenPro-Bold';
-    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
     color: #393939; }
   .csHeading {
     font-weight: 500;
@@ -345,7 +345,7 @@ textarea:focus {
   .headingLight {
     font-size: 28px; }
   .typography {
-    font-size: 16px; }
+    font-size: 17px; }
   .paragraph {
     font-size: 14px;
     letter-spacing: 0.4px;
@@ -492,7 +492,7 @@ textarea:focus {
   .headingLight {
     font-size: 42px; }
   .typography {
-    font-size: 24px; }
+    font-size: 20px; }
   .paragraph {
     font-size: 17px;
     letter-spacing: 1px;
@@ -1309,8 +1309,7 @@ html, body {
     width: 936px;
     margin: 0 auto; }
     .contact1__form h2 {
-      margin: 12px 0px 16px;
-      font-size: 16px; }
+      margin: 12px 0px 16px; }
     .contact1__form input {
       margin: 0px 0px 16px; }
     .contact1__form textarea {
@@ -1321,7 +1320,6 @@ html, body {
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
-      font-size: 24px;
       margin: 32px 0px 6px; }
     .contact1__company h3 {
       font-size: 14px; }
@@ -1358,7 +1356,6 @@ html, body {
     .contact1__company h2:nth-child(1) {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
-      font-size: 24px;
       margin: 24px 0px 6px; }
     .contact1__company h3 {
       font-size: 16px; }
@@ -3263,8 +3260,7 @@ ul.lb_work_filter.lb_service_lg {
     color: #666;
     position: relative;
     left: 42px;
-    margin-top: 0px !important;
-    font-family: 'MavenPro-Bold'; }
+    margin-top: 0px !important; }
   .stepwizard-row .popover {
     width: 175px; } }
 
@@ -3525,8 +3521,6 @@ ul.lb_work_filter.lb_service_lg {
     background-color: #022b3b;
     margin-bottom: 40px;
     padding-bottom: 0px; }
-    .carousel h1.typography {
-      font-size: 12px; }
     .carousel__card {
       display: -webkit-box;
       position: absolute !important;
@@ -3565,7 +3559,6 @@ ul.lb_work_filter.lb_service_lg {
     .carousel h1 {
       padding-bottom: 10px;
       text-align: center;
-      font-family: 'MavenPro-Medium';
       font-weight: 500;
       color: #393939; }
     .carousel__card2 {
@@ -3598,8 +3591,6 @@ ul.lb_work_filter.lb_service_lg {
   .carousel {
     background-color: #ffffff;
     padding-top: 64px; }
-    .carousel h1.typography {
-      font-size: 16px !important; }
     .carousel__card {
       display: -webkit-box;
       position: relative !important;
@@ -3657,8 +3648,6 @@ ul.lb_work_filter.lb_service_lg {
     margin-left: -127.5px; }
   .carousel {
     padding-top: 100px; }
-    .carousel h1.typography {
-      font-size: 18px !important; }
     .carousel__card {
       top: 62px;
       left: 162px;
@@ -3690,7 +3679,6 @@ ul.lb_work_filter.lb_service_lg {
       .carousel__card2 h1 {
         padding: 0px;
         width: 407px;
-        font-size: 32px;
         padding-bottom: 20px; }
       .carousel__card2 p {
         width: 381px;
@@ -3722,8 +3710,6 @@ ul.lb_work_filter.lb_service_lg {
     padding-top: 150px;
     width: 1170px;
     margin: 0 auto 80px; }
-    .carousel h1.typography {
-      font-size: 20px !important; }
     .carousel__card {
       top: 81px;
       left: 165px;
@@ -3744,7 +3730,6 @@ ul.lb_work_filter.lb_service_lg {
       padding: 85px 65px 0px 220px; }
       .carousel__card2 h1 {
         width: 407px;
-        font-size: 40px;
         padding: 0px 0px 40px; }
       .carousel__card2 p {
         width: 450px;
