@@ -212,7 +212,8 @@ table {
     font-weight: 500;
     font-family: 'Rubik', sans-serif; }
   .rubik__large {
-    font-size: 20px; }
+    font-size: 20px;
+    line-height: 1.2; }
   .rubik__medium {
     font-size: 17px; }
   .rubik__small {
