@@ -216,7 +216,7 @@ table {
   .rubik__medium {
     font-size: 17px; }
   .rubik__small {
-    font-size: 14px; }
+    font-size: 13px; }
   .headingBold {
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
@@ -242,7 +242,7 @@ table {
   .aboutHeading {
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #393939;
     line-height: normal; }
   .paragraph {
@@ -339,7 +339,7 @@ textarea:focus {
   .rubik__medium {
     font-size: 24px; }
   .rubik__small {
-    font-size: 17px; }
+    font-size: 15px; }
   .headingBold {
     font-size: 28px; }
   .headingLight {
@@ -353,7 +353,7 @@ textarea:focus {
   .csHeading {
     font-size: 24px; }
   .aboutHeading {
-    font-size: 17px; }
+    font-size: 15px; }
   .commonButton {
     font-size: 14px; }
   .rajdhaniBold {
@@ -392,7 +392,7 @@ textarea:focus {
   .rubik__medium {
     font-size: 28px; }
   .rubik__small {
-    font-size: 20px; }
+    font-size: 18px; }
   .headingBold {
     font-size: 31px; }
   .headingLight {
@@ -400,14 +400,14 @@ textarea:focus {
   .typography {
     font-size: 20px; }
   .paragraph {
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 0.4px;
-    line-height: 1.8; }
+    line-height: 1.4; }
   .csHeading {
     font-size: 28px;
     color: #393939; }
   .aboutHeading {
-    font-size: 20px; }
+    font-size: 18px; }
   .input {
     padding: 14px 10px;
     width: 300px; }
@@ -457,7 +457,7 @@ textarea:focus {
   .rubik__medium {
     font-size: 31px; }
   .rubik__small {
-    font-size: 20px; }
+    font-size: 18px; }
   .lb_bdy {
     height: 960px; }
   .backgroundImage {
@@ -500,7 +500,7 @@ textarea:focus {
   .csHeading {
     font-size: 31px; }
   .aboutHeading {
-    font-size: 20px; }
+    font-size: 18px; }
   .commonButton {
     border-radius: 28px;
     font-size: 17px;
