@@ -108,7 +108,7 @@ iconsection: iconsectionnone
 #   - icons1: 'groomIcon6.svg'
 
 enigmaImageListt:
-  - enigmaimg: "icon/Hash_Main_Logo.gif"
+  - enigmaimg: "hashwork/hash1.mp4"
     class: padding
   - enigmaimg: "hashwork/8.jpg"
     class: padding
@@ -132,7 +132,7 @@ enigmaImageList:
     class: padding
   - enigmaImage: "hashwork/17.jpg"
     class: Nopadding
-  - enigmaImage: "icon/Hash_Logo_Variations.gif"
+  - enigmaImage: "hashwork/hash2.mp4"
     class: padding
 
 

@@ -192,9 +192,18 @@
 
           <div class="">
               {% for img in page.enigmaImageListt %}
+              {%if img.enigmaimg contains ".mp4" %}
+              <div class="{{img.class}}">
+              <video  autoplay="autoplay" loop="loop" id="vid" muted style="width: 100%;">
+                <source src="/assets/img/branding/{{img.enigmaimg}}" type="video/mp4" />
+                <!-- <img src="video.gif" width="400" height="300" /> -->
+            </video>
+        </div>
+              {%else%}
                 <div class="{{img.class}}">
                   <img class="topimage" src="/assets/img/branding/{{img.enigmaimg}}" alt="">
                 </div> 
+                {%endif%}
               {% endfor %}
          </div>
             <div class="enigmaCup">
@@ -209,9 +218,18 @@
             </div>
            <div class="">
                 {% for image in page.enigmaImageList %}
+                {%if image.enigmaImage contains ".mp4" %}
+                <div class="{{image.class}}">
+              <video  autoplay="autoplay" loop="loop" id="vid" muted style="width: 100%;">
+                <source src="/assets/img/branding/{{image.enigmaImage}}" type="video/mp4" />
+                <!-- <img src="video.gif" width="400" height="300" /> -->
+            </video>
+        </div>
+              {%else%}
                 <div class="{{image.class}}">
                   <img class="imagemargin" src="/assets/img/branding/{{image.enigmaImage}}" alt="">
                 </div>
+                {%endif%}
                 {% endfor %}
             </div>
     </div>
