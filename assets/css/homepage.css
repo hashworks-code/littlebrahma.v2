@@ -319,10 +319,30 @@ table {
   padding: 12px;
   outline: none;
   padding: 12px 14px; }
+  .input::-webkit-input-placeholder {
+    color: #7d8d926b; }
+  .input:-ms-input-placeholder {
+    color: #7d8d926b; }
+  .input::-ms-input-placeholder {
+    color: #7d8d926b; }
+  .input::placeholder {
+    color: #7d8d926b; }
 
 .input:hover,
 input:focus {
   border: solid 2px #7d8d92; }
+
+textarea::-webkit-input-placeholder {
+  color: #7d8d926b; }
+
+textarea:-ms-input-placeholder {
+  color: #7d8d926b; }
+
+textarea::-ms-input-placeholder {
+  color: #7d8d926b; }
+
+textarea::placeholder {
+  color: #7d8d926b; }
 
 textarea:hover,
 textarea:focus {
@@ -1239,8 +1259,6 @@ html, body {
     .contact1__company h2 {
       margin: 24px 0px 12px; }
     .contact1__company h3 {
-      font-family: 'PtSansRegular';
-      font-size: 12px;
       font-weight: normal;
       text-align: left;
       color: #7d8d92;
@@ -1287,8 +1305,6 @@ html, body {
       margin: 0px 0px 12px; }
     .contact1__company h2 {
       margin: 27px 0px 12px; }
-    .contact1__company h3 {
-      font-size: 12px; }
     .contact1__image img {
       width: 100%;
       height: 182px;
@@ -1322,8 +1338,6 @@ html, body {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
       margin: 32px 0px 6px; }
-    .contact1__company h3 {
-      font-size: 14px; }
     .contact1__image img {
       margin-top: 90px;
       height: 255px; }
@@ -1358,8 +1372,6 @@ html, body {
       margin: 0px 0px 6px; }
     .contact1__company h2 {
       margin: 24px 0px 6px; }
-    .contact1__company h3 {
-      font-size: 16px; }
     .contact1__image img {
       margin-top: 90px;
       height: 300px; }
@@ -2698,6 +2710,7 @@ li.lb_work_filterli:first-child {
   margin-left: 50px !important; }
 
 .homePage__BnrDiv {
+  background-image: url(/assets/img/BANNER_IMG/Landing_page.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;

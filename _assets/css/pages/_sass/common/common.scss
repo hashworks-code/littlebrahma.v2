@@ -370,12 +370,17 @@ table {
   margin: 12px 0px 6px;
   padding: 12px;
   outline: none;
-  // font-family: 'PtSansRegular';
   padding: 12px 14px;
+  &::placeholder{
+    color:#7d8d926b;
+  }
 }
 .input:hover,
 input:focus {
   border: solid 2px #7d8d92;
+}
+textarea::placeholder{
+  color:#7d8d926b;
 }
 textarea:hover,
 textarea:focus {
