@@ -497,7 +497,7 @@
 })();
 $(document).ready(function() {
   // $('.lb-filter-service').hide();
-  document.getElementById('vid').play();
+  // document.getElementById('vid').play();
 });
 
 (function() {
