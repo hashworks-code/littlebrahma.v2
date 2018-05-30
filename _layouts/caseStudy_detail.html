@@ -1,172 +1,178 @@
-{% include header.html %}
-    {% include common_header.html %}
+{% include header.html %} {% include common_header.html %}
 
-    <div class="lb_bdy prct">
-          <div class="{{page.backgroundColor}}">
-            <div class="hero_img"  style="background-image: url('{{page.variation_image4}}');"></div>
-          </div>
-            <div class="hero_cnt">
+<div class="lb_bdy prct">
+        <div class="{{page.backgroundColor}}">
+                <div class="hero_img" style="background-image: url('{{page.variation_image4}}');"></div>
+        </div>
+        <div class="hero_cnt">
                 <div class="heroText">
-                        {{ page.cBanner1 }}<br/><span class="heroHighlight"> {{ page.cBanner2 }}</span>
+                        {{ page.cBanner1 }}
+                        <br/>
+                        <span class="heroHighlight"> {{ page.cBanner2 }}</span>
                         {{ page.cBanner3 }}
                 </div>
-               
-                <div class="hero_ptn"></div>
-            </div>
-            </div>
-            <div class="caseStudy">
 
-                    <div class="caseStudy__content1">
-                        <div class="caseStudy__cHead csHeading">
-                                {{ page.cHead1 }}
+                <div class="hero_ptn"></div>
+        </div>
+</div>
+<div class="caseStudy">
+
+        <div class="caseStudy__content1">
+                <div class="caseStudy__cHead csHeading">
+                        {{ page.cHead1 }}
+                </div>
+                <p class="paragraph">{{ page.cContent1 }}</p>
+        </div>
+        <div class="caseStudy__cImg">
+                <!-- <img src="/assets/img/caseStudy/{{ page.cImg2  | downcase }}.jpg"> -->
+                <div class="row">
+                        <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg1  | downcase }}.jpg">
                         </div>
-                        <p class="paragraph">{{ page.cContent1 }}</p>
-                    </div> 
-                    <div class="caseStudy__cImg">
-                            <!-- <img src="/assets/img/caseStudy/{{ page.cImg2  | downcase }}.jpg"> -->
-                            <div class="row">
-                                    <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg1  | downcase }}.jpg">
-                                    </div>
-                                    <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg2  | downcase }}.jpg">
-                                    </div>
-                                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg3  | downcase }}.jpg">
-                                    </div>
-                            </div>
-                    </div>
-                    <div class="SceneImg">
-                    <div class="caseStudy__bgImg" style="background-image: url('{{page.variation_imagg1}}');">
-                            <div class="caseStudy__content2">
+                        <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg2  | downcase }}.jpg">
+                        </div>
+                        <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg3  | downcase }}.jpg">
+                        </div>
+                </div>
+        </div>
+        <div class="SceneImg">
+                <div class="caseStudy__bgImg" style="background-image: url('{{page.variation_imagg1}}');">
+                        <div class="caseStudy__content2">
                                 <div class="caseStudy__cHead csHeading">{{ page.cHead2 }}</div>
-                                        <p class="paragraph">{{ page.cContent2 }} </p>
-                            </div>
-                            
-                    </div>
-                    <img src="/assets/img/caseStudy/{{ page.cImgg4  | downcase }}.jpg">
-                    </div>
-                    <div class="caseStudy__content1">
-                            <div class="caseStudy__cHead csHeading">
-                                    {{ page.cHead3 }} 
-                            </div>
-                            <p  class="paragraph">{{ page.cContent3 }}</p>
-                     </div>
-                     <div class="caseStudy__cImg">
-                            <!-- <img src="/assets/img/caseStudy/{{ page.cImg3  | downcase }}.jpg"> -->
-                            <div class="row">
-                                    <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg5  | downcase }}.jpg">
-                                    </div>
-                                    <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg6  | downcase }}.jpg">
-                                    </div>
-                                    <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg7  | downcase }}.jpg">
-                                    </div>
-                                    <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
-                                            <img src="/assets/img/caseStudy/{{ page.cImgg8  | downcase }}.jpg">
-                                    </div>
-                            </div>
-                    </div>
-                    {% if page.cal_section != 'yes' %}
-                    <div class="SceneImg1">
-                    <div class="caseStudy__bgImg1 csHd" style="background-image: url('{{page.variation_image2}}');">
-                            <div class="caseStudy__content3">
-                                        <img src="/assets/img/caseStudy/{{ page.cImgg9  | downcase }}.jpg">
-                               <div class="cal2018">
-                                        <div class="caseStudy__cHead csHeading">{{ page.cHead4 }} </div>
-                                        <p  class="paragraph">{{ page.cContent4 }}</p>
-                              </div>
-                              </div>
-                    </div>
-                    <div class="caseStudy__bgImg1 csMobile" style="background-image: url('{{page.variation_image5}}');">
+                                <p class="paragraph">{{ page.cContent2 }} </p>
+                        </div>
+
+                </div>
+                <img src="/assets/img/caseStudy/{{ page.cImgg4  | downcase }}.jpg">
+        </div>
+        <div class="caseStudy__content1">
+                <div class="caseStudy__cHead csHeading">
+                        {{ page.cHead3 }}
+                </div>
+                <p class="paragraph">{{ page.cContent3 }}</p>
+        </div>
+        <div class="caseStudy__cImg">
+                <!-- <img src="/assets/img/caseStudy/{{ page.cImg3  | downcase }}.jpg"> -->
+                <div class="row">
+                        <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg5  | downcase }}.jpg">
+                        </div>
+                        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg6  | downcase }}.jpg">
+                        </div>
+                        <div class="col-xs-12 col-md-5 col-sm-5 col-lg-5 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg7  | downcase }}.jpg">
+                        </div>
+                        <div class="col-xs-12 col-md-7 col-sm-7 col-lg-7 padding-0">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg8  | downcase }}.jpg">
+                        </div>
+                </div>
+        </div>
+        {% if page.cal_section != 'yes' %}
+        <div class="SceneImg1">
+                <div class="caseStudy__bgImg1 csHd" style="background-image: url('{{page.variation_image2}}');">
                         <div class="caseStudy__content3">
                                 <img src="/assets/img/caseStudy/{{ page.cImgg9  | downcase }}.jpg">
-                        <div class="cal2018">
-                               <div class="caseStudy__cHead csHeading">{{ page.cHead4 }} </div>
-                                 <p  class="paragraph">{{ page.cContent4 }}</p>
-                        </div>
-                        </div>
-                    </div>
-                      
-                    </div>
-                    {% endif %}
-                    <div class="SceneImg2 calcolor">
-                    <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.variation_image3}}');">
-                            <div class="caseStudy__content4">
-                                <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
-                                        <p  class="paragraph">{{ page.cContent5 }}</p>
-                            </div>
-                        </div>
-                        <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.variation_image6}}');">
-                                <div class="caseStudy__content4">
-                                    <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
-                                            <p  class="paragraph">{{ page.cContent5 }}</p>
+                                <div class="cal2018">
+                                        <div class="caseStudy__cHead csHeading">{{ page.cHead4 }} </div>
+                                        <p class="paragraph">{{ page.cContent4 }}</p>
                                 </div>
-                            </div>
-                        <img src="/assets/img/caseStudy/{{ page.cImgg10  | downcase }}.jpg">
-                    </div>
-                    <div class="caseStudy__eImg">
-                            <img src="/assets/img/caseStudy/{{ page.cImg4  | downcase }}.jpg">
-                    </div>
-                    <div class="caseStudy__content5">
-                        <div class="caseStudy__cImg5">
-                            <img src="/assets/img/caseStudy/{{ page.cImg5  | downcase }}.png">
-                            </div>
-                            <div class="caseStudy__cont">
-                                    <div class="caseStudy__cHead csHeading">{{ page.cHead6 }}
-                                        </div>
-                                        <p  class="paragraph">{{ page.cContent6 }}</p>
-                                </div>
-                                
-                    </div>
-                    <div class="caseStudy__content6">
-                            <div class="caseStudy__cImg6">
-                                <img src="/assets/img/caseStudy/{{ page.cImg6  | downcase }}.png">
-                                </div>
-                                <div class="caseStudy__cont1">
-                                        <div class="caseStudy__cHead csHeading">{{ page.cHead7 }}
-                                            </div>
-                                            <p  class="paragraph">{{ page.cContent7 }}</p>
-                                    </div>
-                                    
                         </div>
-                        <div class="slider-nav">
-                            {% for imgg in page.lists_img %}
-                                <div class="caseStudy__imgSlide">
-                                    <img src="/assets/img/caseStudy/{{ imgg.slide-imges  | downcase }}.jpg">
+                </div>
+                <div class="caseStudy__bgImg1 csMobile" style="background-image: url('{{page.variation_image5}}');">
+                        <div class="caseStudy__content3">
+                                <img src="/assets/img/caseStudy/{{ page.cImgg9  | downcase }}.jpg">
+                                <div class="cal2018">
+                                        <div class="caseStudy__cHead csHeading">{{ page.cHead4 }} </div>
+                                        <p class="paragraph">{{ page.cContent4 }}</p>
                                 </div>
-                                {% endfor %}
-                                
+                        </div>
+                </div>
 
-           
-                                
-                            </div>            
-                        <div class="caseStudy__calImg">
-                                <img src="/assets/img/caseStudy/{{ page.cImg7 | downcase }}.jpg">
+        </div>
+        {% endif %}
+        <div class="SceneImg2 calcolor">
+                <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.variation_image3}}');">
+                        <div class="caseStudy__content4">
+                                <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
+                                <p class="paragraph">{{ page.cContent5 }}</p>
                         </div>
-                   
-          
-    <div class="blob1">
-      <div  class="blob2">
+                </div>
+                <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.variation_image6}}');">
+                        <div class="caseStudy__content4">
+                                <div class="caseStudy__cHead csHeading">{{ page.cHead5 }}</div>
+                                <p class="paragraph">{{ page.cContent5 }}</p>
+                        </div>
+                </div>
+                <img src="/assets/img/caseStudy/{{ page.cImgg10  | downcase }}.jpg">
+        </div>
+        <div class="caseStudy__eImg">
+                <img src="/assets/img/caseStudy/{{ page.cImg4  | downcase }}.jpg">
+        </div>
+        <div class="caseStudy__content5">
+                <div class="caseStudy__cImg5">
+                        <img src="/assets/img/caseStudy/{{ page.cImg5  | downcase }}.png">
+                </div>
+                <div class="caseStudy__cont">
+                        <div class="caseStudy__cHead csHeading">{{ page.cHead6 }}
+                        </div>
+                        <p class="paragraph">{{ page.cContent6 }}</p>
+                </div>
+
+        </div>
+        <div class="caseStudy__content6">
+                <div class="caseStudy__cImg6">
+                        <img src="/assets/img/caseStudy/{{ page.cImg6  | downcase }}.png">
+                </div>
+                <div class="caseStudy__cont1">
+                        <div class="caseStudy__cHead csHeading">{{ page.cHead7 }}
+                        </div>
+                        <p class="paragraph">{{ page.cContent7 }}</p>
+                </div>
+
+        </div>
+        <div class="slider-nav">
+                {% for imgg in page.lists_img %}
+                <div class="caseStudy__imgSlide">
+                        <img src="/assets/img/caseStudy/{{ imgg.slide-imges  | downcase }}.jpg">
+                </div>
+                {% endfor %}
+
+
+
+
+        </div>
+        <div class="caseStudy__calImg">
+                <img src="/assets/img/caseStudy/{{ page.cImg7 | downcase }}.jpg">
+        </div>
+
+
+        <div class="blob1">
+                <!-- <div  class="blob2">
            <h1 class="headingLight"> Like it ?</h1>
            <a href="/workpage"> <button class="commonButton ">View more</button></a>
-      </div>
+      </div> -->
 
 
-    <div class="blobs">  
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob"></div>
-  </div>
-</div>  
-               </div>
-               
-               
+                <div class="blobs">
+                        <div class="blob"></div>
+                        <div class="blob"></div>
+                        <div class="blob"></div>
+                        <div class="blob"></div>
+                        <div class="blob"></div>
+                        <div class="blob"></div>
+                        <div class="blob2">
+                                <h1 class="headingLight"> Like it ?</h1>
+                                <a href="/workpage">
+                                        <button class="commonButton ">View more</button>
+                                </a>
+                        </div>
+                </div>
+        </div>
+</div>
 
-   {% include common_footer.html %}
-   {% include footer.html %}
+
+
+{% include common_footer.html %} {% include footer.html %}
