@@ -2031,12 +2031,16 @@ a:focus, a:hover {
   position: absolute;
   z-index: 999;
   top: 51px;
-  left: 37px; }
+  left: 9px;
+  width: 150px; }
+  .blob2 h1 {
+    padding-left: 5px; }
 
 .enigmaCup {
   margin: 10px 5px; }
 
-.imagemargin, .topimage {
+.imagemargin,
+.topimage {
   padding: 10px 0px;
   width: 100%; }
 
@@ -2256,7 +2260,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 700px;
     margin: 15px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 15px 0px;
     width: 100%; }
   .challange {
@@ -2486,7 +2491,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 965px;
     margin: 18px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 18px 0px; }
   .challange {
     width: 700px; }
@@ -2496,7 +2502,7 @@ a:focus, a:hover {
     .engima .csHeading {
       padding-bottom: 16px; }
   .engima1 {
-    margin: 80px 0px 96px  !important; }
+    margin: 80px 0px 96px !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image img {
@@ -2615,7 +2621,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 1100px;
     margin: 15px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 15px 0px; }
   .challange {
     width: 1000px; }
@@ -2625,7 +2632,7 @@ a:focus, a:hover {
     .engima .csHeading {
       padding-bottom: 32px; }
   .engima1 {
-    margin: 123px 0px 120px  !important; }
+    margin: 123px 0px 120px !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
@@ -3337,12 +3344,16 @@ a:focus, a:hover {
   position: absolute;
   z-index: 999;
   top: 51px;
-  left: 37px; }
+  left: 9px;
+  width: 150px; }
+  .blob2 h1 {
+    padding-left: 5px; }
 
 .enigmaCup {
   margin: 10px 5px; }
 
-.imagemargin, .topimage {
+.imagemargin,
+.topimage {
   padding: 10px 0px;
   width: 100%; }
 
@@ -3562,7 +3573,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 700px;
     margin: 15px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 15px 0px;
     width: 100%; }
   .challange {
@@ -3792,7 +3804,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 965px;
     margin: 18px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 18px 0px; }
   .challange {
     width: 700px; }
@@ -3802,7 +3815,7 @@ a:focus, a:hover {
     .engima .csHeading {
       padding-bottom: 16px; }
   .engima1 {
-    margin: 80px 0px 96px  !important; }
+    margin: 80px 0px 96px !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image img {
@@ -3921,7 +3934,8 @@ a:focus, a:hover {
   .enigmaCup {
     width: 1100px;
     margin: 15px auto; }
-  .imagemargin, .topimage {
+  .imagemargin,
+  .topimage {
     padding: 15px 0px; }
   .challange {
     width: 1000px; }
@@ -3931,7 +3945,7 @@ a:focus, a:hover {
     .engima .csHeading {
       padding-bottom: 32px; }
   .engima1 {
-    margin: 123px 0px 120px  !important; }
+    margin: 123px 0px 120px !important; }
   .branding .brand {
     padding: 8px 0px 16px; }
   .branding__image .row {
