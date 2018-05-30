@@ -311,7 +311,7 @@
     position: absolute;
     z-index: 999;
     top: 51px;
-    left: 46px;
+    left: 40px;
     width: 150px;
     text-align: left;
     h1 {
@@ -557,7 +557,13 @@
     }
     .blob2 {
         top: 101px;
-        left: 69px;
+        left: 90px;
+        h1 {
+            padding-left: 0px;
+        }
+        &__anchor {
+            padding-left: 3px;
+        }
     }
     .blobs {
         width: 260px;
@@ -842,7 +848,7 @@
     }
     .blob2 {
         top: 113px;
-        left: 85px;
+        left: 120px;
         h1 {
             width: 200px;
         }
@@ -1033,7 +1039,14 @@
     }
     .blob2 {
         top: 138px;
-        left: 120px;
+        left: 150px;
+        width: 250px;
+        h1 {
+            width: 250px;
+        }
+        &__anchor {
+            padding-left: 18px;
+        }
     }
     .blobs {
         width: 412px;
