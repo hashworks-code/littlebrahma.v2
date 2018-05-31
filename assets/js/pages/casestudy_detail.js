@@ -1,1 +1,30 @@
-$(document).ready(function(){$(".slider-nav").slick({autoplay:!0,autoplaySpeed:1e3,slidesToShow:3,slidesToScroll:1,centerMode:!0,focusOnSelect:!0,responsive:[{breakpoint:767,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]})});
+$(document).ready(function(){
+
+      $('.slider-nav').slick({
+            autoplay: true,
+            autoplaySpeed: 1000,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            focusOnSelect: true,
+            responsive: [
+                  {
+                    breakpoint: 767,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 2
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                  // You can unslick at a given breakpoint now by adding:
+                  // settings: "unslick"
+                  // instead of a settings object
+                ]
+      });
+  });
