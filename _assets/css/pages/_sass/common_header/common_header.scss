@@ -21,7 +21,7 @@ body {
 
 body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
-  // overflow: hidden;
+  overflow: hidden;
 }
 
 a {
@@ -57,7 +57,7 @@ a {
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
