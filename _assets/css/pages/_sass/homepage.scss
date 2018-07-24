@@ -1,2 +1,8 @@
 @import '../_sass/common';
 @import "homepage/homepage.scss";
+html,
+body {
+  height: 100%;
+  overflow-x: initial !important;
+  -webkit-overflow-scrolling: touch;
+}
