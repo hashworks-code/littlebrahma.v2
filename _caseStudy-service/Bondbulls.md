@@ -5,7 +5,7 @@ description: Your company's greatest assest are your people. Take help our hirin
 keywords: Human Recourse Management system, Hiring solution, Talent Management Software, Application Tracking System, AI-Enabled, Recruitment Management software, recruitment system, Talent CRM, HR Software, Bangalore, India
 js: "No"
 banner_imag1: "/assets/img/caseStudy-service/bondbulls/bull.jpg"
-backgroundchange: "backbond"
+backgroundchange: "backbon"
 banner-Head: "Bondbulls case study"
 banner-cnt: "Buying / selling bonds made lot easier"
 section: "gov"
