@@ -8,7 +8,7 @@ banner_imag1: "/assets/img/caseStudy-service/bondbulls/bull.jpg"
 backgroundchange: "backbon"
 banner-Head: "Bondbulls case study"
 banner-cnt: "Buying / selling bonds made lot easier"
-section: "gov"
+section: "bondbulls"
 sbHead: "no"
 color: "green"
 
