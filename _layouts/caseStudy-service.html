@@ -103,45 +103,7 @@
                 <p class="paragraph color">{{page.box-para4}}</p>
             </div>
         </div>
-        {% endif %} 
-        {% if page.section == 'bondbulls' %}
-        <div class="SceneImg">
-            <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
-                <div class="caseStudy__content2">
-                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
-                    {% for para in page.perceive_para %}
-                    <p class="paragraph color">{{ para.cContent5 }}</p>
-                    </br>
-                    </br>
-                    {% endfor %} {% for service in page.content_lists1 %}
-                    <p class="paragraph color">{{ service.cContent7}}</p>
-                    {% endfor %}
-                </div>
-            </div>
-            <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg20 | downcase }}.jpg">
-            </div>
-            <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
-                <div class="caseStudy__content2">
-                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
-                    {% for perceive in page.main_perceive %} {% for para in perceive.perceive_para %}
-                    <p class="paragraph color">{{ para.cContent5 }}</p>
-                    </br>
-                    </br>
-                    {% endfor %}
-                    <div class="perceive">
-                        {% for service in perceive.content_lists1 %}
-                        <p class="paragraph color">{{ service.cContent7}}</p>
-                        {% endfor %}
-                    </div>
-                    {% endfor %}
-                </div>
-                <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg20 | downcase }}.jpg">
-            </div>
-        </div>
-        {% endif %}
-        {% if page.section == 'opm' %}
+        {% endif %} {% if page.section == 'opm' %}
         <div class="SceneImg">
             <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
                 <div class="caseStudy__content2">
@@ -160,7 +122,7 @@
                     {% endfor %}
                 </div>
 
-
+            </div>
             <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
                 <div class="caseStudy__content2">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
@@ -182,7 +144,7 @@
             <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.jpg">
         </div>
         {% endif %}
-    
+    </div>
 
 
 
@@ -295,30 +257,7 @@
 
 
     <div class="caseStudy">
-            {% if page.section == 'bondbulls' %}
-            <div class="SceneImg">
-                <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
-                    <div class="caseStudy__content2">
-                        <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                        <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
-                        <p class="paragraph color">{{ page.cContent16 }}</p>
-                    </div>
-                </div>
-    
-                <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg21 | downcase }}.jpg">
-                </div>
-                <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
-                    <div class="caseStudy__content2">
-                        <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                        <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
-                        <p class="paragraph color">{{ para.cContent16 }}</p>
-                        </br>
-                    </div>
-                    <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg21 | downcase }}.jpg">
-                </div>
-            </div>
-            {% endif %}
-        {% if page.model == 'opm' %}
+        {% if page.model != 'enigma' %}
         <div class="SceneImg2">
             <div class="caseStudy__bgImg2 bg5 csHd " style="background-image: url('{{page.SImg15}}');">
                 <div class="caseStudy__content4">
@@ -346,8 +285,7 @@
                 <p class="paragraph color">{{page.box-para5}}</p>
             </div>
         </div>
-        {% endif %} 
-        {% if page.model == 'enigma' %}
+        {% endif %} {% if page.model == 'enigma' %}
 
         <div class="caseStudy__bgImg2 enigma_bg csHd" style="background-image: url('{{page.SImg20}}');">
             <div class="caseStudy__content4">
@@ -372,10 +310,11 @@
                 {% endfor %}
 
             </div>
-        </div>
+
         </div>
         {% endif %}
 
+    </div>
     <div class="CSService3">
         <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.jpg">
     </div>
@@ -390,7 +329,7 @@
 
         <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.jpg"> {% endfor %}
     </div>
-    </div>
+</div>
 <div class="blob1">
     <!-- <div class="blob2">
         <h1 class="headingLight"> Like it ?</h1>
