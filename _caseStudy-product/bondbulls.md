@@ -65,8 +65,6 @@ perceive_para:
 
     - cContent5: "understanding the behavour of a indivisual user who might want to invest in bonds and help them in the most optimal way. Talking to end user of different age groups and understanding the investment patterns to find out that there is a information gap from the companies to end investers."
 
-    - cContent5: ""
-
 content_lists1:
 
     - cContent7: '- Divide workflows as per personas acting on the system'
@@ -91,6 +89,8 @@ SImg3: "bondbulls/wire"
 
 SImg4: "/assets/img/caseStudy-service/rectangle-2.png"
 SImg5: "bondbulls/123"
+SImg20: "bondbulls/1234"
+SImg21: "bondbulls/12345"
 
 
 SImg10: "bondbulls/g5"
@@ -160,7 +160,7 @@ product_title: Desigining a marketplace for Bonds
 product_title1: BondBulls
 product_description: Application
 current: Service Design
-banner_image: "/assets/img/caseStudy-service/bondbulls/bull.jpg"
+banner_image: "/assets/img/caseStudy-service/bondbulls/BB.jpg"
 textcolor: text-black
 url: "ServiceDesign1"
 CSservice1: CSservice1
