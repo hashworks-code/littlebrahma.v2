@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" d="M0 0h540v180H0z"/>
-        <path fill="#FFF" d="M0 0h540v180H0z"/>
-        <text fill="#5D6A6F" font-family="Muli-Regular, Muli" font-size="20">
-            <tspan x="0" y="20">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. </tspan> <tspan x="0" y="49">Donec viverra eleifend lacus, vitae ullamcorper metus. Sed </tspan> <tspan x="0" y="78">sollicitudin ipsum quis nunc sollicitudin ultrices. Donec </tspan> <tspan x="0" y="107">euismod scelerisque ligula. Maecenas eu varius risus, eu </tspan> <tspan x="0" y="136">aliquet arcu. Curabitur fermentum suscipit est, tincidunt </tspan> <tspan x="0" y="165">mattis lorem luctus id. Donec eget massa a diam </tspan> <tspan x="0" y="194">condimentum pretium. Aliquam erat volutpat. Integer ut </tspan> <tspan x="0" y="223">tincidunt orci. Etiam tristique, elit ut consectetur iaculis, </tspan> <tspan x="0" y="252">metus lectus mattis justo, vel mollis eros neque quis </tspan> <tspan x="0" y="281">augue. Sed lobortis ultrices lacus, a placerat metus rutrum </tspan> <tspan x="0" y="310">sit amet. Aenean ut suscipit justo.</tspan>
-        </text>
-    </g>
-</svg>
