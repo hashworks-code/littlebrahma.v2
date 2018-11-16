@@ -1,1 +1,0 @@
-/Users/rohithkumar/Documents/GitHub/littlebrahma.v2/vendor/cache/ruby/2.3.0/gems/ffi-1.9.23/ext/ffi_c/libffi/src/x86/ffitarget.h

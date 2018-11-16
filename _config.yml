@@ -13,6 +13,7 @@ exclude:
   - vendor
   - _assets
   - node_modules
+  - vendor/bundle
 collections:
   caseStudy:
     title: Casestudy
