@@ -1,0 +1,27 @@
+backend:
+    name: github
+    repo: littlebrahma/littlebrahma.github.io # Path to your Github repository
+    branch: master # Branch to update (master by default)
+    site_domain: littlebrahma.netlify.com
+media_folder: "assets/images" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "blog_description", widget: "string"}
+      - {label: "Blog Image", name: "thumbnail", widget: "image"}
+      - {label: "Blog Highlight", name: "blog_highlight", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author_name", widget: "string"}
+      - {label: "Author Img URL", name: "author_image", widget: "string"}
+      - {label: "Author Title", name: "author_title", widget: "string"}
+      - {label: "Category", name: "blog_category", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog_detail"}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="204" viewBox="0 0 445 204">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0h445v204H0z"/>
+        <text fill="#000" font-family="NotoSans-Bold, Noto Sans" font-size="36" font-weight="bold" letter-spacing="1">
+            <tspan x="0" y="40">Noto Sans Bold</tspan>
+        </text>
+        <text fill="#000" font-family="NotoSans, Noto Sans" font-size="32" letter-spacing=".889">
+            <tspan x="0" y="124">Noto Sans Regular</tspan>
+        </text>
+        <text fill="#000" font-family="NotoSans, Noto Sans" font-size="20" letter-spacing=".556">
+            <tspan x="0" y="196">Nunito Regular</tspan>
+        </text>
+    </g>
+</svg>
