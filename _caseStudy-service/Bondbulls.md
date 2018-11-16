@@ -156,12 +156,12 @@ full_image:
       SImg8: 'bondbulls/g4'
 
 cat: Service Design
-product_title: Enterprise order management tool
-product_title1: Global Order Visibility
+product_title: Desigining a marketplace for Bonds
+product_title1: BondBulls
 product_description: Application
 current: Service Design
-banner_image: "/assets/img/caseStudy/gov-banner.jpg"
-textcolor: text-white
+banner_image: "/assets/img/caseStudy-service/bondbulls/bull.jpg"
+textcolor: text-black
 url: "ServiceDesign1"
 CSservice1: CSservice1
 ---
