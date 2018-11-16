@@ -3,7 +3,7 @@ title: Littlebrahma.Github.Io
 email: hello@littlebrahma.com
 repository: littlebrahma/littlebrahma.github.io
 timezone: UTC
-gems:
+plugins:
   - jekyll-sitemap
 exclude:
   - Gemfile
