@@ -50,16 +50,17 @@
             </div>
             {% for challenge in page.challenge_list %} {% if page.sbHead == 'yes' %}
             <p class="csLightHead aboutHeading {{page.className}}">{{ challenge.subhead}}</p>
-            </br>
             {% endif %} {% for cont in challenge.content_para %}
             <p class="paragraph">{{ cont.cContent2}}</p>
 
-            {% if forloop.last != true %}</br>
-            </br>{% endif %} {% endfor %} {% for service in challenge.content_lists %}
+            {% if forloop.last != true %}
+            </br>{% endif %} {% endfor %} 
+            </br>
+            {% for service in challenge.content_lists %}
             <p class="paragraph">{{ service.cContent4}}</p>
-            {% endfor %} {% endfor %}
-
-
+            {% endfor %} {% endfor %} 
+            </br>
+        
         </div>
     </div>
 
@@ -143,7 +144,51 @@
                 <p class="paragraph color">{{page.box-para4}}</p>
             </div>
         </div>
-        {% endif %} {% if page.section == 'opm' %}
+        {% endif %} 
+        {% if page.section == 'bounter' %}
+        <div class="SceneImg2">
+            <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
+                    {% for para in page.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    {% endfor %}
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead10 }}</div>
+                    {% for para in page.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent7 }}</p>
+                    </br>
+                    {% endfor %}
+                    
+                </div>
+            </div>
+            <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.SImg16}}');">
+                <div class="caseStudy__content4">
+                    <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
+                    {% for para in page.perceive_para %}
+                    <p class="paragraph color">{{ para.cContent5 }}</p>
+                    </br>
+                    </br>
+                    {% endfor %} {% for service in page.content_lists1 %}
+                    <p class="paragraph color">{{ service.cContent7}}</p>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+            <div class="CSservice__box1 {{page.color}}">
+                <div>
+                    <span class="headingBold color">{{page.box-Head4}}</span>
+                    <span class="csHeading color">{{page.box-Head5}}</span>
+                </div>
+                </br>
+                <p class="paragraph color">{{page.box-para4}}</p>
+            </div>
+        </div>
+        {% endif %} 
+        {% if page.section == 'opm' %}
         <div class="SceneImg">
             <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
                 <div class="caseStudy__content2">
