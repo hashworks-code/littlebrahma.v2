@@ -64,6 +64,46 @@
     </div>
 
     <div class="caseStudy">
+            {% if page.section == 'bondbulls' %}
+            <div class="SceneImg2">
+                <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
+                    <div class="caseStudy__content4">
+                        <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                        <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
+                        {% for para in page.perceive_para %}
+                        <p class="paragraph color">{{ para.cContent5 }}</p>
+                        </br>
+                        </br>
+                        {% endfor %} {% for service in page.content_lists1 %}
+                        <p class="paragraph color">{{ service.cContent7}}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.SImg16}}');">
+                    <div class="caseStudy__content4">
+                        <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
+                        <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
+                        {% for para in page.perceive_para %}
+                        <p class="paragraph color">{{ para.cContent5 }}</p>
+                        </br>
+                        </br>
+                        {% endfor %} {% for service in page.content_lists1 %}
+                        <p class="paragraph color">{{ service.cContent7}}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+    
+    
+                <div class="CSservice__box1 {{page.color}}">
+                    <div>
+                        <span class="headingBold color">{{page.box-Head4}}</span>
+                        <span class="csHeading color">{{page.box-Head5}}</span>
+                    </div>
+                    </br>
+                    <p class="paragraph color">{{page.box-para4}}</p>
+                </div>
+            </div>
+            {% endif %}
         {% if page.section == 'gov' %}
         <div class="SceneImg2">
             <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
